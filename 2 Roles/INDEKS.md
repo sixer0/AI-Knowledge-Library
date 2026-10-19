@@ -1,14 +1,14 @@
 # Indeks Seksi: 2 Roles
 
-Definisi peran agen (berkas peran fleet pasca PROF-MERGE-1010), registri profil hidup, dan roster controller RBAC.
+Definisi tugas dan kewenangan agen, daftar profil aktif, serta daftar controller yang terikat pada akun pengguna (RBAC). Berkas peran menjelaskan cara bekerja; nama profil menunjukkan agen yang menjalankannya. Teks yang disunting ditandai agar berbeda dari salinan verbatim sumber.
 
-Dibangun: 2026-10-19 | Jumlah berkas: 49 | Total: 0.9 MB
+Edisi sumber: 2026-10-19 | Berkas isi: 49 | Total: 0.9 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|
 | `2 Roles/PROFILE-REGISTRY.json` | 787 B |
 | `2 Roles/controller-roster.json` | 746 B |
-| `2 Roles/peran-fleet/_INDEX.md` | 8 KB |
+| `2 Roles/peran-fleet/_INDEX.md` | 7 KB |
 | `2 Roles/peran-fleet/_SENSUS.json` | 12 KB |
 | `2 Roles/peran-fleet/gsp-3d-specialist.md` | 21 KB |
 | `2 Roles/peran-fleet/gsp-architecture-specialist.md` | 20 KB |
