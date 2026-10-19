@@ -124,7 +124,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/bimdown-cli/_meta.json,135,043cb23f3a364166269c5f645beec3a056856c510c46c79afc557ecc0de4e655
 3 Skills/kanonik/bimdown-cli/references/bim-modeling.md,6300,5a6eecb875b0176d3ac31ec834b894db23140115fa1d1ca175e9ffd833f8fb73
 3 Skills/kanonik/bimdown-cli/references/building-design.md,9288,f28a95e104ff53f20fd4cde013c9f2aad3ec6b307f13fcbb3c61f317d58ef597
-3 Skills/kanonik/bimdown-cli/skill-card.md,2486,84e9d85666904daebd82af9c8dc3f230a058b40e668d2793eaf60cd5cd83346a
+3 Skills/kanonik/bimdown-cli/skill-card.md,2468,b2ead0bbc6e7f43451e72bfb0c2e31c4c53ca9d138c21057a8058c71465491d4
 3 Skills/kanonik/cad-3d-visualization/SKILL.md,28756,3aeb9a685b26c2f0aff49b83fb50aa3016c75dde49c5af3cbb7a7899f5f9f19c
 3 Skills/kanonik/cad-architecture-design/SKILL.md,26928,31eb381bf257edc7f2fc834651562f31db76cd27df0971ac5386b2b93dfe3fa2
 3 Skills/kanonik/cad-architecture-design/SKILL.md.bak_v13,22475,02c3e513023f37ed858bbff1ec1de40672032d50a450556f413080cd8013ccd9
@@ -950,7 +950,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-skill-distribution/scripts/find_skill.py,5355,77f581da74cab263fb55c2b110be17746651ff92500088b8b7862a1985f66dc0
 3 Skills/kanonik/gsp-skill-distribution/scripts/fixtures/registry/alpha-distribute/SKILL.md,250,5a83992e70e500044b41fa1d28d10fd7447049c949b918df488dddccb41d0897
 3 Skills/kanonik/gsp-skill-distribution/scripts/fixtures/registry/beta-verify/SKILL.md,208,3b0180c51e58eedb96c9ee900256996dd2d1af221e28e145ba575e2ff2c167cc
-3 Skills/kanonik/gsp-social-analytics/SKILL.md,5838,e7a2e423796d8c6d084a6cff70f244bb8eb66d0cdb72b2d0ffda0d9585efcf5a
+3 Skills/kanonik/gsp-social-analytics/SKILL.md,5936,441f92e40c47784a5d92074a40401f18e83ef735308c194fea6a8bf3149f94de
 3 Skills/kanonik/gsp-social-analytics/scripts/main.py,10658,6c385169e170e9a92de792650337bf411c66483ee991ef0a5ccc7de8927a1bb0
 3 Skills/kanonik/gsp-social-intel-orchestration/SKILL.md,15237,cbb2a0f160aa3168ab1611584cf879f9da6c72c3287726c8a7cc2c63246a6261
 3 Skills/kanonik/gsp-social-listening-brief/SKILL.md,5076,6d1b378b23ae0b0e337ff72820e8e0a23e46101205d6ba0556acce8a341b372a
@@ -1196,7 +1196,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/rcm-analysis/references/01-rumus-interval.md,2416,f200be19321038cf7778b5591ed019597ccc248dc3cc3e698415e41ecb52a754
 3 Skills/kanonik/security-review/SKILL.md,12087,5889d6e0a684537048a1267145c2bb740f60e1c20f6df4fb291017ff5f7f3eb7
 3 Skills/kanonik/sentiment-analysis/SKILL.md,3583,9fb786b9cde15a7e74e441d10286acdf3d843157e4a124d0a435a95705ded0ab
-3 Skills/kanonik/social-analytics/SKILL.md,5834,0738b5ee5bcaef4a34922c64428b09ddec5d6a3406da0bb2a153851fd54800d3
+3 Skills/kanonik/social-analytics/SKILL.md,5932,55313618e1a550d642cecaaa1b66b43502cab7e4f0a017e0547f0332a1ff0ce8
 3 Skills/kanonik/social-analytics/scripts/main.py,10658,6c385169e170e9a92de792650337bf411c66483ee991ef0a5ccc7de8927a1bb0
 3 Skills/kanonik/social-listening-brief/SKILL.md,2671,b0fe5b25290809f036f1d6d58bc17874d34550fc50e9d89e9952865aecef69f9
 3 Skills/kanonik/social-listening/SKILL.md,10749,2302ba01281aa69e2097b748f63fca154c20200cfc9ebdca366d22d775af1490
@@ -1278,7 +1278,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/bimdown-cli/_meta.json,135,043cb23f3a364166269c5f645beec3a056856c510c46c79afc557ecc0de4e655
 3 Skills/registry-fleet/bimdown-cli/references/bim-modeling.md,6300,5a6eecb875b0176d3ac31ec834b894db23140115fa1d1ca175e9ffd833f8fb73
 3 Skills/registry-fleet/bimdown-cli/references/building-design.md,9288,f28a95e104ff53f20fd4cde013c9f2aad3ec6b307f13fcbb3c61f317d58ef597
-3 Skills/registry-fleet/bimdown-cli/skill-card.md,2486,84e9d85666904daebd82af9c8dc3f230a058b40e668d2793eaf60cd5cd83346a
+3 Skills/registry-fleet/bimdown-cli/skill-card.md,2468,b2ead0bbc6e7f43451e72bfb0c2e31c4c53ca9d138c21057a8058c71465491d4
 3 Skills/registry-fleet/cad-3d-visualization/SKILL.md,28756,3aeb9a685b26c2f0aff49b83fb50aa3016c75dde49c5af3cbb7a7899f5f9f19c
 3 Skills/registry-fleet/cad-3d-visualization/SKILL.md.bak_v13,25124,768c8d797cf879b64211a7cfbafd2206fb44699d80e4b0cc2c14d05a7301ec14
 3 Skills/registry-fleet/cad-architecture-design/SKILL.md,26928,31eb381bf257edc7f2fc834651562f31db76cd27df0971ac5386b2b93dfe3fa2
@@ -2117,7 +2117,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-skill-distribution/scripts/find_skill.py,5355,77f581da74cab263fb55c2b110be17746651ff92500088b8b7862a1985f66dc0
 3 Skills/registry-fleet/gsp-skill-distribution/scripts/fixtures/registry/alpha-distribute/SKILL.md,250,5a83992e70e500044b41fa1d28d10fd7447049c949b918df488dddccb41d0897
 3 Skills/registry-fleet/gsp-skill-distribution/scripts/fixtures/registry/beta-verify/SKILL.md,208,3b0180c51e58eedb96c9ee900256996dd2d1af221e28e145ba575e2ff2c167cc
-3 Skills/registry-fleet/gsp-social-analytics/SKILL.md,5838,e7a2e423796d8c6d084a6cff70f244bb8eb66d0cdb72b2d0ffda0d9585efcf5a
+3 Skills/registry-fleet/gsp-social-analytics/SKILL.md,5936,441f92e40c47784a5d92074a40401f18e83ef735308c194fea6a8bf3149f94de
 3 Skills/registry-fleet/gsp-social-analytics/scripts/main.py,10658,6c385169e170e9a92de792650337bf411c66483ee991ef0a5ccc7de8927a1bb0
 3 Skills/registry-fleet/gsp-social-intel-orchestration/SKILL.md,15237,cbb2a0f160aa3168ab1611584cf879f9da6c72c3287726c8a7cc2c63246a6261
 3 Skills/registry-fleet/gsp-social-listening-brief/SKILL.md,5040,d1743ae33398218842deea1fc17b845c5b51d0ece8a8889b07e05847b11f613c
@@ -2363,7 +2363,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/rcm-analysis/references/01-rumus-interval.md,2416,f200be19321038cf7778b5591ed019597ccc248dc3cc3e698415e41ecb52a754
 3 Skills/registry-fleet/security-review/SKILL.md,12087,5889d6e0a684537048a1267145c2bb740f60e1c20f6df4fb291017ff5f7f3eb7
 3 Skills/registry-fleet/sentiment-analysis/SKILL.md,3583,9fb786b9cde15a7e74e441d10286acdf3d843157e4a124d0a435a95705ded0ab
-3 Skills/registry-fleet/social-analytics/SKILL.md,5834,0738b5ee5bcaef4a34922c64428b09ddec5d6a3406da0bb2a153851fd54800d3
+3 Skills/registry-fleet/social-analytics/SKILL.md,5932,55313618e1a550d642cecaaa1b66b43502cab7e4f0a017e0547f0332a1ff0ce8
 3 Skills/registry-fleet/social-analytics/scripts/main.py,10658,6c385169e170e9a92de792650337bf411c66483ee991ef0a5ccc7de8927a1bb0
 3 Skills/registry-fleet/social-listening-brief/SKILL.md,2671,b0fe5b25290809f036f1d6d58bc17874d34550fc50e9d89e9952865aecef69f9
 3 Skills/registry-fleet/social-listening/SKILL.md,10749,2302ba01281aa69e2097b748f63fca154c20200cfc9ebdca366d22d775af1490

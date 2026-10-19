@@ -29,8 +29,8 @@ Mitigation: Confirm the configured endpoint before publishing, especially when a
 - [ClawHub skill page](https://clawhub.ai/novashang/bimdown-cli) <br>
 - [Publisher profile](https://clawhub.ai/user/novashang) <br>
 - [BimClaw publish endpoint](https://bim-claw.com/api/shares/publish) <br>
-- [Building Design SOP](artifact/references/building-design.md) <br>
-- [BIM Modeling SOP](artifact/references/bim-modeling.md) <br>
+- [Building Design SOP](references/building-design.md) <br>
+- [BIM Modeling SOP](references/bim-modeling.md) <br>
 
 
 ## Skill Output: <br>

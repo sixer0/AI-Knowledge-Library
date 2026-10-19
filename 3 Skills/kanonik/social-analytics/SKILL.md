@@ -179,8 +179,8 @@ python scripts/main.py top-posts @marketing_pro --platform twitter --count 10
 
 ## Related Skills
 
-- [content-repurposer](../../automation/content-repurposer/) - Repurpose top-performing content
-- [hashtag-analyzer](../hashtag-analyzer/) - Deep dive into hashtag performance
+- content-repurposer (not included in this clone; original reference: `../../automation/content-repurposer/`) - Repurpose top-performing content
+- hashtag-analyzer (not included in this clone; original reference: `../hashtag-analyzer/`) - Deep dive into hashtag performance
 
 ## Skill Metadata
 
