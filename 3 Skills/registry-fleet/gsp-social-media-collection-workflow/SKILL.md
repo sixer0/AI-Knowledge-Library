@@ -156,13 +156,15 @@ Akar kekurangan korpus pbw0907 (vonis blueprint `docs/2026-09-09-gap-driven-coll
 3. **followers** (`channel_follower_count` yt-dlp; `user.followers_count` payload syndication X; `followersCount` Bluesky; teks "N Followers" IG regex berlabel). Simpan sebagai snapshot per tanggal unduh; lane tanpa kunci mengirim KETERSEDIAAN-alasan, bukan nol.
 4. **likes komentar** (skor/ups Reddit, `likeCount` Bluesky, like per komentar YouTube/X bila respons menyediakannya). Rerata likes-komentar adalah bahan formula pengaruh; hilangnya kolom ini membuat blok aktor kosong diam.
 
-Aturan turunan WAJIB **simpan-field-mentah-jangan-dibuang**: setiap kunci numerik/relasional yang hadir di raw payload platform TIDAK BOLEH dibuang saat normalisasi hanya karena skema items belum mengenalnya. Jalur benar: naikkan sebagai field aditif (items extra atau sidecar ber-versi), atau catat di register kegagalan lane dengan alasan enum. Membuang field mentah diam-diam = cacat workflow (empat kelas di atas adalah kerugian nyata hasil audit pbw0907: follower YT 59 bahan + X 6 akun + bsky TERBUANG TOTAL, pohon komentar Reddit TERBUANG TOTAL, viewCount X 6 item TERBUANG, 21 video meta YT tanpa baris item). Spesimen jalur ekstraksi per platform terinci di lampiran SPEC §2 blueprint GAP-FILL (SPEC-YT/TT/X/IGH/RBS/BRW); pemetaan targetnya ke skema payload v1.2 (AT-803/806/807 + flag `_ketersediaan`) di paten `gsp-sosmed-html-insight` Amandemen v1.2.0 bagian B.
+Aturan turunan WAJIB **simpan-field-mentah-jangan-dibuang**: setiap kunci numerik/relasional yang hadir di raw payload platform TIDAK BOLEH dibuang saat normalisasi hanya karena skema items belum mengenalnya. Jalur benar: naikkan sebagai field aditif (items extra atau sidecar ber-versi), atau catat di register kegagalan lane dengan alasan enum. Membuang field mentah diam-diam = cacat workflow (empat kelas di atas adalah kerugian nyata hasil audit pbw0907: follower YT 59 bahan + X 6 akun + bsky TERBUANG TOTAL, pohon komentar Reddit TERBUANG TOTAL, viewCount X 6 item TERBUANG, 21 video meta YT tanpa baris item).
+
+Spesimen jalur ekstraksi per platform terinci di lampiran SPEC §2 blueprint GAP-FILL (SPEC-YT/TT/X/IGH/RBS/BRW); pemetaan targetnya ke skema payload v1.2 (AT-803/806/807 + flag `_ketersediaan`) di paten `gsp-sosmed-html-insight` Amandemen v1.2.0 bagian B.
 
 ---
 
 ## Perluasan Jangkauan (v1.1) - resep CRAWLER-EXPAND-0908
 
-Resep ini lahir dari misi 08-09: vonis lama "platform tipis karena anti-bot" sebagian besar
+Resep ini berasal dari misi 08-09: vonis lama "platform tipis karena anti-bot" sebagian besar
 salah sasaran. Yang mati adalah **discovery**; fetcher per-item (CDN syndication, oEmbed)
 hidup dan menghasilkan item penuh. Karena itu aturan induknya: **sebelum menyebut sebuah
 platform tipis, habiskan tangga rung dan lead referral graph lebih dulu.**
@@ -218,14 +220,14 @@ Aturan umum tangga:
 
 | Rung | Cara | Sinyal hidup | Ambang mati | Bukti 08-09 |
 |---|---|---|---|---|
-| X1 | `cdn.syndication.twimg.com/tweet-result?id=<id>&token=<t>` per id | 200 JSON teks + likes + `created_at` | 403/404 per id = mati utk id itu; ganti skema token = vonis rung | HIDUP (21 item) |
+| X1 | `cdn.syndication.twimg.com/tweet-result?id=<id>&token=<t>` per id | 200 JSON teks + likes + `created_at` | 403/404 per id = mati untuk id itu; ganti skema token = vonis rung | HIDUP (21 item) |
 | X2 | `publish.twitter.com/oembed?url=` per id | 200 JSON `author_name` + `html` | 400/404 per id; rate limit IP -> backoff | HIDUP |
 | X3 | widget `platform.twitter.com` (embed timeline) per handle | payload tweet terlihat | shell kosong/DNS = mati | belum teruji |
 | X4 | `syndication.twitter.com/srv/timeline-profile/screen-name/<h>` | 200 JSON ~20 tweet terakhir | 429 persisten setelah 1 retry jeda >= 45 dtk = vonis per handle | HIDUP 4/6 handle |
 | X5 | nitter instance hidup-harian (daftar 6-8, probe `/search?f=tweets&q=` sekali per misi) | 200 + tautan status | semua JS-wall/403/DNS dalam satu probe = vonis tercatat ts | MATI-0907 |
-| X6 | Wayback CDX pola `x.com/*/status*` per window | daftar snapshot | 200 body kosong = mati utk window | MATI-0907 |
-| X7 | archive.today utk url status spesifik | halaman terarsip | timeout/403 dua percobaan = mati | belum teruji |
-| X8 | mesin pencari (searxng multi-engine + `site:x.com`) utk status-id | URL status baru | 0 status-id dari >= 8 kueri varian baru = vonis | MATI-0907 utk real-time; probe ulang hanya dgn varian L1 baru |
+| X6 | Wayback CDX pola `x.com/*/status*` per window | daftar snapshot | 200 body kosong = mati untuk window | MATI-0907 |
+| X7 | archive.today untuk url status spesifik | halaman terarsip | timeout/403 dua percobaan = mati | belum teruji |
+| X8 | mesin pencari (searxng multi-engine + `site:x.com`) untuk status-id | URL status baru | 0 status-id dari >= 8 kueri varian baru = vonis | MATI-0907 untuk real-time; probe ulang hanya dengan varian L1 baru |
 
 **TikTok**
 

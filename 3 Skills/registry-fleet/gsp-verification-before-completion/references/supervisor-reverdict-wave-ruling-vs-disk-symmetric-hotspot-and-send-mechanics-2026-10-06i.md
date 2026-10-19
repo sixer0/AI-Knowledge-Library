@@ -45,6 +45,6 @@ Standing rule commit+push: vonis hanya dari `git ls-remote origin main` (HEAD) +
 ## 8. Sensus engine-pin lintas-kartu
 Setiap kartu build selesai: re-probe sha16+mtime engine kanon (`datum_docx.py caf47d62`) - satu baris probe, membuktikan "kontrol beku" klaim kartu dan menangkap suntingan senyap. Terpakai 10x konsisten; engine fix yang naik lewat kartu lain (lintas-papan) catat "dua rumah jejak" di ledger supaya hilir tak mengira dua suntingan berbeda.
 
-## 9. Nilai allow-list dan nama hantu
+## 9. Nilai allow-list dan nama yang tidak terdaftar
 - Allow-list gerbang (datumbind stray): kucek KONTEKS tiap nilai di-allow - "knowingly-listed" (mis. 1660,0/1280,0 = contoh pedagogis cacat lama di blok B4/B6) bukan kelupaan.
-- Nama berkas hantu yang sudah divonis REJECTED: grep konteks kemunculannya di hilir - dipakai sebagai CONTOH PEDAGOGIS/disiplin register = sah; dikutip sebagai path sah = cacat. Register hilir yang menghormati REJECTED tanpa menunggu putusan = jalur aman sehat, pujang di vonis.
+- Nama berkas yang tidak ada yang sudah divonis REJECTED: grep konteks kemunculannya di hilir - dipakai sebagai CONTOH PEDAGOGIS/disiplin register = sah; dikutip sebagai path sah = cacat. Register hilir yang menghormati REJECTED tanpa menunggu putusan = jalur aman sehat, pujang di vonis.

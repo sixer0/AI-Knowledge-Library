@@ -205,6 +205,6 @@ entri vonis. Jalur sah (putusan controller, sudah dieksekusi dan lolos recheck c
 - Objek vault hasil output valid (frontmatter lengkap, path `vault/<perkara>/…`).
 - **Frontmatter tiap objek lolos `yaml.safe_load` DAN nilainya utuh** (bandingkan parsed vs
   teks mentah — lihat pitfall kelas-2 di atas). Cek ini TIDAK dilakukan perkakas library.
-- Proposa tanpa `sumber` utk klaim angka → helper memperingatkan / menolak bila `--require-provenance`.
+- Proposa tanpa `sumber` untuk klaim angka → helper memperingatkan / menolak bila `--require-provenance`.
 
 <!-- Riwayat: 1.0.4 (11-10-2026, DUPSKILL-L3 t_605e5f7c) diserap dari salinan fisik profil gsp-librarian: aturan pin sumber APPEND-ONLY (t_23320f06), catatan unquote json.loads (CVLK C1-L2), pitfall VSSKB-0923 L-3 (gerbang marker sendiri, wewenang pemecahan objek, verifikasi silang gatekeeper). -->

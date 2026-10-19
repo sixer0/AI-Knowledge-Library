@@ -7,7 +7,7 @@ Pola terverifikasi saat pengawas men-countersign gelombang REND/SPES6B/RAKIT/LIN
 Ketika artefak render/vonis menyentuh engine yang bisa disunting agen lain di tengah misi:
 - Petik `sha256[:16] + ukuran + mtime` engine pada giliran pengawas, tulis sebagai pin di komentar kontrak ("ENGINE KUBEKUKAN SEKARANG").
 - Pada kartu berikutnya, re-probe dan nyatakan jumlah kecocokan ("IDENTIK pin beku-ku - ketiga kalinya lintas kartu"). Ini satu-satunya cara membuktikan "engine tidak disunting diam-diam" saat tidak ada kartu bernama untuk suntingan engine.
-- **Akar via urutan waktu**: `mtime engine > mtime artefak` = artefak lahir dari engine pra-tambal. Bukti waktu ini yang membuat vonis FAIL F2 SPEC6 sah tanpa membuka isi engine; dan sebaliknya, engine yang sama + artefak baru = jalur rebuild sah.
+- **Akar via urutan waktu**: `mtime engine > mtime artefak` = artefak berasal dari engine pra-tambal. Bukti waktu ini yang membuat vonis FAIL F2 SPEC6 sah tanpa membuka isi engine; dan sebaliknya, engine yang sama + artefak baru = jalur rebuild sah.
 - Pitfall companion: konstanta assert yang diklaim "sudah di engine" bisa nihil di badan engine (grep `11906` = 0) - assert itu milik jalur verifikasi pasca-render, bukan guard internal. Nyatakan declared supaya pekerja giliran berikutnya tidak mengira guard sudah aktif.
 
 ## 2. Verifikasi klaim verifikator dengan alat sendiri, bukan skrip mereka

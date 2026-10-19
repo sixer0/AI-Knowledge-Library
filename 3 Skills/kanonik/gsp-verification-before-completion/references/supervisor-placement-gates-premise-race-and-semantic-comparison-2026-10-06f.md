@@ -1,6 +1,6 @@
 # Supervisor Lessons 12-13+ : Placement Gates, Premise Race, Semantic Comparison (06-12 era, PROMANUAL-V2/GDESAIN-B/GNAT-B/INDUK)
 
-Lanjutan keluarga supervisor-* dari giliran sore 06-12. Semua lahir dari vonis pengawas atas artefak yang dibuka di disk.
+Lanjutan keluarga supervisor-* dari giliran sore 06-12. Semua berasal dari vonis pengawas atas artefak yang dibuka di disk.
 
 ## A. Uji gambar WAJIB di lapis PENEMPATAN, extent sumber hanya prasyarat hulu (pelajaran-ke-12)
 

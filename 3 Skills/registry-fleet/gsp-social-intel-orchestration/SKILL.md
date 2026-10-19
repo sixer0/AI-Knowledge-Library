@@ -60,7 +60,7 @@ Tangga L1..L7 di `gsp-social-media-collection-workflow` adalah eskalasi INTERNAL
 
 | ID | Mutasi | Status di v1.0.0 | Rujukan misi |
 |---|---|---|---|
-| M-1 | Dua sumber ukur pagination: DOM ter-render utk kelengkapan, payload utk angka | Tidak ada; sempat kontradiktif di paten | FIXP + V7-RVXP t_0216e994 (PASS 7/7) |
+| M-1 | Dua sumber ukur pagination: DOM ter-render untuk kelengkapan, payload untuk angka | Tidak ada; sempat kontradiktif di paten | FIXP + V7-RVXP t_0216e994 (PASS 7/7) |
 | M-2 | Daftar PUTUSAN PENGIKAT 6 butir eksplisit | Tidak ada (tersebar di paten HTML) | ATLENS-0908, HTMLUX-0908, V7-REVISE-0909 |
 | M-3 | MATRIKS TARGET/schema-driven sebagai gerbang keluar F1 | Tidak ada | ATLENS-0908, GAP-FILL-0909 |
 | M-4 | JS-inline satu berkas menggantikan nol-JS | Tidak disebut | ATLENS-0908 (putusan D-02) |

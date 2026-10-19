@@ -82,7 +82,7 @@ Prompt panjang memicu blocklist hardline → simpan ke file dulu atau `bash <fil
   `HERMES_KANBAN_TASK`/`HERMES_KANBAN_WORKSPACE`, jadi agen smoke ikut lifecycle kartu
   induk dan bisa menutup kartu itu lewat kanban_complete (satu run smoke bahkan
   berhasil complete; run berikutnya ditolak kernel 'already terminal' + meninggalkan
-  komentar). Dampak: klaim penutupan lahir dari agen yang tidak diaudit untuk itu.
+  komentar). Dampak: klaim penutupan berasal dari agen yang tidak diaudit untuk itu.
   Mitigasi: jalankan smoke dari sesi tanpa env kartu, atau `env -u HERMES_KANBAN_TASK
   -u HERMES_KANBAN_WORKSPACE hermes -p ... -z ...`; vonis penutupan tetap wajib
   diulang controller dengan pengukuran independen.

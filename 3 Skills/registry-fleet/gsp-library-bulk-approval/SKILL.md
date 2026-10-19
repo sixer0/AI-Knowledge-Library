@@ -68,7 +68,7 @@ Librarian mengkurasi objek vault (gsp-library-workflow):
 - dosir/perkara klien → `menunggu_verifikasi` (verifikasi manusia) + sumber dosir.
 
 ### Fase 2 — Orkestrator mengumpulkan BULK (agent HQ)
-1. Scan vault utk semua objek berstatus `menunggu_persetujuan`/`menunggu_verifikasi`:
+1. Scan vault untuk semua objek berstatus `menunggu_persetujuan`/`menunggu_verifikasi`:
    ```bash
    python scripts/bulk_approval_collect.py \
      --vault "~/workspace/gsp-hermes/workspace/vault" \
@@ -76,7 +76,7 @@ Librarian mengkurasi objek vault (gsp-library-workflow):
    ```
    (keluarkan perkara ekas/fleet-test bila bukan bagian batch.)
 2. Validasi jumlah & daftar objek (rel path, title, sensitif, perkara). Pastikan
-   tidak ada objek yang terlewat (bandingkan dgn daftar kurasi librarian).
+   tidak ada objek yang terlewat (bandingkan dengan daftar kurasi librarian).
 3. Buat **satu** request bulk ke Approval Inbox HQ:
    ```bash
    curl -sk https://127.0.0.1:9011/api/brahma/dispatch \
@@ -93,7 +93,7 @@ Librarian mengkurasi objek vault (gsp-library-workflow):
   `/api/brahma/requests?status=awaiting_approval`).
 - Approve: `PATCH /api/brahma/requests/:id {"action":"approve"}` → status `approved`.
 - (Opsional `edit`: user ubah prompt lalu approve.)
-- Bridge lalu mengeksekusi request tsb (oneshot ke gsp-librarian).
+- Bridge lalu mengeksekusi request tersebut (oneshot ke gsp-librarian).
 
 ### Fase 4 — Promote & verifikasi (lanjutan via agent HQ)
 Librarian (hasil eksekusi request) menjalankan per objek:
@@ -117,8 +117,8 @@ Lalu verifikasi (jangan klaim sebelum terbukti):
   approval-ref memang ditolak oleh `vault_promote.py` (fitur, bukan bug).
 - **Dosir butuh verification-by** — perkara yang diawali `dosir` memicu gate;
   untuk dosir klien non-`dosir*` (mis. `kemhan-bin`), verification-by tetap
-  dijalankan sbg dokumentasi verifikasi manusia.
-- **Satu approval-ref utk satu batch** — konsisten di semua objek batch agar
+  dijalankan sebagai dokumentasi verifikasi manusia.
+- **Satu approval-ref untuk satu batch** — konsisten di semua objek batch agar
   audit trail rapi; jangan menciptakan approval-ref baru per objek.
 - **Hanya librarian yang promote** — orkestrator TIDAK menjalankan vault_promote
   sendiri; ia mengirim request (Fase 2/4) ke profil gsp-librarian.

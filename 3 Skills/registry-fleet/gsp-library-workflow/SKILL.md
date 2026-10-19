@@ -64,8 +64,8 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 |---|---|
 | Menilai & mengkurasi objek vault | Menulis langsung ke wiki tanpa melalui proses promote |
 | Meng-attest / promote vault → wiki | Mengarang provenans (sumber/halaman) |
-| Meminta persetujuan user utk data sensitif | Menerima klaim angka tanpa halaman sebagai fakta |
-| Meminta verifikasi manusia utk data dosir | Mengubah keputusan tanpa catatan alasan |
+| Meminta persetujuan user untuk data sensitif | Menerima klaim angka tanpa halaman sebagai fakta |
+| Meminta verifikasi manusia untuk data dosir | Mengubah keputusan tanpa catatan alasan |
 | Menolak / meminta revisi (wajib alasan) | Meng-attest objek yang kamu tulis sendiri |
 
 ## Pipeline yang kamu jaga

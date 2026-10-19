@@ -64,7 +64,7 @@ Endpoint langsung (WAJIB header `x-internal-secret: <INTERNAL_API_SECRET dari C:
 `{"from","to","kind","status","runId","taskTitle","message","artifactPath"}`.
 Untuk membuat REQUEST dispatch (bukan edge manual) lewat HTTP, gunakan
 `POST /api/brahma/dispatch` dengan body `{title, prompt, profile, agentId}` —
-`agentId` = id profil pengirim (WAJIB utk pemanggil mesin; lihat seksi atribusi).
+`agentId` = id profil pengirim (WAJIB untuk pemanggil mesin; lihat seksi atribusi).
 Cek rekaman: `curl -s "http://localhost:9011/api/orchestration?limit=20"`.
 Hapus (housekeeping): `curl -s -X DELETE "http://localhost:9011/api/orchestration?runId=<id>"`.
 
@@ -110,7 +110,7 @@ Aturan turunannya:
    `agentId` via jalur mesin akan tercatat `brahma` dan mengaburkan graf; itu cacat
    pelaporan, sama seperti edge menggantung.
 2. **Nama agen = nama folder profil** (`gspuser01`, `gsp-master`, dst.), bukan username
-   login, saat pemanggilnya mesin. Username hanya dipakai utk jalur browser.
+   login, saat pemanggilnya mesin. Username hanya dipakai untuk jalur browser.
 3. **Edge manual `delegate/handoff/verify` tetap wajib** untuk interaksi lintas profil
    yang tidak lewat bridge (aturan 1-3 di atas); atribusi inisiator hanya memperbaiki
    sisi `dispatch`.

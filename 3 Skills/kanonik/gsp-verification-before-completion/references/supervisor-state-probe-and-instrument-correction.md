@@ -20,7 +20,7 @@ padahal `hermes kanban show` masih `running`). Urutan wajib:
 ## 2. Peta state timeout / blocked / gave-up (angka yang bisa diuyu sendiri)
 `show` bisa memuat state detail. Yang terbukti berguna:
 - **timeout run-N**: `state = running`, `ran #NNNN`, `tried` = daftar run, `last_error`.
-  Bedakan yang mati SEBELUM menulis artefak vs menit terakhir sebelum artefak lahir.
+  Bedakan yang mati SEBELUM menulis artefak vs menit terakhir sebelum artefak dibuat.
   Disk yang bersih = nol risiko, run berikutnya cuma paperwork.
 - **blocked / partial-handoff (LAD AMBANG-B)**: cari blok `SISA_KERJA` dan
   `KARTU_LANJUTAN`. Verifikasi klaim "butir X selesai" di disk (bukan dari ringkasan),

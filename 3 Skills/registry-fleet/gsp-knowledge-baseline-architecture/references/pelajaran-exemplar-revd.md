@@ -53,7 +53,7 @@ Keluhan user "tidak tersusun dengan baik dan profesional" TERBUKTI benar dan ter
 4. Gerbang verifikasi saya mengukur BENAR (angka, hash, naturalisasi, desain) tapi tidak mengukur SUSUN (arsitektur informasi, kerapatan keputusan, routing pembaca, rel bukti). Tidak ada V-GATE "pemeriksa bisa menelusuri satu angka mana pun dalam <=2 langkah lewat register beku bersidik jari".
 
 ## 5. Aturan permanen yang dipasang (terpasang di skill gsp-knowledge-baseline-architecture)
-R-01 MODEL-DULU: semua besaran lahir dari SATU rantai hitung beku (spine); angka naskah DIIKAT dari register, dilarang diketik; sidik jari register (sha16) dicetak di penutup dan dikutip dokumen turunan.
+R-01 MODEL-DULU: semua besaran berasal dari SATU rantai hitung beku (spine); angka naskah DIIKAT dari register, dilarang diketik; sidik jari register (sha16) dicetak di penutup dan dikutip dokumen turunan.
 R-02 ORGANISASI-PER-SISTEM: bab disusun per subsistem/keputusan; dokumen sumber masuk bab SILSILAH, bukan jadi bab isi.
 R-03 SATU DASAR LINGKUP: bab depan menetapkan dokumen dasar + alasan yang dapat diperiksa + tabel angka ditarik dari peredaran (lama|berlaku|alasan).
 R-04 DATA-MENTAH=BERKAS-KERJA: ekstraksi per-baris disimpan sebagai berkas kerja menyertai (indeksnya di lampiran E); badan dokumen memuat model+register+keputusan.

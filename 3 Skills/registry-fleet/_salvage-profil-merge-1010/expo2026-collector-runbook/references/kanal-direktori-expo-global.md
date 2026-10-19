@@ -1,4 +1,4 @@
-# Referensi: kanal direktori expo global utk lajur sapuan (LB pola, AIE26SAT-1013 r1, 13-10-2026)
+# Referensi: kanal direktori expo global untuk lajur sapuan (LB pola, AIE26SAT-1013 r1, 13-10-2026)
 
 ## EventEye (eventseye.com) = kanal primer yang HIDUP dan statis
 - Kalender bulanan: `https://www.eventseye.com/fairs/d1_trade-shows_<bulan>_<hal>.html`
@@ -14,7 +14,7 @@
 Rentang lintas bulan "Nov. 30 - Dec. 02, 2026" dan "Jan. 27 - 29": regex harus menangkap BULAN kedua eksplisit; bulan-selesai < bulan-mulai => tahun selesai +1. Tanpa ini banyak baris selesai<mulai (invarian Gate-B #6 FAIL massal).
 
 ## Kanal MATI/TERBLOKIR dari host ini (akun 13-10-2026; jangan buang iterasi, langsung jalur cadangan)
-- 10times.com: 403 urllib SEMUA path + Edge dump-dom = "Just a moment..." (Cloudflare). Jalur sah: CDX web.archive.org (retry setelah jeda - percobaan pertama kena 503/timeout; retry 200, snapshot topic AI Feb-2026 ada) ATAU agregator PROV. archive.ph/newest = 404 utk halaman topik.
+- 10times.com: 403 urllib SEMUA path + Edge dump-dom = "Just a moment..." (Cloudflare). Jalur sah: CDX web.archive.org (retry setelah jeda - percobaan pertama kena 503/timeout; retry 200, snapshot topic AI Feb-2026 ada) ATAU agregator PROV. archive.ph/newest = 404 untuk halaman topik.
 - tradeshowwatch.com: DNS mati www+apex (ERR:URLError dua varian).
 - auma.com: navigasi riil = /en_001/company/trade-fairs (SPA; render Edge 186 KB berisi event AUMA sendiri + kontak worldwide, TIDAK ada indeks expo global per-acara) -> AUMA hanya pembanding makro S3, bukan sumber baris. Path lama auma-de.com mati; semua tebakan /en/worldwide-exhibitions/ dkk 404.
 - Kamar dagang: ahk.de/en/events + gtai.de/en/invest/events hidup (200) tapi isi seminar bilateral bukan direktori expo; amchamchina.org 403, britishchamber.co.uk 403, accshk.org ERR, amcham-shanghai.org shell 2 KB.

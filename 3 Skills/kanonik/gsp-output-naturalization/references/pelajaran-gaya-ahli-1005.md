@@ -25,7 +25,7 @@ F-25-1: mode stdin mengubah skop metrik).
 
 ## 2. Pola worker-mati-setelah-artefak (D-16)
 
-Tiga worker misi mati tepat setelah badan artefak lahir karena limit bridge
+Tiga worker misi mati tepat setelah isi artefak tersimpan karena limit bridge
 1800s saat verifikasi internal masih berjalan. Respons controller yang terbukti
 benar: ukur sendiri artefak dengan parser independen lalu force-done
 ber-bukti; JANGAN restart kerja dari nol (menimpa artefak = preseden buruk).

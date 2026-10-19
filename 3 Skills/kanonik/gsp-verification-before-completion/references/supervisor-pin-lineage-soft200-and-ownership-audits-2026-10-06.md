@@ -1,6 +1,6 @@
 # Resep pengawasan lanjutan: soft-200, lineage pin, instrumen sadar-kepemilikan, uji kekekalan dua-sisi (06-11-2026, RAFIFUNITY/PROMANUAL/GAYA-AHLI)
 
-Lima pola terverifikasi dari giliran countersign setelah fajar 06-10 (REVIEW-BATCH-51A–D, G-AKURASI-52, FIX-ZIP-CLAIM-C, FIX-BATCH-3A/4, MF14/MF94/SIDECAR, S18, FIXD/RRKT/RGRILIS-v2/3/4). Semua lahir dari pengukuran disk pengawas, bukan laporan pekerja.
+Lima pola terverifikasi dari giliran countersign setelah fajar 06-10 (REVIEW-BATCH-51A–D, G-AKURASI-52, FIX-ZIP-CLAIM-C, FIX-BATCH-3A/4, MF14/MF94/SIDECAR, S18, FIXD/RRKT/RGRILIS-v2/3/4). Semua berasal dari pengukuran disk pengawas, bukan laporan pekerja.
 
 ## 1. Soft-200: status HTTP 200 bukan bukti hidup - rekonsiliasi angka lewat struktur data
 
@@ -9,7 +9,7 @@ Aturan: saat angka pengawas dan angka pekerja beda pada probe hidup, bandingkan 
 
 ## 2. Lineage pin: berkas `_pre` kartu == pin vonis lama, satu-per-satu
 
-FIX-ZIP-CLAIM-C membuktikan suntingan lahir dari state kubevonis: sha256[:16] ketujuh `_pre_chNN.md` kartu cocok persis tabel pin countersign pengawas lama (ch07 7a253bb9 / ch08 efd27d66 / ch09 59a1e90c / ch10 b86a848d / ch11 0bde33ca). Setelah remedi: PIN BARU terkukur dan kunyatakan di kontrak bahwa "vonis lama byte-identik TIDAK berlaku lagi" untuk berkas yang bergeser - reviewer hilir WAJIB pakai tabel pin terbaru (rantai pin: vonis-C + HASH-MF94 figur + register sidecar). Resep countersign batch: cetak pin disk → cocok vs baseline putusan → cocok vs pin vonis lama → bekukan tabel pin baru di komentar/kontrak. Ini juga menangkap suntingan-siluman: `_pre` yang TIDAK cocok pin lama = kartu bekerja dari salinan lepas, merah.
+FIX-ZIP-CLAIM-C membuktikan suntingan berasal dari state kubevonis: sha256[:16] ketujuh `_pre_chNN.md` kartu cocok persis tabel pin countersign pengawas lama (ch07 7a253bb9 / ch08 efd27d66 / ch09 59a1e90c / ch10 b86a848d / ch11 0bde33ca). Setelah remedi: PIN BARU terkukur dan kunyatakan di kontrak bahwa "vonis lama byte-identik TIDAK berlaku lagi" untuk berkas yang bergeser - reviewer hilir WAJIB pakai tabel pin terbaru (rantai pin: vonis-C + HASH-MF94 figur + register sidecar). Resep countersign batch: cetak pin disk → cocok vs baseline putusan → cocok vs pin vonis lama → bekukan tabel pin baru di komentar/kontrak. Ini juga menangkap suntingan-siluman: `_pre` yang TIDAK cocok pin lama = kartu bekerja dari salinan lepas, merah.
 
 ## 3. Instrumen sadar-kepemilikan: daftarkan berkas yang berubah oleh kartu LAIN yang running
 

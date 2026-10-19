@@ -26,7 +26,7 @@ halaman dashboard/library. Keduanya HTTPS **self-signed**.
   "semua API 200".
 - **Pengetahuan penting tampil dulu; raw/dump di belakang** — user tidak
   boleh memilah informasi lagi.
-- **TIDAK BOLEH ADA JALAN PINTAS**: klasifikasi/knowledge harus lahir dari
+- **TIDAK BOLEH ADA JALAN PINTAS**: klasifikasi/knowledge harus berasal dari
   analisa konten konkret, bukan heuristik path/nama folder.
 - Pipa IL GSP: **WORKSPACE = raw · VAULT = analisa (skoring/filtrasi/dedup/
   clustering/decompose/metadata/grouping) · WIKI = paling berharga**. Raw

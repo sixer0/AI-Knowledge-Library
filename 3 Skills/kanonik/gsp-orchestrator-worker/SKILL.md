@@ -148,7 +148,7 @@ T-1 kenaikan fase (DF-1/DF-2): 1 laporan per transisi per misi. T-2 kartu fase m
 1. Pastikan promosi/dispatch fase berikutnya AMAN (DAG auto-promote; jangan ditahan). 2. Verifikasi artefak fase selesai (ukur disk; angka laporan dari sini). 3. Susun LAPOR-FASE sesuai F-2. 4. Kirim ke kanal asal misi + tempel arsip F-3. 5. Lanut kerja orkestrasi. Laporan TIDAK PERNAH menunggu balasan user dan TIDAK PERNAH dibuat sebelum langkah 1. Biaya wajar 2-4 iterasi controller.
 
 ### F-6 Pembagian lane
-Worker TIDAK melapor langsung ke user (worker menutup kartu dengan summary/metadata; sintesis ke user fungsi orkestrator). Watchdog jaring pengaman HANYA menagih laporan yang bolos (lihat `gsp-orchestration-execution` + spec audit `scripts/phase_report_audit.py`), tidak pernah menyusun resume sendiri. Laporan ganda untuk satu transisi = temuan audit.
+Worker TIDAK melapor langsung ke user (worker menutup kartu dengan summary/metadata; sintesis ke user fungsi orkestrator). Watchdog jaring pengaman HANYA meminta laporan yang belum disampaikan (lihat `gsp-orchestration-execution` + spec audit `scripts/phase_report_audit.py`), tidak pernah menyusun resume sendiri. Laporan ganda untuk satu transisi = temuan audit.
 
 ---
 
@@ -828,7 +828,7 @@ tulis dari data kanban (derived), bukan dirawat paralel.
   bersama (`collection/corpus_*.jsonl`) — sesi paralel/retry/kanban task lain akan saling timpa
   (kejadian nyata 2026-08-21: corpus ditimpa sesi lain; mitigasi salinan kanonik `f2_retry/`).
   Berlaku juga untuk analyst: `analysis/<job_id>/05_insights.md`. Orkestrator memasukkan `job_id`
-  (= runId/slug dispatch) ke path output di prompt, dan verifikasi hasil di path tsb.
+  (= runId/slug dispatch) ke path output di prompt, dan verifikasi hasil di path tersebut.
 - **Jalur gratis default:** kedua agen memakai resource gratis (gsp-searxng lokal :8080,
   gsp-firecrawl lokal :3002, browser, Reddit JSON, YouTube RSS/transkrip, atproto Bluesky,
   archive.org). Jangan arahkan ke API berbayar (Apify/Xquik/ScrapeCreators) tanpa instruksi

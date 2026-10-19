@@ -1,6 +1,6 @@
 # Supervisor lessons era 09-10 (PSIKOTES-1008 F4: vonis enam kartu rakit berantai)
 
-Tiga resep + satu pola putusan + empat pitfall, lahir dari vonis L2 controller atas kartu
+Tiga resep + satu pola putusan + empat pitfall, berasal dari vonis L2 controller atas kartu
 rakit (L21-L26 + FIX) di misi dokumen paket. Kanal: vonis pengawas atas artefak rakitan
 deterministik.
 

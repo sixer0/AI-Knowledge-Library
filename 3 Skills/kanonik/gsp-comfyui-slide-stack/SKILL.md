@@ -59,7 +59,7 @@ foto produk? logo? maskot? latar? warna/tipografi brand? angka untuk diagram?
 
 ### L0 -> Asset Factory
 1. **Kanonik**: satu gambar kanonik per subjek (Z-Image t2i, seed dicatat). Semua varian
-   lahir dari sini. Simpan di `ComfyUI/input/canonical.png` (server-side name = path rantai).
+   berasal dari sini. Simpan di `ComfyUI/input/canonical.png` (server-side name = path rantai).
 2. **Cutout**: `workflows/birefnet_cutout.json` → PNG RGBA transparan.
    Butuh upscale aset transparan: JANGAN rantai dua berkas (simpan-muat file membuang
    alpha, lihat pitfall 14). Pakai `workflows/birefnet_upscale_chain.json`: U3->U4 satu

@@ -44,8 +44,8 @@ bisa ditambal seragam tanpa aturan tunggal).
 Artefak wajib ada + terukur: (a) DUA RUN identik-byte (sha256 run1==run2,
 ukur sendiri); (b) SEED-LOG append-only dengan seed tercatat + grep-silang
 anti-tabrakan vs seed misi lain; (c) fase fetch->cache beku->check TANPA
-jaringan (cache_*.jsonl berukuran nyata); (d) cakupan = SELURUH populasi utk
-entity-match, seeded-sample utk liveness (persentase tercetak); (e) override
+jaringan (cache_*.jsonl berukuran nyata); (d) cakupan = SELURUH populasi untuk
+entity-match, seeded-sample untuk liveness (persentase tercetak); (e) override
 mekanik harus NAMED + deterministik di instrumen (bukan penghapusan temuan);
 (f) tabel VERIFIKASI-AKURASI menempel. VERDICT FAIL = gerbang BEKERJA - jangan
 dibaca sebagai kegagalan verifier. XLS/DGB ditahan sampai run hijau.

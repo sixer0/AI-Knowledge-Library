@@ -18,7 +18,7 @@ Tiga instrumen INDEPENDEN menghasilkan vonis konsisten atas pilot LoRA r16 bf16
 5. Vonis arsitektural (D-05 direvisi): integrasi pengetahuan level-model yang sah untuk
    korpus angka = RETRIEVAL-AUGMENTED (adapter gaya + router indeks sebagai satu layanan
    dengan wajib-verifikasi-sitasi), bukan memorisasi - apa pun skala modelnya, angka di
-   bobot tidak dapat diaudit SPK-002 (provenans hilang saat inferensi).
+   bobot tidak dapat diaudit SPK-002 (catatan asal-usul sumber hilang saat inferensi).
 
 Artefak lengkap: <ws>/docs/2026-10-06_ekas-model-1006/ (contract §5-8, eval/, verification/
 CHECK-ADAPTER.md vonis PASS 7/7 t_43cffc03) + mirror repo gsp-agent

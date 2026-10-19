@@ -82,5 +82,5 @@ akar-nya (kenapa ritus berulang) butuh traceroot terpisah per misi bila user
 menugaskannya.
 
 ## Riwayat
-- 1.0.0 (2026-09-30): lahir dari misi tinjauan alur orkestrasi 30-09
+- 1.0.0 (2026-09-30): berasal dari misi tinjauan alur orkestrasi 30-09
   (3.313 kartu disensus, 514 folder docs, 17 job cron lintas 8 profil).

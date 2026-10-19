@@ -1240,7 +1240,7 @@ diubah (regression preservation; specialist tetap murni worker). Mirror
 |--------|-------|-------------------|
 | `VENDOR_CRAWL_UNIT_STARTED` | Worker mulai eksekusi unit | Catat di unit registry + checkpoint (pola `skills/gsp/gsp-checkpoint-resume/SKILL.md` Phase 1 — cite-only) |
 | `VENDOR_CRAWL_UNIT_COMPLETE` | Unit selesai, staging payload utuh | Merge seri (append + idempotent upsert) |
-| `VENDOR_CRAWL_UNIT_PARTIAL` | Unit selesai dgn `data_quality_flag=partial` + gap list | Antrian focused recrawl (seksi O.5); gap TIDAK di-merge sebagai complete |
+| `VENDOR_CRAWL_UNIT_PARTIAL` | Unit selesai dengan `data_quality_flag=partial` + gap list | Antrian focused recrawl (seksi O.5); gap TIDAK di-merge sebagai complete |
 | `VENDOR_CRAWL_UNIT_FAILED` | Worker gagal di tengah unit | Retry idempotent `unit_id` SAMA ≤2 → mark failed + re-delegate (atau `-local`); hasil parsial TIDAK di-merge |
 | `VENDOR_CRAWL_UNIT_DEFERRED` | Rate budget per domain habis / N penuh | Masuk queue; wave berikutnya setelah backpressure lega |
 

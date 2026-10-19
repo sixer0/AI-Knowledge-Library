@@ -35,7 +35,7 @@ Terbit 10-10-2026 atas vonis user RAFIF-MANUAL-FINAL-1009; rev B diikat pada kor
 ## E. Badan teks bersih (gerbang angka)
 
 19. **Nol apparatus di badan:** densitas token-sitasi inline = 0 (ambang merah > 1/1k kata), URL mentah badan = 0, glif bukti inline ramai = 0. Preseden cacat: RAFIF-MF-1009 v1.0 = 30,3 sitasi + 17,8 URL + 12,5 glif per 1k kata; pembanding = 0,0/0,1/0,1.
-20. **Provenans ringan konsisten:** baris SOURCE kecil-abu di bawah tiap figur/tabel ("Measured for this manual with <model> on <host>, <tanggal>"); catatan margin ■ MEASURED + model + tanggal utk angka kunci (rail tipis; BUKAN rel 32 mm bila tidak diminta); daftar rujukan penuh HANYA di seksi Referensi/Lampiran belakang; nol berkas catatan-kaki.
+20. **Provenans ringan konsisten:** baris SOURCE kecil-abu di bawah tiap figur/tabel ("Measured for this manual with <model> on <host>, <tanggal>"); catatan margin ■ MEASURED + model + tanggal untuk angka kunci (rail tipis; BUKAN rel 32 mm bila tidak diminta); daftar rujukan penuh HANYA di seksi Referensi/Lampiran belakang; nol berkas catatan-kaki.
 21. Register kuantitas internal tetap wajib (datumbind) - yang berubah hanya SAJIAN: telusur lewat SOURCE + lampiran, bukan tempelan badan.
 
 ## F. Proses orkestrasi (wajib untuk controller)
@@ -43,7 +43,7 @@ Terbit 10-10-2026 atas vonis user RAFIF-MANUAL-FINAL-1009; rev B diikat pada kor
 22. **RT:** setiap butir daftar bernomor user = item SPK verbatim mengikat (bahasa, buang-Anki, buang-topic-enterprise, sitasi=seksi-rujukan). Bingkai audiens dari instruksi MENANG atas preferensi memori.
 23. **TA blueprint wajib memuat KONTRAK-AUDIENS:** persona + nada (profesional), bahasa SESUAI INSTRUKSI MISI, model struktur (bab halus + benang proyek bernama), anggaran apparatus (inline=0), anggaran irama kalimat (11-14), dan daftar figur per bab dengan aturan C-D di atas (intro-prosa + caption-pesan + tabel-alat).
 24. **Gerbang GR-PRO pada teks terbit (docx+pdf ekstrak):** densitas token-sitasi badan, densitas URL badan, rerata/median panjang kalimat, jumlah intro-prosa->figur >= 80% jumlah figur, caption-pesan lolos uji-tanpa-label (caption saja = ringkasan terbaca); PLUS uji buta rasa "manual engineering vs buku sekolah" - buku sekolah = FAIL. Uji rasa dijalankan SEBELUM rantai panjang dibangun (uji-tulis 2-3 bab sampel dulu), bukan di ujung.
-25. **Bila datum-house-style bertabrakan dengan standar ini pada manual personal:** instruksi user utk dokumen itu menang; chrome DATUM secukupnya (kendali dokumen, footer, SOURCE); aparatus badan mengikuti standar ini. Rail-bukti rev B penuh = milik dokumen normatif fleet.
+25. **Bila datum-house-style bertabrakan dengan standar ini pada manual personal:** instruksi user untuk dokumen itu menang; chrome DATUM secukupnya (kendali dokumen, footer, SOURCE); aparatus badan mengikuti standar ini. Rail-bukti rev B penuh = milik dokumen normatif fleet.
 
 ## G. Cara ukur pembanding (resep agar vonis bisa direproduksi)
 1. Ekstrak paragraf+gaya: python-docx -> `ref_paras.txt` (format `[Style] teks`).
@@ -55,4 +55,4 @@ Terbit 10-10-2026 atas vonis user RAFIF-MANUAL-FINAL-1009; rev B diikat pada kor
 
 ## Riwayat
 - rev B (10-10-2026, koreksi user kedua): §C dan §D ditulis ulang jadi aturan CARA (dengan contoh verbatim terukur), §A2 bahasa-diikat-ke-instruksi (bukan default EN), §F24 gerbang caption-pesan + uji-rasa-di-muka, §G resep ukur.
-- rev A (10-10-2026): lahir dari vonis pertama + bedah-ukur pembanding.
+- rev A (10-10-2026): berasal dari vonis pertama + bedah-ukur pembanding.

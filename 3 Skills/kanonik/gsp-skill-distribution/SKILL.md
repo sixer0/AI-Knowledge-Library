@@ -135,7 +135,7 @@ menyentuh kelasnya, entri ini mengikat sebelum menyusun daftar dari teks penuh r
 | Skill | Kelas | Kanal muat | Catatan pakai |
 |---|---|---|---|
 | `gsp-ekas-knowledge-index` | Router pengetahuan EKAS (1.558 unit, 20 domain) | AWARENESS via grants registry (junction per profil pekerja EKAS + `skills.external_dirs`; TIDAK fisik) | Pemicu: tugas bertopik teknik apa pun -> panggil indeks SEBELUM menjawab dari ingatan. Angka mengikat tetap lewat gerbang `pustaka-teknis` + kartu REF-*. Resipient grants: engineering-analyst, 7 specialist EKAS, document-writer. |
-| `gsp-doc-layout-gates` | Standar gerbang layout DOCX/PDF sisi PRODUKSI (terbit) | AWARENESS via grants registry (33 profil: 13 controller + kelas dokumen/verifikasi/laporan EKAS + skill-creator; TIDAK fisik kecuali gsp-master01 sebagai penulis) | Pemicu: membangun/men-render DOCX/PDF deliverable. Promosi PROMOSI-GLOBAL-1007 kartu t_8505ac23; sumber lahir di `skills/gsp/` profil master01, ditempatkan FLAT di fleet+kanonik v1.0.0. |
+| `gsp-doc-layout-gates` | Standar gerbang layout DOCX/PDF sisi PRODUKSI (terbit) | AWARENESS via grants registry (33 profil: 13 controller + kelas dokumen/verifikasi/laporan EKAS + skill-creator; TIDAK fisik kecuali gsp-master01 sebagai penulis) | Pemicu: membangun/men-render DOCX/PDF deliverable. Promosi PROMOSI-GLOBAL-1007 kartu t_8505ac23; sumber dibuat di `skills/gsp/` profil master01, ditempatkan FLAT di fleet+kanonik v1.0.0. |
 | `gsp-doc-layout-verification` | Standar gerbang layout DOCX/PDF sisi VERIFIKASI (audit byte jadi) | AWARENESS via grants registry (skop sama dengan gates; pasangan wajibnya) | Pemicu: memverifikasi artefak DOCX/PDF berisi tabel/gambar. Wajib berpasangan dengan `gsp-doc-layout-gates` saat tugas menghasilkan DAN memverifikasi dokumen. Mengandung `references/sajian-fixsa-case.md`. |
 | `gsp-deep-dive` | Standar UMUM deep-dive GSP-DD-001 untuk SEMUA kelas objek (vendor/principal, technology/product, market/competition/expo, client-integration, kelas baru via prosedur profil) | AWARENESS via grants registry jalur G2 (13 junction lane controller per DIST-2 t_cac44e70 09-10 termasuk gsp-master01 yang kini memegang kunci external_dirs; TIDAK fisik) | Pemicu manual HANYA saat Director menominasikan satu objek + deadline dan menyebut kelasnya; monitor pasif lapor kehadiran tanpa memproses. V-GATE2 PASS 9/9 (t_55c789d8, pin gen-source c50e2b4d2011de46). Satu-satunya sumber kebenaran aturan sejak DIST-2, termasuk vendor (= profil B1 di references/profiles/vendor.md). Nama DR-1 masih TERBUKA veto. |
 | `dd-vendor` | SHIM kompatibilitas (0.2.0): aturan vendor sudah pindah konten-kekal ke `gsp-deep-dive` profil B1 lewat DIST-2 t_cac44e70 | Grants G2 lama (12 junction) tetap menunjuk paket shim ini; muat `gsp-deep-dive` sebagai gantinya | Pemicu lama digantikan skill umum. Isi direktori = SKILL.md pointer saja (sidik 6d7f61ab2a7858b4 kedua sisi); pohon pra-shim 64 berkas/arsip tersimpan di docs/2026-10-09-mitra-dd-procedure/backup_20261009_145320/ dengan sidik terverifikasi. Regresi lintas mesin terbukti identik (29 checks, rc 0==0). |
@@ -258,7 +258,7 @@ skill; kartu distribusi TIDAK berwenang menghapus pengetahuan.
 - Salinan skill di profil jadi STALE setelah fleet registry di-patch: setiap patch/edit
   konten skill di fleet registry WAJIB disusul re-sync ke semua profil pemilik salinan
   (arah fleet->profil) dan bump field `version:` — drift 18 salinan 30-08 terjadi justru
-  karena edit tanpa bump versi tidak terdeteksi perbandingan versi.
+  karena edit tanpa menaikkan versi tidak terdeteksi perbandingan versi.
 - Skrip fix massal HARUS idempoten atau sekali-jalan: menjalankan ulang skrip edit yang
   menimpa `description:`/blok multi-baris dengan regex longgar menghasilkan frontmatter
   rusak (duplikat baris folded tertinggal, 30-08 kejadian nyata di gsp-vendor-crawler)
@@ -326,7 +326,12 @@ skill; kartu distribusi TIDAK berwenang menghapus pengetahuan.
   terlanjur mendarat tidak perlu dibatalkan bila substansinya identik dengan perintah kartu
   bertahan — verifikasi gabungan per-heading (`grep -c` heading baru == 1) lalu serahkan
   kepemilikan hasil ke kartu bertahan.
-- **Putusan change request mekanisasi scanner WAJIB diuji terhadap empat pertanyaan struktur alat, bukan hanya isi butirnya (05-10 putusan S13a t_dbb77bfe)**: (a) apakah gerbang FAIL baru benar-benar menjatuhkan VERDICT - di scan_ai_footprint.py vonis absolut dirakit dari `absolut()` DAN daftar `HIGH_INDICATORS`, sehingga check bernomor tinggi yang hanya `emit("FAIL")` tanpa indikator terdaftar adalah hiasan; (b) apakah premis "belum menagih" benar - cek dulu apakah yang terjadi bukan `emit("N/A")` karena deteksi struktur gagal (kasus C-24: sudah FAIL+B19, UPK-70 lolos karena <4 bab terdeteksi), sebab tagihan sebenarnya lalu berbeda alamat; (c) apakah gejala itu sudah dimiliki check lain - kalau ya, sahkan sebagai PERLUASAN dan coret nomor barunya (C-30→C-13, C-31→C-18, C-34→C-20), matcher ganda untuk satu gejala = buta-titik terwarisan; (d) apakah ambang yang dikutip berasal dari lapis yang sama dengan yang diukur alat - angka dari metrics.py/txt-ekstrak tidak berlaku untuk lapisan prosa scanner (cacat I-2/I-3). Tambahan: artefak putusan yang MENGUTIP token daftar hitam akan menyalakan A4/C-4 pada dirinya sendiri; itu bukan positif palsu kelas I-1 dan obatnya blok berpenanda kebijakan (`POLICY_EXEMPT_CODES` sudah mencakup A4/A6/A7/C-4), bukan menghapus kutipannya.
+- **Putusan change request mekanisasi scanner WAJIB diuji terhadap empat pertanyaan struktur alat, bukan hanya isi butirnya (05-10 putusan S13a t_dbb77bfe)**:
+
+  - (a) apakah gerbang FAIL baru benar-benar menjatuhkan VERDICT - di scan_ai_footprint.py vonis absolut dirakit dari `absolut()` DAN daftar `HIGH_INDICATORS`, sehingga check bernomor tinggi yang hanya `emit("FAIL")` tanpa indikator terdaftar adalah hiasan;
+  - (b) apakah premis "belum menagih" benar - cek dulu apakah yang terjadi bukan `emit("N/A")` karena deteksi struktur gagal (kasus C-24: sudah FAIL+B19, UPK-70 lolos karena <4 bab terdeteksi), sebab tagihan sebenarnya lalu berbeda alamat;
+  - (c) apakah gejala itu sudah dimiliki check lain - kalau ya, sahkan sebagai PERLUASAN dan coret nomor barunya (C-30→C-13, C-31→C-18, C-34→C-20), matcher ganda untuk satu gejala = buta-titik terwarisan;
+  - (d) apakah ambang yang dikutip berasal dari lapis yang sama dengan yang diukur alat - angka dari metrics.py/txt-ekstrak tidak berlaku untuk lapisan prosa scanner (cacat I-2/I-3). Tambahan: artefak putusan yang MENGUTIP token daftar hitam akan menyalakan A4/C-4 pada dirinya sendiri; itu bukan positif palsu kelas I-1 dan obatnya blok berpenanda kebijakan (`POLICY_EXEMPT_CODES` sudah mencakup A4/A6/A7/C-4), bukan menghapus kutipannya.
 - **Ambiguous bisa bersumber dari DALAM profil sendiri, bukan dari grant (05-10 kejadian
   nyata EXPLORE-DUP t_afcdbff2)**: sisa reorg 29-08 berupa pasangan `<name>/` dan `gsp/<name>/`
   di pohon yang sama membuat `skill_view` menolak bahkan SEBELUM external_dirs dipakai.
@@ -402,7 +407,7 @@ skill; kartu distribusi TIDAK berwenang menghapus pengetahuan.
   preseden struktur sibling (flat), cek `git ls-files skills/` untuk memastikan tidak menyentuh
   riwayat repo, dan nyatakan di laporan bahwa ini pembuatan bukan penimpaan. Field `version:` yang
   absen membuat deteksi drift berbasis versi tidak bekerja — laporkan sebagai temuan, jangan
-  tambahkan sendiri (bump versi wewenang penulis skill).
+  tambahkan sendiri (kenaikan versi menjadi wewenang penulis skill).
 - **Temuan blueprint bisa STALE saat eksekusi**: probe lama ('skill X hanya ada di kanonik') wajib
   diprobe ulang saat distribusi - pada S9, hermes-web-search-stack ternyata SUDAH ada di fleet
   (v1.0.0 lengkap dengan references/scripts), sehingga keputusan yang benar adalah resync

@@ -14,7 +14,7 @@ Sumber: papan GAYAMANUAL-1007 (kartu t_04800d70 L7c, t_105db7a1 L8, t_f52b8fef L
 
 Gerbang GM PASS 12 atas byte dengan TOC MATI - karena tidak ada CHECK-TOC-HIDUP; papan VCTL sudah punya (V-POST VP-2 'daftar isi hidup: PAGEREF terisi'). Resep:
 1. Saat juri/reviewer menemukan cacat MEKANIK yang seharusnya terukur mesin: port ceknya ke skrip gerbang papan itu (pola VP-2), SEBELUM rerak berikutnya. Tanpa port, rerak bisa hijau lagi dengan cacat sama (kelas F-GAKUR-01: alat mengukur hal yang salah).
-2. Setiap obat mengubah byte => lembar juri sah hanya untuk era-byte-nya. Vonis eksplisit: 'lembar ini bukan utk rilis final; dua kursi nilai byte BARU' - preseden blok-dulu (juri menolak menilai byte pra-remediasi) berlaku lagi untuk ronde V-final.
+2. Setiap obat mengubah byte => lembar juri sah hanya untuk era-byte-nya. Vonis eksplisit: 'lembar ini bukan untuk rilis final; dua kursi nilai byte BARU' - preseden blok-dulu (juri menolak menilai byte pra-remediasi) berlaku lagi untuk ronde V-final.
 3. Cacat tampil lapis-HEADING-build (backtick markdown mentah terrender ke PDF kepala aturan; pola '(`C-nn`)') beda lapis dari cacat norm() badan paragraf - obatnya builder-side, dan hitung regex pengawas bisa beda definisi dengan cacah pekerja (8 vs 11 = beda pola ketat; nyatakan dua definisi, jangan klaim kontradiksi).
 
 ## 3. Pitfall skop penanda blok: md != docx (koreksi-diri rekomendasi pengawas)

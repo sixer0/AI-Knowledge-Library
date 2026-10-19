@@ -1,6 +1,6 @@
 # Gate-regression, lapisan vision-vs-deterministik, kesegaran verify (preseden RAFIFUNITY/GAYA-AHLI 05-10 s.d. 06-10 2026)
 
-Tiga aturan yang lahir dari satu malam countersign lintas papan; semuanya terukur, bukan teori.
+Tiga aturan yang berasal dari satu malam countersign lintas papan; semuanya terukur, bukan teori.
 
 ## 1. Regresi saat gerbang diperketat (gate-tightening regression)
 

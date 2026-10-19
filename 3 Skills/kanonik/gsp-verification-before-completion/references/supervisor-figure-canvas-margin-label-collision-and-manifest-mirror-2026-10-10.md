@@ -13,7 +13,7 @@ Sumber: supervisi controller misi tulis-buku Rev B; semua resep di bawah SUDAH d
 
 - Gejala: blok konten menempel kolom 0 kanvas (stroke simpul terpotong separuh) atau lebih lebar dari kanvas (terpotong dua sisi). Visus melihat 'margin kiri nol vs kanan 110px'.
 - Buta bagi: SEMUA sensor era itu termasuk cermin manifest dua arah - FG6 lulus mekanik sempurna tapi 2 dari 5 PNG-nya terpotong.
-- Resep uji deterministik populasi (grep-piksel, satu script utk semua PNG folder terbit):
+- Resep uji deterministik populasi (grep-piksel, satu script untuk semua PNG folder terbit):
 
 ```python
 from PIL import Image

@@ -40,7 +40,7 @@ kontrak supaya MRG bisa langsung pakai - seimbang, bukan hanya menegur.
 Agregat penutup fase = tabel per lajur: | lajur | baris | PASS/PROV/FAIL | vonis | syarat
 MRG | + daftar permohonan putusan bernomor. Ini bekal kartu merge; TEMPELKAN sebagai
 komentar langsung di kartu merge saat ia diangkat dan masih running (jangan menunggu
-ditanya) - aturan kolom STATUS-VONIS, PROV bukan pemenuh, register bernama utk FAIL.
+ditanya) - aturan kolom STATUS-VONIS, PROV bukan pemenuh, register bernama untuk FAIL.
 
 ## 3. Triase timeout lajur (pra-retry)
 Sebelum menyimpulkan apa pun: cek mtime artefak vs sekarang. ladder.log mtime < 2 menit

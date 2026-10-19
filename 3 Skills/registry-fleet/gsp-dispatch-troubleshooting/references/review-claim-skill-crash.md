@@ -32,7 +32,7 @@ yang snapshot-nya tidak punya skill itu.
 - **(A) Keputusan asignor langsung dari artefak beku.** Bila seluruh deliverable sudah ada
   dan sudah divonis (laporan needs-review + bukti path/ukuran di kartu), keputusan review
   TIDAK butuh agen: force-done/request-changes via jalur resmi (bridge PATCH /api/brahma/requests
-  utk kartu dispatch; `hermes kanban complete` utk native). Aturan user 01-09: dispatch failed
+  untuk kartu dispatch; `hermes kanban complete` untuk native). Aturan user 01-09: dispatch failed
   + artefak ada = JANGAN re-dispatch buta.
 - **(B) Tambal gerbang (tetap perlu terlepas dari A):** aktivasikan skill yang diminta ke profil
   pekerja-review via jalur resmi manifest.json + generate_profiles.py (rujukan skill

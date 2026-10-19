@@ -44,7 +44,7 @@ Scanner DOCX memperlakukan SEMUA paragraf berurutan (termasuk heading dan baris 
 
 - Helper `make_table(...)` harus meneruskan `font_size` ke `style_table`; lupa = TypeError saat tabel densitas tinggi (preseden 23-09).
 - `patch` yang menghapus baris kosong terakhir (old_string berakhir `\n`, new_string tidak) bisa menggabungkan `]` dengan baris berikut -> SyntaxError. Setelah patch penghapusan baris, cek lint output; bila error, perbaiki di patch berikutnya.
-- Sel banner merged: buat baris pertama tabel lalu `cells[0].merge(cells[1])` SEBELUM menambah baris data; pola merge pasca-add_row menghasilkan baris hantu.
+- Sel banner merged: buat baris pertama tabel lalu `cells[0].merge(cells[1])` SEBELUM menambah baris data; pola merge pasca-add_row menghasilkan baris tambahan yang tidak diinginkan.
 - Istilah asing jangan masuk narasi Indonesia ("rather than" terselip = jejak mesin; probe baca-balik menangkapnya).
 - Peringatan `fontTools is required` dari pypdf saat ekstraksi PDF = benign; teks tetap terekstrak penuh. Tambahkan `--with fontTools` bila perlu presisi encoding.
 

@@ -14,7 +14,7 @@ E > 0.5 x cap output satu artefak -> `rantai-ceil(E/(0.5xcap))`; item bebas ->
 Buat >3 kartu ber-DAG sekali jalan lewat skrip tersimpan, bukan perintah manual berulang:
 - Simpan skrip di `docs/<kontrak>/scripts/make_cards.py`; register id di
   `docs/<kontrak>/cards.json` — skip key yang sudah punya id (retry-safe, tidak duplikat kartu).
-- Body kartu ditulis ke berkas Temp (`--body-file`), bukan argumen inline (aman utk teks panjang ber-utf8).
+- Body kartu ditulis ke berkas Temp (`--body-file`), bukan argumen inline (aman untuk teks panjang ber-utf8).
 - Id ditangkap dari stdout dengan regex `(t_[0-9a-f]{6,})`; edge `--parents` diisi dari
   register saat kartu berikutnya dibuat (create berurutan = edge asli terpasang di
   panggilan create, bukan link susulan — lihat pitfall late-linked parents di SKILL.md).

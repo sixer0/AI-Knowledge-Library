@@ -21,7 +21,7 @@ tapi netstat menunjukkan `127.0.0.1:9012` dan curl ke IP non-loopback
 Tailscale. Akibat: akses remote WebUI putus diam-diam.
 
 Akar masalah: dua `pythonw ... gsp-brahma/server.py` **sisa dari ecosystem
-autostart pagi** (created ±2 detik beruntun, dipanggil dgn `--host 127.0.0.1`)
+autostart pagi** (created ±2 detik beruntun, dipanggil dengan `--host 127.0.0.1`)
 masih hidup. Satu bind 127.0.0.1:9012 lebih dulu; instance ctl.sh yang lain
 crash `WinError 10048` di `bootstrap-9012.log`, dan yang "menang" adalah yang
 loopback. bootstrap.py memang meneruskan env `HERMES_WEBUI_HOST=0.0.0.0`

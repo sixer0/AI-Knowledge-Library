@@ -50,7 +50,7 @@ Prinsip:
 |-------|---------------|----------|
 | **Blender bpy** (default) | otomatisasi penuh, render tanpa buka aplikasi | `blender -b -P skrip.py` |
 | MAXScript | pengguna bekerja di 3ds Max & akan menyunting manual | jalankan dari 3ds Max > Scripting |
-| Ekspor OBJ/glTF | hanya butuh model utk dibuka di aplikasi lain | modul `obj` tulis manual / bpy export |
+| Ekspor OBJ/glTF | hanya butuh model untuk dibuka di aplikasi lain | modul `obj` tulis manual / bpy export |
 
 Tanyakan (atau default-kan): target ruang (interior lantai berapa / eksterior),
 jumlah sudut kamera (default 2: satu lebar + satu detail), kualitas
@@ -64,7 +64,7 @@ Semua fungsi menerima data mentah PROJECT.json (mm) dan mengonversi internal.
 |--------|-------------|-------------|
 | Lantai/pelat | `ruang.poligon` atau bidang lantai | mesh datar di elevasi lantai; tebal 120 mm ke bawah |
 | Dinding | `dinding` (dari, ke, tipe→tebal) | box sepanjang segmen: panjang × tebal × tinggi (elevasi lantai s.d. bawah pelat atas) |
-| Bukaan | `bukaan` (dinding, posisi, lebar, tinggi) | boolean difference pada dinding; isi kusen = frame box 50 mm + kaca (material glass) utk jendela; pintu = panel 40 mm |
+| Bukaan | `bukaan` (dinding, posisi, lebar, tinggi) | boolean difference pada dinding; isi kusen = frame box 50 mm + kaca (material glass) untuk jendela; pintu = panel 40 mm |
 | Tangga | `tangga` (riser, tread, lebar, posisi) | loop box anak tangga: i × (tread, lebar, riser); bordes = box; railing = silinder Ø40 tiap 1 m + handrail |
 | Kolom/balok | `elemen_struktur` | box sesuai dimensi & grid — tampilkan bila ekspos; sembunyikan yang tertutup plafon/dinding |
 | Plafon | `ruang.tinggi_plafon` | bidang di elevasi plafon; drop/cove = box keliling −400 |
@@ -96,16 +96,16 @@ folder tekstur (`assets/`), pakai image texture + UV scale sesuai ukuran nyata
 
 | Finish (dari cad-interior-design) | Material dasar | Parameter kunci |
 |-----------------------------------|----------------|-----------------|
-| granit polished | abu terang | roughness 0.15, specular 0.6; noise ringan utk urat |
-| keramik matt / R10 | krem | roughness 0.6; checker halus utk nat |
-| vinyl SPC / parket | cokelat kayu | roughness 0.4; wave/musgrave utk serat |
+| granit polished | abu terang | roughness 0.15, specular 0.6; noise ringan untuk urat |
+| keramik matt / R10 | krem | roughness 0.6; checker halus untuk nat |
+| vinyl SPC / parket | cokelat kayu | roughness 0.4; wave/musgrave untuk serat |
 | cat dinding | warna palet 60/30/10 | roughness 0.9 |
 | kayu oak (furnitur) | oak hangat | roughness 0.45 |
 | HPL | sesuai warna | roughness 0.5 |
 | kaca | transmission 1.0 | roughness 0.05, IOR 1.45 |
 | besi/railing | abu gelap | metallic 0.9, roughness 0.35 |
 | beton ekspos | abu | roughness 0.85 + noise |
-| rumput/tanah (eksterior) | hijau | particle/geometry nodes bila Cycles; plane hijau kasar utk draft |
+| rumput/tanah (eksterior) | hijau | particle/geometry nodes bila Cycles; plane hijau kasar untuk draft |
 
 Ambil warna dari palet interior (60/30/10) — jangan pilih warna sendiri.
 
@@ -330,7 +330,7 @@ kontrak ini bagian dari alur kerja skill (koordinasi dengan gsp-image-specialist
 
 | ID | Kewajiban | Numerik |
 |---|---|---|
-| IG-1 | Multi-view reference DARI SCENE YANG SAMA: minimal 3 draft ortogonal (depan, samping, atas/top-down; tambah 1 interior eye-level utk interior) dirender Eevee dari model final sebelum panggilan image-gen | >= 3 berkas PNG di `render/draft/`, tercatat di `image_gen.ref_set` |
+| IG-1 | Multi-view reference DARI SCENE YANG SAMA: minimal 3 draft ortogonal (depan, samping, atas/top-down; tambah 1 interior eye-level untuk interior) dirender Eevee dari model final sebelum panggilan image-gen | >= 3 berkas PNG di `render/draft/`, tercatat di `image_gen.ref_set` |
 | IG-2 | Massing sheet: satu PNG lembar bentuk massa white-model 4 pandangan (depan, samping, atas, aksonometri 30 derajat) dalam grid 2x2, latar netral, TANPA material/textur | 1 berkas, `image_gen.massing_sheet`; dikirim bersama ref_set ke SETIAP panggilan |
 | IG-3 | Setiap panggilan image-gen menerima REF-SET + massing sheet (kontak-sheet tunggal atau multi-gambar sesuai kemampuan backend; dicatat di prompt log) | jumlah referensi per panggilan >= 4 (3 ortogonal + massing) |
 | IG-4 | Prompt memuat TOKEN KUNCI dari data: dimensi volume (PxLxT mm), jumlah bukaan per fasad, kode material, sudut+lensa kamera | parser menghitung token dari PROJECT.json; prompt log menyimpannya (pola B18-B terbukti) |

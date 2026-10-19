@@ -99,7 +99,7 @@ threshold untuk perbandingan sebelum-sesudah.
 
 ## Kompatibilitas gerbang naturalisasi (WAJIB, ENH 08-10)
 
-Keluaran DATUM dibaca manusia dan ditagih gerbang naturalisasi fleet
+Keluaran DATUM dibaca manusia dan wajib memenuhi gerbang naturalisasi fleet
 (`gsp-output-naturalization`, scanner kanal standar/doc). Builder dan instrumen
 paket ini wajib menghasilkan berkas yang lolos tanpa penambalan pasca-terbit:
 
@@ -145,7 +145,7 @@ paket ini wajib menghasilkan berkas yang lolos tanpa penambalan pasca-terbit:
   menggantung, sesudah 0. CHECK 23 selftest diagram.
 - E-08 ditutup dua lapis: guard titik-panggil `px_guard` (DATUM-39, tolak
   sumber <150 dpi efektif saat figure() dibangun) + F5 di baterai figur
-  (ukur px-per-inci cetak pada PDF terbit). Uji dua arah 08-10: 500px utk
+  (ukur px-per-inci cetak pada PDF terbit). Uji dua arah 08-10: 500px untuk
   128mm (99 dpi) ditolak, 300 dpi diterima.
 - DATUM-03 ambang turun 3 -> 0 sesuai putusan user 08-10 (selaras A1
   naturalisasi nol mutlak); selftest lint tetap PASS dua arah.

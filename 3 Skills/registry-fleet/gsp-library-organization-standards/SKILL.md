@@ -91,7 +91,7 @@ nama model.
 
 1. **Snapshot**: IL API `curl -sk 'https://localhost:9011/api/information-library?scope=all&status=all'`
    + `find docs memory legacy-archive -type f` → `docs/YYYY_MM_DD_librarian_daily/00_SNAPSHOT.md`.
-2. **Inspeksi** (kode temuan): A file lepas · B nama cryptic · C frontmatter invalid · D duplikat ·
+2. **Inspeksi** (kode temuan): A file lepas · B nama yang sulit dikenali · C frontmatter invalid · D duplikat ·
    E salah folder · F link rusak · G vault usulan basi (>7 hari) · H wiki menyimpang (flag only).
 3. **Perbaikan** (≤ 50 operasi, prioritas A→B→C→E→D→F→G→H): pindah ke `00_INDEX/`/`01_DOMAIN/`/
    `02_PROJECT/`/`_inbox/`; rename cryptic; isi frontmatter dasar tanpa ubah isi; folder selesai ≥ 30 hari
@@ -109,7 +109,7 @@ nama model.
 
 ## Verification
 
-- [ ] Tidak ada file lepas di `docs/` root; tidak ada folder cryptic; semua folder tugas snake_case
+- [ ] Tidak ada file lepas di `docs/` root; tidak ada folder yang sulit dikenali; semua folder tugas snake_case
 - [ ] Semua dokumen (di luar proteksi) punya frontmatter valid
 - [ ] CHANGES.md run terakhir tercatat & konsisten
 - [ ] IL API menampilkan judul manusiawi & tipe benar

@@ -95,7 +95,7 @@ metadata:
   dua kali, dan psutil process_iter menggantung — monitor v1 + audit v1.1 buta serentak.
   Fallback teruji: `sysman_audit_noWMI_v1.py` (folder scripts sama) baca daftar proses +
   cmdline via ntdll native (NtQuerySystemInformation class 5 + NtQueryInformationProcess
-  class 60), tanpa WMI sama sekali; vonis root-count sama dgn audit v1.1. JANGAN vonis
+  class 60), tanpa WMI sama sekali; vonis root-count sama dengan audit v1.1. JANGAN vonis
   dari run pertamanya tanpa sanity: `sysman_noWMI_sanity.py` membuktikan pembacaan cmdline
   hidup ("SANITY OK"); cmdline kosong-semua = scanner buta-parsial, verdict MATI palsu
   (terjadi 15-10: buta-parsial vonis 3 wajib MATI; pasca-fix probe-ukuran-terlebih-dahulu
@@ -178,12 +178,12 @@ metadata:
   `sysman_wake_detail_v2.py` (blocked/todo/done-24jam tanpa ACK lintas author),
   `sysman_wake_explain_v1.py` (kenapa kandidat tidak lolos rute-4b: tenant/assignee/jendela),
   `sysman_wake_read_v1.py` + `sysman_wake_who_v1.py` (isi komentar + event terminal per id).
-  Jalankan via `uv run --python 3.11 --no-project python <path>`. Kolom tasks tdk punya
+  Jalankan via `uv run --python 3.11 --no-project python <path>`. Kolom tasks tidak punya
   updated_at — pakai created_at/completed_at/task_events.created_at (teruji error).
 - Ambang hidup di skrip (STALLED_MIN 30, RUN_WINDOW_H 6, FASE_STALL_MIN 60, DONE_UNACKED_MIN 5,
   cutoff rute-4b 1791630000): baca dari sumber, jangan salin angka ke laporan.
 - CRON MODE: `execute_code` ditolak (tidak ada approver) — nilai papan lewat `hermes kanban show
-  --json` + skrip .py dibaca-skrip (import modul scan() utk re-scan deterministik tanpa subprocess).
+  --json` + skrip .py dibaca-skrip (import modul scan() untuk re-scan deterministik tanpa subprocess).
   SIGNATUR scan() = (db_path, now_epoch_INT, controller_authors_LIST): kirim `int(time.time())`,
   BUKAN datetime (TypeError `datetime - int` di baris age_min, teruji 11-10 ronde sunyi);
   DEFAULT_AUTHORS adalah string koma — `.split(',')` dulu; db kanonis = hermes/kanban.db root.
@@ -192,7 +192,7 @@ metadata:
   baris PALSU (nol temuan hantu); tangkap nilai kembaliannya. Cetak tuple Row sqlite tanpa
   row_factory juga mencetak objek mentah = angka hilang senyap; set `con.row_factory = sqlite3.Row`
   atau indeks numerik.
-- Kartu done-unacked boleh BER-KOMENTAR NOL (terukur 17-10 SYNCNAS-1016M t_4a179fc3): pekerja menutup via `kanban complete` langsung tanpa komentar LAPOR-SELESAI, rute-4b tetap menagih karena hitungan RANTAI-ACK=0 dan tenant terisi. Nilai butir dari kolom `tasks.result` + `task_events kind=completed` (bukan dari daftar komentar yang kosong); cek path kontrak yang disebut result di disk sebelum lapor.
+- Kartu done-unacked boleh BER-KOMENTAR NOL (terukur 17-10 SYNCNAS-1016M t_4a179fc3): pekerja menutup via `kanban complete` langsung tanpa komentar LAPOR-SELESAI, rute-4b tetap diberlakukan karena hitungan RANTAI-ACK=0 dan tenant terisi. Nilai butir dari kolom `tasks.result` + `task_events kind=completed` (bukan dari daftar komentar yang kosong); cek path kontrak yang disebut result di disk sebelum lapor.
 - Baris done-unacked bisa MUNCUL di tengah giliran (kartu PARKED worker menulis marker sendiri
   lalu scan berikutnya menangkapnya): selalu re-scan sekali sebelum vonis, dan hitung ulang
   jumlah baris per misi dari judul kartu (jangan klaim "semua X" tanpa census terukur).
@@ -211,7 +211,7 @@ metadata:
 - REPLIKA MENTAH rute-4b = alat rekonsilasi, BUKAN vonis (teruji 11-10): query SQL saya yang
   melewati GERBANG-1 (`RANTAI-ACK` dengan `created_at >= anchor LAPOR-SELESAI`) dan hanya memakai
   aturan author-lain rute-4b menghasilkan 4 positif-palsu pada kartu yang sebenarnya sah
-  (ACK mendarat 1 detik sesudah anchor). Vonis kanonis = panggil `scan()` modul pemindai
+  (ACK diterima 1 detik sesudah anchor). Vonis kanonis = panggil `scan()` modul pemindai
   (importlib dari path skrip) atau CLI-nya; selisih replika vs `scan()` wajib dijelaskan lewat
   gerbang-1 sebelum disebut butir nyata.
 - Simpul running ber-LAPOR-SELESAI boleh TERSELESAIKAN SENDIRI di tengah giliran: worker menulis
@@ -230,7 +230,7 @@ metadata:
   cetak-biru/blueprint tenant yang ikut done tanpa komentar sebagai bukti hulu.
 - `sysman_wake_explain_v1.py` tetap daftar sampel TETAP (abaikan argv) — jangan pernah pakai
   untuk vonis per-id; gunakan replika predikat rute-4b per-argv pola
-  `sysman_wake_route4b_probe_v2.py` (folder scripts sama; memanggil scan() kanonis utk rekonsiliasi).
+  `sysman_wake_route4b_probe_v2.py` (folder scripts sama; memanggil scan() kanonis untuk rekonsiliasi).
 - Kartu blocked ber-note "DITAHAN controller <misi>" = keputusan orkestrasi tercatat, vonis
   positif-palsu; TAPI cek catatan RESUMED/perintah user yang tidak pernah naik ke status papan
   (kontradiksi catatan-vs-papan = butir nyata, contoh RP-11 11-10).
@@ -276,7 +276,7 @@ metadata:
   walk turunan pakai nama itu (teruji error 11-10).
 - Kolom tabel `tasks` TIDAK punya `blocked_reason` (teruji 16-10 ronde senyap): alasan blokir dibaca dari `block_kind` (needs_input/transient/None) + `block_recurrences`, atau dari komentar terakhir; query `t.blocked_reason` = OperationalError yang memotong sensus di tengah. Kolom tersedia lain: tenant, last_heartbeat_at, current_run_id, max_runtime_seconds, consecutive_failures, worker_pid.
 - RONDE SENYAP yang sah (teruji 16-10): stdout kosong + sanity hidup (komentar terbaru <=65 mnt, tasks ribuan) + `scan()` importlib = 0 temuan + sensus `status NOT IN ('done','archived')` hanya blocked yang seluruhnya sudah ber-koreksi `[SYSMAN-CLEANER <tgl>]` di komentar terakhir + NOL kartu running/todo (kelas blind-spot rute-4b mustahil ada) = vonis diam, jawab `[SILENT]`, tanpa marker. Marker hanya untuk baris WAKE yang benar-benar dilaporkan.
-- ALAT RONDE SENYAP siap-pakai (terbuat 18-10b, folder scripts sama): `sysman_wake_cron_1018b_silent_sanity_v1.py` (sensus + umur event/komentar MAX + daftar running dgn LAPOR/ACK + rekonsiliasi scan() kanonis) lalu `sysman_wake_cron_1018b_blocked_audit_v1.py` (audit per kartu blocked: hitung koreksi [SYSMAN-CLEANER], pasangan `Digantikan` via LIKE anchored-di-awal + status pengganti, saksi scheduler dari mtime cron/output dua lokasi). Ronde 18-10b: papan diam 404 mnt SAH (scheduler hidup 2.4 mnt, 5390 tasks, running=todo=0), 44 blocked = 43 set terenal + t_66b1a0b2 jangkar, semua terkoreksi, 0 butir baru -> [SILENT].
+- ALAT RONDE SENYAP siap-pakai (terbuat 18-10b, folder scripts sama): `sysman_wake_cron_1018b_silent_sanity_v1.py` (sensus + umur event/komentar MAX + daftar running dengan LAPOR/ACK + rekonsiliasi scan() kanonis) lalu `sysman_wake_cron_1018b_blocked_audit_v1.py` (audit per kartu blocked: hitung koreksi [SYSMAN-CLEANER], pasangan `Digantikan` via LIKE anchored-di-awal + status pengganti, saksi scheduler dari mtime cron/output dua lokasi). Ronde 18-10b: papan diam 404 mnt SAH (scheduler hidup 2.4 mnt, 5390 tasks, running=todo=0), 44 blocked = 43 set terenal + t_66b1a0b2 jangkar, semua terkoreksi, 0 butir baru -> [SILENT].
 - SAKSI "idle sehat" saat papan diam panjang (teruji 17-10b, papan tanpa event 906 mnt): jangan vonis scheduler mati dari umur event saja — ukur tiga saksi terpisah: (a) mtime berkas `cron/output/<job>/` terbaru (sysman 1 mnt, watchdog rantai 1 mnt = scheduler hidup), (b) jumlah heartbeat gateway fresh <5 mnt dibandingkan SET WAJIB monitor (ukur 13 fresh = cocok daftar hidup), (c) sensus status. JANGAN tukar registri: 4 profil (gsp-creative, gsp-custodian, gsp-firman-custom, gsp-skill-manager) ada di `fleet/PROFILE-REGISTRY.json` TAPI bukan set gateway hidup -> heartbeatnya basi ~5,7 hari dan itu BUKAN temuan (bukan kelas pemindai wake, bukan tugas penjaga gateway). Vonis hantu kelas ini = laporan palsu ke bot-chat controller.
 - Nama tabel komentar = `task_comments` (BUKAN `comments`) di kanban.db root; query ACK/LAPOR
   pakai nama itu (teruji OperationalError 14-10e). Kind event timeout = `timed_out`/`gave_up`
@@ -300,7 +300,7 @@ metadata:
   jadi vonis 'mati' dari uji komentar sah hanya kebetulan. Probe benar = event terminal
   pending pada langganan sasaran (pola sysman_wake1011_final_probes_v1.py, folder scripts).
 - Norma interim wake controller WebUI = watch_cards.py background notify_on_complete
-  (process_registry enqueue ke stream sesi sendiri); langganan papan tetap dipasang sbg wartel.
+  (process_registry enqueue ke stream sesi sendiri); langganan papan tetap dipasang sebagai wartel.
   Adapter dashboard (pola gateway/wake.py api_server self-POST) = obat permanen; WAJIB purge/
   snap langganan webui lama sebelum aktivasi (replay badai, preseden #29905).
 - Akar created_by='user' massal: argparse `--created-by default="user"` (kanban.py L357) membuat

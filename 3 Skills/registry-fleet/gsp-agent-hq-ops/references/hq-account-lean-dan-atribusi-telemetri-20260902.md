@@ -6,13 +6,13 @@ Commit: gsp-datacenter `500bbdb` `f56decd` `ca09c52` · gsp-brahma `7f2da1f` `73
 
 ## Atribusi inisiator (temuan #4)
 
-- `AgentRequest.requestedBy TEXT` = id inisiator: `user:<username>` utk login browser,
-  id profil utk pemanggil mesin, NULL = data lama (fallback telemetri `brahma`).
+- `AgentRequest.requestedBy TEXT` = id inisiator: `user:<username>` untuk login browser,
+  id profil untuk pemanggil mesin, NULL = data lama (fallback telemetri `brahma`).
 - Bridge: `const fromAgent = r.requestedBy || "brahma"` (sebelumnya hardcode `brahma`,
   penyebab 260/260 edge satu sumber). Claim lane memakai `RETURNING *` sehingga kolom
   baru mengalir tanpa mengubah SELECT.
 - Rute `POST /api/brahma/dispatch`: `getRequester(req, b.agentId)` — cookie sesi →
-  `user:<u>`; selain itu pakai field body `agentId` (WAJIB utk pemanggil mesin karena
+  `user:<u>`; selain itu pakai field body `agentId` (WAJIB untuk pemanggil mesin karena
   tidak punya cookie). Helper `hq_dispatch.cjs` / `hq_dispatch_card.cjs`
   (workspace/gsp-hermes/scripts): arg `[agentId]` > env `HERMES_DISPATCH_AGENT` >
   infer `HERMES_HOME` (parent == `profiles` → nama profil aktif) > `brahma`.

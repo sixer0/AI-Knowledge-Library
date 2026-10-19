@@ -16,7 +16,7 @@ metadata:
 Metode resmi merombak Information Library GSP dari raw workspace menjadi
 **dashboard informasi terstruktur**. Berlaku setiap kali IL perlu dibangun
 ulang dari nol (atau korpus baru masuk). Tidak boleh ada jalan pintas —
-**semua knowledge unit lahir dari analisa konten konkret**, bukan asumsi
+**semua knowledge unit berasal dari analisa konten konkret**, bukan asumsi
 path/penamaan.
 
 ## Prinsip IL (dipegang teguh, non-negotiable)

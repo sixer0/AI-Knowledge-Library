@@ -31,10 +31,16 @@ Saat engine kanonik menyimpang dari SUMBER DESAIN terukur (judul sampul hardcode
 
 ## 5. Plafon run bridge 1800s pada kartu builder-berat (pola sistemik)
 
-Kelas kartu "3 bab + 7 figur" mati identik di 1814-1820 dtk lintas 14 instance papan (SPEC4 x2, RWA..RWE, dst.) - plafon waktu, BUKAN gagal isi; nol state rusak tiap kematian. Resep yang menyelamatkan: (a) unblock + komentar RESUME berisi daftar ASET BEKU (naskah lahir/register beku/figur PNG per berkas + pin) + sisa kerja terkurangi + larangan rebuild; (b) kartu pecah per-bab/per-unit bila timeout kedua (jangan resep ketiga); (c) WAJIB partial-handoff enam bidang ber-pin di AMBANG-B (>=20 mnt jalan) - gave_up tanpa laporan = cacat; (d) estimasi E kartu produksi harus menghitung jendela 30 mnt, bukan hanya iterasi; (e) pekerjaan ukur deterministik kecil (pin check, konversi format, emit register) boleh diambil controller langsung dengan jejak ukur - hemat satu siklus kartu.
+Kelas kartu "3 bab + 7 figur" mati identik di 1814-1820 dtk lintas 14 instance papan (SPEC4 x2, RWA..RWE, dst.) - plafon waktu, BUKAN gagal isi; nol state rusak tiap kematian. Resep yang menyelamatkan:
+
+- (a) unblock + komentar RESUME berisi daftar ASET BEKU (naskah lahir/register beku/figur PNG per berkas + pin) + sisa kerja terkurangi + larangan rebuild;
+- (b) kartu pecah per-bab/per-unit bila timeout kedua (jangan resep ketiga);
+- (c) WAJIB partial-handoff enam bidang ber-pin di AMBANG-B (>=20 mnt jalan) - gave_up tanpa laporan = cacat;
+- (d) estimasi E kartu produksi harus menghitung jendela 30 mnt, bukan hanya iterasi;
+- (e) pekerjaan ukur deterministik kecil (pin check, konversi format, emit register) boleh diambil controller langsung dengan jejak ukur - hemat satu siklus kartu.
 
 ## 6. Glue antar-alat ditemukan saat giliran ukur controller
 
-Meter membaca --terms sebagai TXT satu-istilah-per-baris sementara pekerja menyerahkan JSON -> vonis FAIL palsu 0% definisi. Controller mengonversi + menetapkan aturan dua-format (json+txt) di semua kartu. Pelajaran: saat gerbang diri pekerja FAIL, ukur ulang dengan sintaks resmi alat SEBELUM menagih pekerja; format antar-modul toolkit dideklarasikan eksplisit di body kartu.
+Meter membaca --terms sebagai TXT satu-istilah-per-baris sementara pekerja menyerahkan JSON -> vonis FAIL palsu 0% definisi. Controller mengonversi + menetapkan aturan dua-format (json+txt) di semua kartu. Pelajaran: saat gerbang diri pekerja FAIL, ukur ulang dengan sintaks resmi alat SEBELUM meminta perbaikan dari pekerja; format antar-modul toolkit dideklarasikan eksplisit di body kartu.
 
 Rujukan silang (jangan duplikasi): `references/instrument-gate-patch-red-green.md` (kalibrasi instrumen), `references/manuscript-figure-and-fixpass-verification.md` (figur naskah), `references/frozen-register-refreeze-and-reverdict-audit.md` (beku/refreeze), `references/supervisor-verify-order-race-and-allowlist-2026-10-06.md` (rasio urutan verifikasi hari sama), `references/saturation-verdict-and-resume-supervision.md` (resume supervision). Kontrak sumber: docs/2026-10-04-prompt-manual/ (v1 + vonis user) dan docs/2026-10-06-prompt-manual-v2/ (D2-01..D2-16, vonis-spesimen v1/v2, gerbang ronde-1).

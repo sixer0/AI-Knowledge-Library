@@ -39,7 +39,7 @@ Resep verifikasi penjawab netral yang terulang hijau:
 - Klaim negatif ("tidak baca sumber luar/memori") tak teruji penuh dari disk — declared begitu saja; semua yang TERUKUR konsisten.
 - Klasifikasi butir TTM milik pemeriksa: cacat-ekstraksi vs cacat-cakupan-soal (lintas-bab; grep token kunci di teks bab = 0) vs gap-isi vs non-gap. "Nol kasus jawaban ada di teks tapi penjawab melewatkan" = vonis keadilan instrumen. Temuan D-01 tipe: kunci menagih istilah yang tercetak di register/naskah lain (prompt-caching=0 di teks, =1 di kunci) — penjawab ikuti TEKS benar, kunci cacat.
 
-## 6. Norma jejak yang lahir dari tagihan pengawas (siklus pelajaran→gerbang <=1 giliran)
+## 6. Norma jejak yang berasal dari tagihan pengawas (siklus pelajaran→gerbang <=1 giliran)
 
 - Simpan .log scanner PERSISTEN per blok (tagihan L5 -> norma semua blok INDUK b3/b4/b5/b6/depan; dua-run byte-identik sebagai determinisme).
 - Sensus sha16-per-blok lebih tahan daripada ukuran ls-la (tagihan L11 -> terpakai L12).

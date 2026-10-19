@@ -4,8 +4,8 @@ Sumber: vonis pengawas atas L19/L20/FIX-3/L18-run2 + dua koreksi-diri terbuka. K
 
 ## 1. Notifikasi kanban 'completed' bisa replay/basi - vonis hanya dari keadaan segar
 
-Notifikasi L18 masuk DUA kali dengan isi berbeda: yang pertama membawa result run-lama (#5509, ringkasan PEM-BLOKIRAN) padahal run aktif #5520 masih berjalan dan `qc-AB.md` belum lahir di disk. Teks result pada notifikasi adalah ringkasan run SEBELUMNYA, bukan hasil run aktif.
-- Resep: sebelum vonis, ukur `show` (status+Runs terbaru) DAN keberadaan artefak beban-vonis (`qc-AB.md`). Bila artefak belum ada: NYATAKAN notifikasi basi/replay, jangan vonis artefak yang belum lahir, dan jangan tayangkan komentar palsu. Vonis menyusul saat notifikasi berikutnya dengan artefak nyata.
+Notifikasi L18 masuk DUA kali dengan isi berbeda: yang pertama membawa result run-lama (#5509, ringkasan PEM-BLOKIRAN) padahal run aktif #5520 masih berjalan dan `qc-AB.md` belum dibuat di disk. Teks result pada notifikasi adalah ringkasan run SEBELUMNYA, bukan hasil run aktif.
+- Resep: sebelum vonis, ukur `show` (status+Runs terbaru) DAN keberadaan artefak beban-vonis (`qc-AB.md`). Bila artefak belum ada: NYATAKAN notifikasi basi/replay, jangan vonis artefak yang belum dibuat, dan jangan tayangkan komentar palsu. Vonis menyusul saat notifikasi berikutnya dengan artefak nyata.
 - Kebalikan yang juga benar: L20/FIX-3 - status done + artefak ada + angka cocok => vonis langsung.
 - Pelajaran-ke-9 naik level: bukan hanya PETA yang bergeser antar cetakan - ISI RESULT notifikasi bisa merujuk run lama. Sumber kebenaran = baris Runs terbaru + byte disk.
 

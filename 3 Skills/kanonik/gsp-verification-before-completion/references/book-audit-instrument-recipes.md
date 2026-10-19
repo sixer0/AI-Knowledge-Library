@@ -32,7 +32,7 @@ Tiga kasus 05-10:
 ## 5. Pemulihan EDIT run-2 (standar naik; EDIT-1213/1516/1718 beruntun 05-10)
 - Timeout EDIT: ukur suntingan parsial vs BASIS VONIS (byte delta + mtime) dulu. Nol apply = state bersih, retry mulai normal; parsial = audit-vs-basis, DILARANG apply ulang buta.
 - Wajib: arsip pra-sunting byte-match basis vonis (`bNN_pre_<sha8>`) — preseden EDIT-910 dipertahankan semua run berikutnya.
-- Adjudikasi FAIL spot vs hulu SATU-SATU sebelum sunting: bedakan cacat naskah vs cacat needle instrumen (& vs "dan", < vs "di bawah", over-escape regex, lookahead spasi-wajib, pagar kode terindentasi). Nol-koreksi-badan yang benar lahir dari adjudikasi, bukan dari mengabaikan FAIL.
+- Adjudikasi FAIL spot vs hulu SATU-SATU sebelum sunting: bedakan cacat naskah vs cacat needle instrumen (& vs "dan", < vs "di bawah", over-escape regex, lookahead spasi-wajib, pagar kode terindentasi). Nol-koreksi-badan yang benar berasal dari adjudikasi, bukan dari mengabaikan FAIL.
 - GERBANG LAYAK STANDAR: AKURASI-POPULASI — uji SEMUA tag klaim inline vs baris sumbernya (333/333 dan 311/311, MISS=0), naik dari sampling spot.
 - Workdir kartu bisa bernama id-kartu (`_work/t_59623fef/`) bukan slug — glob `_work/*` sebelum menyimpulkan "tanpa jejak".
 - Owner-edit label (UJI-LABEL): koreksi domain oleh pemilik artefak lewat kartu resmi + blok riwayat kepala berkas + nol-mutasi-bukti-mentah terverifikasi hash agregat; rujukan hilir memakai path+tanggal, bukan sha laporan (sha laporan boleh berubah pasca-gerbang tanpa membahayakan rantai).

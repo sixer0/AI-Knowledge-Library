@@ -32,7 +32,7 @@ dispatcher mematuhi batas konkurensi (maks 5 per misi, tanpa batas per jenis; no
 - Skrip generator = infra/ops controller (pengecualian sempit G-2), bukan kerja substantif.
 - Prasyarat read-only bersama (mis. `SCHEMA.md` untuk semua pengumpul) juga sah ditulis
   controller sebagai salinan deterministik dari RT/TA, lalu dianggap memenuhi langkah
-  blueprint tsb (catat di Decision Log).
+  blueprint tersebut (catat di Decision Log).
 
 ## 3. Kartu lanjutan (resume) dari partial-handoff — resep isi
 

@@ -9,7 +9,7 @@ Aturan induk: notifikasi `completed/timeout/blocked/gave up/superseded` = KLAIM 
 
 ## 2. Pin lineage & rekonsiliasi hash
 - Bekukan pin pengawas SHA256[:16] per artefak; catat SETIAP suntingan sah sebagai transisi pin lama->baru ber-alasan (garis keturunan, bukan pengganti diam-diam).
-- Alias hash antar-agen: klaim worker bisa SHA1-16 padahal pengawas ukur SHA256-16. Sebelum vonis mismatch, probe multi-algoritma (md5/sha1/sha256) dan bekukan KEDUA nilai (konvensi NIT dua-algoritma lahir dari kasus CH04/RM-3).
+- Alias hash antar-agen: klaim worker bisa SHA1-16 padahal pengawas ukur SHA256-16. Sebelum vonis mismatch, probe multi-algoritma (md5/sha1/sha256) dan bekukan KEDUA nilai (konvensi NIT dua-algoritma berasal dari kasus CH04/RM-3).
 - Repo yang rentan rewrite git: pin TREE-HASH (`rev-parse HEAD^{tree}` + sha256 konten), bukan commit-hash.
 - Pin diukur SETELAH verify terakhir (hukum FIXA: run-4 PROMANUAL mati karena register ditulis ulang 39 detik SETELAH VERIFY tercetak; VERIFY.out tertinggal satu langkah). Verifikasi urutan mtime: sunting -> scan -> verify -> laporan; microfix WAJIB memicu rescan+reverify sebelum klaim AFTER.
 
@@ -44,7 +44,7 @@ Klasifikasi state: (a) mati sebelum pena (nol artefak), (b) badan lahir gerbang 
 - C-13 identifier subjek-konten API (shared_prefs/best_score/save_game/TTS Asli) = kelas allow-list controller.
 - C-15 maks kalimat ekstrem = blok register H.2.1 (kelas FM).
 - CJK tersesat di keluaran agen ('决定性' di laporan QC + body kartu + bahkan draf komentar PENGAWAS sendiri) - sensor CJK=0 wajib jalan bahkan untuk teks pengawas.
-- Vision QA = satu-satunya penangkap kelas SEMANTIK figur (penanda-vs-elemen, desinkron caption, glyph-fallback mathtext '$'); hash stabil + margin hijau BUKAN bukti kebenaran visual. Gerbang deterministik baru (containment J, mathtext pre-render) lahir dari temuan vision - siklus mesin<->mata saling konfirmasi dua arah.
+- Vision QA = satu-satunya penangkap kelas SEMANTIK figur (penanda-vs-elemen, desinkron caption, glyph-fallback mathtext '$'); hash stabil + margin hijau BUKAN bukti kebenaran visual. Gerbang deterministik baru (containment J, mathtext pre-render) berasal dari temuan vision - siklus mesin<->mata saling konfirmasi dua arah.
 
 ## 9. Gotchas alat
 - Komentar panjang ber-apostrof: tulis ke berkas temp, kirim `$(cat berkas)`; rangkai perintah dengan `;` bukan `&&`.

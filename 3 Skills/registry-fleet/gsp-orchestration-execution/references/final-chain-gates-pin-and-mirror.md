@@ -5,7 +5,7 @@ Preseden: RAFIF-MOBILE-0928 (28-09 s/d 29-09, 79 kartu done, rilis PASS 19/19) +
 - Definisi beku: baris REGISTER KLAIM lajur yang URL-nya TERCIPTA di badan kitab; ambang >=70%. Instrumen parser mencetak per-lajur + AGREGAT ke `process/UTILISASI.log`.
 - ASM menutup tapi agregat 67,0% FAIL -> controller TIDAK menunggu VS; buat kartu remediasi (REM-UTIL) sisip rujukan URL sebagai sitasi wajar per bab, konten-kekal mutlak, dan BLOCK kartu VS dengan alasan gerbang + angka.
 - **Block tidak selalu menahan dispatcher**: VS terpromosi ulang dan tetap vonis (FAIL G9 ter-replikasi identik). Hasilnya tidak hangus bila verifier mereplikasi angka - tapi jangan andalkan; block tetap benar sebagai sinyal.
-- Remediasi sah: URL ditempel PERSIS dari register beku (RULE PRESISI-HASIL), definisi parser JANGAN diubah demi angka; target margin di atas ambang (72% utk ambang 70%). G9 67,0 -> 71,8% diterima setelah controller ukur ulang sha+agregat di disk.
+- Remediasi sah: URL ditempel PERSIS dari register beku (RULE PRESISI-HASIL), definisi parser JANGAN diubah demi angka; target margin di atas ambang (72% untuk ambang 70%). G9 67,0 -> 71,8% diterima setelah controller ukur ulang sha+agregat di disk.
 - Putusan CAPPED per lajur memakai **jarak-ke-ambang + kelayakan infra**, bukan keseragaman jumlah mata: L4 (10,4%, dekat ambang) dapat mata-4; L6/L5 (20%+ dan harness browser mati persisten) divonis CAPPED tanpa mata tambahan.
 
 ## 2. Pin beku untuk hilir (WAJIB saat kitab masih bergerak)
@@ -34,4 +34,4 @@ W12 gave-up retries-habis TANPA artefak, 3x timeout identik. Akar dari body kart
 - Preseden: cache mentah besar (research/raw ~1 GB) dan biner produk (APK 54 MB) DIKECUALIKAN dari repo; kontrak+bab+process+verification+artefak final (md/docx/pdf) dimirror ke `hermes-home/workspace/docs/<misi>/`.
 - PITFALL gitignore: `hermes-home/**/*.log` membuat log kunci misi (UTILISASI pass, RUN-A/B verifier) ter-exclude DIAM-DIAM padahal preseden repo punya puluhan .log ter-commit di jalur lain -> `git add -f` berkas log kunci.
 - CHANGELOG repo ini CRLF: sisip baris tabel via tulis-biner (split b'\r\n'), bukan edit teks biasa; entri `(commit ini)` per tanggal sesuai konvensi.
-- Urutan aman: `git add <path-eksplisit>` (tanpa -A), scan staged diff utk literal secret (nol), cek `git log origin/main..HEAD` sebelum commit (gate ahead), commit, push, `git ls-remote origin HEAD == git rev-parse HEAD`.
+- Urutan aman: `git add <path-eksplisit>` (tanpa -A), scan staged diff untuk literal secret (nol), cek `git log origin/main..HEAD` sebelum commit (gate ahead), commit, push, `git ls-remote origin HEAD == git rev-parse HEAD`.

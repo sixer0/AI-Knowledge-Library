@@ -656,7 +656,7 @@ When master-controller confirms Option B:
 |--------|-------------|--------------|
 | **Step** | Sequential integer | No ranges, no sub-steps |
 | **Task Description** | Single, atomic action | No "and" connecting distinct actions |
-| **Agent_to_Invoke** | gsp-thinker / gsp-worker / gsp-worker-fast (atau profil khusus registri) | Nama hantu era 52 = cacat blueprint |
+| **Agent_to_Invoke** | gsp-thinker / gsp-worker / gsp-worker-fast (atau profil khusus registri) | Nama yang tidak terdaftar era 52 = cacat blueprint |
 | **Expected Output** | Single concrete deliverable | Exactly ONE output per row |
 | **Depends On** | Prerequisite step(s) | DAG must be acyclic; edge hanya ke hulu data nyata |
 | **Verification** | Measurable criteria | Not subjective |
@@ -767,7 +767,7 @@ Jumlah paralel per misi TIDAK dibatasi lagi. Yang wajib dirancang TA: (1) partis
 | Writing initial project protocols manually each time | Use Phase 5 templates and adapt them to the specific project |
 | Duplicating narrative quality rules across multiple sections | Load Phase 4 from this skill; keep one reference in task-architect.md |
 | Melempar langkah tanpa padanan ke `coder-execution` (catch-all) | Tandai `ASSIGNEE_UNMATCHED`, kembalikan ke controller; pilih spesialis terdekat dari peta profil live |
-| Assignee nama profil lama/hantu (mis. `brahma`) atau tanpa assignee | Validasi folder profil live saat desain; dispatcher hanya klaim assignee nyata |
+| Assignee nama profil lama yang tidak aktif (mis. `brahma`) atau tanpa assignee | Validasi folder profil live saat desain; dispatcher hanya klaim assignee nyata |
 | Copying the full return-to-controller format in agent file | Reference Phase 6 of this skill |
 
 ---

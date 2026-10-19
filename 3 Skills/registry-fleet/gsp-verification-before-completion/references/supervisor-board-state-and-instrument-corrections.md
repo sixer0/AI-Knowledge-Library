@@ -20,7 +20,7 @@ completed padahal `hermes kanban show` masih running). Urutan wajib:
 ## 2. Peta state timeout, blocked, dan gave_up
 - timeout run-N: state masih running, ada nomor run, daftar run yang dicoba, dan
   last_error. Bedakan worker yang mati SEBELUM menulis artefak versus menit terakhir
-  sebelum artefak lahir (mtime membocorkan urutan). Disk bersih berarti nol risiko.
+  sebelum artefak dibuat (mtime membocorkan urutan). Disk bersih berarti nol risiko.
 - blocked dengan partial-handoff LAD AMBANG-B: cari blok SISA_KERJA dan
   KARTU_LANJUTAN. Verifikasi klaim butir selesai di disk, bukan dari ringkasan, lalu
   CEK CAKUPAN kartu lanjutan terhadap SISA_KERJA. Kalau kartu anak hanya

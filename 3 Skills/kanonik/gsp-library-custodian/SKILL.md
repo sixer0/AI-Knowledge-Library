@@ -227,7 +227,7 @@ Pitfall kecil skrip checker sendiri yang terbukti di RC9: (a) cek "nilai frontma
 
 ## Konfirmasi verdict sesi kembar: audit REKOMENDASINYA juga (kartu t_9a539bfd, 2026-09-03)
 
-Kartu kembar (dua kartu dgn daftar objek identik dibuat dua sesi cron berbarengan) membuat
+Kartu kembar (dua kartu dengan daftar objek identik dibuat dua sesi cron berbarengan) membuat
 verdict bisa tertulis oleh sesi lain SEBELUM kamu selesai, lalu librarian mempromosikan subsetnya
 saat kamu masih bekerja. Aturan "jangan ditumpuk, konfirmasi saja" tetap benar, tetapi
 konfirmasi harus menguji ulang tiga hal, bukan satu:

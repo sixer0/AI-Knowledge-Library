@@ -35,7 +35,7 @@ Ini sepupu kelas 37.659 (TA-INDUK mengutip byte state-tulis-menengah): angka lap
 cetakan alat - yang menang selalu alat, tetapi bedakan dulu sebab selisihnya (race baca,
 typo, atau mutasi) sebelum menuduh era.
 
-## 3. Arah penyembuhan 'bukti hantu': klaim disesuaikan ke bukti, bukan sebaliknya (BTN-07 veto, GM-H11a)
+## 3. Arah penyembuhan 'bukti yang tidak tersedia': klaim disesuaikan ke bukti, bukan sebaliknya (BTN-07 veto, GM-H11a)
 
 Satu-satunya veto kursi-1 (D4=1): prosa buku mengklaim contoh muncul di "empat tempat
 berbeda" padahal bukti grep hanya 4 kemunculan identik BERDERET di satu berkas. Obat yang

@@ -1,6 +1,6 @@
 # Supervisor Verification & Sensor Discipline (class-level, distilled 06-12)
 
-Presiden pola dari dua malam supervisi lintas-enam-papan (PROMANUAL, GAYA-AHLI, RAFIFUNITY, PROMANUAL-V2, EKASLAP, VISUAL). Semua vonis pengawas lahir dari CETAKAN ALAT pada giliran itu - tidak ada satu pun klaim dikutip dari laporan pekerja atau ingatan.
+Presiden pola dari dua malam supervisi lintas-enam-papan (PROMANUAL, GAYA-AHLI, RAFIFUNITY, PROMANUAL-V2, EKASLAP, VISUAL). Semua vonis pengawas berasal dari CETAKAN ALAT pada giliran itu - tidak ada satu pun klaim dikutip dari laporan pekerja atau ingatan.
 
 ## A. Pola kerja countersign pengawas (ulang tiap kartu selesai)
 1. JANGAN percaya status `completed` dari judul/notifikasi. Buka papan (`hermes kanban show <id>` lewat skrip python subprocess - bukan grep inline yang rawan petik), baca result penuh + event runs (durasi!) + komentar.
@@ -40,6 +40,6 @@ Semua pernah menipu sensor pengawas sendiri dan DIBETULKAN sebelum vonis tayang:
 
 ## E. Transfer fleet yang terbukti sehat
 - Alat vonis identik byte di SEMUA salinan profil (F-25-7: gsp-verifier mirror v1.9.1 basi -> resync; cek `cmp`/sha dua jalur sebelum memakai alat pihak-lain).
-- Register allow-list ber-fixture (G-NAT-53) + kanal per-genre (KAL `standar`: C-7 rasio <=20%, C-8 vocab tertutup enam label bidang) - pelonggaran lewat putusan ber-angka, bukan ambang global; delta alat HANYA yang diputus + fixture merah-hijau + kontrol arah (kanal lama tetap menagih).
+- Register allow-list ber-fixture (G-NAT-53) + kanal per-genre (KAL `standar`: C-7 rasio <=20%, C-8 vocab tertutup enam label bidang) - pelonggaran lewat putusan ber-angka, bukan ambang global; delta alat HANYA yang diputus + fixture merah-hijau + kontrol arah (kanal lama tetap diberlakukan).
 - Penjurian: dua-juri buta-dari-awal (`ls` kosong direkam), SARING/LEPAS dua lapis, selisih>=2 -> adjudikator skor-terkunci-sebelum-baca, goalpost tidak bergeser (gagal substansial vs prosedur dibedakan), disclosure buta-sebagian dibukukan.
 - Promosi library: verdict-first custodian-menolak + gatekeeper verifikasi-mandiri (ILPRO-2), status usulan->dipromosikan dengan riwayat-catatan di objek.

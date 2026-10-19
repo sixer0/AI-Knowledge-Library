@@ -23,7 +23,7 @@ Kasus GEL3-B: koreksi-kedua pengawas sendiri keliru ('direktori tak pernah dibua
 
 ## 6. Pin lineage, hash alias, dan hukum urutan waktu
 - Repo yang riwayatnya bisa di-rewrite: pin TREE-HASH, bukan commit-hash (durian-dodge: tree 37475934fc8a340d / TREE-SHA256 d7747397 / HEAD c7d45cc; reviewer kini mengukur tree awal-DAN-akhir run).
-- Klaim worker bisa SHA1-16 saat pengawas ukur SHA256-16: probe multi-algoritma sebelum vonis mismatch; bekukan kedua nilai (konvensi NIT-2 tabel pin dua-algoritma lahir dari sini).
+- Klaim worker bisa SHA1-16 saat pengawas ukur SHA256-16: probe multi-algoritma sebelum vonis mismatch; bekukan kedua nilai (konvensi NIT-2 tabel pin dua-algoritma berasal dari sini).
 - Hukum FIXA: pin sha16 diukur SETELAH verify terakhir; suntingan sesudah verify membatalkan pin laporan. Urutan sehat: kunci isi -> verify -> scanner -> laporan (terbukti jadi refleks di tiga papan).
 - Instrumen yang diperketat mewajibkan UJI-REGRESI artefak yang sudah lulus versi lama (kasus figur gel-1 vs gerbang baru; preseden MUTU/GRILIS).
 

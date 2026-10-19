@@ -1,6 +1,8 @@
 # Batas Pengetahuan
 
-Berkas ini adalah daftar keterbatasan paket dan bukan ringkasan isi, karena setiap butirnya menyatakan topik yang secara sadar tidak terjawab dari korpus beku beserta cara ukur yang dipakai untuk memvonisnya. Pernyataan kesegaran R-10 mengikat daftar ini pada baseline beku 16-09-2026, yaitu tanggal mirror lokal 49 berkas diambil, sehingga edisi lebih baru dari IATG, UN Model Regulations, UN Manual of Tests, maupun regulasi ATF belum dijangkau dan belum diuji sama sekali. Setiap vonis ketiadaan pada seksi berikutnya dihasilkan dengan grep regex atas lapisan teks penuh berkas yang disebut pada kolom dokumen, bukan dari dugaan ketiadaan, dan vonis itu hanya sah untuk berkas yang benar-benar dipindai. Jawaban atas pertanyaan yang masuk daftar ini wajib berupa penolakan sah yang menyebut butir terkait, sebab satu angka tanpa sumber pada paket berrujukan justru menghapus alasan paket ini dipertahankan.
+Berkas ini adalah daftar keterbatasan paket dan bukan ringkasan isi, karena setiap butirnya menyatakan topik yang secara sadar tidak terjawab dari korpus beku beserta cara ukur yang dipakai untuk memvonisnya. Pernyataan kesegaran R-10 mengikat daftar ini pada baseline beku 16-09-2026, yaitu tanggal mirror lokal 49 berkas diambil, sehingga edisi lebih baru dari IATG, UN Model Regulations, UN Manual of Tests, maupun regulasi ATF belum dijangkau dan belum diuji sama sekali.
+
+Setiap vonis ketiadaan pada seksi berikutnya dihasilkan dengan grep regex atas lapisan teks penuh berkas yang disebut pada kolom dokumen, bukan dari dugaan ketiadaan, dan vonis itu hanya sah untuk berkas yang benar-benar dipindai. Jawaban atas pertanyaan yang masuk daftar ini wajib berupa penolakan sah yang menyebut butir terkait, sebab satu angka tanpa sumber pada paket berrujukan justru menghapus alasan paket ini dipertahankan.
 
 ## Topik yang dinyatakan TIDAK ADA di korpus (kelas TIDAK-ADA-DI-KORPUS)
 

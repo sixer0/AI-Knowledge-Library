@@ -101,7 +101,7 @@ metadata:
 | F2 run melebihi masa | umur run (`task_runs.started_at` via `current_run_id`; fallback `tasks.started_at`) > `max_runtime_seconds` + 600 s grace kernel + 900 s margin deteksi | per kartu | `max_runtime_seconds` NULL → LEWATI kartu itu (E1) |
 | F3 rantai hening | rantai misi (kartu + turunan `task_links`) tanpa event apa pun padahal ada anggota `running`/`ready`/`todo` | > 2 jam | gerbang murni tetap milik kelas A |
 | F4 ready yatim | status `ready` tanpa event `claimed` sejak promosi | > 30 menit | DIKECUALIKAN: judul berawalan `[PING][tm]` (anti-rekursi); korban assignee tak dikenal ikut tertangkap di sini |
-| F5 gerbang kecelakaan | event gerbang terakhir termasuk `gave_up`/`timed_out`, status `blocked`/`review`, belum ada komentar pihak selain task-monitor sejak event itu | umur > 30 menit | mempercepat ambang A khusus gerbang lahir dari kecelakaan mesin |
+| F5 gerbang kecelakaan | event gerbang terakhir termasuk `gave_up`/`timed_out`, status `blocked`/`review`, belum ada komentar pihak selain task-monitor sejak event itu | umur > 30 menit | mempercepat ambang A khusus gerbang berasal dari kecelakaan mesin |
 
 Guard SEMUA kelas F (sebelum sweep maupun eksekusi): kartu parked (key notepad `parked`)
 jangan pernah disentuh; judul berawalan `[PING][tm]` dikecualikan dari sweep F.

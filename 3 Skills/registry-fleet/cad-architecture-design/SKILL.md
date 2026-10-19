@@ -213,7 +213,7 @@ Ordo dan offset garis (skala 1:100; skala lain dikali faktor skala cetak):
 Aturan struktur rantai:
 - R1: atau rantai ordo-2 = seluruh bentang grid pada arah itu, tanpa melompati as. Jumlah = (Nx-1) arah X + (Ny-1) arah Y.
 - R2: atau rantai ordo-3 = tepat 2 dimensi (lebar total, panjang total).
-- R3: TUTUP RANTAI: |sum(segmen ordo-2 arah X) - ordo-3 X| <= 1 mm; sama utk Y. Nilai ordo-1 bukaan harus == `lebar` bukaan di schedule +- 0 mm.
+- R3: TUTUP RANTAI: |sum(segmen ordo-2 arah X) - ordo-3 X| <= 1 mm; sama untuk Y. Nilai ordo-1 bukaan harus == `lebar` bukaan di schedule +- 0 mm.
 - R4: tiap bukaan pada fasad yang didenahkan mendapat dimensi lebar ordo-1.
 
 ### KSPE-2b Zona label dan aturan anti-tumpang-tindih (numerik)
@@ -226,7 +226,7 @@ skala cad-drawing-standards seksi 3):
 | ID | Aturan numerik |
 |---|---|
 | ZL-1 | Label utama ruang = kode `R-xxx`, tinggi 350 (1:100), di CENTROID poligon ruang. Bila bbox label (lebar estimasi x tinggi) tidak muat di dalam poligon yang di-inset 300 mm dari sisi dalam, pindah blok label ke luar poligon dengan garis pemimpin (leader) panjang 600-1500 mm sudut 30-60 derajat, ujung panah di centroid. |
-| ZL-2 | Blok label ruang = maksimum 3 baris: baris1 kode (h=350), baris2 nama (h=250), baris3 luas `nn,n m2` (h=250). Jarak antar baseline baris = 1,5 x tinggi baris atas (525 mm utk 350). Baris dilarang lebih dari 3; teks panjang dipecah dengan spasi kata, bukan diperkecil. |
+| ZL-2 | Blok label ruang = maksimum 3 baris: baris1 kode (h=350), baris2 nama (h=250), baris3 luas `nn,n m2` (h=250). Jarak antar baseline baris = 1,5 x tinggi baris atas (525 mm untuk 350). Baris dilarang lebih dari 3; teks panjang dipecah dengan spasi kata, bukan diperkecil. |
 | ZL-3 | Jarak bebas bbox label ke segmen dinding/bukaan/furnitur terdekat >= 300 mm (ZL-3 dipakai saat PENEMPATAN, HG-NEW-2 saat VERIFIKASI). |
 | ZL-4 | Jarak bersih antara bbox dua teks mana pun pada lembar yang sama >= 1,0 x tinggi teks TERBESAR dari pasangan itu. Implementasi uji: inflate bbox tiap teks ke luar sebesar 0,5 x tingginya sendiri; dua bbox ter-inflate tidak boleh berpotongan. |
 | ZL-5 | Teks dimensi (blok DIMENSION) ikut pool ZL-4; teks dimensi boleh berimpit dengan garis ekstensi/garis dimensi MILIKNYA SENDIRI, tidak dengan entitas lain. |
@@ -304,7 +304,7 @@ Berlaku untuk SEMUA lembar DXF paket (penomoran A/S/E/P/M/I/Q per orkestrator):
 | Panah utara | WAJIB pada semua denah + situasi: panah panjang 30 mm cetak + teks `UTARA` (h=5 mm cetak); utara model = +Y; bila denah diputar, panah mengikuti rotasi sebenarnya |
 | Daftar gambar | lembar `A-00_daftar_gambar` WAJIB ada: tabel (kode, judul, skala, ukuran kertas, status) yang JUMLAH BARISNYA == jumlah lembar DXF paket == jumlah halaman PDF (memperketat HG-B7) |
 | Grid referensi | bubble grid di EMPAT sisi lembar (huruf X, angka Y; lingkaran r=400 @1:100, X-GRID); zona referensi = `<huruf><angka>` (A1..E6) dipakai di laporan/notasi; jarak bubble antar sisi simetris |
-| Penamaan berkas | `<No>_<judul_snake>.dxf` (aturan lama, ditegaskan berlaku juga utk A-00) |
+| Penamaan berkas | `<No>_<judul_snake>.dxf` (aturan lama, ditegaskan berlaku juga untuk A-00) |
 
 ### KSPE-6 Uji diri pra-serah terima (setara HG-NEW-1..5)
 

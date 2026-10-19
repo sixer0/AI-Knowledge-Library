@@ -174,10 +174,10 @@ tanpa itu, JANGAN mengarang harga — pakai placeholder.
 
 ### Tahap 5 — Rekonsiliasi & sanity check
 
-- Cross-check beton: total m³ vs (luas lantai × 0,30–0,40 m³/m² utk ruko beton) —
+- Cross-check beton: total m³ vs (luas lantai × 0,30–0,40 m³/m² untuk ruko beton) —
   selisih > 25% → periksa ulang.
 - Besi/beton keseluruhan 130–180 kg/m³ — di luar itu, periksa.
-- Bata: luas dinding / luas lantai biasanya 1,0–1,6 utk hunian bersekat.
+- Bata: luas dinding / luas lantai biasanya 1,0–1,6 untuk hunian bersekat.
   PENGECUALIAN: bangunan pipih memanjang (ruko 4–5 m lebar, dinding samping
   masif setinggi bangunan) wajar mencapai 2,0–2,5 — jangan tandai salah,
   cukup jelaskan penyebab geometrinya.

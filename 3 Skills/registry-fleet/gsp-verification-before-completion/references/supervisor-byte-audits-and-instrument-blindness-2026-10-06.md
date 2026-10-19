@@ -25,13 +25,13 @@ Semua resep di bawah TERBUKTI jalan di giliran pengawas hari ini (vonis/counters
 - Klaim 'carry byte-identik + N suntingan terdaftar': buktikan dengan `difflib.SequenceMatcher` atas `_work/units/NN_chN.txt` (sumber beku) vs lapis buku; jumlah blok beda + posisi baris HARUS == klaim; `ndiff` kata-per-kata pada baris beda menunjukkan token persis yang bergeser (mis. Godot->Unity tunggal).
 - Uji verbatim-locator TIGA LAPIS untuk kartu aturan/manual: (a) ekstrak blok kutipan secara PER-BARIS - regex DOTALL patah oleh kutipan-bersarang dan menukar kutipan antar-blok (kasus V-04/V-09 'MISS' yang ternyata positif-palsu parser sendiri); (b) fragmen >25 kata dicocokkan ke path sumber setelah normalisasi whitespace; (c) NOMOR BARIS locator == baris nyata (575==575).
 - Saat angka parser-kasar pengawas beda dari cetakan alat deterministik (mis. rata-rata kata/kalimat 18,6 vs 14,1): yang divonis adalah CETAKAN ALAT - beda definisi pemecah kalimat bukan perselisihan; nyatakan sumbu mana yang diukur.
-- Disposisi W: bedakan butir rentang-agregat (W30 mewakili rentang) dari disposisi fisik sebelum menagih selisih jumlah (34 fisik == klaim meski sensus longgar mencetak 35).
+- Disposisi W: bedakan butir rentang-agregat (W30 mewakili rentang) dari disposisi fisik sebelum meminta penjelasan selisih jumlah (34 fisik == klaim meski sensus longgar mencetak 35).
 
 ## 6. Kartu gerbang terpromosi saat parent masih PARTIAL
 - Promosi parent-child kanban BUTA status partial: QC gerbang-final naik karena parent lama berstatus done padahal parent berhenti AMBANG-B sebelum rerun - byte objek belum berubah.
 - Sikap pengawas yang divonis SAH: pekerja QC menolak uji ('vonis menempel pada byte'; nol uji dijalankan, pra-flight enam bidang) = keputusan benar, bukan kegagalan kerja.
 - Traceroot untuk pemilik rantai: edge dependency gerbang-final wajib menunjuk kartu PENGUBAH byte terakhir (rerun), bukan sekadar 'parent selesai'. Preseden perbaikan: parents QC-GEL3-FINAL diperluas memuat kartu mata-5 kanonis.
-- Guard sisi pekerja kini mekanik: `list --json` sebelum pena pertama (anti-balapan, lahir dari balapan CH09; terbukti dipakai sendiri di CH13/CH28 dan menghentikan kartu duplikat GEL3-B dalam 73 detik tanpa suntingan).
+- Guard sisi pekerja kini mekanik: `list --json` sebelum pena pertama (anti-balapan, berasal dari balapan CH09; terbukti dipakai sendiri di CH13/CH28 dan menghentikan kartu duplikat GEL3-B dalam 73 detik tanpa suntingan).
 
 ## 7. Redeliver notifikasi = cek count sebelum komentar
 - Satu kartu bisa mengirim beberapa notifikasi (timeout->completed; blocked->completed superseded; completed dua kali). Proses SEKALI: grep-cocok frasa-spesifik komentar sendiri di `kanban show` SEBELUM kirim; sudah =1 -> tanpa komentar baru (catat di kontrak bila perlu).

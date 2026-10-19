@@ -20,5 +20,5 @@ Diturunkan dari post-mortem EXPO26-T1 (04-09): akar lambat = data diturunkan TAN
 2.636 baris stage-1 dengan fetch-once: ±45 menit (ThreadPool 8-10). Hilir tanpa re-fetch: gate final <5 menit. Total misi pendalaman expo berikutnya: target < 6 jam end-to-end (vs ~14 jam T1 karena daur-ulang).
 
 ## Gerbang anti-kelaparan-laju
-- Backend pencarian MATI SENYAP = defect (preseden firecrawl :3002 /v1 search mengembalikan [] untuk semua kueri). Wajib probe hidup + statistik tried/hit/err dicetak; hit=0 dgn tried>0 = alarm; tried=0 padahal ada baris tanpa-situs = GAGAL, bukan hasil.
+- Backend pencarian MATI SENYAP = defect (preseden firecrawl :3002 /v1 search mengembalikan [] untuk semua kueri). Wajib probe hidup + statistik tried/hit/err dicetak; hit=0 dengan tried>0 = alarm; tried=0 padahal ada baris tanpa-situs = GAGAL, bukan hasil.
 - Vonis matcher buta non-latin/akronim/nama-dagang: whitelist controller ber-alasan + bukti dua arah, JANGAN edit senyap.

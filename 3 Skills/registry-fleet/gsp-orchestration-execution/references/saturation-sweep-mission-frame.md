@@ -1,13 +1,13 @@
 # Pola misi SAPUAN BERGATE JENUH (saturation-gate sweep, multi-lajur)
 
-Terverifikasi 2026-09-12 pada misi IPDR-GLOBAL-0912 (docs/2026-09-12-ipdr-global/): sapuan global solusi IPDR utk kepolisian/keamanan, 8 lajur x 2 putaran, 213 entitas terukur, gerbang jenuh berjalan dengan aritmetika reproducible. Dipakai untuk permintaan kelas "cari seluruh dunia sampai tidak ada data baru".
+Terverifikasi 2026-09-12 pada misi IPDR-GLOBAL-0912 (docs/2026-09-12-ipdr-global/): sapuan global solusi IPDR untuk kepolisian/keamanan, 8 lajur x 2 putaran, 213 entitas terukur, gerbang jenuh berjalan dengan aritmetika reproducible. Dipakai untuk permintaan kelas "cari seluruh dunia sampai tidak ada data baru".
 
 ## Kerangka inti (WAJIB sebelum kartu lajur pertama)
 1. **Registri entitas kanonis = pembilang tunggal.** Vonis "tidak ada data baru" tanpa registri = klaim tak terverifikasi. Skema kolom dibekukan SEBELUM baris pertama masuk (kolom pembeda peran — mis. KANAL-JUAL aparat-vs-telko, MAKNA ganda istilah — wajib ada sejak skema v1; retrofit setelah ratusan baris jauh lebih mahal).
 2. **Dua dimensi terpisah:** lajur = jalur pengumpulan (C1..C8), sumbu penjodohan = lapisan kemampuan (R1..R7). Satu lajur mengisi beberapa lapis; blueprint wajib menjaga keduanya agar satu lapis tidak tampak terisi oleh satu jenis sumber saja.
 3. **Delta-only + single-writer merge:** kartu lajur HANYA menulis `registri/delta/<LAJUR>-r<k>.csv`; kartu merge khusus satu-satunya penulis master (anti tabrakan tulis N lajur paralel — RSK nyata). Merge wajib: dedup kunci (nama-normalisasi ATAU root domain), entity-match pintu masuk 100% dengan FETCH SENDIRI (jangan percaya delta), register reject dengan alasan.
 4. **Gerbang jenuh eksak, tercetak script:** `pct(L,r) = 100*U/max(N0,1)` per LAJUR per putaran (bukan gabungan — lajur kecil jenuh palsu, lajur besar tak pernah jenuh); JENUH bila pct<5 DUA putaran berturut; lajur kecil boleh ambang absolut (U<=2) beralasan tercatat. Seed builder dan seed verifier WAJIB beda dan tercetak di log. Vonis final milik kartu gerbang (M3), bukan pekerja lajur.
-5. **Putaran = satu lintasan penuh tangga ofensif 8 kelas** atas lajur itu. Putaran-2 lahir dari ANGKA merge (daftar lajur belum jenuh), bukan spekulasi; rencana r2 per lajur disalin ke badan kartu (mis. "jalur terblokir r1 wajib dieksekusi ulang lewat kelas jalur lain").
+5. **Putaran = satu lintasan penuh tangga ofensif 8 kelas** atas lajur itu. Putaran-2 berasal dari ANGKA merge (daftar lajur belum jenuh), bukan spekulasi; rencana r2 per lajur disalin ke badan kartu (mis. "jalur terblokir r1 wajib dieksekusi ulang lewat kelas jalur lain").
 
 ## Misi paralel salin-silang (dua misi satu ranah)
 - SATU registri logis; fisik dimiliki SATU misi (single owner); misi lain tidak pernah menulis silang. Seed masuk dari artefak misi hulu (entri warisan membawa ID asal, ID hulu tidak pernah dibuat ulang oleh misi baru). Arus balik lewat dokumen laporan ke controller -> dicatat di kontrak misi hulu. Nomor register deliverable dipartisi di Decision Log sebelum kartu pertama (tabrak nomor = rekonsiliasi paksa).

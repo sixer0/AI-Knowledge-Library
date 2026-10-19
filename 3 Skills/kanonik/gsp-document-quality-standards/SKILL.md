@@ -816,7 +816,7 @@ bab (buku, kajian, proposal berstruktur; kanal pendek dan memo satu-layar dikecu
    yang mengubah cara pembaca melihat masalah, atau angka yang menjatuhkan asumsi
    umum. Momen ini disengaja dan ditulis dengan kalimat penanda ("ternyata", "yang
    menentukan justru", "di sinilah bedanya"). Tanpa satu pun titik balik, pembaca
-   tidak punya alasan melanjutkan. Gerbang: C-24 (menagih).
+   tidak punya alasan melanjutkan. Gerbang: C-24 (berlaku dalam penilaian).
 4. **Bab bukan katalog.** Prosa naratif (kalimat berpredikat yang bergerak) minimal
    30% dari isi bab; tabel dan register adalah alat bantu, bukan badan. Bab yang
    isinya hanya baris data kehilangan fungsi berceritanya - pindahkan data ke

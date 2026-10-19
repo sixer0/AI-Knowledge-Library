@@ -15,7 +15,7 @@ Aturan standar WAJIB diturunkan dari artefak manusia profesional NYATA: kutipan 
 - Bukti hidup: retrofit 1-2 seksi keluaran lama before-after berdampingan, tiap suntingan berpenanda aturan + gerbang konten-kekal (identifier/fakta utuh dua sisi, angka dari parser bukan kesan) + juri buta menilai pasangan.
 
 ## Pola pemulihan yang terbukti (D-16 dsb)
-- Worker mati karena limit bridge 1800s SETELAH badan artefak lahir (terjadi 4x di misi ini): JANGAN restart dari nol (menimpa artefak = preseden buruk). Controller mengukur sendiri artefak dengan parser independen (cacah aturan vs outline, kelengkapan bidang, glif, baris terakhir utuh) lalu force-done ber-bukti di result/komentar. Mitigasi kartu berat: --max-runtime 3600 + short check diminta DI AWAL kerja, bukan di akhir.
+- Worker mati karena limit bridge 1800s SETELAH isi artefak tersimpan (terjadi 4x di misi ini): JANGAN restart dari nol (menimpa artefak = preseden buruk). Controller mengukur sendiri artefak dengan parser independen (cacah aturan vs outline, kelengkapan bidang, glif, baris terakhir utuh) lalu force-done ber-bukti di result/komentar. Mitigasi kartu berat: --max-runtime 3600 + short check diminta DI AWAL kerja, bukan di akhir.
 - Kartu done tanpa result (run mati pasca-tulis): tutup dengan komentar/result controller ber-bukti ukur; jangan biarkan menggantung.
 - Komentar pengalihan yang mem-pin sha16 jadi BASI saat worker rebuild artefak (kelas "pin-komentar-vs-artefak-hidup"). Pen-pin-an sah = result kartu TERAKHIR; perbarui/batalkan komentar saat rebuild.
 - needs-review berisi temuan sah (mis. whitelist belum mencakup padanan bahasa lain): controller bikin PUTUSAN TERTULIS ber-alasan di Decision Log + kartu perbaikan terpisah; jangan diam-diam, jangan vonis pekerja gagal.

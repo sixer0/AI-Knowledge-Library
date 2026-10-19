@@ -77,7 +77,7 @@ akurat tapi susunnya di bawah standar. Diff lengkap: `references/pelajaran-exemp
     catatan mengapa menebak nomor merusak register; isi tidak boleh bergantung nomor.
 
 ## Aturan permanen R-01..R-11 (WAJIB)
-- R-01 MODEL-DULU: semua besaran lahir dari SATU rantai hitung beku (spine); angka naskah
+- R-01 MODEL-DULU: semua besaran berasal dari SATU rantai hitung beku (spine); angka naskah
   DIIKAT dari register, dilarang diketik manual; sidik jari register (sha16) dicetak di
   penutup dan dikutip oleh dokumen turunan.
 - R-02 ORGANISASI-PER-SISTEM: bab disusun per subsistem/keputusan; dokumen sumber masuk bab
@@ -170,5 +170,5 @@ Dokumen ini adalah dokumen resmi panjang: gunakan bersama `gsp-document-quality-
 ## Changelog
 - 1.0.1 (10-09-2026): pitfall race proses latar di langkah serah (preseden REVB - notifikasi
   merge v4 mendarat telat, kartu tertulis ulang sebelum build; disiplin kill/audit berkas final).
-- 1.0.0 (09-09-2026): lahir dari PELAJARAN-EXEMPLAR-REVD; R-01..R-11 + anatomi 14 bagian +
+- 1.0.0 (09-09-2026): berasal dari PELAJARAN-EXEMPLAR-REVD; R-01..R-11 + anatomi 14 bagian +
   V-SUSUN 11 butir + 3 template.

@@ -45,7 +45,7 @@ sebagai tabel aktor+peran+status dalam satu jawaban tanpa penelusuran ulang.
   (loop antrean terpisah, kartu tetap jalan - bukti G3 running normal).
 - Deteksi cepat: grep "kanban list failed" bridge.out.log; ukur
   `hermes kanban --board default list --json | wc -c` vs 1048576.
-- Perbaikan yang sah (wewenang user utk restart): arsipkan kartu done lama
+- Perbaikan yang sah (wewenang user untuk restart): arsipkan kartu done lama
   (`hermes kanban archive`), atau naikkan MAX_OUT, atau mirror pakai `list
   --status !done`. Jangan restart bridge sendiri (kebijakan user).
 

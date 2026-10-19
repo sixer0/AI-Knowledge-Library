@@ -47,7 +47,7 @@ baru; hanya pemanggil jangka panjang (dispatcher loop) yang basi.
    `RANTAI-WAKE <kelas>` yang ditulis cron agent (perintahkan di prompt cron,
    karena pemindai read-only tidak boleh menulis). Dedup permanen tanpa marker
    = kartu hilang selamanya dari laporan.
-4. Anchor perbandingan ACK = waktu LAPOR-SELESAI bila ada (ACK mendarat
+4. Anchor perbandingan ACK = waktu LAPOR-SELESAI bila ada (ACK diterima
    sebelum complete), fallback ke event terminal.
 
 ## Resep harness yang terbukti

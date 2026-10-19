@@ -1,6 +1,8 @@
 # Silsilah Dokumen Korpus
 
-Berkas ini mencetak kedudukan setiap berkas korpus beku terhadap paket skill, lengkap dengan sidik jari, jumlah baris register yang disumbangkan, dan bab subsistem tempat sumbangan itu dipakai, sehingga pembaca menilai dari mana sebuah angka berasal tanpa membuka berkas aslinya. Sidik jari korpus sha16 adalah `4008721dce6863bd` dan sha256 penuh `4008721dce6863bd43060689d9a359d821fc025b1f6bbb0d459e68a338e08380`, dihitung dari daftar kanonis `nama|sha256` sebanyak 49 baris urut alfabetis atas `corpus/_manifest.json`. Register beku yang memakai silsilah ini membawa sidik jari register sha16 `88eff3876c72a5f9` dan sebanyak 1341 baris, dan setiap baris register menunjuk tepat satu berkas manifest sehingga tidak ada angka yatim di luar tabel ini. Keterbatasan kedudukan ini adalah sifatnya yang melekat pada mirror lokal bertanggal: berkas yang terbit setelah tanggal baseline tidak masuk daftar dan belum diuji oleh paket ini sama sekali.
+Berkas ini mencetak kedudukan setiap berkas korpus beku terhadap paket skill, lengkap dengan sidik jari, jumlah baris register yang disumbangkan, dan bab subsistem tempat sumbangan itu dipakai, sehingga pembaca menilai dari mana sebuah angka berasal tanpa membuka berkas aslinya. Sidik jari korpus sha16 adalah `4008721dce6863bd` dan sha256 penuh `4008721dce6863bd43060689d9a359d821fc025b1f6bbb0d459e68a338e08380`, dihitung dari daftar kanonis `nama|sha256` sebanyak 49 baris urut alfabetis atas `corpus/_manifest.json`. Register beku yang memakai silsilah ini membawa sidik jari register sha16 `88eff3876c72a5f9` dan sebanyak 1341 baris, dan setiap baris register menunjuk tepat satu berkas manifest sehingga tidak ada angka yatim di luar tabel ini.
+
+Keterbatasan kedudukan ini adalah sifatnya yang melekat pada mirror lokal bertanggal: berkas yang terbit setelah tanggal baseline tidak masuk daftar dan belum diuji oleh paket ini sama sekali.
 
 ## Tabel kedudukan 49/49 berkas
 
@@ -58,7 +60,9 @@ Berkas ini mencetak kedudukan setiap berkas korpus beku terhadap paket skill, le
 
 ## Hasil uji duplikat varian penamaan
 
-Empat pasangan berkas varian penamaan diuji oleh kartu hulu dengan sha256 utuh ditambah diff lapisan teks, dan vonis tiap pasangan dicetak pada baris register yang bersangkutan agar pemeriksa dapat menguji ulang vonisnya tanpa mengulang pengujian. Tiga vonis pertama tercetak pada tabel di bawah ini, sedangkan vonis keempat milik pasangan `ST-SG-AC10-11` tercatat pada seksi catatan provenance tambahan karena pasangan itu muncul sebagai temuan identitas berkas dan bukan sebagai varian tata ulang. Tidak ada satu pun pasangan yang divonis duplikat byte, sehingga kedua anggota setiap pasangan tetap dihitung sebagai berkas sah pada korpus 49 berkas. Cara ukur kemiripan berbeda per kartu hulu dan dicatat apa adanya pada kolom catatan, termasuk angka kemiripan SequenceMatcher serta jumlah token footer hak cipta yang menjadi selisih.
+Empat pasangan berkas varian penamaan diuji oleh kartu hulu dengan sha256 utuh ditambah diff lapisan teks, dan vonis tiap pasangan dicetak pada baris register yang bersangkutan agar pemeriksa dapat menguji ulang vonisnya tanpa mengulang pengujian. Tiga vonis pertama tercetak pada tabel di bawah ini, sedangkan vonis keempat milik pasangan `ST-SG-AC10-11` tercatat pada seksi catatan provenance tambahan karena pasangan itu muncul sebagai temuan identitas berkas dan bukan sebagai varian tata ulang.
+
+Tidak ada satu pun pasangan yang divonis duplikat byte, sehingga kedua anggota setiap pasangan tetap dihitung sebagai berkas sah pada korpus 49 berkas. Cara ukur kemiripan berbeda per kartu hulu dan dicatat apa adanya pada kolom catatan, termasuk angka kemiripan SequenceMatcher serta jumlah token footer hak cipta yang menjadi selisih.
 
 | Berkas | Baris register | Vonis | Catatan |
 |---|---|---|---|
@@ -68,7 +72,11 @@ Empat pasangan berkas varian penamaan diuji oleh kartu hulu dengan sha256 utuh d
 
 ## Tabel angka ditarik dari peredaran
 
-Nol angka normatif ditarik dari peredaran pada baseline ini, artinya tidak ada satu pun nilai beku yang tergantikan oleh nilai baru di dalam korpus, dan vonis nol itu dibuktikan dengan pemindaian 1341 baris register atas pola `ditarik|diganti|tergantikan|supersed|obsolete|tidak berlaku lagi` yang menghasilkan dua kenaan pola dan nol kasus koreksi angka, karena kedua kenaan pada baris R-01-0097 dan R-07-0183 adalah pernyataan prosedur (penarikan persetujuan usulan amandemen dan penarikan kendaraan ke luar area eksplosif) dan bukan penggantian nilai beku. Yang terdokumentasi sebagai penggantian bersifat terminologi atau hubungan antar-edisi, bukan perubahan besaran, sehingga tabel di bawah ini mencatat jenis penggantian beserta bukti baris register tempat penggantian itu terlihat. Pemindaian pola adalah alat ukur deterministik atas teks register dan bukan penilaian semantik, sehingga bila sebuah koreksi angka ditulis tanpa kata kunci pola maka pemindaian ini tidak akan menangkapnya; keterbatasan itu disadari dan menjadi alasan kolom catatan wajib diisi pada baris revisi. Verifier yang ingin menggugat vonis nol ini cukup menjalankan ulang pola yang sama pada berkas mesin register.
+Nol angka normatif ditarik dari peredaran pada baseline ini, artinya tidak ada satu pun nilai beku yang tergantikan oleh nilai baru di dalam korpus, dan vonis nol itu dibuktikan dengan pemindaian 1341 baris register atas pola `ditarik|diganti|tergantikan|supersed|obsolete|tidak berlaku lagi` yang menghasilkan dua kenaan pola dan nol kasus koreksi angka, karena kedua kenaan pada baris R-01-0097 dan R-07-0183 adalah pernyataan prosedur (penarikan persetujuan usulan amandemen dan penarikan kendaraan ke luar area eksplosif) dan bukan penggantian nilai beku.
+
+Yang terdokumentasi sebagai penggantian bersifat terminologi atau hubungan antar-edisi, bukan perubahan besaran, sehingga tabel di bawah ini mencatat jenis penggantian beserta bukti baris register tempat penggantian itu terlihat. Pemindaian pola adalah alat ukur deterministik atas teks register dan bukan penilaian semantik, sehingga bila sebuah koreksi angka ditulis tanpa kata kunci pola maka pemindaian ini tidak akan menangkapnya; keterbatasan itu disadari dan menjadi alasan kolom catatan wajib diisi pada baris revisi.
+
+Verifier yang ingin menggugat vonis nol ini cukup menjalankan ulang pola yang sama pada berkas mesin register.
 
 | Butir | Status | Bukti |
 |---|---|---|
@@ -94,7 +102,9 @@ Nol angka normatif ditarik dari peredaran pada baseline ini, artinya tidak ada s
 
 ## Catatan tambal GAP (revisi 1.0.5)
 
-Bagian ini mencatat tambalan celah cakupan F2 yang naik pada revisi 1.0.5, karena vonis S14 menemukan dua puluh tiga halaman sumber yang butirnya belum terambil pada gelombang ekstraksi pertama dan Decision Log D-08 memerintahkan rantai tambal sebelum distribusi. Dua partisi tambalan dikerjakan terpisah lalu diverifikasi controller: GAP-EX1 menutup dua belas halaman dengan 153 baris dan GAP-EX2 menutup sebelas halaman dengan 153 baris, dengan uji silang pymupdf memastikan seluruh 306 kutipan mendarat pada halaman klaim masing-masing. Baris tambalan masuk ke register beku dengan menyambung penomoran per bab, mempertahankan `id` asal berprefiks GAP sebagai jejak, dan tanpa mengubah satu pun baris hulu, sehingga keterbatasan tambalan ini terletak pada belum dianyamnya butir GAP ke dalam prosa subsistem dan bukan pada bukti halamannya. Tabel di bawah mencetak sebaran tambalan per dokumen beserta halaman celah yang ditutup.
+Bagian ini mencatat tambalan celah cakupan F2 yang naik pada revisi 1.0.5, karena vonis S14 menemukan dua puluh tiga halaman sumber yang butirnya belum terambil pada gelombang ekstraksi pertama dan Decision Log D-08 memerintahkan rantai tambal sebelum distribusi. Dua partisi tambalan dikerjakan terpisah lalu diverifikasi controller: GAP-EX1 menutup dua belas halaman dengan 153 baris dan GAP-EX2 menutup sebelas halaman dengan 153 baris, dengan uji silang pymupdf memastikan seluruh 306 kutipan berada pada halaman yang dinyatakan masing-masing.
+
+Baris tambalan masuk ke register beku dengan menyambung penomoran per bab, mempertahankan `id` asal berprefiks GAP sebagai jejak, dan tanpa mengubah satu pun baris hulu, sehingga keterbatasan tambalan ini terletak pada belum dianyamnya butir GAP ke dalam prosa subsistem dan bukan pada bukti halamannya. Tabel di bawah mencetak sebaran tambalan per dokumen beserta halaman celah yang ditutup.
 
 | Dokumen | Halaman celah | Baris | Partisi |
 |---|---|---|---|

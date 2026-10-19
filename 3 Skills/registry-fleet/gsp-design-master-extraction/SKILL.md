@@ -37,7 +37,7 @@ Rujukan kanonik: SOP `C:/Users/TRIAL/workspace/handoff/imagegen21_sop_handoff.md
 3. **Isi dossier dengan VISION, bukan kira-kira**: untuk tiap halaman terpilih, panggil `vision_analyze`
    dan ekstrak token desain persis (judul tipografi, warna palet urut, gaya panel, ikon, komposisi).
    Silangkan dengan angka terukur manifest (tone/dominan) — bila vision dan pengukuran bertentangan,
-   ukur ulang crop; jangan menelan salah satu bulat-bulat.
+   ukur ulang crop; jangan menerima salah satunya tanpa pemeriksaan.
 4. Logo: hanya dari BERKAS yang user berikan (halaman PDF yang di-crop juga sah sebagai sumber berkas).
    Crop lockup dengan latar aslinya (jangan transparan), simpan @512, tandai `kind: reproduce_exactly`,
    posisikan TERAKHIR di `references.files`. Tanpa logo sama sekali: `logo_description` = "no logo" dan

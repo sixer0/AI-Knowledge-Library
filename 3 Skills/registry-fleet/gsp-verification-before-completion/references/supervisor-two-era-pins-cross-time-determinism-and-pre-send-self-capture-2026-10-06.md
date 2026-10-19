@@ -12,7 +12,7 @@ Objek yang disunting kartu healing BERGESER pin di antara giliran ukur pengawas 
 - Vonis/countersign SELALU menyebut sha16 objek yang diukurnya, dan menyebut status era ("vonis menempel X; objek hidup kini Y — healing evidently berjalan").
 - Hilir WAJIB mengulang instrumen atas pin hidup, dilarang mewarisi agregat era-lama (tagihan eksplisit saat O4-fix: jangan warisi 15/1/1).
 - Rantai arsip lengkap tiap era adalah prasyarat vonis-lepas (revD tervonis sempat TIDAK terarsip — tagihan S24; pemulihan via rekonstruksi ber-assert sampai sha cocok, lalu salin ke `_arsip/`). Vonis yang menunjuk byte yang tak bisa dibuka = cacat audit-trail.
-- Kelas "pin-komentar vs artefak-hidup": komentar pengalihan/controller yang mem-pin build lama lalu build baru lahir tanpa update-pin = deadlock; normakan pin sah = result kartu terakhir (SERAH GAYA memvonis FAIL sha sendiri dengan benar — contoh verifier yang menegakkan norma).
+- Kelas "pin-komentar vs artefak-hidup": komentar pengalihan/controller yang mem-pin build lama lalu build baru dibuat tanpa update-pin = deadlock; normakan pin sah = result kartu terakhir (SERAH GAYA memvonis FAIL sha sendiri dengan benar — contoh verifier yang menegakkan norma).
 
 ## 3. Sensor pra-tayang untuk teks pengawas sendiri (pelajaran-ke-9..12)
 

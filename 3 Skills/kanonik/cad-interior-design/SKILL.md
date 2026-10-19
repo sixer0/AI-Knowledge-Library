@@ -128,7 +128,7 @@ LED: ± 90–100 lumen/Watt. Downlight 12W ≈ 1100 lm.
 | R. keluarga | 150–250 | 2700–3000 K |
 | Dapur | 250 umum + 500 counter | 3000–4000 K |
 | KM | 150–250 | 3000–4000 K |
-| Area usaha/display | 300–500 | 4000 K (netral), CRI ≥ 90 utk produk |
+| Area usaha/display | 300–500 | 4000 K (netral), CRI ≥ 90 untuk produk |
 | Tangga/koridor | 100–150 | 3000 K |
 
 Contoh: area usaha 40 m² × 350 lux = 14.000 lm ÷ (1100 × 0,7) ≈ **18 downlight 12 W**.

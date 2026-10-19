@@ -11,7 +11,7 @@ yang terbukti bekerja (R3 akhirnya JENUH dalam dua siklus):
 
 1. Tafsir KETAT lebih dulu (D-11): dua siklus berturut MASING-MASING < 10 persen;
    siklus tepat 10,0% tidak lolos; jendela gabungan antar-siklus TIDAK sah. Vonis
-   "JENUH" yang lahir dari trik jendela diturunkan oleh verifier/controller.
+   "JENUH" yang berasal dari trik jendela diturunkan oleh verifier/controller.
 2. KONTRAK CAKUPAN LAJUR (D-12): tiap lajur diberi daftar butir kelas yang
    dijanjikan ke pembaca (turunan sah dari keputusan scope user - mis. "perwakilan
    terpilih per kelas, sensus hanya lampiran"). Panen dipisah dua kelas:

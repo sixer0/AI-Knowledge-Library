@@ -74,7 +74,7 @@ sebelumnya, bukan regresi; catat kedua cetakan di kontrak. Jangan klaim
 ## Kelas wake-scan done-unacked (silent-done)
 Kartu menutup (completed/blocked) >= DONE_UNACKED_MIN (5 mnt) tanpa komentar
 RANTAI-ACK DAN tanpa wake-sub = rantai selesai senyap. Anchor ACK = komentar
-LAPOR-SELESAI terakhir bila ada (protokol rute-4: ACK mendarat SEBELUM
+LAPOR-SELESAI terakhir bila ada (protokol rute-4: ACK diterima SEBELUM
 complete), jika tidak pakai event terminal. Tiga cacat instrumen yang tertangkap
 uji hidup saat membuatnya (semua harus dihindari desain ulang):
 1. daftar `excluded_ids` membuang SEMUA kartu done - kelas ini justru mencari

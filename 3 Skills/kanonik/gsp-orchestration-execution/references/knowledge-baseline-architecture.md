@@ -21,7 +21,7 @@ Setiap tugas menghasilkan dokumen dasar pengetahuan / baseline kuantitas / kajia
 14. PENUTUP LEMBAR VERIFIKASI AKHIR: tabel PEMERIKSAAN|CARA|HASIL; seksi "yang TIDAK diperiksa alat" (keputusan manusia); SIDIK JARI MODEL (sha16 register) yang wajib dikutip dokumen turunan.
 
 ## Aturan mengikat
-R-01 MODEL-DULU: semua besaran lahir dari SATU rantai hitung beku (spine skrip); angka naskah DIIKAT dari register (placeholder->isi otomatis), dilarang diketik tangan; sidik jari register dicetak di penutup.
+R-01 MODEL-DULU: semua besaran berasal dari SATU rantai hitung beku (spine skrip); angka naskah DIIKAT dari register (placeholder->isi otomatis), dilarang diketik tangan; sidik jari register dicetak di penutup.
 R-02 ORGANISASI-PER-SISTEM: bab = subsistem/keputusan; dokumen sumber hidup di bab silsilah.
 R-03 SATU DASAR LINGKUP ditetapkan eksplisit + tabel angka ditarik.
 R-04 DATA-MENTAH=BERKAS-KERJA: ekstraksi per-baris (steering "baris per baris") disimpan sebagai berkas kerja menyertai yang DIINDEKS lampiran; badan dokumen memuat model+register+keputusan. Gerbang count-baris menguji berkas kerja, BUKAN memaksa dump masuk badan.
@@ -31,7 +31,16 @@ R-07 TEMUAN AUDIT TERBIT dengan kelas+dampak+tindakan, termasuk dokumen sendiri.
 R-08 ROUTING PEMBACA + Q&A PEMERIKSA.
 R-09 REVISI APPEND-ONLY + lembar kendali berdampak.
 R-10 KESEGARAN KORPUS (paling murah dicegah, paling mahal ketahuan): sebelum membekukan angka, controller WAJIB (a) tanya user "adakah edisi/keputusan lebih baru dari berkas di folder ini?", (b) sweep disk folder proyek+Downloads+zip untuk berkas dengan nama serupa tanggal lebih baru, (c) catat register kedaluwarsa. Bila sumber primer edisi baru tak tersedia: nyatakan di dokumen bahwa baseline beku pada tanggal X dan edisi lebih baru belum terjangkau - JANGAN diam-diam. (Preseden: exemplar memakai P-0003 Rev A 8-Sep + keputusan direktur 113/234; korpus misi beku 29-Jul tanpa pertanyaan.)
-R-11 GERBANG V-SUSUN sebelum serah (di luar gerbang angka/desain/naturalisasi): (0) ASSERT LAYOUT atas BYTE JADI - ukur pgSz SEMUA seksi == token grid (mis. A4 = 11906x16838 twips) dan ukuran run badan == token (mis. Normal sz=19 = 9,5 pt) memakai alat pada berkas jadi; pernyataan "grid konsisten" tanpa ukur pgSz = gerbang klaim (preseden EKASLAP-1006 06-10: rakit menulis kanvas 94x66 cm, "51 halaman" ternyata inflasi kanvas, isi riil ~184 hal A4; keluhan visual user = vonis: diff artefak vs token, pulihkan mesin _GRID, jangan tambal gejala); (1) uji telusur - ambil 5 angka acak dari naskah, harus sampai ke register+dasar dalam <=2 langkah; (2) rasio kerapatan - halaman badan tanpa keputusan/angka terhitung, target <=30%; (3) routing pembaca ada; (4) rel bukti/sebaran tanda asal ada; (5) sidik jari register tercetak; (6) silsilah+angka ditarik ada di 10 halaman pertama. FAIL = kembali ke ARSITEKTUR (kartu TA), bukan tambal gejala di rakit.
+R-11 GERBANG V-SUSUN sebelum serah (di luar gerbang angka/desain/naturalisasi): (0) ASSERT LAYOUT atas BYTE JADI - ukur pgSz SEMUA seksi == token grid (mis. A4 = 11906x16838 twips) dan ukuran run badan == token (mis. Normal sz=19 = 9,5 pt) memakai alat pada berkas jadi; pernyataan "grid konsisten" tanpa ukur pgSz = gerbang klaim (preseden EKASLAP-1006 06-10: rakit menulis kanvas 94x66 cm, "51 halaman" ternyata inflasi kanvas, isi riil ~184 hal A4; keluhan visual user = vonis: diff artefak vs token, pulihkan mesin _GRID, jangan tambal gejala);
+
+- (1) uji telusur - ambil 5 angka acak dari naskah, harus sampai ke register+dasar dalam <=2 langkah;
+- (2) rasio kerapatan - halaman badan tanpa keputusan/angka terhitung, target <=30%;
+- (3) routing pembaca ada;
+- (4) rel bukti/sebaran tanda asal ada;
+- (5) sidik jari register tercetak;
+- (6) silsilah+angka ditarik ada di 10 halaman pertama.
+
+FAIL = kembali ke ARSITEKTUR (kartu TA), bukan tambal gejala di rakit.
 
 ## Kesalahan blueprint yang harus dicegah (preseden konkret)
 - Blueprint menyusun kerangka "per dokumen sumber" karena permintaan dibaca sebagai "baca semua dokumen" -> hasil = katalog ringkasan, bukan basis keputusan. Pertanyaan pemaksa di TA: "siapa pembaca, keputusan apa yang diambil darinya, dan subsistem apa yang dibangun?" Kerangka mengikuti jawaban, bukan daftar berkas.

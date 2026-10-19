@@ -3,8 +3,8 @@
 Kelas misi: domain rak EKAS -> objek vault -> custodian -> promote wiki/IL -> rute memori fleet -> VERIF akun RBAC undian -> laporan home channel. Lapisan ini berlaku UNTUK SEMUA domain baru selain yang sudah tercatat di `knowledge-register-multi-domain.md` / `knowledge-activation-rbac-verification.md`.
 
 ## 1. Gap aktivasi: rantai hasil studi WAJIB hidup di folder rak sebelum VERIF
-Preseden CVLK C2: rantai jaminan lahir dari studi tapi hanya ada di objek vault; akun VERIF menjawab dari FOLDER domain (baris rute memori menunjuk folder) dan menjawab faktual benar "RANTAI BELUM ADA" -> gerbang FAIL 6/9 yang cacatnya hulu controller, bukan akun.
-Aturan turun-temurun (D-14): untuk domain yang rantainya BARU lahir dari studi (bukan RANTAI-JAMINAN.md warisan), penerbitan rantai ke folder domain adalah PRASYARAT dispatch VERIF. Bentuknya: berkas `RANTAI-JAMINAN.md` salinan VERBATIM bagian rantai objek + kepala pointer "objek kanonik: <slug> (sha256 ...)" + catatan terbit pasca-VERIF. Kartu FIX hanya menambah berkas, tidak menyentuh objek/rute.
+Preseden CVLK C2: rantai jaminan berasal dari studi tapi hanya ada di objek vault; akun VERIF menjawab dari FOLDER domain (baris rute memori menunjuk folder) dan menjawab faktual benar "RANTAI BELUM ADA" -> gerbang FAIL 6/9 yang cacatnya hulu controller, bukan akun.
+Aturan turun-temurun (D-14): untuk domain yang rantainya BARU disusun dari studi (bukan RANTAI-JAMINAN.md warisan), penerbitan rantai ke folder domain adalah PRASYARAT dispatch VERIF. Bentuknya: berkas `RANTAI-JAMINAN.md` salinan VERBATIM bagian rantai objek + kepala pointer "objek kanonik: <slug> (sha256 ...)" + catatan terbit pasca-VERIF. Kartu FIX hanya menambah berkas, tidak menyentuh objek/rute.
 
 ## 2. Predikat GT instrumen VERIF harus domain-lokal
 Preseden C2-R2 (CAPPED): predikat konsekuensi q1 diwarisi dari leksikon domain sipil ("larang klaim lulus", "non-selamat") yang terukur 0 kemunculan di teks rantai domain target (grep vs 4 hit di sipil) — jawaban paling setia-rak pun tak bisa memenuhi. Ini cacat pasangan GT/instrumen/domain, BUKAN produk.

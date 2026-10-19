@@ -41,7 +41,7 @@ Catatan:
 ## Type semantics (anti double-classification)
 
 - Dokumen yang PUNYA project → type **`document`** (bukan fact/decision/lesson).
-- Semantic type hanya utk knowledge: ekas (`04_KNOWLEDGE`→lesson,
+- Semantic type hanya untuk knowledge: ekas (`04_KNOWLEDGE`→lesson,
   `03_SOURCE-VAULT`/`02_REGISTERS`→reference, `01_GOVERNANCE`→decision),
   wiki DB, root meta (fact).
 - Project FOLDER entry (path berakhiran `/` di folder bertanggal/item legacy)
@@ -90,7 +90,7 @@ document 1697` (+ note/fact/lesson/reference/decision kecil); legacy → 6 proje
 Browser daemon dapat macet di halaman HTTPS self-signed (timeout). Pakai pola:
 1. Fetch halaman (`GET /information-library`, HTTP 200) → ambil daftar
    `/_next/static/chunks/*.js` dari HTML.
-2. Grep tiap chunk (Python + urllib, ssl unverified) utk string komponen baru
+2. Grep tiap chunk (Python + urllib, ssl unverified) untuk string komponen baru
    (`GroupCard`, `domainFilter`, `__docs__`, dst.) — string ada di chunk =
    perbaikan live.
 3. `hq-dev.err.log`: bandingkan jumlah baris sebelum/sesudah fetch — hanya error

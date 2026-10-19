@@ -177,7 +177,7 @@ Kelas cacat: premis penutupan ditulis mendahului hasilnya.
 Prosedur (murah, 1-2 panggilan):
 1. Petakan SETIAP klaim keadaan di body kartu ke berkas/field yang mengukurnya, lalu ukur.
    Jangan pakai ringkasan handoff parent sebagai bukti keadaan — handoff adalah snapshot titik-waktu.
-2. Bila klaim keadaan menyangkut artefak yang lahir pada misi yang sama: cetak mtime artefak
+2. Bila klaim keadaan menyangkut artefak yang dibuat pada misi yang sama: cetak mtime artefak
    dan bandingkan dengan `created_at`/`started_at` kartu. Artefak lebih baru dari kartu =
    premis kemungkinan besar diasumsikan, bukan diamati.
 3. Bila premis terbantahkan: JANGAN lanjut ke langkah hilir yang bergantung padanya
@@ -227,7 +227,7 @@ C:/Users/TRIAL/AppData/Local/hermes/bin/uv run --python 3.11 --no-project \
   [--sheet NAMA ...] [--header-row N] [--name-col K] [--url-col K] [--key-col K]
 ```
 
-Batas klaim: checklist ini menagih eksekusi dan skrip membuktikan kelas cacat pada run
+Batas klaim: checklist ini mewajibkan pelaksanaan dan skrip membuktikan kelas cacat pada run
 tertentu dengan bukti di disk; tidak ada klaim gerbang wajib secara teknis maupun nol
 cacat lolos sefleet. Penulis skrip bukan verifikator keluarannya (D-TA-12).
 

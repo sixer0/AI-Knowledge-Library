@@ -158,7 +158,7 @@ references/mcp-architecture.md section 'Freshness').
 | AN-08-10 | 8 | CT-10 | batch computer/browser use wajib serial stop-on-first-failure; panggilan tak dijalankan tetap dijawab `is_error:true` ; T2-03 |
 | AN-08-11 | 8 | CT-11 | streaming tool: delta `input_json_delta.partial_json` (string parsial), input final objek; model saat akses emit satu key-value lengkap per waktu ; T2-04 |
 | AN-08-12 | 8 | CT-12 | pemulihan stream: <=4.5 pasang parsial sbg assistant; >=4.6 pesan user "continue from [previous_response]"; tool_use/thinking tak bisa resume parsial ; T2-04 |
-| AN-08-13 | 8 | CT-13 | jendela konteks flagship 1M (termasuk tool definitions+thinking), model lama 200k; maks output 128k; maks 600 gambar/PDF-page (100 utk 200k) ; T2-05 |
+| AN-08-13 | 8 | CT-13 | jendela konteks flagship 1M (termasuk tool definitions+thinking), model lama 200k; maks output 128k; maks 600 gambar/PDF-page (100 untuk 200k) ; T2-05 |
 | AN-08-14 | 8 | CT-13b | input > jendela = 400 "prompt is too long"; generasi menyentuh batas di 4.5+ => `stop_reason: model_context_window_exceeded` ; T2-05 |
 | AN-08-15 | 8 | CT-14 | thinking block wajib dikembalikan utuh bersama tool_result terkait; modifikasi => error (verifikasi signature) ; T2-05 |
 | AN-08-16 | 8 | CT-15 | injeksi `<budget:token_budget>`/`<system_warning>` hanya Sonnet 5/4.6/4.5 & Haiku 4.5; model baru pakai task budgets (beta) ; T2-05 |
@@ -176,8 +176,8 @@ references/mcp-architecture.md section 'Freshness').
 | AN-08-28 | 8 | CT-27 | `name` <=64 char, [a-z0-9-], tanpa tag XML, reserved: anthropic/claude ; T2-10 |
 | AN-08-29 | 8 | CT-28 | `description` non-empty <=1024 char, tanpa tag XML, what+when ; T2-10 |
 | AN-08-30 | 8 | CT-29 | SKILL.md <500 baris; rujukan 1 level; MCP name ter-kualifikasi `Server:tool`; tanpa jalur backslash; jangan asumsikan paket ; T2-11 |
-| AN-08-31 | 8 | CT-30 | uji >=3 evaluasi; uji lintas Haiku/Sonnet/Opus; tanpa voodoo constants; feedback loop utk tugas quality-critical ; T2-11 |
-| AN-08-32 | 8 | CT-31 | seleksi skill = pencocokan description oleh model atas daftar L1; satu description utk potensi 100+ skill ; T2-10, T2-11 |
+| AN-08-31 | 8 | CT-30 | uji >=3 evaluasi; uji lintas Haiku/Sonnet/Opus; tanpa voodoo constants; feedback loop untuk tugas quality-critical ; T2-11 |
+| AN-08-32 | 8 | CT-31 | seleksi skill = pencocokan description oleh model atas daftar L1; satu description untuk potensi 100+ skill ; T2-10, T2-11 |
 | AN-08-33 | 8 | CT-32 | Claude Code: cap daftar skill 1.536 char/entri (description+when_to_use), configurable `skillListingMaxDescChars`; letakkan kasus utama di depan ; T2-14 |
 | AN-08-34 | 8 | CT-33 | API: skill via `container`+`skill_id` + code execution tool; container tanpa jaringan, tanpa instal paket runtime ; T2-10 |
 | AN-08-35 | 8 | CT-34 | Claude Code: `~/.claude/skills/` personal, `.claude/skills/` proyek; prioritas enterprise>personal>project; live-change detection ; T2-14 |

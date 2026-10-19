@@ -65,7 +65,7 @@ sementara kartu hilir (builder DOCX/PDF) sudah naik running:
 
 ## 4. Block kartu bukan gerbang keras — dispatcher bisa mempromosikan ulang
 Kartu `blocked` oleh controller terbukti dipromosikan dan diselesaikan dispatcher
-(preseden VS: diblok utk menunggu REM-UTIL, tetap jalan dan menghasilkan replikasi
+(preseden VS: diblok untuk menunggu REM-UTIL, tetap jalan dan menghasilkan replikasi
 G9 IDENTIK dengan log resmi — modal tidak hangus, malah bukti tambahan).
 Konsekuensi: desain kartu supaya HASILNYA tetap berguna walau gerbang jebol lebih
 awal (verifier mengukur sendiri, bukan mengutip angka controller); dan jangan
@@ -83,7 +83,7 @@ mandat master-design = sah (luar-mandat=0 yang diuji).
 ## 6. Gate internal ASM yang merah = tanggulangi sebelum verifier hilir
 Rakit selesai tapi gerbang mutu internal (utilisasi register 67% < ambang 70%) FAIL
 di log resmi: jangan lempar ke VS (pasti FAIL, bakar modal verifier) dan jangan
-diam-diam turunkan ambang. Resep: (a) blok VS dgn alasan gerbang tertulis; (b) kartu
+diam-diam turunkan ambang. Resep: (a) blok VS dengan alasan gerbang tertulis; (b) kartu
 REM-UTIL khusus (sisip sitasi URL dari register beku, parser definisi tetap, target
 ambang+margin); (c) unblock VS saat agregat hijau terverifikasi replikasi. Preseden
 REM-UTIL menutup 67,0% -> 71,8% PASS tanpa menggeser definisi instrumen.

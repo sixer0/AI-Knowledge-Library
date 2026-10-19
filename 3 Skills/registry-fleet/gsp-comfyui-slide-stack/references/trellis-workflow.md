@@ -59,7 +59,7 @@ Z-Image referensi -> BiRefNet cutout (WAJIB InvertMask) -> TRELLIS.2 GLB
    bertekstur via trimesh (sampling UV per-face).
 3. `judge.py <ref.png> <render.png> <konteks>` - delegasi penilaian ke vision
    (rute cepat: gateway kilocode qwen3.8-flash via ask_vision.py, ~40 detik;
-   rute hermes chat profil image-analyst terlalu lambat utk 2-3 gambar).
+   rute hermes chat profil image-analyst terlalu lambat untuk 2-3 gambar).
    Rubrik /30: dish, panel, boom, body, detail, clean. Output: score, pass,
    kriteria, critique, fix_hint.
 4. Satu perubahan per iterasi (ablation), catat di iter_ledger.json.

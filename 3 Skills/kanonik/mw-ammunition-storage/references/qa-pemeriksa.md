@@ -1,6 +1,8 @@
 # Q&A Pemeriksa Angka
 
-Berkas ini menjawab pertanyaan tersering tentang satu butir angka tertentu dan setiap barisnya membawa `reg_id` yang sama dengan rujukan pada bab subsistem, sehingga jawaban di sini tidak berdiri sendiri melainkan menunjuk baris register beku sebagai pemilik nilainya. Kolom Bab mengikuti taksonomi tiga belas subsistem pada `SKILL.md`, kolom Jawaban memuat nilai beserta satuan sebagaimana tercatat pada register, dan kolom Rujukan menyebut berkas serta indeks halaman PDF tempat nilai itu ditemukan. Jumlah butir pada berkas ini adalah 65 pertanyaan yang terpilih karena paling sering diminta pemeriksa, dan angka itu bukan ukuran kelengkapan register karena register beku memuat 1341 baris. Keterbatasan berkas ini adalah jawabannya hanya mencakup butir terpilih, sehingga pertanyaan di luar daftar harus ditelusur langsung pada `references/register.jsonl` dengan kunci `reg_id` dan bukan dijawab dari ingatan percakapan.
+Berkas ini menjawab pertanyaan tersering tentang satu butir angka tertentu dan setiap barisnya membawa `reg_id` yang sama dengan rujukan pada bab subsistem, sehingga jawaban di sini tidak berdiri sendiri melainkan menunjuk baris register beku sebagai pemilik nilainya. Kolom Bab mengikuti taksonomi tiga belas subsistem pada `SKILL.md`, kolom Jawaban memuat nilai beserta satuan sebagaimana tercatat pada register, dan kolom Rujukan menyebut berkas serta indeks halaman PDF tempat nilai itu ditemukan.
+
+Jumlah butir pada berkas ini adalah 65 pertanyaan yang terpilih karena paling sering diminta pemeriksa, dan angka itu bukan ukuran kelengkapan register karena register beku memuat 1341 baris. Keterbatasan berkas ini adalah jawabannya hanya mencakup butir terpilih, sehingga pertanyaan di luar daftar harus ditelusur langsung pada `references/register.jsonl` dengan kunci `reg_id` dan bukan dijawab dari ingatan percakapan.
 
 | Bab | Pertanyaan | Jawaban | Rujukan |
 |---|---|---|---|

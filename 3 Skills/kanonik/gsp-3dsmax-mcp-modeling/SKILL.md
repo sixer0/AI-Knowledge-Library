@@ -147,18 +147,18 @@ Panggil sebelum render TiAP frame dan sebelum menyimpan state manual.
 - Kartu teks muncul-hilang: animasi `.scale` (0.001↔1) + naik 8mm; tangen scale juga #slow.
 
 ### B11. Film produk multi-babak (resep arsitektur film, terukur 01-10-2026)
-- SATU CAM_FLY utk semua babak; koreografi lama didaur ulang via MCP `keyframe_tracks action:move_keys` (`time_offset`, `track_paths: ["[#Transform]"]`, `from_time/to_time` wajib) — JANGAN geser key satu-per-satu (Position_XYZ menolak `k.time =`).
-- Track parameter (fov, multiplier lampu): `c.keys[i].time = c.keys[i].time + off` BEKERJA (bedanya dgn sub-track pos yg menolak).
-- Arah pandang = kunci `fly.transform = matrix3 xa ya za p` eksplisit per waktu; Euler/quat antar-bantalan panjang MELAYANG (kamera menatap langit = frame hitam). utk transisi >800mm antar target: kisi kunci tiap 6 frame dari tabel target terinterpolasi.
+- SATU CAM_FLY untuk semua babak; koreografi lama didaur ulang via MCP `keyframe_tracks action:move_keys` (`time_offset`, `track_paths: ["[#Transform]"]`, `from_time/to_time` wajib) — JANGAN geser key satu-per-satu (Position_XYZ menolak `k.time =`).
+- Track parameter (fov, multiplier lampu): `c.keys[i].time = c.keys[i].time + off` BEKERJA (bedanya dengan sub-track pos yang menolak).
+- Arah pandang = kunci `fly.transform = matrix3 xa ya za p` eksplisit per waktu; Euler/quat antar-bantalan panjang MELAYANG (kamera menatap langit = frame hitam). untuk transisi >800mm antar target: kisi kunci tiap 6 frame dari tabel target terinterpolasi.
 - `acos(dot(...))` MAXScript SUDAH derajat — jangan kalikan 180/pi (terskala 57×, panic palsu).
 - Uji framing NUMERIK sebelum render: proyeksi pusat kartu/perangkat ke basis kamera (fwd/side/vert vs tan(fov/2)*fwd, margin 0.78) + uji oklusi sinar cam→target vs bbox semua perangkat. Render = biaya; angka = murah.
 - Kartu teks layar: JANGAN parent grup + scale-key (pivot default bottom-center + key scale = objek meledak ribuan mm). Bangun tanpa-parent di koordinat dunia via matrix3 baris-eksplisit (row1=kanan,row2=atas,row3=normal ke kamera), teks `convertToMesh`, dan jendela tampil via FUNGSI STATE per-frame (`renderable`), bukan key.
-- Teks judul besar per-huruf: buat + kunci f1 di POSISI BIDANG DINDING dulu (pivot mesh teks = tepi kiri-bawah, bukan tengah — koreksi geser -w/2 utk centering; `o.center =` pada mesh TIDAK memindahkannya).
+- Teks judul besar per-huruf: buat + kunci f1 di POSISI BIDANG DINDING dulu (pivot mesh teks = tepi kiri-bawah, bukan tengah — koreksi geser -w/2 untuk centering; `o.center =` pada mesh TIDAK memindahkannya).
 - Merge .max lintas scene: `merge_from_file duplicate_action:rename` memicu dialog "Duplicate Material Name" MENYUMBAT thread — jalankan pengawas dialog (EnumWindows pid 3dsmax + BM_CLICK 'Apply to All Duplicates'+'Use Merged Material' via SendMessageTimeout) SEBELUM merge; timeout pipa BUKAN kegagalan merge — verifikasi dari `objects.count` + `selection` (merge men-seleksi hasil).
 - Bangun berkas panggung sumber TERLEBIH DAHULU (buang scene/lampu/kamera/callout lama, bunuh key, simpan sebagai *_Stage.max) lalu merge — bukan merge mentah.
 - `.min/.max` objek = SUDAH ruang-dunia; `p * tm` lagi = dobel (bbox fantom 951×1038). Ukur bbox dunia = langsung `.min/.max`.
 - Batch render klip panjang: langkah 2 frame, ≤400 frame/panggilan fileIn, vfb:false outputFile:, pantau dari DISK (pipa mati = render lanjut).
-- LABEL BABAK di dinding panggung sering GAGAL framing (kamera pitch turun + fov sempit + dinding jauh): jangan tambal posisi buta. Solusi terbukti: TITLE-BAR MELAYAK billboard — `p = camPos + fwd*DIST + up*RISE` (DIST≈1500, RISE≈200 utk pita atas), `o.transform = matrix3 row1 row2 row3 p` paralel bidang gambar kamera hold, materi emissif (M_TITLE), jendela state dipersempit ke masa hold saja. Uji 2-3 kamera jendela @640×360 dulu (murah), baru render ulang frame terdampak @full-res, cek STALE per mtime.
+- LABEL BABAK di dinding panggung sering GAGAL framing (kamera pitch turun + fov sempit + dinding jauh): jangan tambal posisi buta. Solusi terbukti: TITLE-BAR MELAYAK billboard — `p = camPos + fwd*DIST + up*RISE` (DIST≈1500, RISE≈200 untuk pita atas), `o.transform = matrix3 row1 row2 row3 p` paralel bidang gambar kamera hold, materi emissif (M_TITLE), jendela state dipersempit ke masa hold saja. Uji 2-3 kamera jendela @640×360 dulu (murah), baru render ulang frame terdampak @full-res, cek STALE per mtime.
 
 ## C. STANDAR DETAIL MINIMAL (FLOOR — rilis di bawah ini = FAIL QC)
 

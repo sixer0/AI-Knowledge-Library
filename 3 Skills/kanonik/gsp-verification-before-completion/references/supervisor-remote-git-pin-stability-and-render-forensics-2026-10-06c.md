@@ -24,7 +24,7 @@ Pada catatan timeout, BEKUKAN pin instrumen/engine (sha16+ukuran+mtime) dari dis
 
 Aturan turunannya: vonis hilir WAJIB menyebut pin yang DIUKUR pada giliran vonis itu; bila byte hidup bergeser lagi setelah vonis (pasca-lepas revisi administratif), tagih ledger resmi (opsi: arsipkan byte tervonis ATAU catat suntingan bernama) - jangan biarkan hilir memilih pin sendiri.
 
-## 3. Sensus sha256 seluruh pohon utk membuktikan KETIADAAN berkas (F21)
+## 3. Sensus sha256 seluruh pohon untuk membuktikan KETIADAAN berkas (F21)
 
 Klaim 'byte X tidak terarsip di mana pun' dibuktikan dengan sapuan sendiri, bukan kutipan verifier:
 

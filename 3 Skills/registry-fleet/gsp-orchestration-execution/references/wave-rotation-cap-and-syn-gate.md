@@ -12,7 +12,7 @@ perusahaan dan menutup 25/25 kartu tanpa satu pun kartu tersangkut.
 2. Buat batch lewat `lad_card.py` (parent = kartu M1B), body menempel: bahan
    `batch-nn.csv`, SCHEMA kolom target (mis. 29 kolom SCHEMA-B), kewajiban blok
    VERIFIKASI-AKURASI per field + LADDER per rung, uji eksplisit register FLAG M1,
-   RULE OFENSIF + CER-001 utk entitas CN, LIMIT-AWARE (anggaran iterasi+menit,
+   RULE OFENSIF + CER-001 untuk entitas CN, LIMIT-AWARE (anggaran iterasi+menit,
    AMBANG-B -> checkpoint + SISA_KERJA bernama), WAKE-ORKESTRATOR.
 3. Semua kartu lahir `ready` dan dispatcher langsung klaim sampai kap — itu normal
    (norma gelombang N1: pembuatan batch sah, yang digerbangi adalah AKTIF).

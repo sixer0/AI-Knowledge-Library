@@ -27,13 +27,13 @@ reshoot-sempit dua juri) ada di `references/pelajaran-gaya-ahli-1005.md`. Engine
 - (Cakupan dipersempit 03-09-2026, kebijakan user) Hanya keluaran yang BENAR-BENAR
   diserahkan ke user: jawaban chat, dokumen, deck, notifikasi cron untuk user,
   artefak etalase (kanal K1-K4, K6). Artefak antar-agen dan jejak orkestrasi
-  TIDAK lagi ditagih gerbang (lihat pengecualian) agar orkestrasi tidak melambat.
+  TIDAK lagi wajib memenuhi gerbang (lihat pengecualian) agar orkestrasi tidak melambat.
 - Saat menjalankan gerbang pra-terbit atau audit sampel oleh verifier.
 - Cakupan gate etalase K6 (putusan controller `nat-s9hil-putusan.md` butir 1,
   koreksi cakupan): `--channel etalase --require-marker` hanya untuk artefak
   deliverable sesuai definisi RT 3.1 (file final di `docs/`, `HASIL-PROJECT-*`,
   ZIP serah terima). Berkas skill/references = artefak internal: tetap dipindai
-  pada kanal doc, tidak ditagih marker C-10 maupun ambang kerapatan prosa khas
+  pada kanal doc, tidak diwajibkan memiliki marker C-10 maupun ambang kerapatan prosa khas
   K6; C-1/C-2/C-3 tetap mutlak padanya tanpa penanda baru.
 - Don't use for: markdown antar-agen & jejak orkestrasi (kecualian 03-09):
   contract doc `docs/<kontrak>/`, kartu/komentar/summary kanban,
@@ -42,7 +42,7 @@ reshoot-sempit dua juri) ada di `references/pelajaran-gaya-ahli-1005.md`. Engine
   mesin kanban, log/event/build, kode sumber, arsip lossless `memory/refs/**`,
   kutipan verbatim eksternal, blok berpenanda D16, SKILL.md engine (read-only).
   Batas tegas (klarifikasi user 03-09): berkas antar-agen BEBAS jejak AI (pola
-  A/B tidak ditagih; konsumennya sesama agen). Keluaran yang sampai ke manusia
+  A/B tidak diperiksa sebagai kewajiban; konsumennya sesama agen). Keluaran yang sampai ke manusia
   WAJIB naturalisasi penuh karena berpotensi dibawa ke direksi/klien.
   Daftar pengecualian penuh: seksi 3.2 spesifikasi RT
   (`docs/2026-09-02-naturalisasi-output/identification/01_translated.md`, salin ke
@@ -65,7 +65,7 @@ reshoot-sempit dua juri) ada di `references/pelajaran-gaya-ahli-1005.md`. Engine
 | K4 Notifikasi cron / gateway | Formal-netral, informatif, tanpa dekorasi | Daftar A1-A5; D-TA-05 |
 | K5 Ringkasan handoff & komentar kanban | DIKECUALIKAN dari gerbang sejak 03-09 (jejak orkestrasi antar-agen; sebelumnya tunduk via D-TA-07). `metadata` mesin tetap dikecualikan | Kebijakan user 03-09 (kartu t_ed3489c6) |
 | K6 Artefak etalase (docs/, ZIP serah terima) | Formal institusional, lolos scanner saat gate pra-terbit; gate marker hanya untuk deliverable sesuai definisi RT 3.1, berkas skill/references = artefak internal (kanal doc, tanpa C-10) | Matriks sweep; putusan `nat-s9hil-putusan.md` butir 1 |
-| K7 Naskah panjang gaya kitab (audiens remaja) | Gaya kitab pelajaran remaja; BUKAN kanal pendek. C-6/C-16 dibalik jadi plafon atas FAIL hanya bila rata-rata > 20,0 kata/kalimat (plafon P1a AMBANG-MUTU terkunci); C-7/B2, C-8/B6, C-12/B10, C-13/B11, C-15/B13 runtuh menjadi INFO beralasan eksplisit 'kanal kitab' tanpa masuk agregasi D-TA-09; komentar HTML baris provenansi bukan identifier keras; mutlak C-1/C-2/C-3/C-4/C-5/A4-A7/C-8b/C-9a/C-9b/C-9/C-10 tidak berubah; C-17..C-25 ikut perilaku doc | PUTUSAN gerbang t_77fd88c3 (30-09, docs/2026-09-30-sm-c6e02-kitab-channel/PUTUSAN.md seksi 3) |
+| K7 Naskah panjang gaya kitab (audiens remaja) | Gaya kitab pelajaran remaja; BUKAN kanal pendek. C-6/C-16 dibalik jadi plafon atas FAIL hanya bila rata-rata > 20,0 kata/kalimat (plafon P1a AMBANG-MUTU terkunci); C-7/B2, C-8/B6, C-12/B10, C-13/B11, C-15/B13 dilaporkan sebagai INFO beralasan eksplisit 'kanal kitab' tanpa masuk agregasi D-TA-09; komentar HTML baris provenansi bukan identifier keras; mutlak C-1/C-2/C-3/C-4/C-5/A4-A7/C-8b/C-9a/C-9b/C-9/C-10 tidak berubah; C-17..C-25 ikut perilaku doc | PUTUSAN gerbang t_77fd88c3 (30-09, docs/2026-09-30-sm-c6e02-kitab-channel/PUTUSAN.md seksi 3) |
 | Media sosial / konten kreatif | Mengikuti brief kampanye; A1/A2 tetap mutlak (parsial) | D-TA-08 divonis SAH sebagai kebijakan tetap oleh pemilik 02-09 (`contract.md` D-16; kartu `t_b29e4438`) |
 | K8 Naskah standar normatif rumah | Kanal ADITIF untuk dokumen normatif yang badan aturannya MENDEFINISIKAN namespace kode sendiri dan MENEGAKKAN standar lain (kelas STD-*/SOP/KAK); BUKAN kanal pendek. Delta terhadap doc HANYA dua: C-7/B2 ambang jadi rasio paragraf <3 kalimat <= 20% total (nama check mencetak '(kanal standar: aparatus navigasi)'); C-8/B6 tebal yang persis sama enam label bidang S-2 (konstanta tertutup `STANDAR_FIELD_LABELS` di scanner, TIDAK dibaca dari dokumen) dikeluarkan dari pembilang dan ambang 6/1000 kata berlaku atas residu dengan jumlah dikecualikan tercetak di detail. Tanpa demosi ala kitab: C-6 tetap floor doc >= 18 (plafon hanya milik kitab), C-12/C-13/C-15 vonis penuh, A4/A7/C-4/C-5 mutlak, tidak ada whitelist identifier baru. Eligibilitas ditegakkan controller SEBELUM sapuan (norma I-4) dan kanal tercetak di CHECK 1; pekerja dilarang memilih `standar` untuk laporan biasa | PUTUSAN t_eec55819 (06-10-2026, work/f4_putusan-kanal-standar.md seksi 2(a); implementasi kartu t_334c0a44) |
 
@@ -150,8 +150,8 @@ dengan positif palsu marker C-10 dan CHECK 9).
 
 | Kode | Indikator | Ambang | Status penegakan |
 |---|---|---|---|
-| B11 | `C-13` kode mesin tanpa label manusia di prosa (id kartu `t_...`, status mentah `needs-review`, hash panjang, nama kolom `finished_at`) | FAIL mulai 3 identifier keras berbeda; 1-2 = INFO | aktif menagih (masuk agregasi D-TA-09) |
-| B12 | `C-14` gagasan ditulis ulang: kalimat berimbuhan-normalisasi dengan kemiripan Jaccard >= 0,70 dalam jendela 12 kalimat | FAIL mulai 2 salinan berlebih; 1 = INFO | aktif menagih (masuk agregasi D-TA-09) |
+| B11 | `C-13` kode mesin tanpa label manusia di prosa (id kartu `t_...`, status mentah `needs-review`, hash panjang, nama kolom `finished_at`) | FAIL mulai 3 identifier keras berbeda; 1-2 = INFO | aktif diberlakukan (masuk agregasi D-TA-09) |
+| B12 | `C-14` gagasan ditulis ulang: kalimat berimbuhan-normalisasi dengan kemiripan Jaccard >= 0,70 dalam jendela 12 kalimat | FAIL mulai 2 salinan berlebih; 1 = INFO | aktif diberlakukan (masuk agregasi D-TA-09) |
 
 Alasan dua check ini ada: pelonggaran ambang panjang (B1/B8) mengambil kembali daya
 pisah yang selama ini menutupi cacat "terlalu panjang" dan "isi berulang". Tanpa B11/B12,
@@ -200,13 +200,13 @@ dengan keluaran tersimpan di `$LOCALAPPDATA/Temp/regresi-nat-r1.txt`.
 
 | Kode | Detektor | Ambang | Penegakan |
 |---|---|---|---|
-| B13 | `C-15` ekor kalimat: p90 dan maksimum lebar prosa (butir daftar `1) ... 2) ...` dikecualikan - struktur sah dokumen formal) | FAIL bila maks > 160 ATAU >= 10 kalimat lewat langit-langit 80 (H.2.1); 1-9 = INFO | menagih agregasi |
-| B14 | `C-16` seksi terburuk: rata-rata kata/kalimat per paragraf >= 25 kalimat (unit ukur = unit pengalaman baca, bukan dokumen utuh) | FAIL bila seksi terburuk < 14 kata/kalimat | menagih agregasi |
+| B13 | `C-15` ekor kalimat: p90 dan maksimum lebar prosa (butir daftar `1) ... 2) ...` dikecualikan - struktur sah dokumen formal) | FAIL bila maks > 160 ATAU >= 10 kalimat lewat langit-langit 80 (H.2.1); 1-9 = INFO | diperhitungkan dalam penilaian agregat |
+| B14 | `C-16` seksi terburuk: rata-rata kata/kalimat per paragraf >= 25 kalimat (unit ukur = unit pengalaman baca, bukan dokumen utuh) | FAIL bila seksi terburuk < 14 kata/kalimat | diperhitungkan dalam penilaian agregat |
 | B15 | `C-17` kerangka label seragam: urutan label >= 3 pada >= 5 entri berseri | share >= 80% satu urutan = layak revisi | INFO pantauan dulu |
 | B16 | `C-18` kepadatan rujukan: URL mentah + tanggal ISO vs bernama per 1.000 kata | ambang vonis menunggu kalibrasi | INFO pantauan |
 | B16 | `C-19` daftar istilah: heading DAFTAR ISTILAH/SINGKATAN/GLOSARIUM hadir; **ambang panjang 6.000 kata DICABUT user 30-09** - dinilai pada semua berkas berprosa kanal panjang | jalur sah pengecualian glosarium C-13 ikut aktif | INFO pantauan |
 | B16 | `C-20` suara penulis: densitas `Kami` + klausa sikap vs kemunculan `penulis`; pola Kami=0 dengan penulis>=2 ditandai TANPA sapaan | frasa `oleh penulis`/`menurut penulis`/`bagi penulis` masuk BLACKLIST_B4 (ambang densitas 1/1.000 kata menahan pemakaian sah) | INFO pantauan + B4 menagih |
-| n/a | `C-21` manifest visual docx/pptx: kepala `Gambar k.n` vs objek tertanam (`word/media`, `ppt/media`) | FAIL bila kepala > 0 dan objek = 0 (janji visual kosong); rasio < 1/3 = INFO | menagih langsung |
+| n/a | `C-21` manifest visual docx/pptx: kepala `Gambar k.n` vs objek tertanam (`word/media`, `ppt/media`) | FAIL bila kepala > 0 dan objek = 0 (janji visual kosong); rasio < 1/3 = INFO | menentukan hasil secara langsung |
 | n/a | guard ekstraksi PDF: baris INFO tetap saat pdf berprosa - vonis metrik panjang pada pdf = NEEDS_REVIEW, wajib dibandingkan sumber markdown/docx (preseden ukur: 5,8 vs asli 29,5 kata/kalimat) | n/a | pelaporan |
 
 Alasan kelas ini lahir (semua terukur, log di `docs/2026-09-30-nat-gate-r1/ukur_*.log`):
@@ -236,7 +236,7 @@ bersistem bab (kanal pendek N/A; dokumen tanpa >=4 heading atas N/A, bukan PASS 
 |---|---|---|---|
 | B17 | `C-22` lengkung: heading atas pertama area latar (PENDAHULUAN/CARA MEMAKAI/PETA PERJALANAN), heading tujuan (KESIMPULAN/REKOMENDASI/LANGKAH BERIKUTNYA) di seperempat akhir | kedua ujung ada dan berurutan = PASS | INFO pantauan |
 | B18 | `C-23` sambungan antar bab: kalimat tepi (2 pertama/2 terakhir tiap bab) memuat penanda dari/ke bab lain | >= 60% bab bersambung = PASS | INFO pantauan |
-| B19 | `C-24` momen pembalik: penanda klimaks (ternyata/kunci/di sinilah/bukan X melainkan Y/temuan terbesar) di badan dokumen (buang seperempat awal+akhir) | 0 penanda di badan = FAIL | **menagih langsung** (biner, risiko rendah) |
+| B19 | `C-24` momen pembalik: penanda klimaks (ternyata/kunci/di sinilah/bukan X melainkan Y/temuan terbesar) di badan dokumen (buang seperempat awal+akhir) | 0 penanda di badan = FAIL | **menentukan hasil secara langsung** (biner, risiko rendah) |
 | B20 | `C-25` bab-katalog: porsi blok prosa berpredikat per bab (tabel/heading/register dikecualikan) | < 30% prosa pada bab >= 200 kata = dilaporkan | INFO pantauan |
 
 **Kalibrasi R3 pada RAFIF-MOBILE (30-09, 16 dtk untuk 1,2 MB).** C-22 PASS (54 bagian;
@@ -259,17 +259,17 @@ C-26/C-27/C-28/C-33 + mekanisme D18; dicoret permanen: C-30/C-31/C-32/C-34
 
 | Kode | Detektor baru | Ambang | Penegakan |
 |---|---|---|---|
-| - | `C-26` kepadatan klausa (M-01): rata-rata pemisah klausa/kalimat + % kalimat berantai >=4 koma/titik-koma, lapis prosa scanner, populasi >=4 kata non-enumerasi | > 2,2 ATAU > 20% | INFO dulu (naik FAIL hanya setelah retrofit nol positif palsu; kanal kitab runtuh INFO) |
+| - | `C-26` kepadatan klausa (M-01): rata-rata pemisah klausa/kalimat + % kalimat berantai >=4 koma/titik-koma, lapis prosa scanner, populasi >=4 kata non-enumerasi | > 2,2 ATAU > 20% | INFO dulu (naik FAIL hanya setelah retrofit nol positif palsu; kanal kitab dilaporkan sebagai INFO) |
 | - | `C-27` plafon rata-rata kata/kalimat (M-02): objek ukur avg_words lapis prosa scanner (BUKAN lapis ekstrak), koordinat C-16 tidak diubah | > 32,0 | INFO dulu; kitab ikut plafon P1a milik C-6 |
 | - | `C-28` subjek verba keputusan (M-10): kalimat berverba keputusan bersubjek artefak alat (daftar tertutup di konstanta, dapat diaudit) | > 1,0/1.000 kata | INFO dulu; ambang putusan >2 terbukti terlalu longgar di lapis ini (kalibrasi 10 dokumen: DATUM 2,19 DEMS 2,41 vs manusia ED2 0,00 KAK 0,28) |
 | - | `C-33` konsistensi konvensi numerik dalam satu dokumen (M-15): pembanding pada KELAS varian (Rp tempel/spasi, persen simbol/kata, tanggal ISO/bernama-ID/EN, skala kata/digit), bukan token mentah | >= 2 varian dengan populasi >=2 dalam satu kelas | INFO dulu; naik FAIL hanya untuk pola populasi timpang (mis. 3 vs 300) |
 | - | INFO rasio pembuka (M-09): kata pertama setelah normalisasi case+strip tanda baca (definisi dibekukan di f3_impl-notes), aktif HANYA > 2.000 kalimat | < 0,20 | INFO pantauan murni, tanpa nomor C |
 | D18 | Lapis satu (M-03): berkas berpenanda D16 dengan temuan U+2014/U+00B7 wajib baris INFO rincian aparatus daftar tertutup (kop/provenans/klasifikasi) vs prosa. Vonis C-1/C-2 TETAP mutlak atas total mentah - bukan celah, alamat baca | - | INFO (gate-options 8.3 utuh) |
-| D18 | Lapis dua (M-03): baris `> Blok Kutipan: <rujukan sumber>` (varian heading/komentar HTML) membuka blok sampai heading berikutnya; rujukan sah = kartu t_xxxxxxxx / kata sumber,from,pengirim,dari / arsip,verbatim / nama berkas / akun @. Blok sah mengecualikan A4/A5/A6/A7/C-4 + metrik gaya dari prosa surat/vendor (I-5); tanpa rujukan -> DITOLAK, dilaporkan INFO | - | menagih rujukan; C-1/C-2/C-3/C-5 tetap mutlak |
+| D18 | Lapis dua (M-03): baris `> Blok Kutipan: <rujukan sumber>` (varian heading/komentar HTML) membuka blok sampai heading berikutnya; rujukan sah = kartu t_xxxxxxxx / kata sumber,from,pengirim,dari / arsip,verbatim / nama berkas / akun @. Blok sah mengecualikan A4/A5/A6/A7/C-4 + metrik gaya dari prosa surat/vendor (I-5); tanpa rujukan -> DITOLAK, dilaporkan INFO | - | mewajibkan rujukan; C-1/C-2/C-3/C-5 tetap mutlak |
 | - | Perluasan C-13 (M-12): kelas enum-status ALLCAPS bergaris-bawah + identifier API camelCase-berdigit = KELAS LEMBUT INFO di baris terpisah (`perluasan C-13 M-12 ...`), whitelist produk/standar berlaku; kelas keras lama tidak berubah | - | INFO permanen putaran ini |
 | - | Perluasan C-18 (M-13): hitungan kalimat padat penanda `[R-n]` (>1 penanda per 20 kata) menempel di detail C-18; remedinya pindahkan mark ke baris tabel, jangan hapus rujukan | per kalimat | INFO (ikut induk C-18) |
-| - | Data sapaan K2 (M-16 diserap ke M-06): penghitung `kamu/Yth./Bapak/Ibu/Saudara` menempel di detail C-20 sebagai DATA; vonis kenaikan predikat ikut naskah final langkah 11 | - | data, belum menagih |
-| - | Whitelist struktural C-14 (M-04): pola boilerplate tertutup (tanda tangan surat, kepala turunan, baris notasi) keluar dari populasi salinan-berlebih; pemeriksaan TIDAK dihapus - narasi dobel tetap FAIL (fixture dua arah) | - | menagih seperti lama |
+| - | Data sapaan K2 (M-16 diserap ke M-06): penghitung `kamu/Yth./Bapak/Ibu/Saudara` menempel di detail C-20 sebagai DATA; vonis kenaikan predikat ikut naskah final langkah 11 | - | data referensi, belum menjadi dasar penilaian wajib |
+| - | Whitelist struktural C-14 (M-04): pola boilerplate tertutup (tanda tangan surat, kepala turunan, baris notasi) keluar dari populasi salinan-berlebih; pemeriksaan TIDAK dihapus - narasi dobel tetap FAIL (fixture dua arah) | - | tetap berlaku seperti sebelumnya |
 | BUG | Fix M-05: `frasa_hits` kini regex berbatas kata (sebelumnya substring murni `in`; kasus nyata CH17 `such as an aisle` divonis A4 oleh entri `as an ai`, jalur absolut). Berlaku untuk A4/A5/A6/A7/B4 karena satu fungsi. Cache isi-only deterministik | - | perbaikan vonis, dua arah dijaga selftest |
 | Larangan | M-17: kelas penguat (holistik/sinergi/terdepan/paripurna/pemberdayaan/keberlanjutan/sangat+adjektif) dan kemubaziran sinonim DILARANG masuk daftar hitam pada revisi berikutnya (bukti G3: manusia lebih padat penguat dari fleet - tanpa daya pisah); aturan benar = tagih angka densitas B4 | - | komentar pengaman di kode |
 | Data | M-18: `references/daftar-padanan-wajib.md` - berkas data referensi Manual L4; tiga pasangan berlabel ASSUMPTION (backup/rollback/pipeline + review) dilarang jadi dasar FAIL sampai bukti pakai | - | bukan gerbang |
@@ -519,7 +519,7 @@ python scripts/scan_ai_footprint.py --selftest   # exit 0 wajib; byte-identik du
   standar mewarisi floor doc >= 18), penanda blok per-bidang, ubah skema manual.
   Selftest naik 110 -> 127 tes VERDICT PASS (17 baru: registrasi kanal, fixture
   HIJAU standar PASS penuh, kontrol regresi doc pada berkas sama, tiga fixture
-  MERAH A4/B6/rasio-C-7 tetap menagih, floor C-6 utuh, tanpa demosi C-12/C-13,
+  MERAH A4/B6/rasio-C-7 tetap diberlakukan, floor C-6 utuh, tanpa demosi C-12/C-13,
   konstanta vocab tertutup enam label).
 - 1.9.1 (06-10-2026, kartu perbaikan `t_7b3a29ad`, putusan DEFECT-1 controller
   pada kartu `t_bef365fc`): whitelist C-14 `_DUP_BOILER_RE` diperluas dengan

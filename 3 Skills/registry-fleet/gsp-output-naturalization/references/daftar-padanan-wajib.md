@@ -28,6 +28,6 @@ korespondensi bisnis EN (`Kind regards,`) demi konsistensi rumah (D-08).
 
 Aturan pakai: pasangan berlabel ASSUMPTION dilarang memicu FAIL maupun cited
 sebagai "standar" sampai putaran kalibrasi korpus mencatat daya pisahnya; jika
-scanner kelak menambah check kosakata padanan, check itu lahir INFO dulu sesuai
+scanner kelak menambah check kosakata padanan, check itu mulai diberlakukan sebagai INFO dulu sesuai
 disiplin yang sama dengan C-26/C-27/C-28/C-33 (naik predikat hanya setelah nol
 positif palsu terdokumentasi).

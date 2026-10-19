@@ -51,7 +51,7 @@ Format nama: `<DISIPLIN>-<ELEMEN>`. Warna = ACI (AutoCAD Color Index).
 ### Arsitektur (A-…)
 | Layer | Isi | ACI | Linetype |
 |-------|-----|-----|----------|
-| A-DINDING | dinding (garis ganda, arsir solid utk potong) | 7 | CONTINUOUS |
+| A-DINDING | dinding (garis ganda, arsir solid untuk potong) | 7 | CONTINUOUS |
 | A-PINTU | daun + ayunan pintu | 4 | CONTINUOUS |
 | A-JENDELA | kusen + kaca jendela | 5 | CONTINUOUS |
 | A-TANGGA | anak tangga, arah naik | 6 | CONTINUOUS |
