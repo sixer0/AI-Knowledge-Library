@@ -1,8 +1,8 @@
 # Indeks Seksi: 5 Integration
 
-Titik integrasi ekosistem: bridge dispatch Hermes, server Headquarter (port 9011), WebUI (9012), dan catatan API internal (tanpa nilai rahasia).
+Rujukan integrasi Hermes: bridge pengiriman tugas, server Headquarter pada port 9011, WebUI pada port 9012, dan catatan API internal. Berkas ini membantu pembaca memahami hubungan antarkomponen. Penyiapan dan eksekusi layanan tetap menggunakan lingkungan host asal.
 
-Dibangun: 2026-10-19 | Jumlah berkas: 6 | Total: 0.1 MB
+Edisi sumber: 2026-10-19 | Berkas isi: 6 | Total: 0.1 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|
@@ -11,4 +11,4 @@ Dibangun: 2026-10-19 | Jumlah berkas: 6 | Total: 0.1 MB
 | `5 Integration/hq/env-contohsaniter.txt` | 7 KB |
 | `5 Integration/hq/hq-server.mjs` | 2 KB |
 | `5 Integration/hq/package.json` | 1 KB |
-| `5 Integration/peta-integrasi.md` | 963 B |
+| `5 Integration/peta-integrasi.md` | 1 KB |

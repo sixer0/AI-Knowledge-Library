@@ -1,6 +1,6 @@
 # Brahma Bridge
 
-Two-way sync between **GSP Agent Headquarter** (the deployed website) and **Brahma** (your local agent on the Mac mini), using the shared Postgres as a message bus. Nothing is exposed to the internet — the bridge only needs outbound access to Postgres and the local `hermes` CLI.
+Bridge menyinkronkan **GSP Agent Headquarter** (situs yang telah dipasang) dengan **Brahma** (agen lokal pada Mac mini) dalam dua arah. Keduanya bertukar pesan melalui Postgres bersama. Bridge hanya memerlukan koneksi keluar ke Postgres dan akses ke CLI `hermes` lokal; bridge tidak membuka layanan ke internet.
 
 ```
 website  ──insert AgentRequest──▶  Postgres  ◀──poll & run──  bridge ──▶ hermes CLI
@@ -8,41 +8,45 @@ website  ◀──read HermesTask/────   Postgres  ◀──mirror──
              AgentEvent/DataStore
 ```
 
-## What it does
-- **Pull (Brahma → website):** mirrors the kanban board into `HermesTask`, cron list + health into `DataStore`, and writes activity to `AgentEvent`.
-- **Push (website → Brahma):** runs `AgentRequest` rows that are `queued` (safe) or `approved` (you approved a side-effecting one) via the `hermes` CLI, then writes results back. It never runs `awaiting_approval` rows.
+## Fungsi
+- **Pull (Brahma → website):** menyalin papan kanban ke `HermesTask`, menyimpan daftar cron dan kondisi layanan ke `DataStore`, serta mencatat aktivitas di `AgentEvent`.
+- **Push (website → Brahma):** menjalankan baris `AgentRequest` berstatus `queued` (aman) atau `approved` (tindakan yang memerlukan persetujuan sudah disetujui pengguna) melalui CLI `hermes`, lalu menyimpan hasilnya. Baris berstatus `awaiting_approval` tidak dijalankan.
 
-## Setup (on the Mac mini)
-1. Copy this folder to the mini (or `git pull` the repo there).
-2. Install the one dependency:
+## Penyiapan pada Mac mini
+1. Salin folder ini ke Mac mini, atau jalankan `git pull` pada repositorinya di sana.
+2. Pasang dependensi yang dibutuhkan:
    ```sh
    cd hermes-bridge && npm install
    ```
-3. Make sure `hermes` is on PATH: `which hermes` should resolve (e.g. `~/.local/bin/hermes`).
-4. Try it once, pointing at your DB:
+3. Pastikan `hermes` tersedia melalui PATH. Perintah `which hermes` harus menemukan berkasnya, misalnya `~/.local/bin/hermes`.
+4. Jalankan sekali dengan alamat basis data yang akan digunakan:
    ```sh
    DATABASE_URL='postgres://…' HERMES_BOARD=default node bridge.mjs
    ```
-   You should see `hermes-bridge up …`, and a "Bridge connected" event appear in the website's activity feed.
-5. Run it forever with launchd:
+   Jika koneksi berhasil, pesan `hermes-bridge up …` muncul dan aktivitas "Bridge connected" tercatat pada situs.
+5. Untuk menjalankannya terus-menerus, gunakan launchd:
    ```sh
    # edit the placeholders in ai.gspagenthq.bridge.plist first (path, DATABASE_URL, PATH)
    cp ai.gspagenthq.bridge.plist ~/Library/LaunchAgents/
    launchctl load ~/Library/LaunchAgents/ai.gspagenthq.bridge.plist
    ```
-   Logs: `/tmp/hermes-bridge.out.log`, `/tmp/hermes-bridge.err.log`.
+   Lokasi log: `/tmp/hermes-bridge.out.log`, `/tmp/hermes-bridge.err.log`.
 
-## Config (env)
-| var | default | meaning |
+## Konfigurasi variabel lingkungan
+| Variabel | Nilai bawaan | Keterangan |
 |---|---|---|
-| `DATABASE_URL` | — (required) | same Postgres the website uses |
-| `HERMES_BOARD` | `default` | kanban board slug to mirror |
-| `HERMES_BIN` | `hermes` | path to the CLI if not on PATH |
-| `BRIDGE_POLL_MS` | `5000` | how often to check for new requests |
-| `BRIDGE_MIRROR_MS` | `30000` | how often to mirror kanban/cron/health |
-| `BRIDGE_RUN_TIMEOUT_MS` | `240000` | max time for one agent run |
+| `DATABASE_URL` | — (wajib diisi) | Postgres yang juga digunakan situs |
+| `HERMES_BOARD` | `default` | slug papan kanban yang akan disalin |
+| `HERMES_BIN` | `hermes` | path CLI jika tidak tersedia melalui PATH |
+| `BRIDGE_POLL_MS` | `5000` | jeda pemeriksaan permintaan baru, dalam milidetik |
+| `BRIDGE_MIRROR_MS` | `30000` | jeda penyalinan kanban, cron, dan kondisi layanan, dalam milidetik |
+| `BRIDGE_RUN_TIMEOUT_MS` | `240000` | batas waktu satu pelaksanaan tugas agen, dalam milidetik |
 
-## Notes / assumptions
-- CLI arg shapes (`hermes kanban create <title>`, `hermes cron create <schedule> <prompt>`) are best-effort for Hermes v0.17.x — if your build differs, tweak `runRequest()` in `bridge.mjs`.
-- The bridge writes to Postgres with plain SQL, so it doesn't need Prisma.
-- Safe by design: side-effecting work waits for your approval in the website's Approval Inbox before the bridge will touch it.
+## Catatan dan asumsi
+- Bentuk argumen CLI (`hermes kanban create <title>`, `hermes cron create <schedule> <prompt>`) disusun berdasarkan Hermes v0.17.x. Jika versi yang digunakan berbeda, sesuaikan `runRequest()` di `bridge.mjs`.
+- Bridge menulis ke Postgres melalui SQL langsung sehingga tidak memerlukan Prisma.
+- Pekerjaan yang menimbulkan perubahan harus disetujui pengguna melalui Approval Inbox pada situs sebelum dijalankan oleh bridge.
+
+## Batas salinan ini
+
+Panduan ini mengikuti README sumber untuk Mac mini. Skrip yang disertakan juga memuat penanganan proses Windows. Tabel nilai bawaan waktu tunggu pada README sumber berbeda dari konstanta RUN_TIMEOUT_MS dalam skrip; gunakan nilai dalam skrip ketika menyiapkan layanan. Berkas pendukung gate_transport.mjs dan ai.gspagenthq.bridge.plist tidak tersedia dalam folder salinan ini. Audit bahasa tidak menjalankan penyiapan layanan.
