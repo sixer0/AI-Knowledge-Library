@@ -9,7 +9,7 @@ Konteks: kanal user TUNDUK gerbang (jawaban chat, dokumen/deck final, notifikasi
 - Perbaikan: TAMBAH 1-2 kalimat substantif per paragraf pendek (angka terverifikasi, konsekuensi, batasan) - JANGAN menggabungkan paragraf sampai kehilangan struktur, JANGAN mengarang filler.
 - Alat: skrip tempelan keyed-by-prefix (cari awalan unik paragraf, sisip kalimat sebelum akhir paragraf), lalu hitung ulang dengan splitter yang sama dengan scanner (`re.split(r'(?<=[.!?])\s+', ...)` atas paragraf non-heading/non-table). Simpan skripnya sebagai berkas cache terpisah - patch inline beruntun pada skrip tempelan rawan merusak string (kejadian nyata: dua patch beruntun menghasilkan paragraf cacat yang harus ditulis ulang bloknya).
 
-### C-24 / B19: momen pembalik (biner, menagih)
+### C-24 / B19: momen pembalik (biner, menentukan hasil)
 - Scanner memotong bab via heading `#`/`##` ATAU pola `BAB|BAGIAN|KAPITEL|PART <nomor>`; butuh >= 4 bab; "badan" = kuartil tengah (buang pembuka/penutup); cukup SATU bab badan memuat penanda regex.
 - Penanda sah (bagian dari _NAR_TURN_RE): `ternyata, mengejutkan, kunci(nya), yang membedakan, titik balik, klimaks, temuan terbesar/penting/kunci, masalah(nya| utama), justru karena, padahal, sayangnya, di sinilah`, atau pola `bukan ... melainkan`.
 - Letakkan kalimat pembalik FAKTUAL di bab badan (bukan 25% awal / akhir). Catatan penempatan: bila dokumen punya banyak heading, bab pertama/terakhir tidak dihitung - marker di bab 3 bisa tak masuk rentang badan; pindahkan ke bab tengah (preseden: marker di Kelompok A bab 3 tak terhitung, dipindah ke Kelompok B bab 4 -> PASS).

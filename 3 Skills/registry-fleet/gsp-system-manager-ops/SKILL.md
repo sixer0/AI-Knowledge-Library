@@ -102,8 +102,8 @@ metadata:
   vonis SEHAT, 3 wajib root=1, 13 profil semuanya di daftar hidup). Urutan panggilan
   class 60 WAJIB probe ukuran (buffer NULL dulu) sebelum alokasi; OpenProcess fallback
   access 0x1000 lalu 0x0400.
-- PITFALL buru hantu monitor v1: SUDAH DITAMBAL 10-10 (sysman,
-  docs/2026-10-10_gateway-monitor-no-prefix/) — vonis hantu kini murni
+- PITFALL deteksi profil di luar daftar aktif oleh monitor v1: SUDAH DITAMBAL 10-10 (sysman,
+  docs/2026-10-10_gateway-monitor-no-prefix/) — penilaian profil di luar daftar aktif kini murni
   `p not in live` (registri = sumber tunggal), filter prefix lama dibuang.
   Konsekuensi: profil gateway BARU di luar registri akan dibunuh monitor;
   daftarkan dulu di PROFILE-REGISTRY.json sebelum start. Audit periodik

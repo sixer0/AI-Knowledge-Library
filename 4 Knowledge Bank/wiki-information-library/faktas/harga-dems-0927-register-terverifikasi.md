@@ -29,7 +29,7 @@ catatan_keputusan: "dipromosikan: HARGA-DEMS-0927 KB: register brand-model-price
 
 # Register harga terverifikasi HARGA-DEMS-0927 (objek library)
 
-Ringkasan eksekutif: register brand-model-price hasil misi saturasi harga DEMS 27-09-2026, TERBATAS baris ber-evidence_tier entity-match / CER-R0..R4. Baris PROV (447) dan KLAIM-VENDOR (10) DIBUANG dari substrat ini dan tidak boleh disimpulkan ada. Kelas bukti objek = primer (harga tampil di halaman sumber pada tanggal akses), dengan sintesis kurasi gatekeeper.
+Ringkasan eksekutif: register brand-model-price hasil misi saturasi harga DEMS 27-09-2026, TERBATAS baris ber-evidence_tier entity-match / CER-R0..R4. Baris PROV (447) dan KLAIM-VENDOR (10) DIBUANG dari substrat ini dan tidak boleh disimpulkan ada. Kelas bukti objek = primer (harga tampil di halaman sumber pada tanggal akses), dengan sintesis kurasi kurator pustaka.
 
 ## 1 Provenans (AM-G4)
 - Sumber RAW: docs/2026-09-27-harga-dems-saturasi/lanes/L01..L10/findings.jsonl (10 berkas lajur; total 713 baris).

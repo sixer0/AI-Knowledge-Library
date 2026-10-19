@@ -61,7 +61,7 @@ kebaikan. Simpan laporan sebagai doc internal (`docs/<tanggal>-<slug>/`), tautka
 Akhiri dengan pertanyaan keputusan yang konkret (jalankan konsolidasi vs putus temuan dulu),
 bukan tawaran umum.
 
-## 4. Pitfall gerbang naturalisasi yang terbukti menagih (kanal chat)
+## 4. Pitfall gerbang naturalisasi yang terbukti berlaku (kanal chat)
 
 `scan_ai_footprint.py --channel chat` CHECK 19 (C-13 kode mesin tanpa label manusia, plafon
 2 identifier keras) menembak FAIL saat jawaban menyebut deretan nama modul Python (.py) dalam

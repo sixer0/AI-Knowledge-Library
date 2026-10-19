@@ -7,8 +7,8 @@ Singkatan percakapan pada prosa diperluas, istilah internal yang bermakna kiasan
 | Cakupan | Jumlah |
 |---|---:|
 | Berkas asli diinventarisasi | 2321 |
-| Berkas diperbarui, termasuk indeks | 235 |
-| Berkas tetap utuh | 2086 |
+| Berkas diperbarui, termasuk indeks | 282 |
+| Berkas tetap utuh | 2039 |
 
 | Sebelum | Sesudah |
 |---|---|
@@ -24,3 +24,5 @@ Semua 2.321 berkas diinventarisasi. Pemindaian pola dan kepadatan mencakup Markd
 Rincian berkas dan sidik SHA-256: [3-perubahan.csv](3-perubahan.csv). Perbandingan kalimat lengkap tersedia pada commit folder ini. Versi sebelum penyuntingan ada pada commit awal `8785880`.
 
 Pemeriksaan akhir: dua salinan `corpus-merah-hijau/merah-semua-kode.md` dikembalikan ke versi awal karena merupakan korpus uji yang sengaja memuat gaya buruk. Perbaikan ini tercatat pada commit pemeriksaan akhir.
+
+Penyuntingan akhir lintas folder memperjelas penggunaan kiasan “mendarat”, “menagih”, “hantu”, dan istilah kurator pustaka sesuai konteks. Istilah yang memiliki makna teknis atau arti biaya tetap dipertahankan. Tabel jumlah dan daftar hash di atas mencerminkan keadaan akhir.

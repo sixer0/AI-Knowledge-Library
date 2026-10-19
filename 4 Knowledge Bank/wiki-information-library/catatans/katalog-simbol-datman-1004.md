@@ -51,7 +51,7 @@ simbol, sehingga pembaca gambar bisa mengaudit maksud pemasang.
 |------|------|
 | TERUKUR | Fetch langsung 200 dengan entity-match 1 pada register `research/probe_ladder.csv`, akun 2026-10-05 [R-2] |
 | PROV | Judul/abstrak dari cuplikan mesin pencari atau listing pihak ketiga; respons tautan primer 403/anti-bot pada giliran ukur [R-2] |
-| BASELINE-ONLY | Edisi dikutip dari Tabel 6.5 internal; konfirmasi eksternal belum mendarat (register negatif dibukukan) [R-1][R-2] |
+| BASELINE-ONLY | Edisi dikutip dari Tabel 6.5 internal; konfirmasi eksternal belum diterima (register negatif dibukukan) [R-1][R-2] |
 | HOUSE-LEGEND | Tidak ada standar; legenda rumah GSP dengan kewajiban publikasi legenda di lembar yang sama (cek 34) [R-1] |
 
 Glif peran internal diganti label teks mengikuti GUIDELINE 2026-10-03 par.4, dicatat
@@ -194,7 +194,7 @@ memakai entri tanpa melihat status verifikasinya.
 | SIM | Kelas (K-nn) | Nama (ID) | Nama (EN) | Makna / isi kelas | Standar+edisi (status) | Verif | Dialek | Sumber primer | Mark | Larangan-pakai |
 |-----|--------------|-----------|-----------|-------------------|------------------------|-------|--------|---------------|------|----------------|
 | SIM-42 | K-04 | Tipe garis gambar teknik | basic line conventions | Tipe garis 01.1 tipis, 01.2 tebal, 02.1 putus, 04.1 gores-titik, 05.1 gores-dua-titik (Tabel 80) | ISO 128-2:2020 E1 (adopsi putusan D-09; entri katalog aktif, klaim internal "2022" = koreksi terbitan) | 2026-10-05 (judul terfetch penuh 01:05:11) | garis = tata bahasa, bukan dekorasi | [iso.org/standard/69129](https://www.iso.org/standard/69129.html) | TERUKUR | Tipe 05.1 khusus pekerjaan di luar lingkup kontrak; jangan pakai tipe garis karangan |
-| SIM-43 | K-05 | Pen dimensi gambar | dimensioning conventions | Aturan penempatan dimensi pada gambar teknik | ISO 129-1:2018 E2 | 2026-10-05 (cuplikan iso.org 01:04; tautan 403 Cloudflare) | konvensi TC10 | [iso.org/standard/64007](https://www.iso.org/standard/64007.html) (PROV: 403 anti-bot, retry wayback kena 429) | PROV | Jangan dikutip sebagai TERUKUR sebelum retry arsip mendarat (sisa kerja kartu lanjutan) |
+| SIM-43 | K-05 | Pen dimensi gambar | dimensioning conventions | Aturan penempatan dimensi pada gambar teknik | ISO 129-1:2018 E2 | 2026-10-05 (cuplikan iso.org 01:04; tautan 403 Cloudflare) | konvensi TC10 | [iso.org/standard/64007](https://www.iso.org/standard/64007.html) (PROV: 403 anti-bot, retry wayback kena 429) | PROV | Jangan dikutip sebagai TERUKUR sebelum hasil percobaan ulang arsip tersedia (sisa kerja kartu lanjutan) |
 | SIM-44 | K-06 | Title block kepala gambar | title blocks and document headers | Isi minimum blok judul dokumen teknik | ISO 7200:2004 E2 | 2026-10-05 (cuplikan iso.org 00:53; tautan 403 Cloudflare) | kelengkapan kepala gambar | [iso.org/standard/35446](https://www.iso.org/standard/35446.html) (PROV: 403 anti-bot, retry wayback kena 429) | PROV | Sama seperti SIM-43: predikat PROV melekat di sel, tidak boleh naik jadi TERUKUR |
 | SIM-45 | K-07 | Rambu keselamatan terdaftar | registered safety signs | Rambu larangan/wajib/peringatan berdaftar | ISO 7010:2019 | 2026-10-05 (200 entity-match 1, 00:39:00) | rambu nyata, bukan marka denah | [iso.org/standard/72424](https://www.iso.org/standard/72424.html) | TERUKUR | Marka `sec:` rumah (SIM-29..35) TIDAK boleh diklaim patuh ISO 7010; sebaliknya rambu keselamatan nyata wajib merujuk ISO 7010 |
 | SIM-46 | K-08 | Simbol pada peralatan | graphical symbols for use on equipment | Kumpulan glif pada peralatan untuk menginstruksi operasi (mis. indikator panel) | ISO 7000:2019 | 2026-10-05 (200 entity-match 1, 01:05:14) | glif peralatan | [iso.org/standard/78717](https://www.iso.org/standard/78717.html) | TERUKUR | Kandidat formalisasi glif panel untuk `sec:`; selama belum diformalkan, status `sec:` tetap HOUSE-LEGEND |
@@ -275,7 +275,7 @@ di CHECK 5 keluaran alat.
 
 Sisa kerja terbuka di bawah DITERUSKAN sebagai Register Riset Terbuka lampiran manual
 sesuai PUTUSAN controller D-10 (contract.md): bukan vonis buntu, kutipan dari daun
-yang belum terverifikasi diblokir sampai verifikasi mendarat [R-7]. Estimasi iterasi
+yang belum terverifikasi diblokir sampai hasil verifikasi tersedia [R-7]. Estimasi iterasi
 ikut terbawa agar kartu lanjutan bisa langsung dieksekusi. Butir yang menyentuh
 katalog ini bernomor lima, dan semuanya punya jalur aksi konkret, bukan spekulasi.
 
@@ -289,7 +289,7 @@ Putusan edisi D-1 dan D-2 tidak lagi terbuka: D-09 sudah mengadopsi ANSI/ISA-5.1
 dan ISO 128-2:2020 E1 sebagai teks final kolom standar SIM-17..28 dan SIM-42 [R-7],
 sehingga koreksi tersebut tinggal dinormakan pada bab audit manual, bukan di katalog
 ini. Butir 1 sampai 5 tetap terbuka dan menjadi bahan kartu lanjutan yang dibuat
-orkestrator dari register ini. Setelah butir-butir itu mendarat, hanya kolom Verif
+orkestrator dari register ini. Setelah butir-butir itu tersedia, hanya kolom Verif
 dan Mark yang berubah; struktur katalog tidak perlu disusun ulang.
 
 ## Referensi

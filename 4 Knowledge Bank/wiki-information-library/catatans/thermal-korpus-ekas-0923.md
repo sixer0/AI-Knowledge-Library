@@ -510,7 +510,7 @@ Terukur: resume Gill **nol** kemunculan "termal", "termograf", "inframerah", "in
 Gill berjudul "Power Quality, Harmonics, Predictive Maintenance" PDF 754
 (`ELECTRICAL/R3 - Electrical ... .md:31`) - prediktif memang di judul, tetapi tidak satu pun
 angka ambang termal ada di sana. Kriteria sebenarnya dari NETA [R2]. **Vonis: pointer R3 -> R3
-untuk sesuatu yang rak sendiri tetapkan harus R2** - arah rujukan menyesatkan (kelas alamat
+untuk sesuatu yang rak sendiri tetapkan harus R2** - arah rujukan menyesatkan (kelas kesalahan alamat
 menuju tempat yang tidak menyimpan angkanya, sama seperti Tabel 7). Angkanya tidak salah.
 Catatan tambahan: `THERMAL/RANTAI-JAMINAN.md:13` menulis judul Gill tanpa "and Testing" dan
 tanpa nomor PDF padahal jangkarnya tersedia (PDF 754).

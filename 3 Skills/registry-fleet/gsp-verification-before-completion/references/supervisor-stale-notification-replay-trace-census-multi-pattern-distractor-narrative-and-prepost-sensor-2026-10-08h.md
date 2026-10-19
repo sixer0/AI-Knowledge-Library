@@ -36,7 +36,7 @@ FIX-3 mengganti dua kata; delta UTF-8 terhitung dari string lama-vs-baru = 14 by
 
 ## 6. Red-green dengan KONTROL-ARAH (lapisan ketujuh)
 
-Instrumen L18 menguji 7 varian: G0 bersih + 6 pengrusakan yang masing-masing mengenai CHECK sasaran (difficulty->CHECK10, hapus-Rationale->CHECK7, geser-kunci->CHECK14, ubah-stimulus->CHECK22, em-dash->CHECK28, kunci-jamak->CHECK32) + **R7 kontrol-arah**: sisip klaim-pengecoh-salah harus mendarat di TEMUAN (REVISI), BUKAN memicu CHECK-FAIL mekanis. Kontrol-arah positif = bukti gerbang memisahkan lapis cacat dengan benar, bukan sekadar sensitif. Naik di atas red-green dua-arah biasa (CS-2/L17): resep instrumen mutu item berikutnya wajib punya minimal satu varian kontrol-arah.
+Instrumen L18 menguji 7 varian: G0 bersih + 6 pengrusakan yang masing-masing mengenai CHECK sasaran (difficulty->CHECK10, hapus-Rationale->CHECK7, geser-kunci->CHECK14, ubah-stimulus->CHECK22, em-dash->CHECK28, kunci-jamak->CHECK32) + **R7 kontrol-arah**: sisip klaim-pengecoh-salah harus tercatat di TEMUAN (REVISI), BUKAN memicu CHECK-FAIL mekanis. Kontrol-arah positif = bukti gerbang memisahkan lapis cacat dengan benar, bukan sekadar sensitif. Naik di atas red-green dua-arah biasa (CS-2/L17): resep instrumen mutu item berikutnya wajib punya minimal satu varian kontrol-arah.
 
 ## 7. Kata pelarang: kalimat-penyangkalan vs penggunaan-operasional (putusan dua-jalur)
 

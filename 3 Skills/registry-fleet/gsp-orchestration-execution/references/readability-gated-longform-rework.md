@@ -26,7 +26,7 @@ Agen reviewer NETRAL (tanpa konteks tulis) menjawab 5 pertanyaan pemahaman per b
 ## 4. Rework konten-kekal (penyampaian berubah, fakta tidak bergeser)
 - Pin sha16 register beku sumber; UKUR ULANG saat kartu dipakai - pin bisa basi bila berkas hulu dimutakhirkan (kejadian nyata: pin standar gaya usang karena revisi semalam; berkas kini identik arsip rev resmi).
 - Angka/nama/URL/tanggal hanya placeholder ke register atau salinan verbatim; emitter memancarkan register edisi-2 dari edisi-1 (append-only, tidak diketik tangan).
-- Audit dua arah saat rakit: himpunan KL v2 == v1 (nol hilang, nol hantu); stray angka = 0; kesetaraan nilai numeral lintas format (ribuan/persen rumah) diverifikasi parser, bukan mata.
+- Audit dua arah saat rakit: himpunan KL v2 == v1 (tidak ada ID hilang atau ID tambahan tanpa sumber); stray angka = 0; kesetaraan nilai numeral lintas format (ribuan/persen rumah) diverifikasi parser, bukan mata.
 - Perubahan nilai hanya lewat putusan controller tercatat + refreeze append-only (baris DICABUT ditandai, tidak dihapus) + log LAMA->BARU + backup + diff "hanya baris berizin berubah".
 
 ## 5. Specimen-first production gate (hindari penolakan massal)

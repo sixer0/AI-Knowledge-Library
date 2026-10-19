@@ -30,7 +30,7 @@ catatan_keputusan: "dipromosikan: CCTV-VQI-0926 KB: lolos VER2 10/10 + custodian
 
 # Batas forensik super-resolution AI pada citra CCTV: hanya keterbacaan, dilarang dasar identifikasi
 
-Misi CCTV-VQI-0926. Sumber lajur L4 (kartu t_655923ac); VER2 PASS 10/10 CHECK (kartu t_435bec46). Tiga bukti primer tersimpan di raw/L4/ (PDF utuh, bukan kutipan lepas). Catatan kurasi gatekeeper 2026-09-27: saat verifikasi custodian, berkas ketiga belum ada di raw; gatekeeper mengunduhnya dan mengoreksi atribusi penulis yang salah di hulu (lihat 1.3).
+Misi CCTV-VQI-0926. Sumber lajur L4 (kartu t_655923ac); VER2 PASS 10/10 CHECK (kartu t_435bec46). Tiga bukti primer tersimpan di raw/L4/ (PDF utuh, bukan kutipan lepas). Catatan kurasi kurator pustaka 2026-09-27: saat verifikasi custodian, berkas ketiga belum ada di raw; kurator pustaka mengunduhnya dan mengoreksi atribusi penulis yang salah di hulu (lihat 1.3).
 
 ## 1. Tiga bukti primer
 
@@ -38,7 +38,7 @@ Misi CCTV-VQI-0926. Sumber lajur L4 (kartu t_655923ac); VER2 PASS 10/10 CHECK (k
 
 1.2 Norman et al. (CVPR 2024 Workshop WMF; openaccess.thecvf.com, PDF 1.158.982 B, diakses 2026-09-26 17:42Z): 12 teknik enhancement GAN/diffusion pada dua dataset wajah + dua model face recognition; pada kasus gagal (CodeFormer) citra hasil "berkualitas tinggi, fitur jelas, TAPI IDENTITAS ORANG BERBEDA dari aslinya", dan "tidak ada cara menentukan halusinasi terjadi hanya dengan melihat citra hasil" [C-14].
 
-1.3 Velan, Fontani, Carrato, Jerian (Frontiers in Signal Processing 2022, doi 10.3389/frsip.2022.854737; PDF frsip-2022-rossi.pdf 2.647.108 B, 11 halaman, diakses gatekeeper 2026-09-27): uji manusia 135 relawan (hal. 2) atas 30 wajah selebritas; SR deep-learning TIDAK unggul signifikan atas interpolasi bicubic untuk pengenalan wajah manusia meski tampak lebih indah; artefak SR justru menghambat (kasus Morgan Freeman dan Lee Jones, hal. 4) [C-15]. Nama 'Rossi et al.' pada lajur hulu KELIRU - koreksi gatekeeper dari halaman judul PDF primer; cacat hulu tercatat di catatan_keputusan.
+1.3 Velan, Fontani, Carrato, Jerian (Frontiers in Signal Processing 2022, doi 10.3389/frsip.2022.854737; PDF frsip-2022-rossi.pdf 2.647.108 B, 11 halaman, diakses kurator pustaka 2026-09-27): uji manusia 135 relawan (hal. 2) atas 30 wajah selebritas; SR deep-learning TIDAK unggul signifikan atas interpolasi bicubic untuk pengenalan wajah manusia meski tampak lebih indah; artefak SR justru menghambat (kasus Morgan Freeman dan Lee Jones, hal. 4) [C-15]. Nama 'Rossi et al.' pada lajur hulu KELIRU - koreksi kurator pustaka dari halaman judul PDF primer; cacat hulu tercatat di catatan_keputusan.
 
 ## 2. Putusan praktis
 
@@ -48,6 +48,6 @@ Misi CCTV-VQI-0926. Sumber lajur L4 (kartu t_655923ac); VER2 PASS 10/10 CHECK (k
 
 ## 3. BATAS kelas bukti
 
-- kelas_bukti = sintesis atas tiga sumber primer publik (peer-reviewed/workshop proceedings), ketiganya terunduh dan tersimpan di docs/2026-09-26-cctv-vqi-0926/raw/L4/ (dfrws-eu26-supir.pdf, cvprw24-norman.pdf, frsip-2022-rossi.pdf; PDF ketiga diunduh saat kurasi gatekeeper 2026-09-27 menindaklanjuti temuan custodian; jejak ladder L4 146 baris akun).
+- kelas_bukti = sintesis atas tiga sumber primer publik (peer-reviewed/workshop proceedings), ketiganya terunduh dan tersimpan di docs/2026-09-26-cctv-vqi-0926/raw/L4/ (dfrws-eu26-supir.pdf, cvprw24-norman.pdf, frsip-2022-rossi.pdf; PDF ketiga diunduh saat kurasi kurator pustaka 2026-09-27 menindaklanjuti temuan custodian; jejak ladder L4 146 baris akun).
 - Angka 27/50 dan 135 relawan adalah hasil studi pihak ketiga pada dataset mereka; tidak diukur ulang oleh GSP.
 - Lajur sumber sha256 5aba04c23854b279... (identik pin VER2).

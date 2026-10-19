@@ -17,7 +17,7 @@ naskah. Putusan t_eec55819 menetapkan kanal `standar` (v1.10.0) sebagai kanal
 resmi naskah standar: C-13 identifier keras turun ke INFO untuk kode
 kebijakan/standar (target <=2 keras), blok kutipan dikecualikan via mekanisme
 D18, kontrol regresi kanal lama byte-identik (66 fixture + 9 korpus).
-Konsekuensi penegakan: SOUL/profil yang menagih "scanner v1.9.1+ pada kanal
+Konsekuensi penegakan: SOUL/profil yang mewajibkan "scanner v1.9.1+ pada kanal
 yang sesuai" wajib memakai `--channel standar` untuk naskah standar; memanggil
 kanal doc pada berkas standar lalu memaknai FAIL sebagai cacat naskah = salah
 instrumen. Pemanggilan sah: argumen posisi berkas TANPA `--text -` (akar

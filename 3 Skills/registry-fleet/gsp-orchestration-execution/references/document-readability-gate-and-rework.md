@@ -16,7 +16,7 @@ Sebelum gelombang rework/penulisan massal: 1 bab dirework penuh + dirender ke fo
 
 ## 3. Konten-kekal saat rework penyampaian (anti-drift fakta)
 - Register beku HANYA dibaca; klaim baru kartu fix ditulis ke ADDENDUM (`research/FIX/*/addendum-KL.md`), satu kartu REFREEZE menggabungkan append-only + sha16 baru + REFREEZE-LOG (LAMA->BARU, backup .pre-refreeze.bak, diff nol-suntingan-lama). Larangan sunting register beku langsung = risiko tabrakan tulis dengan kartu lain yang membacanya serentak.
-- Angka/nama/URL/tanggal di naskah hanya placeholder terikat register; emitter memancarkan Register.json dari register beku; audit bind dua arah (stray=0 dengan allow-list tercatat); cakupan-balik: himpunan ID dikutip v2 == v1 (nol hilang nol hantu); kesetaraan nilai numeral lintas format (EN->ID) diverifikasi parser.
+- Angka/nama/URL/tanggal di naskah hanya placeholder terikat register; emitter memancarkan Register.json dari register beku; audit bind dua arah (stray=0 dengan allow-list tercatat); cakupan-balik: himpunan ID dikutip v2 == v1 (tidak ada ID hilang atau ID tambahan tanpa sumber); kesetaraan nilai numeral lintas format (EN->ID) diverifikasi parser.
 - Parafrase dijaga dua-kanal: reviewer netral menguji "apakah paragraf baru membuat klaim yang tidak dibuat baris register-nya?" - satu 'ya' = FAIL butir.
 - Putusan kanal naturalisasi milik USER bila ambang menabrak karakter genre (prosa teknis dewasa vs plafon kanal kitab yang dikalibrasi buku remaja): ajukan via dua-kanal dengan angka; putusan dicatat di Decision Log. Pengecualian verbatim (emoji objek ukur, keluaran mesin) = putusan controller tercatat, BUKAN hapus-buta.
 

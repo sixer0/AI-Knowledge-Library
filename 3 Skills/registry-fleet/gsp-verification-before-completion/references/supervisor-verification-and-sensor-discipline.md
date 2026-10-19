@@ -31,7 +31,7 @@ Semua pernah menipu sensor pengawas sendiri dan DIBETULKAN sebelum vonis tayang:
 - Typo/label-salah di komentar tayang -> komentar koreksi terpisah ber-guard.
 
 ## D. Kelas cacat artefak yang berulang (untuk gerbang hilir)
-- **OPC DOCX XML-langsung**: Id rel duplikat (carry+baru tabrakan `rId46`), Override [Content_Types] hantu menunjuk part absen, Word menolak buka padahal zipfile/python-docx toleran. Gerbang keras: keunikan Id + Override menunjuk part hadir + PROBE BUKA NYATA (Word COM ReadOnly ComputeStatistics). Preseden CHECK 11-14 build_ed3d = rujukan implementasi.
+- **OPC DOCX XML-langsung**: Id rel duplikat (carry+baru tabrakan `rId46`), Override [Content_Types] yang keliru menunjuk part yang tidak ada, Word menolak buka padahal zipfile/python-docx toleran. Gerbang keras: keunikan Id + Override menunjuk part hadir + PROBE BUKA NYATA (Word COM ReadOnly ComputeStatistics). Preseden CHECK 11-14 build_ed3d = rujukan implementasi.
 - **DOI/URL kurung**: `10.1002/(SICI)...` termakan parser URL -> rel terpotong 404 lolos SEMUA sensor lemah; tertangkap hanya di gerbang final. Validasi FORMAT rel Target + entity-match tidak cukup.
 - **Anchor internal regresi**: rujukan prosa polos tanpa `w:hyperlink w:anchor=` vs pembanding-edisi (Ed2 1.217 anchor) - pembanding edisi = cara satu-satunya menangkap kelas ini.
 - **Word regenerasi TOC membuang bookmark kustom** di paragraf sumber TOC (korelasi 487/487, round-trip permanen) -> GoTo PDF non-TOC=0; known-defect ber-register + klausul batas terbit di buku = jalur rilis sah (D-92 cabang B).

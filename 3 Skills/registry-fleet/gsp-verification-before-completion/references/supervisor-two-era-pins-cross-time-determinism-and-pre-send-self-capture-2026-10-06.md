@@ -4,7 +4,7 @@ Preskripsi untuk pengawas/countersigner pada papan dengan koridor revisi-berulan
 
 ## 1. Determinisme alat diuji LINTAS-WAKTU, bukan dua-run satu sesi
 
-Klaim "renderer/skrip deterministik" hanya terbukti bila hasil proses BARU (giliran lain, jam lain) identik byte dengan aset beku era sebelumnya. Resep: jalankan ulang selftest instrumen dengan dependensi RESMI yang terdokumentasi di laporan pekerja (baca dulu bagian "perintah jalan" — panggilanku tanpa `--with` mencetak FAIL palsu CHECK dependensi), lalu `cmp` file-per-file terhadap `assets/awal/`. Pitfall sensor: flag `--out` bisa diperlakukan DIREKTORI oleh skrip (output mendarat sebagai folder berisi berkas+report) — `cmp` langsung ke path berkas akan BEDA/PermissionError; baca struktur dulu sebelum menuduh non-determinisme. Uji tambahan kuat untuk PDF: bandingkan sha per-aset di report vs cetakan beku pekerja (tiga jalur satu angka).
+Klaim "renderer/skrip deterministik" hanya terbukti bila hasil proses BARU (giliran lain, jam lain) identik byte dengan aset beku era sebelumnya. Resep: jalankan ulang selftest instrumen dengan dependensi RESMI yang terdokumentasi di laporan pekerja (baca dulu bagian "perintah jalan" — panggilanku tanpa `--with` mencetak FAIL palsu CHECK dependensi), lalu `cmp` file-per-file terhadap `assets/awal/`. Pitfall sensor: flag `--out` bisa diperlakukan DIREKTORI oleh skrip (output tersimpan sebagai folder berisi berkas+report) — `cmp` langsung ke path berkas akan BEDA/PermissionError; baca struktur dulu sebelum menuduh non-determinisme. Uji tambahan kuat untuk PDF: bandingkan sha per-aset di report vs cetakan beku pekerja (tiga jalur satu angka).
 
 ## 2. Pin dua-era saat healing loop berjalan (norma "vonis menempel byte")
 

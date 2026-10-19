@@ -351,7 +351,7 @@ skill; kartu distribusi TIDAK berwenang menghapus pengetahuan.
   suntingan pertama: `kanban_show` ulang + cari kartu lain dengan judul/baris blueprint yang
   sama; bila ada, tinggalkan komentar handoff (daftar heading anti-dobel, lokasi backup,
   cek tutup) di kartu yang bertahan alih-alih melanjutkan suntingan paralel. Suntingan yang
-  terlanjur mendarat tidak perlu dibatalkan bila substansinya identik dengan perintah kartu
+  terlanjur diterapkan tidak perlu dibatalkan bila substansinya identik dengan perintah kartu
   bertahan — verifikasi gabungan per-heading (`grep -c` heading baru == 1) lalu serahkan
   kepemilikan hasil ke kartu bertahan.
 - **Putusan change request mekanisasi scanner WAJIB diuji terhadap empat pertanyaan struktur alat, bukan hanya isi butirnya (05-10 putusan S13a t_dbb77bfe)**:

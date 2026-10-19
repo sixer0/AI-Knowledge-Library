@@ -775,7 +775,7 @@ Spesialis sosial media (terdaftar 2026-08-21) untuk routing delegasi:
 |-------|--------|---------------|---------|
 | `social-media-analyst` | Analysis | Insight sosial media mendalam: sentimen, tema, tren, kompetitor, laporan listening tersitasi (jalur gratis) | Konsumen corpus dari crawler; output = laporan tersitasi |
 | `social-media-crawler` | Execution | Koleksi multi-platform (Reddit, YouTube, TikTok, IG, Threads, Bluesky, dll) → corpus ternormalisasi + manifest | Serahkan `social/<job_id>/` (items.jsonl + manifest) ke analyst |
-| `gsp-librarian` | Library (gatekeeper) | Kurasi & attest knowledge: verifikasi provenans, dedup, promote vault→wiki; persetujuan data sensitif & verifikasi dosir (terdaftar 2026-08-23) | Terima proposa knowledge → objek vault → wiki/IL (hanya librarian yang promote) |
+| `gsp-librarian` | Library (kurator pustaka) | Kurasi & attest knowledge: verifikasi provenans, dedup, promote vault→wiki; persetujuan data sensitif & verifikasi dosir (terdaftar 2026-08-23) | Terima proposa knowledge → objek vault → wiki/IL (hanya librarian yang promote) |
 
 Delegation notes:
 - **Knowledge yang ingin diabadikan → librarian.** Hasil riset/analisis/laporan yang

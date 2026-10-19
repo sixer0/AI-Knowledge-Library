@@ -67,8 +67,8 @@ metadata:
   `hermes gateway run` spawn rantai anak (n=2..3/profil itu NORMAL; >1 root = bahaya).
   Diagnostik pendukung: `gsp_gateway_tree_v1.py` (pohon parent/child),
   `gsp_gateway_probe_v1.py` (status CLI + umur log).
-- PITFALL buru hantu monitor v1: SUDAH DITAMBAL 10-10 (sysman,
-  docs/2026-10-10_gateway-monitor-no-prefix/) — vonis hantu kini murni
+- PITFALL deteksi profil di luar daftar aktif oleh monitor v1: SUDAH DITAMBAL 10-10 (sysman,
+  docs/2026-10-10_gateway-monitor-no-prefix/) — penilaian profil di luar daftar aktif kini murni
   `p not in live` (registri = sumber tunggal), filter prefix lama dibuang.
   Konsekuensi: profil gateway BARU di luar registri akan dibunuh monitor;
   daftarkan dulu di PROFILE-REGISTRY.json sebelum start. Audit periodik

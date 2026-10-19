@@ -43,7 +43,7 @@ TIDAK sampai ke jawaban agen, karena agen menempuh rute memori ke lapis SUMBER
 agen menurut rute, lalu diverifikasi grep pada lapis itu - bukan pada lapis promosi.
 Ini penerapan SPK-002 butir 7 (tambal gerbang/lapis penyebab, bukan gejala hilir).
 Kartu FIX terpisah per lapis (di sini: FIX-EKAS hanya-tambah dengan penjaga subsequence
-+ cadangan penuh) adalah jalur sah; setelah marker mendarat, re-probe wajib, bukan opsional.
++ cadangan penuh) adalah jalur sah; setelah marker terpasang, re-probe wajib, bukan opsional.
 
 ## Fakta lingkungan yang menguntungkan
 

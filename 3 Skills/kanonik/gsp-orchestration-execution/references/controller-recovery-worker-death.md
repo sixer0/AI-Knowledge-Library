@@ -30,5 +30,5 @@ Signature: run yang meng-claim kartu dari `source_status=review` mati <65 detik 
 call, log terakhir identik `Error: Unknown skill(s): <nama-skill>` (kasus nyata: `sdlc-review`
 direferensikan profil claimer tapi tidak ada). Ini BUKAN kegagalan kerja kartu; re-run buta mati
 identik. Aksi controller: traceroot dari log kernel + DB run + probe profil, tutup kartu dengan vonis
-sendiri ber-bukti ukur (prosedur di atas), dan ajukan perbaikan fleet (hapus/daftarkan skill hantu di
+sendiri ber-bukti ukur (prosedur di atas), dan ajukan perbaikan fleet (hapus/daftarkan skill yang tidak terdaftar di
 profil) via gsp-skill-manager. Jangan tulis 'X tidak bisa dipakai' sebagai aturan - perbaiki referensinya.

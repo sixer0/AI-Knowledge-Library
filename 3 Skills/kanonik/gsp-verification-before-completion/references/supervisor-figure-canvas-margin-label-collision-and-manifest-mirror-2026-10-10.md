@@ -32,7 +32,7 @@ for f in sorted(pngs):
 ## Uji cermin manifest DUA ARAH (standar rilis; teladan lulus: manifest FG6)
 
 Manifest figur terbit wajib cermin byte disk, diuji dua arah:
-1. manifest -> disk: tiap berkas yang DISEBUT entri (png/svg/spek/sidecar + sha256 + ukuran) harus ADA dan hash-nya cocok. Entri menyebut PNG yang tak ada di disk = ENTRI HANTU (preseden FG2: 4 id ditahan publikasinya tapi manifest mengklaim lahir lengkap dengan sha256 - bahaya fatal untuk RAKIT bind-register). Id tertahan masuk blok 'ditahan' berstatus eksplisit.
+1. manifest -> disk: tiap berkas yang DISEBUT entri (png/svg/spek/sidecar + sha256 + ukuran) harus ADA dan hash-nya cocok. Entri menyebut PNG yang tak ada di disk = ENTRI TANPA BERKAS (preseden FG2: 4 id ditahan publikasinya tapi manifest mengklaim lahir lengkap dengan sha256 - bahaya fatal untuk RAKIT bind-register). Id tertahan masuk blok 'ditahan' berstatus eksplisit.
 2. disk -> manifest: tiap berkas kelas itu di folder terbit harus disebut sebuah entri (nol yatim).
 - Pitfall parser pengawas: kunci hash bisa bersarang (`berkas.png.sha256`, `sha256_png`) - asumsi kunci datar menghasilkan '12 hantu' palsu sebelum dibaca struktur sebenarnya. Baca item0 dulu.
 - Gerbang RAKIT: manifest-final == cermin byte disk, butir per butir.

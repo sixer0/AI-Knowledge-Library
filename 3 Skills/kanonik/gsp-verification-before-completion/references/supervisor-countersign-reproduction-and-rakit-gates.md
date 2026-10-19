@@ -40,7 +40,7 @@ Generalisasi: sebelum vonis SAH kartu RAKIT/PROMOSI, pengawas grep workdir untuk
 
 ## 4. Retry timeout idempoten-berbahaya
 
-Kartu suntingan/apply (EDIT, FIX-LINK, RAKIT) yang timeout dengan suntingan SUDAH mendarat sebagian:
+Kartu suntingan/apply (EDIT, FIX-LINK, RAKIT) yang timeout dengan suntingan SUDAH diterapkan sebagian:
 
 - run-2 WAJIB resume dari state disk; **jangan apply ulang replace** (cek disk tiap target dulu — replace ganda merusak baris); jangan timpa arsip_pre bersih dengan arsip pasca-fix.
 - Vonis pengawas dua-arah: URL/koreksi baru hidup TERBUKTI probe DAN bentuk lama hilang dari naskah (sisa lama sah hanya bila konteksnya teks riwayat, cek per kemunculan).

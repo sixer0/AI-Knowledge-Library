@@ -25,7 +25,7 @@ Konvensi hulu berbeda per lajur; parser wajib menormalkan dulu. Varian terdokume
 
 ## Resep timeout-supervision (dipakai 6x; jangan aksi selain catat)
 1. Ukur jejak parsial: byte-diff tiap artefak vs basis yang beku di vonis sebelumnya + mtime + keberadaan workdir/instrumen + registry sha-vs-disk.
-2. Klasifikasi: BERSIH TOTAL (mati sebelum menulis apa pun → retry dari nol) / PARSIAL BERJEJAK (arsip+probe ada → lanjut, jangan buang inklusif) / PARSIAL TANPA JEJAK (suntingan mendarat tanpa instrumen → run-2 WAJIB audit-vs-basis dulu, dilarang apply buta).
+2. Klasifikasi: BERSIH TOTAL (mati sebelum menulis apa pun → retry dari nol) / PARSIAL BERJEJAK (arsip+probe ada → lanjut, jangan buang inklusif) / PARSIAL TANPA JEJAK (suntingan diterapkan tanpa pemeriksaan alat → run-2 WAJIB audit-vs-basis dulu, dilarang apply buta).
 3. Komentar catatan: fakta ukur + arahan retry + basis kekekalan terbekukan (angka ID/tag/glif vonis sebelumnya) supaya vonis nanti tidak bergantung ingatan.
 4. Hipotesis struktural terukur (5 timeout kartu editor 3-bab): durasi pass > RUN_TIMEOUT_MS bridge 1800s — usulan perbaikan = kartu per-2-bab, bukan satu pass besar. Sampaikan sebagai hipotesis, bukan vonis.
 

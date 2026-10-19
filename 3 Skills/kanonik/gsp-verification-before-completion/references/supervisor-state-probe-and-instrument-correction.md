@@ -26,7 +26,7 @@ padahal `hermes kanban show` masih `running`). Urutan wajib:
   `KARTU_LANJUTAN`. Verifikasi klaim "butir X selesai" di disk (bukan dari ringkasan),
   lalu **cek cakupan kartu lanjutan terhadap SISA_KERJA** - kalau kartu anak cuma
  _address_ RB-1..RB-4 sementara SISA_KERJA = B-3..B-7, itu celah kepemilikan milik
-  orkestrator, wajib ditagih di komentar (mata rantai 3) bukan dibiarkan.
+  orkestrator, wajib diminta melalui komentar (mata rantai 3) bukan dibiarkan.
 - **gave_up (retries exhausted)**: cek apakah ada artefak dari run terakhir (mtime
   membocorkan urutan) lalu tulis catatan run-N+1 berisi ARAHAN, bukan ringkasan.
 - Rekomendasi arah pekerjaan untuk kartu yang sudah 2 kali timeout dengan pola sama

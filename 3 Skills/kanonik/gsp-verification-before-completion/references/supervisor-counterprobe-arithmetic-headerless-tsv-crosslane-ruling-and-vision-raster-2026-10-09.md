@@ -63,5 +63,5 @@ W4 hanya mewajibkan uji-panggil 10 kueri; controller menguji POPULASI PENUH 372/
 digest (ada di disk) + 372/372 anchor (ditemukan di berkas sasaran) - nol rusak. Pola umum:
 bila gerbang kartu berbunyi "sampel N", supervisor boleh menaiki bar ke populasi penuh bila
 alat deterministik tersedia murah; hasil naik-bar dilaporkan sebagai "gerbang di atas kartu"
-supaya pekerja tidak merasa ditagih di luar kontrak, dan temuan nol-cacat populasi jadi
+supaya pekerja tidak diminta bekerja di luar kontrak, dan temuan nol-cacat populasi jadi
 bukti lebih kuat daripada sampel.

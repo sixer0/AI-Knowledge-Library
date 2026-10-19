@@ -1,7 +1,7 @@
 # Cross-Supervisor Audit Playbook (controller kedua, tanpa wewenang dispatch)
 
 Dipakai saat mengawasi misi milik controller lain (mis. `gsp-master01`) lewat notifikasi
-`[kanban] Task ... completed/blocked`. Peran: menagih gerbang, memverifikasi SHA/ukuran/vonis
+`[kanban] Task ... completed/blocked`. Peran: memastikan gerbang dijalankan, memverifikasi SHA/ukuran/vonis
 di disk, membekukan catatan di `contract.md` + komentar kartu. DILARANG: dispatch, promosi
 wave, membuat kartu, reopen, memvonis rilis. Notifikasi = status, bukan permintaan dekomposisi;
 jangan pernah recreate kartu/graph yang sudah ada.

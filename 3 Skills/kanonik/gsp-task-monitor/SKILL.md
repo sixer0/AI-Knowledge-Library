@@ -232,7 +232,7 @@ HERMES_HOME="C:/Users/TRIAL/AppData/Local/hermes" hermes cron notepad 9d2c115874
   user). Selain itu, aksi approve/reject atas nama user DILARANG.
 - Monitor TIDAK mengubah status kartu orang lain, tidak approve/reject di luar AUTO-SYNC,
   dan tidak pernah menutup ping (ping ditutup oleh pemiliknya dengan bukti; monitor hanya
-  memverifikasi dan menagih - KS-8).
+  memverifikasi dan meminta tindak lanjut - KS-8).
 - Hemat giliran: batch query independen dalam satu giliran (skill `gsp-tool-batching`).
 - Bila HQ tidak terjangkau: kelas B/D dilaporkan `HQ_UNREACHABLE` (bukan nol temuan).
 

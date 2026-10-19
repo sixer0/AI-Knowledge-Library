@@ -57,7 +57,7 @@ dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
 3. **Signup WebUI off by default** — aktif via `HERMES_WEBUI_RBAC_SIGNUP=1` di
    gsp-brahma/.env. Jika diaktifkan, siapa pun yang menjangkau port 9012 bisa
    buat akun USER (panel terbatas, bukan ADMIN) — konfirmasi ke user bila ragu.
-4. **User baru yang usable = punya profil Hermes LENGKAP**. Jalur resmi:
+4. **Akun pengguna baru yang siap digunakan = punya profil Hermes LENGKAP**. Jalur resmi:
    WebUI signup (auto-clone profil dari `default`) ATAU HQ user-access — sejak
    27-08-2026 kedua jalur memakai provisioning guard: nama profil divalidasi
    (`[a-z0-9][a-z0-9_-]{0,63}`, USER tidak boleh bind `default`), profil USER

@@ -30,7 +30,7 @@ Objek yang diusulkan adalah satu entri indeks dataset dengan id stabil `expo-202
 
 Yang dipromosikan ke vault hanyalah rekaman ringkas ini beserta provenans, metodologi, statistik, dan rujukan path, sedangkan dataset penuh sengaja tidak disalin ke vault sesuai instruksi kartu L29 dan prinsip vault sebagai lapisan rujukan untuk artefak besar. Klasifikasi gerbang objek ini adalah non-sensitif karena seluruh isinya merupakan data acara publik yang bersumber dari web resmi, dan bukan perkara dosir, sehingga setelah verifikasi custodian objek dapat langsung di-attest tanpa approval-ref maupun verification-by.
 
-Karena aturan gatekeeper melarang librarian meng-attest tulisannya sendiri untuk klaim kuat, proposa yang disusun oleh gsp-librarian ini wajib melewati verifikasi custodian lebih dulu sebelum promosi berjalan.
+Karena aturan kurator pustaka melarang librarian meng-attest tulisannya sendiri untuk klaim kuat, proposa yang disusun oleh gsp-librarian ini wajib melewati verifikasi custodian lebih dulu sebelum promosi berjalan.
 
 ## 2. Provenans
 

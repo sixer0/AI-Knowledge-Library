@@ -306,11 +306,11 @@ keberadaan berkas + marker, bukan ketepatan nomor baris. Teknik yang menemukan t
 Kelas temuan ini murni ALAMAT: tidak ada angka teknik yang salah, jadi verdict perlu_revisi dengan
 rekomendasi koreksi alamat + syarat probe "setiap :NNN menunjuk baris non-kosong berisi pola butirnya".
 
-## Audit gatekeeper yang MEMBUTUHKAN set jangkar sendiri = celah kelas alamat (custodian 2026-09-24, objek thermal-korpus-ekas-0923 D4)
+## Audit gatekeeper yang MEMBUTUHKAN set jangkar sendiri = celah kelas kesalahan alamat (custodian 2026-09-24, objek thermal-korpus-ekas-0923 D4)
 
 Dispatch bisa melarang pengulangan audit jangkar penuh karena "131 jangkar sudah divoniskan FIX=0".
 Itu benar untuk SET yang diaudit, bukan untuk seluruh berkas. Kejadian nyata: tabel peta isi Bagian 1
-(baris objek 67-113) dan baris uji aritmetika 2.3 (:228-240) TIDAK muncul di JSON gatekeeper, dan
+(baris objek 67-113) dan baris uji aritmetika 2.3 (:228-240) TIDAK muncul di JSON kurator pustaka, dan
 validator librarian 12/12 tetap LOLOS karena ia menguji keberadaan berkas + marker, bukan ketepatan
 nomor. Cara menutup murah tanpa mengulang audit penuh:
 1. Petakan `obj_line` dari JSON audit ke baris objek, lalu hitung baris body yang memuat `:NNN` dan
@@ -572,7 +572,7 @@ Tambahan positif terukur: klaim batas-waktu di body bisa diuji dua arah — angk
 (tidak akan pernah cocok lagi, sah) DAN angka "kini" yang dideklarasikan (WAJIB cocok dengan
 `wc -l` hari ini). Deklarasi T-4 di objek ini lolos kedua-duanya.
 
-## Dua false-FAIL kelas alamat tambahan + sesi kembar yang menulis verdict sebelum kita (custodian 2026-09-24, objek thermal-korpus-ekas-0923 iterasi-3)
+## Dua false-FAIL kelas kesalahan alamat tambahan + sesi kembar yang menulis verdict sebelum kita (custodian 2026-09-24, objek thermal-korpus-ekas-0923 iterasi-3)
 
 Dua cacat checker saya sendiri pada uji "alamat lama harus hilang", keduanya menghasilkan FAIL
 palsu atas data penulis yang sah:

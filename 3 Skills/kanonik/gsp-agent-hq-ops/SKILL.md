@@ -115,7 +115,7 @@ dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
 
    buat akun USER (panel terbatas, bukan ADMIN) — konfirmasi ke user bila ragu.
 
-4. **User baru yang usable = punya profil Hermes LENGKAP**. Jalur resmi:
+4. **Akun pengguna baru yang siap digunakan = punya profil Hermes LENGKAP**. Jalur resmi:
 
    WebUI signup (auto-clone profil dari `default`) ATAU HQ user-access — sejak
 

@@ -90,7 +90,7 @@ perluasan vs sibling baru, alasan lengkap `work/f4_adopsi-notes.md` misi VISUAL-
 - Struktur: 56 aturan SV lima kelompok (SIM 11 simbol/notasi, GRA 15 chart, DIA 7 diagram,
   TAB 10 tabel, LAY 13 layout/anatomi), enam bidang wajib per aturan, register kanal K2+K6.
 - Muat sebelum merancang/menyerahkan keluaran bergambar (docx/pptx/xlsx/pdf) pada kanal
-  sasaran; VS-12 menagih kelompok aktif + alokasi aset sejak outline, bukan finishing.
+  sasaran; VS-12 mewajibkan penetapan kelompok aktif dan alokasi aset sejak outline, bukan finishing.
 - Figur hanya dari registri aset `docs/2026-10-06-visual-instrument/assets/aset.json` lewat
   `render_aset.py` kanonis (palet runtime-read); glif rekaan di luar registri dilarang (SV-SIM-04).
 - Scanner: kanal resmi naskah standar = `standar` v1.10.0+; kanal keluaran sesuai jenisnya

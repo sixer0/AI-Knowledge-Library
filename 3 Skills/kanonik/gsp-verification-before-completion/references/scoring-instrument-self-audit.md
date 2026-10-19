@@ -39,7 +39,7 @@ curigai dulu perintah dalamnya, bukan papan.
 ## 6. Vonis simulasi FAIL -> audit cakupan hulu dulu
 Panel buta gagal ambang (G1/G3/G5) padahal juri sepakat penuh (arbiter 0) dan penolakan
 jujur berskor baik: indikator kuat cacat di HULU (ekstraksi register melewatkan butir
-yang ditagih bank soal), bukan kandidat/kunci. Resep diagnosis:
+yang diminta bank soal), bukan kandidat/kunci. Resep diagnosis:
 - join butir kunci soal-gagal vs register (kata kunci nol-cocok = kandidat celah);
 - uji tandingan pymupdf terhadap dokumen asli di halaman klaim: angka ADA di sumber +
   TIDAK ADA di register = cacat rakit;

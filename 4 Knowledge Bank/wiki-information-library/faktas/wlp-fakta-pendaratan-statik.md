@@ -33,7 +33,7 @@ dipromosikan-ke: faktas/wlp-fakta-pendaratan-statik.md
 
 2. Lapis browser (batas pendaratan tanpa restart)
 
-2.1 `index.html` menyemat `?v=__WEBUI_VERSION__` dan WEBUI_VERSION dihitung SEKALI saat proses boot (api/updates.py:612) dengan `Cache-Control: public, max-age=31536000, immutable` pada URL ber-fingerprint. Tab LAMA yang sudah menyimpan salinan immutable tetap memakai cache sampai token `?v` berganti (restart jendela user) atau hard-refresh. Konteks baru (playwright/cache kosong) selalu mendapat badan disk terbaru segera setelah commit mendarat [R-1][R-6].
+2.1 `index.html` menyemat `?v=__WEBUI_VERSION__` dan WEBUI_VERSION dihitung SEKALI saat proses boot (api/updates.py:612) dengan `Cache-Control: public, max-age=31536000, immutable` pada URL ber-fingerprint. Tab LAMA yang sudah menyimpan salinan immutable tetap memakai cache sampai token `?v` berganti (restart jendela user) atau hard-refresh. Konteks baru (playwright/cache kosong) selalu mendapat badan disk terbaru segera setelah commit tersimpan [R-1][R-6].
 
 2.2 Implikasi operasional: untuk verifikasi otomatis, gerbang buka "md5 body GET == md5 disk" sudah cukup pasca-pendaratan commit; jangan menyimpulkan "tambalan tidak bekerja" dari tab lama yang masih immutable-cache.
 

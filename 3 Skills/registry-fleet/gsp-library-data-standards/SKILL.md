@@ -198,8 +198,8 @@ retensi GameAnalytics). Konsekuensi penulisan dan vonis:
   boleh satu objek" adalah alasan PELABELAN, bukan selalu alasan PEMISAHAN BERKAS. Satu objek master
   sah bila tiap angka membawa marker sendiri + blok BATAS menyatakan kelas bukti per kelompok;
   catat biaya kurasi berlipat (N verifikasi custodian + N promote + N bukti API) saat memutuskan.
-- **Verifikasi silang gatekeeper tetap wajib meski custodian lulus/FAIL:** cocokkan minimal 8-12
-  angka lintas bagian ke berkas rak (path:baris) pada giliran yang sama. Pada kartu ini gatekeeper
+- **Verifikasi silang kurator pustaka tetap wajib meski custodian lulus/FAIL:** cocokkan minimal 8-12
+  angka lintas bagian ke berkas rak (path:baris) pada giliran yang sama. Pada kartu ini kurator pustaka
   dan custodian sama-sama menemukan kecocokan, dan custodian menemukan kelas cacat yang lolos
   gerbang deterministik saya: **angka warisan yang konsisten di korpus teks tapi tidak terkonfirmasi
   pada PDF primer** (dua bentuk Tabel 7 di hulu; geometri sel pymupdf + pdftotext merender jumlah

@@ -150,7 +150,7 @@ FAIL salah satu = kembali ke arsitektur (R-02/R-04), bukan menambal gejala.
 8. Penutup verifikasi + sidik jari; baru serah.
    PITFALL (preseden REVB 10-09): sebelum rakit-final, PASTIKAN tidak ada proses latar
    (merge/naturalisasi/build) yang masih akan menulis kartu sumber. Notifikasi proses
-   bisa mendarat jauh setelah ia sebenarnya selesai; bila ia menulis ulang kartu setelah
+   bisa diterima jauh setelah ia sebenarnya selesai; bila ia menulis ulang kartu setelah
    rakit tapi sebelum build, artefak terserah mengandung suntingan yang belum diaudit.
    Disiplin: kill/konfirmasi SEMUA proc exited sebelum tahap serah; bila telanjur, audit
    berkas final langsung (titik sentuh alat + multiset kata vs cadangan + gerbang ulang),
@@ -169,6 +169,6 @@ Dokumen ini adalah dokumen resmi panjang: gunakan bersama `gsp-document-quality-
 
 ## Changelog
 - 1.0.1 (10-09-2026): pitfall race proses latar di langkah serah (preseden REVB - notifikasi
-  merge v4 mendarat telat, kartu tertulis ulang sebelum build; disiplin kill/audit berkas final).
+  hasil penggabungan v4 diterima terlambat, kartu tertulis ulang sebelum build; disiplin kill/audit berkas final).
 - 1.0.0 (09-09-2026): berasal dari PELAJARAN-EXEMPLAR-REVD; R-01..R-11 + anatomi 14 bagian +
   V-SUSUN 11 butir + 3 template.

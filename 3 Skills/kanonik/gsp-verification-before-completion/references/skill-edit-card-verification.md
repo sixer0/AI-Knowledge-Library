@@ -20,4 +20,4 @@ Sumber pola: misi enforcement firecrawl+searxng paralel, kontrak `docs/2026-09-1
 
 ## Batas klaim
 
-Checklist ini menagih eksekusi probe dan baca-blok oleh pengklaim pada run tertentu; tidak ada klaim gerbang ini otomatis lolos sefleet. Yang memverifikasi suntingan skill idealnya bukan penulis suntingannya (Iron Law penulis-bukan-verifikator tetap berlaku di lapis controller: controller menguji, verifier F4 mengulang lintas-waktu — status engine backoff bisa berubah antar-waktu).
+Checklist ini mewajibkan pelaksanaan probe dan baca-blok oleh pengklaim pada run tertentu; tidak ada klaim gerbang ini otomatis lolos sefleet. Yang memverifikasi suntingan skill idealnya bukan penulis suntingannya (Iron Law penulis-bukan-verifikator tetap berlaku di lapis controller: controller menguji, verifier F4 mengulang lintas-waktu — status engine backoff bisa berubah antar-waktu).

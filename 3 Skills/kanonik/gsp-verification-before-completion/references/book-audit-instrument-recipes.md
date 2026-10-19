@@ -10,7 +10,7 @@ False positive/negative berulang (TB14, EDIT-910b, TLD, EDIT-1718) karena ID dis
 6. tanpa-F: `R10-05` (R10 menyimpan tanpa huruf F sama sekali)
 7. dua-tanda-PAD: `F-03` (grep longgar `^\| F-0?3 \|` di lajur)
 Resep uji: ekstrak token ID dari naskah → normalisasi ke `(lajur, nomor)` dengan membuang prefik lajur dan huruf F → cek keberadaan di berkas lajur HULU dengan pola longgar, bukan string-exact naskah-vs-naskah. Aturan INDEKS-bukan-korpus: setiap ID harus ditemukan di lajur sebelum angka dikutip.
-PROMANUAL: matcher wajib placeholder-aware `{{KL:KL-Rn-nn|field}}` — placeholder bukan angka telanjang; hitung KL unik dari pola itu, verifikasi vs register beku (nol-hantu). Regex baris-angka yang mencetak 0 pada bab tanpa angka vendor = BENAR, bukan temuan.
+PROMANUAL: matcher wajib placeholder-aware `{{KL:KL-Rn-nn|field}}` — placeholder bukan angka telanjang; hitung KL unik dari pola itu, verifikasi vs register beku (tanpa ID yang tidak memiliki sumber). Regex baris-angka yang mencetak 0 pada bab tanpa angka vendor = BENAR, bukan temuan.
 
 ## 2. Countersign auditor = reproduksi independen, bukan pembacaan laporan
 - G-KUTIP: parser pengawas sendiri mereproduksi 1.368 kemunculan URL (cocok persis). Unik 413 vs 412 terjelaskan BEDA DEFINISI (URL pola-brace instruksional: utuh vs dinormalkan ke basis path) — selisih definisi dibukukan + direkonsiliasi, bukan divonis kontradiksi.

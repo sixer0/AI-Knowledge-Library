@@ -37,7 +37,7 @@ Resep verifikasi penjawab netral yang terulang hijau:
 - sha256[:16] jawaban == handoff result; sha16 bahan (teks+soal paket) == cetakan pekerja; kontrol waktu bonus: hash bahan dicatat SEBELUM tulis (frontmatter/waktu).
 - Token 'skor/gagal/TTM' dalam jawaban harus dibedah konteks: isi materi (diskusi evaluasi) BUKAN penskoran-diri; vonis peran = nol bobot/vonis diri.
 - Klaim negatif ("tidak baca sumber luar/memori") tak teruji penuh dari disk — declared begitu saja; semua yang TERUKUR konsisten.
-- Klasifikasi butir TTM milik pemeriksa: cacat-ekstraksi vs cacat-cakupan-soal (lintas-bab; grep token kunci di teks bab = 0) vs gap-isi vs non-gap. "Nol kasus jawaban ada di teks tapi penjawab melewatkan" = vonis keadilan instrumen. Temuan D-01 tipe: kunci menagih istilah yang tercetak di register/naskah lain (prompt-caching=0 di teks, =1 di kunci) — penjawab ikuti TEKS benar, kunci cacat.
+- Klasifikasi butir TTM milik pemeriksa: cacat-ekstraksi vs cacat-cakupan-soal (lintas-bab; grep token kunci di teks bab = 0) vs gap-isi vs non-gap. "Nol kasus jawaban ada di teks tapi penjawab melewatkan" = vonis keadilan instrumen. Temuan D-01 tipe: kunci mewajibkan istilah yang tercetak di register/naskah lain (prompt-caching=0 di teks, =1 di kunci) — penjawab ikuti TEKS benar, kunci cacat.
 
 ## 6. Norma jejak yang berasal dari tagihan pengawas (siklus pelajaran→gerbang <=1 giliran)
 

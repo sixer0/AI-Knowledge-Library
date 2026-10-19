@@ -15,7 +15,7 @@ cache profil dan salin instrumen ke folder misi agar hasil dapat direproduksi.
 Scanner: `%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`
 (dipanggil via `uv run --python 3.11`). Jalankan penuh, baca FAIL per nama CHECK, baru menambal.
 
-Semantik check yang menagih (terukur 03-10):
+Makna check yang menentukan hasil penilaian (terukur 03-10):
 - C-1/C-2: U+2014 dan U+00B7 = 0, mutlak di semua register.
 - C-7 (B2): paragraf < 3 kalimat dibolehkan maksimal 1 per dokumen. Penghitung kalimat =
   split regex `(?<=[.!?])\s+`; baris tabel (`|`) dan heading TIDAK dihitung sebagai paragraf.

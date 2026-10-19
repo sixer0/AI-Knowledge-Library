@@ -76,7 +76,7 @@ nol karena iterasi; satu run melapor cuma memakai sekitar 35 dari cap 150).
 | R-3 | E > 0.5 x cap DAN item saling bebas | PARALEL cards; tiap kartu <= 0.5 x cap; concurrency maks 5 AKTIF (running) per misi tanpa batas per jenis (norma 03-09B + norma gelombang N1 08-09: kap menghitung kartu running, BUKAN pembuatan batch; sumber normatif: `gsp-orchestration-execution` seksi "Norma gelombang N1"); path output unik |
 
 Ambang 0.5 x cap: worker butuh sekitar 25% anggaran untuk menutup jujur plus
-ruang koreksi; menarget cap penuh berarti kartu dirancang mendarat di ambang.
+ruang koreksi; menarget cap penuh berarti kartu dirancang mencapai batas maksimum.
 Pengecualian: kerja interaktif singkat (chat, tanya-jawab, perbaikan kecil satu
 berkas) tidak butuh estimasi; aturan berlaku untuk KARTU DELEGASI.
 

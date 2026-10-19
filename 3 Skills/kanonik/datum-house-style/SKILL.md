@@ -140,7 +140,7 @@ paket ini wajib menghasilkan berkas yang lolos tanpa penambalan pasca-terbit:
 - E-29 diverifikasi ulang sudah hijau di mesin v2.0.0 (stadium rect+rx,
   cylinder path berlabel) dan diregistrasi sebagai CHECK 22 selftest diagram.
 - E-17 ditutup (putusan user 08-10, fixture nyata good_sld.json): stub target
-  rute kini arah-balik dari batas simpul, dan tap rel mendarat di GARIS rel
+  rute kini arah-balik dari batas simpul, dan sambungan rel berada pada GARIS rel
   (tengah blok), bukan tepi bawah blok; probe dua arah: sebelum 2/3 edges
   menggantung, sesudah 0. CHECK 23 selftest diagram.
 - E-08 ditutup dua lapis: guard titik-panggil `px_guard` (DATUM-39, tolak
@@ -342,7 +342,7 @@ wrapper pemanggil `work/figur1_diagwrap.py` dan `work/datum_diagram_hopfix.py`.
 
 - **C1 kaki apparatus ber-reserve:** blok kaki (caption/KEY/SUMBER apparatus figure;
   KEY apparatus page ber-legend) digambar pada foot=H-2*LATTICE_Y tanpa reserve
-  tinggi -> garis dasarnya mendarat di dalam simpul baris terakhir pada SEMUA
+  tinggi -> garis dasarnya berada di dalam simpul baris terakhir pada SEMUA
   diagram ber-legend (tabrakan terukur 13 dari 23 figur figuran RAFIF-MF-1009).
   `Sheet` kini punya medan `foot`; `build_svg` mengisi `sheet.foot =
   _foot_reserve_mm(spec)` (= jumlah baris kaki x LATTICE_Y) sebelum `height()`.

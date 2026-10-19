@@ -94,7 +94,7 @@ nama model.
 2. **Inspeksi** (kode temuan): A file lepas · B nama yang sulit dikenali · C frontmatter invalid · D duplikat ·
    E salah folder · F link rusak · G vault usulan basi (>7 hari) · H wiki menyimpang (flag only).
 3. **Perbaikan** (≤ 50 operasi, prioritas A→B→C→E→D→F→G→H): pindah ke `00_INDEX/`/`01_DOMAIN/`/
-   `02_PROJECT/`/`_inbox/`; rename cryptic; isi frontmatter dasar tanpa ubah isi; folder selesai ≥ 30 hari
+   `02_PROJECT/`/`_inbox/`; ganti nama yang sulit dikenali; isi frontmatter dasar tanpa ubah isi; folder selesai ≥ 30 hari
    → `legacy-archive/`; vault basi → `perlu_revisi` + catatan; JANGAN hapus, JANGAN ubah isi, JANGAN
    sentuh zona proteksi; tiap mutasi dicatat `CHANGES.md` (old → new → alasan).
 4. **Verifikasi**: re-scan (tidak ada path patah/file hilang), IL API ulang, CHANGES.md konsisten.

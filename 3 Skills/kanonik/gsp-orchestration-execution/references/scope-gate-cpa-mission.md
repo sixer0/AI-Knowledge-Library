@@ -13,7 +13,7 @@ tanpa pelonggaran RT-first.
 2. **Fase scope = RT + TA paralel** (OPT-WF O-C; tipe misi bertemplat Rafif/riset).
    Kartu TA memuat kalimat penahan baku `TA: tunggu 01 di docs/.../identification/
    01_translated.md sebelum finalisasi`. Body kartu TA boleh mencontohkan penafsiran
-   tetapi WAJIB dilabel "USULAN, bukan kata user" — RT menagih ini di catatan
+   tetapi WAJIB dilabel "USULAN, bukan kata user" — RT mewajibkan hal ini di catatan
    sinkronisasinya dan TA menuruti status hipotesis sampai CP-A.
 3. **Gerbang RT_BYPASS diukur controller**: 02 final menyitasi 01 (frontmatter
    `source_translated_task` + seksi Source Translation menunjuk berkas yang sama);

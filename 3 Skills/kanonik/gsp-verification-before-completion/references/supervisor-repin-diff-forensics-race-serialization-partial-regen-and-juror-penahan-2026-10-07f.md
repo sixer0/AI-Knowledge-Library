@@ -19,7 +19,7 @@ Generator sejati KATALOG-MASTER (c1_make.py) TIDAK dijalankan ulang karena akan 
 
 ## 5. Desinkron generator-vs-sumber: override di generator, sel sumber tak disentuh
 FIX-2 menaruh revisi VC-68/VC-85 di GENERATOR manual (alasan: byte hulu stabil) - akibatnya keluaran MENDAHULUI katalog untuk 2 sel: satu-sumber-kebenaran terbalik arahnya sementara. Verifier V3: PASS gerbang SAH (definisi CHECK tidak menguji kesamaan dua sel itu) TAPI menolak tutup-mata - mendaftarkan desinkron + ASM-VCTL-03/04 belum di Seksi D sebagai cacat terbuka ber-estimasi (~5 iter) alih-alih menghilangkannya dari peta. Tagihan pengawas: sinkronkan hulu SEBELUM gerbang silang CHECK 11/13 berikutnya menyalakan perbedaan.
-Pola kembar: GM-L7 rakit DOCX sebelum putusan sumber-kanonis mendarat -> buku 93-hal memuat kata PRA-REVISI (probe: INDEKS ada byte-per-byte, BADAN nihil). PUTUSAN HARUS mendahului rakit; kalau tidak, juri yang menahan diri (bawah) adalah jaring pengaman terakhir.
+Pola kembar: GM-L7 rakit DOCX sebelum keputusan sumber kanonis diterima -> buku 93-hal memuat kata PRA-REVISI (probe: INDEKS ada byte-per-byte, BADAN nihil). PUTUSAN HARUS mendahului rakit; kalau tidak, juri yang menahan diri (bawah) adalah jaring pengaman terakhir.
 
 ## 6. "Merah yang bukan cacat" - cermin PASS-vakum
 GM-L7b: sensus gerbang mencetak 3 pernyataan HILANG dari docx; akar = artefak PARSER gerbang (token backtick di pernyataan kanonis pecah oleh builder lalu hilang di docx; norm() strip backtick = tambalan SATU BARIS di gerbang, nol ubah naskah). Kelas N-2 terbalik: bukan hijau-yang-vakum tapi MERAH-yang-bukan-cacat-artefak. Diagnosis presisi sebelum menambal dokumen adalah kewajiban; dokumen JANGAN ditambal demi lint/gerbang (doktrin L12C-D, kini tiga papan).

@@ -52,7 +52,7 @@ Ukuran kunci RFZ yang lolos audit:
 
 Klaim paper (termasuk ID tahun berjalan yang tak mungkin kuhafal) diverifikasi
 netral: `https://export.arxiv.org/api/query?id_list=<id>` → judul dari `<entry>`
-terakhir; uji (a) ID resolve (nol NO-ENTRY = nol hantu), (b) domain judul masuk
+terakhir; uji (a) ID resolve (nol NO-ENTRY = tidak ada ID tanpa sumber), (b) domain judul masuk
 akal, (c) pairing nama-pendek↔ID-sebaris sebagai SPOT-CHECK saja — baris klaim
 yang mengutip ID tanpa mengulang judul adalah NORMAL (pemetaan utuh di
 korpus/ladder), jangan vonis MISS karena token judul tidak muncul di baris

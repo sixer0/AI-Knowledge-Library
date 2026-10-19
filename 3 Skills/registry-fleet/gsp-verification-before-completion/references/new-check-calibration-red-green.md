@@ -29,7 +29,7 @@ fixture/korpus, nol oleh penalaran awal:
 4. **Label struktural dihitung prosa**: kepala tabel/`Sumber ...`/`Gambar ...` WAJIB
    seragam format antar bagian (Module L.3-L.4) — persamaannya bukan pengulangan.
    Tanpa pengecualian: 18 temuan PALSU pada satu deliverable nyata; setelahnya 0.
-5. **Kelas ambigu jangan menagih FAIL**: kode kebijakan/standar (SPK-002, V-1) sering
+5. **Kelas ambigu jangan menghasilkan FAIL**: kode kebijakan/standar (SPK-002, V-1) sering
    jadi OBJEK pembicaraan laporan verifikasi dan penjelasannya berupa prosa, bukan
    kurung. Pisahkan kelas KERAS (id kartu, status mentah, hash, nama kolom — selalu
    jejak mesin → FAIL) dari kelas LUNAK (→ INFO dulu, naikkan setelah korpus ≥20).

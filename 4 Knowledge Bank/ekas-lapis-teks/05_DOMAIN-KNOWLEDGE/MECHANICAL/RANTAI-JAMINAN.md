@@ -224,7 +224,7 @@ baris GAP-022), dan (c) ambang terima mekanikal punya sandaran R1/R2 atau adopsi
 Tertanggal 11-10-2026, kartu t_20c6706f. Berkas-berkas berikut bukan milik LOCK ini sehingga
 tidak disunting.
 
-1. **Tabrakan nama rantai (enam rantai tanpa huruf).** Blueprint 02 baris 31 menagih
+1. **Tabrakan nama rantai (enam rantai tanpa huruf).** Blueprint 02 baris 31 mewajibkan
    "25/25 domain punya RANTAI bermata"; enam rantai langkah 15-17 (dua kartu saudara
    berjalan paralel: t_9b7ace41, t_bcbb928d) belum dialokasikan hurufnya oleh TA. Rantai
    berjalan sampai R. Kartu ini memakai "W" (dan mitra SOFTWARE-DATA-nya "X") ad-hoc;

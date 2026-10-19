@@ -205,7 +205,7 @@ dengan keluaran tersimpan di `$LOCALAPPDATA/Temp/regresi-nat-r1.txt`.
 | B15 | `C-17` kerangka label seragam: urutan label >= 3 pada >= 5 entri berseri | share >= 80% satu urutan = layak revisi | INFO pantauan dulu |
 | B16 | `C-18` kepadatan rujukan: URL mentah + tanggal ISO vs bernama per 1.000 kata | ambang vonis menunggu kalibrasi | INFO pantauan |
 | B16 | `C-19` daftar istilah: heading DAFTAR ISTILAH/SINGKATAN/GLOSARIUM hadir; **ambang panjang 6.000 kata DICABUT user 30-09** - dinilai pada semua berkas berprosa kanal panjang | jalur sah pengecualian glosarium C-13 ikut aktif | INFO pantauan |
-| B16 | `C-20` suara penulis: densitas `Kami` + klausa sikap vs kemunculan `penulis`; pola Kami=0 dengan penulis>=2 ditandai TANPA sapaan | frasa `oleh penulis`/`menurut penulis`/`bagi penulis` masuk BLACKLIST_B4 (ambang densitas 1/1.000 kata menahan pemakaian sah) | INFO pantauan + B4 menagih |
+| B16 | `C-20` suara penulis: densitas `Kami` + klausa sikap vs kemunculan `penulis`; pola Kami=0 dengan penulis>=2 ditandai TANPA sapaan | frasa `oleh penulis`/`menurut penulis`/`bagi penulis` masuk BLACKLIST_B4 (ambang densitas 1/1.000 kata menahan pemakaian sah) | INFO pantauan + B4 berlaku dalam penilaian |
 | n/a | `C-21` manifest visual docx/pptx: kepala `Gambar k.n` vs objek tertanam (`word/media`, `ppt/media`) | FAIL bila kepala > 0 dan objek = 0 (janji visual kosong); rasio < 1/3 = INFO | menentukan hasil secara langsung |
 | n/a | guard ekstraksi PDF: baris INFO tetap saat pdf berprosa - vonis metrik panjang pada pdf = NEEDS_REVIEW, wajib dibandingkan sumber markdown/docx (preseden ukur: 5,8 vs asli 29,5 kata/kalimat) | n/a | pelaporan |
 
@@ -279,7 +279,7 @@ dan menghormati blok kutipan D18. Temuan struktural Seksi 0 putusan dibukukan: F
 di nomor > C-25 TIDAK otomatis memblokir (VERDICT dirakit dari `absolut()` +
 `HIGH_INDICATORS`); saat predikat naik, pemblokir wajib dipilih sadar lewat salah
 satu jalur itu. Tagihan terbuka yang dinyatakan eksplisit (bukan pelonggaran):
-C-8b keterangan LIMITATION berbahasa Inggris TETAP menagih dan butir S14 tidak
+C-8b keterangan LIMITATION berbahasa Inggris TETAP berlaku dan butir S14 tidak
 menyentuhnya; gerbang kelas karakter CJK dan blok register H.2.1 milik C-15 adalah
 gelombang mekanisasi berikutnya. Selftest v1.9.0: 110 tes VERDICT PASS (89 lama +
 21 baru merah-hijau kasus papan CH02/CH05/CH06/CH08/CH17 + fixture dua arah tiap

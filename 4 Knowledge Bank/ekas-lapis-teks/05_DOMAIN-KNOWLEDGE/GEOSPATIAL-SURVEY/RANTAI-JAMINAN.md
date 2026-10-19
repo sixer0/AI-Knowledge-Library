@@ -321,7 +321,7 @@ bersih sehingga jangkarnya dapat dibuka dengan cara normal.
 **Batas konteks yang menempel pada seluruh berkas ini.** Kedua buku berkonteks Amerika Utara:
 Kavanagh memakai State Plane/UTM dan standar FGCS/NGS/ALTA; Bolstad membahas NAD27/NAD83/NAVD88.
 Rentang rasio dan nilai `0,008√K` di atas sahih sebagai **bukti bahwa metode ini bekerja dengan
-kelas**, bukan sebagai angka yang dapat ditagih di Indonesia `[R3, berkas rak GIS Fundamentals,
+kelas**, bukan sebagai angka yang diberlakukan sebagai syarat di Indonesia `[R3, berkas rak GIS Fundamentals,
 baris 44; berkas rak Surveying, baris 43-44]`.
 
 ---

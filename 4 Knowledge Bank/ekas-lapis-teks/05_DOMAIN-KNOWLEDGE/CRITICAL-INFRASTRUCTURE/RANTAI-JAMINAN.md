@@ -240,7 +240,7 @@ tidak disunting.
    NIST SP 800-82) padahal nama pertama disebut di buku rak. Pemilik: langkah 25-26.
 4. **Tabrakan huruf rantai belum dialokasikan controller.** Rantai berjalan sampai R, lalu
    MECHANICAL memakai "W" ad-hoc dengan dugaan S,T = pasangan-1; rantai saudara
-   `GEOSPATIAL-SURVEY` di kartu yang sama memakai "T". Blueprint 02 baris 31 menagih
+   `GEOSPATIAL-SURVEY` di kartu yang sama memakai "T". Blueprint 02 baris 31 mewajibkan
    "25/25 domain punya RANTAI bermata" tanpa menunjuk huruf. Pemilik: controller/TA.
    Preseden: `MECHANICAL/RANTAI-JAMINAN.md` CATATAN SILANG-PEMILIK butir 1.
 5. **Duplikasi huruf "M" sudah terjadi lebih dulu** (`CONSTRUCTION` dan `PROJECT-QUALITY`

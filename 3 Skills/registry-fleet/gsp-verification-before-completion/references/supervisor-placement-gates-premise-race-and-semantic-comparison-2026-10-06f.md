@@ -51,7 +51,7 @@ Tiga formula hash-naif (isi-saja, nama-then-isi, selang-seling) ketiganya beda d
 - REJECTED-with-bukan-koreksi-diam-diam: temuan nama/angka hulu salah -> status REJECTED + bukti find + bahan bernama + keputusan diserahkan (L2 C-5). Teladan SPK-002.
 - Penolak-peran sah: kartu membawa dua peran (penjawab+pemeriksa); pekerja menuntaskan perannya, MENOLAK memvonis jawabannya sendiri, membukukan sisa + modal jawaban tersimpan (jangan re-dispatch mengulang jawaban). Validator: cek jawaban tersimpan di workdir+komenter, cek temuan materialnya (placeholder {u(} di md mentah = skor relasional, bukan digit).
 - Blocked-with-daftar > closeout parsial: premis kartu tidak terpenuhi -> blokir dengan daftar vonis per-gerbang + bola controller (SERAH-B; vonis mandiri custodian identik ledger countersign pengawas = uji silang terbaik).
-- Non-suntingan sengaja: tabel kendali KD-39 TIDAK disinkron saat angka gerbang masih bergerak = anti-churn; sinkron sekali setelah rebuild mendarat.
+- Non-suntingan sengaja: tabel kendali KD-39 TIDAK disinkron saat angka gerbang masih bergerak = anti-churn; sinkron sekali setelah hasil pembangunan ulang tersedia.
 - Parse field KANON: sensus kelompok manifest via `id.split('-')[1]` menghasilkan R12/R1 sampah; field `kelompok` kanon menghasilkan SIM17+GRA16+TAB10+DIA6+LAY15=64 == klaim. Daftar larangan (tahan_ol5) hidup di key top-level register, bukan field per-entri. Sensus apa pun: baca kunci entri dulu.
 - Keterlacakan butir-per-butir: klaim 'KD-01..17 terlacak ke dump' diuji dengan regex KD-n -> token D-n sekonyeks, semua punya rujukan nyata; entri ekstra di luar rentang klaim (D-16 SHORT CHECK) berlabel = bukan cacat.
 

@@ -7,7 +7,7 @@ Board coverage: PROMANUAL-V2 (RBUILD2/G8SYNC/SERAH-B closeout), INDUK-1006 (L6/L
 FIX-SA3C result claimed `void=2 [47 56%]`; its own artifact `fixsa3c_audit_pass7.json` had `measured.void_pages=[30,37,55,69,74]` (5 pages). Worker L12B caught the contradiction by reading the JSON directly and ruled "artefak menang: 5 halaman". **My own countersign of SA3C had earlier read the correct 5-page list from the six-field comment but missed the contradicting result line** - the reconciliation rule must be applied to supervisor verdicts too.
 Recipe: when a card's result and its machine artifact can disagree, read the artifact's structured fields (`json.load(...)['measured']`, not grep of prose); if a prior supervisor verdict cited the same number from a narrative comment, state which surface it came from.
 
-## 2. Audit SIAPA yang menutup, bukan hanya APA yang mendarat
+## 2. Audit SIAPA yang menutup, bukan hanya APA yang tersimpan
 
 R3 PV: notification `gave up (retries exhausted)` then `completed` with result text "penutupan controller ber-bukti" - but the Runs table showed `#5385 completed @agentriset 0s`: the closing text was authored by gsp-master through the worker-result channel. Substantive audit still passed (14/14 recipes rendered, 28 files, sha spot-checks), but attribution in my first verdict was wrong and needed a separate correction comment (never edit the posted comment).
 Recipe: before accepting "closed by controller" framing, read the Runs table (run id, assignee, duration). A 0s completion run = text injected by another hand. Kernel labels (`gave up`, `done`) on cards with complete artifacts = run the completeness audit (user standing rule), never blind re-dispatch.

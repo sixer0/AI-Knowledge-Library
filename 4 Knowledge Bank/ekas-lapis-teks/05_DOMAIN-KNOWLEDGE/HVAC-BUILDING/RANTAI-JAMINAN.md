@@ -86,7 +86,7 @@ Yang mengalir lewat rantai ini adalah hasil domain tetangga:
 
 | Besaran | Pemilik perhitungan | Peran rantai V |
 |---|---|---|
-| Rugi daya / panas ruang perangkat | **Rantai C** - `Rugi = P × (1÷η − 1)` `[R3, Emadi, PDF 20]` lewat `KATALOG-RUMUS.md:49`; seluruh rugi daya menjadi panas (`KATALOG-RUMUS.md:366`) | Menagih hasilnya sebagai masukan pemilihan sistem: beban pendinginan dalam watt/ton, lalu jenis sistem dan distribusi udara per `[R3, Grondzik, PDF 445]` |
+| Rugi daya / panas ruang perangkat | **Rantai C** - `Rugi = P × (1÷η − 1)` `[R3, Emadi, PDF 20]` lewat `KATALOG-RUMUS.md:49`; seluruh rugi daya menjadi panas (`KATALOG-RUMUS.md:366`) | Meminta hasilnya sebagai masukan pemilihan sistem: beban pendinginan dalam watt/ton, lalu jenis sistem dan distribusi udara per `[R3, Grondzik, PDF 445]` |
 | Distribusi daya gedung s.d. panel titik temu | Kontraktor/konsultan MEP dengan standar kontrak (SNI/PUIL - **tidak ada di rak**; PUIL = GAP-001) | Penjelas konsep per `[R3, Grondzik, PDF 1243]`; BUKAN sumber ambang |
 | Pembumian & proteksi petir | **Rantai D** (IEEE 1188 / IEC 62485-2 = R1/R2 satu-satunya kelas itu di rak) | Tidak bersentuhan angka; hanya lokasi fisik (ruang, tray) yang harus lolos Bagian VII |
 

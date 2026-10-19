@@ -62,7 +62,7 @@ Output Fase 1: `docs/00_INDEX/rebuild-manifest.json` = daftar `{id, path, domain
   anti-karangan sampling, dedup, metadata, grouping, kelengkapan vs manifest, gate sensitif/dosir).
   Custodian menulis verdict `terverifikasi|perlu_revisi|ditolak` di frontmatter —
   TIDAK menulis proposa, TIDAK promote.
-- **Wave C (promosi — GATEKEEPER)**: SETELAH Wave B selesai, satu dispatch ke `gsp-librarian` —
+- **Wave C (promosi — KURATOR PUSTAKA)**: SETELAH Wave B selesai, satu dispatch ke `gsp-librarian` —
   promote ke wiki HANYA proposa `terverifikasi` (vault_promote.py). Gate sensitif/dosir tetap.
 - **Prinsip: penulis bukan verifikator** — librarian tidak memverifikasi hasilnya sendiri;
   custodian tidak menulis/mempromote.
@@ -108,7 +108,7 @@ Lapor: daftar path vault dibuat + STATUS: complete.
 3. **Wave B-ulang (custodian)**: verifikasi ulang proposa yang direvisi —
    challenge lagi sampai benar-benar kuat.
 4. Ulangi (2)→(3) sampai tidak ada `perlu_revisi` tersisa atau putaran 3x habis.
-5. **Wave C (librarian — gatekeeper)**: promote ke wiki HANYA proposa
+5. **Wave C (librarian — kurator pustaka)**: promote ke wiki HANYA proposa
    `terverifikasi` (vault_promote.py). Gate sensitif/dosir tetap.
 Penulis ≠ verifikator dijaga di semua putaran: librarian hanya merevisi tulisan
 sendiri; custodian hanya menilai/memberi feedback — tidak menulis/mempromote.

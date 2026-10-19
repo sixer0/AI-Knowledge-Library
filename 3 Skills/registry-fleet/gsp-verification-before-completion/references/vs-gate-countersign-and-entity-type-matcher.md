@@ -68,7 +68,7 @@ tuduhan selisih: baca stats.json/laporan penuh (inputs_per_file, split_log,
 collapse) dan cocokkan rantai aritmetika. Bila khilaf, koreksi TERBUKA di
 kartu + kontrak. Aturan sama berlaku bolak-balik: vonis lajur harus = cetakan
 register (episode TRUSTED 9-vs-8 L02-F1), dan klaim pekerja ("27 terpenuhi")
-ditagih jejak berkasnya sebelum dipercaya maupun dituduh.
+wajib menunjukkan jejak berkasnya sebelum dipercaya maupun dituduh.
 
 ## 14. Tagihan pengawas butuh REGISTER, bukan memori giliran
 Tiga tagihan (resolusi kmhq via render, audit origin asing per-baris, jejak
@@ -80,7 +80,7 @@ misi berikutnya: salin SEMUA tagihan lintas-fase ke SATU berkas register
 per-id ATAU mencatat putusan BUANG resmi - tagihan tidak boleh mati diam.
 
 ## 15. Delta pass = satu-satunya tambalan murah yang terus ditunda
-Sepanjang malam gerbang basi (MERGE-F1 22:35 vs L06 59/L07 73) ditagih belasan
+Sepanjang malam gerbang basi (MERGE-F1 22:35 vs L06 59/L07 73) diminta belasan
 kali sebelum kartu DELTA lahir; begitu lahir, loop tertutup dalam satu giliran
 dan MRG-ALL membacanya benar. Preseden urutan sehat: DELTA-<lajur> -> MRG-ALL
 -> VS. Pengawas: ukur mtime merge vs mtime register tiap lajur sumber di SETIAP
