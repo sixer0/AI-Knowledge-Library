@@ -1,0 +1,29 @@
+dokumen,baris_sebelum,jenis,rujukan_asli,tautan_relatif,target_repo
+1 Workflow/AGENTS-kebijakan-fleet.md,7,inline,ekas/,../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+1 Workflow/AGENTS-kebijakan-fleet.md,7,inline,ekas/00_START-HERE/README.md,../4%20Knowledge%20Bank/ekas-lapis-teks/00_START-HERE/README.md,4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/README.md
+1 Workflow/AGENTS-kebijakan-fleet.md,7,inline,ekas/00_START-HERE/EKAS-SYSTEM-MAP.md,../4%20Knowledge%20Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md,4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md
+1 Workflow/AGENTS-kebijakan-fleet.md,9,inline,ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md,../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md,4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md
+1 Workflow/AGENTS-kebijakan-fleet.md,13,inline,gsp-hermes/skills/,../3%20Skills/kanonik/,3 Skills/kanonik
+1 Workflow/AGENTS-kebijakan-fleet.md,17,inline,<ws>/gsp-hermes/skills/,../3%20Skills/kanonik/,3 Skills/kanonik
+1 Workflow/AGENTS-kebijakan-fleet.md,17,inline,~/.hermes/skills/gsp/,../3%20Skills/registry-fleet/,3 Skills/registry-fleet
+1 Workflow/AGENTS-kebijakan-fleet.md,37,inline,gsp-hermes/skills/,../3%20Skills/kanonik/,3 Skills/kanonik
+1 Workflow/AGENTS-kebijakan-fleet.md,42,inline,docs/2026-08-31-enforcement-fleet/controller-roster.json,../2%20Roles/controller-roster.json,2 Roles/controller-roster.json
+1 Workflow/AGENTS-kebijakan-fleet.md,49,inline,fleet/PROFILE-REGISTRY.json,../2%20Roles/PROFILE-REGISTRY.json,2 Roles/PROFILE-REGISTRY.json
+1 Workflow/AGENTS-kebijakan-fleet.md,49,inline,skills/gsp/_salvage-profil-merge-1010/,../3%20Skills/registry-fleet/_salvage-profil-merge-1010/,3 Skills/registry-fleet/_salvage-profil-merge-1010
+1 Workflow/INDEKS.md,9,inline,1 Workflow/AGENTS-kebijakan-fleet.md,AGENTS-kebijakan-fleet.md,1 Workflow/AGENTS-kebijakan-fleet.md
+1 Workflow/INDEKS.md,10,inline,1 Workflow/cron/default-jobs.json,cron/default-jobs.json,1 Workflow/cron/default-jobs.json
+1 Workflow/INDEKS.md,11,inline,1 Workflow/cron/gsp-master-jobs.json,cron/gsp-master-jobs.json,1 Workflow/cron/gsp-master-jobs.json
+1 Workflow/INDEKS.md,12,inline,1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md,standar-operasi/01_ORGANIZATION-STANDARD.md,1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md
+1 Workflow/INDEKS.md,13,inline,1 Workflow/standar-operasi/02_METADATA-STANDARD.md,standar-operasi/02_METADATA-STANDARD.md,1 Workflow/standar-operasi/02_METADATA-STANDARD.md
+1 Workflow/INDEKS.md,14,inline,1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md,standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md,1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md
+1 Workflow/INDEKS.md,15,inline,1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,standar-operasi/04_DAILY-TASK-PROMPT.md,1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md
+1 Workflow/INDEKS.md,16,inline,1 Workflow/standar-operasi/05_SCRIPT-ORGANIZATION-STANDARD.md,standar-operasi/05_SCRIPT-ORGANIZATION-STANDARD.md,1 Workflow/standar-operasi/05_SCRIPT-ORGANIZATION-STANDARD.md
+1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md,135,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md,23,inline,04_DAILY-TASK-PROMPT.md,04_DAILY-TASK-PROMPT.md,1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md
+1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md,33,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,17,inline,docs/standards/01_ORGANIZATION-STANDARD.md,01_ORGANIZATION-STANDARD.md,1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,17,inline,docs/standards/02_METADATA-STANDARD.md,02_METADATA-STANDARD.md,1 Workflow/standar-operasi/02_METADATA-STANDARD.md
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,18,inline,docs/standards/03_LIBRARIAN-DAILY-PROCEDURE.md,03_LIBRARIAN-DAILY-PROCEDURE.md,1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,24,inline,C:/Users/TRIAL/AppData/Local/hermes/wiki,../../4%20Knowledge%20Bank/wiki-information-library/,4 Knowledge Bank/wiki-information-library
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,30,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,55,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks

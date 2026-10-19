@@ -132,7 +132,7 @@ spesifik di nama folder (`01_DOMAIN/engineering/vss/`).
 
 1. Menghapus file — selalu pindah (ke `_inbox/`, folder tepat, atau `legacy-archive/`).
 2. Mengubah isi dokumen orang lain — pelaksanaan harian hanya boleh menyentuh **metadata/frontmatter & path**.
-3. Menyentuh `ekas/`, `AGENTS.md`, `MEMORY.md`, isi `memory/`, semantik `vault/`.
+3. Menyentuh [`ekas/`](../../4%20Knowledge%20Bank/ekas-lapis-teks/), `AGENTS.md`, `MEMORY.md`, isi `memory/`, semantik `vault/`.
 4. Menulis wiki di luar `vault_promote.py`.
 5. Memindah folder berumur < 7 hari atau folder yang dirujuk dokumen aktif (cek referensi; bila ragu, tandai untuk ditinjau).
 6. Menamai ulang file yang id/slug-nya dirujuk entri wiki/IL tanpa mencatat migrasi di CHANGES.md.

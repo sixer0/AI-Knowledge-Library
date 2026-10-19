@@ -20,7 +20,7 @@ kelas_bukti: sintesis
 
 ## 1. Pemilik & jadwal
 
-- **Pelaksana:** agen `gsp-librarian` (dispatch harian oleh cron supervisor, prompt di `04_DAILY-TASK-PROMPT.md`).
+- **Pelaksana:** agen `gsp-librarian` (dispatch harian oleh cron supervisor, prompt di [`04_DAILY-TASK-PROMPT.md`](04_DAILY-TASK-PROMPT.md)).
 - **Frekuensi:** sekali sehari (default 07:30 WIB, `30 7 * * *`).
 - **Supervisor:** cron agent (profil default) melakukan dispatch, verifikasi artefak, dan melapor ke user.
 
@@ -30,7 +30,7 @@ kelas_bukti: sintesis
 2. **Konservatif.** Prioritas: klasifikasi & laporan > perbaikan. Jangan paksa perbaikan bila ragu.
 3. **Tercatat.** SEMUA perubahan di `CHANGES.md` dengan `old path → new path → alasan`.
 4. **Batas operasi.** Maksimal 50 operasi file per pelaksanaan. Sisanya dilaporkan sebagai `pending`.
-5. **Zona proteksi.** Jangan sentuh: `ekas/`, `AGENTS.md`, `MEMORY.md`, isi `memory/`, semantik `vault/`, file wiki (langsung).
+5. **Zona proteksi.** Jangan sentuh: [`ekas/`](../../4%20Knowledge%20Bank/ekas-lapis-teks/), `AGENTS.md`, `MEMORY.md`, isi `memory/`, semantik `vault/`, file wiki (langsung).
 6. **Dapat dibatalkan.** Tidak ada penghapusan; semua perpindahan bisa dibalik dari CHANGES.md.
 
 ## 3. Fase kerja
