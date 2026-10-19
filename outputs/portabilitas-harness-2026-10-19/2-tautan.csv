@@ -1,0 +1,104 @@
+dokumen,baris_sebelum,jenis,rujukan_asli,tautan_relatif,target_repo
+2 Roles/INDEKS.md,9,inline,2 Roles/PROFILE-REGISTRY.json,PROFILE-REGISTRY.json,2 Roles/PROFILE-REGISTRY.json
+2 Roles/INDEKS.md,10,inline,2 Roles/controller-roster.json,controller-roster.json,2 Roles/controller-roster.json
+2 Roles/INDEKS.md,11,inline,2 Roles/peran-fleet/_INDEX.md,peran-fleet/_INDEX.md,2 Roles/peran-fleet/_INDEX.md
+2 Roles/INDEKS.md,12,inline,2 Roles/peran-fleet/_SENSUS.json,peran-fleet/_SENSUS.json,2 Roles/peran-fleet/_SENSUS.json
+2 Roles/INDEKS.md,13,inline,2 Roles/peran-fleet/gsp-3d-specialist.md,peran-fleet/gsp-3d-specialist.md,2 Roles/peran-fleet/gsp-3d-specialist.md
+2 Roles/INDEKS.md,14,inline,2 Roles/peran-fleet/gsp-architecture-specialist.md,peran-fleet/gsp-architecture-specialist.md,2 Roles/peran-fleet/gsp-architecture-specialist.md
+2 Roles/INDEKS.md,15,inline,2 Roles/peran-fleet/gsp-coder-execution.md,peran-fleet/gsp-coder-execution.md,2 Roles/peran-fleet/gsp-coder-execution.md
+2 Roles/INDEKS.md,16,inline,2 Roles/peran-fleet/gsp-crawler-orchestrator.md,peran-fleet/gsp-crawler-orchestrator.md,2 Roles/peran-fleet/gsp-crawler-orchestrator.md
+2 Roles/INDEKS.md,17,inline,2 Roles/peran-fleet/gsp-data-analyst.md,peran-fleet/gsp-data-analyst.md,2 Roles/peran-fleet/gsp-data-analyst.md
+2 Roles/INDEKS.md,18,inline,2 Roles/peran-fleet/gsp-data-collector.md,peran-fleet/gsp-data-collector.md,2 Roles/peran-fleet/gsp-data-collector.md
+2 Roles/INDEKS.md,19,inline,2 Roles/peran-fleet/gsp-database-specialist.md,peran-fleet/gsp-database-specialist.md,2 Roles/peran-fleet/gsp-database-specialist.md
+2 Roles/INDEKS.md,20,inline,2 Roles/peran-fleet/gsp-design-system-specialist.md,peran-fleet/gsp-design-system-specialist.md,2 Roles/peran-fleet/gsp-design-system-specialist.md
+2 Roles/INDEKS.md,21,inline,2 Roles/peran-fleet/gsp-docker-specialist.md,peran-fleet/gsp-docker-specialist.md,2 Roles/peran-fleet/gsp-docker-specialist.md
+2 Roles/INDEKS.md,22,inline,2 Roles/peran-fleet/gsp-document-analyst.md,peran-fleet/gsp-document-analyst.md,2 Roles/peran-fleet/gsp-document-analyst.md
+2 Roles/INDEKS.md,23,inline,2 Roles/peran-fleet/gsp-document-converter.md,peran-fleet/gsp-document-converter.md,2 Roles/peran-fleet/gsp-document-converter.md
+2 Roles/INDEKS.md,24,inline,2 Roles/peran-fleet/gsp-document-reader.md,peran-fleet/gsp-document-reader.md,2 Roles/peran-fleet/gsp-document-reader.md
+2 Roles/INDEKS.md,25,inline,2 Roles/peran-fleet/gsp-document-reviewer.md,peran-fleet/gsp-document-reviewer.md,2 Roles/peran-fleet/gsp-document-reviewer.md
+2 Roles/INDEKS.md,26,inline,2 Roles/peran-fleet/gsp-document-translator.md,peran-fleet/gsp-document-translator.md,2 Roles/peran-fleet/gsp-document-translator.md
+2 Roles/INDEKS.md,27,inline,2 Roles/peran-fleet/gsp-document-writer-2.md,peran-fleet/gsp-document-writer-2.md,2 Roles/peran-fleet/gsp-document-writer-2.md
+2 Roles/INDEKS.md,28,inline,2 Roles/peran-fleet/gsp-document-writer.md,peran-fleet/gsp-document-writer.md,2 Roles/peran-fleet/gsp-document-writer.md
+2 Roles/INDEKS.md,29,inline,2 Roles/peran-fleet/gsp-engineering-analyst.md,peran-fleet/gsp-engineering-analyst.md,2 Roles/peran-fleet/gsp-engineering-analyst.md
+2 Roles/INDEKS.md,30,inline,2 Roles/peran-fleet/gsp-explore.md,peran-fleet/gsp-explore.md,2 Roles/peran-fleet/gsp-explore.md
+2 Roles/INDEKS.md,31,inline,2 Roles/peran-fleet/gsp-fiber-specialist.md,peran-fleet/gsp-fiber-specialist.md,2 Roles/peran-fleet/gsp-fiber-specialist.md
+2 Roles/INDEKS.md,32,inline,2 Roles/peran-fleet/gsp-git-specialist.md,peran-fleet/gsp-git-specialist.md,2 Roles/peran-fleet/gsp-git-specialist.md
+2 Roles/INDEKS.md,33,inline,2 Roles/peran-fleet/gsp-grounding-specialist.md,peran-fleet/gsp-grounding-specialist.md,2 Roles/peran-fleet/gsp-grounding-specialist.md
+2 Roles/INDEKS.md,34,inline,2 Roles/peran-fleet/gsp-image-analyst.md,peran-fleet/gsp-image-analyst.md,2 Roles/peran-fleet/gsp-image-analyst.md
+2 Roles/INDEKS.md,35,inline,2 Roles/peran-fleet/gsp-image-prompt-specialist.md,peran-fleet/gsp-image-prompt-specialist.md,2 Roles/peran-fleet/gsp-image-prompt-specialist.md
+2 Roles/INDEKS.md,36,inline,2 Roles/peran-fleet/gsp-image-specialist.md,peran-fleet/gsp-image-specialist.md,2 Roles/peran-fleet/gsp-image-specialist.md
+2 Roles/INDEKS.md,37,inline,2 Roles/peran-fleet/gsp-imagegen-worker.md,peran-fleet/gsp-imagegen-worker.md,2 Roles/peran-fleet/gsp-imagegen-worker.md
+2 Roles/INDEKS.md,38,inline,2 Roles/peran-fleet/gsp-infra-specialist.md,peran-fleet/gsp-infra-specialist.md,2 Roles/peran-fleet/gsp-infra-specialist.md
+2 Roles/INDEKS.md,39,inline,2 Roles/peran-fleet/gsp-pm-analyst.md,peran-fleet/gsp-pm-analyst.md,2 Roles/peran-fleet/gsp-pm-analyst.md
+2 Roles/INDEKS.md,40,inline,2 Roles/peran-fleet/gsp-pm-planner.md,peran-fleet/gsp-pm-planner.md,2 Roles/peran-fleet/gsp-pm-planner.md
+2 Roles/INDEKS.md,41,inline,2 Roles/peran-fleet/gsp-pm-verifier.md,peran-fleet/gsp-pm-verifier.md,2 Roles/peran-fleet/gsp-pm-verifier.md
+2 Roles/INDEKS.md,42,inline,2 Roles/peran-fleet/gsp-pm-writer.md,peran-fleet/gsp-pm-writer.md,2 Roles/peran-fleet/gsp-pm-writer.md
+2 Roles/INDEKS.md,43,inline,2 Roles/peran-fleet/gsp-power-specialist.md,peran-fleet/gsp-power-specialist.md,2 Roles/peran-fleet/gsp-power-specialist.md
+2 Roles/INDEKS.md,44,inline,2 Roles/peran-fleet/gsp-request-translator.md,peran-fleet/gsp-request-translator.md,2 Roles/peran-fleet/gsp-request-translator.md
+2 Roles/INDEKS.md,45,inline,2 Roles/peran-fleet/gsp-security-review.md,peran-fleet/gsp-security-review.md,2 Roles/peran-fleet/gsp-security-review.md
+2 Roles/INDEKS.md,46,inline,2 Roles/peran-fleet/gsp-security-specialist.md,peran-fleet/gsp-security-specialist.md,2 Roles/peran-fleet/gsp-security-specialist.md
+2 Roles/INDEKS.md,47,inline,2 Roles/peran-fleet/gsp-senior-code-reviewer.md,peran-fleet/gsp-senior-code-reviewer.md,2 Roles/peran-fleet/gsp-senior-code-reviewer.md
+2 Roles/INDEKS.md,48,inline,2 Roles/peran-fleet/gsp-skill-creator.md,peran-fleet/gsp-skill-creator.md,2 Roles/peran-fleet/gsp-skill-creator.md
+2 Roles/INDEKS.md,49,inline,2 Roles/peran-fleet/gsp-social-media-analyst.md,peran-fleet/gsp-social-media-analyst.md,2 Roles/peran-fleet/gsp-social-media-analyst.md
+2 Roles/INDEKS.md,50,inline,2 Roles/peran-fleet/gsp-social-media-crawler.md,peran-fleet/gsp-social-media-crawler.md,2 Roles/peran-fleet/gsp-social-media-crawler.md
+2 Roles/INDEKS.md,51,inline,2 Roles/peran-fleet/gsp-system-control.md,peran-fleet/gsp-system-control.md,2 Roles/peran-fleet/gsp-system-control.md
+2 Roles/INDEKS.md,52,inline,2 Roles/peran-fleet/gsp-task-architect.md,peran-fleet/gsp-task-architect.md,2 Roles/peran-fleet/gsp-task-architect.md
+2 Roles/INDEKS.md,53,inline,2 Roles/peran-fleet/gsp-test-expert.md,peran-fleet/gsp-test-expert.md,2 Roles/peran-fleet/gsp-test-expert.md
+2 Roles/INDEKS.md,54,inline,2 Roles/peran-fleet/gsp-vendor-crawler-specialist.md,peran-fleet/gsp-vendor-crawler-specialist.md,2 Roles/peran-fleet/gsp-vendor-crawler-specialist.md
+2 Roles/INDEKS.md,55,inline,2 Roles/peran-fleet/gsp-verifier.md,peran-fleet/gsp-verifier.md,2 Roles/peran-fleet/gsp-verifier.md
+2 Roles/INDEKS.md,56,inline,2 Roles/peran-fleet/gsp-vss-specialist.md,peran-fleet/gsp-vss-specialist.md,2 Roles/peran-fleet/gsp-vss-specialist.md
+2 Roles/INDEKS.md,57,inline,2 Roles/peran-fleet/rafif.md,peran-fleet/rafif.md,2 Roles/peran-fleet/rafif.md
+2 Roles/peran-fleet/gsp-3d-specialist.md,61,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-3d-specialist.md,134,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-architecture-specialist.md,132,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-coder-execution.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-crawler-orchestrator.md,139,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-data-analyst.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-data-collector.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-database-specialist.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-design-system-specialist.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-docker-specialist.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-analyst.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-converter.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-reader.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-reviewer.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-translator.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-writer-2.md,125,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-document-writer.md,125,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-engineering-analyst.md,61,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-engineering-analyst.md,134,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-explore.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-fiber-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-fiber-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-git-specialist.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-grounding-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-grounding-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-image-analyst.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-image-prompt-specialist.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-image-specialist.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-imagegen-worker.md,61,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-imagegen-worker.md,134,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-infra-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-infra-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-pm-analyst.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-pm-planner.md,122,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-pm-verifier.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-pm-writer.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-power-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-power-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-security-review.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-security-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-security-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-senior-code-reviewer.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-skill-creator.md,129,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-social-media-analyst.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-social-media-crawler.md,121,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-system-control.md,129,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-task-architect.md,25,inline,C:/Users/TRIAL/workspace/gsp-hermes/workspace/fleet/PROFILE-REGISTRY.json,../PROFILE-REGISTRY.json,2 Roles/PROFILE-REGISTRY.json
+2 Roles/peran-fleet/gsp-task-architect.md,28,inline,C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/,../../3%20Skills/registry-fleet/,3 Skills/registry-fleet
+2 Roles/peran-fleet/gsp-test-expert.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-vendor-crawler-specialist.md,120,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-verifier.md,119,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/gsp-vss-specialist.md,57,inline,ekas/,../../4%20Knowledge%20Bank/ekas-lapis-teks/,4 Knowledge Bank/ekas-lapis-teks
+2 Roles/peran-fleet/gsp-vss-specialist.md,130,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization
+2 Roles/peran-fleet/rafif.md,112,inline,$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/,../../3%20Skills/registry-fleet/gsp-output-naturalization/,3 Skills/registry-fleet/gsp-output-naturalization

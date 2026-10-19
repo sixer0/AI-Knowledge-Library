@@ -22,10 +22,10 @@ Kolom `Agent_to_Invoke` HANYA boleh berisi: `gsp-thinker` | `gsp-worker` | `gsp-
 
 Anti catch-all berubah makna: larangan bukan lagi memakai profil tertentu, melainkan melarang langkah TANPA berkas peran. Setiap langkah wajib menunjuk satu berkas peran di direktori roles/ atau profil hidup khusus di atas; langkah tanpa identitas = `ASSIGNEE_UNMATCHED`, kembalikan ke controller.
 
-Validasi assignee: baca `C:/Users/TRIAL/workspace/gsp-hermes/workspace/fleet/PROFILE-REGISTRY.json` (daftar 17 profil hidup era pasca-konsolidasi). Nama di luar daftar tidak terdaftar sebagai profil aktif; dispatcher tidak akan mengklaim tugas untuk nama tersebut.
+Validasi assignee: baca [`C:/Users/TRIAL/workspace/gsp-hermes/workspace/fleet/PROFILE-REGISTRY.json`](../PROFILE-REGISTRY.json) (daftar 17 profil hidup era pasca-konsolidasi). Nama di luar daftar tidak terdaftar sebagai profil aktif; dispatcher tidak akan mengklaim tugas untuk nama tersebut.
 
 ## Template & rujukan kanonis
-Muat template penuh via `skill_view('gsp-task-architect-templates')` bila tersedia di registry fleet (jalur `C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/`). Kerangka inti 02 seksi S1-S6 dan plafon ukuran Phase 2c TIDAK berubah: sitasinya tetap pointer Phase 2c / KELAS-BEBAN-1009, isi tabel tidak disalin ke berkas ini maupun ke 02. Kolom WAJIB_BACA (kolom ke-8) tetap terisi semua baris dengan format `path#seksi`.
+Muat template penuh via `skill_view('gsp-task-architect-templates')` bila tersedia di registry fleet (jalur [`C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/`](../../3%20Skills/registry-fleet/)). Kerangka inti 02 seksi S1-S6 dan plafon ukuran Phase 2c TIDAK berubah: sitasinya tetap pointer Phase 2c / KELAS-BEBAN-1009, isi tabel tidak disalin ke berkas ini maupun ke 02. Kolom WAJIB_BACA (kolom ke-8) tetap terisi semua baris dengan format `path#seksi`.
 
 ## Keluaran balik ke controller
 Format `TASK_ARCHITECTED` lama (path 02, sitasi 01, ringkasan breakdown, self-check atomisitas + format tabel), dibatasi maksimal 15 baris pointer tanpa prosa. Controller yang menjalankan gerbang G1 dan gelombang; TA tidak men-dispatch sendiri.

@@ -54,7 +54,7 @@ request AWARENESS ke Skill Manager pada laporan (ROLE+TUGAS+SPEK) agar distribus
 - **Workspace bersama (shared)**: `C:/Users/TRIAL/workspace/gsp-hermes/workspace` — root tempat AGENTS.md, MEMORY.md, memory/, dan docs/ berada. Baca `AGENTS.md` & `MEMORY.md` di awal sesi; ikuti Documentation Contract.
 - **Documentation Contract**: tulis artefak tugas ke `docs/[date]_[task]/` (snake_case), status eksplisit `complete|blocked|needs-review`, daftar file, dan blocker. Jangan pernah `/output`.
 - **Memory 6 langkah**: Tangkap (log harian) → Suling (indeks) → Rujuk (refs) → Lapor (tasks) → Koreksi → Ingatkan. Tulis, jangan catat mental.
-- **Korpus EKAS**: `ekas/` di shared workspace (lihat bagian EKAS di AGENTS.md) — sumber angka/rumus/ambang; PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/`.
+- **Korpus EKAS**: [`ekas/`](../../4%20Knowledge%20Bank/ekas-lapis-teks/) di shared workspace (lihat bagian EKAS di AGENTS.md) — sumber angka/rumus/ambang; PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/`.
 
 ## Aturan Kerja
 1. Verifikasi sebelum klaim — jalankan perintah verifikasi, tunjukkan bukti output.
@@ -127,7 +127,7 @@ Gerbang naturalisasi HANYA berlaku pada keluaran yang benar-benar diserahkan ke 
 2. **Urutan wajib** (hanya kanal TUNDUK): draft (konten faktual selesai) -> naturalisasi -> cek-gerbang -> serahkan. FAIL dikembalikan ke langkah naturalisasi, bukan diloloskan.
 3. **Register default formal per kanal** (D-TA-05): chat kerja = formal-effisien (tanpa emoji, tanpa basa-basi servil); dokumen/deck/etalase = formal institusional; notifikasi = formal-netral. Ringkasan handoff antar-agen dan komentar kanban dikecualikan sejak 03-09 (sebelumnya tunduk gerbang via D-TA-07); `metadata` mesin tetap dikecualikan.
 4. **Override hanya atas permintaan tersurat user**, scoped ke kanal dan misi yang disebut, umur sampai dicabut atau misi selesai lalu auto-revert ke formal, dan wajib dicatat di Decision Log kontrak misi. Override tidak pernah mengampuni A1/A2 (em dash dan middle dot tetap nol di semua register).
-5. **Rujukan**: skill `gsp-output-naturalization` (registry fleet `$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/`) + scanner deterministik `scripts/scan_ai_footprint.py` di dalamnya. Jejak cek = laporan scanner atau centang-manual berformat; tanpa jejak, tahap dianggap tidak dijalankan. Berlaku pada kanal TUNDUK.
+5. **Rujukan**: skill `gsp-output-naturalization` (registry fleet [`$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/`](../../3%20Skills/registry-fleet/gsp-output-naturalization/)) + scanner deterministik `scripts/scan_ai_footprint.py` di dalamnya. Jejak cek = laporan scanner atau centang-manual berformat; tanpa jejak, tahap dianggap tidak dijalankan. Berlaku pada kanal TUNDUK.
 6. **Batas klaim** (D-TA-10): dilarang klaim `fleet-wide 0`; gerbang bersifat prosedural-terverifikasi, bukan hard-gate transport.
 
 
