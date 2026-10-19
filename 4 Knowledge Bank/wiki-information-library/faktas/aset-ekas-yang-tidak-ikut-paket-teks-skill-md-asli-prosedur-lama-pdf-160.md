@@ -32,4 +32,4 @@ Tiga aset korpus EKAS TIDAK tersedia di paket teks `gsp-ekas/model-lokal/` [R1 �
 3. **PDF sumber (160 berkas)** — sengaja tidak ikut paket teks; tersedia di `C:/Users/TRIAL/gsp-ekas/lengkap/`.
 
 ## Status saat ini (konteks, diverifikasi 2026-08-25)
-Aset #1 sudah ditutup: ke-12 skill EKAS dibangun ulang di Windows (AGENTS.md 24-08-2026) dan terverifikasi ada di `~/.hermes/skills/gsp/` + `gsp-hermes/skills/` [R2 — AGENTS.md]. Aset #3: PDF sumber tetap di `C:/Users/TRIAL/gsp-ekas/lengkap/` (per AGENTS.md, untuk verifikasi halaman oleh manusia).
+Aset #1 sudah ditutup: ke-12 skill EKAS dibangun ulang di Windows (AGENTS.md 24-08-2026) dan terverifikasi ada di [`~/.hermes/skills/gsp/`](../../../3%20Skills/registry-fleet/) + [`gsp-hermes/skills/`](../../../3%20Skills/kanonik/) [R2 — AGENTS.md]. Aset #3: PDF sumber tetap di `C:/Users/TRIAL/gsp-ekas/lengkap/` (per AGENTS.md, untuk verifikasi halaman oleh manusia).

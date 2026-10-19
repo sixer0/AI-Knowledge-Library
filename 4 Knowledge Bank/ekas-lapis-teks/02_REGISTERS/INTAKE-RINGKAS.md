@@ -74,7 +74,7 @@ Halaman judul diintip: **310**
 
 ## Cara memakai
 
-1. Buka `INTAKE-QUEUE.csv`, saring kolom `r_level` = `R1` atau `R2` lebih dulu.
+1. Buka [`INTAKE-QUEUE.csv`](INTAKE-QUEUE.csv), saring kolom `r_level` = `R1` atau `R2` lebih dulu.
 2. Buka berkasnya, **periksa isi terhadap namanya** — dugaan mesin sering meleset.
 3. Yang lolos: ikuti `01_GOVERNANCE/SOURCE-UPDATE-PROCEDURE.md`.
 4. Yang tidak relevan: cukup abaikan — antrean dibangun ulang tiap kali alat dijalankan.

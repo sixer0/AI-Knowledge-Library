@@ -1,6 +1,6 @@
 # Perhitungan
 
-`KATALOG-RUMUS.md` induk rumus. Lembar hitung per proyek pakai `TPL-02`.
+[`KATALOG-RUMUS.md`](KATALOG-RUMUS.md) induk rumus. Lembar hitung per proyek pakai `TPL-02`.
 
 > **Aturan map ini:** Tandai tiap masukan: `SOURCE-DERIVED` / `PROJECT-DERIVED` / `OEM-DERIVED` / `ASSUMPTION`.
 

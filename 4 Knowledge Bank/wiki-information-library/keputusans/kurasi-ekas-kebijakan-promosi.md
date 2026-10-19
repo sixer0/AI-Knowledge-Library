@@ -29,12 +29,12 @@ dipromosikan-pada: 2026-08-26
 Keputusan kurator gsp-librarian (gatekeeper Information Library GSP) pada 2026-08-24:
 korpus EKAS dipromosikan ke WIKI/IL secara **selektif** — hanya 4 objek bernilai
 lintas-proyek naik ke wiki; mayoritas korpus (266 file + PDF) tetap di RAW
-(`ekas/`). Tidak ada mass-promote. [sumber: docs/2026_08_24_kurasi_ekas/README.md,
+([`ekas/`](../../ekas-lapis-teks/)). Tidak ada mass-promote. [sumber: docs/2026_08_24_kurasi_ekas/README.md,
 dokumen teks tanpa paginasi — bagian "Keputusan inti"]
 
 ## Alasan kebijakan
 
-1. EKAS adalah korpus hidup yang berada di RAW (`ekas/`, 270 file, 1.7 MB) dan sudah
+1. EKAS adalah korpus hidup yang berada di RAW ([`ekas/`](../../ekas-lapis-teks/), 270 file, 1.7 MB) dan sudah
    terindeks Information Library scope=workspace (246 entri). [README.md, "Keputusan inti"]
 2. Mass-promote seluruh korpus akan membanjiri wiki dan mencampur lapisan
    RAW/terbit — EKAS dirancang hidup di RAW, dengan lapisan teks sebagai sumber

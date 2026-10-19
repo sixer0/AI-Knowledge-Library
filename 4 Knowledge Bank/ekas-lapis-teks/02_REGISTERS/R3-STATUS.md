@@ -25,7 +25,7 @@ dikutip**. Terdaftar `REF-CIV-001…004`, `REF-GEO-001…002`, `REF-PRQ-001…00
 ### Catatan penyatuan status (RESUME-R3-MERGE, 11 Oktober 2026)
 
 **Paragraf di atas basi dan dikoreksi terbuka, bukan disunting senyap.** Parser
-`MASTER-REFERENCE-REGISTER.csv` per ukur 11-10-2026 (103 baris, sha256 pra-merge
+[`MASTER-REFERENCE-REGISTER.csv`](MASTER-REFERENCE-REGISTER.csv) per ukur 11-10-2026 (103 baris, sha256 pra-merge
 `8c4695ce41782765...`): kesebelas buku rujukan sudah `ACTIVE` sejak 21 Agu 2026
 dengan resume dan kartu terverifikasi ada di disk, dan `REF-SWD-001` sudah
 `POINTER_ONLY` (makalah R5, bukan buku R3). Tidak ada satu pun dari 12 target
@@ -55,7 +55,7 @@ Daya-ikat (`authority_status`, `may_set_acceptance`) NOL perubahan pada keduabel
 baris; ambang terima tetap hanya dari R1/R2 atau adopsi kontrak tertulis. Dua
 butir tercatat di luar LOCK merge ini dan dikirim sebagai ISU-LINTAS-OWNER ke
 pengelola rak: (1) `KOREKSI-RR3A-1`, kebutuhan salinan pengganti *GIS Fundamentals*
-belum terdaftar di `GAP-REGISTER.csv`; (2) angka "Baris terisi 62" di
+belum terdaftar di [`GAP-REGISTER.csv`](GAP-REGISTER.csv); (2) angka "Baris terisi 62" di
 `02_REGISTERS/README.md` vs 103 baris terparse, menjadi lingkup langkah 29
 (IDX-H), bukan dokumen ini.
 

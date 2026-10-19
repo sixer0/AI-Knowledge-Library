@@ -60,13 +60,13 @@ tabel "Aturan tingkat pada tiap mata rantai").
 | Yang ditetapkan | Dasar | Alternatif yang ditolak dan alasannya |
 |---|---|---|
 | Kelas metode akar: **bracketing** bila yang dibutuhkan adalah jaminan konvergensi; **open** bila yang dibutuhkan adalah kecepatan dan turunan tersedia | Bisection menjamin konvergensi selama akar terbracket, lajunya linear `[R3, Chapra-Canale NME, PDF 146, 151]`; Newton-Raphson cepat tetapi bergantung tebakan awal dan turunan `[R3, Chapra-Canale NME, PDF 170]` | Newton-Raphson telanjang ditolak untuk hitungan yang masuk dokumen serah - gagal senyap bila tebakan awal buruk atau turunan hilang; bisection murni ditolak bila jumlah evaluasi fungsi mahal - laju linear memboroskan evaluasi |
-| **Brent** sebagai pilihan baku bila keduanya dituntut (andal tanpa turunan, secepat open methods) | Gabungan bracketing + interpolasi `[R3, Chapra-Canale NME, PDF 181]`; unit `NUM-007` Root Finding Orchestrator (Bracket + Polish) `KEMAMPUAN.md` | False position murni ditolak sebagai default - konvergensinya bisa melambat parah pada selang cekung (diskusi efisiensi di `[R3, Chapra-Canale NME, PDF 154]`) |
+| **Brent** sebagai pilihan baku bila keduanya dituntut (andal tanpa turunan, secepat open methods) | Gabungan bracketing + interpolasi `[R3, Chapra-Canale NME, PDF 181]`; unit `NUM-007` Root Finding Orchestrator (Bracket + Polish) [`KEMAMPUAN.md`](KEMAMPUAN.md) | False position murni ditolak sebagai default - konvergensinya bisa melambat parah pada selang cekung (diskusi efisiensi di `[R3, Chapra-Canale NME, PDF 154]`) |
 | **Anggaran iterasi dihitung sebelum iterasi jalan** (bukan dihentikan seadanya) | "Error formulations are developed to help you determine how much computational effort is required to estimate the root to a prespecified level of precision" `[R3, Chapra ANM, PDF 153]`; Eq. (5.5) NME `[R3, Chapra-Canale NME, PDF 151]`, Eq. (5.6) ANM `[R3, Chapra ANM, PDF 167]` | Berhenti karena batas iterasi pustaka (default) ditolak - default pustaka bukan angka proyek dan tidak dapat dipertanggungjawabkan di mata ④ |
 | **Toleransi berhenti diturunkan dari presisi keluaran yang dibutuhkan**, bukan dari mesin | Formulasi galat menentukan beban komputasi `[R3, Chapra ANM, PDF 153]`; peringatan implementasi: galat pembulatan menenggelamkan metode bila toleransi terlalu kecil (resume NME bagian 2, butir `[tanpa-jangkar]`) | Toleransi sekecil-kecilnya ditolak - melampaui digit pasti masukan hanya menambah galat pembulatan dan biaya |
 | **Digit pasti masukan = plafon digit yang dilaporkan** | Angka berarti = digit pasti + satu digit taksiran `[R3, Chapra-Canale NME, PDF 77]`; definisi galat relatif Eq. (3.1)-(3.3) `[R3, Chapra-Canale NME, PDF 79]` | Menyalin seluruh digit keluaran kalkulator ke tabel serah ditolak - menyatakan ketelitian yang tidak dimiliki masukan |
 | **Condition number diperiksa sebelum hasil sistem linear diterima** | Condition number = rasio galat relatif keluaran/masukan, Eq. (4.28); nilai 1 tidak memperbesar ketidakpastian, nilai > 1 memperbesar (ill-conditioned) `[R3, Chapra-Canale NME, PDF 121]`; kerangka bab 11 ANM `[R3, Chapra ANM, PDF 305]` | Menyerahkan solusi linear tanpa ukuran kondisi ditolak - sistem yang ill-conditioned menghasilkan angka yang sah secara aritmetika tetapi tidak bermakna rekayasa |
 | Optimasi 1-D: **golden-section** untuk fungsi unimodal | Rasio emas R = 0,61803 Eq. (13.6) `[R3, Chapra-Canale NME, PDF 380]`; setiap putaran memangkas selang ~61,8%, 10 putaran tersisa 0,008 (0,8%) `[R3, Chapra-Canale NME, PDF 382]` | Grid/sweep padat ditolak untuk 1-D unimodal - biaya evaluasi lebih besar untuk ketelitian yang sama; metode turunan ditolak bila turunan tidak analitik |
-| Cara membuktikan solver itu sendiri: **MMS + dual-method + observed order** | `NUM-017` Manufactured Solutions, `NUM-010` Linear Solver with Dual-Method Verification, `NUM-019` Observed Order & Richardson - angka halamannya diwarisi dari `KEMAMPUAN.md` (register menulis "pdf hal." tanpa menyebut folio) dan **belum dibuka ulang ke vault oleh kartu ini** | Percaya satu kali jalan tanpa solusi pembanding ditolak - bug implementasi tidak tampak sebagai galat numerik, ia tampak sebagai hasil yang rapi |
+| Cara membuktikan solver itu sendiri: **MMS + dual-method + observed order** | `NUM-017` Manufactured Solutions, `NUM-010` Linear Solver with Dual-Method Verification, `NUM-019` Observed Order & Richardson - angka halamannya diwarisi dari [`KEMAMPUAN.md`](KEMAMPUAN.md) (register menulis "pdf hal." tanpa menyebut folio) dan **belum dibuka ulang ke vault oleh kartu ini** | Percaya satu kali jalan tanpa solusi pembanding ditolak - bug implementasi tidak tampak sebagai galat numerik, ia tampak sebagai hasil yang rapi |
 
 > Keputusan yang paling menentukan mutu hasil hitungan di domain ini: **anggaran galat
 > dinyatakan sebelum menghitung** (toleransi + digit pasti masukan + besaran kondisi). Ia
@@ -145,9 +145,9 @@ Uji intern metode (sah dijalankan, hasilnya dilaporkan, **bukan** vonis lulus):
 
 | Butir | Ketentuan | Status sumber |
 |---|---|---|
-| Solusi pembanding | Jalankan dua metode berbeda atas kasus yang sama (mis. bisection vs Brent; Gauss vs LU) - `NUM-010`, `NUM-007` | metode R3 `[R3, Chapra-Canale NME, PDF 267, 301]` - **diwarisi dari `KEMAMPUAN.md`, belum dibuka ulang ke vault oleh kartu ini**; **selisih maksimum antar-metode = angka proyek, tidak ada di rak** |
-| Manufactured Solution | Ganti solusi dengan fungsi yang diketahui, turunkan residual yang diharapkan - `NUM-017` | metode R3 + praktik (`KEMAMPUAN.md` baris K-0017, sumber kedua `-` kosong); **plafon residual lulus = belum ada di rak** |
-| Orde teramati | Hitung orde konvergensi dari dua penajaman grid; bandingkan dengan orde teori - `NUM-019` | `[R3, Chapra-Canale NME, PDF 75, 85, 101, 117, 122]` - **rentang diwarisi dari `KEMAMPUAN.md`; hanya PDF 101-122 sebagian terbuka (PDF 113, 121 dibuka kartu ini), PDF 75/85 belum**; **toleransi cocok-tidak-cocok = belum ada di rak** |
+| Solusi pembanding | Jalankan dua metode berbeda atas kasus yang sama (mis. bisection vs Brent; Gauss vs LU) - `NUM-010`, `NUM-007` | metode R3 `[R3, Chapra-Canale NME, PDF 267, 301]` - **diwarisi dari [`KEMAMPUAN.md`](KEMAMPUAN.md), belum dibuka ulang ke vault oleh kartu ini**; **selisih maksimum antar-metode = angka proyek, tidak ada di rak** |
+| Manufactured Solution | Ganti solusi dengan fungsi yang diketahui, turunkan residual yang diharapkan - `NUM-017` | metode R3 + praktik ([`KEMAMPUAN.md`](KEMAMPUAN.md) baris K-0017, sumber kedua `-` kosong); **plafon residual lulus = belum ada di rak** |
+| Orde teramati | Hitung orde konvergensi dari dua penajaman grid; bandingkan dengan orde teori - `NUM-019` | `[R3, Chapra-Canale NME, PDF 75, 85, 101, 117, 122]` - **rentang diwarisi dari [`KEMAMPUAN.md`](KEMAMPUAN.md); hanya PDF 101-122 sebagian terbuka (PDF 113, 121 dibuka kartu ini), PDF 75/85 belum**; **toleransi cocok-tidak-cocok = belum ada di rak** |
 | Anggaran iterasi | Jumlah iterasi nyata <= `n` hasil mata ③ | `[R3, Chapra ANM, PDF 167]` - sah sebagai uji konsistensi, bukan ambang mutu |
 | Pelaporan galat | Setiap hasil disertai `Et`/`ea` terdefinisi Eq. (3.1)-(3.3) | `[R3, Chapra-Canale NME, PDF 79]` |
 
@@ -203,7 +203,7 @@ yang dilayani (serat, baterai, termal, dst.) atau menuntut standar verifikasi-va
 belum ada di rak.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier W3 menaikkan daya-ikat resume
-dari `pending_verification`, (b) insan menandatangani unit `KEMAMPUAN.md` domain ini
+dari `pending_verification`, (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (ukur 11-10-2026: 372/372 unit register masih `draft-tidak-terverifikasi-insan`, termasuk
 28/28 baris domain ini), dan (c) ambang terima numerik punya sandaran R1/R2 atau adopsi
 kontrak tertulis.
@@ -217,7 +217,7 @@ vault dan berkas hulu; berkas-berkas itu bukan milik LOCK ini sehingga **tidak d
 
 1. **Edisi NME salah di kepala resume.** `R3 - Numerical Methods for Engineers (Chapra &
    Canale).md` menulis "Edisi: ketujuh ... 2020"; halaman hak cipta berkas vault menulis
-   *EIGHTH EDITION*, [2021], ISBN 978-1-260-23207-3. `KEMAMPUAN.md` menyebutnya "9e" pada 4
+   *EIGHTH EDITION*, [2021], ISBN 978-1-260-23207-3. [`KEMAMPUAN.md`](KEMAMPUAN.md) menyebutnya "9e" pada 4
    baris. Tiga klaim berbeda untuk satu berkas.
 2. **Edisi ANM salah di kepala resume.** `R3 - Applied Numerical Methods with MATLAB
    (Chapra).md` menulis "Edisi: ketiga ... 2017"; hak cipta vault menulis *Fourth Edition*,
@@ -226,12 +226,12 @@ vault dan berkas hulu; berkas-berkas itu bukan milik LOCK ini sehingga **tidak d
    menambatkan butir itu ke `[R3, Chapra-Canale NME, PDF 113]`; PDF 113 (cetak 95) berisi
    seksi Deret Taylor dan sama sekali tidak memuat definisi galat. Definisi Eq. (3.1)-(3.3)
    ada di **PDF 79 (cetak 61)**. Berkas ini mengutip PDF 79.
-4. **Penamaan nomor persamaan lintas-edisi.** `KEMAMPUAN.md` baris K-0008 menyebut
+4. **Penamaan nomor persamaan lintas-edisi.** [`KEMAMPUAN.md`](KEMAMPUAN.md) baris K-0008 menyebut
    `Ea = abs(x_u - x_l)/2^n` sebagai "Pers. 5.4" di PDF 151 - benar untuk NME; sedangkan
    formulasi jumlah iterasi di halaman yang sama bernomor **(5.5)**, dan padanannya di ANM
    bernomor **(5.6)** (PDF 167). Rujukan silang antar-lapis perlu menyebut buku agar nomor
    tidak tertukar.
 
 Butir 1-3 menyangkut berkas yang disentuh W11(b)/W9B/W10 (BUKUV3-JURY) - jalur mediasi
-controller ke profil pemilik; butir 4 menyentuh `KEMAMPUAN.md` (digest mesin, sumber
+controller ke profil pemilik; butir 4 menyentuh [`KEMAMPUAN.md`](KEMAMPUAN.md) (digest mesin, sumber
 `KEMAMPUAN-REGISTER.csv`).

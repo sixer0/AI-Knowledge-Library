@@ -37,7 +37,7 @@ sebagai deviasi di kartu D1-L1).
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-28-sdcy-knowledge-register/research/cybersecurity-korpus-detail.md` (studi
-t_30d502a0 status complete, 565 baris, 50.120 B, ekstraksi read-only dari lapisan teks `ekas/`
+t_30d502a0 status complete, 565 baris, 50.120 B, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/)
 oleh gsp-security-specialist pada 2026-09-28; bukti ukur `research/sec/measurement-report.txt`,
 timestamp 2026-09-28T09:39:54). Tidak ada pembacaan ulang korpus untuk angka baru pada giliran
 ini. Kelas bukti objek: sintesis - kekuatan utama R3 buku (Anderson, Alsmadi) dicampur R5
@@ -55,7 +55,7 @@ bukti serah ([R3, ASSURANCE-GATES.md baris 176-190]).
 Catatan wewenang: tidak ada PDF primer yang dibuka pada misi ini. Semua vonis halaman adalah
 vonis LAPISAN TEKS memakai konvensi per buku (Bagian 3.4); penutup akhir wewenang manusia.
 PDF asli ada di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/` (lokasi nyata terukur;
-laci `ekas/03_SOURCE-VAULT/` di workspace hanya cermin - lihat K-6).
+laci [`ekas/03_SOURCE-VAULT/`](../../ekas-lapis-teks/03_SOURCE-VAULT/) di workspace hanya cermin - lihat K-6).
 
 ---
 
@@ -66,7 +66,7 @@ Path memakai NAMA FOLDER NYATA di disk. Label katalog berbentuk `R3/SECURITY/`, 
 ini (kontradiksi K-11); padanan nyatanya dicantumkan di 1.4. Uji keberadaan = baca
 langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/` (5 berkas, 607 baris, 29.258 B terukur)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/) (5 berkas, 607 baris, 29.258 B terukur)
 
 | Berkas | Peran | Tingkat R | Isi puncak |
 |---|---|---|---|
@@ -76,7 +76,7 @@ langsung/ls, bukan glob.
 | `R5 - Keamanan Siber dan Forensik Digital (Universitas Indonesia).md` (112 baris, 5.523 B) | Resume gabungan 4 tesis UI; penunjuk regulasi Indonesia | R5 | Wirara, Hakim, Mulyana, Bashofi + batas keempatnya |
 | `R5 - Keamanan Siber Operasional.md` (114 baris, 5.363 B) | Resume gabungan 4 panduan kerja operasional | R5 | ASD-CISA AD, Joint CSI logging, NIST SP 800-50r1, ITSECBuzz |
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/CYBERSECURITY/` (4 x 59 baris, total 7.096 B terukur; satu templat enam seksi)
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/CYBERSECURITY/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/) (4 x 59 baris, total 7.096 B terukur; satu templat enam seksi)
 
 | Kartu | R | Status otoritas | Bobot rujukan | Halaman jangkar | Boleh tetapkan ambang |
 |---|---|---|---|---|---|
@@ -94,23 +94,23 @@ sifat domain tanpa perhitungan [R3, RANTAI-JAMINAN.md baris 52]. Klasifikasi ini
 
 | Berkas | Baris | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` | 570 | penanganan bukti digital (chain of custody) = status sebagian; proses 4 tahap Alsmadi Bab 11 PDF 268; standar aslinya belum |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) | 570 | penanganan bukti digital (chain of custody) = status sebagian; proses 4 tahap Alsmadi Bab 11 PDF 268; standar aslinya belum |
 | `KATALOG-RUMUS.md` | 572-573 | dasar hukum bukti elektronik + kriteria audit siber instansi = PENUNJUK saja (tesis); kutip regulasi aslinya |
 | `KATALOG-RUMUS.md` | 574 | mutu pencatatan log ditandai centang "Joint CSI (2024)" - nada beda dengan rantai (K-8; versi rantai yang sah) |
 | `KATALOG-RUMUS.md` | seluruh berkas | nol rumus keamanan siber - hanya 4 baris tabel + 1 baris peta di atas |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` | - | nol seksi keamanan siber (ukur token siber/cyber/forensik/kustodi/insiden/SLA = 0); waktu tanggap insiden dan retensi log TIDAK terdaftar sebagai asumsi baku |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` | seluruh berkas | nol baris keamanan siber, termasuk bagian "Belum ada sumber sah" (baris 75-87) - cacat kelengkapan silang K-10 |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | 3, 4, 7, 8 | GAP-002 (R1 UU 11/2008, TINGGI), GAP-003 (R1 Perban BSSN 4/2021, TINGGI), GAP-006 (R2 ISO/IEC 27001 & 27002, TINGGI, "sering jadi syarat tender"), GAP-007 (R2 NIST SP 800-86 + ISO/IEC 27037, TINGGI, sebagian) |
-| `ekas/02_REGISTERS/GAP-ACQUISITION-PLAN.md` | 25-26, 49, 114-116, 138-142, 188 | rencana penutupan: 800-86 tersedia bebas; 27037 pedoman identifikasi/pengumpulan/pengawetan bukti; jalur tercepat menaikkan rantai J ke R2 |
-| `ekas/01_GOVERNANCE/AUTHORITY-STATUS.md` | 48-50, 52-58 | tabel POINTER_ONLY (Wirara -> pasal UU ITE; Bashofi -> Perban BSSN; bundel `_panduan/` -> dokumen aslinya); catatan penurunan 800-50r1 |
-| `ekas/01_GOVERNANCE/ASSURANCE-GATES.md` | 160-190 | rantai J = contoh kanonik rantai putus: pekerjaan jalan dengan R3+R5 asalkan G6 memuat pernyataan batas kepatuhan |
-| `ekas/00_START-HERE/DOCUMENT-CONTROL.md` | 114-116 | butir terbuka: pemecahan bundel `_panduan` tertunda karena mengubah penomoran REF-SEC |
-| `ekas/00_START-HERE/CHANGELOG.md` | 307-320, 325, 339-342, 392-394, 481-483, 486-493 | T16 batch 8 berkas ringan; T17 dua buku utuh diproses penuh (Alsmadi 366 hal, Johnson 346 hal); "Tesis != regulasi"; bundel menyeret 800-50r1 ke R5; "EKAS cermin, bukan pengganti rak" |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) | - | nol seksi keamanan siber (ukur token siber/cyber/forensik/kustodi/insiden/SLA = 0); waktu tanggap insiden dan retensi log TIDAK terdaftar sebagai asumsi baku |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) | seluruh berkas | nol baris keamanan siber, termasuk bagian "Belum ada sumber sah" (baris 75-87) - cacat kelengkapan silang K-10 |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | 3, 4, 7, 8 | GAP-002 (R1 UU 11/2008, TINGGI), GAP-003 (R1 Perban BSSN 4/2021, TINGGI), GAP-006 (R2 ISO/IEC 27001 & 27002, TINGGI, "sering jadi syarat tender"), GAP-007 (R2 NIST SP 800-86 + ISO/IEC 27037, TINGGI, sebagian) |
+| [`ekas/02_REGISTERS/GAP-ACQUISITION-PLAN.md`](../../ekas-lapis-teks/02_REGISTERS/GAP-ACQUISITION-PLAN.md) | 25-26, 49, 114-116, 138-142, 188 | rencana penutupan: 800-86 tersedia bebas; 27037 pedoman identifikasi/pengumpulan/pengawetan bukti; jalur tercepat menaikkan rantai J ke R2 |
+| [`ekas/01_GOVERNANCE/AUTHORITY-STATUS.md`](../../ekas-lapis-teks/01_GOVERNANCE/AUTHORITY-STATUS.md) | 48-50, 52-58 | tabel POINTER_ONLY (Wirara -> pasal UU ITE; Bashofi -> Perban BSSN; bundel `_panduan/` -> dokumen aslinya); catatan penurunan 800-50r1 |
+| [`ekas/01_GOVERNANCE/ASSURANCE-GATES.md`](../../ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md) | 160-190 | rantai J = contoh kanonik rantai putus: pekerjaan jalan dengan R3+R5 asalkan G6 memuat pernyataan batas kepatuhan |
+| [`ekas/00_START-HERE/DOCUMENT-CONTROL.md`](../../ekas-lapis-teks/00_START-HERE/DOCUMENT-CONTROL.md) | 114-116 | butir terbuka: pemecahan bundel `_panduan` tertunda karena mengubah penomoran REF-SEC |
+| [`ekas/00_START-HERE/CHANGELOG.md`](../../ekas-lapis-teks/00_START-HERE/CHANGELOG.md) | 307-320, 325, 339-342, 392-394, 481-483, 486-493 | T16 batch 8 berkas ringan; T17 dua buku utuh diproses penuh (Alsmadi 366 hal, Johnson 346 hal); "Tesis != regulasi"; bundel menyeret 800-50r1 ke R5; "EKAS cermin, bukan pengganti rak" |
 
 ### 1.4 Lapis laci sumber - jalur logis vs fisik nyata (keadaan cermin, K-6)
 
 Klaim `_ISI.md` menyebut "berkas fisik sudah berada di laci ini" (baris 3 tiap `_ISI.md`) -
-BENAR terhadap rak asal, SALAH terhadap mirror workspace: 0 PDF di laci `ekas/`; PDF nyata di
+BENAR terhadap rak asal, SALAH terhadap mirror workspace: 0 PDF di laci [`ekas/`](../../ekas-lapis-teks/); PDF nyata di
 pohon `gsp-ekas/lengkap` (ukuran byte terukur `sec_measure.py` bagian [6]):
 
 | Laci logis | PDF nyata di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/` | Ukuran terukur |
@@ -474,7 +474,7 @@ rak daripada mengarang").
    vonis halaman = vonis lapis teks. Wewenang manusia: K-7 (bookmark Anderson 31 vs 30 target;
    cadangan `_asli/` hilang dari vault) dan SELURUH angka BR-11 (CSF/CIS/tier/BSSN - hanya ada
    di PDF Bashofi). Lokasi PDF nyata terukur di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`
-   (1.4); laci `ekas/` workspace = cermin (K-6), bukan kehilangan berkas.
+   (1.4); laci [`ekas/`](../../ekas-lapis-teks/) workspace = cermin (K-6), bukan kehilangan berkas.
 5. **Known-defect yang wajib ikut terangkut:** K-5 (catatan "dua buku ditahan" BASI - jangan
    pernah diulang); K-9 (buku Alsmadi = buku ajar, bukan NICE Framework asli); K-12 (hanya 2
    dari 4 tesis adalah penunjuk regulasi); K-8 (mutu log = R5 bukan sandaran sah walau katalog
@@ -498,9 +498,9 @@ rak daripada mengarang").
    skill `digital-forensics-evidence-system` (4.3); rakitan proposal DEMS di skill
    `dems-polri-proposal-architect`. Laci `R3_TEXTBOOK-HANDBOOK/SOFTWARE-DATA/` kosong (GAP-021)
    - tidak relevan untuk domain ini.
-8. **Sumber dan kebaruan ekstraksi.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak
+8. **Sumber dan kebaruan ekstraksi.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak
    read-only 2026-09-28 oleh studi t_30d502a0; pengukuran byte/aritmetika adalah cetakan skrip
-   `research/sec/sec_measure.py` timestamp 2026-09-28T09:39:54, bukan ingatan. `ekas/` read-only
+   `research/sec/sec_measure.py` timestamp 2026-09-28T09:39:54, bukan ingatan. [`ekas/`](../../ekas-lapis-teks/) read-only
    - objek ini tidak mengubah rak. Tipografi kutipan dinormalisasi ASCII (pemisah bujur tengah
    dan pisahan panjang rak asal diganti; angka, jalur, nomor baris disalin persis).
 

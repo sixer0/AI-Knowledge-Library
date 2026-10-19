@@ -52,4 +52,4 @@ Peta menyeluruh identitas skill yang terdeteksi di korpus EKAS (scan 270 file, t
 Catatan: `document-control` (8 file) adalah berkas `DOCUMENT-CONTROL.md`, bukan skill [R1, Bagian A catatan].
 
 ## Catatan status saat ini (konteks, bukan klaim sumber A)
-Per AGENTS.md workspace GSP (24-08-2026), ke-12 skill di atas sudah dibangun ulang di Windows dan terpasang: kanonik `gsp-hermes/skills/` + registry default `~/.hermes/skills/gsp/` [R2 — AGENTS.md, seksi "Skill rekayasa EKAS" & "Skill pelengkap EKAS"]. Diverifikasi 2026-08-25: 12 direktori skill terkonfirmasi ada di kedua lokasi.
+Per AGENTS.md workspace GSP (24-08-2026), ke-12 skill di atas sudah dibangun ulang di Windows dan terpasang: kanonik [`gsp-hermes/skills/`](../../../3%20Skills/kanonik/) + registry default [`~/.hermes/skills/gsp/`](../../../3%20Skills/registry-fleet/) [R2 — AGENTS.md, seksi "Skill rekayasa EKAS" & "Skill pelengkap EKAS"]. Diverifikasi 2026-08-25: 12 direktori skill terkonfirmasi ada di kedua lokasi.

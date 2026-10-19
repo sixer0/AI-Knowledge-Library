@@ -31,7 +31,7 @@ SUDAH ADA di rak (mata 1-5, status PUTUS @4 dipertahankan apa adanya) + register
 celah resmi + batas kemampuan, satu berkas (SATU objek master per domain; bentuk ikut preseden
 objek CIVIL-STRUCTURAL + CONSTRUCTION + BUILDING-CONSTRUCTION CVLK-0929 seksi 1-8). Provenans:
 body dirakit dari SATU sumber studi `research/grounding-lightning-korpus-detail.md` (t_87ac1a6e
-complete, 220 baris / 20.506 B, ekstraksi read-only `ekas/` + teks PDF primer via pypdf,
+complete, 220 baris / 20.506 B, ekstraksi read-only [`ekas/`](../../ekas-lapis-teks/) + teks PDF primer via pypdf,
 2026-09-30); vonis controller LAYAK BERTINGKAT (D-22) dengan dasar terukur: 6/6 alamat halaman
 jangkar rantai kena isi saat diuji ke teks PDF primer, 0 pointer phantom halaman (1 pointer NAMUN
 phantom: berkas pengadaan, D-C4-04), sensus predikat 27 butir. Kelas bukti sintesis - R3 buku
@@ -56,7 +56,7 @@ drift: metadata handoff hulu menyebut 26.856.688 B, selisih 1 byte, cetakan alat
 dipakai). Yang terbit = densitas verifikasi (6/6 jangkar halaman kena isi teks primer) + kejujuran
 status (PUTUS @4 apa adanya), bukan ketebalan. Wewenang: PDF hanya dibuka ALAT (pypdf read-only)
 untuk uji lapis teks; vonis halaman visual (khususnya tabel bergambar/berekstraksi kacau) wewenang
-manusia (AGENTS.md; preseden SDCY catatan-2); laci `ekas/` hanya cermin. Tipografi: rak asal
+manusia (AGENTS.md; preseden SDCY catatan-2); laci [`ekas/`](../../ekas-lapis-teks/) hanya cermin. Tipografi: rak asal
 memakai U+2014/U+2013/U+00B7 + glif peringatan (tanda centang/peringatan/silang + lingkaran
 nomor); objek ini nol semuanya - saat mengutip blok rak, glif dinormalisasi ekuivalen teks dan koordinat baris rak selalu
 disertakan agar byte asli dapat ditelusuri; huruf Yunani satuan (rho, pi, Omega) dipertahankan
@@ -86,7 +86,7 @@ studi hulu memakai basis count-newline+1 (selisih tetap +1 per berkas, isi ident
 
 ## Bagian 1 - Peta isi
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/` + kartu (ukur segar 2026-09-30 [M])
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/) + kartu (ukur segar 2026-09-30 [M])
 
 | Berkas | Baris (wc -l) | Byte | Karakter | sha256[:12] | Peran |
 |---|---|---|---|---|---|
@@ -111,16 +111,16 @@ tanpa label - titik penetrasi ketiga D-C4-01 (selain rantai dan skill fleet; lih
 
 | Berkas | Temuan terukur | Kedudukan objek |
 |---|---|---|
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | 2 baris berdomain GROUNDING-LIGHTNING: GAP-001 (shared ELECTRICAL), GAP-004 - keduanya TINGGI terbuka (verbatim di Bagian 7) | gap RESMI ADA (beda BUILDING-CONSTRUCTION yang yatim); tidak ada usulan celah baru dari studi (nomor final tetap hak controller, V-16) |
-| `ekas/02_REGISTERS/INTAKE-QUEUE.csv` | 12 baris bertoken domain ini - isinya brosur satelit-geospasial (4), datasheet PBX Yeastar (4), switch TP-Link (2), manual PSU Corsair (2): klasifikasi SESAT DOMAIN | D-C4-07; jangan dipromosikan ke laci domain ini |
-| `ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv` | 2 baris (REF-GRD-001, REF-LPS-001); token ground* muncul 10 kali sebagai occurrence lintas kolom | cetakan studi "10 baris" = basis occurrence; basis baris = 2; isi identik, deklarasikan basis |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | 2 baris berdomain GROUNDING-LIGHTNING: GAP-001 (shared ELECTRICAL), GAP-004 - keduanya TINGGI terbuka (verbatim di Bagian 7) | gap RESMI ADA (beda BUILDING-CONSTRUCTION yang yatim); tidak ada usulan celah baru dari studi (nomor final tetap hak controller, V-16) |
+| [`ekas/02_REGISTERS/INTAKE-QUEUE.csv`](../../ekas-lapis-teks/02_REGISTERS/INTAKE-QUEUE.csv) | 12 baris bertoken domain ini - isinya brosur satelit-geospasial (4), datasheet PBX Yeastar (4), switch TP-Link (2), manual PSU Corsair (2): klasifikasi SESAT DOMAIN | D-C4-07; jangan dipromosikan ke laci domain ini |
+| [`ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv) | 2 baris (REF-GRD-001, REF-LPS-001); token ground* muncul 10 kali sebagai occurrence lintas kolom | cetakan studi "10 baris" = basis occurrence; basis baris = 2; isi identik, deklarasikan basis |
 | `ekas/02_REGISTERS/INTAKE-RINGKAS.md:36` | "- **GROUNDING-LIGHTNING** - 12" (1 hit) | konsisten 12 baris INTAKE-QUEUE (yang sesat domain itu) |
 | Guard "< 5" fleet-wide (sapuan segar [M]) | kemunculan angka ambang legendaris itu HANYA dalam konteks penolakan/coretan: `ekas/BACA-DULU.md:47`, `01_GOVERNANCE/AI-USAGE-POLICY.md:78` (keduanya coretan ~~...~~), `01_GOVERNANCE/ASSURANCE-GATES.md:172`, `RANTAI-JAMINAN.md:31,:122`, `06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md:567` ("Tidak ada"), resume Joffe:211 (bentuk ternegasi). Positif-palsu disingkirkan: "< 5 MB" (CHANGELOG:594, R3-STATUS:36), "< 5 tahun" (AUTHORITY-STATUS:97, REFERENCE-CONFIDENCE-LEVEL:59) | bersih: tidak ada satu pun klaim ambang telanjang di rak; objek ini TIDAK mengulang angkanya (DT-01) |
 | `ekas/02_REGISTERS/GAP-REGISTER.md:3` | kepala masih menyebut path basis lama `C:\Users\gspen\Videos\Buku` (pra-migrasi) | D-C4-08; MD naratif tidak memakai ID GAP-nnn - sinkron ID hanya hidup di CSV (kondisi, bukan defect baru) |
 
 ### 1.4 Lapis sumber - provenance DUA LACI (delta V-9 D4; hasil cek segar [M])
 
-| Laci (cermin `ekas/`) | Isi cermin terukur | Klaim `_ISI.md` | PDF nyata (`C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`) |
+| Laci (cermin [`ekas/`](../../ekas-lapis-teks/)) | Isi cermin terukur | Klaim `_ISI.md` | PDF nyata (`C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`) |
 |---|---|---|---|
 | `R3_TEXTBOOK-HANDBOOK/GROUNDING/` | hanya `_ISI.md` 231 B | "1 berkas. Berkas fisik **sudah berada di laci ini**" - SALAH ALAMAT | `Elya B. Joffe, Kai-Sang Lock - Grounds for Grounding (2nd Edition, 2023).pdf` = 139.612.063 B |
 | `R3_TEXTBOOK-HANDBOOK/LIGHTNING/` | hanya `_ISI.md` 225 B | klaim sama - SALAH ALAMAT | `Martin A. Uman - The Art and Science of Lightning Protection (2008).pdf` = 26.856.687 B |
@@ -132,7 +132,7 @@ Kedua laci primer ADA dan benar identitasnya (Joffe di GROUNDING, Uman di LIGHTN
 tertukar); ukuran yang diklaim `_ISI.md` (133,1 MB / 25,6 MB) cocok sebagai MiB dengan ukuran
 terukur - identitas berkas sahih, ALAMATNYA yang cacat -> D-C4-03 (kelas sama dengan anotasi
 laci IEC, belum beranotasi di kedua laci ini). Alamat benar untuk verifikasi manusia = jalur
-`gsp-ekas/lengkap` di atas; `ekas/` hanya cermin (preseden SDCY K-6).
+`gsp-ekas/lengkap` di atas; [`ekas/`](../../ekas-lapis-teks/) hanya cermin (preseden SDCY K-6).
 
 ---
 
@@ -284,7 +284,7 @@ BT-01..BT-02 = studi 2.3 butir 17 (dua tabel); DT-01..DT-04 = studi 2.1 (empat k
 | LG-01 | Prasyarat ukur FOP: konduktor penghubung dilepas dari elektroda sebelum diukur (bentuk rak: "prasyarat wajib-lepas", RANTAI:68,:74,:102; resume Joffe:115,:187; REF-GRD-001:41; skill fleet SKILL.md:52 + references/01:15) | INTERPRETASI REKAYASA dari syarat isolasi elektroda pada metode fall-of-potential (varian tanpa-lepas dibahas terpisah di sumber PDF 584) - BUKAN kutipan [R3]: kalimat PDF 580 yang dirujuk justru peringatan BAHAYA melepas konduktor; penanda [R3]-nya salah level (D-C4-01). Konsekuensi perilaku lapangan: praktiknya tetap dijalankan (hasil gabungan sistem tidak sah untuk BA) tetapi BA/jawaban klien TIDAK boleh mengutip "sumber Joffe PDF 580" untuk normanya - kutip sebagai praktik metode + catat mitigasi bahaya pelepasan |
 | LG-02 | Karakterisasi resume Joffe: "buku pembumian paling lengkap di rak ini, dan salah satu yang paling lengkap yang ada" (resume:11) | OPINI tanpa pembanding terukur (D-C4-06) - label opini atau hapus saat promosi; tidak memuat angka |
 | LG-03 | Karakterisasi rantai/resume: "Tabel 4.1 tersimpan sebagai GAMBAR tabel" (RANTAI:57) | KARAKTERISASI MENYESATKAN (D-C4-02): lapisan teks PDF 89-90 SEBENARNYA memuat data tabel (ekstraksi kacau, kolom tergabung); guard "buka PDF langsung" tetap benar - pertahankan guard, koreksi karakterisasi |
-| LG-04 | Klaim manifest `_ISI.md` dua laci: "berkas fisik sudah berada di laci ini" | SALAH ALAMAT (D-C4-03): cermin `ekas/` hanya berisi `_ISI.md`; PDF nyata di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/` (ukuran cocok sebagai MiB); tempelkan anotasi defect kelas NWSKILL-0923/D2-FIXx ke kedua laci |
+| LG-04 | Klaim manifest `_ISI.md` dua laci: "berkas fisik sudah berada di laci ini" | SALAH ALAMAT (D-C4-03): cermin [`ekas/`](../../ekas-lapis-teks/) hanya berisi `_ISI.md`; PDF nyata di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/` (ukuran cocok sebagai MiB); tempelkan anotasi defect kelas NWSKILL-0923/D2-FIXx ke kedua laci |
 | LG-05 | Rujukan penutup rantai: "urutan kedua `DAFTAR-PENGADAAN-BAHAN.md`" (RANTAI:126) | POINTER PHANTOM (D-C4-04): berkas 0 ditemukan di ekas maupun shared ws (find segar 2026-09-30) - jangan dikutip sebagai alamat; tunjukkan lokasi sebenarnya atau ganti rujukan ke GAP-ACQUISITION-PLAN.md |
 
 ### 5.2 BELUM TERKONFIRMASI (2 butir) - naik HANYA dengan labelnya, dilarang mengikat
@@ -387,7 +387,7 @@ ambang terima dan BUKAN rak kepatuhan hukum Indonesia.
    pengganti analisis bola gelinding (RD-10).
 4. **PDF primer belum dibuka manusia:** vonis halaman = vonis LAPISAN TEKS (pypdf read-only);
    detail visual per halaman wewenang manusia; alamat nyata laci di 1.4 (alamat cermin cacat
-   D-C4-03); `ekas/` hanya cermin.
+   D-C4-03); [`ekas/`](../../ekas-lapis-teks/) hanya cermin.
 5. **Known-defect wajib ikut terangkut:** D-C4-01..D-C4-08 (bukti 6.2) - penandaan lapis rak
    menunggu kartu FIX berizin; sampai terpasang, vonis rilis domain ditahan. Bentuk lama tidak
    dihapus, hanya ditandai.
@@ -401,7 +401,7 @@ ambang terima dan BUKAN rak kepatuhan hukum Indonesia.
    ELECTRICAL tidak diserap; skill fleet `grounding-lightning-design` = kanonik sejalan rantai
    (tabel rujukan identik) - pointer adjacency saja, dengan catatan D-C4-01 menembusnya (perbaikan
    lewat kurasi dua arah, bukan sunting sepihak).
-8. **Sumber dan kebaruan ekstraksi:** seluruh angka dari lapisan teks `ekas/` + teks PDF primer
+8. **Sumber dan kebaruan ekstraksi:** seluruh angka dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) + teks PDF primer
    diekstrak read-only oleh studi t_87ac1a6e (2026-09-30); pengukuran objek ini = cetakan segar
    `lib/c4-l1-evidence/c4l1_measure.py` -> `c4l1_evidence_measure.json` (2026-09-30), bukan
    ingatan; verifier dapat menjalankan ulang `lib/c4-stu-evidence/c4_stu_final.py` - semua klaim

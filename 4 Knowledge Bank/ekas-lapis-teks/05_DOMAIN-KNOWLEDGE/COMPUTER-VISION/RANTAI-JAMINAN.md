@@ -109,7 +109,7 @@ x'ᵀ F x = 0              kendala epipolar dua view (self-check korespondensi)
 | DLT homografi + batas 4 korespondensi | `[R3, MVG, PDF 106]` | dibuka ulang run ini |
 | Kendala epipolar F | `[R3, MVG, PDF 257]` | dibuka ulang run ini |
 | Triangulasi dua-sinar mid-point | `[R3, MVG, PDF 330]` | dibuka ulang run ini |
-| Kedalaman stereo terrektifikasi `Z = fB/d` | **tidak dibekukan di sini** | Nama rumus dan anggarannya diwarisi dari `KEMAMPUAN.md` baris K-0273/CV-006 yang menambatkan ke "MVG pdf hal. 275"; halaman 275 yang dibuka ulang berisi §9.6 matriks esensial, **bukan** relasi disparitas-kedalaman (lihat CATATAN SILANG-PEMILIK butir 3). Bahan disparitas tampak di sekitar PDF 319-326 tetapi badan rumusnya belum dibaca ulang sampai tuntas oleh kartu ini - jangan dikutip sebagai jangkar sebelum pemilik register mengoreksi |
+| Kedalaman stereo terrektifikasi `Z = fB/d` | **tidak dibekukan di sini** | Nama rumus dan anggarannya diwarisi dari [`KEMAMPUAN.md`](KEMAMPUAN.md) baris K-0273/CV-006 yang menambatkan ke "MVG pdf hal. 275"; halaman 275 yang dibuka ulang berisi §9.6 matriks esensial, **bukan** relasi disparitas-kedalaman (lihat CATATAN SILANG-PEMILIK butir 3). Bahan disparitas tampak di sekitar PDF 319-326 tetapi badan rumusnya belum dibaca ulang sampai tuntas oleh kartu ini - jangan dikutip sebagai jangkar sebelum pemilik register mengoreksi |
 
 ### Pengolahan citra (DIP) - contoh terhitung (diukur ulang 11-10-2026, bukan disalin)
 
@@ -144,7 +144,7 @@ Uji intern metode (sah dijalankan, hasilnya dilaporkan, **bukan** vonis lulus):
 
 | Butir | Ketentuan | Status sumber |
 |---|---|---|
-| Cek deterministik grid kecil | Setiap unit calculator CV-001..CV-015 punya uji grid mini yang dapat dihitung tangan (median, equalisasi, DLT 4 titik, erosi/dilatasi) | `KEMAMPUAN.md` kolom `uji` = 5-7 per unit; metode `[R3, DIP, PDF 252, 195, 807]` + `[R3, MVG, PDF 106]`; **plafon selisih lulus = angka proyek, tidak ada di rak** |
+| Cek deterministik grid kecil | Setiap unit calculator CV-001..CV-015 punya uji grid mini yang dapat dihitung tangan (median, equalisasi, DLT 4 titik, erosi/dilatasi) | [`KEMAMPUAN.md`](KEMAMPUAN.md) kolom `uji` = 5-7 per unit; metode `[R3, DIP, PDF 252, 195, 807]` + `[R3, MVG, PDF 106]`; **plafon selisih lulus = angka proyek, tidak ada di rak** |
 | Kendala epipolar sebagai self-check korespondensi | Hitung `x'ᵀ F x` atas pasangan korespondensi; residual besar = padanan salah | `[R3, MVG, PDF 257]` - sah sebagai uji konsistensi; **batas inlier (mis. ambang piksel/derajat) tidak ada di rak** |
 | Pembanding dua metode | DLT linear vs penajaman iteratif; triangulasi linear vs bundle - laporkan selisihnya | kerangka estimasi `[R3, MVG, PDF 106, 330]`; peringatan konvergensi bundle dari resume §2 `[tanpa-jangkar]`; **selisih maksimum antar-metode = angka proyek** |
 | Kalibrasi ground-truth sintetis | Grid titik dengan koordinat dunia diketahui -> proyeksikan -> bandingkan K/R/t hasil estimasi dengan truth | metode komposisi pinhole `[R3, MVG, PDF 170-171]`; **toleransi reproduksi titik = belum ada di rak** |
@@ -208,7 +208,7 @@ rak ini memasok metode geometri dan pemrosesan citra beserta cara membuktikannya
 ambang terima kinerja analitik menuntut R1/R2 atau adopsi kontrak yang belum ada.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier W3 menaikkan daya-ikat resume
-dari `pending_verification`, (b) insan menandatangani unit `KEMAMPUAN.md` domain ini
+dari `pending_verification`, (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (ukur 11-10-2026: 15/15 baris CV di `KEMAMPUAN-REGISTER.csv` masih `draft` dengan
 sign-off `draft-tidak-terverifikasi-insan`), dan (c) ambang terima analitik punya sandaran
 R1/R2 atau adopsi kontrak tertulis.
@@ -230,14 +230,14 @@ Tertanggal 11-10-2026, kartu t_7bee8b1e. Semua butir terukur langsung dari berka
    seksi "Exact Histogram Matching (Specification)"; equalisasi sendiri terbaca di
    **PDF 191-196** (heading "Histogram Equalization" di PDF 191, Contoh 3.5 di PDF 195).
    Berkas ini mengutip rentang yang benar.
-3. **Jangkar `KEMAMPUAN.md` CV-006 "Rectified Stereo Depth (Z = fB/d)" ke MVG pdf hal. 275
+3. **Jangkar [`KEMAMPUAN.md`](KEMAMPUAN.md) CV-006 "Rectified Stereo Depth (Z = fB/d)" ke MVG pdf hal. 275
    salah sasaran.** PDF 275 = §9.6 "The essential matrix". Material disparitas/rektifikasi
    MVG berada di sekitar PDF 319-326 (bab 11), dan sumber padanan yang dicatat register
    untuk unit yang sama adalah Szeliski [pdf hal. 615] yang tidak terverifikasi di sini
    (lihat butir 4). Rumus `Z = fB/d` **tidak dibekukan** di mata ③ sampai pemilik register
    mengoreksi jangkarnya.
 4. **Szeliski 2e dikutip sebagai sumber 4 unit CV tetapi tidak punya baris register.**
-   `KEMAMPUAN.md`/`KEMAMPUAN-REGISTER.csv` menyebut "Computer Vision: Algorithms and
+   [`KEMAMPUAN.md`](KEMAMPUAN.md)/`KEMAMPUAN-REGISTER.csv` menyebut "Computer Vision: Algorithms and
    Applications 2e - Szeliski (2022, Springer)" pada CV-002, CV-004, CV-007; berkas PDF-nya
    nyata ada di laci vault `R3_TEXTBOOK-HANDBOOK/CCTV-VSS/` (27.834.637 B, terukur), tetapi
    `MASTER-REFERENCE-REGISTER.csv` = 0 baris Szeliski. Kutipan ke sumber tak-terdaftar ini
@@ -246,11 +246,11 @@ Tertanggal 11-10-2026, kartu t_7bee8b1e. Semua butir terukur langsung dari berka
    ditemukan di seluruh ekstraksi pdftotext (1307 halaman) - konsisten dengan cacat font
    CID yang dicatat kepala resume; data katalog dalam (PDF 5) menyangga 2018/Pearson.
    Pemilik resume perlu memverifikasi edisi lewat tampilan visual halaman hak cipta.
-6. **Lapisan sekitar menyinggung banner lama.** `README.md` domain dan kedua kartu
+6. **Lapisan sekitar menyinggung banner lama.** [`README.md`](README.md) domain dan kedua kartu
    `REF-CVI-00x.md` bagian 5 masih menulis "masih berbanner belum berantai penuh"; sejak
    hari ini banner rantai berubah menjadi "berantai parsial terbimbing" sesuai klausul
    langkah 10. Berkas-berkas itu di luar LOCK; sinkronisasi milik controller/owner.
 
 Butir 1-2 menyentuh berkas resume W3a (milik jalur BUKUV3); butir 3-4 menyentuh
-`KEMAMPUAN.md`/`KEMAMPUAN-REGISTER.csv` (digest mesin); butir 5 menyentuh kepala resume
+[`KEMAMPUAN.md`](KEMAMPUAN.md)/`KEMAMPUAN-REGISTER.csv` (digest mesin); butir 5 menyentuh kepala resume
 DIP; butir 6 menyentuh README domain + kartu REF. Mediasi lewat controller (M2).

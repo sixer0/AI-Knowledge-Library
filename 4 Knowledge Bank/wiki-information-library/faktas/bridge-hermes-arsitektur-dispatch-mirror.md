@@ -39,7 +39,7 @@ CLI hermes (kajian §6.1–6.3):
   `.env` (wajib agar dispatch profil tidak gagal kredensial).
 - **Konstanta:** `POLL_MS=5000`, `MIRROR_MS=30000`, `RUN_TIMEOUT_MS=1800000`
   (30 menit; di-override dari 240 s setelah insiden timeout crawl 21-08-2026),
-  `WIKI_DIR` = `C:/Users/TRIAL/AppData/Local/hermes/wiki`, `BRIEF_HOUR=8`.
+  `WIKI_DIR` = [`C:/Users/TRIAL/AppData/Local/hermes/wiki`](../), `BRIEF_HOUR=8`.
 - **Alur dispatch (runRequest, §6.2):** update AgentRequest → running + event;
   jika target profil ≠ default → tulis OrchestrationRecord (kind=dispatch),
   set AgentState running, buat kartu kanban (assignee=profil), simpan

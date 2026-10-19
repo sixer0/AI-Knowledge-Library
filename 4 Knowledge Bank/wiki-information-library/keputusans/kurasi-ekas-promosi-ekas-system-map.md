@@ -31,7 +31,7 @@ dokumen teks tanpa paginasi — bagian "DIPROMOSIKAN #1"]
 
 ## Detail keputusan
 
-- Sumber RAW: `ekas/00_START-HERE/EKAS-SYSTEM-MAP.md` (kelas bukti: primer).
+- Sumber RAW: [`ekas/00_START-HERE/EKAS-SYSTEM-MAP.md`](../../ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md) (kelas bukti: primer).
 - Alasan promote: peta sistem adalah pintu masuk orientasi seluruh korpus EKAS;
   menjawab "apa di mana, siapa menulis, kapan diisi". Nilai lintas-proyek
   tinggi, stabil. [keputusan_kurasi.md, #1]

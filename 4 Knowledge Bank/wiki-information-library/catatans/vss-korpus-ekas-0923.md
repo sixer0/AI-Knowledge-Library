@@ -37,7 +37,7 @@ rumus + ambang normatif + batas kemampuan + celah resmi, dalam satu berkas.
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-23-vss-knowledge-register/research/vss-korpus-detail.md` (STUDI status complete,
-8 bagian, ekstraksi read-only dari lapisan teks `ekas/` oleh gsp-vss-specialist pada
+8 bagian, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) oleh gsp-vss-specialist pada
 tanggal akses 2026-09-23). Tidak ada pembacaan ulang korpus untuk angka baru pada giliran ini.
 Kelas bukti objek: sintesis lintas sumber primer R2/R3/R4. Kelas bukti berbeda dicampur dalam
 satu berkas; pemisahannya ditegakkan lewat penanda `[R-n, sumber, hal]` per butir dan blok
@@ -51,18 +51,18 @@ Rak yang dipakai (domain VIDEO-SURVEILLANCE), path relatif shared workspace:
 
 | Berkas | Peran | Tingkat R | Ukuran nyata |
 |---|---|---|---|
-| `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md` | Rantai jaminan domain B (urutan kerja mata 1-5) | - (map pengetahuan) | 5.120 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md` | Resume Damjanovski - lensa, kerapatan piksel, bitrate, kapasitas | R3 | 10.731 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2 - BS EN 62676-1-2.md` | Resume standar unjuk kerja transmisi video | R2 | 4.870 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md` | Resume Szeliski - landasan analitik video | R3 | 5.355 B |
-| `ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-001.md` | Kartu bobot rujukan Damjanovski | R3 | 1.852 B |
-| `ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-002.md` | Kartu bobot rujukan BS EN 62676-1-2 | R2 | 1.754 B |
-| `ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VAI-001.md` | Kartu bobot rujukan Szeliski | R3 | 1.730 B |
-| `ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-CAM.md` | Kartu laci lembar data kamera & PTZ | R4 | 1.946 B |
-| `ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-VMS.md` | Kartu laci lembar data NVR/VMS/server analitik | R4 | 1.895 B |
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CCTV-VSS/_ISI.md` | Daftar isi laci PDF sumber | R3 | 325 B |
-| `ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/_ISI.md` | Daftar isi laci R4 kamera (15 berkas) | R4 | 1.205 B |
-| `ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/VMS-NVR/_ISI.md` | Daftar isi laci R4 VMS/NVR (7 berkas, status INTAKE_ONLY) | R4 | 774 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md) | Rantai jaminan domain B (urutan kerja mata 1-5) | - (map pengetahuan) | 5.120 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3%20-%20CCTV%20From%20Light%20to%20Pixels.md) | Resume Damjanovski - lensa, kerapatan piksel, bitrate, kapasitas | R3 | 10.731 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2 - BS EN 62676-1-2.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2%20-%20BS%20EN%2062676-1-2.md) | Resume standar unjuk kerja transmisi video | R2 | 4.870 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3%20-%20Computer%20Vision%20Algorithms%20and%20Applications.md) | Resume Szeliski - landasan analitik video | R3 | 5.355 B |
+| [`ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-001.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-001.md) | Kartu bobot rujukan Damjanovski | R3 | 1.852 B |
+| [`ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-002.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-002.md) | Kartu bobot rujukan BS EN 62676-1-2 | R2 | 1.754 B |
+| [`ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VAI-001.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VAI-001.md) | Kartu bobot rujukan Szeliski | R3 | 1.730 B |
+| [`ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-CAM.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-CAM.md) | Kartu laci lembar data kamera & PTZ | R4 | 1.946 B |
+| [`ekas/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-VMS.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-VMS.md) | Kartu laci lembar data NVR/VMS/server analitik | R4 | 1.895 B |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CCTV-VSS/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CCTV-VSS/_ISI.md) | Daftar isi laci PDF sumber | R3 | 325 B |
+| [`ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/_ISI.md) | Daftar isi laci R4 kamera (15 berkas) | R4 | 1.205 B |
+| [`ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/VMS-NVR/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R4_OEM-TECHNICAL/VMS-NVR/_ISI.md) | Daftar isi laci R4 VMS/NVR (7 berkas, status INTAKE_ONLY) | R4 | 774 B |
 
 PDF sumber primer (verifikasi halaman oleh manusia; agen bekerja dari lapisan teks):
 
@@ -77,10 +77,10 @@ Domain tetangga yang memasok materi terkait kamera (hasil grep
 
 | Berkas | Kaitan VSS | Tingkat | Ukuran |
 |---|---|---|---|
-| `ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md` | Lebar pita agregat, anggaran PoE, VLAN pengawasan, uji cabut kabel | R3/R4 | 6.311 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md` | RAID untuk array rekaman, beban rekonstruksi | R3 | 4.948 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md` | NETD vs IFOV vs resolusi detektor; aturan "beberapa piksel" | R3 | 7.869 B |
-| `ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3 - Security Engineering.md` | Bab 26 "Surveillance or Privacy?" (PDF 798); biometrik terkait Szeliski Bab 6 | R3 | 5.831 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md) | Lebar pita agregat, anggaran PoE, VLAN pengawasan, uji cabut kabel | R3/R4 | 6.311 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md) | RAID untuk array rekaman, beban rekonstruksi | R3 | 4.948 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3%20-%20Infrared%20Thermal%20Imaging.md) | NETD vs IFOV vs resolusi detektor; aturan "beberapa piksel" | R3 | 7.869 B |
+| [`ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3 - Security Engineering.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3%20-%20Security%20Engineering.md) | Bab 26 "Surveillance or Privacy?" (PDF 798); biometrik terkait Szeliski Bab 6 | R3 | 5.831 B |
 | `ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/*` | TIDAK ditemukan materi kamera/PoE (grep nol hasil) - PoE tertutup di rantai NETWORKING, bukan POWER-BACKUP | - | - |
 
 Isi domain tetangga TIDAK disalin ke objek ini; yang dibawa hanya rumus penopang di 3.6 dan
@@ -90,7 +90,7 @@ penunjuk balik ke path asli (putusan P-8).
 
 ## Bagian 2 - Rantai jaminan mata 1 sampai 4 (terpadatkan)
 
-Sumber: `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md` utuh. Ambang terima
+Sumber: [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md) utuh. Ambang terima
 berasal dari sasaran pengamatan yang ditetapkan pemilik dan dari ambang transmisi
 BS EN 62676-1-2 [R2].
 
@@ -385,8 +385,8 @@ Aturan pengikat pemakaian (rule):
 
 ## Bagian 6 - GAP resmi dan jalur sah saat ini
 
-Dari `ekas/02_REGISTERS/GAP-REGISTER.csv`, `ekas/02_REGISTERS/GAP-REGISTER.md`
-(PETA-CELAH-KOLEKSI), dan `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` bagian "Yang
+Dari [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv), [`ekas/02_REGISTERS/GAP-REGISTER.md`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.md)
+(PETA-CELAH-KOLEKSI), dan [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) bagian "Yang
 TIDAK ada di rak ini":
 
 | ID | Celah | Status | Kutipan kunci |
@@ -490,9 +490,9 @@ daripada mengarang").
    pagar, radar, termal, fusi sensor), TIA-568 perkabelan terstruktur (GAP-011 di NETWORKING).
 7. **Domain tetangga hanya rujukan silang, tidak disalin** (putusan P-8): NETWORKING (lebar pita
    agregat, anggaran PoE, VLAN pengawasan) di
-   `ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md`; STORAGE (RAID rekaman, beban
-   rekonstruksi) di `ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`; THERMAL (NETD/IFOV) di
-   `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md`; CYBERSECURITY (kamera IP,
+   [`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md); STORAGE (RAID rekaman, beban
+   rekonstruksi) di [`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md); THERMAL (NETD/IFOV) di
+   [`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3%20-%20Infrared%20Thermal%20Imaging.md); CYBERSECURITY (kamera IP,
    biometrik, Bab 26 PDF 798) di `ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3 - Security
    Engineering.md`. POWER-BACKUP: grep materi kamera/PoE nol hasil - PoE tertutup di NETWORKING.
 8. **Larangan mengasumsikan sasaran pengamatan.** Bila sasaran FI/FR, retensi, jam rekaman, dan
@@ -502,7 +502,7 @@ daripada mengarang").
 9. **Overlap terkelola.** Ambang Tabel 7 sudah terbit sebagai objek fakta wiki
    `faktas/waktu-deteksi-hilangnya-sinyal-video-tabel7-bsen-62676-1-2.md`; Bagian 4 di sini
    adalah rujukan silang, bukan sumber kebenaran kedua untuk fakta yang sama.
-10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` (tanggal akses
+10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) (tanggal akses
     2026-09-23, ekstrak read-only). PDF asli untuk verifikasi manusia: Damjanovski 595 hal,
     BS EN 62676-1-2 62 hal, Szeliski 938 hal. `ekas/` read-only - objek ini tidak mengubah rak.
 

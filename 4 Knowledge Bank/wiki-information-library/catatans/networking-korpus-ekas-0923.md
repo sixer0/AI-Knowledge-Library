@@ -37,7 +37,7 @@ objek master per domain sesuai skema beku G-1 seksi 1).
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-23-nws-knowledge-register/research/networking-korpus-detail.md` (studi
-t_4f44563f status complete, 714 baris, ekstraksi read-only dari lapisan teks `ekas/` oleh
+t_4f44563f status complete, 714 baris, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) oleh
 gsp-infra-specialist pada 2026-09-24). Tidak ada pembacaan ulang korpus untuk angka baru pada
 giliran ini; satu-satunya bacaan langsung rak di giliran L1 adalah verifikasi ulang
 `NETWORKING/RANTAI-JAMINAN.md` pasca-tambalan D1-FIXx (lihat catatan pergeseran baris Bagian 1).
@@ -58,7 +58,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 `R3/NETWORK/` dan `R4/NETWORK/` adalah label laci, BUKAN path; padanan nyatanya dicantumkan
 (butir K-11). Uji keberadaan = baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/` (6 berkas)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/) (6 berkas)
 
 | Berkas | Peran | Tingkat R | Ukuran nyata |
 |---|---|---|---|
@@ -76,7 +76,7 @@ ambang Tabel 7 `:101-103` -> `:109-111`; blok defect VSSKB `:104` -> `:112`; sta
 `:128` -> `:136`; peringatan usia `:138-139` -> `:146-148`. Blok defect baru D1-FIXx duduk di
 `:23-25`, `:40`, `:78`. Body ini mengutip nomor BARU (terverifikasi baca ulang giliran L1).
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/NETWORKING/` (6 kartu, satu templat enam seksi)
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/NETWORKING/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/) (6 kartu, satu templat enam seksi)
 
 | Kartu | R | Bobot rujukan | Halaman jangkar | Boleh tetapkan ambang | Batas pemakaian |
 |---|---|---|---|---|---|
@@ -99,23 +99,23 @@ otomatis. Bukan cacat templat, tetapi batas verifikasi otomatis domain ini.
 
 | Berkas | Baris | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` (571 baris, 23.219 B) | :51, :387-400 | indeks cepat BDP (PDF 769); seksi 11 Jaringan: BDP cetak 730/PDF 769; window scaling cetak 608/PDF 647; penegasan offset +39 (:390) |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) (571 baris, 23.219 B) | :51, :387-400 | indeks cepat BDP (PDF 769); seksi 11 Jaringan: BDP cetak 730/PDF 769; window scaling cetak 608/PDF 647; penegasan offset +39 (:390) |
 | idem | :35, :97-105 | `Mb/s = MB/s x 8` (Damjanovski PDF 290) - pemasok angka bitrate mata 3 rantai I |
 | idem | :541 | celah: rumus perencanaan kapasitas jaringan TIDAK ADA |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` (180 baris, 9.908 B) | :95-107, :148-149 | seksi E bitrate per kamera, faktor gerak 2-3 kali lipat (:103); waktu deteksi hilang sinyal 8/4/2 PDF 34 (:148) + CATATAN DEFECT (:149). Seksi A-F TIDAK punya seksi jaringan - lihat G-5 |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` (107 baris, 6.602 B) | :21-22, :41, :46-47, :51-58, :76, :85-94 | detail Bagian 4-5 objek ini |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | :6, :12, :14, :15 | GAP-005, GAP-011, GAP-013, GAP-014 (Bagian 6) |
-| `ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv` | :13-17 (REF-NET-001..004, REF-OPS-001) dan :59 (REF-OEM-NET) | REF-NET-001..004 + REF-OPS-001 = R3 `no-unless-contract-adopts`; REF-OEM-NET = R4 aktif 28 berkas [peta rak, ukur ulang giliran revisi 2026-09-24] |
-| `ekas/00_START-HERE/README.md` | :34-38, :47 | keadaan rak R1=0 R2=5 R3=24 R4=0 R5=8; alasan R4 by-design (Bagian 8) |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) (180 baris, 9.908 B) | :95-107, :148-149 | seksi E bitrate per kamera, faktor gerak 2-3 kali lipat (:103); waktu deteksi hilang sinyal 8/4/2 PDF 34 (:148) + CATATAN DEFECT (:149). Seksi A-F TIDAK punya seksi jaringan - lihat G-5 |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) (107 baris, 6.602 B) | :21-22, :41, :46-47, :51-58, :76, :85-94 | detail Bagian 4-5 objek ini |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | :6, :12, :14, :15 | GAP-005, GAP-011, GAP-013, GAP-014 (Bagian 6) |
+| [`ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv) | :13-17 (REF-NET-001..004, REF-OPS-001) dan :59 (REF-OEM-NET) | REF-NET-001..004 + REF-OPS-001 = R3 `no-unless-contract-adopts`; REF-OEM-NET = R4 aktif 28 berkas [peta rak, ukur ulang giliran revisi 2026-09-24] |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) | :34-38, :47 | keadaan rak R1=0 R2=5 R3=24 R4=0 R5=8; alasan R4 by-design (Bagian 8) |
 
 ### 1.4 Lapis laci sumber (keberadaan fisik terukur)
 
 | Laci nyata | Klaim `_ISI.md` | Baris tabel terhitung | Cocok? |
 |---|---|---|---|
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/NETWORK/` | 4 berkas (:3) | 4 | ya |
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/OPERATIONS/` | 1 berkas (:3) | 1 | ya |
-| `ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/NETWORK/` | 28 berkas (:3) | 28 | ya (komposisi timpang - G-13) |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/` | "Kosong." (:3) | 0 | ya - konfirmasi independen GAP-011 |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/NETWORK/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/NETWORK/) | 4 berkas (:3) | 4 | ya |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/OPERATIONS/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/OPERATIONS/) | 1 berkas (:3) | 1 | ya |
+| [`ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/NETWORK/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R4_OEM-TECHNICAL/NETWORK/) | 28 berkas (:3) | 28 | ya (komposisi timpang - G-13) |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/) | "Kosong." (:3) | 0 | ya - konfirmasi independen GAP-011 |
 
 Keberadaan PDF fisik keempat buku R3 jaringan terkonfirmasi juga di vault nyata
 `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/NETWORK/`.
@@ -131,9 +131,9 @@ Keberadaan PDF fisik keempat buku R3 jaringan terkonfirmasi juga di vault nyata
 | Limoncelli, Chalup, Kothari, *The Practice of System and Network Administration* | ed. 3, 2017 | 1.225 halaman, 13,4 MB [R3, resume Practice, baris 5] | nomor PDF langsung |
 
 Domain tetangga yang memasok materi terkait (rujukan silang saja, TIDAK disalin - putusan P-8):
-`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md` (mitra F-3: BDP/window scaling + RAID),
-`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/` (bitrate Damjanovski, ambang Tabel 7),
-`ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/` (rantai J, kata sandi bawaan ditolak).
+[`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md) (mitra F-3: BDP/window scaling + RAID),
+[`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/) (bitrate Damjanovski, ambang Tabel 7),
+[`ekas/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/) (rantai J, kata sandi bawaan ditolak).
 
 ---
 
@@ -494,7 +494,7 @@ mengutip KEDUA pembacaan apa adanya.
 
 `R3 - CCNA 200-301 Official Cert Guide Library.md:83-85`: edisi 2019 "diarsipkan, bukan dihapus
 - ada di `_arsip/` (1.813 halaman, 38,1 MB)"; `REF-NET-002.md:41` mengulangi. Sapuan nama berkas
-di dua pohon (lapis teks `ekas/` dan vault nyata `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`)
+di dua pohon (lapis teks [`ekas/`](../../ekas-lapis-teks/) dan vault nyata `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`)
 menghasilkan nol direktori `_arsip` dan nol berkas CCNA selain pustaka 2024. Kemungkinan besar
 vault teks memang tidak membawa arsip fisik - calon kuat, bukan vonis; `EKAS-SYSTEM-MAP.md:121`
 mengenal `SUPERSEDED/` sebagai direktori edisi lama, bukan `_arsip/`.
@@ -560,7 +560,7 @@ dinyatakan calon dengan alasan kenapa lapis teks tidak cukup.
 
 ## Bagian 6 - Gap register domain
 
-### 6.1 Celah resmi ber-ID (dari `ekas/02_REGISTERS/GAP-REGISTER.csv`)
+### 6.1 Celah resmi ber-ID (dari [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv))
 
 | ID | Celah | Lapis | Domain | Prioritas | Status |
 |---|---|---|---|---|---|
@@ -677,11 +677,11 @@ daripada mengarang").
    dilarang diratakan menjadi "standar". Lima dari enam kartu REF-NET mensyaratkan adopsi
    kontrak tertulis sebelum boleh menetapkan ambang.
 9. **Domain tetangga hanya rujukan silang, tidak disalin (putusan P-8):** STORAGE
-   `ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md` (mitra F-3 sitasi Fall & Stevens; RAID
+   [`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md) (mitra F-3 sitasi Fall & Stevens; RAID
    [R3, Troppens, PDF 46-70]); VIDEO-SURVEILLANCE (bitrate Damjanovski [R3, PDF 277, 290];
    pemilik fakta Tabel 7); CYBERSECURITY (kata sandi bawaan, rantai J). POWER-BACKUP dan
    GROUNDING-LIGHTNING di luar cakupan D1.
-10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak read-only
+10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak read-only
     2026-09-24; tidak ada PDF primer yang dibuka - verifikasi per halaman wewenang manusia
     (PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`). `ekas/` read-only - objek
     ini tidak mengubah rak. Nomor baris `RANTAI-JAMINAN.md` di objek ini memakai versi pasca-

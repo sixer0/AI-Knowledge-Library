@@ -34,7 +34,7 @@ objek master per domain sesuai skema beku G-1 seksi 1).
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-23-nws-knowledge-register/research/electrical-korpus-detail.md` (studi
-t_1711b38f status complete, 738 baris, ekstraksi read-only dari lapisan teks `ekas/` oleh
+t_1711b38f status complete, 738 baris, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) oleh
 gsp-power-specialist pada 2026-09-24). Tidak ada pembacaan ulang korpus untuk angka BARU pada
 giliran ini; bacaan langsung rak di giliran L1 adalah (a) verifikasi ulang berkas-berkas yang
 ditambal D3-FIXx dan D4-FIXx sesudah studi menutup, dan (b) reproduksi aritmetika angka rak
@@ -79,7 +79,7 @@ sering tertukar (`ekas/01_GOVERNANCE/AUTHORITY-STATUS.md:30`;
 `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md:159-161`).
 
 Uji keberadaan batas ini di rak (ukur giliran L1, skrip): kata `interval`, `torque`, `torsi`,
-`petir` = **0 kemunculan** di seluruh `ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`. Kata `UPS` (3x),
+`petir` = **0 kemunculan** di seluruh [`ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/). Kata `UPS` (3x),
 `baterai` (1x), `genset` (2x) muncul HANYA di tiga konteks non-muatan: baris "pendamping di
 rak" (`R3 - Gill:175` menyebut laci `R3/UPS/` dan `R3/GENSET/`), contoh beban non-linier pada
 kualitas daya (`R3 - Gill:78` - UPS disebut sebagai BEBAN yang mengganggu instalasi, bukan
@@ -94,7 +94,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 `R2/ANSI-NETA/` dan `R3/ELECTRICAL/` adalah label laci, BUKAN path; padanan nyatanya dicantumkan
 (butir K-10). Uji keberadaan = baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/` (3 berkas)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/) (3 berkas)
 
 | Berkas | Peran | Tingkat R | Ukuran nyata (pasca-tambalan) |
 |---|---|---|---|
@@ -142,7 +142,7 @@ Cacah blok anotasi known-defect terukur kini (probe baca langsung, giliran L1b):
 `TEMPLATE-BERITA-ACARA.md` 5 (3 D3 + 2 D4) ; `THERMAL/RANTAI-JAMINAN.md` 4 (D4). Bentuk kedua
 gelombang hanya-tambah; isi dan angka rak tidak diubah.
 
-### 1.2 Lapis kartu pengetahuan `ekas/04_KNOWLEDGE-CARDS/ELECTRICAL/` (2 kartu)
+### 1.2 Lapis kartu pengetahuan [`ekas/04_KNOWLEDGE-CARDS/ELECTRICAL/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/ELECTRICAL/) (2 kartu)
 
 | Kartu | R | Status otoritas | Yang dipasok (:22) | Halaman jangkar (:24/:27) | Boleh tetapkan ambang? (:37/:43) | Batas pemakaian (:41/:50) |
 |---|---|---|---|---|---|---|
@@ -165,16 +165,16 @@ jawaban "Ya" di seksi 3 baru menyebut satu syarat, padahal sumber menambah syara
 
 | Berkas | Baris | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` (598 baris, 30.272 B) | :41-43 | indeks cepat PI, DAR, tegangan uji rutin (Gill) |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) (598 baris, 30.272 B) | :41-43 | indeks cepat PI, DAR, tegangan uji rutin (Gill) |
 | idem | :53-55 | indeks cepat M ohm minimum, koreksi suhu, delta-T (ATS-2017) |
 | idem | :233-262 | bagian 5 "Pengujian instalasi listrik": DAR, PI, batas rutin, empat metode |
 | idem | :442-485 | bagian 13.1 ANSI/NETA ATS-2017: Tabel 100.1, 100.14, 100.18 versi katalog |
 | idem | :460 | caveat katalog "berlaku bila tidak ada standar konsensus lain; spesifikasi pabrikan mendahului" |
 | idem | :554, :556, :559 | "Yang TIDAK ada di rak": M ohm mutlak TERTUTUP, delta-T TERTUTUP, standar Indonesia TIDAK ADA |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` (183 baris, 10.523 B) | :131-132 | ambang resistansi pembumian dan resistivitas tanah = TIDAK BOLEH diasumsikan |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) (183 baris, 10.523 B) | :131-132 | ambang resistansi pembumian dan resistivitas tanah = TIDAK BOLEH diasumsikan |
 | idem | :146-148 | asumsi yang GUGUR sejak standar masuk: M ohm isolasi, faktor koreksi suhu, delta-T termografi |
 | idem | :156-158 | "yang TIDAK gugur": ATS memberi tahanan isolasi, BUKAN resistansi pembumian |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` (110 baris, 7.595 B) | :6-7 | aturan gate G4: R1/R2 sah; R3 hanya bila kontrak mengadopsi tertulis; R5 tidak pernah |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) (110 baris, 7.595 B) | :6-7 | aturan gate G4: R1/R2 sah; R3 hanya bila kontrak mengadopsi tertulis; R5 tidak pernah |
 | idem | :15-17 | tiga baris R2 sah (isolasi M ohm, koreksi suhu, delta-T) |
 | idem | :23-24 | anotasi known-defect K-2 atas baris :15 |
 | idem | :28-31 | batas cakupan wajib: ATS untuk pemeliharaan = salah (itu MTS) |
@@ -184,23 +184,23 @@ jawaban "Ya" di seksi 3 baru menyebut satu syarat, padahal sumber menambah syara
 | idem | :78, :80 | belum ada sumber sah: kepatuhan Indonesia (PUIL/SNI), uji pemeliharaan (MTS) |
 | idem | :88-97 | daftar wajib R4 + instruksi "menunggu data pabrikan" |
 | idem | :101-107 | cara memakai berkas ambang (empat langkah) |
-| `ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md` (269 baris, 12.689 B) | :105-130 | bagian 3 BA uji instalasi listrik (unsur wajib, metode, normalisasi) |
+| [`ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md) (269 baris, 12.689 B) | :105-130 | bagian 3 BA uji instalasi listrik (unsur wajib, metode, normalisasi) |
 | idem | :207 | ambang lulus delta-T untuk pemeriksaan termal |
 | idem | :250-251, :256 | ringkasan sumber ambang: rasio dari Gill, M ohm mutlak dari ATS, termal dari ATS |
-| `ekas/01_GOVERNANCE/AUTHORITY-STATUS.md` (115 baris, 5.164 B) | :29-31 | tiga baris batas cakupan ATS-2017 (terima vs peliharaan; M ohm vs ohm; Amerika vs PUIL) |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` (22 baris, 3.228 B) | :2, :9, :15 | GAP-001 (PUIL/SNI, TINGGI), GAP-008 (MTS, MENENGAH), GAP-014 (R4 by-design) |
-| `ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv` | :5-6 | REF-ELC-001 (`no-unless-contract-adopts`), REF-ELC-002 (`yes-if-adopted`) |
-| `ekas/00_START-HERE/README.md` (98 baris, 4.112 B) | :34-38, :47 | keadaan rak R1=0 R2=5 R3=24 R4=0 R5=8; alasan R4 by-design |
+| [`ekas/01_GOVERNANCE/AUTHORITY-STATUS.md`](../../ekas-lapis-teks/01_GOVERNANCE/AUTHORITY-STATUS.md) (115 baris, 5.164 B) | :29-31 | tiga baris batas cakupan ATS-2017 (terima vs peliharaan; M ohm vs ohm; Amerika vs PUIL) |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) (22 baris, 3.228 B) | :2, :9, :15 | GAP-001 (PUIL/SNI, TINGGI), GAP-008 (MTS, MENENGAH), GAP-014 (R4 by-design) |
+| [`ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.csv) | :5-6 | REF-ELC-001 (`no-unless-contract-adopts`), REF-ELC-002 (`yes-if-adopted`) |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) (98 baris, 4.112 B) | :34-38, :47 | keadaan rak R1=0 R2=5 R3=24 R4=0 R5=8; alasan R4 by-design |
 
 ### 1.4 Lapis laci sumber (keberadaan fisik terukur)
 
-| Laci nyata di pohon `ekas/` | Isi | Klaim `_ISI.md` | PDF primer sebenarnya |
+| Laci nyata di pohon [`ekas/`](../../ekas-lapis-teks/) | Isi | Klaim `_ISI.md` | PDF primer sebenarnya |
 |---|---|---|---|
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/` | hanya `_ISI.md` | 1 berkas, 3,3 MB (`_ISI.md:3,7`) | ada di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/`, 3.469.354 B = 3,31 MiB (cocok) |
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/ELECTRICAL/` | hanya `_ISI.md` | 1 berkas, 12,4 MB (`_ISI.md:3,7`) | ada di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/ELECTRICAL/`, 13.026.971 B = 12,42 MiB (cocok) |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/) | hanya `_ISI.md` | 1 berkas, 3,3 MB (`_ISI.md:3,7`) | ada di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/`, 3.469.354 B = 3,31 MiB (cocok) |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/ELECTRICAL/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/ELECTRICAL/) | hanya `_ISI.md` | 1 berkas, 12,4 MB (`_ISI.md:3,7`) | ada di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/ELECTRICAL/`, 13.026.971 B = 12,42 MiB (cocok) |
 
 Ukuran pada `_ISI.md` konsisten dengan byte nyata di laci luar-rak (uji MiB, bukan MB desimal).
-**Pohon `ekas/` sendiri tidak memuat satu pun PDF** - kondisi struktural korpus, bukan cacat
+**Pohon [`ekas/`](../../ekas-lapis-teks/) sendiri tidak memuat satu pun PDF** - kondisi struktural korpus, bukan cacat
 domain ELECTRICAL (lihat Gap G-10; pola sama di domain FIBER-OPTIC).
 
 ### 1.5 PDF primer (verifikasi halaman = wewenang manusia; agen bekerja dari lapisan teks)
@@ -217,10 +217,10 @@ sebelum serah terima), **MTS = uji pemeliharaan** (instalasi berjalan). Nama ber
 diperbaiki sesuai isinya.
 
 Domain tetangga yang relevan HANYA sebagai rujukan silang (putusan P-8, tidak disalin):
-`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/` (pemakai Tabel 100.18 - lihat K-3),
-`ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/` (UPS/baterai/genset - di luar D3),
-`ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/` (petir/pembumian - di luar D3),
-`ekas/05_DOMAIN-KNOWLEDGE/RCM/` (rumus FFI untuk interval fungsi tersembunyi - lihat 3.6).
+[`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/) (pemakai Tabel 100.18 - lihat K-3),
+[`ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/) (UPS/baterai/genset - di luar D3),
+[`ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/) (petir/pembumian - di luar D3),
+[`ekas/05_DOMAIN-KNOWLEDGE/RCM/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/) (rumus FFI untuk interval fungsi tersembunyi - lihat 3.6).
 
 ---
 
@@ -341,7 +341,7 @@ giliran L1 ini; hasilnya di bawah adalah cetakan alat, bukan ingatan dari studi.
 | Komposisi Tabel 100.1 resume vs katalog | 10 baris vs 9 baris | nilai sama; baris 46 kV tergabung | Lihat K-4 |
 | Komposisi Tabel 100.14 resume vs katalog | 6 baris vs 4 baris | nilai sama; baris -10 dan 25 hilang | Lihat K-5 |
 | Kemunculan `interval` / `torque` / `torsi` / `petir` di rak ELECTRICAL | - | 0 / 0 / 0 / 0 | Konfirmasi G-7 dan G-8 (bukan dugaan) |
-| Direktori bernama `_standar` di pohon `ekas/` | - | 0 direktori | Konfirmasi K-10 |
+| Direktori bernama `_standar` di pohon [`ekas/`](../../ekas-lapis-teks/) | - | 0 direktori | Konfirmasi K-10 |
 | Baris domain ELECTRICAL di TEST/CALCULATION/REQUIREMENT/EVIDENCE-REGISTER.csv | - | 0 / 0 / 0 / 0 | Konfirmasi G-9 |
 
 Nol nilai gagal reproduksi aritmetika. Yang bermasalah adalah **propagasi syarat pemakaian**
@@ -423,7 +423,7 @@ harus ditulis di berita acara, bukan diimplikasikan (G-6).
 
 ### 3.5 Torque (torsi) sambungan listrik - status: TIDAK ADA di rak
 
-Diukur ulang giliran ini: kemunculan `torque` dan `torsi` di `ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`
+Diukur ulang giliran ini: kemunculan `torque` dan `torsi` di [`ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/)
 = **0**. Satu-satunya padanan di rak ada di domain lain:
 `CIVIL-STRUCTURAL/RANTAI-JAMINAN.md:103` "Torsi baut ... tidak ada di rak | Spesifikasi baut
 [R4] + SNI 1729". Kesimpulan: **tidak ada angka torsi sambungan listrik di rak**; nilainya R4
@@ -432,7 +432,7 @@ Diukur ulang giliran ini: kemunculan `torque` dan `torsi` di `ekas/05_DOMAIN-KNO
 
 ### 3.6 Interval uji - status: TIDAK ADA sandaran di rak untuk lingkup ini
 
-Kata `interval` = **0 kemunculan** di seluruh `ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/` (diukur
+Kata `interval` = **0 kemunculan** di seluruh [`ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/) (diukur
 ulang, 2.3). Alasan struktural: ATS adalah standar **uji terima** (satu kali sebelum serah
 terima), sehingga interval berkala bukan bagiannya; yang mengatur interval pemeliharaan adalah
 **MTS - tidak ada di rak** (GAP-008, `GAP-REGISTER.csv:9`).
@@ -599,7 +599,7 @@ hanya-tambah D3-FIXx lalu D4-FIXx (dua-duanya 2026-09-24; daftar pergeseran dan 
   "| 46.000 ke atas | 5.000 | 100.000 |".
 - Katalog: `KATALOG-RUMUS.md:467` "| 34.500 ke atas | 5.000 | 100.000 |" - baris 46.000 tidak ada.
 - Nilai tidak berkontradiksi (keduanya 100.000 M ohm); yang hilang adalah **keberadaan baris
-  46 kV sebagai kelas tersendiri**. Grep `46.000` di seluruh `ekas/` (ukur ulang giliran L1):
+  46 kV sebagai kelas tersendiri**. Grep `46.000` di seluruh [`ekas/`](../../ekas-lapis-teks/) (ukur ulang giliran L1):
   2 berkas = resume ATS + katalog (baris anotasi K-4), jadi populasi angkanya memang dua.
 - Dampak rendah untuk praktik GSP (46 kV jarang), tinggi untuk audit "salin persis".
 - Perlakuan objek ini: 2.2 A menampilkan bentuk LENGKAP 10 baris (resume = otoritas); katalog
@@ -658,14 +658,14 @@ hanya-tambah D3-FIXx lalu D4-FIXx (dua-duanya 2026-09-24; daftar pergeseran dan 
 - Perlakuan objek ini: SATU bentuk klaim, dipakai di Bagian 8 butir 1: "terkuat di rak, dengan
   dua celah normatif: MTS dan PUIL".
 
-### K-10. Lokasi `_standar/` yang dikatalogkan tidak ada di pohon `ekas/` - cacat penamaan (RENDAH, terukur)
+### K-10. Lokasi `_standar/` yang dikatalogkan tidak ada di pohon [`ekas/`](../../ekas-lapis-teks/) - cacat penamaan (RENDAH, terukur)
 
 - `KATALOG-RUMUS.md:444-445`: lima standar "disimpan di subfolder `_standar/` dalam folder
-  topiknya". Pencarian direktori `_standar` di seluruh `ekas/` (ukur ulang giliran L1):
+  topiknya". Pencarian direktori `_standar` di seluruh [`ekas/`](../../ekas-lapis-teks/) (ukur ulang giliran L1):
   **0 direktori**.
 - Kenyataan di disk: `03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ANSI-NETA/` (sesuai
   `REF-ELC-002.md:8`). Kolom `source_folder` `MASTER-REFERENCE-REGISTER.csv:6` menulis
-  "Electrical Maintenance/_standar" - kemungkinan merujuk rak sumber asal (Mac), bukan `ekas/`.
+  "Electrical Maintenance/_standar" - kemungkinan merujuk rak sumber asal (Mac), bukan [`ekas/`](../../ekas-lapis-teks/).
 - Dampak: agen yang menuruti katalog mencari path yang tidak ada. Anotasi
   `KATALOG-RUMUS.md:448-449`. Perlakuan objek ini: semua path dinormalisasi ke nama folder nyata
   (Bagian 1 dan 6).
@@ -689,7 +689,7 @@ hanya-tambah D3-FIXx lalu D4-FIXx (dua-duanya 2026-09-24; daftar pergeseran dan 
 
 ## Bagian 6 - Gap register domain
 
-### 6.1 Celah resmi ber-ID (dari `ekas/02_REGISTERS/GAP-REGISTER.csv`, baris terukur)
+### 6.1 Celah resmi ber-ID (dari [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv), baris terukur)
 
 | ID | Yang tidak ada | R | Prioritas / status | Isi baris csv | Arti untuk domain ini |
 |---|---|---|---|---|---|
@@ -710,7 +710,7 @@ hanya-tambah D3-FIXx lalu D4-FIXx (dua-duanya 2026-09-24; daftar pergeseran dan 
 | G-7 | **Torque sambungan listrik** | R4 | tidak terdaftar (padanan CIVIL-STRUCTURAL: "tidak ada di rak") | grep `torque`/`torsi` di ELECTRICAL = 0 (diukur); `CIVIL-STRUCTURAL/RANTAI-JAMINAN.md:103` | Nyatakan "menunggu data pabrikan"; jangan isi angka umum |
 | G-8 | **Interval uji berkala instalasi listrik** | - | implisit di GAP-008 | kata `interval` = 0 kemunculan di `ELECTRICAL/` (diukur ulang) | Jangan impor interval dari domain lain (triwulanan IEEE 1188 = baterai) |
 | G-9 | **Contoh pelaksanaan elektrikal (BA nyata, kalkulasi, ITP)** | - | tidak ada artefak | TEST/CALCULATION/REQUIREMENT/EVIDENCE-REGISTER.csv: **0 baris domain ELECTRICAL** (diukur ulang); `08_EVIDENCE/` dan `09_HANDOVER/` tidak memuat berkas elektrikal | Domain ini murni lapisan pengetahuan; belum ada jejak penerapan. Bandingkan FIBER-OPTIC yang punya suite P00 |
-| G-10 | **PDF primer tidak ada di pohon `ekas/`** | - | kondisi struktural korpus | `03_SOURCE-VAULT/.../ANSI-NETA/` dan `.../ELECTRICAL/` hanya berisi `_ISI.md`; PDF di `C:/Users/TRIAL/gsp-ekas/lengkap/` | Verifikasi halaman per angka = tugas manusia; agen berhenti di lapisan teks |
+| G-10 | **PDF primer tidak ada di pohon [`ekas/`](../../ekas-lapis-teks/)** | - | kondisi struktural korpus | `03_SOURCE-VAULT/.../ANSI-NETA/` dan `.../ELECTRICAL/` hanya berisi `_ISI.md`; PDF di `C:/Users/TRIAL/gsp-ekas/lengkap/` | Verifikasi halaman per angka = tugas manusia; agen berhenti di lapisan teks |
 
 ### 6.3 Cara pakai objek ini (empat langkah, mengikuti `AMBANG-TERIMA-INDUK.md:107-113`)
 
@@ -847,16 +847,16 @@ daripada mengarang").
    (`AMBANG-TERIMA-INDUK.md:91-103`). Tulis "menunggu data pabrikan", jangan isi angka umum.
 9. **Batas cakupan D3 (N-13) dan domain tetangga HANYA rujukan silang, tidak disalin (P-8).**
    Yang terdaftar: uji instalasi dan peralatan listrik (ATS-2017 + Gill). Yang BUKAN:
-   UPS/baterai/genset -> `ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/` (Rantai C; status rantainya
+   UPS/baterai/genset -> [`ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/) (Rantai C; status rantainya
    sendiri "UTUH pada baterai dan ventilasi [R2]. MENUNGGU R4 pada genset dan UPS",
    `POWER-BACKUP/RANTAI-JAMINAN.md:136`); proteksi petir dan pembumian ->
-   `ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/` (Rantai D; resistansi pembumian tidak punya
+   [`ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/) (Rantai D; resistansi pembumian tidak punya
    R1 maupun R2 di rak, `AMBANG-TERIMA-INDUK.md:79`). Rujukan silang aktif: THERMAL
-   `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/` memakai tabel yang sama (Tabel 100.18) dan vonis K-3
-   berlaku untuk keduanya; RCM `ekas/05_DOMAIN-KNOWLEDGE/RCM/` memegang rumus interval (FFI).
+   [`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/) memakai tabel yang sama (Tabel 100.18) dan vonis K-3
+   berlaku untuk keduanya; RCM [`ekas/05_DOMAIN-KNOWLEDGE/RCM/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/) memegang rumus interval (FFI).
    Kata kunci yang TIDAK boleh ditarik oleh slug `#electrical-korpus`: UPS, baterai, genset,
    ventilasi ruang baterai, resistansi pembumian, rolling sphere.
-10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak read-only
+10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak read-only
     2026-09-24; tidak ada PDF primer yang dibuka - verifikasi per halaman wewenang manusia
     (PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`). `ekas/`, `vault/`,
     `wiki/`, `profiles/` read-only selama giliran ini - objek ini tidak mengubah rak. Nomor

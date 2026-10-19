@@ -32,7 +32,7 @@ catatan_keputusan: "dipromosikan: batch M1b paruh B terverifikasi custodian (C-M
 # Pelajaran: 49/54 entri wiki title ≠ H1 (pola sistemik vault_promote.py) — perbaiki di alur promote
 
 ## Ringkasan
-Inspeksi wiki 2026-08-25: 49 dari 54 entri `.md` di `~/.hermes/wiki` memiliki `title` (frontmatter,
+Inspeksi wiki 2026-08-25: 49 dari 54 entri `.md` di [`~/.hermes/wiki`](../) memiliki `title` (frontmatter,
 deskriptif) ≠ H1 pertama body (generik: "Ringkasan", "Fakta — ...", "Index Proyek — ..."). Pola ini
 sistemik dari hasil promote `vault_promote.py`.
 

@@ -32,7 +32,7 @@ paginasi — bagian "DIPROMOSIKAN #4"]
 
 ## Detail keputusan
 
-- Sumber RAW: `ekas/02_REGISTERS/GAP-REGISTER.md` (kelas bukti: sekunder).
+- Sumber RAW: [`ekas/02_REGISTERS/GAP-REGISTER.md`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.md) (kelas bukti: sekunder).
 - Alasan promote: register celah memandu keputusan akuisisi koleksi dan
   menyatakan batas ("tidak ada R1, tidak ada R4") — informasi yang mencegah
   klaim berlebih; relevan untuk semua agen yang menyusun dokumen teknis.

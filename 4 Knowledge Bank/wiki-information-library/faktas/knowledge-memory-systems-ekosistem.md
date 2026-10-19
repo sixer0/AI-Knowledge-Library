@@ -39,7 +39,7 @@ Knowledge & memory systems ekosistem GSP (kajian §9.1–9.6):
   lengkap/ = 430 file + 160 PDF sumber 3 GB; struktur 00_START-HERE …
   90_TOOLS; model jaminan R1–R5, gate G0–G7, 12 rantai jaminan, 61 knowledge
   cards, TPL-00..09 (lihat unit `rantai-jaminan-ekas-r1-r5`).
-- **Wiki & HermesMemory:** `C:/Users/TRIAL/AppData/Local/hermes/wiki` — 54
+- **Wiki & HermesMemory:** [`C:/Users/TRIAL/AppData/Local/hermes/wiki`](../) — 54
   file .md dalam 6 folder (catatans, faktas, keputusans, pelajarans, proyeks,
   standars); dicerminkan ke HermesMemory (54 baris, type=fact semua, status
   active); ditulis via API `/api/brahma/memory` atau bridge memory.write.

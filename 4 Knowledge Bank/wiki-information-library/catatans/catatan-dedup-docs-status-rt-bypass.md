@@ -68,7 +68,7 @@ dan frontmatter-nya dilengkapi (CHANGES.md #13).
    - `rt-first-penulis-verifikator-terlemah` (type pelajaran, kelas_bukti primer,
      sumber status.md baris 30-32) — pelajaran "penulis adalah verifikator
      terlemah; jangan desain di atas artefak yang tidak ada".
-3. **Wiki (`~/.hermes/wiki/`): 0 entri** (post-reset rebuild) — tidak ada dedup
+3. **Wiki ([`~/.hermes/wiki/`](../)): 0 entri** (post-reset rebuild) — tidak ada dedup
    terbit. Konfirmasi ganda terminal (bukan hanya search tool) per pitfall
    gsp-library-workflow: grep `t_42119e1b` → 2 file gsp-orchestration di atas;
    grep `01_translated` → 21 file (konteks pipeline identification umum, bukan

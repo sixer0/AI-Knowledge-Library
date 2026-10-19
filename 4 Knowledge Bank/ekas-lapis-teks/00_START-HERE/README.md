@@ -54,7 +54,7 @@ Dua kekosongan itu berbeda sifatnya:
 
 | Anda sedang… | Buka |
 |---|---|
-| Baru pertama memakai sistem ini | `EKAS-SYSTEM-MAP.md` |
+| Baru pertama memakai sistem ini | [`EKAS-SYSTEM-MAP.md`](EKAS-SYSTEM-MAP.md) |
 | Mengerjakan proyek nyata | `05_DOMAIN-KNOWLEDGE/<domain>/RANTAI-JAMINAN.md` |
 | Mencari rumus | `06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` |
 | Menyusun berita acara | `07_VERIFICATION-VALIDATION/TEST-PROCEDURES/` |
@@ -95,4 +95,4 @@ pengetahuan umum.
   seluruhnya. Materinya tidak tersedia.
 - **Tiga buku catu daya terbit 2000–2004.** Kerangka hitungnya sahih; angka produknya tidak dapat dijadikan acuan.
 - **Berkas fisik PDF belum dipindahkan ke `03_SOURCE-VAULT/`** — lihat
-  `DOCUMENT-CONTROL.md` bagian "Keadaan migrasi".
+  [`DOCUMENT-CONTROL.md`](DOCUMENT-CONTROL.md) bagian "Keadaan migrasi".

@@ -32,7 +32,7 @@ objek master per domain sesuai skema beku G-1 seksi 1).
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-23-nws-knowledge-register/research/fiber-optic-korpus-detail.md` (studi
-t_4d43fd1f status complete, 859 baris, ekstraksi read-only dari lapisan teks `ekas/` oleh
+t_4d43fd1f status complete, 859 baris, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) oleh
 gsp-fiber-specialist pada 2026-09-24). Tidak ada pembacaan ulang korpus untuk angka BARU pada
 giliran ini; bacaan langsung rak di giliran L1 hanya untuk (a) memverifikasi jangkar baris
 pasca-tambalan D2-FIXx, (b) mengukur ulang ukuran berkas dan sha256 lapis bersama, (c)
@@ -69,7 +69,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 `R3/FIBER-OPTIC/` dan `R2/IEC/` adalah label laci, BUKAN path; padanan nyatanya dicantumkan
 (butir K-12). Uji keberadaan = baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/` (4 berkas, pasca-D2-FIXx)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/) (4 berkas, pasca-D2-FIXx)
 
 | Berkas | Peran | Tingkat R | Ukuran nyata | Isi unik |
 |---|---|---|---|---|
@@ -78,7 +78,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 | `R3 - FOA Reference Guide to Fiber Optics.md` | Resume Hayes 2019 (CFOT) | R3 | 13.143 B, 247 baris | satu-satunya tabel jenis serat OM1-OM5/OS1-OS2 (`:49-57`); contoh terhitung 2 km dua kolom (`:190-197`); aturan offset tidak tetap (`:7-10`) |
 | `R3 - Reference Guide to Fiber Optic Testing Vol 1.md` | Resume JDSU/Laferriere 2007 | R3 | 4.465 B, 99 baris | satu-satunya istilah dead zone (`:51-53`); aturan offset tetap +7 (`:7-9`); dispersi/PMD sebagai topik tanpa angka (`:63-67`) |
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/FIBER-OPTIC/` (3 kartu, templat enam seksi identik)
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/FIBER-OPTIC/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/FIBER-OPTIC/) (3 kartu, templat enam seksi identik)
 
 | Kartu | R | Yang dipasok (`:22`) | Halaman jangkar (`:24`) | Boleh tetapkan ambang (`:37`/`:40`) | Batas pemakaian (`:41`/`:44`) |
 |---|---|---|---|---|---|
@@ -94,19 +94,19 @@ NETWORKING yang tidak punya kartu R2 sama sekali.
 
 | Lapis (ukuran snapshot) | Jangkar baris + token | Isi |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` (30.272 B, 599 baris) | `:37` "rugi serat + rugi konektor + rugi sambungan"; `:38` "Hasil loss budget kolom terburuk"; `:59` "Metode uji redaman serat singlemode" | indeks cepat: rugi total jalur [R3, Hayes FOA Reference Guide, PDF 129]; ambang lulus [R3, Hayes FOA Reference Guide, PDF 145]; metode uji SM [R2, IEC 61280-4-2:2014, PDF 17] |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) (30.272 B, 599 baris) | `:37` "rugi serat + rugi konektor + rugi sambungan"; `:38` "Hasil loss budget kolom terburuk"; `:59` "Metode uji redaman serat singlemode" | indeks cepat: rugi total jalur [R3, Hayes FOA Reference Guide, PDF 129]; ambang lulus [R3, Hayes FOA Reference Guide, PDF 145]; metode uji SM [R2, IEC 61280-4-2:2014, PDF 17] |
 | idem | seksi "## 2. Serat optik" `:113-159` | rumus `:121`; tabel rugi serat `:124-129`; tabel rugi konektor `:131-136`; aturan kolom terburuk `:141-142`; ambang uji dan ketelitian `:144-148`; tabel standar metode uji `:153-159`. TANPA baris rugi sambungan (K-5, anotasi `:138-139`); baris ketidakpastian tanpa atribusi buku (K-3, anotasi `:150-151`) |
 | idem | seksi "### 13.3 IEC 61280-4-2:2014" (sekitar `:502-510`) | empat metode; "Tiga pertama memakai LSPM"; reflektansi + RTM + ORL; sumber ketidakpastian; anotasi K-11 dan K-9 |
 | idem | token "Peta resume" (sekitar `:570-577`) | indeks resume lama memakai nama `RESUME - FOA ...` dan `RESUME - Reference ...` yang tidak sama dengan berkas nyata (K-12, beranotasi) |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` (10.523 B, 184 baris) | seksi "### B. Serat optik" `:51-58` | rugi sambungan `:55` TANPA angka; redaman serat `:56` "pakai batas standar, bukan angka terbaik pabrikan"; jumlah konektor `:57` "tiap patch panel = sepasang"; anggaran daya perangkat `:58` "lembar data transceiver"; anotasi K-5 `:60-61` |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) (10.523 B, 184 baris) | seksi "### B. Serat optik" `:51-58` | rugi sambungan `:55` TANPA angka; redaman serat `:56` "pakai batas standar, bukan angka terbaik pabrikan"; jumlah konektor `:57` "tiap patch panel = sepasang"; anggaran daya perangkat `:58` "lembar data transceiver"; anotasi K-5 `:60-61` |
 | idem | seksi "Asumsi yang GUGUR" `:139-154` | `:154` metode uji redaman SM kini dikutip dari IEC 61280-4-2 PDF 17, bukan ditaksir; `:152` anotasi defect warisan VSSKB Tabel 7 |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` (7.595 B, 111 baris) | `:42` "Rugi jalur serat optik"; `:61` kabel referensi; `:82` multimode; `:94` dan `:96` wajib R4 | rinci di Bagian 4.1; aturan induk `:49` token "Metode boleh R3" |
-| `ekas/00_START-HERE/README.md` (4.112 B, 99 baris) | `:34-38` | keadaan rak R1=0, R2=5, R3=24, R4=0, R5=8; alasan R4 by-design `:47` |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` (3.228 B, 23 baris) | `:11` GAP-010; `:12` GAP-011; `:15` GAP-014; `:2` GAP-001 | Bagian 6.1 |
-| `ekas/02_REGISTERS/R4-STATUS.md` (3.992 B, 80 baris) | `:41` | "Redaman & reflektansi konektor terpasang - tidak ada lembar data konektor/kabel serat" |
-| `ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.md` (8.815 B, 153 baris) | `:66` | peringatan usia JDSU "19 th" |
-| `ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md` (12.689 B, 270 baris) | seksi "## 1. Uji jalur serat optik" `:62-80` | kerangka BA serat optik: ambang + sumber, metode OFSTP/FOTP, alat, ketidakpastian, data jalur, kabel referensi <= 0,5 dB, setelan OTDR |
-| `ekas/08_EVIDENCE/OTDR/README.md` (163 B, 8 baris) | seluruh berkas | laci bukti OTDR kosong - diisi per proyek |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) (7.595 B, 111 baris) | `:42` "Rugi jalur serat optik"; `:61` kabel referensi; `:82` multimode; `:94` dan `:96` wajib R4 | rinci di Bagian 4.1; aturan induk `:49` token "Metode boleh R3" |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) (4.112 B, 99 baris) | `:34-38` | keadaan rak R1=0, R2=5, R3=24, R4=0, R5=8; alasan R4 by-design `:47` |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) (3.228 B, 23 baris) | `:11` GAP-010; `:12` GAP-011; `:15` GAP-014; `:2` GAP-001 | Bagian 6.1 |
+| [`ekas/02_REGISTERS/R4-STATUS.md`](../../ekas-lapis-teks/02_REGISTERS/R4-STATUS.md) (3.992 B, 80 baris) | `:41` | "Redaman & reflektansi konektor terpasang - tidak ada lembar data konektor/kabel serat" |
+| [`ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.md`](../../ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.md) (8.815 B, 153 baris) | `:66` | peringatan usia JDSU "19 th" |
+| [`ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md) (12.689 B, 270 baris) | seksi "## 1. Uji jalur serat optik" `:62-80` | kerangka BA serat optik: ambang + sumber, metode OFSTP/FOTP, alat, ketidakpastian, data jalur, kabel referensi <= 0,5 dB, setelan OTDR |
+| [`ekas/08_EVIDENCE/OTDR/README.md`](../../ekas-lapis-teks/08_EVIDENCE/OTDR/README.md) (163 B, 8 baris) | seluruh berkas | laci bukti OTDR kosong - diisi per proyek |
 
 ### 1.4 Lapis pelaksanaan (suite contoh P00, tujuh berkas; SEMUA angkanya berlabel "karangan")
 
@@ -127,16 +127,16 @@ ditandai `(P00, angka karangan)`.
 
 ### 1.5 Lapis laci sumber (keberadaan fisik; dua lokasi wajib disebut - pelajaran K-8)
 
-| Laci teks di `ekas/` | Klaim `_ISI.md` | PDF nyata (ukur ulang giliran L1, 2026-09-24) |
+| Laci teks di [`ekas/`](../../ekas-lapis-teks/) | Klaim `_ISI.md` | PDF nyata (ukur ulang giliran L1, 2026-09-24) |
 |---|---|---|
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/FIBER-OPTIC/_ISI.md` (1.266 B) | `:3` "Berkas fisik sudah berada di laci ini" - SALAH ALAMAT (K-8, dianotasi `:10`) | `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/FIBER-OPTIC/`: Hayes FOA 54.533.749 B; Laferriere/JDSU Vol 1 6.416.581 B |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/IEC/_ISI.md` (1.040 B) | `:3` klaim sama (K-8, dianotasi `:9`) | `.../R2_INTERNATIONAL-STANDARDS/IEC/IEC 61280-4-2 ... (Edition 2.0, 2014).pdf` 1.588.640 B |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/_ISI.md` (251 B) | `:3` "Kosong." - jujur, konsisten | 0 (konfirmasi independen GAP-011) |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ITU-T/_ISI.md` (253 B) | `:3` "Kosong." | 0 (G.652 tidak ada - G-9) |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/FIBER-OPTIC/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/FIBER-OPTIC/_ISI.md) (1.266 B) | `:3` "Berkas fisik sudah berada di laci ini" - SALAH ALAMAT (K-8, dianotasi `:10`) | `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/FIBER-OPTIC/`: Hayes FOA 54.533.749 B; Laferriere/JDSU Vol 1 6.416.581 B |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/IEC/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/IEC/_ISI.md) (1.040 B) | `:3` klaim sama (K-8, dianotasi `:9`) | `.../R2_INTERNATIONAL-STANDARDS/IEC/IEC 61280-4-2 ... (Edition 2.0, 2014).pdf` 1.588.640 B |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/TIA/_ISI.md) (251 B) | `:3` "Kosong." - jujur, konsisten | 0 (konfirmasi independen GAP-011) |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ITU-T/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/ITU-T/_ISI.md) (253 B) | `:3` "Kosong." | 0 (G.652 tidak ada - G-9) |
 
 Sapuan `find ekas -name '*.pdf'` = 0 hasil untuk seluruh pohon (diukur ulang pada giliran
 tambal D2-FIXx dan dikonfirmasi lagi oleh studi). Verifier ground-truth JANGAN mencari PDF di
-`ekas/` - pengetahuan tetap sah, alamat buktinya yang salah (K-8).
+[`ekas/`](../../ekas-lapis-teks/) - pengetahuan tetap sah, alamat buktinya yang salah (K-8).
 
 ### 1.6 Batas domain: FIBER-OPTIC vs NETWORKING (garis yang wajib dijaga)
 
@@ -149,7 +149,7 @@ tambal D2-FIXx dan dikonfirmasi lagi oleh studi). Verifier ground-truth JANGAN m
 
 Serat optik adalah MEDIA FISIK yang menopang jaringan; kepemilikan angkanya terpisah tegas:
 0,75 dB dan 1 dB/km milik D2 (via Hayes), anggaran PoE dan 240 Mb/s milik D1. Materi D1
-hanya dirujuk silang, TIDAK disalin (putusan P-8): `ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/`.
+hanya dirujuk silang, TIDAK disalin (putusan P-8): [`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/).
 Titik temu sah: kontrak sering menuntut "jalur fiber lulus uji OFSTP" SEBELUM perangkat aktif
 D1 dipasang - urutan itu adalah tautan antar-domain, bukan tumpang tindih angka.
 
@@ -466,7 +466,7 @@ Yang ada di rak adalah KRITERIA KEHADIRAN DAN KETERJALAAN, bukan angka ambang OT
 | Kewajiban jejak | jejak `.sor` + daftar peristiwa + setelan lengkap - tanpa itu jejak tidak dapat ditafsirkan ulang | `RANTAI-JAMINAN.md:114`; `TEMPLATE-BERITA-ACARA.md:79-80`; `BA-P00-FO-001.md:51` |
 | Fungsi sah OTDR | lokasi sambungan, reflektansi, keseragaman serat; verifikasi tiap sambungan OSP antara; rugi per sambungan menggantikan asumsi 0,3 dB | `R3 - FOA ...:102,109`; `ITP-P00.md:18`; `TEST-P00-001.md:54-55` |
 | Gagal baca khas | dead zone setelah peristiwa pantulan (jalur pendek dalam gedung), ghost pada kabel pendek, autotest tanpa penyetelan manual | `R3 - Reference Guide ...:51-53,60-61`; `R3 - FOA ...:140-149` |
-| Nol angka | tidak ada satu pun ambang dB/reflektansi untuk peristiwa OTDR di lapis teks | sapuan studi G-12; `ekas/08_EVIDENCE/OTDR/` berisi README saja |
+| Nol angka | tidak ada satu pun ambang dB/reflektansi untuk peristiwa OTDR di lapis teks | sapuan studi G-12; [`ekas/08_EVIDENCE/OTDR/`](../../ekas-lapis-teks/08_EVIDENCE/OTDR/) berisi README saja |
 
 ### 4.4 Bukti serah rantai A (`RANTAI-JAMINAN.md:107-116`), disalin utuh
 
@@ -580,10 +580,10 @@ ini hanya mengutip keadaan README apa adanya. Tidak ditambal (register internal)
 berkas `02-uji-dan-berita-acara.md` yang `find`-nya 0 hasil di seluruh pohon. Ukur ulang
 giliran ini: 73 + 55 = 128 baris, 1 referensi, md5 identik di tiga lokasi. Materi Bagian 6b
 (IEC, empat metode, RTM, ORL) ADA di versi sekarang - tidak ada kehilangan pengetahuan, yang
-hilang berkasnya. Artefak skill BUKAN rak `ekas/` -> tidak ditambal; laporan controller.
+hilang berkasnya. Artefak skill BUKAN rak [`ekas/`](../../ekas-lapis-teks/) -> tidak ditambal; laporan controller.
 Objek ini TIDAK mengulang klaim 377 baris.
 
-### K-8. Laci sumber mengklaim berkas fisik ada; pohon `ekas/` tanpa PDF (cacat alamat bukti; beban-rilis jalur bukti)
+### K-8. Laci sumber mengklaim berkas fisik ada; pohon [`ekas/`](../../ekas-lapis-teks/) tanpa PDF (cacat alamat bukti; beban-rilis jalur bukti)
 
 Lihat Bagian 1.5. `find ekas -name '*.pdf'` = 0 (dua kali terukur); PDF nyata di
 `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/...` dengan ukuran terukur (FOA 54.533.749 B;
@@ -664,7 +664,7 @@ Tidak ada butir yang ditutup sebagai "mungkin sama saja" (pelajaran Tabel 7).
 
 ## Bagian 6 - Gap register domain
 
-### 6.1 Celah resmi ber-ID (`ekas/02_REGISTERS/GAP-REGISTER.csv`, baris snapshot)
+### 6.1 Celah resmi ber-ID ([`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv), baris snapshot)
 
 | ID | Celah | Kelas | Domain | Prioritas | Status + jalur sah hari ini |
 |---|---|---|---|---|---|
@@ -788,11 +788,11 @@ rak daripada mengarang").
    lulus/tidak-lulus yang tidak dihitung tidak boleh R3 (`AMBANG-TERIMA-INDUK.md:49`). Kelas
    R2 (IEC) dan R3 (Hayes/JDSU) dilarang diratakan menjadi "standar" generik.
 9. **Domain tetangga hanya rujukan silang, tidak disalin (putusan P-8):** NETWORKING
-   (`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/`) untuk LAN aktif di atas cable plant (batas tegas
+   ([`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/)) untuk LAN aktif di atas cable plant (batas tegas
    Bagian 1.6); TIA-568/942 milik bersama dengan STORAGE via GAP-011; VSSKB Tabel 7 warisan
    lewat berkas bersama (Bagian 5 blok warisan). POWER-BACKUP, GROUNDING, THERMAL, ELECTRICAL
    di luar cakupan D2.
-10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak
+10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak
     read-only 2026-09-24; tidak ada PDF primer dibuka - verifikasi per halaman wewenang
     manusia; PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/` (BUKAN di
     `ekas/` - K-8). `ekas/` read-only - objek ini tidak mengubah rak. Nomor baris berkas

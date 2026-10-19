@@ -32,7 +32,7 @@ BUILDING-CONSTRUCTION = D3). Muatan = peta rak + angka kunci berpredikat + RANTA
 batas kemampuan, satu berkas (SATU objek master per domain; bentuk ikut preseden SDCY-0928 + objek
 CIVIL-STRUCTURAL + CONSTRUCTION CVLK-0929 seksi 1-8). Provenans: body dirakit dari SATU sumber studi
 `research/building-construction-korpus-detail.md` (t_29e82ba9 complete, 320 baris / 35.684 B,
-ekstraksi read-only `ekas/`, 2026-09-29); vonis controller LAYAK (D-11) dengan dasar terukur 21/22
+ekstraksi read-only [`ekas/`](../../ekas-lapis-teks/), 2026-09-29); vonis controller LAYAK (D-11) dengan dasar terukur 21/22
 anchor navigasi COOK ke PDF primer via pypdf, 0 fabrikasi; guard kode-AS hidup 3 lapis sebelum
 studi; celah R1 nol-yang-diangkat; bukti ukur `lib/c3-stu-evidence/` [A]-[E]. Kelas bukti sintesis -
 R3 buku berupa PETA NAVIGASI + PRINSIP + PROSES; domain NOL R1/R2/R5 (terukur); yang tidak ada di
@@ -52,7 +52,7 @@ Peringatan ketipisan (syarat vonis (e)): domain terkecil di batch - 142 baris re
 (1.1), 3 PDF primer 164.422.573 B, rasio anchor teruji 21/22; yang terbit = densitas verifikasi +
 kejujuran status, bukan ketebalan. Wewenang: PDF hanya dibuka ALAT (pypdf read-only) untuk
 meta-navigasi; vonis halaman = vonis LAPISAN TEKS, verifikasi per halaman wewenang manusia
-(AGENTS.md; preseden SDCY catatan-2); laci `ekas/` hanya cermin. Tipografi: rak asal memakai
+(AGENTS.md; preseden SDCY catatan-2); laci [`ekas/`](../../ekas-lapis-teks/) hanya cermin. Tipografi: rak asal memakai
 U+00B7/U+2014 + glif peringatan (guard resume Codes:8); objek ini nol keduanya.
 
 ---
@@ -77,18 +77,18 @@ U+00B7/U+2014 + glif peringatan (guard resume Codes:8); objek ini nol keduanya.
 
 ## Bagian 1 - Peta isi
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/` (3 berkas, 142 baris, 5.429 B terukur; cetakan [A])
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/) (3 berkas, 142 baris, 5.429 B terukur; cetakan [A])
 
 | Berkas | Baris | Byte | sha256[:12] | Peran |
 |---|---|---|---|---|
 | `R3 - BIM Handbook (Sacks dkk.).md` | 41 | 1.566 | 73f29517f585 | REF-BLD-002, alur kerja BIM + penyerahan model |
 | `R3 - Building Codes Illustrated (Ching & Winkel).md` | 47 | 1.947 | 298656d5e16f | REF-BLD-003, tafsir IBC 2018 (kode AS) + guard keras |
 | `R3 - Building Construction Illustrated (Ching).md` | 54 | 1.916 | 761b842f8fe7 | REF-BLD-001, sistem bangunan (pondasi->M&E) |
-| TOTAL | 142 | 5.429 | - | cocok nominasi kartu tugas; TIDAK ada RANTAI-JAMINAN.md saat studi 2026-09-29 (pra-C3-L1b; terukur via listing direktori) - rantai baru berasal dari studi (Bagian 4) dan TERBIT ke rak pasca-studi via C3-L1b: `ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md` (6.391 B, sha 815c88791fcd, salinan verbatim Bagian 4) |
+| TOTAL | 142 | 5.429 | - | cocok nominasi kartu tugas; TIDAK ada RANTAI-JAMINAN.md saat studi 2026-09-29 (pra-C3-L1b; terukur via listing direktori) - rantai baru berasal dari studi (Bagian 4) dan TERBIT ke rak pasca-studi via C3-L1b: [`ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md) (6.391 B, sha 815c88791fcd, salinan verbatim Bagian 4) |
 
 Tidak ada berkas lain di folder ini saat studi 2026-09-29 (pra-C3-L1b); lapis 05 terkecil di batch. Pasca-studi, C3-L1b menerbitkan RANTAI-JAMINAN.md ke folder ini (pointer pada baris TOTAL di atas).
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/` (3 x 37 = 111 baris / 4.118 B terukur; cetakan [A])
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/) (3 x 37 = 111 baris / 4.118 B terukur; cetakan [A])
 
 | Kartu | Buku | Status | Wewenang ambang | Catatan |
 |---|---|---|---|---|
@@ -105,12 +105,12 @@ Sensus kartu: 3 ACTIVE, wewenang seragam.
 | `KATALOG-RUMUS.md` (06_ENGINEERING/CALCULATIONS) | seluruh | 0 hit token BIM/Ching/Winkel/Sacks/IBC/tahan-api/egress ([C]) - jembatan pertanyaan->rumus->buku->halaman BELUM dibangun (KD-B5) |
 | `ASUMSI-BAKU.md` (06_ENGINEERING/ASSUMPTIONS) | seluruh | 0 hit BUILDING-CONSTRUCTION/BIM/Ching/kode bangunan ([C]) - tabel asumsi baku belum ada (KD-B6) |
 | `AMBANG-TERIMA-INDUK.md` (07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA) | seluruh | 0 hit BUILDING/kode/IBC/BIM/tahan-api ([D]) - gate induk buta domain ini (KD-B7) |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | 21 baris data | 0 baris berdomain BUILDING-CONSTRUCTION ([A]) - gap YATIM; diperbaiki lewat usulan U-1/U-2 (V-16), bukan disembunyikan |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | 21 baris data | 0 baris berdomain BUILDING-CONSTRUCTION ([A]) - gap YATIM; diperbaiki lewat usulan U-1/U-2 (V-16), bukan disembunyikan |
 | `GAP-REGISTER.md` | 165 baris | 0 token `GAP-\d+`, 0 BUILDING-CONSTRUCTION ([C]) - MD tidak sinkron CSV; sumber kebenaran = CSV (KD-B3) |
 | `README.md` (00_START-HERE) | :48 | "Empat celah R1" vs ukur CSV 9 baris R1 (GAP-001..004, 015..019) ([A][D]) - kelas KD-C3/KD-N3, rekonfirmasi lintas-domain ketiga (KD-B4) |
 | `ASSURANCE-GATES.md` (01_GOVERNANCE) | G2 :42, G6 :99 | definisi gate yang dipetakan: BCI->G2, Codes->G2 (bukan dasar kepatuhan), BIM->G6; verbatim ada |
 | Adjacency keluar (V-15, pointer saja, folder asal TIDAK disentuh) | `CIVIL-STRUCTURAL/RANTAI-JAMINAN.md:24,:41` | Ching BCI dipakai RANTAI-K: :24 mata 1 ("Apa yang ada di balik dinding/lantai - PDF 115, 157"), :41 mata 2 ("Bracket ditolak bila partisi ringan - lihat Ching PDF 157"). Pointer HIDUP dua titik; nomor halaman cocok outline terukur |
-| Tujuan pointer keluar | `ekas/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/` | REF-CIV-002 (Concrete Structures/Darwin) + REF-CIV-003 (Steel Design/Segui) ADA ([C] ref_civ_dir_listing: 4 kartu REF-CIV-001..004) - bukan pointer phantom |
+| Tujuan pointer keluar | [`ekas/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/) | REF-CIV-002 (Concrete Structures/Darwin) + REF-CIV-003 (Steel Design/Segui) ADA ([C] ref_civ_dir_listing: 4 kartu REF-CIV-001..004) - bukan pointer phantom |
 
 ### 1.4 Lapis laci sumber - jalur logis vs fisik nyata
 
@@ -133,7 +133,7 @@ kontrak tertulis (ASSURANCE-WORKFLOW.md:61; aturan pustaka-teknis #2).
 
 ### 2.1 Lapis R1 (regulasi Indonesia): KOSONG - terukur + diakui
 
-Sapuan fleet-wide `ekas/` atas token `PP 16/2021`, `PPI`, `Permen PUPR`, `UU 28/2002`, `PBG`,
+Sapuan fleet-wide [`ekas/`](../../ekas-lapis-teks/) atas token `PP 16/2021`, `PPI`, `Permen PUPR`, `UU 28/2002`, `PBG`,
 `SLF`, `Peraturan Bangunan Gedung`, `building code Indonesia` (dua arah): 0 berkas kena ([A]
 `id_code_scan`; diperhalus [B] `id_code_hits` = 0). Yang ada hanyalah pernyataan KEABSENAN ("SNI
 terkait... tidak ada di rak" - resume Codes:13-15). Bukan hanya kosong: KOSONG YANG DIANKAT -
@@ -209,7 +209,7 @@ bab->halaman BCI, 6 baris Codes, meta halaman/bookmark ketiga berkas, teks halam
 Rantai ini TIDAK ADA di rak sebagai berkas saat studi 2026-09-29 (terukur False, pra-C3-L1b) - lahir
 dari studi D3-STU sebagai draf pola RANTAI-K/J, disahkan terbit apa adanya oleh vonis controller;
 penempatan final sebagai berkas rak wewenang pengelola rak dan SUDAH dilaksanakan pasca-studi:
-`ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md` (6.391 B, sha 815c88791fcd)
+[`ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md) (6.391 B, sha 815c88791fcd)
 memuat blok ini verbatim (57/57 baris non-kosong terukur gatekeeper dengan jangkar PERINGATAN-vs-rak, skrip c3l2-measure-verbatim.py; custodian iter-1 mengukur 58/58 dengan pemotongan berbeda - keduanya nol selisih isi). Huruf **L** putusan controller (D-11): M sudah dipakai PROJECT-QUALITY
 + draf C2 (KD-B10); L bebas dan menghindari tabrakan itu.
 
@@ -481,7 +481,7 @@ keabsenan norma Indonesia.
    `GAP-REGISTER.csv`; README "empat celah" basi (KD-B4), MD gap tidak sinkron (KD-B3),
    INTAKE_ONLY basi (KD-B2).
 4. **PDF primer belum dibuka manusia:** vonis halaman/bookmark = meta-alat (pypdf); detail per
-   halaman dan konfirmasi semantik BT-01 wewenang manusia; lokasi PDF di 1.4; `ekas/` = cermin.
+   halaman dan konfirmasi semantik BT-01 wewenang manusia; lokasi PDF di 1.4; [`ekas/`](../../ekas-lapis-teks/) = cermin.
 5. **Known-defect wajib ikut terangkut:** KD-B1..KD-B9 (bukti 6.2; KD-B8 ditambal di 3.1; KD-B1/B2
    diterapkan sebagai larangan) + KD-B10 tanpa beban rilis (huruf L putusan D-11). Penandaan rak
    menunggu kartu D3-FIXx + penomoran controller U-1/U-2; sampai terpasang, vonis rilis domain
@@ -492,9 +492,9 @@ keabsenan norma Indonesia.
 7. **Adjacency (rujukan silang, tidak disalin):** Ching BCI <-> RANTAI-K:24,:41 = pointer hidup dua
    titik, folder asal TIDAK diserap (V-15); REF-CIV-002/003 = tujuan pointer keluar; adjacency HVAC
    (bab 11 BCI) cukup disebut bila perlu; penyerapan lintas domain butuh putusan controller.
-8. **Sumber dan kebaruan ekstraksi:** seluruh angka dari lapisan teks `ekas/` diekstrak read-only
+8. **Sumber dan kebaruan ekstraksi:** seluruh angka dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak read-only
    2026-09-29 oleh studi t_29e82ba9; pengukuran = cetakan `lib/c3-stu-evidence/` [A]-[E], bukan
    ingatan; uji anchor 22/22 dieksekusi alat (21 COOK / 1 BELUM TERKONFIRMASI / 0 fabrikasi);
-   `ekas/` read-only.
+   [`ekas/`](../../ekas-lapis-teks/) read-only.
 
 STATUS: needs-review

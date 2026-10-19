@@ -35,7 +35,7 @@ yang TIDAK ada + register known-defect + celah resmi + batas kemampuan, dalam sa
 
 Provenans: body ini dirakit dari SATU sumber,
 `docs/2026-09-29-cvl-knowledge-register/research/civil-structural-korpus-detail.md` (studi
-t_d146e3b1 status complete, 555 baris, 42.699 B, ekstraksi read-only dari lapisan teks `ekas/`
+t_d146e3b1 status complete, 555 baris, 42.699 B, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/)
 oleh gsp-engineering-analyst pada 2026-09-29; vonis kelayakan LAYAK non-penghenti per V-7; bukti
 ukur `research/civ/measurement-report.txt` ts 2026-09-29T01:51:22Z + `measurement-report-2.txt`
 ts 01:52:39Z; short check `research/civ/short-check-result.txt` VERDICT PASS ts
@@ -56,7 +56,7 @@ pernyataan ini apa adanya; gerbang G6 menuntutnya tertulis di bukti serah.
 
 Catatan wewenang: tidak ada PDF primer yang dibuka pada misi ini; vonis halaman = vonis LAPISAN
 TEKS; verifikasi per halaman wewenang manusia (AGENTS.md; preseden SDCY catatan-2). Lokasi dan
-byte PDF primer terukur di Bagian 1.4; laci `ekas/03_SOURCE-VAULT/` di workspace hanya cermin.
+byte PDF primer terukur di Bagian 1.4; laci [`ekas/03_SOURCE-VAULT/`](../../ekas-lapis-teks/03_SOURCE-VAULT/) di workspace hanya cermin.
 
 Kepatuhan tipografi: rak asal memakai tanda bujur tengah (U+00B7) dan pisahan panjang (U+2014) -
 terukur per berkas pada bagian [13] laporan ukur (mis. RANTAI-JAMINAN.md: A1=28, A2=34). Objek
@@ -88,7 +88,7 @@ disalin persis.
 
 Path memakai NAMA FOLDER NYATA di disk. Uji keberadaan = baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/` (5 berkas, 395 baris, 17.613 B terukur; cetakan alat [1])
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/) (5 berkas, 395 baris, 17.613 B terukur; cetakan alat [1])
 
 | Berkas | Baris | Byte | Peran |
 |---|---|---|---|
@@ -99,7 +99,7 @@ Path memakai NAMA FOLDER NYATA di disk. Uji keberadaan = baca langsung/ls, bukan
 | `R3 - Materials for Civil and Construction Engineering (Mamlouk & Zaniewski).md` | 57 | 2.198 | REF-CIV-004, bahan |
 | TOTAL | 395 | 17.613 | cocok nominasi blueprint (395 baris; F-10 terselesaikan: ukur 17.613 B); domain kedua tertebal batch ini (nominasi 01 S4: GROUNDING 548 > CIVIL 395 > DRAWING 236 > CONSTRUCTION 189 > BUILDING 142 baris lapis teks) |
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/` (4 x 47 baris = 188 baris / 7.508 B terukur; cetakan [2])
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/) (4 x 47 baris = 188 baris / 7.508 B terukur; cetakan [2])
 
 | Kartu | Buku | Status | Wewenang ambang | Catatan |
 |---|---|---|---|---|
@@ -117,26 +117,26 @@ angka/pasal berbasis standar Amerika"; total register 63 baris, terukur [4]). Ra
 
 | Berkas | Letak | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` | seluruh berkas | SIFAR entri struktur (sapuan beton/baja tulangan/angkur/lendut/tekuk/truss/rangka batang/Segui/Hibbeler/Darwin/Mamlouk/SNI 17/SNI 28 = 0 hit, terukur [8]); jembatan pertanyaan-rumus-buku-halaman untuk sipil BELUM ADA (KD-C6) |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) | seluruh berkas | SIFAR entri struktur (sapuan beton/baja tulangan/angkur/lendut/tekuk/truss/rangka batang/Segui/Hibbeler/Darwin/Mamlouk/SNI 17/SNI 28 = 0 hit, terukur [8]); jembatan pertanyaan-rumus-buku-halaman untuk sipil BELUM ADA (KD-C6) |
 | `KATALOG-RUMUS.md` | :607 | baris "Struktur & mekanik" menunjuk `R3/MECHANICAL/` (Shigley), BUKAN domain ini |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` | :71 | 0 entri sipil (1 hit "Struktur lapisan tanah" = geologi pembumian, bukan struktur); CALCULATION-REGISTER.csv 0 baris sipil |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` | :75-87 | 0 baris CIVIL di seluruh berkas; bagian "Belum ada sumber sah" memuat 7 baris (resistansi pembumian, ONVIF, PUIL, TIA-568, MTS, IEEE 450, IEC 61280-4-1) dan TIDAK memuat satu pun ambang struktur (terukur [C]; cacat kelengkapan silang KD-C4) |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | :16-19, :21 | GAP-015/016/017/018 (TINGGI) + GAP-020 (MENENGAH); sensus se-register R1 = 9 baris, R2 = 8 baris, 21 baris data |
-| `ekas/02_REGISTERS/GAP-REGISTER.md` + `GAP-ACQUISITION-PLAN.md` | seluruh berkas | TIDAK sinkron dengan CSV: MD (165 br via wc -l, basis 19 Agu) memuat 0 token '1727/1726/1729/2847/GAP-015..020/AHSP/ASTM'; plan 0 CIVIL (terukur [B]) - sumber kebenaran = CSV (KD-C2) |
-| `ekas/02_REGISTERS/ASSET-REFERENCE-REGISTER.csv` | 1 baris | nol CIVIL (terukur) |
-| `ekas/01_GOVERNANCE/ASSURANCE-GATES.md` | :42-92, :129-132, :167-172 | pemetaan gate G2-G5; "G4 tidak dapat ditutup selama G3 terbuka bila ambangnya berasal dari hitungan sendiri"; tiga jalan sah rantai putus (pola generik; sejalan dengan RANTAI-K:112-122 pada jalan ke-3 - jalan 1-2 berbeda: induk memakai penetapan ambang tertulis oleh pemilik dan kontrak menyebut standar, rantai K memakai kontrak menyebut standar lalu ahli bersertifikat menandatangani) |
-| `ekas/BACA-DULU.md` | :54-58, :72-74 | tabel tiga rantai putus (D, J, K) + contoh profil pemakaian tabel profil Segui |
-| `ekas/00_START-HERE/README.md` | :48-49, :70-72, :74-77, :79-81 | aturan ambang terima R1/R2, angka produk R4, R5 bukan sandaran akhir; klaim "empat celah R1" basi vs sensus 9 (KD-C3) |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) | :71 | 0 entri sipil (1 hit "Struktur lapisan tanah" = geologi pembumian, bukan struktur); CALCULATION-REGISTER.csv 0 baris sipil |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) | :75-87 | 0 baris CIVIL di seluruh berkas; bagian "Belum ada sumber sah" memuat 7 baris (resistansi pembumian, ONVIF, PUIL, TIA-568, MTS, IEEE 450, IEC 61280-4-1) dan TIDAK memuat satu pun ambang struktur (terukur [C]; cacat kelengkapan silang KD-C4) |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | :16-19, :21 | GAP-015/016/017/018 (TINGGI) + GAP-020 (MENENGAH); sensus se-register R1 = 9 baris, R2 = 8 baris, 21 baris data |
+| [`ekas/02_REGISTERS/GAP-REGISTER.md`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.md) + `GAP-ACQUISITION-PLAN.md` | seluruh berkas | TIDAK sinkron dengan CSV: MD (165 br via wc -l, basis 19 Agu) memuat 0 token '1727/1726/1729/2847/GAP-015..020/AHSP/ASTM'; plan 0 CIVIL (terukur [B]) - sumber kebenaran = CSV (KD-C2) |
+| [`ekas/02_REGISTERS/ASSET-REFERENCE-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/ASSET-REFERENCE-REGISTER.csv) | 1 baris | nol CIVIL (terukur) |
+| [`ekas/01_GOVERNANCE/ASSURANCE-GATES.md`](../../ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md) | :42-92, :129-132, :167-172 | pemetaan gate G2-G5; "G4 tidak dapat ditutup selama G3 terbuka bila ambangnya berasal dari hitungan sendiri"; tiga jalan sah rantai putus (pola generik; sejalan dengan RANTAI-K:112-122 pada jalan ke-3 - jalan 1-2 berbeda: induk memakai penetapan ambang tertulis oleh pemilik dan kontrak menyebut standar, rantai K memakai kontrak menyebut standar lalu ahli bersertifikat menandatangani) |
+| [`ekas/BACA-DULU.md`](../../ekas-lapis-teks/BACA-DULU.md) | :54-58, :72-74 | tabel tiga rantai putus (D, J, K) + contoh profil pemakaian tabel profil Segui |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) | :48-49, :70-72, :74-77, :79-81 | aturan ambang terima R1/R2, angka produk R4, R5 bukan sandaran akhir; klaim "empat celah R1" basi vs sensus 9 (KD-C3) |
 | `ekas/03_SOURCE-VAULT/R1_NATIONAL-NORMATIVE/{SNI,PUIL,OTHER-REGULATION,PERMENAKER,SKKNI}/_ISI.md` | 5/5 | KOSONG terukur [7] |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/` | sapuan | token AISC/ACI/ASTM/ASCE = 0 (terukur [7]) |
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CIVIL-STRUCTURAL/_ISI.md` | :3-6 | klaim `INTAKE_ONLY`/"belum diresume" - KONTRADIKSI dengan 4 resume + 4 kartu ACTIVE (KD-C1) |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/) | sapuan | token AISC/ACI/ASTM/ASCE = 0 (terukur [7]) |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CIVIL-STRUCTURAL/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CIVIL-STRUCTURAL/_ISI.md) | :3-6 | klaim `INTAKE_ONLY`/"belum diresume" - KONTRADIKSI dengan 4 resume + 4 kartu ACTIVE (KD-C1) |
 
 ### 1.4 Lapis laci sumber - jalur logis vs fisik nyata
 
 Empat PDF primer nyata di
 `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CIVIL-STRUCTURAL/` (stat
 berkas terukur, TIDAK dibuka oleh agen): Hibbeler 60.199.215 B; Segui 36.421.142 B; Darwin
-24.226.949 B; Mamlouk 18.859.078 B; total 139.706.384 B. Laci `ekas/03_SOURCE-VAULT/` di
+24.226.949 B; Mamlouk 18.859.078 B; total 139.706.384 B. Laci [`ekas/03_SOURCE-VAULT/`](../../ekas-lapis-teks/03_SOURCE-VAULT/) di
 workspace = cermin (preseden SDCY K-6), bukan kehilangan berkas. Manifest laci mengklaim
 INTAKE_ONLY dan itu BASI (KD-C1): resume dibuat 21 Agu setelah intake 20 Agu, manifest tidak
 disunting. Objek ini TIDAK mengutip status INTAKE_ONLY.
@@ -459,7 +459,7 @@ status ketiadaan, bukan dengan angka isinya.
 
 Dua calon defect TIDAK dibebankan ke rilis karena gugur ber-bukti: KD-C7 (pointer phantom
 `ekas/03_ENGINEERING-CALCULATIONS/` di body kartu misi - alamat benar
-`ekas/06_ENGINEERING/CALCULATIONS/`; cacat sitasi kartu, bukan rak) dan KD-C10 (uji koordinat
+[`ekas/06_ENGINEERING/CALCULATIONS/`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/); cacat sitasi kartu, bukan rak) dan KD-C10 (uji koordinat
 meleset karena kasus-huruf alat ukur sendiri, sudah dikoreksi di short_check pass kedua).
 KD-1/KD-6 blueprint DIKONFIRMASI terukur (RD-01, RD-17, RD-18, RD-20), tidak diulang sebagai
 defect baru. Kontradiksi internal antar-resume: tidak ditemukan selisih angka antar-lapis-teks
@@ -631,7 +631,7 @@ menyembunyikan celah = gagal maksud registrasi dan menabrak aturan EKAS.
    Demikian pula keluarga MD gap register (KD-C2): sumber kebenaran = `GAP-REGISTER.csv`.
 4. **PDF primer belum dibuka manusia.** Tidak ada verifikasi halaman ke PDF asli pada misi ini;
    vonis halaman = vonis lapis teks. Wewenang manusia: BTC-01..BTC-06 (rincian di tabel 6.3.3).
-   Lokasi PDF nyata terukur di Bagian 1.4; laci `ekas/` workspace = cermin, dan klaim
+   Lokasi PDF nyata terukur di Bagian 1.4; laci [`ekas/`](../../ekas-lapis-teks/) workspace = cermin, dan klaim
    INTAKE_ONLY di manifest laci = BASI (KD-C1).
 5. **Known-defect yang wajib ikut terangkut:** KD-C1 (manifest INTAKE_ONLY basi), KD-C2 (MD vs
    CSV tak sinkron), KD-C3 (README "empat celah" basi), KD-C4 (induk tanpa baris struktur),
@@ -650,11 +650,11 @@ menyembunyikan celah = gagal maksud registrasi dan menabrak aturan EKAS.
    & mekanik" di `KATALOG-RUMUS.md:607` menunjuk domain MECHANICAL (Shigley), BUKAN sipil.
    Ambang pembumian pada menara hasil hitung K tetap urusan rantai D (LG-07; rantai D juga
    putus). Verifikasi dimensi/ketegakan masuk sebagai lampiran dari rantai L (survei).
-8. **Sumber dan kebaruan ekstraksi.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak
+8. **Sumber dan kebaruan ekstraksi.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak
    read-only 2026-09-29 oleh studi t_d146e3b1; pengukuran byte/baris/aritmetika adalah cetakan
    skrip `research/civ/civ_measure.py` (ts 2026-09-29T01:51:22Z) dan `civ_measure2.py`
    (ts 01:52:39Z), bukan ingatan. Short check deterministik `research/civ/short_check.py`
-   VERDICT PASS 2026-09-29T01:59:41Z dengan 18/18 sampel koordinat cocok rak. `ekas/` read-only
+   VERDICT PASS 2026-09-29T01:59:41Z dengan 18/18 sampel koordinat cocok rak. [`ekas/`](../../ekas-lapis-teks/) read-only
    - objek ini tidak mengubah rak. Tipografi kutipan dinormalisasi ASCII (angka, jalur, nomor
    baris disalin persis).
 

@@ -4,14 +4,14 @@ Delapan `.csv` supaya dapat disaring, diurutkan, dan dibaca mesin — plus tiga 
 
 | Berkas | Baris terisi | Diisi oleh |
 |---|---|---|
-| `MASTER-REFERENCE-REGISTER.csv` | **103** | pengelola rak |
-| `GAP-REGISTER.csv` | **35** (32 terbuka, 2 sebagian, 1 by-design) | pengelola rak |
-| `REQUIREMENT-REGISTER.csv` | 4 | tim proyek |
-| `DESIGN-DECISION-REGISTER.csv` | 1 | tim proyek |
-| `CALCULATION-REGISTER.csv` | 1 | tim proyek |
-| `TEST-REGISTER.csv` | 1 | tim proyek |
-| `EVIDENCE-REGISTER.csv` | 12 | tim proyek |
-| `ASSET-REFERENCE-REGISTER.csv` | 0 | tim proyek |
+| [`MASTER-REFERENCE-REGISTER.csv`](MASTER-REFERENCE-REGISTER.csv) | **103** | pengelola rak |
+| [`GAP-REGISTER.csv`](GAP-REGISTER.csv) | **35** (32 terbuka, 2 sebagian, 1 by-design) | pengelola rak |
+| [`REQUIREMENT-REGISTER.csv`](REQUIREMENT-REGISTER.csv) | 4 | tim proyek |
+| [`DESIGN-DECISION-REGISTER.csv`](DESIGN-DECISION-REGISTER.csv) | 1 | tim proyek |
+| [`CALCULATION-REGISTER.csv`](CALCULATION-REGISTER.csv) | 1 | tim proyek |
+| [`TEST-REGISTER.csv`](TEST-REGISTER.csv) | 1 | tim proyek |
+| [`EVIDENCE-REGISTER.csv`](EVIDENCE-REGISTER.csv) | 12 | tim proyek |
+| [`ASSET-REFERENCE-REGISTER.csv`](ASSET-REFERENCE-REGISTER.csv) | 0 | tim proyek |
 
 Catatan koreksi tertanggal 11-10-2026 (kartu IDX-REPAIR-H, langkah 29/G3 misi
 KORPUS-LANJUTAN-1011): seluruh angka pada kolom 'Baris terisi' di atas diregenerasi
@@ -23,11 +23,11 @@ menjadi 4; DESIGN-DECISION 0 menjadi 1; CALCULATION 0 menjadi 1; TEST 0 menjadi 
 EVIDENCE 0 menjadi 12; ASSET-REFERENCE tetap 0. Angka lama adalah warisan sensus
 Agustus dan sudah melewatkan hasil langkah 18-29 (resume W3, merge R3, tulis GAP
 CHAIN-C). Folder ini kini juga memuat dua csv di luar delapan register kanonis yang
-sengaja tidak ikut tabel: `INTAKE-QUEUE.csv` (308 baris data) dan
-`KEMAMPUAN-REGISTER.csv` (372 baris data); keanggotaan tabel delapan register adalah
+sengaja tidak ikut tabel: [`INTAKE-QUEUE.csv`](INTAKE-QUEUE.csv) (308 baris data) dan
+[`KEMAMPUAN-REGISTER.csv`](KEMAMPUAN-REGISTER.csv) (372 baris data); keanggotaan tabel delapan register adalah
 keputusan pengelola rak, bukan lingkup kartu ini.
 
-Hanya `ASSET-REFERENCE-REGISTER.csv` yang kini masih kosong dan **berisi kepala
+Hanya [`ASSET-REFERENCE-REGISTER.csv`](ASSET-REFERENCE-REGISTER.csv) yang kini masih kosong dan **berisi kepala
 kolom**; kepala kolom itulah yang menetapkan data apa yang wajib dicatat. Kolom
 yang paling menentukan:
 
@@ -38,8 +38,8 @@ yang paling menentukan:
 - `ASSET-REFERENCE-REGISTER.interval_basis` — **dasar intervalnya**: hitungan, standar,
   atau kontrak.
 
-Penjelasan naratif: `MASTER-REFERENCE-REGISTER.md` (seluruh sumber terklasifikasi) ·
-`GAP-REGISTER.md` (peta celah) · `GAP-ACQUISITION-PLAN.md` (rencana pengadaan).
+Penjelasan naratif: [`MASTER-REFERENCE-REGISTER.md`](MASTER-REFERENCE-REGISTER.md) (seluruh sumber terklasifikasi) ·
+[`GAP-REGISTER.md`](GAP-REGISTER.md) (peta celah) · [`GAP-ACQUISITION-PLAN.md`](GAP-ACQUISITION-PLAN.md) (rencana pengadaan).
 
 ---
 
@@ -48,7 +48,7 @@ Penjelasan naratif: `MASTER-REFERENCE-REGISTER.md` (seluruh sumber terklasifikas
 Folder kartu di `04_KNOWLEDGE-CARDS/<domain>/` SELALU memakai nama domain kurasi yang
 sama dengan folder di `05_DOMAIN-KNOWLEDGE/<domain>/` dan kolom `domain` register ini.
 Label triase mesin dari `90_TOOLS/triase_korpus.py` (mis. `STORAGE-DATACENTER`,
-`PERLU-DINILAI`) BUKAN nama domain: label itu hidup di `INTAKE-QUEUE.csv` sampai
+`PERLU-DINILAI`) BUKAN nama domain: label itu hidup di [`INTAKE-QUEUE.csv`](INTAKE-QUEUE.csv) sampai
 barisnya dinilai manusia, dan tidak boleh menjadi folder kartu maupun nilai `domain`
 di register.
 

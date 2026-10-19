@@ -94,7 +94,7 @@ Rumus-rumus domain ini hidup di lapisan resume + KEMAMPUAN.md, **bukan** di
 
 ### Inventaris metode terakun (dari KEMAMPUAN.md domain, 79 unit)
 
-Empat rantai demo `qa/chains.py` menyentuh domain ini (tabel di `KEMAMPUAN.md` bagian
+Empat rantai demo `qa/chains.py` menyentuh domain ini (tabel di [`KEMAMPUAN.md`](KEMAMPUAN.md) bagian
 "Rantai demo"): DYNAMICS_CHAIN (K-0122..K-0128 + K-0177), DESIGN_PUMPING_SYSTEM
 (K-0129..K-0140), MATERIALS_TOOLBOX (K-0146..K-0160), DESIGN_ROTATING_MACHINE
 (K-0159..K-0180); DESIGN_POWER_CYCLE menukik ke rantai POWER-BACKUP, STATICS_TOOLBOX ke

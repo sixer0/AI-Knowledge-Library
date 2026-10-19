@@ -152,7 +152,7 @@ kembali adalah G3, bukan pekerjaan yang dibongkar. Lihat `TPL-09` bagian 3.
 | ④ Pengujian | G4, G5 |
 | ⑤ Bukti serah | G6, G7 |
 
-Rincian tiap mata: `ASSURANCE-WORKFLOW.md`
+Rincian tiap mata: [`ASSURANCE-WORKFLOW.md`](ASSURANCE-WORKFLOW.md)
 Rantai lengkap per domain: `05_DOMAIN-KNOWLEDGE/<domain>/RANTAI-JAMINAN.md`
 
 ---

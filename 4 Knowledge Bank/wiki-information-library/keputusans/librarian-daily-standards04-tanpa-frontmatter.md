@@ -32,7 +32,7 @@ catatan_keputusan: "dipromosikan: batch M1b paruh B terverifikasi custodian (C-M
 # Keputusan: standards/04_DAILY-TASK-PROMPT.md dipertahankan tanpa frontmatter (di-cat utuh oleh cron)
 
 ## Ringkasan
-Run harian inspeksi & organisasi IL 2026-08-25 menemukan `docs/standards/04_DAILY-TASK-PROMPT.md`
+Run harian inspeksi & organisasi IL 2026-08-25 menemukan [`docs/standards/04_DAILY-TASK-PROMPT.md`](../../../1%20Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md)
 tanpa frontmatter valid (temuan C). Diputuskan **TIDAK diperbaiki**: file tersebut di-`cat` utuh oleh
 cron supervisor sebagai prompt dispatch; menambah frontmatter mengubah prompt yang dikirim ke agen.
 

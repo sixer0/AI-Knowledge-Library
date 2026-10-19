@@ -32,4 +32,4 @@ Dua skill lini DEMS terpasang di mesin asal tetapi **bekerja tanpa rujukan pusta
 Implikasi: klaim angka/prosedur forensik dari kedua skill ini tidak memiliki sumber tertulis di korpus EKAS sampai bahan standar diadakan — sesuai prinsip "angka tanpa halaman dianggap tidak ada", output skill DEMS wajib diperlakukan sebagai asumsi/kerja tanpa rujukan sampai gap ditutup [R1, Bagian A3].
 
 ## Status saat ini (konteks)
-Skill sudah dibangun ulang di Windows (AGENTS.md 24-08-2026, kanonik `gsp-hermes/skills/`) [R2 — AGENTS.md]. Gap bahan standar tetap terbuka — belum ada bukti NIST SP 800-86 / ISO/IEC 27037 masuk korpus.
+Skill sudah dibangun ulang di Windows (AGENTS.md 24-08-2026, kanonik [`gsp-hermes/skills/`](../../../3%20Skills/kanonik/)) [R2 — AGENTS.md]. Gap bahan standar tetap terbuka — belum ada bukti NIST SP 800-86 / ISO/IEC 27037 masuk korpus.

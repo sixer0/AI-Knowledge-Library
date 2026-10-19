@@ -56,5 +56,5 @@ Sumber: `kajian_ekosistem_brahma.md` bab 9.2; temuan §14 F10; rekomendasi §15.
 
 # Catatan
 
-- Zona proteksi: `ekas/` di workspace tidak dianalisa ulang oleh agen;
+- Zona proteksi: [`ekas/`](../../ekas-lapis-teks/) di workspace tidak dianalisa ulang oleh agen;
   kurasi/promosi lewat gsp-librarian (AGENTS.md).

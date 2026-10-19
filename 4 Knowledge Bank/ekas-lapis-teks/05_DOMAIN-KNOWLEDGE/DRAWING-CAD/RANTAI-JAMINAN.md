@@ -11,7 +11,7 @@
 ## RANTAI BERANTAI PARSIAL TERBIMBING (terbit 11-10-2026, kartu t_bcbb928d)
 
 Mata ①-③ dan ⑤ tersusun **terbimbing lapisan yang ada di rak ini** - tujuh resume ber-halaman
-di `05_DOMAIN-KNOWLEDGE/DRAWING-CAD/`, `KEMAMPUAN.md` domain, dan digest sapu-baca L1
+di `05_DOMAIN-KNOWLEDGE/DRAWING-CAD/`, [`KEMAMPUAN.md`](KEMAMPUAN.md) domain, dan digest sapu-baca L1
 `docs/2026-09-23_ekas-sapu-baca/sweep/L1/DIGEST-DRAWING-CAD.md`. Mata ④ **tanpa ambang terima
 dari rak**: ukur 11-10-2026 `02_REGISTERS/MASTER-REFERENCE-REGISTER.csv` (103 baris data) =
 0 baris R1/R2 ber-domain DRAWING-CAD. Seluruh R1/R2 di rak hanyalah empat baris, semuanya domain
@@ -38,7 +38,7 @@ Ambang terima gambar milik **kontrak** atau standar yang belum masuk rak; lihat 
 
 | Sumber | Tingkat | Memasok | Halaman (PDF, dibuka ulang 11-10-2026 dengan pypdf kecuali bertanda warisan) |
 |---|---|---|---|
-| `REF-DRW-001` - Engineering Drawing and Design, Madsen & Madsen 2016, Cengage | **R3** ACTIVE | Kaidah dimensi & toleransi; susunan set gambar kerja; gambar kelistrikan & pipa. Berkas 1.104 hal / 308 bookmark (ukur ulang, cocok). | Bagian: PDF 39 (`Introduction to Engineering Drawing and Design`), 265 (`3 Drafting Views and Annotations`), 563 (`4 Working Drawings`), 681 (`Specialty Drafting and Design 5`), 987 (`Engineering Design 6`) - kelima pembuka bagian terbukti. Jangkar bab `KEMAMPUAN.md`: PDF 266 (bab Multiviews), 315 (bab 10 Dimensioning and Tolerancing), 425 (bab 12 Sections) - terbukti membuka bab yang benar `[R3, Madsen, PDF 266, 315, 425]`. |
+| `REF-DRW-001` - Engineering Drawing and Design, Madsen & Madsen 2016, Cengage | **R3** ACTIVE | Kaidah dimensi & toleransi; susunan set gambar kerja; gambar kelistrikan & pipa. Berkas 1.104 hal / 308 bookmark (ukur ulang, cocok). | Bagian: PDF 39 (`Introduction to Engineering Drawing and Design`), 265 (`3 Drafting Views and Annotations`), 563 (`4 Working Drawings`), 681 (`Specialty Drafting and Design 5`), 987 (`Engineering Design 6`) - kelima pembuka bagian terbukti. Jangkar bab [`KEMAMPUAN.md`](KEMAMPUAN.md): PDF 266 (bab Multiviews), 315 (bab 10 Dimensioning and Tolerancing), 425 (bab 12 Sections) - terbukti membuka bab yang benar `[R3, Madsen, PDF 266, 315, 425]`. |
 | `REF-DRW-002` - Architectural Graphics, Ching 2015, Wiley | **R3** ACTIVE | Batas proyeksi ortografis; paraline & perspektif untuk presentasi; lembar presentasi. Berkas 275 hal / 111 bookmark (ukur ulang, cocok). | PDF 41 kutipan kunci dibuka ulang: "Any single orthographic projection cannot convey facets of a subject that are oblique or perpendicular…" `[R3, Ching, PDF 41]`; PDF 57 (bab 4 Multiview Drawings) dan PDF 209 (bab 9 Architectural Presentations) terbukti. Peta bab 5/6/7/8/10 (PDF 99-225) **warisan resume**, tidak dibuka ulang di sini. |
 | `REF-DRW-003` - The Professional Practice of Architectural Working Drawings, Bakhoum & Wakita | **R3** ACTIVE | Perkembangan set gambar dari sketsa ke dokumen; penerapan di praktik. Berkas 640 hal / 133 bookmark (ukur ulang, cocok). | PDF 41 (ADA, hal. cetak 23), PDF 185 (PART II), PDF 491 (PART III) - ketiganya terbukti membuka yang diklaim. Klaim "±25% halaman tanpa lapis teks" **warisan resume**, belum diuji per halaman. |
 | `REF-DRW-004` - AutoCAD Electrical 2026: A Tutorial Approach, ed. 7 (Tickoo 2025) | **R3** ACTIVE - catatan register: **TUTORIAL PERANGKAT LUNAK - bukan sandaran teknis** | Cara memakai alat; ringkas. Berkas 454 hal / 390 bookmark (ukur ulang, cocok). | Tidak ada jangkar yang dibuka: bukan sandaran teknis (lihat mata ②). Ukuran hasil konversi EPUB->PDF, bukan halaman cetak. |
@@ -52,7 +52,7 @@ disalin dari laporan hulu. Yang bertanda **warisan** tetap merujuk lapisan teks 
 diuji ke PDF.
 
 **Konversi halaman (terukur hari ini):** Madsen: cetak = PDF - 38 (PDF 266 -> folio 228,
-PDF 315 -> 277, PDF 425 -> 387). French: cetak = PDF - 12 sesuai klaim `KEMAMPUAN.md` baris
+PDF 315 -> 277, PDF 425 -> 387). French: cetak = PDF - 12 sesuai klaim [`KEMAMPUAN.md`](KEMAMPUAN.md) baris
 CAD-003 ("hal. cetak 341 (pdf ±353, offset +12 terukur)"); folio tercetak French tidak terbaca
 bersih pada ekstraksi (kepala PDF 353 datang sebagai glif rusak) sehingga rujukan French
 SELALU nomor halaman PDF, mengikuti kepala resume-nya. Tickoo: nomor halaman adalah hasil
@@ -97,8 +97,8 @@ sana, bukan ke rantai U:
 
 | Kelas | Pemilik sebenarnya | Bukti letak |
 |---|---|---|
-| Volume/luas profil (unit `K-0329..K-0334`, `K-0336`, `K-0340` di `KEMAMPUAN.md` DRAWING-CAD) | **Rantai W / MECHANICAL** - Machinery's Handbook 28e (`REF-MEC-007`) | PDF 72 dibuka ulang hari ini: "AREAS AND VOLUMES 65 … The Prismoidal Formula…" `[R3, Machinery 28e, PDF 72]`; PDF 90: "VOLUMES OF SOLIDS 83 … Portion of Cylinder / Hollow Cylinder / Cone / Frustum" `[R3, Machinery 28e, PDF 90]`; berkas 3.455 hal (ukur). Catatan: `REF-MEC-007` sendiri masih `pending_verification` dan rantainya milik kartu t_20c6706f |
-| Kebenaran geometri solid & ekspor (unit `K-0327/0328/0335/0337/0341/0342`) | Kernel geometri cadquery 2.7 / OCC (sumber terbuka) - kebenaran dibuktikan dari **pengukuran kernel dan uji bolak-balik berkas (ezdxf)**, bukan kutipan halaman | `KEMAMPUAN.md` DRAWING-CAD kolom sumber, baris CAD-007/008/015/017/021/022 |
+| Volume/luas profil (unit `K-0329..K-0334`, `K-0336`, `K-0340` di [`KEMAMPUAN.md`](KEMAMPUAN.md) DRAWING-CAD) | **Rantai W / MECHANICAL** - Machinery's Handbook 28e (`REF-MEC-007`) | PDF 72 dibuka ulang hari ini: "AREAS AND VOLUMES 65 … The Prismoidal Formula…" `[R3, Machinery 28e, PDF 72]`; PDF 90: "VOLUMES OF SOLIDS 83 … Portion of Cylinder / Hollow Cylinder / Cone / Frustum" `[R3, Machinery 28e, PDF 90]`; berkas 3.455 hal (ukur). Catatan: `REF-MEC-007` sendiri masih `pending_verification` dan rantainya milik kartu t_20c6706f |
+| Kebenaran geometri solid & ekspor (unit `K-0327/0328/0335/0337/0341/0342`) | Kernel geometri cadquery 2.7 / OCC (sumber terbuka) - kebenaran dibuktikan dari **pengukuran kernel dan uji bolak-balik berkas (ezdxf)**, bukan kutipan halaman | [`KEMAMPUAN.md`](KEMAMPUAN.md) DRAWING-CAD kolom sumber, baris CAD-007/008/015/017/021/022 |
 | Dimensi & toleransi limit (unit `K-0321/0322/0324/0338/0339`) | Madsen sebagai penjelas kaidah (`[R3, Madsen, PDF 266, 315, 425]` - terbukti hari ini); **kelas/nilai toleransi aktual milik kontrak dan lembar data (R4)**, bukan buku | Register: `may_set_acceptance = no-unless-contract-adopts` untuk seluruh baris domain |
 
 **Aturan yang membatalkan pemakaian:** angka volume, toleransi, atau fit yang muncul di dokumen
@@ -176,7 +176,7 @@ dinyatakan warisan. Mata ④ **jujur kosong untuk ambang**: standar gambar norma
 rak sebagai dokumen.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier menaikkan daya-ikat REF-DRW-007
-dari `pending_verification`, (b) insan menandatangani 22 unit `KEMAMPUAN.md` domain ini
+dari `pending_verification`, (b) insan menandatangani 22 unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (sign-off = gerbang insan; nol baris register boleh digeser agen), dan (c) ambang terima gambar
 punya sandaran R1/R2 atau adopsi kontrak tertulis.
 
@@ -199,7 +199,7 @@ tidak disunting; vonis dari pengukuran langsung hari ini.
    Penulis register = langkah 21 (gsp-librarian).
 3. **Rekomendasi `SUPERSEDED` untuk REF-DRW-006 (Civil3D 2011)** tertulis di kepala resume-nya;
    eksekusinya putusan kurasi (librarian/controller), bukan wewenang rantai.
-4. **Dependensi lintas-domain di `KEMAMPUAN.md` DRAWING-CAD:** 8 unit menambatkan rumus ke
+4. **Dependensi lintas-domain di [`KEMAMPUAN.md`](KEMAMPUAN.md) DRAWING-CAD:** 8 unit menambatkan rumus ke
    Machinery's Handbook (`REF-MEC-007`) yang statusnya masih `pending_verification` dan
    INTAKE_ONLY di register. Rantai W (MECHANICAL) menerbitkan mata ①-nya hari ini; sinkronisasi
    penomoran lintas-rantai milik controller.

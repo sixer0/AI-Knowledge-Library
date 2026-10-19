@@ -35,7 +35,7 @@ berkas (SATU objek master per domain; bentuk ikut preseden SDCY-0928 + objek CIV
 CVLK-0929 seksi 1-8).
 
 Provenans: body dirakit dari SATU sumber, studi `research/construction-korpus-detail.md`
-(t_9edc0954 complete, 627 baris / 48.941 B, ekstraksi read-only lapisan teks `ekas/` oleh
+(t_9edc0954 complete, 627 baris / 48.941 B, ekstraksi read-only lapisan teks [`ekas/`](../../ekas-lapis-teks/) oleh
 gsp-pm-analyst 2026-09-29). Vonis controller LAYAK dengan dasar terverifikasi ulang: 0 angka
 uang rc=1, 3 PDF primer 196.540.165 B persis, guard 3 lapis hidup, rantai draf jujur putus @4
 + @2. Bukti ukur: `lib/c2-stu-evidence/measurement-report.txt` + `measurement-report-2.txt`
@@ -55,7 +55,7 @@ sesuai AHSP/SNI" bersandar rak = FAIL walau rute memori hidup.
 
 Catatan wewenang: tidak ada PDF primer dibuka pada misi ini; vonis halaman = vonis LAPISAN
 TEKS, verifikasi per halaman wewenang manusia (AGENTS.md; preseden SDCY catatan-2); lokasi +
-byte PDF di Bagian 1.4, laci `ekas/` hanya cermin. Tipografi: rak asal memakai U+00B7/U+2014
+byte PDF di Bagian 1.4, laci [`ekas/`](../../ekas-lapis-teks/) hanya cermin. Tipografi: rak asal memakai U+00B7/U+2014
 (terukur [1]: Holm A1=10 A2=5; Peurifoy A1=8 A2=5; Mubarak A1=8 A2=5); objek ini nol keduanya -
 pemisah ASCII, angka/jalur/baris disalin persis.
 
@@ -80,7 +80,7 @@ pemisah ASCII, angka/jalur/baris disalin persis.
 
 ## Bagian 1 - Peta isi
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/` (3 berkas, 189 baris, 7.470 B terukur; cetakan [1])
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/) (3 berkas, 189 baris, 7.470 B terukur; cetakan [1])
 
 | Berkas | Baris | Byte | Peran |
 |---|---|---|---|
@@ -92,7 +92,7 @@ pemisah ASCII, angka/jalur/baris disalin persis.
 Lapis 05 ini TERTIPIS di batch calon (ukur 2 [J]: GROUNDING 548 > CIVIL 406 > DRAWING 236 >
 CONSTRUCTION 189 > BUILDING 142); ketebalan bukan kriteria vonis.
 
-### 1.2 Lapis kartu `ekas/04_KNOWLEDGE-CARDS/CONSTRUCTION/` (3 x 48 baris = 144 baris / 5.941 B terukur; cetakan [2])
+### 1.2 Lapis kartu [`ekas/04_KNOWLEDGE-CARDS/CONSTRUCTION/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/CONSTRUCTION/) (3 x 48 baris = 144 baris / 5.941 B terukur; cetakan [2])
 
 | Kartu | Buku | Status | Wewenang ambang | Catatan |
 |---|---|---|---|---|
@@ -107,17 +107,17 @@ angka/pasal berbasis standar Amerika"; total 63 baris).
 
 | Berkas | Letak | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` | 613 br | SIFAR entri konstruksi (11 token taksiran/AHSP/CPM/produktivitas/crane/overhead dll = 0; 1 hit 'jadwal' :303 = konteks RCM; [10],[A]) - jembatan rumus BELUM ADA (KD-N4) |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` | 186 br | 0 entri relevan ([11]) padahal kartu menuntut ASSUMPTION (KD-N5) |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` | :75-87 | 0 baris KONSTRUKSI/HSP/AHSP ("Belum ada sumber sah" = 7 baris domain lain; [12],[K]) - gate induk buta celah D2 (KD-N6) |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | :20 | GAP-019 (MENENGAH) satu-satunya gap berdomain CONSTRUCTION, verbatim: "Harga satuan pekerjaan untuk RAB ... Holm [R3] memberi metode; harga satuannya konteks Amerika Utara dan usang"; R1 = 9 baris, 21 data |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) | 613 br | SIFAR entri konstruksi (11 token taksiran/AHSP/CPM/produktivitas/crane/overhead dll = 0; 1 hit 'jadwal' :303 = konteks RCM; [10],[A]) - jembatan rumus BELUM ADA (KD-N4) |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) | 186 br | 0 entri relevan ([11]) padahal kartu menuntut ASSUMPTION (KD-N5) |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) | :75-87 | 0 baris KONSTRUKSI/HSP/AHSP ("Belum ada sumber sah" = 7 baris domain lain; [12],[K]) - gate induk buta celah D2 (KD-N6) |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | :20 | GAP-019 (MENENGAH) satu-satunya gap berdomain CONSTRUCTION, verbatim: "Harga satuan pekerjaan untuk RAB ... Holm [R3] memberi metode; harga satuannya konteks Amerika Utara dan usang"; R1 = 9 baris, 21 data |
 | `GAP-REGISTER.md` + `GAP-ACQUISITION-PLAN.md` | seluruh berkas | MD 165 br: 0 token GAP-019/AHSP/CONSTRUCTION [4]; plan 191 br via wc -l 0 hit [13] - sumber kebenaran = CSV (KD-N2) |
 | `INTAKE-RINGKAS.md` + `R3-STATUS.md` | seluruh berkas | tidak melacak CONSTRUCTION [B],[13] - intake manual T24 [CHANGELOG:629-631]; register alat UNDERCOUNT (KD-N9) |
-| `ekas/01_GOVERNANCE/ASSURANCE-GATES.md` | G1 :23, G2 :42, G3 :52, G6 :99; :160-172 | peta gate domain; tiga jalan sah generik rantai putus - untuk RAB: pemilik menetapkan daftar harga acuan tertulis |
-| `ekas/00_START-HERE/README.md` + `CHANGELOG.md` | README :48,:72,:79-81; CL :629-631,:718-724 | aturan ambang R1/R2 + angka produk R4; klaim "empat celah R1" README:48 basi vs CSV 9 baris (KD-N3); CHANGELOG mencatat intake T24 (3 buku) + vonis batch "metodenya boleh dipakai, angka dan pasalnya tidak" |
+| [`ekas/01_GOVERNANCE/ASSURANCE-GATES.md`](../../ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md) | G1 :23, G2 :42, G3 :52, G6 :99; :160-172 | peta gate domain; tiga jalan sah generik rantai putus - untuk RAB: pemilik menetapkan daftar harga acuan tertulis |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) + `CHANGELOG.md` | README :48,:72,:79-81; CL :629-631,:718-724 | aturan ambang R1/R2 + angka produk R4; klaim "empat celah R1" README:48 basi vs CSV 9 baris (KD-N3); CHANGELOG mencatat intake T24 (3 buku) + vonis batch "metodenya boleh dipakai, angka dan pasalnya tidak" |
 | `ekas/03_SOURCE-VAULT/R1_NATIONAL-NORMATIVE/*/_ISI.md` | 5/5 | KOSONG terukur [5], total PDF = 0 |
-| `ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/` | 7 md | token AHSP/SNI/ASTM/ACI/AISC/ASCE = 0 semua [6] |
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CONSTRUCTION/_ISI.md` | :3-6 | klaim `INTAKE_ONLY`/"belum diresume" KONTRADIKSI dengan 3 resume + 3 kartu ACTIVE (KD-N1); objek ini TIDAK mengutipnya sebagai status sahih |
+| [`ekas/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R2_INTERNATIONAL-STANDARDS/) | 7 md | token AHSP/SNI/ASTM/ACI/AISC/ASCE = 0 semua [6] |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CONSTRUCTION/_ISI.md`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/CONSTRUCTION/_ISI.md) | :3-6 | klaim `INTAKE_ONLY`/"belum diresume" KONTRADIKSI dengan 3 resume + 3 kartu ACTIVE (KD-N1); objek ini TIDAK mengutipnya sebagai status sahih |
 
 ### 1.4 Lapis laci sumber - jalur logis vs fisik nyata
 
@@ -533,7 +533,7 @@ pelaksanaan-estimasi-penjadwalan + peta keabsenan norma harga.
    register tidak sinkron (KD-N2), register alat BUTA domain ini sehingga UNDERCOUNT CONSTRUCTION
    (KD-N9).
 4. **PDF primer belum dibuka manusia.** Vonis halaman = vonis lapis teks; wewenang manusia:
-   BTC-01..BTC-05. Lokasi PDF di Bagian 1.4; laci `ekas/` = cermin; INTAKE_ONLY manifest = BASI
+   BTC-01..BTC-05. Lokasi PDF di Bagian 1.4; laci [`ekas/`](../../ekas-lapis-teks/) = cermin; INTAKE_ONLY manifest = BASI
    (KD-N1) - tidak dikutip sebagai status sahih.
 5. **Known-defect wajib ikut terangkut:** KD-N1..KD-N8 (rincian + bukti di 6.2; redaksi KD-N7
    sudah dibuang dari muatan objek ini) + KD-N9 catatan tanpa beban rilis. Penandaan rak
@@ -547,10 +547,10 @@ pelaksanaan-estimasi-penjadwalan + peta keabsenan norma harga.
    REF-PRQ-001 HANYA penunjuk lintas domain (V-15, LG-06); penyerapan butuh putusan controller.
    Ambang mutu struktur hasil pekerjaan sipil = ranah rantai K CIVIL-STRUCTURAL (putus juga) -
    objek ini tidak berwewenang atasnya (LG-07). Gedung = ranah D3; CAD = ranah D5.
-8. **Sumber dan kebaruan ekstraksi.** Seluruh angka dari lapisan teks `ekas/` diekstrak
+8. **Sumber dan kebaruan ekstraksi.** Seluruh angka dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak
    read-only 2026-09-29 oleh studi t_9edc0954; pengukuran = cetakan skrip
    `lib/c2-stu-evidence/c2_measure.py` + `c2_measure2.py`, bukan ingatan; short check studi
-   VERDICT PASS ts 2026-09-29T06:45:20Z (18/18 koordinat cocok rak). `ekas/` read-only.
+   VERDICT PASS ts 2026-09-29T06:45:20Z (18/18 koordinat cocok rak). [`ekas/`](../../ekas-lapis-teks/) read-only.
    Uji penolakan D2 (0 angka uang, rc=1) diverifikasi
    ulang controller sebelum vonis LAYAK.
 

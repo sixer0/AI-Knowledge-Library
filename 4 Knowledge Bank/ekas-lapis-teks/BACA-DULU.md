@@ -78,21 +78,21 @@ WF/H-beam SNI. Dimensinya berbeda — **tidak dapat dipakai langsung** meski ter
 
 | Map | Isi | Mulai dari sini bila… |
 |---|---|---|
-| `00_START-HERE/` | README, peta sistem, kendali dokumen, riwayat, temuan uji coba | …baru pertama memakai |
-| `01_GOVERNANCE/` | **R1–R5**, status otoritas, alur jaminan, **gate G0–G7**, kebijakan AI | …perlu tahu aturannya |
-| `02_REGISTERS/` | Register rujukan · celah · enam register proyek | …mencari daftar |
-| `03_SOURCE-VAULT/` | **Hanya `_ISI.md`** — manifest tiap laci; PDF-nya tidak ikut | …mencari letak berkas |
-| `04_KNOWLEDGE-CARDS/` | **62 kartu** — satu per rujukan, memuat **batas pemakaian** | …ingin tahu bobot sebuah sumber |
-| `05_DOMAIN-KNOWLEDGE/` | Resume buku + **12 rantai jaminan** | …mengerjakan proyek nyata |
+| [`00_START-HERE/`](00_START-HERE/) | README, peta sistem, kendali dokumen, riwayat, temuan uji coba | …baru pertama memakai |
+| [`01_GOVERNANCE/`](01_GOVERNANCE/) | **R1–R5**, status otoritas, alur jaminan, **gate G0–G7**, kebijakan AI | …perlu tahu aturannya |
+| [`02_REGISTERS/`](02_REGISTERS/) | Register rujukan · celah · enam register proyek | …mencari daftar |
+| [`03_SOURCE-VAULT/`](03_SOURCE-VAULT/) | **Hanya `_ISI.md`** — manifest tiap laci; PDF-nya tidak ikut | …mencari letak berkas |
+| [`04_KNOWLEDGE-CARDS/`](04_KNOWLEDGE-CARDS/) | **62 kartu** — satu per rujukan, memuat **batas pemakaian** | …ingin tahu bobot sebuah sumber |
+| [`05_DOMAIN-KNOWLEDGE/`](05_DOMAIN-KNOWLEDGE/) | Resume buku + **12 rantai jaminan** | …mengerjakan proyek nyata |
 | `06`–`09` | Map kerja proyek + **contoh P00** yang sudah dijalankan | …menyusun dokumen |
-| `10_TEMPLATES/` | TPL-00 … TPL-09 | …butuh bentuk isian |
-| `90_TOOLS/` | Perkakas — termasuk pemeriksa keutuhan | …ingin tahu apa yang dibangkitkan otomatis |
+| [`10_TEMPLATES/`](10_TEMPLATES/) | TPL-00 … TPL-09 | …butuh bentuk isian |
+| [`90_TOOLS/`](90_TOOLS/) | Perkakas — termasuk pemeriksa keutuhan | …ingin tahu apa yang dibangkitkan otomatis |
 
 ## Urutan membaca yang disarankan
 
-1. `01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md` — aturan R1–R5
-2. `01_GOVERNANCE/ASSURANCE-GATES.md` — gate G0–G7
-3. `02_REGISTERS/MASTER-REFERENCE-REGISTER.csv` — daftar seluruh rujukan
+1. [`01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md`](01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md) — aturan R1–R5
+2. [`01_GOVERNANCE/ASSURANCE-GATES.md`](01_GOVERNANCE/ASSURANCE-GATES.md) — gate G0–G7
+3. [`02_REGISTERS/MASTER-REFERENCE-REGISTER.csv`](02_REGISTERS/MASTER-REFERENCE-REGISTER.csv) — daftar seluruh rujukan
 4. `05_DOMAIN-KNOWLEDGE/<domain>/RANTAI-JAMINAN.md` — sesuai pekerjaan yang ditanyakan
 5. `04_KNOWLEDGE-CARDS/<domain>/<REF-ID>.md` — batas pemakaian sebelum mengutip
 
@@ -116,11 +116,11 @@ nyatakan bahwa jalur dari rujukan ke bukti serah **belum disusun**.
 
 ## Berkas yang dibangkitkan otomatis — jangan disunting
 
-- `04-daftar-rujukan-lengkap.md` (di skill) ← `90_TOOLS/bangun_daftar_skill.py`
+- `04-daftar-rujukan-lengkap.md` (di skill) ← [`90_TOOLS/bangun_daftar_skill.py`](90_TOOLS/bangun_daftar_skill.py)
 - `_ISI.md` tiap laci ← alat serap/migrasi
-- `INTAKE-QUEUE.csv`, `INTAKE-RINGKAS.md` ← `90_TOOLS/triase_korpus.py`
+- `INTAKE-QUEUE.csv`, `INTAKE-RINGKAS.md` ← [`90_TOOLS/triase_korpus.py`](90_TOOLS/triase_korpus.py)
 
 ## Pemeriksa keutuhan
 
-`90_TOOLS/periksa_ekas.py` memeriksa delapan hal dan keluar dengan kode 1 bila ada **GALAT**.
+[`90_TOOLS/periksa_ekas.py`](90_TOOLS/periksa_ekas.py) memeriksa delapan hal dan keluar dengan kode 1 bila ada **GALAT**.
 Keadaan saat pengemasan: **GALAT 0 · PERINGATAN 1**.

@@ -3,7 +3,7 @@
 ## RANTAI BERANTAI PARSIAL TERBIMBING (sejak 11-10-2026, kartu t_931ae90a)
 
 Mata ①-③ dan ⑤ tersusun **terbimbing lapisan R3 yang ada di rak ini** (tiga resume
-ber-halaman + `KEMAMPUAN.md` domain). Mata ④ **tetap tanpa ambang terima**: tidak ada satu
+ber-halaman + [`KEMAMPUAN.md`](KEMAMPUAN.md) domain). Mata ④ **tetap tanpa ambang terima**: tidak ada satu
 pun baris R1/R2 untuk domain ini, jadi angka lulus/tidak-lulus **tidak dapat** ditetapkan
 dari sini dan celahnya dibukukan apa adanya di mata ④ bawah.
 
@@ -289,7 +289,7 @@ untuk ambang**: domain ini mengatur proses keputusan, jadi ambang terimya berben
 kelayakan kebutuhan/keputusan yang belum dimiliki rak.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier menaikkan daya-ikat resume dari
-`pending_verification` (P-5), (b) insan menandatangani unit `KEMAMPUAN.md` domain ini
+`pending_verification` (P-5), (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (ukur 11-10-2026: 372/372 baris `KEMAMPUAN-REGISTER.csv` masih
 `draft-tidak-terverifikasi-insan`, termasuk 18/18 baris `SYS-001..SYS-018` dengan status
 9 `draft` + 9 `candidate`), dan (c) ambang terima punya sandaran R1/R2 atau adopsi kontrak
@@ -334,19 +334,19 @@ Tertanggal 11-10-2026, kartu t_931ae90a. Semua butir terukur langsung dari berka
    keempatnya ke `[PDF 356]` (empat kali alamat sama); terukur: PDF 356 adalah `TABLE 6.7`
    di bab 6, sedangkan awal lampiran = App. A **PDF 454**, App. B **PDF 461**, App. C
    **PDF 495**, App. D **PDF 543**, App. E **PDF 544** (jadi ada lima lampiran, bukan empat).
-6. **Dua pasangan halaman di tambalan W9B `KEMAMPUAN.md` meleset.** `pdf_p165/cetak 142`
+6. **Dua pasangan halaman di tambalan W9B [`KEMAMPUAN.md`](KEMAMPUAN.md) meleset.** `pdf_p165/cetak 142`
    untuk "lima komponen dasar scenario" (Kossiakoff): frasa "five basic components" terukur di
    PDF 165 yang berfolio **140**, bukan 142. `pdf_p214/cetak 191` untuk FFBD: PDF 214 berfolio
    **190**; folio 191 adalah PDF 215. Pasangan `pdf_p104/cetak 79`, `pdf_p141/cetak 116`, dan
    `pdf_p10` tereproduksi tepat.
-7. **Tiga jangkar `KEMAMPUAN.md` menunjuk halaman yang tidak memuat artefak bernama.**
+7. **Tiga jangkar [`KEMAMPUAN.md`](KEMAMPUAN.md) menunjuk halaman yang tidak memuat artefak bernama.**
    `SYS-007` Function Tree "pdf hal. 132": teks Function Tree/FBS terukur di **PDF 97** dan
    **PDF 99**; PDF 132 adalah proses definisi kebutuhan pemangku kepentingan. `SYS-010` N2
    "pdf hal. 227": "N2 diagram" terukur di **PDF 229** dan **PDF 230**; PDF 227 adalah
    configuration management. `SYS-016` bernama "Verification Planning (IADT Matrix)" padahal
    akronim `IADT` maupun `I/A/D/T` **0 kemunculan** di ketiga buku; keempat metode itu terukur
    di **PDF 164** (jangkar yang ditulis: 163).
-8. **Satu rujukan `KEMAMPUAN.md` tidak ada di rak.** Baris `SYS-006` menyebut "Blanchard &
+8. **Satu rujukan [`KEMAMPUAN.md`](KEMAMPUAN.md) tidak ada di rak.** Baris `SYS-006` menyebut "Blanchard &
    Fabrycky, Systems Engineering and Analysis"; penyapuan nama berkas di seluruh
    `03_SOURCE-VAULT` menemukan **0** berkas mengandung "Fabrycky" (laci SYSTEMS-ENGINEERING
    hanya 3 PDF, sesuai `_ISI.md`).
@@ -354,7 +354,7 @@ Tertanggal 11-10-2026, kartu t_931ae90a. Semua butir terukur langsung dari berka
    pengisian katalog bukan wewenang LOCK ini.
 
 Butir 1-5 menyangkut berkas resume di `05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/` (milik
-gelombang W3a/BUKUV3), butir 6-8 menyangkut `KEMAMPUAN.md` (digest mesin dari
+gelombang W3a/BUKUV3), butir 6-8 menyangkut [`KEMAMPUAN.md`](KEMAMPUAN.md) (digest mesin dari
 `KEMAMPUAN-REGISTER.csv`), butir 9 menyangkut `06_ENGINEERING/CALCULATIONS/`. Jalur mediasi
 ke profil pemilik adalah wewenang controller (M2).
 

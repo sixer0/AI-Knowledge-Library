@@ -242,7 +242,7 @@ oleh run ini. Mata ④ **jujur kosong untuk ambang**: tidak ada R1/R2 untuk doma
 kinerja ML yang mengikat hanya sah bila kontrak menyebut angkanya.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier W3 menaikkan daya-ikat resume
-dari `pending_verification`, (b) insan menandatangani unit `KEMAMPUAN.md` domain ini
+dari `pending_verification`, (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (ukur 11-10-2026: 23/23 baris AIM register masih `draft-tidak-terverifikasi-insan`), dan
 (c) ambang terima kinerja ML punya sandaran R1/R2 atau adopsi kontrak tertulis.
 

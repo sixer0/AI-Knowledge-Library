@@ -66,7 +66,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 `R3/THERMAL/` adalah label laci, BUKAN path (K-5); padanan nyatanya dicantumkan. Uji
 keberadaan = baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/` (2 berkas)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/) (2 berkas)
 
 | Berkas | Ukuran nyata | Peran | Tingkat | Angka kunci |
 |---|---|---|---|---|
@@ -78,7 +78,7 @@ berisi rumus berangka; yang ada daftar parameter dan definisi besaran. Ini konsi
 pernyataan rak sendiri bahwa pada termografi yang menentukan hasil bukan rumus panjang
 melainkan penyetelan parameter (`R3 - Infrared Thermal Imaging.md:87-90`).
 
-### 1.2 Lapis kartu pengetahuan `ekas/04_KNOWLEDGE-CARDS/THERMAL/` (1 berkas)
+### 1.2 Lapis kartu pengetahuan [`ekas/04_KNOWLEDGE-CARDS/THERMAL/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/THERMAL/) (1 berkas)
 
 | Berkas | Isi | Catatan |
 |---|---|---|
@@ -122,13 +122,13 @@ melainkan penyetelan parameter (`R3 - Infrared Thermal Imaging.md:87-90`).
 
 | Laci | Isi | Bukti |
 |---|---|---|
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/` | `_ISI.md` + klaim 1 berkas Vollmer 46,6 MB | `cat _ISI.md` giliran studi |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/) | `_ISI.md` + klaim 1 berkas Vollmer 46,6 MB | `cat _ISI.md` giliran studi |
 | vault asli `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/` | `_ISI.md` identik + PDF 48.857.046 B | `ls -la` giliran studi (ISI PDF TIDAK dibuka) |
-| `ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/` | lapis teks hanya `_ISI.md` yang mengklaim 15 berkas, termasuk `LC014-56X-4MP-TH640-F75_Datasheet1.pdf` 0,4 MB dan `New RP-PC464A1_PC4S4A1_Dual-Spectrum PTZ ... pdf` 0,7 MB; 15 berkas FISIK ada di vault eksternal `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/` | `_ISI.md:3,21-22`; `ls` vault eksternal giliran studi |
-| pohon `ekas/` keseluruhan | 0 berkas PDF | `find ekas -name "*.pdf" \| wc -l` = 0 |
+| [`ekas/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/) | lapis teks hanya `_ISI.md` yang mengklaim 15 berkas, termasuk `LC014-56X-4MP-TH640-F75_Datasheet1.pdf` 0,4 MB dan `New RP-PC464A1_PC4S4A1_Dual-Spectrum PTZ ... pdf` 0,7 MB; 15 berkas FISIK ada di vault eksternal `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R4_OEM-TECHNICAL/CAMERA/` | `_ISI.md:3,21-22`; `ls` vault eksternal giliran studi |
+| pohon [`ekas/`](../../ekas-lapis-teks/) keseluruhan | 0 berkas PDF | `find ekas -name "*.pdf" \| wc -l` = 0 |
 
 Artinya: satu-satunya rujukan primer domain ini ada di vault eksternal sebagai PDF yang belum
-dibuka (laci `ekas/` hanya menyimpan `_ISI.md`), dan satu-satunya pemasok R4 rantai F (lembar
+dibuka (laci [`ekas/`](../../ekas-lapis-teks/) hanya menyimpan `_ISI.md`), dan satu-satunya pemasok R4 rantai F (lembar
 data termal) tinggal di laci domain lain (`CAMERA/` di vault eksternal; dipakai rantai B
 VIDEO-SURVEILLANCE). Angka NETD/IFOV produk itu TIDAK terekstraksi ke lapis
 teks mana pun (K-7, G-4).
@@ -224,7 +224,7 @@ R2; hilang di lima lapis lain - K-1b].
 | "Suhu mutlak dari kamera termal bukan pengukuran suhu dalam arti metrologi" | `THERMAL/RANTAI-JAMINAN.md:112-114` | R3 |
 | buku: 787 halaman, 46,6 MB, edisi kedua Wiley-VCH 2018, bookmark bawaan 301 entri | `R3 - Infrared Thermal Imaging.md:3-4,7` | metadata |
 | laci R3_TEXTBOOK-HANDBOOK/THERMAL = klaim `_ISI.md` 1 berkas (PDF fisik di vault eksternal 48.857.046 B; `find ekas -name '*.pdf'` = 0) | `_ISI.md:3-7`; `ls` giliran studi | metadata |
-| klaim laci R4_OEM-TECHNICAL/CAMERA = 15 berkas (fisik di vault eksternal; laci `ekas/` hanya `_ISI.md`); termal LC014-56X-4MP-TH640-F75 0,4 MB | `_ISI.md:3,21` | metadata |
+| klaim laci R4_OEM-TECHNICAL/CAMERA = 15 berkas (fisik di vault eksternal; laci [`ekas/`](../../ekas-lapis-teks/) hanya `_ISI.md`); termal LC014-56X-4MP-TH640-F75 0,4 MB | `_ISI.md:3,21` | metadata |
 | usia buku lolos batas 15 tahun (lolos uji usia) | `MASTER-REFERENCE-REGISTER.md:76` | metadata |
 
 ### 2.3 Uji aritmetika deterministik atas angka rak
@@ -241,7 +241,7 @@ hasil dipertahankan apa adanya:
 | Kontinuitas tangga ΔT serupa `1-3`, `4-15`, `>15` | batas 3 lalu 4 (selisih 1); 15 lalu ">15" | tabel 4 tingkat (`KATALOG:488-493`) | rapat dan tidak tumpang-tindih |
 | Kontinuitas tangga ΔT udara `1-10`, `11-20`, `21-40`, `>40` | 10->11 (1); 20->21 (1); 40 lalu ">40" | idem | rapat dan tidak tumpang-tindih |
 | Hitung butir daftar delapan parameter di 4 lapis (rantai :40-47; KATALOG :423-425; BA :215-216; resume :96-105) | 8 butir tiap lapis | "Delapan parameter wajib" | cocok - keempat lapis seisi |
-| Jumlah berkas PDF dalam pohon teks | 0 | laci mengklaim 1 berkas Vollmer | PDF ada hanya di vault eksternal (terukur ls), bukan di `ekas/` |
+| Jumlah berkas PDF dalam pohon teks | 0 | laci mengklaim 1 berkas Vollmer | PDF ada hanya di vault eksternal (terukur ls), bukan di [`ekas/`](../../ekas-lapis-teks/) |
 | Ukuran PDF vault | 48.857.046 B | resume mengklaim "46,6 MB" | konsisten (48,86 MB desimal = 46,6 MiB biner) |
 | Rasio ambang terhadap contoh NETD: `15 / 0,030` | 500 kali | tidak diklaim rak | turunan sendiri (3.4), BUKAN angka rak |
 | Rasio ambang udara: `40 / 0,030` | 1.333,3 kali | tidak diklaim rak | turunan sendiri, BUKAN angka rak |
@@ -352,7 +352,7 @@ Ini alasan rak menempatkan seluruh mata ③ pada prasyarat ukur, bukan pada hitu
 | 6 | Tanpa emisivitas tercatat, angka BA tidak dapat diverifikasi ulang | `TEMPLATE-BERITA-ACARA.md:221-222` |
 
 **Tidak ada satu pun nilai emisivitas numerik di rak** (sapuan pola `emivitas.*[0-9]` dan
-`emissivity` pada `ekas/` = 0 hasil) - lihat G-2.
+`emissivity` pada [`ekas/`](../../ekas-lapis-teks/) = 0 hasil) - lihat G-2.
 
 ### 3.6 Hitung yang rak nyatakan TIDAK bisa dikerjakan dari rak
 
@@ -528,8 +528,8 @@ khusus THERMAL; sama kelas fiber K-12 dan networking K-11). Dampak mesin: resolv
 
 Rujukan silang memakai `R3/THERMAL/` (`KATALOG:418,606`; `ATS resume:100`; `R3 - Infrared ...
 .md:157,176-178` menyebut `R3/ELECTRICAL/` dan `R3/CCTV-VSS/` dengan pola sama). Path nyata:
-`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/` (lapis teks) dan
-`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/` (laci). `ls ekas/05_DOMAIN-KNOWLEDGE/`
+[`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/) (lapis teks) dan
+[`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/) (laci). `ls ekas/05_DOMAIN-KNOWLEDGE/`
 memperlihatkan tidak ada direktori `R3`. **Vonis: label tingkat, bukan path** - sah sebagai
 singkatan manusia, berbahaya sebagai path mesin. Kartu `REF-THM-001.md:8,9,16` justru memberi
 path benar; lapis kartu lebih tepat daripada lapis katalog.
@@ -551,7 +551,7 @@ khusus THERMAL: pekerja yang menjalankan prosedur "isi F-termografi.md" tidak me
 | `AMBANG-TERIMA-INDUK.md:91-103` | "Wajib R4 - tidak ada penggantinya ... NETD dan IFOV kamera termal ... Bila lembar datanya belum ada, tulis 'menunggu data pabrikan'" - tanpa catatan bahwa butir sudah ditutup |
 | `THERMAL/RANTAI-JAMINAN.md:14` | "Lembar data kamera termal \| R4 \| NETD, rentang suhu, IFOV nyata \| per proyek" - tetap terbuka per proyek |
 | `MASTER-REFERENCE-REGISTER.md:110` | "NETD & rentang kamera termal \| Spesifikasi produk \| Vollmer memberi fisika" |
-| `ekas/04_KNOWLEDGE-CARDS/THERMAL/` | hanya `REF-THM-001.md`; tidak ada kartu R4 termal |
+| [`ekas/04_KNOWLEDGE-CARDS/THERMAL/`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/THERMAL/) | hanya `REF-THM-001.md`; tidak ada kartu R4 termal |
 | `VIDEO-SURVEILLANCE/REF-OEM-CAM.md:43` | "Rantai B ... dan F (NETD, IFOV)" - pemasok R4 rantai F terdaftar di kartu domain lain |
 | lapis teks | **nol** angka NETD/IFOV produk; PDF datasheet ada di vault (ls 0,4 MB) tetapi tidak terekstraksi |
 
@@ -571,7 +571,7 @@ R4-0 vs laci terisi.
 
 `AMBANG-TERIMA-INDUK.md:31-34` menaruh peringatan wajib tepat di bawah blok termal: "Yang
 paling sering dilampaui: ATS dipakai untuk pekerjaan **pemeliharaan** (itu MTS)". Terukur:
-`grep -i "MTS"` pada `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/` = 0 hasil (juga 0 di kartu
+`grep -i "MTS"` pada [`ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/) = 0 hasil (juga 0 di kartu
 REF-THM-001). Rantai F menyatakan "Status rantai: UTUH" (`:107`) tanpa catatan itu, padahal
 kegunaan utamanya di rak adalah pemeriksaan instalasi listrik **berjalan** (beban operasi,
 `:32`) - wilayah MTS, sementara MTS tidak ada di rak (`AMBANG-TERIMA-INDUK.md:83`). **Vonis:
@@ -714,7 +714,7 @@ contoh 240 Mb/s `:74-80`->`:80-86`. Ukuran kartu REF-THM-001 diperbarui ke state
 
 ## Bagian 6 - Gap register domain
 
-### 6.1 Celah resmi ber-ID (dari `ekas/02_REGISTERS/`)
+### 6.1 Celah resmi ber-ID (dari [`ekas/02_REGISTERS/`](../../ekas-lapis-teks/02_REGISTERS/))
 
 **Tidak ada celah resmi ber-ID khusus THERMAL.** Terukur pada giliran G-1 (skema seksi 8):
 baris GAP-001, GAP-008, GAP-010, GAP-011, GAP-013, GAP-014 tidak menyebut THERMAL. Yang
@@ -729,7 +729,7 @@ register resmi dan hasilnya dibukukan di K-1 (seragam angka).
 | # | Yang diminta | Status di rak | Sumber yang seharusnya |
 |---|---|---|---|
 | G-1 | Rumus numerik IFOV ke ukuran bintik terkecil versus jarak (mis. `d = L x IFOV`) dan nilai IFOV dalam mrad | tidak ada di rak - hanya definisi kualitatif "sudut pandang satu piksel" dan aturan "beberapa piksel" | Vollmer dan Möllmann Bab 2 (PDF 128) pada PDF primer; lembar data lensa [R4] |
-| G-2 | Tabel nilai emisivitas per bahan/finishing | tidak ada di rak - sapuan pola angka-berdekatan-emisivitas pada `ekas/` = 0 hasil | Vollmer Bab 1 (PDF 22) di PDF primer; atau tabel emisivitas pabrikan kamera [R4] |
+| G-2 | Tabel nilai emisivitas per bahan/finishing | tidak ada di rak - sapuan pola angka-berdekatan-emisivitas pada [`ekas/`](../../ekas-lapis-teks/) = 0 hasil | Vollmer Bab 1 (PDF 22) di PDF primer; atau tabel emisivitas pabrikan kamera [R4] |
 | G-3 | Ambang jumlah piksel minimum kuantitatif (SPI/RTS, mis. 3x3 atau 1x1x1) | tidak ada di rak | standar metode termografi / panduan industri (kelas ISO 18436, pedoman AITC/EN 13185) - tidak satu pun ada di rak |
 | G-4 | Nilai NETD dan IFOV produk yang dipakai proyek | tidak ada di lapis teks; datasheet ada di vault (0,4 MB) belum terekstraksi | [R4] lembar data `LC014-56X-4MP-TH640-F75` / `RP-PC464A1`, per model dan firmware |
 | G-5 | Ambang ΔT untuk aplikasi bangunan/infrastruktur (Bab 7) dan deteksi gas (Bab 8) | tidak ada di rak - resume hanya memetakan bab dan kegunaannya tanpa angka | EN 13187 (selubung bangunan) / OGI industri - tidak ada di rak |
@@ -803,7 +803,7 @@ rak daripada mengarang").
    di rak). Predikat objek: **sah sebagai ambang uji terima; untuk pemeliharaan berjalan =
    BELUM TERKONFIRMASI, menunggu keputusan manusia (K-8).**
 2. **R1 = 0 dan R4 = 0 global.** Keadaan rak: R1 = 0, R2 = 5, R3 = 24, R4 = 0, R5 = 8
-   [peta rak: `ekas/00_START-HERE/README.md` baris 34-38]. Arti: korpus dapat menghitung dan
+   [peta rak: [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) baris 34-38]. Arti: korpus dapat menghitung dan
    menetapkan ambang uji, TIDAK dapat menyatakan kepatuhan hukum Indonesia (PUIL/SNI tidak di
    rak - G-8). Ketegangan semantik "R4 = 0 sumber" vs laci terisi (K-7) menunggu putusan
    manusia; objek ini tidak memilih salah satu dan tidak menaikkan satu pun angka R4.
@@ -840,14 +840,14 @@ rak daripada mengarang").
    sah untuk fisika/parameter, TIDAK untuk ambang. Kartu `REF-THM-001.md:43` sendiri: buku
    tidak boleh menetapkan ambang sendirian - hanya bila kontrak mengadopsi tertulis.
 9. **Domain tetangga hanya rujukan silang, tidak disalin (putusan P-8):** ELECTRICAL
-   `ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/` - tuan rumah resume ATS-2017 pemilik Tabel 100.18
+   [`ekas/05_DOMAIN-KNOWLEDGE/ELECTRICAL/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/) - tuan rumah resume ATS-2017 pemilik Tabel 100.18
    utuh dan resume Gill sasaran pointer K-3; ambang isolasi 600 V -> 100 MΩ di
    `04_KNOWLEDGE-CARDS/ELECTRICAL/REF-ELC-002.md:22` adalah angka domain D3, bukan muatan objek ini. STORAGE
-   `ekas/05_DOMAIN-KNOWLEDGE/STORAGE/` - tuan rumah Troppens (bukan buku termal; K-2) dan
+   [`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/) - tuan rumah Troppens (bukan buku termal; K-2) dan
    korban tabrakan huruf K-10. VIDEO-SURVEILLANCE - pemilik laci `R4_OEM-TECHNICAL/CAMERA/`
    (rantai B) yang jadi calon pemasok R4 rantai F (K-7), dan pemilik kerangka piksel Damjanovski
    untuk G-12. HVAC dan penyimpanan panas: di luar cakupan total (batas domain di pembuka).
-10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak read-only
+10. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak read-only
     2026-09-24 oleh studi t_c1537d3c (7 berkas wajib 866 baris terukur wc + 21 pendukung);
     tidak ada PDF primer yang dibuka - verifikasi per halaman wewenang manusia (PDF asli di
     `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`). `ekas/` read-only - objek ini tidak

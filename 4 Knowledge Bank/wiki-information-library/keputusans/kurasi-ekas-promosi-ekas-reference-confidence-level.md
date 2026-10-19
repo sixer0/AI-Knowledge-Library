@@ -32,7 +32,7 @@ paginasi — bagian "DIPROMOSIKAN #2"]
 
 ## Detail keputusan
 
-- Sumber RAW: `ekas/01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md` (kelas bukti: primer).
+- Sumber RAW: [`ekas/01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md`](../../ekas-lapis-teks/01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md) (kelas bukti: primer).
 - Alasan promote: aturan R1–R5 adalah governance inti yang mengikat cara
   agen/manusia memakai angka di seluruh dokumen GSP; menjadi standar rujukan
   wajib sebelum pekerjaan teknik. [keputusan_kurasi.md, #2]

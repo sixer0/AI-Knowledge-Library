@@ -41,7 +41,7 @@ NETWORKING dan FIBER-OPTIC (rujukan silang saja, tidak disalin - putusan P-8). P
 
 Provenans: body ini disalin terpadatkan dari SATU sumber,
 `docs/2026-09-23-nws-knowledge-register/research/storage-korpus-detail.md` (studi
-t_ca4cbafd status complete, 501 baris, 36.032 B, ekstraksi read-only dari lapisan teks `ekas/`
+t_ca4cbafd status complete, 501 baris, 36.032 B, ekstraksi read-only dari lapisan teks [`ekas/`](../../ekas-lapis-teks/)
 oleh gsp-database-specialist pada 2026-09-24). Tidak ada pembacaan ulang korpus untuk angka
 baru pada giliran ini; satu-satunya bacaan langsung rak di giliran L1 adalah verifikasi ulang
 jangkar baris semua berkas yang dikutip (lihat catatan pergeseran baris Bagian 1). Kelas bukti
@@ -56,7 +56,7 @@ vonis LAPISAN TEKS memakai aturan offset rak sendiri; penutup akhir wewenang man
 rak (pemisah bujur tengah, penghubung panjang, simbol kali/bagi) dinormalisasi ke ASCII saat
 dikutip; angka, jalur, dan nomor baris disalin persis, hanya tanda baca yang diganti.
 
-Pergeseran baris lapis bersama (terukur giliran L1 ini, pola S-K2): berkas `ekas/` lapis
+Pergeseran baris lapis bersama (terukur giliran L1 ini, pola S-K2): berkas [`ekas/`](../../ekas-lapis-teks/) lapis
 bersama membesar sejak snapshot studi karena tambalan domain lain - `KATALOG-RUMUS.md` 571 ->
 598 baris (23.219 -> 30.272 B), `ASUMSI-BAKU.md` 180 -> 183 baris, `AMBANG-TERIMA-INDUK.md`
 107 -> 110 baris; gelombang kedua terukur
@@ -78,7 +78,7 @@ Path memakai NAMA FOLDER NYATA di disk (kontrak jalur G-1 seksi 6). Label katalo
 `R3/STORAGE/` adalah label laci, BUKAN path; padanan nyatanya dicantumkan. Uji keberadaan =
 baca langsung/ls, bukan glob.
 
-### 1.1 Lapis domain `ekas/05_DOMAIN-KNOWLEDGE/STORAGE/` (2 berkas, 290 baris, 13.110 B)
+### 1.1 Lapis domain [`ekas/05_DOMAIN-KNOWLEDGE/STORAGE/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/) (2 berkas, 290 baris, 13.110 B)
 
 | Berkas | Peran | Tingkat R | Ukuran nyata |
 |---|---|---|---|
@@ -89,7 +89,7 @@ baca langsung/ls, bukan glob.
 
 | Kartu | R | Status otoritas | Isi pokok | Batas pemakaian |
 |---|---|---|---|---|
-| `ekas/04_KNOWLEDGE-CARDS/STORAGE/REF-STG-001.md` (58 baris, 1.723 B) | R3 | ACTIVE | Yang dipasok: kapasitas terpakai, peringatan RAID 5, beban rekonstruksi (:22); halaman jangkar PDF 46-70 (:24); rumus RAID 5/6 (:29); penandaan wajib SOURCE-DERIVED / PROJECT-DERIVED / OEM-DERIVED / ASSUMPTION (:32-33) | Tidak boleh menetapkan ambang sendirian, hanya bila kontrak mengadopsi tertulis (:37); terbit 2009, unjuk kerja tulis wajib R4 (:41); dilarang lompat rujukan-ke-ambang tanpa catatan keputusan (:49-50); gate G0-G7 (:54-56) |
+| [`ekas/04_KNOWLEDGE-CARDS/STORAGE/REF-STG-001.md`](../../ekas-lapis-teks/04_KNOWLEDGE-CARDS/STORAGE/REF-STG-001.md) (58 baris, 1.723 B) | R3 | ACTIVE | Yang dipasok: kapasitas terpakai, peringatan RAID 5, beban rekonstruksi (:22); halaman jangkar PDF 46-70 (:24); rumus RAID 5/6 (:29); penandaan wajib SOURCE-DERIVED / PROJECT-DERIVED / OEM-DERIVED / ASSUMPTION (:32-33) | Tidak boleh menetapkan ambang sendirian, hanya bila kontrak mengadopsi tertulis (:37); terbit 2009, unjuk kerja tulis wajib R4 (:41); dilarang lompat rujukan-ke-ambang tanpa catatan keputusan (:49-50); gate G0-G7 (:54-56) |
 | `ekas/04_KNOWLEDGE-CARDS/STORAGE-DATACENTER/REF-OEM-STG.md` (49 baris, 1.891 B) | R4 | ACTIVE_WITH_SCOPE_LIMITS | Lembar data server/SSD/komputer tepi; laci `R4_OEM-TECHNICAL/SERVER-STORAGE`; 19 berkas (:13); memasok kapasitas & antarmuka cakram, TBW/DWPD, suhu kerja, daya (:21) | SAH menetapkan ambang parameter produknya sendiri (:25-27); TIDAK memuat unjuk kerja pengendali RAID maupun waktu rekonstruksi (:39); wajib cocokkan model, firmware, tanggal terbit (:33-37); tanda OEM-DERIVED di TPL-02, gate G3/G5 (:47-49) |
 
 Catatan cakupan (terverifikasi run ini): folder `04_KNOWLEDGE-CARDS/STORAGE-DATACENTER/` hanya
@@ -100,29 +100,29 @@ mengira laci R4 tidak ada karena folder `STORAGE/` hanya memuat satu kartu.
 
 | Berkas | Baris kini (warisan studi) | Yang dipasok |
 |---|---|---|
-| `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` (613 baris, 33.646 B) | :47 (tetap) | Indeks cepat "Kapasitas terpakai setelah RAID?" -> RAID 5 `(n-1)xC`, RAID 6 `(n-2)xC`, Troppens, PDF 46-70 |
+| [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) (613 baris, 33.646 B) | :47 (tetap) | Indeks cepat "Kapasitas terpakai setelah RAID?" -> RAID 5 `(n-1)xC`, RAID 6 `(n-2)xC`, Troppens, PDF 46-70 |
 | idem | :51 (tetap) | Indeks cepat BDP -> `BDP = RTT x kapasitas penyempit`, Fall & Stevens, PDF 769 |
 | idem | :308-334 (studi: :296-322; gelombang L1: :302-331) | Seksi 7 Penyimpanan: 7.1 tabel aras :314-319; 7.2 peringatan RAID 5 :321-328 (Tabel 2.1 PDF 67, MTBF 1.400.000 jam :326); 7.3 beban rekonstruksi :330-334 (PDF 70) |
 | idem | :399-414 (studi: :387-400; gelombang L1: :393-406) | Seksi 11 Jaringan: deklarasi offset cetak + 39 = PDF (:402); BDP cetak 730 / PDF 769 (:409); window scaling cetak 608 / PDF 647 (:412) |
 | idem | :599 (studi: :563; gelombang L1: :575) | Pemetaan folder katalog: "Penyimpanan" -> label `R3/STORAGE/` (label lama; path nyata `05_DOMAIN-KNOWLEDGE/STORAGE/` - jangan salin mentah) |
-| `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` (186 baris, 11.334 B) | :112-118 (studi: :109-115) | Seksi F. Penyimpanan - tiga besaran: aras RAID (ditetapkan bersama pemilik), waktu rekonstruksi (dari pabrikan pengendali; pengganti = uji cabut-cakram), unjuk kerja tulis (diperiksa kasus per kasus) |
+| [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) (186 baris, 11.334 B) | :112-118 (studi: :109-115) | Seksi F. Penyimpanan - tiga besaran: aras RAID (ditetapkan bersama pemilik), waktu rekonstruksi (dari pabrikan pengendali; pengganti = uji cabut-cakram), unjuk kerja tulis (diperiksa kasus per kasus) |
 | idem | :109 (studi: :105-107) | Peringatan hilir: bitrate salah taksir berlipat langsung ke kapasitas penyimpanan; sajikan dua skenario, jangan satu angka |
 | idem | :129 (studi: :126) | Sasaran MTBF kegagalan majemuk TIDAK boleh diasumsikan (milik pemilik) |
-| `ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md` (116 baris, 9.327 B) | :48 (geser dari :42) | Bagian "Sah - berasal dari hitungan rancangan": kapasitas terpakai RAID `(n-1)xC` / `(n-2)xC`, Troppens PDF 46-70, R3 |
+| [`ekas/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md) (116 baris, 9.327 B) | :48 (geser dari :42) | Bagian "Sah - berasal dari hitungan rancangan": kapasitas terpakai RAID `(n-1)xC` / `(n-2)xC`, Troppens PDF 46-70, R3 |
 | idem | :96 (geser dari :90) | Bagian "Wajib R4 - tidak ada penggantinya": unjuk kerja tulis pengendali RAID dan waktu rekonstruksi RAID = melekat produk |
 | idem | :82 (geser dari :76) | Bagian "Belum ada sumber sah": perkabelan terstruktur - TIA-568 tidak ada di rak |
-| `ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md` (276 baris, 14.598 B) | :226-242 (geser dari :216-232 oleh tambalan 14:18) | Bagian 8 "Uji penyimpanan / RAID": wajib catat hasil uji cabut-cakram dan unjuk kerja tulis SELAMA rekonstruksi berjalan (:237-238); rujukan Apendiks B PDF 556 (:228); Troppens PDF 70 (:242) |
-| `ekas/02_REGISTERS/GAP-REGISTER.csv` | :12, :15 (tetap) | GAP-011 (TIA-568/TIA-942; STORAGE, NETWORKING; MENENGAH; terbuka); GAP-014 (seluruh dokumentasi OEM; SEMUA; PER PROYEK; by-design) |
-| `ekas/02_REGISTERS/R4-STATUS.md` (82 baris) | :12, :43 (geser dari :40 oleh tambalan 14:18) | Hitung laci `SERVER-STORAGE/` tertulis **18** (kontradiksi S-K3, 19 menang); triase rantai H: lembar data SSD/NVMe ADA, lembar data **pengendali RAID TIDAK ADA** (:43) |
-| `ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.md` | :74, :109 (tetap) | Baris buku Troppens 2009 "Kapasitas RAID, risiko rekonstruksi", peringatan 17 th (:74); daftar "buku hanya memberi konsep": unjuk kerja tulis RAID beda antar pengendali meski aras sama (:109) |
-| `ekas/00_START-HERE/CHANGELOG.md` | :83, :88 (tetap) | Perbaikan bookmark Troppens: 21 entri berakhiran `.pdf` dibersihkan jadi 20 entri; struktur benar, hanya akhiran/awalan rusak |
-| `ekas/00_START-HERE/README.md` | :34-38 (tetap) | Keadaan rak: R1 = 0, R2 = 5, R3 = 24, R4 = 0, R5 = 8 (Bagian 8) |
+| [`ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`](../../ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md) (276 baris, 14.598 B) | :226-242 (geser dari :216-232 oleh tambalan 14:18) | Bagian 8 "Uji penyimpanan / RAID": wajib catat hasil uji cabut-cakram dan unjuk kerja tulis SELAMA rekonstruksi berjalan (:237-238); rujukan Apendiks B PDF 556 (:228); Troppens PDF 70 (:242) |
+| [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv) | :12, :15 (tetap) | GAP-011 (TIA-568/TIA-942; STORAGE, NETWORKING; MENENGAH; terbuka); GAP-014 (seluruh dokumentasi OEM; SEMUA; PER PROYEK; by-design) |
+| [`ekas/02_REGISTERS/R4-STATUS.md`](../../ekas-lapis-teks/02_REGISTERS/R4-STATUS.md) (82 baris) | :12, :43 (geser dari :40 oleh tambalan 14:18) | Hitung laci `SERVER-STORAGE/` tertulis **18** (kontradiksi S-K3, 19 menang); triase rantai H: lembar data SSD/NVMe ADA, lembar data **pengendali RAID TIDAK ADA** (:43) |
+| [`ekas/02_REGISTERS/MASTER-REFERENCE-REGISTER.md`](../../ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.md) | :74, :109 (tetap) | Baris buku Troppens 2009 "Kapasitas RAID, risiko rekonstruksi", peringatan 17 th (:74); daftar "buku hanya memberi konsep": unjuk kerja tulis RAID beda antar pengendali meski aras sama (:109) |
+| [`ekas/00_START-HERE/CHANGELOG.md`](../../ekas-lapis-teks/00_START-HERE/CHANGELOG.md) | :83, :88 (tetap) | Perbaikan bookmark Troppens: 21 entri berakhiran `.pdf` dibersihkan jadi 20 entri; struktur benar, hanya akhiran/awalan rusak |
+| [`ekas/00_START-HERE/README.md`](../../ekas-lapis-teks/00_START-HERE/README.md) | :34-38 (tetap) | Keadaan rak: R1 = 0, R2 = 5, R3 = 24, R4 = 0, R5 = 8 (Bagian 8) |
 
 ### 1.4 Lapis laci sumber (keberadaan fisik, terukur ulang giliran L1)
 
 | Laci nyata | Isi terukur | Keterangan |
 |---|---|---|
-| `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/STORAGE/` | 1 berkas PDF + `_ISI.md` ("1 berkas.", 8.2 MB) | `Ulf Troppens et al. - Storage Networks Explained (2nd Edition, 2009).pdf`; cocok dengan klaim resume :5 |
+| [`ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/STORAGE/`](../../ekas-lapis-teks/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/STORAGE/) | 1 berkas PDF + `_ISI.md` ("1 berkas.", 8.2 MB) | `Ulf Troppens et al. - Storage Networks Explained (2nd Edition, 2009).pdf`; cocok dengan klaim resume :5 |
 | laci vault nyata `R4_OEM-TECHNICAL/SERVER-STORAGE/` (mesin ini) | **19 berkas .pdf** terhitung langsung di jalur absolut `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R4_OEM-TECHNICAL/SERVER-STORAGE/` (laci shared ws `ekas/03_SOURCE-VAULT/.../SERVER-STORAGE/` hanya memuat `_ISI.md`) + `_ISI.md` menulis "**19 berkas.**" dan status `INTAKE_ONLY` | Campuran: cakram WD Red SA500, SSD NVMe Kingston/Apacer, motherboard/mini-PC BIOSTAR AI-NONXS, box industrial (IBOX/SBOX/EII), catu daya Corsair RM850e (riwayat pemindahan dari `UPS/` tercatat di R4-STATUS.md:58-60), dsb. **Nol lembar data pengendali RAID** (cocok R4-STATUS.md:43 dan REF-OEM-STG.md:39) |
 
 Status `INTAKE_ONLY` berarti 19 dokumen R4 belum diresume dan belum punya kartu per produk
@@ -137,10 +137,10 @@ Status `INTAKE_ONLY` berarti 19 dokumen R4 belum diresume dan belum punya kartu 
 | Damjanovski, *CCTV: From Light to Pixels* (domain VIDEO-SURVEILLANCE; rujukan silang batas laju transfer cakram PDF 308) | ed. 3, 2014 | milik domain VSSKB | nomor PDF langsung |
 
 Domain tetangga yang memasok materi terkait (rujukan silang saja, TIDAK disalin - putusan P-8):
-`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md` (mitra F-3 sitasi Fall & Stevens;
-kini 148 baris pasca-tambalan D1-FIXx), `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/`
+[`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md) (mitra F-3 sitasi Fall & Stevens;
+kini 148 baris pasca-tambalan D1-FIXx), [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/)
 (pemilik rumus kebutuhan kapasitas rekaman dan batas laju transfer cakram PDF 308),
-`ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/` (tautan fisik SAN antar-ruang, loss budget milik domain itu).
+[`ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/`](../../ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/) (tautan fisik SAN antar-ruang, loss budget milik domain itu).
 
 ---
 
@@ -432,7 +432,7 @@ yang mengangkut Tabel 7); vonis S-K3 mengenai register rak, bukan entri wiki.
 
 ## Bagian 6 - Gap register domain
 
-### 6.1 Celah resmi ber-ID (dari `ekas/02_REGISTERS/GAP-REGISTER.csv`)
+### 6.1 Celah resmi ber-ID (dari [`ekas/02_REGISTERS/GAP-REGISTER.csv`](../../ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.csv))
 
 | ID | Celah | Lapis | Domain | Prioritas | Status |
 |---|---|---|---|---|---|
@@ -544,9 +544,9 @@ rak daripada mengarang").
    tidak disalin (putusan P-8): `NETWORKING/RANTAI-JAMINAN.md` (mitra F-3),
    `VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md` (batas laju transfer cakram PDF 308;
    pemilik rumus kebutuhan rekaman), `FIBER-OPTIC/` (tautan SAN).
-8. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks `ekas/` diekstrak read-only
+8. **Sumber dan kebaruan.** Seluruh angka berasal dari lapisan teks [`ekas/`](../../ekas-lapis-teks/) diekstrak read-only
    2026-09-24; tidak ada PDF primer yang dibuka - verifikasi per halaman wewenang manusia
-   (PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`). `ekas/` read-only - objek
+   (PDF asli di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/`). [`ekas/`](../../ekas-lapis-teks/) read-only - objek
    ini tidak mengubah rak. Nomor baris lapis bersama di objek ini memakai versi KINI (KATALOG
    613 baris, ASUMSI 186, AMBANG 116, TEMPLATE BA 276, NETWORKING RJ 148); pemetaan dari snapshot studi ada di
    Bagian 1.3 dan S-K2. Berkas STORAGE sendiri tidak berubah sejak 2026-08-24.

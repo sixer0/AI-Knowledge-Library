@@ -23,10 +23,10 @@ Apa isi tiap folder, **siapa yang menulisnya**, dan **kapan diisi**.
 
 | Berkas | Isi |
 |---|---|
-| `README.md` | Apa sistem ini, enam aturan, keadaan sekarang |
-| `EKAS-SYSTEM-MAP.md` | Berkas ini |
-| `DOCUMENT-CONTROL.md` | Penomoran, versi, status, keadaan migrasi |
-| `CHANGELOG.md` | Riwayat pembangunan rak (T1–T19) |
+| [`README.md`](README.md) | Apa sistem ini, enam aturan, keadaan sekarang |
+| [`EKAS-SYSTEM-MAP.md`](EKAS-SYSTEM-MAP.md) | Berkas ini |
+| [`DOCUMENT-CONTROL.md`](DOCUMENT-CONTROL.md) | Penomoran, versi, status, keadaan migrasi |
+| [`CHANGELOG.md`](CHANGELOG.md) | Riwayat pembangunan rak (T1–T19) |
 
 ### `01_GOVERNANCE/` — aturan main
 
@@ -91,7 +91,7 @@ resume memberi rinciannya.
 
 ### `06_ENGINEERING/` … `09_HANDOVER/` — folder pekerjaan proyek
 
-Tiap folder punya `README.md` sendiri yang menyebut aturannya. Yang perlu diingat:
+Tiap folder punya [`README.md`](README.md) sendiri yang menyebut aturannya. Yang perlu diingat:
 
 | Map | Aturan yang paling sering dilanggar |
 |---|---|

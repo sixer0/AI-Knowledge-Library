@@ -3,7 +3,7 @@
 ## RANTAI BERANTAI PARSIAL TERBIMBING (sejak 11-10-2026, kartu t_4bb6e4ef)
 
 Mata ①-③ dan ⑤ tersusun **terbimbing lapisan R3 yang ada di rak ini** (tiga resume
-ber-halaman W3a + `KEMAMPUAN.md` domain + tambalan W9B/W10). Mata ④ **tetap tanpa ambang
+ber-halaman W3a + [`KEMAMPUAN.md`](KEMAMPUAN.md) domain + tambalan W9B/W10). Mata ④ **tetap tanpa ambang
 terima**: tidak ada satu pun baris R1/R2 untuk domain ini, jadi angka lulus/tidak-lulus
 **tidak dapat** ditetapkan dari sini dan celahnya dibukukan apa adanya di mata ④ bawah.
 
@@ -67,7 +67,7 @@ ASSURANCE-WORKFLOW.md`, tabel "Aturan tingkat pada tiap mata rantai").
 | Pemilihan antena: **gain + beamwidth + polarisasi dibaca bersama pola**, bukan angka gain tunggal | Definisi HPBW IEEE `[R3, Balanis Antenna, PDF 62]`; D0 `[R3, Balanis Antenna, PDF 63]`; gain vs directivity lewat efisiensi radiasi `[R3, Balanis Antenna, PDF 83]` | Memakai "gain maksimum" katalog tanpa pola/polarisasi ditolak - tautan titik-titik menilai arah, bukan puncak; directivity aproksimasi (Kraus/Tai-Pereira) hanya sah untuk pola yang memenuhi asumsinya, bandingannya tercetak di `[R3, Balanis Antenna, PDF 73]` |
 | Pencocokan feeder: **kuarter-wave transformer hanya untuk beban resistif**; beban kompleks dicocokkan dulu (L-network/stub) | Z1 = sqrt(Z0 ZL) Eq. (5.25) `[R3, Pozar MW, PDF 267]`; keterbatasan resistif + prasyarat lambda0/4 pada f0 `[R3, Pozar MW, PDF 95]` (diwarisi W10) | Mencocokkan beban kompleks langsung dengan seksi tunggal ditolak - metode tidak terdefinisi untuk itu; solusi manual Pozar tidak ada di vault, jadi tidak ada jalan pintas jawaban |
 | Pelaporan kualitas pencocokan: **return loss dan SWR** sebagai pasangan angka | RL = -20 log abs(Gamma) dB Eq. (2.38); match = tak hingga dB, refleksi total = 0 dB; SWR Eq. (2.41) `[R3, Pozar MW, PDF 78]` | Melaporkan hanya "VSWR bagus" tanpa angka ditolak - tidak dapat diaudit di mata ④/⑤ |
-| Feed tautan umum: **dipol λ/2** dipilih bila impedansi 73 ohm cukup dekat dengan garis 50/75 ohm | Rr = 73 ohm, pencocokan ke garis 50/75 ohm tersederhana pada resonansi `[R3, Balanis Antenna, PDF 198]` | Antena khusus (patch, array) ditolak **tanpa kebutuhan** - desainnya menuntut lapisan yang belum terverifikasi (patch/array hanya jangkar `KEMAMPUAN.md`, halamannya belum dibuka ulang kartu ini) |
+| Feed tautan umum: **dipol λ/2** dipilih bila impedansi 73 ohm cukup dekat dengan garis 50/75 ohm | Rr = 73 ohm, pencocokan ke garis 50/75 ohm tersederhana pada resonansi `[R3, Balanis Antenna, PDF 198]` | Antena khusus (patch, array) ditolak **tanpa kebutuhan** - desainnya menuntut lapisan yang belum terverifikasi (patch/array hanya jangkar [`KEMAMPUAN.md`](KEMAMPUAN.md), halamannya belum dibuka ulang kartu ini) |
 | Uji kelayakan laju data: **batas Shannon sebagai langit-langit**, bukan target | C = B log2(1 + SNR) Eq. (4.1) `[R3, Goldsmith WC, PDF 129]`; teorema pengkodean = laju mendekati C dengan galat negligible, di atas C mustahil `[R3, Goldsmith WC, PDF 128]`–`[PDF 129]` | Menjanjikan throughput di atas C, atau memakai C sebagai angka kinerja nyata sistem, ditolak - C mengandaikan pengkodean tak terbatas kompleksitasnya; MQAM adaptif `[R3, Goldsmith WC, PDF 318]` memberi metode penyesuaian laju, tetap sebagai metode |
 
 > Keputusan yang paling menentukan mutu rancangan tautan di domain ini: **daya terima
@@ -171,7 +171,7 @@ Uji intern rancangan (sah dijalankan, hasilnya dilaporkan, **bukan** vonis lulus
 |---|---|---|
 | Daya terima terprediksi vs terukur | Hitung Pr dengan Friis/FSPL (mata ③), ukur RSSI lapangan, laporkan selisihnya | metode `[R3, Goldsmith WC, PDF 60]`, `[R3, Balanis Antenna, PDF 110]`; **selisih maksimum yang boleh = angka proyek/kontrak, tidak ada di rak** |
 | Kualitas pencocokan feeder | Ukur RL/SWR pada port; laporkan angkanya | definisi `[R3, Pozar MW, PDF 78]`; **ambang RL/SWR lulus-tidak-lulus tidak ada di rak** (praktik umum industri bukan R-n di rak ini) |
-| Kejernihan spektrum/zona Fresnel | Periksa halangan vs radius zona pada segmen kritis | model difraksi `[R3, Goldsmith WC, PDF 68]`; **rumus radius zona per-halaman belum tertambat** (klaim `KEMAMPUAN.md` K-0219 menambatnya ke hal. 56-60 yang berisi definisi PL, bukan zona - lihat CATATAN SILANG-PEMILIK butir 4) |
+| Kejernihan spektrum/zona Fresnel | Periksa halangan vs radius zona pada segmen kritis | model difraksi `[R3, Goldsmith WC, PDF 68]`; **rumus radius zona per-halaman belum tertambat** (klaim [`KEMAMPUAN.md`](KEMAMPUAN.md) K-0219 menambatnya ke hal. 56-60 yang berisi definisi PL, bukan zona - lihat CATATAN SILANG-PEMILIK butir 4) |
 | Kelayakan laju data | Bandingkan laju target dengan langit-langit Shannon Eq. (4.1) | `[R3, Goldsmith WC, PDF 129]`; sah sebagai uji konsistensi rancangan, **bukan** ambang mutu |
 | BER terhadap SNR | Kurva teoretis BPSK/QPSK sebagai pembanding hasil ukur | `[R3, Goldsmith WC, PDF 201]`-`[PDF 202]`; **target BER (mis. 1e-6) milik kontrak/aplikasi, tidak ada di rak** |
 
@@ -230,7 +230,7 @@ ambang mutu tautan radio menuntut R1/R2 (regulasi spektrum / standar sistem) ata
 tertulis oleh kontrak - ketiganya belum ada di rak ini.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) verifier menaikkan daya-ikat resume
-dari `pending_verification`, (b) insan menandatangani unit `KEMAMPUAN.md` domain ini
+dari `pending_verification`, (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini
 (ukur 11-10-2026: 25 baris RF-WIRELESS di `KEMAMPUAN-REGISTER.csv`, seluruhnya lahir
 `pending_verification` / `draft-tidak-terverifikasi-insan`, sign-off 0), dan (c) ambang
 terima radio punya sandaran R1/R2 atau adopsi kontrak tertulis.
@@ -242,20 +242,20 @@ terima radio punya sandaran R1/R2 atau adopsi kontrak tertulis.
 Tertanggal 11-10-2026, kartu t_4bb6e4ef. Butir 1-2 terukur langsung dari berkas vault dan
 berkas hulu; berkas-berkas itu bukan milik LOCK ini sehingga **tidak disunting**.
 
-1. **Jangkar outage resume Goldsmith meleset.** `R3 - Wireless Communications (Goldsmith).md`
+1. **Jangkar outage resume Goldsmith meleset.** [`R3 - Wireless Communications (Goldsmith).md`](R3%20-%20Wireless%20Communications%20%28Goldsmith%29.md)
    bagian 2 menambatkan "Peluang padam (outage probability) gabungan path loss + shadowing"
    ke `[R3, Goldsmith WC, PDF 86..87]`; PDF 86-87 (cetak 57-58) adalah halaman **PROBLEMS**
    (Gambar 2.11, 2.12 untuk soal 2-11 dan 2-14). Seksi 2.9 dan Contoh 2.5 yang sebenarnya
    ada di **PDF 81 (cetak 52)**. Berkas ini mengutip PDF 81.
-2. **Anchor longgar `KEMAMPUAN.md` per-baris register.** K-0205/K-0206 menulis "pdf hal.
+2. **Anchor longgar [`KEMAMPUAN.md`](KEMAMPUAN.md) per-baris register.** K-0205/K-0206 menulis "pdf hal.
    68+" - definisi RL/SWR (Eq. 2.38/2.41) justru di PDF 78; K-0219 menulis "Free-Space Path
    Loss & Fresnel Zone ... pdf hal. 56-60" - halaman itu memuat definisi PL, sedangkan
    materi zona/difraksi Fresnel ada di PDF 68; K-0203 menulis "pdf hal. 266 (92)" - badan
    Eq. (5.25) ada di PDF 267 (tambalan W10 sudah membetulkan ke 267, baris register aslinya
-   belum). `KEMAMPUAN.md` adalah digest mesin dari `KEMAMPUAN-REGISTER.csv` - jalur mediasi
+   belum). [`KEMAMPUAN.md`](KEMAMPUAN.md) adalah digest mesin dari `KEMAMPUAN-REGISTER.csv` - jalur mediasi
    controller ke pemilik register.
 3. **README domain dan kartu REF masih menyebut rantai "belum berantai penuh" / resume
-   "menyusul".** `README.md` domain dan bagian 5 kartu `REF-RFW-001..003` menunjuk status
+   "menyusul".** [`README.md`](README.md) domain dan bagian 5 kartu `REF-RFW-001..003` menunjuk status
    lama; sejak 11-10-2026 berkas ini berbanner "berantai parsial terbimbing" dan resume W3a
    sudah ada di rak. Berkas-berkas itu di luar LOCK kartu ini (04_KNOWLEDGE-CARDS dan
    README domain) - perlu kartu penyelarasan terpisah agar rujukan silang tidak kabur.

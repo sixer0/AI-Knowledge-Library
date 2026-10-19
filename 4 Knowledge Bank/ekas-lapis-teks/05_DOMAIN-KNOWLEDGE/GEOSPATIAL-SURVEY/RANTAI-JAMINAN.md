@@ -9,7 +9,7 @@
 ## RANTAI BERANTAI PARSIAL TERBIMBING (terbit 11-10-2026, kartu t_9b7ace41)
 
 Mata ①-③ dan ⑤ tersusun **terbimbing lapisan yang ada di rak ini** (dua resume ber-halaman
-`REF-GEO-001`/`REF-GEO-002` + `KEMAMPUAN.md` domain + dua kartu `04_KNOWLEDGE-CARDS/GEOSPATIAL-SURVEY/`
+`REF-GEO-001`/`REF-GEO-002` + [`KEMAMPUAN.md`](KEMAMPUAN.md) domain + dua kartu `04_KNOWLEDGE-CARDS/GEOSPATIAL-SURVEY/`
 + digest sapu-baca L1/L3) diperkuat buka-ulang halaman vault pada run kartu ini - termasuk
 **menghitung ulang seluruh contoh numerik buku** dengan parser, bukan menyalin laporannya.
 Mata ④ **tanpa ambang terima yang sah dari rak**: rak ini hanya punya R3, dan angka toleransi
@@ -314,7 +314,7 @@ menvonis.
 
 **Kapan rantai ini boleh disebut utuh:** setelah (a) kelas ketelitian survei Indonesia punya
 sandaran R1/R2 di rak (SRGI2013 dan turunannya) atau kontrak mengadopsi angka tertentu secara
-tertulis, (b) insan menandatangani unit `KEMAMPUAN.md` domain ini (2/2 masih
+tertulis, (b) insan menandatangani unit [`KEMAMPUAN.md`](KEMAMPUAN.md) domain ini (2/2 masih
 `draft-tidak-terverifikasi-insan`), dan (c) resume `REF-GEO-001` punya salinan berlapis teks
 bersih sehingga jangkarnya dapat dibuka dengan cara normal.
 

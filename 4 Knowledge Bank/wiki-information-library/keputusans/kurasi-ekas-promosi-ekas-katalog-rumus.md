@@ -32,7 +32,7 @@ paginasi — bagian "DIPROMOSIKAN #3"]
 
 ## Detail keputusan
 
-- Sumber RAW: `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`
+- Sumber RAW: [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md)
   (kelas bukti per keputusan kurasi: sintesis lintas 22 buku).
 - Alasan promote: jembatan angka→buku→halaman PDF; dipakai setiap kali angka
   teknis masuk dokumen. Nilai operasional harian paling tinggi.

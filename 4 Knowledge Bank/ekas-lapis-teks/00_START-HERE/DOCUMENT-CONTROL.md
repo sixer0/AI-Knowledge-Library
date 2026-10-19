@@ -50,7 +50,7 @@ Rincian: `01_GOVERNANCE/AUTHORITY-STATUS.md`
 ## Versi berkas
 
 Berkas pengetahuan (map `01`–`05`, `10`) **tidak diberi nomor versi pada namanya.**
-Riwayatnya ada di `CHANGELOG.md`. Nama berkas yang stabil membuat rujukan silang tidak putus.
+Riwayatnya ada di [`CHANGELOG.md`](CHANGELOG.md). Nama berkas yang stabil membuat rujukan silang tidak putus.
 
 Berkas proyek (map `06`–`09`) memakai **tanggal**, bukan nomor revisi:
 `CALC-P25-007_2026-08-20.md`. Bila direvisi, berkas lama pindah ke

@@ -118,8 +118,8 @@ dibutuhkan pemakai:
 ## 6. Wujud executable: skill gsp-deep-dive
 
 Standar ini punya pasangan yang bisa dieksekusi agen: skill **gsp-deep-dive** v0.1.0,
-disahkan dan dipasang oleh kartu DIST-2 t_cac44e70 ke kanonik `<ws>/gsp-hermes/skills/`
-dan registry fleet `$LOCALAPPDATA/hermes/skills/gsp/gsp-deep-dive/` - **195 berkas**,
+disahkan dan dipasang oleh kartu DIST-2 t_cac44e70 ke kanonik [`<ws>/gsp-hermes/skills/`](../../../3%20Skills/kanonik/)
+dan registry fleet [`$LOCALAPPDATA/hermes/skills/gsp/gsp-deep-dive/`](../../../3%20Skills/registry-fleet/gsp-deep-dive/) - **195 berkas**,
 sidik per-berkas identik pada jalur fisik kanonik vs fleet, nol berkas cache ikut;
 SKILL.md sha256[:16] 0baf50c165c0d360 (diukur ulang giliran ini) [R-6].
 

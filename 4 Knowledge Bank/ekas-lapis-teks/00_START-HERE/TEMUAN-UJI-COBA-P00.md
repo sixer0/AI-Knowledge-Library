@@ -56,11 +56,11 @@ berbeda.
 
 ### 4. Penomoran dokumen tidak konsisten
 
-`DOCUMENT-CONTROL.md` memberi contoh `BA-FO-014` — **tanpa nomor proyek** — sementara
+[`DOCUMENT-CONTROL.md`](DOCUMENT-CONTROL.md) memberi contoh `BA-FO-014` — **tanpa nomor proyek** — sementara
 seluruh awalan lain memakainya (`CALC-P25-007`). Pada uji coba saya menulis `BA-P00-FO-001`
 karena tanpa nomor proyek berita acara tidak dapat dibedakan antar-proyek.
 
-**Diperbaiki:** contoh pada `DOCUMENT-CONTROL.md` diselaraskan menjadi `BA-P25-FO-014`.
+**Diperbaiki:** contoh pada [`DOCUMENT-CONTROL.md`](DOCUMENT-CONTROL.md) diselaraskan menjadi `BA-P25-FO-014`.
 
 ### 5. Kartu kendali dan lembar perhitungan saling menyalin
 
