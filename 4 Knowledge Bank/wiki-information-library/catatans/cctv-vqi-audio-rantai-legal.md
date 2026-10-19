@@ -54,7 +54,7 @@ Empat rezim yang bersinggungan + satu putusan:
 2. KUHP baru UU 1/2023 Ps 258 (berlaku sejak 02-I-2026): mendengarkan/merekam transmisi tidak publik secara melawan hukum, 10 th / denda kategori IV maks Rp200jt (Ps 79(1)d); penjelasan mengecualikan rekaman tidak sengaja oleh penghuni ruang sendiri [P-3, kuhp.pdf hal. 85 + penjelasan hal. 60].
 3. UU 36/1999 Telko Ps 40 (penyadapan jaringan telekomunikasi, 15 th; Ps 42(2) pengecualian proses pidana) [P-4, hal. 14-15 (Ps 40) dan hal. 18 (pidana Ps 56)].
 4. UU 27/2022 PDP: suara/wajah teridentifikasi = data pribadi; untuk identifikasi unik = biometrik/spesifik (Ps 4(2)b); dasar pemrosesan Ps 20(2) (kepentingan sah keamanan = huruf f, bukan persetujuan diam-diam); pidana Ps 65 jo 67 (maks 5 th/Rp5miliar) [P-5, hal. 5, 11, 29-31].
-5. Putusan MK 20/PUU-XIV/2016: rekaman diperoleh tidak sah = tersampingkan sebagai alat bukti; frasa alat bukti elektronik konstitusional hanya utk penegakan hukum atas permintaan aparat [P-1, hal. 61-62, 97-98].
+5. Putusan MK 20/PUU-XIV/2016: rekaman diperoleh tidak sah = tersampingkan sebagai alat bukti; frasa alat bukti elektronik konstitusional hanya untuk penegakan hukum atas permintaan aparat [P-1, hal. 61-62, 97-98].
 
 Butir terverifikasi gatekeeper 2026-09-27: Pasal 31 TIDAK diubah oleh UU 1/2024. Uji pada berkas resmi raw/L5/uu1-2024.txt (salinan UU 1/2024 dari peraturan.go.id, HTTP 200 ladder rung 1f): token "31" NOL kemunculan di seluruh teks hasil ekstraksi; daftar ketentuan transisi Pasal II menyebut hanya Ps 27(1), 27A, 28(2), 28(3), 36, 45, 45A - tanpa Ps 31.
 

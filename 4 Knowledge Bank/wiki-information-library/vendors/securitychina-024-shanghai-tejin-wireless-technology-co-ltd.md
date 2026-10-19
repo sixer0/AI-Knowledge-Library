@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 27); booth E2B13._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E2B13
+- Nomor stan (booth): E2B13
 - Website: https://www.terjin.com/
 - Email publik: service@terjin.com
 - Kategori utama: Electronic Warfare
 - Kategori tambahan: Communication Interception & Warfare; Surveillance & Intelligence; Defence & Security
-- Status verifikasi: Partially verified
+- Status pada sumber: Partially verified (terverifikasi sebagian)
 - Catatan data: Public service email. Categorization is based on RF sensing and counter-UAS capabilities described by the company.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.terjin.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

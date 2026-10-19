@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 128); halaman katalog: 149; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3144
+- Nomor stan (booth): 3144
 - Produk dipamerkan: 公司主要产品包括程控直流电源、程控中频交流电源、大功率直流电源、军品定制 电源。此外，还可根据用户需求设计专用电源， 提供军用测控系统供配电解决方案。
 - Website: https://www.xrpower.com
 - Email publik: sale@xrpower.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

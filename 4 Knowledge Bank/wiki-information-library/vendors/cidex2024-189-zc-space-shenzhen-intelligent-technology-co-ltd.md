@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 189); halaman katalog: 194; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 5068
+- Nomor stan (booth): 5068
 - Produk dipamerkan: The outdoor emergency series products include functional modules such as personnel accommodation, power energy, water supply, heating, and showering, which can be freely combined and used. The products are lightweight, convenient, fast to store and deploy, and highly maneuverable. and can meet the daily survival needs of5-10 people. It can provide convenient living and office space for emergency rescue,Field exploration, field engineering construction,outdoor camping and other field operations as well as leisure and entertainment.
 - Website: https://www.space-zc.com/
 - Email publik: zcs@space-zc.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

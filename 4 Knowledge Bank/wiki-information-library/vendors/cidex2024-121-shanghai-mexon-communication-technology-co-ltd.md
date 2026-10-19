@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 121); halaman katalog: 143; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3134
+- Nomor stan (booth): 3134
 - Produk dipamerkan: A number of core military products such as 100% national core switch, hardened military switch, 100G national core industrial switch, vehicle industrial switch, military custom VPX board, national VPX wireless AP board have been successfully applied in military communications, network security, aerospace, confidential security, financial security, charge system and other fields
 - Website: https://www.mexontec.com
 - Email publik: sc@mexontec.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

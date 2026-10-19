@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 65); booth E1H37._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E1H37
+- Nomor stan (booth): E1H37
 - Website: https://www.gst-ir.com/
 - Email publik: marketing@gst-ir.com
 - Kategori utama: Surveillance & Intelligence
 - Kategori tambahan: Defence & Security; Artificial Intelligence; Industrial/Operational Technology (OT) Security
-- Status verifikasi: Partially verified
+- Status pada sumber: Partially verified (terverifikasi sebagian)
 - Catatan data: Public marketing email and company website were identified. Exhibitor participation and booth are from a public secondary 2024 directory; not confirmed for 2026.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.gst-ir.com/about-us/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

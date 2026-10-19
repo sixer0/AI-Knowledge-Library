@@ -25,7 +25,7 @@
 ## 2. Butir bertambat (teks dibuka)
 
 - Definisi galat pembulatan/pemotongan sebagai dua sumber utama ketidakakuratan numerik — bab 4, . `[tanpa-jangkar]`
-- Metode bisection & false position untuk pencarian akar dengan jaminan konvergensi bracketing — badan aturan tercetak di PDF 153 (cetak 136, halaman pendahuluan Part 2 / Sec. 2.2); PDF 155 = halaman peta bab 5 (cetak 138). Penanda dua-peran: `[R3, Chapra ANM, PDF 153]` untuk kutipan teks, `[R3, Chapra ANM, PDF 155]` hanya utk posisi bab. Lihat KOREKSI-W11B.
+- Metode bisection & false position untuk pencarian akar dengan jaminan konvergensi bracketing — badan aturan tercetak di PDF 153 (cetak 136, halaman pendahuluan Part 2 / Sec. 2.2); PDF 155 = halaman peta bab 5 (cetak 138). Penanda dua-peran: `[R3, Chapra ANM, PDF 153]` untuk kutipan teks, `[R3, Chapra ANM, PDF 155]` hanya untuk posisi bab. Lihat KOREKSI-W11B.
 - Kerangka kondisi matriks (matrix inverse & condition, bab 11) — penting untuk sistem aliran daya/aliran data simultan — `[R3, Chapra ANM, PDF 305]`.
 - Regresi linear & least-squares untuk kurva kalibrasi/estimasi tren data lapangan — `[R3, Chapra ANM, PDF 363]`.
 

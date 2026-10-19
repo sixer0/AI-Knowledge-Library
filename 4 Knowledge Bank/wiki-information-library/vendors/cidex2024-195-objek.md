@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 195); halaman katalog: 198; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 互动体验区
+- Nomor stan (booth): 互动体验区
 - Produk dipamerkan: 云笺智能互联大屏集成多款硬件功能，结合数字化技术的教学工具；具有智能书写、 超高清智能显示、无线投屏、远程会议、多媒体娱乐、屏幕录制、常态化录播以及日常 电脑操作一体化的智能黑板。
 - Website: Not listed
 - Email publik: 3898174@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed, English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Tidak tercantum dalam katalog: situs web dan nama dalam bahasa Inggris. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 83); halaman katalog: 114; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3057
+- Nomor stan (booth): 3057
 - Produk dipamerkan: 公司主营 EVO II PRO V3 系列、MAX 系列、阿尔法等多旋翼侦查无人机，以及道通 龙鱼系列的垂起固定翼无人机，应用于国内安防、巡检、测绘、应急。救援等多个领域。
 - Website: https://www.zhimutech.cn
 - Email publik: 1301154259@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

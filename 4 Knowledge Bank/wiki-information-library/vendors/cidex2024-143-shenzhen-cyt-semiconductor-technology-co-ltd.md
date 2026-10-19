@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 143); halaman katalog: 160; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4026
+- Nomor stan (booth): 4026
 - Produk dipamerkan: CYT46 series micro-module products have the characteristics and advantages of energy saving, high temperature performance, high reliability, high-speed operation, high-precision control, strong safety, multi-function integration, miniaturization/ lightweight design and long life. The advantage of the CYT5000 series is that the series of chips adopts the latest domestic 100V high voltage BCD process technology, which integrates the logic circuit, voltage regulator function, high-precision analog circuit, driver and power switch required for power management in one chip.
 - Website: https://www.cyt.com.cn
 - Email publik: cyt@cyt.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

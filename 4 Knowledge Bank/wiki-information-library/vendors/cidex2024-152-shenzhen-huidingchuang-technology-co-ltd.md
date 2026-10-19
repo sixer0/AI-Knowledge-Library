@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 152); halaman katalog: 167; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4036
+- Nomor stan (booth): 4036
 - Produk dipamerkan: CP6-FT21BC CP3-LS306 CP6-ZX2BC and other products are all based on domestic Godson, Feiteng, domestic devices series design, support wide temperature work, with rich peripheral interface, to meet the UAV, armored vehicles, surface ships and other display and control console application needs.
 - Website: http://www.vpxcpci.com/
 - Email publik: hdc1@vpxcpci.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

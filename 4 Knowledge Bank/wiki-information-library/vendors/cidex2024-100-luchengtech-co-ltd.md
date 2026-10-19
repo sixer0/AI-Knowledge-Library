@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 100); halaman katalog: 127; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3102
+- Nomor stan (booth): 3102
 - Produk dipamerkan: 全国产化三防加固笔记本电脑，采用国产飞腾 D2000 8 核心处理器，支持国产麒麟 操作系统。支持多种操作系统，尺寸功能配置均可定制。 全国产化加固平板电脑，采用国产飞腾高性能处理器，整机 IP65 防护等级，内置多 种可扩展接口，为客户提供定制化需求。 无人机地面站专用设备，配置多功能摇杆，10.1 寸高亮高分辨率显示屏支持阳光下 可视。内置大容量电池，续航不低于 3 小时。镁铝合金结构加固抗震设计，航空连接器 接口，IP65 防护等级，宽压、宽温工作。
 - Website: https://www.luchengtech.com
 - Email publik: xslwh@univitech.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -561,7 +561,7 @@ mencetak laci terisi (CAMERA 15, NETWORK 28, SERVER-STORAGE 18, VMS-NVR 6, UPS 1
 TEST-EQUIPMENT 0, `_PERLU-DIPERIKSA/` 27 "belum boleh dikutip") - kelas yang sama dengan
 networking K-9, terkonfirmasi berulang lewat jalur THERMAL. **Vonis lapis teks: TERTUTUP pada
 R4-STATUS berarti "lembar datanya sudah ada di laci", BUKAN "angkanya sudah bisa dikutip".**
-Promosi "tertutup" ke objek akan menciptakan angka hantu. Perlakuan objek ini (status BELUM
+Promosi "tertutup" ke objek akan menciptakan angka tanpa bukti. Perlakuan objek ini (status BELUM
 TERKONFIRMASI, dilarang naik sebagai final): **NETD/IFOV = tunggu lembar data produk terpilih
 (R4); calon pemasok di rak: `LC014-56X-4MP-TH640-F75` dan `RP-PC464A1` dwi-spektrum, keduanya
 belum terekstraksi ke lapis teks.** Butuh manusia: ekstraksi datasheet + rekonsiliasi semantik

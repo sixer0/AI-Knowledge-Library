@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 119); halaman katalog: 142; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3132
+- Nomor stan (booth): 3132
 - Produk dipamerkan: 凯弛公司自主研发的 KD-780 应急通信互联终端及 KC-660 语音通信融合终端产品能 很好的实现多种不同频率、不同制式的超短波电台、公网对讲机、短波电台、卫星电话、 固定电话、移动电话等有无线通信设备连接，实现语音互联互通。
 - Website: http://www.zjkaichi.cn/
 - Email publik: 2851500583@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

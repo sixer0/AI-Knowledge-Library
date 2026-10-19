@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 67); halaman katalog: 101; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2139
+- Nomor stan (booth): 2139
 - Produk dipamerkan: The company's main products are GJB599 series, Y50X, Y50EX, Y50DX, YMA, YMB, YMG, YGD, YW, Y11, Y17, Y27, XC and their derivative series, J14A, J36A, J29A, J30J, etc., with more than 1,000 specifications and models. The product has the characteristics of three-proof function, high density, high reliability and electronic compatibility. The electric connector has the advantages of small volume, light weight, good sealing performance and excellent tensile performance.
 - Website: https://www.txsr2019.com
 - Email publik: 62317494@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

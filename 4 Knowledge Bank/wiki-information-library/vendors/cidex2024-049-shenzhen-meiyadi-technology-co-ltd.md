@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 49); halaman katalog: 87; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2112
+- Nomor stan (booth): 2112
 - Produk dipamerkan: Shenzhen Meiyadi Technology Co., Ltd. is dedicated to the research, development, production and sales of zinc alloy die castings, copper connectors, RF connectors, BNC connectors, waterproof connectors, aeronautical connectors and other types of hardware and electronic parts, as well as providing customised plastic products and non-standard electronic products to meet the diverse needs of customers.
 - Website: https://www.wkmyd.com
 - Email publik: xxy988@126.com
 - Kategori utama: 
-- Status verifikasi: source-matched
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
 - Catatan data: Manual review: website requires confirmation. The normalized domain remains unverified.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

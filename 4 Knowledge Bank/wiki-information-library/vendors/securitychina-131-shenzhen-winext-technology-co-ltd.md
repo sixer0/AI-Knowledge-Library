@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 134); booth W1C06._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: W1C06
+- Nomor stan (booth): W1C06
 - Website: https://winext.co/
 - Email publik: Wuxiaobing@winext.cn
 - Kategori utama: Industrial/Operational Technology (OT) Security
 - Kategori tambahan: Surveillance & Intelligence; Artificial Intelligence
-- Status verifikasi: Partially verified
+- Status pada sumber: Partially verified (terverifikasi sebagian)
 - Catatan data: Official website and public industry-profile contact.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://winext.co/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

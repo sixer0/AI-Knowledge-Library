@@ -42,7 +42,7 @@ dipromosikan-ke: faktas/temuan-audit-f1-f12.md
 | F7 | PID file gateway memakai PID MSYS — tidak andal | Status online/offline misleading | Sedang |
 | F8 | Kategori skill kanonik terpecah (kanonik EKAS 12 vs registry 128 vs per-profil) | Duplikasi & drift salinan skill | Sedang |
 | F9 | Webstack: hanya 5 agen extract_backend=firecrawl; sisanya keyless ring | Kualitas ekstraksi tidak merata | Sedang |
-| F10 | EKAS rantai jaminan PUTUS (GROUNDING/CYBERSECURITY/CIVIL) + R1 kosong | Batas jaminan domain tsb | Sedang |
+| F10 | EKAS rantai jaminan PUTUS (GROUNDING/CYBERSECURITY/CIVIL) + R1 kosong | Batas jaminan domain tersebut | Sedang |
 | F11 | Wiki tersebar: folder wiki + HermesMemory + IL (3 sumber kebenaran) | Drift metadata | Rendah |
 | F12 | Infrastruktur adjacent (n8n, open-webui, crawler-admin, ops autocrawl) tidak terkelola | Kebisingan & risiko resource | Rendah |
 

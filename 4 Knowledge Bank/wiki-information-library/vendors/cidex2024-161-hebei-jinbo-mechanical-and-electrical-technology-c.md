@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 161); halaman katalog: 174; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4064
+- Nomor stan (booth): 4064
 - Produk dipamerkan: 产品 1 名称：金属橡胶隔振垫 产品 1 介绍：金属橡胶隔振元件采用弹性多孔状金属橡胶材料制备。由于金属圈的易定 制性可根据客户对形状和特性的要求进行定制。 产品 2 名称：金属橡胶隔振器 产品 2 介绍：属橡胶隔振器采用金属橡胶弹性阻尼元件制造，广泛应用于航天、船舶、 车载精密电子仪器设备的减振缓冲领域
 - Website: http://www.jinbojidian.com
 - Email publik: 13180059572@126.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

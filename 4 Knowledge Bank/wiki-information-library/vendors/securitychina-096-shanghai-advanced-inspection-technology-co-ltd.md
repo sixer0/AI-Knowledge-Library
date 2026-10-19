@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 99); booth E2D45._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E2D45
+- Nomor stan (booth): E2D45
 - Website: https://www.sandt.com.cn/
 - Email publik: sales@sandt.com.cn
 - Kategori utama: Defence & Security
 - Kategori tambahan: Surveillance & Intelligence; Industrial/Operational Technology (OT) Security
-- Status verifikasi: Partially verified
+- Status pada sumber: Partially verified (terverifikasi sebagian)
 - Catatan data: Public sales email. Expo participation and booth are sourced from a public secondary 2024 directory.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.sandt.com.cn/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -31,7 +31,7 @@ catatan_keputusan: "dipromosikan: batch M1b paruh B terverifikasi custodian (C-M
 # Rekonsiliasi Angka Kurasi Migrasi Legacy — 7 pasang angka lintas-perkara (jangan dicampur)
 
 ## Ringkasan
-Laporan kurasi 2026-08-24 merekonsiliasi 7 kelompok angka yang sempat di-flag
+Laporan kurasi 2026-08-24 merekonsiliasi 7 kelompok angka yang sempat ditandai
 worker. Prinsip: setiap angka sah dalam konteksnya sendiri; JANGAN dicampur.
 [sumber: report.md, bagian "Rekonsiliasi angka yang di-flag worker"]
 

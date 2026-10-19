@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 182); halaman katalog: 187; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 5014
+- Nomor stan (booth): 5014
 - Produk dipamerkan: BGA and IC test racks (BGA IC test fixtures) for various BGA/QFN and IC Burn-in Socket (aging test sockets) and Test Sockets, computer north and south bridges, MP3, MP4, printers, communication super terminals, graphics cards, digital cameras, set-top boxes, etc.; Production and sales of QFP test fixtures, functional test fixtures, BGA ball planting, agent BGA desoldering systems and other instruments.
 - Website: http://www.ictst.cn/
 - Email publik: LiangLY@ictst.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

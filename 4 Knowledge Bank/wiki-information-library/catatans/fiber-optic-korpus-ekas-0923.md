@@ -117,7 +117,7 @@ ditandai `(P00, angka karangan)`.
 
 | Berkas (ukuran snapshot) | Peran gate | Isi terukur |
 |---|---|---|
-| `DDR-P00-001.md` (1.812 B, 51 baris) | G2 | keputusan 6 sambungan fusi batas gulungan 500 m (`:19-20`); alternatif 3 sambungan hemat 0,9 dB ditolak (`:38`); alternatif 10 sambungan +1,2 dB ditolak (`:39`); rujukan per halaman REF-FO-001 PDF 129/145 + REF-FO-003 PDF 17 (`:30-32`); "Konflik antar-sumber: Tidak ada." (`:42-44`) - tidak akurat utk ambang 1550 milik CALC-nya sendiri (K-2) |
+| `DDR-P00-001.md` (1.812 B, 51 baris) | G2 | keputusan 6 sambungan fusi batas gulungan 500 m (`:19-20`); alternatif 3 sambungan hemat 0,9 dB ditolak (`:38`); alternatif 10 sambungan +1,2 dB ditolak (`:39`); rujukan per halaman REF-FO-001 PDF 129/145 + REF-FO-003 PDF 17 (`:30-32`); "Konflik antar-sumber: Tidak ada." (`:42-44`) - tidak akurat untuk ambang 1550 milik CALC-nya sendiri (K-2) |
 | `CALC-P00-001.md` (3.609 B, 75 baris) | G3 | masukan bertag `:29-36` (rugi_sambungan 0,3 dB ditag ASSUMPTION `:36`); hasil 6,40 dB `:40-46`; ambang 1550 = 5,96 dB `:48` INDUK K-2 (anotasi `:50-51`); kepekaan 5,50/7,30/7,60 `:55-59`; dominasi konektor 3,00 dari 6,40 dB `:61-62`; G3 belum tertutup `:73` |
 | `KARTU-P00-001.md` (5.586 B, 82 baris) | G3 | salinan CALC + status rantai PUTUS di mata 3 (`:29,:53,:67,:75`); gerbang peringatan usia >15 th (`:27`); anotasi K-2 setingkat berkas `:80-81` |
 | `ITP-P00.md` (2.649 B, 32 baris) | G4 | butir 2 kabel referensi <= 0,5 dB (`:14`); butir 3 <= 6,40 dB (`:15`); butir 4 <= 5,96 dB (`:16`, anotasi `:21-22`); butir 5 kriteria OTDR kualitatif (`:17`); butir 6 rugi sambungan OTDR menggantikan asumsi 0,3 dB (`:18`); prasyarat 3 belum terpenuhi (`:24-31`) |
@@ -335,7 +335,7 @@ masuk langsung ke mata (3) dan memutuskan lulus/tidak di mata (4). Ironi terukur
 yang justru mendominasi anggaran adalah **konektor** (3,00 dB dari 6,40 dB)
 (`CALC-P00-001.md:61-62`; `TEMUAN-UJI-COBA-P00.md:84-88`).
 
-### 3.2 Contoh terhitung rak #1 (lapis domain, jalur OSP; P00 angka karangan sbg artefak bentuk)
+### 3.2 Contoh terhitung rak #1 (lapis domain, jalur OSP; P00 angka karangan sebagai artefak bentuk)
 
 `RANTAI-JAMINAN.md:61-68` - jalur OSP 3,2 km, 4 konektor, 6 sambungan fusi:
 
@@ -548,7 +548,7 @@ dicacatkan penanda sumbernya. Anotasi: `RANTAI-JAMINAN.md:16-17,76-77`; `REF-FO-
 `KATALOG-RUMUS.md:150-151`; `R3 - FOA ...:133-134,216-217`. Di objek ini angkanya diberi
 penanda [R3, Hayes FOA Reference Guide, PDF 98 dst.] mengikuti tempat tercetaknya.
 
-### K-4. Offset halaman Hayes tidak terujiable internal (batas metode; beban-rilis utk klaim halaman)
+### K-4. Offset halaman Hayes tidak terujiable internal (batas metode; beban-rilis untuk klaim halaman)
 
 Aturan rak: selisih cetak vs PDF TIDAK TETAP (+3 depan s.d. +10 apendiks), seluruh rujukan
 memakai nomor PDF (`R3 - FOA ...:7-10`). Halaman kunci domain (PDF 98, 120, 129, 145, 203)
@@ -574,7 +574,7 @@ menyebut "5 standar, 4 resume / 24 buku / 3 resume + 21 makalah"; CSV (62 baris 
 R2=4, R3=49 judul, R4=6, R5=3. Kontradiksi terukur antar lapis, bukan spesifik fiber; objek
 ini hanya mengutip keadaan README apa adanya. Tidak ditambal (register internal).
 
-### K-7. Skill fiber-link-design: klaim 3 referensi 377 baris vs nyata 1 referensi 128 baris (beban-rilis utk klaim skill)
+### K-7. Skill fiber-link-design: klaim 3 referensi 377 baris vs nyata 1 referensi 128 baris (beban-rilis untuk klaim skill)
 
 `CHANGELOG.md:197` mengklaim "SKILL.md + 3 referensi - 377 baris"; `CHANGELOG.md:383` menunjuk
 berkas `02-uji-dan-berita-acara.md` yang `find`-nya 0 hasil di seluruh pohon. Ukur ulang

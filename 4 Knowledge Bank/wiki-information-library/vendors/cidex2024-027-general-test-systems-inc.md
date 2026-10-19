@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 27); halaman katalog: 69; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2025
+- Nomor stan (booth): 2025
 - Produk dipamerkan: The RBWD series intelligent connected vehicle (ICV) wireless communication OTA testing system, featuring multiple patented technologies and substantial project delivery experience, leads the trend in ICV OTA performance testing. It is the first to achieve vehicle-level MIMO testing and serves a wide range of clients, including automotive testing organizations, vehicle manufacturers, and component suppliers worldwide. RayVerse® 10KC 是一款标杆级的相控阵天线测试系统，它集成了球面近场与紧缩场
 - Website: https://www.generaltest.com/
 - Email publik: shuangshuang.liang@generaltest.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

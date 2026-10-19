@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 163); booth E2E53._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E2E53
+- Nomor stan (booth): E2E53
 - Website: https://www.3dnest.cn/
 - Email publik: zhongqu@3dnest.cn
 - Kategori utama: Artificial Intelligence
 - Kategori tambahan: Surveillance & Intelligence; Social Media, E-Commerce, Content Creation, Online Market Insight
-- Status verifikasi: Partially verified
+- Status pada sumber: Partially verified (terverifikasi sebagian)
 - Catatan data: Official website and enterprise email verified.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.3dnest.cn/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

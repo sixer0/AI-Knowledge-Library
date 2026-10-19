@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 45); halaman katalog: 84; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2104
+- Nomor stan (booth): 2104
 - Produk dipamerkan: Portable spectrum detection equipment is an integrated product of detection and positioning developed for low-altitude UAV. The system can realize high-precision positioning, and the effective detection range can reach 5km. When there is an UAV in the detection range, the equipment can give an alarm by sound and light. The whole machine is equipped with a large-capacity lithium battery, which is suitable for dynamic companion support.
 - Website: http://www.zkwise-tech.com
 - Email publik: bennyhe@zkwise-tech.com
 - Kategori utama: 
-- Status verifikasi: source-matched
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
 - Catatan data: Corrected: website format corrected. Catalog URL lacked '//'; normalized without claiming live availability.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

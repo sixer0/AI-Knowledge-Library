@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 24); halaman katalog: 66; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2013
+- Nomor stan (booth): 2013
 - Produk dipamerkan: 产品 1 名称：手机侦察兵 一款集手机数据快速筛查、深度筛查、云端筛查、违规检测、研判分析等功能于一 体的手机信息安全检查的智能终端产品。支持 200 部以上手机并行采集，同时 采用无线 局域网筛查手机，能够平均 3 分钟完成一部手机采集。围绕涉赌、涉贷、涉翻墙、非正 常交往、涉炒股、非正常资金往来等十余类问题，支持 300 多种国内外应用程序数据解析、 删除数据的恢复、采集固定手机 APP 云端数据 ( 支付宝账单、微信账单、QQ 账单等应 用程序云端数据提取 )，对手机数据进行全方位筛查及异常行为分析。同时应用数据挖掘 与智能分析，科学建模，实现关系网络、资金流水、活动轨迹等特征的分析。 产品 2 名称：移动执法办案箱 移动执法办案箱专为纪检等执法部门精心打造，集现场勘察与移动办公于一体。内 置轻便型便携式审讯记录系统，实时记录审讯过程；手机取证系统快速收集关键证据。 箱体防泼水、耐撕，耐高温、耐腐蚀、配备安全锁，有效保护内部设备。让执法人员在 移动办公中更加得心应手，确保执法过程高效、安全。
 - Website: Not listed
 - Email publik: 2653936317@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
 - Catatan data: Manual review: website requires confirmation. The catalog website field contains an email address (fjzrdz@fjzr.com.cn), not a website.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 53); halaman katalog: 90; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2119
+- Nomor stan (booth): 2119
 - Produk dipamerkan: Multi-function combined rotary connector/bushing ring Combined transmission of two or more types of gas, liquid, electrical, optical and RF joints Optical transceiver Photoelectric conversion products include SDI, HDMI, Cameralink, USB3.0, CAN bus, RS485/232/422, composite types of signals such as "electro-optical" conversion and "optoelectrical" conversion encoder It has the characteristics of anti-vibration, anti-corrosion, anti-pollution, antiinterference and wide temperature Microwave joint Includes single channel and multi-channel swivel connectors in frequency range from DC to 50Ghz
 - Website: https://www.xinyangkeji.cn
 - Email publik: sales@xinyangkeji.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

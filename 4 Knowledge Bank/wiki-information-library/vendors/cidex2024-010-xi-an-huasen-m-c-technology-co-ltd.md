@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 10); halaman katalog: 56; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1037
+- Nomor stan (booth): 1037
 - Produk dipamerkan: 1、Mass interconnect series-F25 series 25 slots interconnect fast lock connection device ,Up to 5292 I/O signal connections 2、Disconnected block Disconnected block mainly provides signal testing channels and fault injection channels for tested unit，bringing convenience to users in the development, test, production of the product.
 - Website: Not listed
 - Email publik: sales@hs-mc.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

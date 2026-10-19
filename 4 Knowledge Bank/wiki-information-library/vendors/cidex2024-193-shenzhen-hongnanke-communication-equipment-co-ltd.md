@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 193); halaman katalog: 196; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 5106
+- Nomor stan (booth): 5106
 - Produk dipamerkan: 4G/5G 短信机、靶心点射式屏蔽器、5G 手机翻号设备、全栖手机网络足迹筛查系统、 全栖手机筛查系统、营区手机防拍照暨访客身份核验系统、苹果手机检测仪、环境安全 检查（窃听窃视）、全制式移动通信管控设备。
 - Website: Not listed
 - Email publik: 1368213383@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

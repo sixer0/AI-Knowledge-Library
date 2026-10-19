@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 163); halaman katalog: 175; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4067
+- Nomor stan (booth): 4067
 - Produk dipamerkan: 晶振、陀螺仪 Crystal oscillator, gyroscope
 - Website: https://www.china707crystal.com
 - Email publik: chenjing@china707crystal.com
 - Kategori utama: 
-- Status verifikasi: source-matched
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
 - Catatan data: Corrected: website format corrected. The company URL is corroborated by current external company/exhibition listings.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

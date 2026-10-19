@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 22); halaman katalog: 64; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1070
+- Nomor stan (booth): 1070
 - Produk dipamerkan: 伺服驱动器、微型伺服、伺服电机、直驱电机、高速电机、水下电机、重载滚柱丝 杠电动缸
 - Website: Not listed
 - Email publik: 467919311@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

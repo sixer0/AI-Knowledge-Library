@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 3); halaman katalog: 50; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1024
+- Nomor stan (booth): 1024
 - Produk dipamerkan: Our main business is chips and finished products of electronic components. Covering semiconductor integrated circuits, discrete devices TVS、 Sensors, power modules, components, memory MCU and other products can be supplied with different quality levels such as general military, seventh specialized, national military standard, and universal standard. Widely used in high reliability fields such as aerospace, aviation, shipbuilding, weapons, electronics, etc.
 - Website: https://www.ts871.com
 - Email publik: Not listed
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: email not listed. Corrected: website format corrected.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Email tidak tercantum dalam katalog. Corrected: website format corrected.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

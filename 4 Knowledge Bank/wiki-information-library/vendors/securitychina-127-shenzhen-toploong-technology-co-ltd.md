@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 130); booth E1G46._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E1G46
+- Nomor stan (booth): E1G46
 - Website: https://www.toploong.com/
 - Email publik: Email not publicly available
 - Kategori utama: Industrial/Operational Technology (OT) Security
 - Kategori tambahan: Cyber Security; Artificial Intelligence; Surveillance & Intelligence
-- Status verifikasi: Email not public
-- Catatan data: Official website verified; no public general email found.
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
+- Catatan data: Situs resmi telah diverifikasi; email umum yang tersedia untuk publik tidak ditemukan.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.toploong.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

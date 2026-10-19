@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 32); booth W4A09._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2022
-- Booth: W4A09
+- Nomor stan (booth): W4A09
 - Website: http://www.fri.com.cn/
 - Email publik: 1932180@qq.com
 - Kategori utama: Defence & Security
 - Kategori tambahan: Surveillance & Intelligence; Digital Forensic
-- Status verifikasi: Verified
+- Status pada sumber: Verified (terverifikasi)
 - Catatan data: Historical 2022 exhibitor. Booth, website and email are from the official Security China exhibitor database; expertise is kept broad because the record is limited.
 - Sumber exhibitor: https://en.securitychina.com.cn/ExhibitorDatabase/da3ae819-e0a9-4da1-8f46-6355d9bd0493
 - Sumber perusahaan: http://www.fri.com.cn/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 148); halaman katalog: 164; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4032
+- Nomor stan (booth): 4032
 - Produk dipamerkan: SFS multi-channel air leak test, one instrument can simultaneously detect multiple products, support each channel to work independently. The SEQ differential pressure air leak test, which is based on single-crystal silicon high-precision and low-range differential pressure sensor, determines whether the product meets the air tightness requirements by detecting the pressure difference between the tested part and the standard part.
 - Website: https://www.seals-ins.com
 - Email publik: liao@seals-ins.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

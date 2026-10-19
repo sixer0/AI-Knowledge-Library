@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 167); booth E2B47._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E2B47
+- Nomor stan (booth): E2B47
 - Website: https://www.zkrj888.com/
 - Email publik: Email not publicly available
 - Kategori utama: Defence & Security
 - Kategori tambahan: Artificial Intelligence; Surveillance & Intelligence
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: Official website verified; no public general business email was identified.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.zkrj888.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

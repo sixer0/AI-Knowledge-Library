@@ -33,13 +33,13 @@ catatan_keputusan: "dipromosikan: batch M1b paruh B terverifikasi custodian (C-M
 
 ## Ringkasan
 Run harian pertama di workspace ter-restore (2026-08-25) menata docs/: 5 file lepas di root
-dipindah ke folder deliverable-nya / `_inbox/`, 2 folder cryptic bertask-id di-rename ke nama
+dipindah ke folder deliverable-nya / `_inbox/`, 2 folder yang sulit dikenali bertask-id di-rename ke nama
 deskriptif. Total 35 operasi (7 move/rename + 28 frontmatter), di bawah batas 50; 0 penghapusan.
 
 ## Detail mutasi (A + B)
 - A — pindah file lepas (5): 4 contract doc → `2026_08_24_kajian_ekosistem/` (deliverable-nya di
   sana); 1 (`bridge-daily-brief-fix`) → `_inbox/` (tanpa task folder; dirujuk log memory beku).
-- B — rename folder cryptic (2): `2026-08-24_t42119e1b` → `2026-08-24_status_rt_bypass`;
+- B — rename folder yang sulit dikenali (2): `2026-08-24_t42119e1b` → `2026-08-24_status_rt_bypass`;
   `2026-08-24_t_c97ec48d` → `2026-08-24_fleet_test_data_collector_ekas` (bukan duplikat —
   diff isi berbeda dari fleet_test/gsp-data-collector).
 

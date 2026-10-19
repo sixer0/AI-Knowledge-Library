@@ -223,7 +223,7 @@ ditahan sampai n memadai, dan teks hanya melaporkan rentang serta median.
 Syarat masuk: dua variabel kontinu atau lebih tersedia berpasangan. Eksplorasi
 matriks hanya sah bila faktor mencapai tiga atau lebih dan tujuannya
 prapemilihan, bukan kesimpulan final. Perlu ditegaskan bahwa kesimpulan
-kausalitas tidak pernah lahir dari pola scatter saja (anti-kasus CH-13), apa
+kausalitas tidak pernah berasal dari pola scatter saja (anti-kasus CH-13), apa
 pun sejelas apa pun garis yang tampak.
 
 | CH | Nama | Kapan dipilih (pembanding) | ANTI-kasus (wajib dibaca) |

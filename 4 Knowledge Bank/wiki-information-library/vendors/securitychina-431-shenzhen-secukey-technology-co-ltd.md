@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 434); booth W2E29._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: W2E29
+- Nomor stan (booth): W2E29
 - Website: https://www.secukey.cn/
 - Email publik: ktz1@secukey.com.cn
 - Kategori utama: Defence & Security
 - Kategori tambahan: Artificial Intelligence; Surveillance & Intelligence
-- Status verifikasi: Partially verified
-- Catatan data: Official website and public company email verified.
+- Status pada sumber: Partially verified (terverifikasi sebagian)
+- Catatan data: Situs resmi dan email perusahaan yang tersedia untuk publik telah diverifikasi.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.secukey.cn/Contact/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

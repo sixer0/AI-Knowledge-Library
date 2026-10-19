@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 31); booth E1F16._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2022
-- Booth: E1F16
+- Nomor stan (booth): E1F16
 - Website: http://www.cloudwalk.cn/
 - Email publik: liumeng@cloudwalk.cn
 - Kategori utama: Artificial Intelligence
 - Kategori tambahan: Surveillance & Intelligence; Defence & Security
-- Status verifikasi: Verified
+- Status pada sumber: Verified (terverifikasi)
 - Catatan data: Historical 2022 exhibitor. Booth and email are from the official Security China exhibitor database; not yet confirmed for 2026.
 - Sumber exhibitor: https://en.securitychina.com.cn/ExhibitorDatabase/2440b24c-7edc-4a6e-a4d5-524b826cacb1
 - Sumber perusahaan: http://www.cloudwalk.cn/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 178); halaman katalog: 184; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 5006
+- Nomor stan (booth): 5006
 - Produk dipamerkan: Since its establishment for 16 years, the company has been committed to the production, research and development, sales, production of intelligent flexible printed circuit board (FPC) ,rigid-flex PCBs, high multi-layer rigid-flex PCBs and HDI PCBs, 1-32 layers of FPC, 2-32 layers of rigid-flex PCBs, HDI board, 15m ultra-long board, licensed alloy material circuit board.
 - Website: https://www.kbrfpc.com
 - Email publik: fpc@kxrfpc.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

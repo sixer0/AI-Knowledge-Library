@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 98); halaman katalog: 125; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3100
+- Nomor stan (booth): 3100
 - Produk dipamerkan: 1、ZLT340A integrated data network simulation tester (100 Gbps network tester) using independent intellectual property rights of FPGA network control card to realize the industry leading 2 to 3 layer traffic generation and analysis function, the product 2 to 7 layer traffic generation and analysis function combined with powerful network simulation and application traffic, realize the network test required authenticity, efficiency and scalability. 2、ZLT122B network performance tester (gigabit network tester) is a gigabit rate of 2~7 layer network tester, using the national hardware realization. The tester is composed of core computing module, 4 port gigabit port network module, 4 port Gigabit light network module, PCIE signal turn backplane, power module and function software, with flow send, flow, capture analysis, RFC2544 test, RFC2889 test, 2~3 layer routing protocol and simulation test, application flow test, realizes the network equipment and network application system benchmark test, routing simulation and application performance test, comprehensive performance to the advanced level of similar products abroad.
 - Website: Not listed
 - Email publik: 194483656@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

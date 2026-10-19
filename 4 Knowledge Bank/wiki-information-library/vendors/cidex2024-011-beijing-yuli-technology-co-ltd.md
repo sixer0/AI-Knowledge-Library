@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 11); halaman katalog: 57; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1038
+- Nomor stan (booth): 1038
 - Produk dipamerkan: This integrated system comprehensively monitors atmospheric and environmental factors as well as metal corrosion rates. In terms of environmental monitoring, it measures temperature, humidity, sunshine, ultraviolet, total radiation, atmospheric pressure, wind speed, wind direction, wind force, SO2, NO2, NH3, H2S, rainfall, PM2.5, PM10, TSP, noise, etc., and meets relevant monitoring standards and precision requirements. It also integrates electrochemical corrosion, salt fog corrosion, and air corrosion rate monitoring. The device has high integration, automation, miniaturization, standardization, and productization.The system design is modular, considering reliability and environmental adaptability. Data transmission supports both wireless transmission and physical copy, and the system can operate unattended for one year without the need to replace media, sensors, or samples.
 - Website: https://www.yuli811.com
 - Email publik: hxy@yuli811.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

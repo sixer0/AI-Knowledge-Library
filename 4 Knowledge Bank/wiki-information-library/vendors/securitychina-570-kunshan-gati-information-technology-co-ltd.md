@@ -30,17 +30,17 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 573); booth 5003._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2023
-- Booth: 5003
+- Nomor stan (booth): 5003
 - Website: https://www.gatitec.com/
 - Email publik: Email not publicly available
 - Kategori utama: Defence & Security
 - Kategori tambahan: Artificial Intelligence; Industrial/Operational Technology (OT) Security
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: Official company site reports CIDEX 2023 participation and booth 5003; no public general email was identified.
 - Sumber exhibitor: https://www.gatitec.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

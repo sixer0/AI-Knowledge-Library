@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 92); halaman katalog: 120; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3089
+- Nomor stan (booth): 3089
 - Produk dipamerkan: 9K-40G 屏蔽材料（屏蔽涂料、屏蔽窗帘、屏蔽地毯、高透明屏蔽膜…）、30-110dB 屏蔽效能； 适用：电子对抗、机房电磁波屏蔽、保密室、EMC/EMI 等 手持式频谱分析仪，100Hz-6GHz，万元高性价
 - Website: http://www.ocetest.com
 - Email publik: 1034525080@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

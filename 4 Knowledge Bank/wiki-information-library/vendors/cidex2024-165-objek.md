@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 165); halaman katalog: 176; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4069
+- Nomor stan (booth): 4069
 - Produk dipamerkan: 为民参军企业提供武器装备质量管理体系、武器装备科研生产单位保密资格、装备 承制单位资格审查、武器装备科研生产许可、武器装备科研生产许可备案、军工涉密业 务咨询服务能力建设、涉密信息系统集成、核工业供应商、航空航天 AS9100D 体系认证 等申报辅导工作。
 - Website: http://jrlhrz.com
 - Email publik: jrlhrz@163.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

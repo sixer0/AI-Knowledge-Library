@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 104); booth W1B67._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: W1B67
+- Nomor stan (booth): W1B67
 - Website: https://www.mantunsci.com/
 - Email publik: Email not publicly available
 - Kategori utama: Industrial/Operational Technology (OT) Security
 - Kategori tambahan: Artificial Intelligence; Cyber Security
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: No general public business email was verified. Expo participation and booth are sourced from a public secondary 2024 directory.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.mantunsci.com/about.html
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

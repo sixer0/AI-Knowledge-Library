@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 50); halaman katalog: 88; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2113
+- Nomor stan (booth): 2113
 - Produk dipamerkan: The main products exhibited include: low background αβ Measurement instrument (used for detecting radioactive elements in water/atmosphere/soil), radiation monitoring alarm instrument (used for monitoring and alarming radiation fields), highpressure ionization chamber (used for environmental monitoring). Fixed type γ On site calibration device for air ratio energy meter (used for on-site calibration).
 - Website: https://www.yi-da.cn
 - Email publik: yida@yi-da.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

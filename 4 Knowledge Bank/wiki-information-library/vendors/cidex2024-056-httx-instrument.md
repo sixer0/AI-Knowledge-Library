@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 56); halaman katalog: 93; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2123
+- Nomor stan (booth): 2123
 - Produk dipamerkan: Our product brands: Agilent/KEYSIGHT, Rohde & Schwarz, Litepoint, Anritsu, Edwan, Tektronix, Panasonic and other well-known brands. Our products Name: Network analyzer, mobile phone tester, WIFI tester, comprehensive tester, spectrum analyzer, Bluetooth tester, signal generator, communication tester, programmed power supply, oscilloscope, shielding box, etc.
 - Website: https://www.httxinstrument.com
 - Email publik: 999888@vip.163.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

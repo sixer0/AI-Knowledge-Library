@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 166); halaman katalog: 177; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4070
+- Nomor stan (booth): 4070
 - Produk dipamerkan: BITALLTECH is committed to the defense technology research and application promotion of low-altitude unmanned system equipment. With complete independent intellectual property rights and a series of core technologies, it integrates the theory of fractional domain signal processing, millimeter wave and/terahertz wave system integration and application technology, artificial intelligence, mobile internet and other new generation information technologies through perception and analysis of low-altitude electromagnetic spectrum. It has launched a series of products based on TDOA and AOA technology system, which can achieve long-distance perception, high-precision positioning, real-time trajectory detection, automatic video tracking, precise directional countermeasures, fixed-point navigation deception and other full-process management and disposal of low-altitude unmanned equipment. The company has formed a product research and development, operation and sales, and technical service systematized and standardized development, serving public safety with technology.
 - Website: https://www.bitalltech.com
 - Email publik: sales@bitalltech.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

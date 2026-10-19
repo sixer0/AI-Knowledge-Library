@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 117); halaman katalog: 140; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3130
+- Nomor stan (booth): 3130
 - Produk dipamerkan: Changchun Boxin continuous zoom lens has a wide range of focal length and coverage. At present, there are a series of products such as 24 ~ 120mm, 10 ~ 150mm, 10 ~ 300mm, 18 ~ 500mm, 14 ~ 800mm, 20 ~ 1200mm, 32 ~ 1500mm, 200 ~ 2000mm, 500 ~ 2500mm, etc. In the field of telephoto lens, there are products suitable for almost all the focal lengths required.
 - Website: https://www.bxoptic.com
 - Email publik: star@bxoptic.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 560); booth E1Y16._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: E1Y16
+- Nomor stan (booth): E1Y16
 - Website: https://www.cn.messefrankfurt.com/shanghai/zh-cn/company/global.html
 - Email publik: Email not publicly available
 - Kategori utama: Social Media, E-Commerce, Content Creation, Online Market Insight
 - Kategori tambahan: Defence & Security
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: Non-technology exhibitor. Official Messe Frankfurt sources verify the Shenzhen subsidiary; no public general business email was used.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.hk.messefrankfurt.com/hongkong/zh-cn/press/press-releases/2020/MFSZ.html
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

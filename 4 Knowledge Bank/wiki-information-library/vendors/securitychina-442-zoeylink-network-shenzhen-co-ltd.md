@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 445); booth W1A01._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: W1A01
+- Nomor stan (booth): W1A01
 - Website: https://www.zoeylink.cn/
 - Email publik: Email not publicly available
 - Kategori utama: Defence & Security
 - Kategori tambahan: Industrial/Operational Technology (OT) Security; Surveillance & Intelligence
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: Company identity and product domain are supported by its official product manual; no public general email was verified.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.zoeylink.cn/download/%E5%AF%B9%E8%AE%B2%E4%BA%A7%E5%93%81%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

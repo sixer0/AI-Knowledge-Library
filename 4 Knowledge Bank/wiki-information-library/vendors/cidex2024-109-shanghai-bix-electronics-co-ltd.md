@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 109); halaman katalog: 135; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3115
+- Nomor stan (booth): 3115
 - Produk dipamerkan: Independent research and development of a variety of circular push pull connectors and glass to metal seal connector, available in copper alloy, aluminum alloy and stainless steel shell material, salt spray 1000 hours, support for USB3.0, HDMI gigabit, 10,000 megabytes and other high-speed signals, waterproof and sandproof, airtight components, electromagnetic shielding, high-density, high insertion and extraction times.
 - Website: https://www.bix-china.com
 - Email publik: marketing3@bix-china.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -31,7 +31,7 @@ skor 71/100 (metode RT §4.2), kematangan L4.
 - Use case agen AI: "Bosch Shopfloor Agent" — agentic AI yang mendiagnosis dan memperbaiki error mesin produksi secara mandiri (strategi problem-solving sendiri), dipakai di pabrik sendiri (mis. Bamberg) sejak akhir 2025 dan dijual ke pelanggan eksternal (pilot di Sick Corporation: Equipment Ticket Agent + Service & Support Agent)
 - Kedalaman otonomi: tinggi — "acts independently with its stored knowledge, develops strategies for problem-solving, and offers users a solution"
 - Skala: pabrik-pabrik Bosch (Bamberg disebut; angka jumlah situs tidak dipublikasikan) + pelanggan eksternal sejak akhir 2025
-- Dampak: hemat ~€850.000/tahun per pabrik (pengurangan downtime); di Sick: kegagalan mesin selesai hingga 10× lebih cepat [klaim vendor utk sisi Sick]
+- Dampak: hemat ~€850.000/tahun per pabrik (pengurangan downtime); di Sick: kegagalan mesin selesai hingga 10× lebih cepat [klaim vendor untuk sisi Sick]
 
 **Label kepatuhan bukti: [klaim vendor]** — angka/klaim berasal dari materi penjual/vendor, bukan pengukuran independen.
 

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 89); halaman katalog: 118; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3083
+- Nomor stan (booth): 3083
 - Produk dipamerkan: 野外边境巡逻车 在野外环境下，可实现 L4 无人驾驶，自主侦查巡逻，自主探测危险情况等。具备 行进速度快、覆盖面积广、 检测精准等特点，可应对野外坑洼、涉水等综合性复杂地形。 全地形单兵车 采用轻量化材料和结构，提高越野性能 ; 配备高性能电池组、电机和控制器，提供 动力和续航能力 ; 用于侦察和情报搜集。通过技术和功能整合为士兵提供全新的战场支 援和战斗优势。
 - Website: https://www.sophon-auto.com
 - Email publik: yujing@sophon-auto.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

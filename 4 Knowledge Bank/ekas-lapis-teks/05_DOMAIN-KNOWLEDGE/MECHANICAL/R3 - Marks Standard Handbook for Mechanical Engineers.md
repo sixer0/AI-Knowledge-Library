@@ -43,7 +43,7 @@
 
 ## 3. Metode yang bisa diadopsi GSP
 
-Handbook lintas-bab: satuan, matematika, mekanika padat/cair, properti bahan, pendinginan, kekuatan — sumber tabel standar utk hitungan sipil-mekanikal. Angka konkret produk (rating perangkat, derating) tetap R4; ambang uji menuntut R1/R2.
+Handbook lintas-bab: satuan, matematika, mekanika padat/cair, properti bahan, pendinginan, kekuatan — sumber tabel standar untuk hitungan sipil-mekanikal. Angka konkret produk (rating perangkat, derating) tetap R4; ambang uji menuntut R1/R2.
 
 ## 4. Batas pemakaian
 

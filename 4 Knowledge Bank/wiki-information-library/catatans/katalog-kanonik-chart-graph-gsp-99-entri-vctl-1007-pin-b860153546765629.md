@@ -49,7 +49,7 @@ Katalog kanonik chart/graph hasil union Datylon (80 jenis) + Holistics (43 judul
 
 - CHECK-A alamat `DAT L###`: 84 rujukan unik; 0 di luar rentang snapshot (2.120 baris); identitas-heading cocok 82/84; 2 sisanya rujukan-analogi berlabel eksplisit dalam sel (VC-19->L912 waffle "lebih buruk di atas 4 kategori"; VC-56->L1525 "barcode mirip") = sah.
 - CHECK-B alamat `HOL brs NNN`: 56 rujukan (basis token pola `HOL brs <nomor>`; mentah `[HOL brs` = 55 karena satu sel memakai bentuk tanpa kurung - nyatakan basis ini saat dikutip); 0 di luar rentang; sampel 12 acak-seed-11: 10 nama-persis + 2 padanan-sinonim-declared (Circular treemap=Circle Packing; Geographic heatmap=Heat Map Geospatial) = sah.
-- CHECK-C `rujukan_sv`: 15 ID SV unik; 15/15 ada pada kanonis STD-VISUAL-001.md (68 ID terdefinisi) = nol rujukan hantu.
+- CHECK-C `rujukan_sv`: 15 ID SV unik; 15/15 ada pada kanonis STD-VISUAL-001.md (68 ID terdefinisi) = nol rujukan tanpa sumber.
 - CHECK-D `contoh_render`: 62 baris menunjuk berkas; 61 path ada di disk; 1 non-path = sel teks VC-35 beralasan ("DITOLAK putusan C2: keluarga radial diharamkan vonis SV-GRA-02") = sah terdokumentasi.
 - CHECK-E census ASUMSI: 50 baris memuat penanda ASUMSI == klaim register "50 ASUMSI" [R-1].
 

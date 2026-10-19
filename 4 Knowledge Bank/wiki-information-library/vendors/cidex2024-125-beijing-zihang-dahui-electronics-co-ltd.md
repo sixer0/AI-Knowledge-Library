@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 125); halaman katalog: 146; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3141
+- Nomor stan (booth): 3141
 - Produk dipamerkan: Cooling fan heat dissipation principle: use the rotation of the fan impeller to promote the flow of air, the air flow take away the heat from the heat source to achieve the effect of heat dissipation. According to the different ways in which the fans drive the air flow, the fans can be divided into the following types, axial flow fans, centrifugal fans, and cross flow fans, which are suitable for different fields and meet different heat dissipation requirements.
 - Website: https://www.bjzhdh.com.cn
 - Email publik: wangyanan@bjzhdh.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

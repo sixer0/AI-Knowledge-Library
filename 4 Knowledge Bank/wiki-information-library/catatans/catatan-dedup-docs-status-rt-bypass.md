@@ -32,7 +32,7 @@ Folder `docs/2026-08-24_status_rt_bypass/` berisi **1 file**: `status.md`
 gsp-librarian, domain operations, tags [inspeksi-harian], created 2026-08-24) —
 laporan status **BLOCKED — RT_BYPASS** untuk task t_42119e1b (agent
 `gsp-task-architect`, 2026-08-24). Folder semula bernama `2026-08-24_t42119e1b`,
-di-rename oleh daily librarian 2026-08-25 (CHANGES.md #6: nama folder cryptic)
+di-rename oleh daily librarian 2026-08-25 (CHANGES.md #6: nama folder yang sulit dikenali)
 dan frontmatter-nya dilengkapi (CHANGES.md #13).
 
 ## Isi status.md (sumber: baris 10-48)

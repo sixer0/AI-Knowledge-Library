@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 588); booth Shenzhen pavilion._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: Shenzhen pavilion
+- Nomor stan (booth): Shenzhen pavilion
 - Website: https://www.sprintpcb.com/
 - Email publik: Email not publicly available
 - Kategori utama: Industrial/Operational Technology (OT) Security
 - Kategori tambahan: Defence & Security; Cyber Security
-- Status verifikasi: Email not public
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
 - Catatan data: CIDEX 2024 Shenzhen delegation participation and official company website verified; no public general email was found.
 - Sumber exhibitor: https://www.szhzfw.cn/list_4/3051.html
 - Sumber perusahaan: https://www.sprintpcb.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

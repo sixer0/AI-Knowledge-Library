@@ -44,7 +44,7 @@ Rantai jaminan EKAS — model jaminan pengetahuan teknik GSP (kajian §9.2):
   model boleh menelusuri/menyusun tapi tidak boleh jadi sumber (AI-USAGE-POLICY).
 - **Temuan audit F10 (kajian §14):** rantai jaminan PUTUS di
   GROUNDING/CYBERSECURITY/CIVIL + R1 regulasi kosong → batas jaminan domain
-  tsb; rekomendasi §15.C.9: lengkapi rantai & isi R1 dengan dokumen
+  tersebut; rekomendasi §15.C.9: lengkapi rantai & isi R1 dengan dokumen
   berprovenans.
 
 Sumber: `kajian_ekosistem_brahma.md` bab 9.2; temuan §14 F10; rekomendasi §15.C.9.

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 126); halaman katalog: 147; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3142
+- Nomor stan (booth): 3142
 - Produk dipamerkan: For the shielded window system, 3Shines combines display technology in harsh environments with electromagnetic shielding technology, enhancing the display function and electromagnetic compatibility reliability of the military equipment's interactive interface, ensuring that the equipment's display performance remains at a high level in complex environments. 3Shines has achieved the localization of shielding materials and thermal management materials earlier, and its product performance is on the same level as foreign similar products. The company is committed to improving the lightweight and ease of use of key materials.
 - Website: Not listed
 - Email publik: guanmeng@3shines.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

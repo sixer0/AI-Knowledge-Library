@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 30); halaman katalog: 72; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2049
+- Nomor stan (booth): 2049
 - Produk dipamerkan: DH17800WT series high-power water-cooled power supply High-energy physics heavy particle gas pedal is an important equipment to support the national frontier research in the field of basic physics, and it is also an effective tool for heavy ion cancer treatment. In the gas pedal system, Dahua's high-power water-cooled power supply is responsible for providing energy for the electromagnetic devices at all levels of the gas pedal. Dahua's high-power water-cooled power supply has successfully overcome a number of key technologies such as high-power multi-layer water-cooled heat dissipation, multi-phase optical fiber interleaving control, high-density magnetic element integration, and digital compensation of current harmonics. The efficiency of the whole machine is as high as 96%, and it has broken through the 10-6 scale of long-time output current stability and current ripple. The two indexes of output current stability and ripple exceed the indexes in the field of high-energy physics particle gas pedal by about 4 times, which is in the leading position in the industry.
 - Website: http://www.dhelec.com.cn/
 - Email publik: marketing@dhelec.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

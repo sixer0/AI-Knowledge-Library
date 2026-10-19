@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 38); halaman katalog: 78; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2078
+- Nomor stan (booth): 2078
 - Produk dipamerkan: 公司以抗恶劣环境加固技术和计算集成应用技术为核心，设计开发基于 CPCI/ CPCIE、PXI/PXIE、VPX 等总线的 X86 架构产品及国产化平台产品，涵盖加固计算机、 加固服务器、加固外设、计算机板卡及地面测试设备等产品。
 - Website: https://www.haopengkeji.com
 - Email publik: Xumh@haopengkeji.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

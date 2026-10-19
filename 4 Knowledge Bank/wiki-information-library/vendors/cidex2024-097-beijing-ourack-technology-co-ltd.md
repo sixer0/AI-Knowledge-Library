@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 97); halaman katalog: 124; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3099
+- Nomor stan (booth): 3099
 - Produk dipamerkan: Carbon fiber electromagnetic shielding case: Carbon fiber has good electromagnetic shielding performance and is also a high-performance reinforcing fiber. At the same time, carbon fiber has excellent electrical and thermal conductivity, good flame retardant performance, extremely low coefficient of thermal expansion, and has bottom radiation line absorption, non-magnetic and non-magnetic properties, excellent vibration damping, fatigue and creep resistance. It is an excellent material used for manufacturing electromagnetic shielding cases. Carbon fiber composite structural components: Carbon fiber composite products can be used to process main and secondary load-bearing structures. Our carbon fiber products have the characteristics of light weight, high strength, high modulus, corrosion resistance, heat insulation, sound insulation, shock absorption, high and low temperature resistance, and are widely used in communication, military, aerospace and other fields.
 - Website: https://www.ourack.com
 - Email publik: Weitianhao@ourack.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

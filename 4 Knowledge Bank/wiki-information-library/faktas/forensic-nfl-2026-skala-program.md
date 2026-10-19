@@ -23,6 +23,8 @@ dipromosikan-pada: 2026-08-26
 
 # Skala program Tier-0: 202 lini · 436 unit fisik · 221 fungsi FIM · 7 disiplin D1–D7
 
-Skala program Tier-0 (BOQ sheet DASHBOARD, B SKALA PROGRAM): 202 lini item aktif; 436 unit fisik; 221 fungsi forensik FIM dengan distribusi 198 diampu · 18 bersama · 3 yatim-dirujuk · 2 metode/jasa (dasar G-2 kriteria 2 dikoreksi remediasi L-13 — bukan 201 diampu · 15 bersama). SDM: 109 analis analitik D1–D6 · 126 SDM teknis · formasi total laboratorium 131 pos (126 + 5 lapis pimpinan). Fasilitas: 70 ruang Tier-0 · 2.999 m² neto · 4.348,6 m² bruto (faktor 1,45) · 56% kategori laboratorium fungsional. Mutu: 97 metode (78 validasi penuh + 19 verifikasi). Durasi program: 42 bulan · 5 tahap · gerbang G-A s.d. G-E. Jalur panjang: 35 lini · USD 8.599.900 · 39,6% CAPEX. Risiko terdaftar: 56 · 8 kelas risiko A–H.
+Skala program Tier-0 (BOQ sheet DASHBOARD, B SKALA PROGRAM): 202 lini item aktif; 436 unit fisik; 221 fungsi forensik FIM dengan distribusi 198 diampu · 18 bersama · 3 yatim-dirujuk · 2 metode/jasa (dasar G-2 kriteria 2 dikoreksi remediasi L-13 — bukan 201 diampu · 15 bersama). SDM: 109 analis analitik D1–D6 · 126 SDM teknis · formasi total laboratorium 131 pos (126 + 5 lapis pimpinan).
+
+Fasilitas: 70 ruang Tier-0 · 2.999 m² neto · 4.348,6 m² bruto (faktor 1,45) · 56% kategori laboratorium fungsional. Mutu: 97 metode (78 validasi penuh + 19 verifikasi). Durasi program: 42 bulan · 5 tahap · gerbang G-A s.d. G-E. Jalur panjang: 35 lini · USD 8.599.900 · 39,6% CAPEX. Risiko terdaftar: 56 · 8 kelas risiko A–H.
 
 Tujuh disiplin (Kajian DAFTAR ISI BAB IV; BOQ REKAP): D1 Trace, Balistik, Dokumen & Sidik Jari; D2 Bahan Peledak & CBRNE; D3 Kimia & Toksikologi Forensik; D4 Biologi, DNA & Bio-threat; D5 Narkotika & Zat Terkendali; D6 Digital, Siber & Kripto; D7 Infrastruktur, Mobile & Dukungan Lapangan. Jumlah fungsi per disiplin berjumlah total 221 (Kajian §1.3.1 tabel).

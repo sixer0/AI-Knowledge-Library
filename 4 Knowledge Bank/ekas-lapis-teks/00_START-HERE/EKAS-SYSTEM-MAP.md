@@ -1,10 +1,10 @@
 # Peta Sistem EKAS
 
-Apa isi tiap map, **siapa yang menulisnya**, dan **kapan diisi**.
+Apa isi tiap folder, **siapa yang menulisnya**, dan **kapan diisi**.
 
 ---
 
-## Dua jenis map — bedanya menentukan cara memakainya
+## Dua jenis folder dan cara memakainya
 
 | Jenis | Map | Sifat |
 |---|---|---|
@@ -17,7 +17,7 @@ Apa isi tiap map, **siapa yang menulisnya**, dan **kapan diisi**.
 
 ---
 
-## Rincian tiap map
+## Rincian tiap folder
 
 ### `00_START-HERE/` — pintu masuk
 
@@ -89,9 +89,9 @@ Tiap domain berisi resume-resume bertanda tingkat R di depan namanya, plus
 **Mulai dari `RANTAI-JAMINAN.md`, bukan dari resume.** Rantai yang memberi urutan kerja;
 resume memberi rinciannya.
 
-### `06_ENGINEERING/` … `09_HANDOVER/` — map pekerjaan proyek
+### `06_ENGINEERING/` … `09_HANDOVER/` — folder pekerjaan proyek
 
-Tiap map punya `README.md` sendiri yang menyebut aturannya. Yang perlu diingat:
+Tiap folder punya `README.md` sendiri yang menyebut aturannya. Yang perlu diingat:
 
 | Map | Aturan yang paling sering dilanggar |
 |---|---|

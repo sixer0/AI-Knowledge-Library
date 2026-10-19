@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 85); halaman katalog: 115; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3069
+- Nomor stan (booth): 3069
 - Produk dipamerkan: Convert's main products include power devices and power ICs. Power devices products cover the voltage range of 40V-1500V, and have formed a full range of low-voltage, highvoltage and ultra-high-voltage products, as well as the development of FRMOS series products. For third-generation semiconductors, Convert has developed 650V-1700V SiC MOSFET product series. And for power ICs, the products include PWM control ICs and gate driver ICs.
 - Website: http://www.convertsemi.com/
 - Email publik: shenwf@convertsemi.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

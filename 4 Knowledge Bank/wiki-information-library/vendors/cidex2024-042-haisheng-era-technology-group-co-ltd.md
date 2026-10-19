@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 42); halaman katalog: 81; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2095
+- Nomor stan (booth): 2095
 - Produk dipamerkan: ◆ 100% 全国产加固笔记本 ◆ 100% 全国产 2U 加固机 ◆ PXIE 便携式测试平台 ◆ 国产化 VPX 系统 ◆ 车载加固计算平台 ◆ CPCI 便携机系统 ◆ CPCI S.0 计算机平台和功能模块扩展 ◆ 信号采集系统 ◆ 带屏幕离线采集系统 ◆ ARM 嵌入式采集系统 ◆ 航电总线 1553B 板卡 ◆ 高速 AD 采集卡 ◆ 同步 422、LVDS、反射内存 ◆ AD、DA、DIO 等多功能板卡 ◆ 6U VPX 飞腾 D2000/8+JH920 ◆ D2000 加固主板 ◆ 电源测试系统 ◆ 故障注入系统 ◆ 智能车辆底盘系统
 - Website: Not listed
 - Email publik: wanghe@hs-era.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: website not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

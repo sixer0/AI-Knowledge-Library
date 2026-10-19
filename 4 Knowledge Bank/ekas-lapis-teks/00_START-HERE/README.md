@@ -67,12 +67,12 @@ Dua kekosongan itu berbeda sifatnya:
 ## Enam aturan yang tidak boleh dilanggar
 
 **1. Setiap angka teknis membawa penanda tingkat.**
-`[R2, ANSI/NETA ATS-2017, Tabel 100.1, PDF 223]` — bukan angka telanjang.
+`[R2, ANSI/NETA ATS-2017, Tabel 100.1, PDF 223]` — bukan angka tanpa sumber.
 
 **2. Ambang terima menuntut R1 atau R2.**
 Ambang dari R3 hanya sah bila kontrak mengadopsinya secara tertulis.
 
-**3. Angka melekat produk menuntut R4.**
+**3. Angka khusus produk menuntut R4.**
 Derating, efisiensi, DoD, umur siklus, unjuk kerja tulis — **wajib** surat pabrikan.
 Bila belum ada, tulis "menunggu data pabrikan", jangan diisi angka umum.
 
@@ -93,6 +93,6 @@ pengetahuan umum.
 - **Nomor halaman merujuk halaman PDF**, bukan halaman cetak, kecuali dinyatakan keduanya.
 - **Diesel Generator Handbook kehilangan ± 55 halaman** — Bab 11 (emergency & standby)
   seluruhnya. Materinya tidak tersedia.
-- **Tiga buku catu daya terbit 2000–2004.** Kerangka hitungnya sahih; angka produknya tidak.
+- **Tiga buku catu daya terbit 2000–2004.** Kerangka hitungnya sahih; angka produknya tidak dapat dijadikan acuan.
 - **Berkas fisik PDF belum dipindahkan ke `03_SOURCE-VAULT/`** — lihat
   `DOCUMENT-CONTROL.md` bagian "Keadaan migrasi".

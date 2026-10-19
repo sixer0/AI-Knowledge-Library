@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 43); halaman katalog: 82; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2099
+- Nomor stan (booth): 2099
 - Produk dipamerkan: ◆ Characteristics of the TERICADE ® T1400 Intelligent Multi Station Smoke Purifier: ◆ The entire series adopts German EBM fans, with an ultra long service life ◆ Efficient integrated filter design, providing you with a simple replacement experience ◆ Patent metal anti-static tabletop smoking pipeline ◆ Silent design for the entire machine, with a minimum operating noise of ≤ 50 decibels (wind speed test below 2nd gear) ◆ Three color status light filter alarm function, on-site engineers can visually distinguish between normal/faulty equipment/filter replacement status ◆ Emergency stop switch on the panel, which can quickly shut down valuable components or in case of emergency ◆ The entire series is equipped with explosion-proof models. If there is a solvent type usage area, please contact the sales representative to select the model for you
 - Website: https://www.tericade.cn
 - Email publik: Xuelin_wang@126.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

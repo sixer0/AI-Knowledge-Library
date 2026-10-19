@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 90); halaman katalog: 119; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3086
+- Nomor stan (booth): 3086
 - Produk dipamerkan: ● Can work for free-standing. Can work steadily when the wind speed is up to 20m/s without guying rope. Can’t be destroyed under the wind speed 35m/s. ● The mast body is made from a fine drawing aluminum alloy materials, technology and precision of drawing was far more than the national standard. ● The raising and falling of the mast body is linkage. ● Depending on the self-locking of T type screw, it can lock and work stably at any height and direction;
 - Website: https://www.njjundong.com
 - Email publik: 13952032075@139.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

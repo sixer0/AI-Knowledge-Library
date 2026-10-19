@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 118); halaman katalog: 141; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3131
+- Nomor stan (booth): 3131
 - Produk dipamerkan: Shenzhen Lianyu Technology has a rich product line: full brick, half brick, 1/4 brick, 1/8 brick, 1/16 brick, 1/32 brick, 2*1 inch, 1*1 inch, 1*0.5 inch, 0.5*0.5 inch, 40*26*8mm, 32*19.3*7mm and other standard brick module power supply
 - Website: http://www.lianyukeji.com
 - Email publik: Sales02@lianyukeji.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 194); halaman katalog: 197; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 互动体验区
+- Nomor stan (booth): 互动体验区
 - Produk dipamerkan: Cyber Manhunt is a story-oriented puzzle game focusing on big data, hacking, citizen privacy, and social workers. lt focuses on social issues such as cyber violence and privacy breaches. In the game, players will take on the role of a top hacker, accept a series of tasks, use various social work skills, to find out the truth of the incident and complete their goals.
 - Website: https://www.alubastudio.com
 - Email publik: alubastudio@163.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

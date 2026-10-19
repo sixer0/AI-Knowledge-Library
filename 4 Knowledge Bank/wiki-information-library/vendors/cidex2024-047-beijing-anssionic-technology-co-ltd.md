@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 47); halaman katalog: 85; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2109
+- Nomor stan (booth): 2109
 - Produk dipamerkan: 纯 国 产 的：DDR/LPDDR、EMMC、BGA SSD、 固 态 盘、 千 兆 和 万 兆 网 卡 芯 片， 千兆和万兆网卡、网络交换芯片、PHY、时钟缓冲芯片、时钟去抖芯片、开关芯片、 AD/DA、超高增益运算放大器、POL 电源芯片、IGBT（兼容英飞凌）、伺服驱动模块、 GPGPU、AI 训练卡和推理卡、FPGA、GPU、显卡、晶振晶体、连接器
 - Website: https://www.anssionic.com
 - Email publik: TQ@anssionic.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

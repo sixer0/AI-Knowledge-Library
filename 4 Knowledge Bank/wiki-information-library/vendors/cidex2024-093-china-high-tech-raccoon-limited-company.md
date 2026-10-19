@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 93); halaman katalog: 121; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3090
+- Nomor stan (booth): 3090
 - Produk dipamerkan: China High-Tech Raccoon Limited Company is a high-tech enterprise specializing in the design, development, production, and consulting services for embedded computer hardware and software products, as well as automation test and control technology products. Standard products: communication interface modules (such as MIL-STD- 1553B, ARINC429, serial ports, CAN, etc.), data acquisition modules (such as AD, DA, DIO, switches, counters, multi-functional, etc.), MANCODE, RVDT/LVDT, enclosures, controllers, accessories (boxes, coaxial couplers, terminal resistors, etc.). Portable test equipment: PXI, CPCI, PCI buses, with different slot configuration combinations.
 - Website: http://www.chrtech.cn
 - Email publik: 761659120@qq.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

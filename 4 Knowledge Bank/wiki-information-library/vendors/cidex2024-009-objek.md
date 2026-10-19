@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 9); halaman katalog: 55; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1035
+- Nomor stan (booth): 1035
 - Produk dipamerkan: 1、 PP 材质的注塑 安全防护箱 , 防水防尘等级 IP67, 接受定制。 2、ABS、 HDPE 材质的吸塑工具箱。接受定制。 3、ABS 材质的吸塑自行车箱子。接受定制。 4、HDPE 材质的吸塑万能箱 ( 运输、空投 )` 材质轻韧性高。
 - Website: https://www.b-w-international.com.cn
 - Email publik: Peter.pan@b-w-international.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Corrected: website format corrected.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Corrected: website format corrected.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

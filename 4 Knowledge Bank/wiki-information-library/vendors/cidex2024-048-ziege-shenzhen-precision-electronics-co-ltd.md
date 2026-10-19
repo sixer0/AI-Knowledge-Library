@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 48); halaman katalog: 86; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2111
+- Nomor stan (booth): 2111
 - Produk dipamerkan: Shenzhen Quality ZI EGE Company has launched the only ceramic hot wire stripper on the market after several years of research and development. Innovations in materials and production processes have allowed the product to meet and exceed the core indicators of mainstream brands in terms of working temperature, stripping efficiency, and usage cost. It can completely replace similar products from abroad. Product Features ： ● 100% Made in China, offering lower usage costs compared to similar products from the United States and Europe. ● Actual working temperature tested at 792° C, providing a significant advantage when handling high-temperature fine wires. ● The only ceramic blade head on the market, with excellent oxidation resistance. ● The only product on the market offering custom blade head hole- drilling services.
 - Website: https://www.iziege.com
 - Email publik: ffshi@iziege.com
 - Kategori utama: 
-- Status verifikasi: source-matched
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
 - Catatan data: Manual review: email requires confirmation, website requires confirmation. OCR spacing was removed, but the inferred mailbox could not be independently confirmed. Both the inferred email and domain remain unverified.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

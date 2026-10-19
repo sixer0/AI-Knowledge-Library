@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 64); halaman katalog: 98; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2136
+- Nomor stan (booth): 2136
 - Produk dipamerkan: The company's products are mainly cooling fans, fans are divided into DC AC centrifugal blower, heat pipe, temperature equalization board, card locking bar, puller, lock, liquid cooled air-cooled chassis, cooling fans according to the form is divided into axial flow, blast type, centrifugal type, cross-flow type. Each fan type has different features and is applicable to different devices and application scenarios. Axial flow air volume, long life; Blast type small volume, low noise; Centrifugal type is often used in refrigeration and large equipment; The cross-flow type is suitable for devices whose heat dissipation area is rectangular.
 - Website: http://www.bjxbjyfan.com
 - Email publik: mzh@bjxbjyfan.com; FY1@bjxbjyfan.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

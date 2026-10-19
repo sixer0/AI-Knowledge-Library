@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 58); halaman katalog: 94; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2128
+- Nomor stan (booth): 2128
 - Produk dipamerkan: 中科赛凌目前主要产品有高低温试验箱、湿热试验箱、冲击试验箱、转台 / 隔振配 套温箱、低气压试验箱、温湿振三综合试验箱、步入式及汽车环境仓、超低温设备等 10 类设备。多项为非标定制，属国内首创，实现了进口替代。
 - Website: https://www.scicoolng.com
 - Email publik: Not listed
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: email not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Email tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

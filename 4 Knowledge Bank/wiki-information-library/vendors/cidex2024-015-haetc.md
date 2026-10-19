@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 15); halaman katalog: 60; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1046
+- Nomor stan (booth): 1046
 - Produk dipamerkan: Not separately listed in the catalog; refer to the expertise description.
 - Website: https://haetc.cn
 - Email publik: luobinrong 163@163.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: product/exhibit not separately listed. Manual review: email requires confirmation. Catalog text is ambiguous ('luobinrong 163@163.com'); the intended mailbox cannot be proven. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Produk atau materi pameran tidak dicantumkan secara terpisah dalam katalog. Manual review: email requires confirmation. Catalog text is ambiguous ('luobinrong 163@163.com'); the intended mailbox cannot be proven. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

@@ -87,7 +87,7 @@ pemisah ASCII, angka/jalur/baris disalin persis.
 | `R3 - Construction Planning, Equipment, and Methods (Peurifoy).md` | 65 | 2.595 | REF-CON-001, metode pelaksanaan + alat |
 | `R3 - Construction Cost Estimating (Holm & Schaufelberger).md` | 58 | 2.371 | REF-CON-002, taksiran biaya |
 | `R3 - Construction Project Scheduling and Control (Mubarak).md` | 66 | 2.504 | REF-CON-003, penjadwalan + kendali |
-| TOTAL | 189 | 7.470 | cocok nominasi kartu; TIDAK ada RANTAI-JAMINAN.md (terukur False) - rantai baru lahir dari studi (Bagian 4) |
+| TOTAL | 189 | 7.470 | cocok nominasi kartu; TIDAK ada RANTAI-JAMINAN.md (terukur False) - rantai baru berasal dari studi (Bagian 4) |
 
 Lapis 05 ini TERTIPIS di batch calon (ukur 2 [J]: GROUNDING 548 > CIVIL 406 > DRAWING 236 >
 CONSTRUCTION 189 > BUILDING 142); ketebalan bukan kriteria vonis.
@@ -198,7 +198,7 @@ untuk domain ini). Setiap nomor PDF = pointer lapis teks, BUKAN vonis halaman fi
 
 ## Bagian 4 - RANTAI JAMINAN BARU (Rantai M) mata 1-5 - hasil studi, status PUTUS jujur di kepala
 
-Rantai ini TIDAK ADA di rak sebagai berkas (terukur False) - lahir dari studi D2-STU sebagai
+Rantai ini TIDAK ADA di rak sebagai berkas (terukur False) - berasal dari studi D2-STU sebagai
 draf pola RANTAI-K/RANTAI-J, disahkan terbit apa adanya oleh vonis controller; penempatan final
 sebagai berkas rak wewenang pengelola rak.
 
@@ -392,7 +392,7 @@ teks. Jumlah per predikat diverifikasi ulang oleh alat terhadap tabel di bawah
 
 | ID | Butir | Marker sumber |
 |---|---|---|
-| RD-01 | Laci 05/CONSTRUCTION tidak punya RANTAI-JAMINAN; rantai baru lahir dari studi ini, putus @4 (+ sebagian @2 konteks ID) | [ukur 1 [1]; Bagian 4] |
+| RD-01 | Laci 05/CONSTRUCTION tidak punya RANTAI-JAMINAN; rantai baru berasal dari studi ini, putus @4 (+ sebagian @2 konteks ID) | [ukur 1 [1]; Bagian 4] |
 | RD-02 | GAP-019 R1 AHSP/SNI harga satuan, MENENGAH, terbuka - satu-satunya gap berdomain CONSTRUCTION | [GAP-REGISTER.csv:20 verbatim; ukur [3]] |
 | RD-03 | Peta bab->halaman Peurifoy (bab 1-16; pointer 57/115/164/201/240/284/348/392/463/503/564/622/687/760/842) | [R3, Peurifoy resume:21-38; kartu seksi 1] |
 | RD-04 | Peta bagian->halaman Holm (I 30, II 90, III 150, IV 200, V 234, VI 292, Apendiks 338) | [R3, Holm resume:20-28] |
@@ -514,7 +514,7 @@ Blok ini wajib ikut terbit bersama angkanya. Objek berisi metode yang menyembuny
 lengkap untuk RAB Indonesia" - yang terbit lapisan BATAS-PENGETAHUAN: peta metode
 pelaksanaan-estimasi-penjadwalan + peta keabsenan norma harga.
 
-1. **Status rantai apa adanya (tanpa perataan):** Rantai M (baru, lahir dari studi) **PUTUS di
+1. **Status rantai apa adanya (tanpa perataan):** Rantai M (baru, berasal dari studi) **PUTUS di
    mata 4** dan **sebagian mata 2 untuk konteks Indonesia** - "METODE LENGKAP - ANGKA & NORMA
    TIDAK ADA" (Bagian 4). DILARANG KLAIM KESESUAIAN HARGA: tidak ada angka harga
    satuan/durasi/produktivitas boleh diterbitkan bersandar rak, dan tidak ada kalimat positif

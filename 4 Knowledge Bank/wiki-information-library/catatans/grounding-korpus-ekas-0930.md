@@ -214,7 +214,7 @@ naik jadi 17/5/2/4 = 28 dan studi hulu perlu diamandemen - keputusan controller,
 
 ## Bagian 4 - RANTAI-D: SUDAH ADA di rak, tervalidasi, PUTUS @4 dipertahankan APA ADANYA
 
-Beda dengan C1..C3 (rantai lahir dari studi lalu diterbitkan): rantai domain ini sudah hidup di
+Beda dengan C1..C3 (rantai berasal dari studi lalu diterbitkan): rantai domain ini sudah hidup di
 rak dan TIDAK disunting oleh studi maupun objek ini. Validasi = setiap pointer halaman dibuka ke
 teks PDF primer (pypdf) dan diuji isi semantiknya. Kepala rantai dikutip dari rak
 (RANTAI-JAMINAN.md:3-7, sha256[:12] 95e52d7d6162; glif dinormalisasi, kata utuh):
@@ -328,7 +328,7 @@ benar hanya dengan: "rak tidak punya sumber sah; jalur benar = penetapan pemilik
 |---|---|---|---|---|---|
 | D-C4-01 | semantik/atribusi | TINGGI | RANTAI:68,:74,:102; resume Joffe:115,:187; REF-GRD-001:41; skill fleet SKILL.md:52 + references/01:15 | "Konduktor penghubung WAJIB dilepas sebelum diukur [R3, Joffe PDF 580]" - kalimat PDF 580 sebenarnya peringatan bahaya MELEPAS ("precautions ... in view of the danger of removing the connecting conductor"); norma wajib-lepas tidak ditemukan di PDF 553-590. Praktik sahih sebagai INTERPRETASI teknik FOP elektroda tunggal (bandingkan PDF 584 varian tanpa-lepas), tapi penanda [R3]-nya salah level. KONSEKUENSINYA NYATA: label keliru ini menembus skill fleet + kartu - agen yang mengajarkannya sebagai kutipan akan membela angka/norma ke klien dengan rujukan yang salah | Ubah jadi "praktik rekayasa (INTERPRETASI dari metode FOP), bukan kutipan [R3]"; sinkronkan label DUA ARAH (rak + skill fleet) lewat kurasi (bukan sunting sepihak pekerja) |
 | D-C4-02 | karakterisasi | SEDANG | RANTAI:57; resume Uman:148; skill fleet | "Tabel 4.1 tersimpan sebagai GAMBAR tabel" - lapisan teks PDF 89-90 sebenarnya memuat data tabel (ekstraksi kacau); guard "buka PDF" tetap benar, karakterisasi menyesatkan | Koreksi karakterisasi; transkripsi manusia untuk Tabel 4.1/4.2 (BT-01/BT-02) |
-| D-C4-03 | alamat bukti | SEDANG | `_ISI.md` laci R3/GROUNDING + R3/LIGHTNING | Klaim "berkas fisik sudah berada di laci ini" salah - cermin hanya berisi `_ISI.md`; PDF nyata di gsp-ekas/lengkap (139.612.063 B / 26.856.687 B terukur [M]). Kelas sama dgn anotasi NWSKILL-0923/D2-FIXx (laci IEC) tapi belum beranotasi di sini | Tempelkan anotasi defect kelas yang sama ke kedua laci |
+| D-C4-03 | alamat bukti | SEDANG | `_ISI.md` laci R3/GROUNDING + R3/LIGHTNING | Klaim "berkas fisik sudah berada di laci ini" salah - cermin hanya berisi `_ISI.md`; PDF nyata di gsp-ekas/lengkap (139.612.063 B / 26.856.687 B terukur [M]). Kelas sama dengan anotasi NWSKILL-0923/D2-FIXx (laci IEC) tapi belum beranotasi di sini | Tempelkan anotasi defect kelas yang sama ke kedua laci |
 | D-C4-04 | pointer phantom | SEDANG | RANTAI:126 | Rujukan "urutan kedua `DAFTAR-PENGADAAN-BAHAN.md`" - find ekas + shared ws = 0 berkas (sapuan segar [M]) | Tunjukkan lokasi sebenarnya atau ganti rujukan ke GAP-ACQUISITION-PLAN.md |
 | D-C4-05 | lokator | RENDAH | resume Joffe:72 | Kutipan mitos disebut "dikutip di halaman pembuka bab (PDF 32)" padahal Bab 3 mulai PDF 167; kutipan memang ADA di PDF 32 (area Bab 1) - verifikasi isi LULUS, frasa lokator menyesatkan | Perbaiki frasa saat revisi berikutnya |
 | D-C4-06 | superlatif | RENDAH | resume Joffe:11; GAP-REGISTER.md:46 | "paling lengkap ... yang ada" tanpa pembanding terukur - opini; tak memuat angka | Label opini atau hapus saat promosi (LG-02) |

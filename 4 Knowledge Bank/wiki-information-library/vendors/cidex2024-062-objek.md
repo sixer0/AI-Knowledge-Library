@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 62); halaman katalog: 97; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2134
+- Nomor stan (booth): 2134
 - Produk dipamerkan: 主营直流电源、交流电源、直流电源、电子负载，数采，功率分析仪，电能质量记录仪， 示波器，波形记录仪，红外热像仪，高压到 40KV 的光线隔离系统，便携式数据记录仪 （应用于恶劣环境，如动车组测试），电磁兼容测试方案，场强计，万用表，LCR 电 桥，测功机实验平台等产品，主要代理的品牌有泰克，鼎阳 ，德维创，浙江大立 ，致茂 （CHROMA），恩智电源 ,fotric，横河，日置等国内外知名品牌。
 - Website: https://www.reco-tech.cn
 - Email publik: Shirui@reco-tech.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

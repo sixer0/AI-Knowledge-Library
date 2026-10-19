@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 19); halaman katalog: 63; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 1053
+- Nomor stan (booth): 1053
 - Produk dipamerkan: 神通数据库管理系统是一款拥有自主知识产权的企业级、大型通用关系型数据库产 品，具有海量数据管理和大规模并发处理能力，系统功能完善、性能稳定，可广泛应用 于各类企事业单位、政府机关的信息化建设。
 - Website: https://www.shentongdata.com
 - Email publik: Not listed
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: email not listed, English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Tidak tercantum dalam katalog: email dan nama dalam bahasa Inggris. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

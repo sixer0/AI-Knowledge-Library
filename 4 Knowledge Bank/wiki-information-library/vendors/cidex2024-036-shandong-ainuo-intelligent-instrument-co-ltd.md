@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 36); halaman katalog: 76; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2073
+- Nomor stan (booth): 2073
 - Produk dipamerkan: AN17ES series Energy storage power by the power battery, it can perfectly replace the power supply of the diesel engine, realizing zero pollution and zero emission of the apron. It also provides a perfect solution for the remote machine position with insufficient power distribution. AN17PC series reel power supply is a 400Hz power supply with automatic cable retraction and retraction device. It is small in size and light in weight. It can be used with corridor bridge installation or mobile trailer. It is fast in installation, flexible in movement, labor-saving in retraction and retraction, and user-friendly.
 - Website: https://www.ainuo.com.cn
 - Email publik: ainuo@ainuo.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

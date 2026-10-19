@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 106); halaman katalog: 132; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3109
+- Nomor stan (booth): 3109
 - Produk dipamerkan: GAEALaViC ® The architecture of the intelligent joint simulation platform is fully built on the self-developed DSL domain specific language GAEAScript, which can quickly implement various modeling and simulation system integration. It can support comprehensive and multi granularity models from functional level to signal level. The platform has a complete DSL development environment (SDK) and supports cloud edge joint system simulation systems that combine virtual/reality. The platform has been adapted to various domestic operating systems.
 - Website: https://www.gaeaincloud.com
 - Email publik: jiangchen@gaeaincloud.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

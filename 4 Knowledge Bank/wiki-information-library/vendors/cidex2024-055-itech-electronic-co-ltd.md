@@ -30,16 +30,16 @@ ITECH 艾德克斯电子为专业的仪器制造商，致力于“功率电子�
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 55); halaman katalog: 92; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2121
+- Nomor stan (booth): 2121
 - Produk dipamerkan: ITECH Electronics, a professional manufacturer of power testing instruments, providing abundant and rich products lines for testing, with more than 900 models available. The product series include: regenerative AC/DC power supplies, regenerative AC/DC loads, grid simulators, solar array simulators, battery simulators, source meters, power analyzers, battery internal resistances testers, and automatic testing systems.
 - Website: https://www.itechate.com
 - Email publik: sales@itechate.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

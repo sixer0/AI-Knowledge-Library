@@ -40,7 +40,7 @@ hanya file laporan).
 - Vault: status 51 dipromosikan · 5 menunggu_persetujuan · 2 menunggu_verifikasi · 2 usulan ·
   1 ditolak · 1 menunggu_upload_user; 0 usulan basi > 7 hari.
 - Temuan inspeksi: **122** (A 5 · B 2 · C 66 · D 0 · E 0 · F 0 · G 0 · H 49); diperbaiki 35
-  (A 5 · B 2 · C 28); di-flag 51; pending 37 + 49.
+  (A 5 · B 2 · C 28); ditandai 51; pending 37 + 49.
 - Setelah mutasi: IL API 2011 → 2012 (snapshot run); 8 path lama terhapus & 9 path baru di-mirror
   bridge; CHANGES.md konsisten (35 = 35).
 

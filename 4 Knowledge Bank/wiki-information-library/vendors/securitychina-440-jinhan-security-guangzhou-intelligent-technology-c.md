@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 443); booth W2B59._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2024
-- Booth: W2B59
+- Nomor stan (booth): W2B59
 - Website: https://www.gzjhxf.com/
 - Email publik: Email not publicly available
 - Kategori utama: Defence & Security
 - Kategori tambahan: Industrial/Operational Technology (OT) Security; Surveillance & Intelligence
-- Status verifikasi: Email not public
-- Catatan data: Official company website verified; no public general business email was found.
+- Status pada sumber: Email not public (email tidak tersedia untuk publik)
+- Catatan data: Situs resmi perusahaan telah diverifikasi; email bisnis umum yang tersedia untuk publik tidak ditemukan.
 - Sumber exhibitor: https://exhibitors.emagecompany.com/guard/securitychina2024.html
 - Sumber perusahaan: https://www.gzjhxf.com/a/guanyuwomen/gongsijianjie/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

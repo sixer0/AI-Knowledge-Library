@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 73); halaman katalog: 106; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3001
+- Nomor stan (booth): 3001
 - Produk dipamerkan: Introduction:Linkdood is a privately-deployed and security-centric workplace communication platform. We provide instant messaging, video conferencing, and digital workspace features. Linkdood specializes in security, with private server deployment, end-to-end encryption, and special security features such as watermark, burnchat, encrypted messages, and more. Also, Linkdood can adopt any encryption algorithm of client’s choice. Besides security, Linkdood is highly customizable. We can integrate client’s internal systems and applications. We also have a low-code development platform for client and third party developers. Linkdood has provided customization to a single organization hosting more than 500,000 users in their customized version of Linkdood. Disadvantages of Public Server Deployed Communication Applications Nowadays, most instant messaging, video conferencing, or remote working applications are publicly deployed. It means they store all the customer data in the application service provider’s data center, and the service provider can access all the data. For public server deployment, not only there will be potential government censorship, but also the data could be accessed by IT personnel/workers, IT managers, Company executives, Company Owner/ Shareholders. Advantages of Private Server Deployed Communication Applications Private server deployment ensures every client’s server is physically isolated and private. Private deployment can completely avoid third-party access, censorship, and monitoring. Data, infrastructure, and access authority are all under client’s full control. Customer Cases:Linkdood’s China Version is proudly serving the MOST SIGNIFICANT and HIGHEST departments in China. Customer in China’s Army. Status comparable to: Singapore Armed Forces, British Armed Forces, Saudi Arabian Armed Forces, and etc. Customer in China’s Government. Status comparable to: Office of the President of Singapore, Prime Minister’s Office of the United Kingdom, Executive Office of the Crown Prince of Saudi Arabia, and etc.
 - Website: https://www.vrv.com.cn
 - Email publik: zhengweiming@vrvmail.com.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

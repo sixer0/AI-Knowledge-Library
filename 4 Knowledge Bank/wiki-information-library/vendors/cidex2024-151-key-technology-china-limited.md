@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 151); halaman katalog: 166; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 4035
+- Nomor stan (booth): 4035
 - Produk dipamerkan: 主要生产工业键盘，医疗键盘，军工键盘，煤矿键盘，海事键盘及各特种加固键盘 和鼠标，产品广泛应用于：工业、金融、通信 、军工、海事、教育、医疗、安防、交通、 航空、煤炭、化工、石油、食品、饮料等超过 100 多个特种行业。
 - Website: https://www.rugged-key.cn
 - Email publik: sales11@key-tek.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

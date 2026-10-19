@@ -84,7 +84,7 @@ U+00B7/U+2014 + glif peringatan (guard resume Codes:8); objek ini nol keduanya.
 | `R3 - BIM Handbook (Sacks dkk.).md` | 41 | 1.566 | 73f29517f585 | REF-BLD-002, alur kerja BIM + penyerahan model |
 | `R3 - Building Codes Illustrated (Ching & Winkel).md` | 47 | 1.947 | 298656d5e16f | REF-BLD-003, tafsir IBC 2018 (kode AS) + guard keras |
 | `R3 - Building Construction Illustrated (Ching).md` | 54 | 1.916 | 761b842f8fe7 | REF-BLD-001, sistem bangunan (pondasi->M&E) |
-| TOTAL | 142 | 5.429 | - | cocok nominasi kartu tugas; TIDAK ada RANTAI-JAMINAN.md saat studi 2026-09-29 (pra-C3-L1b; terukur via listing direktori) - rantai baru lahir dari studi (Bagian 4) dan TERBIT ke rak pasca-studi via C3-L1b: `ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md` (6.391 B, sha 815c88791fcd, salinan verbatim Bagian 4) |
+| TOTAL | 142 | 5.429 | - | cocok nominasi kartu tugas; TIDAK ada RANTAI-JAMINAN.md saat studi 2026-09-29 (pra-C3-L1b; terukur via listing direktori) - rantai baru berasal dari studi (Bagian 4) dan TERBIT ke rak pasca-studi via C3-L1b: `ekas/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md` (6.391 B, sha 815c88791fcd, salinan verbatim Bagian 4) |
 
 Tidak ada berkas lain di folder ini saat studi 2026-09-29 (pra-C3-L1b); lapis 05 terkecil di batch. Pasca-studi, C3-L1b menerbitkan RANTAI-JAMINAN.md ke folder ini (pointer pada baris TOTAL di atas).
 

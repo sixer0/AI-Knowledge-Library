@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 96); halaman katalog: 123; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3097
+- Nomor stan (booth): 3097
 - Produk dipamerkan: 公司面向全国提供射频微波芯片、硅基数字模拟芯片、特种元器件及 SIP 微系统等 相关产品，产品频率覆盖范围 DC~110GHz，具体包括：限幅器、低噪声放大器、功率放 大器、开关、混频器、检波器、移相器、衰减器、滤波器、POL 电源、时钟驱动、温度 传感器、运算放大器、多路复用器、MOSFET 驱动器等。
 - Website: https://www.zkmc.cn
 - Email publik: Not listed
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: email not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Email tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

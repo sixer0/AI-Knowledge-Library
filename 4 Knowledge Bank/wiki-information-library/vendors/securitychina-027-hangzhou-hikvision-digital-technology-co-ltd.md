@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 30); booth E2B43._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2022
-- Booth: E2B43
+- Nomor stan (booth): E2B43
 - Website: https://www.hikvision.com/
 - Email publik: zhangsuhan@hikvision.com
 - Kategori utama: Surveillance & Intelligence
 - Kategori tambahan: Artificial Intelligence; Defence & Security
-- Status verifikasi: Verified
+- Status pada sumber: Verified (terverifikasi)
 - Catatan data: Historical 2022 exhibitor. Booth and email are from the official Security China exhibitor database; not yet confirmed for 2026.
 - Sumber exhibitor: https://en.securitychina.com.cn/ExhibitorDatabase/ada457df-ea1f-4a50-ac46-baffe16b23d7
 - Sumber perusahaan: https://www.hikvision.com/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

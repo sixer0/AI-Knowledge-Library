@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 76); halaman katalog: 108; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3029
+- Nomor stan (booth): 3029
 - Produk dipamerkan: 睿虎 F75-14 寸四屏加固便携机是一款高性价比的便携式计算机，采用高度便携式一 体化结构，加强铝镁合金的机身，四屏设计和防滑手提柄，可以内置高容量锂电池，可 扩展 PCI 卡。该产品采用国产化飞腾 D2000 CPU，板载内存，兼容不同尺寸模块，配备 笔记本键盘及触摸鼠标板。睿虎 F75-14 寸四屏加固便携机可用于医疗、高新电子、公检法、 勘探测绘、工业控制、高速公路收费等领域。 睿变 F20 无风扇工控机，符合标准 2U 工控机尺寸规范，整机采用无风扇被动散热 结构设计。本产品采用飞腾 D2000/8 八 核处理器，高主频：标准 2.3GHz ， 国产 DDR4 内存，国产最高支持 16GB( 非国产可支持 32GB) ，可以配置冗余双电源。该机器多达 3 个 PCIE 扩展槽位，并且提供前置独立插拔 2.5 寸硬盘仓，整机可选用 mSATA 固态硬盘， 提高可靠性，运行稳定，支持使用纯国产银河麒麟操作系统和统信操作系统。 CH-NS0AH0 是基于 Atlas 200I Ind A2 高可靠性加速模组开发的 AI 板卡，四核高性 能 CPU 搭配新架构 NPU，使产品性能提升 20%；支持宽温环境工作，12V 供电，支持 20 路 1080P 30FPS 硬件解码和 12 路 1080P 30FPS 硬件编码能力，适配 OpenEuler 操作 系统；此产品可在边端侧实现目标识别、图像分类、图形拼接等 AI 应用加速；可广泛应 用于各类无人设备、智能设备、工业设备、嵌入式系统等 AI 推理场景。
 - Website: http://www.ritrontek.com/
 - Email publik: wei.zhao@ritrontek.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Missing from catalog: English name not listed. Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Nama dalam bahasa Inggris tidak tercantum dalam katalog. Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

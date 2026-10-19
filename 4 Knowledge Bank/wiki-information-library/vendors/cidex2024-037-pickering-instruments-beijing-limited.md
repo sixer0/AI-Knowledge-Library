@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 37); halaman katalog: 77; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 2077
+- Nomor stan (booth): 2077
 - Produk dipamerkan: Ideal for EV battery stack emulation in BMS (battery management system) test applications, Pickering’s latest version of their PXI & PXIe battery simulator modules, the 41/43-752A range, has increased voltage isolation to 1000V, as the EV industry shifts from 400V to 800V architectures.These modules can be combined with other Pickering PXI switch and simulation modules, including high voltage switching, fault insertion, thermocouple simulation, and RTD simulation, as well as with other vendors' PXI modules, to create a fully flexible BMS test system. Because these modules use an industry-standard open architecture, they promote system longevity, mitigate obsolescence, and provide seamless integration of multi-vendor instrumentation and communication modules. The 41/43-752A can also be used as a 6-channel fully isolated power supply with independent sense lines on each channel.
 - Website: https://www.pickeringtest.com/
 - Email publik: Chinasales@pickeringtest.com
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

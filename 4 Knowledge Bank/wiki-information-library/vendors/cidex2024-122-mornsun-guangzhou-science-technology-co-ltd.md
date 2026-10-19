@@ -30,16 +30,16 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/CIDEX_2024_Vendor_Directory_VALIDATED_FINAL (1).xlsx (baris 122); halaman katalog: 144; QA: source-matched._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: CIDEX 2024 · Tahun: 2024
-- Booth: 3135
+- Nomor stan (booth): 3135
 - Produk dipamerkan: 名称： 1-350W 元器件 100% 国产化 DC/DC 电源 介绍： ①国产自主 IC：专利保护，自主可控； ②宽工作温度范围：-40℃ to +105℃； ③轻载应用，四点平均效率≥ 85%（10.25.50.100）； ④各类，Pin to Pin 兼容，支持定制
 - Website: https://www.mornsun.cn
 - Email publik: market320@mornsun.cn
 - Kategori utama: 
-- Status verifikasi: source-matched
-- Catatan data: Website was not live-tested row by row.
+- Status pada sumber: source-matched (isi sesuai dengan sumber)
+- Catatan data: Situs web belum diuji langsung untuk setiap entri.
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research

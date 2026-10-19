@@ -30,18 +30,18 @@ dipromosikan-pada: 2026-08-26
 
 _Sumber: legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001/China Expo - Toni Research/Expo_China_Vendor_Batch_01_20_CIDEX.xlsx (sheet 'Vendor Master', baris 33); booth W4A29._
 
-## Data exhibitor
+## Data peserta pameran
 - Expo: Security China · Tahun: 2022
-- Booth: W4A29
+- Nomor stan (booth): W4A29
 - Website: http://www.trimps.ac.cn/
 - Email publik: zhangcengceng@126.com
 - Kategori utama: Cyber Security
 - Kategori tambahan: Digital Forensic; Defence & Security
-- Status verifikasi: Verified
+- Status pada sumber: Verified (terverifikasi)
 - Catatan data: Historical 2022 exhibitor. Booth, website and email are from the official Security China exhibitor database; not yet confirmed for 2026.
 - Sumber exhibitor: https://en.securitychina.com.cn/ExhibitorDatabase/c3419a8a-bc41-4d3c-a932-361ae020b2c0
 - Sumber perusahaan: http://www.trimps.ac.cn/
 
-## Domain & project
-- Domain registry: defense-intel (vendor intelligence China defence/OSINT expo)
-- Project: china-expo-vendor-research
+## Bidang dan proyek
+- Bidang dalam registry: defense-intel (riset vendor pada pameran pertahanan Tiongkok berbasis sumber terbuka/OSINT)
+- Proyek: china-expo-vendor-research
