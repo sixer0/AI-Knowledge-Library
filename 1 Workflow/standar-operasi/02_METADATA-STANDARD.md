@@ -20,12 +20,11 @@ kelas_bukti: sintesis
 
 ## 1. Tujuan
 
-Setiap artefak IL harus **usable** (bisa dibaca manusia & mesin) dan **trackable** (bisa dilacak:
-siapa menulis, siapa mengedit, kapan, versi berapa, dari mana sumbernya, ke mana arah hidupnya).
+Setiap dokumen IL harus dapat dibaca manusia dan diproses mesin. Riwayatnya harus jelas: siapa penulis dan penyuntingnya, kapan dibuat dan diubah, versi yang berlaku, sumbernya, serta status dokumen dalam siklus hidupnya.
 
 ## 2. Skema frontmatter (wajib + opsional)
 
-Semua key lowercase, snake_case, satu baris per key. Contoh lengkap:
+Semua nama kolom memakai huruf kecil dengan format snake_case. Tulis satu kolom per baris. Contoh lengkap:
 
 ```yaml
 ---
@@ -56,16 +55,16 @@ Key opsional khusus vault/wiki (dari `gsp-library-data-standards`): `id`, `sensi
 
 ## 3. Aturan integritas (wajib)
 
-| # | Aturan | Penalti bila dilanggar |
+| # | Aturan | Akibat jika dilanggar |
 |---|--------|------------------------|
 | M1 | `title` di frontmatter **sama** dengan H1 pertama (UI IL membaca H1) | Entri tampil dengan judul ganda/aneh di IL |
 | M2 | `created` & `updated` format ISO `YYYY-MM-DD` | Tak bisa disortir/dilacak waktu |
-| M3 | `writer` memakai nama profil/akun GSP (`gsp-data-analyst`, `gsp-librarian`, `user-budi-kusharyanto`), **bukan** nama model | Provenans penulis hilang |
+| M3 | `writer` memakai nama profil/akun GSP (`gsp-data-analyst`, `gsp-librarian`, `user-budi-kusharyanto`), **bukan** nama model | Asal-usul kepenulisan tidak dapat dilacak |
 | M4 | Setiap angka/klaim kuat wajib `sumber` + `halaman`; tanpa itu angka dianggap **asumsi** | Fakta tak terverifikasi masuk IL |
-| M5 | `type` dari taksonomi; `status` dari lifecycle (lihat 01 §7) | Tak bisa difilter/dikelola |
-| M6 | `updated` di-refresh oleh `editor` saat ada perubahan | Riwayat edit tak tercatat |
+| M5 | `type` mengikuti taksonomi; `status` mengikuti siklus hidup (lihat 01 §7) | Tak bisa difilter/dikelola |
+| M6 | `editor` memperbarui `updated` setiap kali dokumen diubah | Riwayat edit tak tercatat |
 | M7 | `kelas_bukti` jujur: primer=asli, sekunder=laporan turunan, tersier=ringkasan pihak lain, sintesis=analisis lintas sumber | Nilai bukti salah tafsir |
-| M8 | Dokumen tanpa frontmatter valid = pelanggaran; run harian mengisi metadata dasar tanpa mengubah isi & mencatat di CHANGES.md | Dokumen yatim di IL |
+| M8 | Dokumen tanpa frontmatter valid = pelanggaran; pelaksanaan harian mengisi metadata dasar tanpa mengubah isi & mencatat di CHANGES.md | Dokumen yatim di IL |
 
 ## 4. Metadata per lapisan
 
@@ -73,12 +72,12 @@ Key opsional khusus vault/wiki (dari `gsp-library-data-standards`): `id`, `sensi
 |---------|-----------|------------|
 | Workspace docs (draft) | title, type, status, created, writer, domain, tags | `updated`/`editor`/`version` wajib bila sudah pernah direvisi |
 | Vault (usulan) | id, type, title, status, sumber, kelas_bukti, sensitif, diajukan | Lihat `gsp-library-data-standards`; angka wajib sumber+halaman |
-| Wiki (terbit) | id, type, title, status, sumber, kelas_bukti, penulis, diajukan, di-attest-oleh, di-attest-pada | Ditulis `vault_promote.py`; run harian TIDAK menulis langsung |
-| Memory harian | (konvensi log) `YYYY-MM-DD_log_<slug>.md` | Ikut aturan penamaan; isi tidak disentuh run harian |
+| Wiki (terbit) | id, type, title, status, sumber, kelas_bukti, penulis, diajukan, di-attest-oleh, di-attest-pada | Ditulis `vault_promote.py`; pelaksanaan harian TIDAK menulis langsung |
+| Memory harian | (konvensi log) `YYYY-MM-DD_log_<slug>.md` | Ikut aturan penamaan; isi tidak disentuh pelaksanaan harian |
 
 ## 5. Contoh frontmatter buruk vs baik
 
-**Buruk** (ditemukan di lapangan — ini yang diperbaiki run harian):
+**Buruk** (ditemukan di lapangan — ini yang diperbaiki pelaksanaan harian):
 
 ```yaml
 ---
@@ -113,14 +112,14 @@ kelas_bukti: sintesis
 ---
 ```
 
-## 6. Verifikasi metadata (tiap run harian)
+## 6. Verifikasi metadata (tiap pelaksanaan harian)
 
 - [ ] 100% dokumen workspace (di luar zona proteksi) punya frontmatter valid: title, type, status, created, writer
 - [ ] Tidak ada `title: Untitled` / H1 kosong
-- [ ] Tidak ada key salah eja (`judul`, `author`, `tanggal` non-ISO)
+- [ ] Tidak ada nama kolom salah eja (`judul`, `author`, `tanggal` non-ISO)
 - [ ] `writer`/`editor` memakai identitas GSP
-- [ ] Dokumen berisi angka tanpa `sumber`/`halaman` → di-flag di laporan (bukan dihapus)
-- [ ] Entri wiki dengan metadata menyimpang → di-flag untuk kurasi lewat alur promote (bukan diedit langsung)
+- [ ] Dokumen berisi angka tanpa `sumber`/`halaman` → ditandai di laporan (bukan dihapus)
+- [ ] Entri wiki dengan metadata menyimpang → ditandai untuk kurasi lewat alur promote (bukan diedit langsung)
 
 ## 7. Riwayat revisi
 

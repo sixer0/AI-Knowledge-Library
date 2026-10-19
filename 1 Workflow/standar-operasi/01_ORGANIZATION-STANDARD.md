@@ -22,26 +22,24 @@ kelas_bukti: sintesis
 
 ## 1. Tujuan
 
-Menjamin dua janji yang tidak bisa ditawar:
+Standar ini menetapkan dua kewajiban:
 
-1. **UI Information Library (IL) dapat ditelusuri manusia** — entri punya judul jelas, tipe benar, asal
-   (source) terstruktur, dan tidak tampak berserakan.
-2. **Workspace tidak berserakan** — setiap file berada di folder yang tepat, bernama sesuai konvensi,
-   bermetadata lengkap, dan dapat dilacak sepanjang siklus hidupnya.
+1. **Antarmuka Information Library (IL) mudah ditelusuri.** Setiap entri memiliki judul yang jelas, tipe yang benar, dan keterangan sumber yang terstruktur.
+2. **Ruang kerja tertata.** Setiap berkas berada di folder yang tepat, memakai nama sesuai konvensi, memiliki metadata lengkap, dan dapat dilacak sepanjang siklus hidupnya.
 
 Standar ini berlaku untuk **semua** lapisan IL: wiki (terbit), vault (staging), dan workspace (RAW).
 Siapa pun yang menulis/memindahkan/mengubah artefak IL wajib mematuhinya.
 
-## 2. Prinsip long-term
+## 2. Prinsip jangka panjang
 
 | # | Prinsip | Arti operasional |
 |---|---------|------------------|
 | P1 | **Struktur di atas kecepatan** | Folder & nama menjelaskan isi. Penelusuran manusia didahulukan daripada kecepatan menulis. |
-| P2 | **Satu sumber kebenaran** | Pengetahuan kanonik ada di wiki (ter-attest); draft di docs; usulan di vault. Tidak ada duplikat kanonik. |
-| P3 | **Perubahan selalu tercatat** | Setiap mutasi (move/rename/edit metadata) dicatat di `CHANGES.md` run harian. Tidak ada penghapusan. |
-| P4 | **Konservatif** | Ragu = jangan sentuh. Tandai di laporan sebagai `flagged`, biarkan run berikutnya/manusia memutuskan. |
+| P2 | **Satu sumber kebenaran** | Pengetahuan kanonik ada di wiki (sudah disahkan); draft di docs; usulan di vault. Tidak ada duplikat kanonik. |
+| P3 | **Perubahan selalu tercatat** | Setiap perubahan (pemindahan, penggantian nama, atau penyuntingan metadata) dicatat di `CHANGES.md` pelaksanaan harian. Tidak ada penghapusan. |
+| P4 | **Konservatif** | Jika ragu, jangan ubah berkas. Tandai di laporan sebagai `flagged` agar dapat diputuskan oleh manusia atau pada pelaksanaan berikutnya. |
 | P5 | **Path stabil** | Path yang dirujuk dokumen lain tidak berubah tanpa migrasi tercatat (old → new di CHANGES.md). |
-| P6 | **Time-series vs knowledge** | Data waktu (log, snapshot, artefak tugas) memakai tanggal di nama & tidak di-versioning semver. Pengetahuan yang abadi naik ke wiki. |
+| P6 | **Data berkala dan pengetahuan** | Data berkala (log, snapshot, artefak tugas) memakai tanggal di nama & tidak di-versioning semver. Pengetahuan yang tetap berguna naik ke wiki. |
 
 ## 3. Topologi IL (3 tingkat)
 
@@ -54,7 +52,7 @@ RAW    <ws> = C:/Users/TRIAL/workspace/gsp-hermes/workspace → data kerja
 - **Wiki**: ditulis **hanya** lewat `vault_promote.py` (gateway librarian). Struktur folder: `<type>s/<slug>.md`
   (`catatans/`, `faktas/`, `keputusans/`, `pelajarans/`, `proyeks/`, `standars/`). Taksonomi tipe: `catatan,
   fakta, keputusan, pelajaran, proyek, standar` (+ tipe vault `vendor, produk, dosir` bila terbit).
-- **Vault**: tidak diubah oleh run harian kecuali kurasi basi (lihat 03). Format objek: `gsp-library-data-standards`.
+- **Vault**: tidak diubah oleh pelaksanaan harian kecuali kurasi basi (lihat 03). Format objek: `gsp-library-data-standards`.
 - **RAW**: zona + aturan (subbab 4-5).
 
 ## 4. Struktur RAW (shared workspace)
@@ -87,7 +85,7 @@ RAW    <ws> = C:/Users/TRIAL/workspace/gsp-hermes/workspace → data kerja
    `legacy-archive/`. Folder berumur < 7 hari **jangan** dipindah (masih bisa dirujuk task aktif).
 4. **Folder arsip** boleh menyusun sub-struktur `<domain>/` atau `<project>/` agar tetap bisa ditelusuri.
 5. **`_inbox/` adalah zona transit**, bukan gudang: item di _inbox > 14 hari → dipindah ke folder tepat
-   atau di-flag untuk keputusan manusia.
+   atau ditandai untuk keputusan manusia.
 
 ## 5. Konvensi penamaan
 
@@ -104,7 +102,7 @@ Aturan umum: huruf kecil; tanpa spasi; tanpa karakter khusus selain `-` `_` `.`;
 slug deskriptif (2-5 kata). **DILARANG** akhiran versi di nama (`_v2`, `_final`, `_FINAL2`) — versi ada di
 frontmatter (`version`), bukan di nama file.
 
-## 6. Registry domain of expertise
+## 6. Daftar bidang keahlian
 
 Domain adalah taksonomi **terkontrol** (bukan bebas). Nilai awal:
 
@@ -120,26 +118,26 @@ Domain adalah taksonomi **terkontrol** (bukan bebas). Nilai awal:
 Domain baru ditambahkan lewat **update standar ini** (bukan inline di file). Sub-domain boleh lebih
 spesifik di nama folder (`01_DOMAIN/engineering/vss/`).
 
-## 7. Versioning & siklus hidup artefak
+## 7. Versi dan siklus hidup artefak
 
 - Setiap artefak pengetahuan punya `version` semver (`X.Y.Z`, default `1.0.0`). Perubahan isi yang
-  berarti → increment minor; perubahan editorial → patch.
+  berarti → naikkan versi minor; perubahan editorial → patch.
 - Siklus hidup (frontmatter `status`):
   - Workspace docs: `draft` → `active` → `superseded` → `archived`
   - Wiki: `active` → `superseded` → `archived` (dikelola `vault_promote.py`)
 - Garis keturunan dicatat dengan `supersedes: <id>` dan `superseded-by: <id>` (id = slug stabil).
-- Snapshot/time-series TIDAK di-versioning semver — tanggal di nama adalah versinya.
+- Snapshot dan data berkala TIDAK memakai versi semver — tanggal di nama adalah versinya.
 
 ## 8. Larangan (jangan pernah)
 
 1. Menghapus file — selalu pindah (ke `_inbox/`, folder tepat, atau `legacy-archive/`).
-2. Mengubah isi dokumen orang lain — run harian hanya boleh menyentuh **metadata/frontmatter & path**.
+2. Mengubah isi dokumen orang lain — pelaksanaan harian hanya boleh menyentuh **metadata/frontmatter & path**.
 3. Menyentuh `ekas/`, `AGENTS.md`, `MEMORY.md`, isi `memory/`, semantik `vault/`.
 4. Menulis wiki di luar `vault_promote.py`.
-5. Memindah folder berumur < 7 hari atau folder yang dirujuk dokumen aktif (cek referensi; ragu → flag).
+5. Memindah folder berumur < 7 hari atau folder yang dirujuk dokumen aktif (cek referensi; bila ragu, tandai untuk ditinjau).
 6. Menamai ulang file yang id/slug-nya dirujuk entri wiki/IL tanpa mencatat migrasi di CHANGES.md.
 
-## 9. Verifikasi kepatuhan (dijalankan tiap run harian, lihat 03)
+## 9. Verifikasi kepatuhan (dijalankan tiap pelaksanaan harian, lihat 03)
 
 - [ ] Tidak ada file lepas di `docs/` root (selain indeks resmi)
 - [ ] Tidak ada folder `t_*`/cryptic di `docs/`

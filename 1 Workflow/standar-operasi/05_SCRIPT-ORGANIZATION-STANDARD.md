@@ -24,10 +24,10 @@ kelas_bukti: norma-user
 1. **DILARANG membuat skrip di root workspace** (`C:/Users/TRIAL/workspace/`).
    Root hanya boleh berisi folder proyek/fungsi, bukan `_tmp.py`, `e4_x.py`,
    `check_*.ps1`, dsb.
-2. **DILARANG menaruh skrip sekali-pakai tanpa alamat.** Setiap skrip wajib
-   lahir langsung di bawah `scripts/<function>/<task>/`, bukan menunggu dirapikan
+2. **DILARANG menaruh skrip sekali-pakai di lokasi sembarang.** Setiap skrip wajib
+   dibuat langsung di bawah `scripts/<function>/<task>/`, bukan menunggu dirapikan
    belakangan.
-3. DILARANG meninggalkan `__pycache__`/log/tempel data di root; ikut masuk ke
+3. DILARANG meninggalkan `__pycache__`/log/data sementara di root; ikut masuk ke
    folder task yang sama.
 
 ## 2. Taksonomi kanonik (`scripts/<function>/<task>/`)
@@ -38,7 +38,7 @@ Fungsi (lapis 1) — pilih salah satu:
 |---|---|
 | `research/` | pengumpulan/panen data web, crawler, parser halaman |
 | `documents/` | pembuat/pembaca/verifikasi dokumen (docx/xlsx/pptx/pdf) |
-| `kanban/` | audit, dump, rekonstiliasi papan tugas |
+| `kanban/` | audit, dump, rekonsiliasi papan tugas |
 | `fleet-ops/` | dispatch fleet, watchdog, cek proses/bridge, RBAC |
 | `hq-testing/` | uji E2E/UI HQ & WebUI (playwright, verify_*) |
 | `media/` | pemrosesan/penskoringan citra & audio |
@@ -89,6 +89,6 @@ pendamping (JSON/log yang dibaca skrip relatif) ikut ke folder task yang sama.
 
 ## Riwayat
 
-- v1.0.0 (2026-09-21): dibuat atas perintah user; diringi perapian 174 skrip root
+- v1.0.0 (2026-09-21): dibuat atas perintah user; diiringi perapian 174 skrip root
   ke taksonomi ini (lihat `scripts/MANIFEST-2026-09-21.tsv`, kontrak misi
   WUI-IMP-0921 kartu O1 `t_73549c50`).
