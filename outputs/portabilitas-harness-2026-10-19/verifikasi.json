@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "baseline": "6e31e8b",
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "current_clone": {
+    "status": "pass",
+    "links": {
+      "local": 6107,
+      "external": 175
+    },
+    "documents_checked": 2886,
+    "manifest_entries": 4434,
+    "failures": []
+  },
+  "relocated_clone": {
+    "status": "pass",
+    "links": {
+      "local": 6107,
+      "external": 175
+    },
+    "documents_checked": 2886,
+    "manifest_entries": 4434,
+    "failures": []
+  },
+  "relocation": {
+    "full_library_copied": true,
+    "without_git_metadata": true,
+    "spaces_and_unicode_in_path": true,
+    "different_cwd": true,
+    "windows_alias_resolved_inside_relocated_clone": true,
+    "capability_anchor_resolved_inside_relocated_clone": true
+  },
+  "not_run": [
+    "layanan dan skrip operasional arsip",
+    "pemeriksaan fakta/URL eksternal",
+    "pemasangan ke konfigurasi harness"
+  ]
+}

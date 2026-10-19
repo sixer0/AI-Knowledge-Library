@@ -1,0 +1,47 @@
+{
+  "baseline": "6e31e8b",
+  "status": "pass",
+  "folders": {
+    "1 Workflow": {
+      "documents_changed": 5,
+      "local_links_added_or_repaired": 28
+    },
+    "2 Roles": {
+      "documents_changed": 45,
+      "local_links_added_or_repaired": 103
+    },
+    "3 Skills": {
+      "documents_changed": 313,
+      "local_links_added_or_repaired": 3378
+    },
+    "4 Knowledge Bank": {
+      "documents_changed": 72,
+      "local_links_added_or_repaired": 1647
+    },
+    "5 Integration": {
+      "documents_changed": 3,
+      "local_links_added_or_repaired": 13
+    },
+    "6 Database": {
+      "documents_changed": 1,
+      "local_links_added_or_repaired": 2
+    },
+    "7 Tools": {
+      "documents_changed": 1,
+      "local_links_added_or_repaired": 743
+    }
+  },
+  "source_code_and_data_unchanged": 1546,
+  "original_markdown_changed": 441,
+  "local_links_added_or_repaired": 5914,
+  "index_sources": {
+    "INDEKS-UNIT.csv": {
+      "missing:not_in_clone": 557,
+      "missing:no_source_reference": 1001
+    },
+    "INDEKS-KEMAMPUAN.csv": {
+      "local": 372
+    }
+  },
+  "failures": []
+}

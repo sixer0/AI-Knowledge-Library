@@ -71,7 +71,8 @@ Resolver tidak memilih berkas hanya karena nama akhirnya mirip. Snapshot kanban
 tidak diperlakukan sebagai basis data layanan aktif. PDF sumber dan dokumen misi
 yang tidak disertakan tidak diganti dengan ringkasan yang berbeda.
 
-Sebagian baris indeks EKAS masih menunjuk digest dari folder misi `sweep/` yang
+Seluruh 372 rujukan indeks kemampuan kini memiliki jangkar pada baris yang sesuai di
+20 dokumen domain lokal. Rujukan indeks unit EKAS masih mencakup digest dari folder misi `sweep/` yang
 tidak disertakan. Gunakan status resolver untuk membedakan sumber yang tersedia
 dari sumber yang masih harus disediakan. Tingkat bukti dan batas penggunaan angka
 tetap mengikuti dokumen EKAS.
@@ -83,8 +84,8 @@ python3 tools/library.py check
 python3 -m unittest discover -s tests
 ```
 
-Perintah pertama memeriksa alias, pintu masuk, tautan indeks, dan ukuran serta hash
-manifest. Perintah kedua menguji resolver, termasuk pemindahan clone dan pemanggilan
+Perintah pertama memeriksa alias, seluruh hyperlink Markdown yang tercakup dalam
+manifest, pintu masuk, serta ukuran dan hash berkas. Perintah kedua menguji resolver, termasuk pemindahan clone dan pemanggilan
 dari direktori kerja yang berbeda. Keduanya tidak menjalankan skrip operasi arsip.
 
 Laporan perubahan rujukan tersedia di [laporan portabilitas](outputs/portabilitas-harness-2026-10-19/README.md).

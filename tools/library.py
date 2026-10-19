@@ -177,7 +177,12 @@ class Library:
             result = self._local(self.root / alias['target'], '', alias['source'])
             if result['status'] != 'local':
                 failures.append({'alias': alias['source'], **result})
-        for document in self.config['managed_documents']:
+        manifest = self.inside(self.root / self.config['manifest'])
+        with manifest.open(encoding='utf-8', newline='') as stream:
+            rows = list(csv.DictReader(stream))
+        documents = set(self.config['managed_documents'])
+        documents.update(row['relative_path'] for row in rows if row['relative_path'].endswith('.md'))
+        for document in sorted(documents):
             file = self.inside(self.root / document)
             if not file.is_file():
                 failures.append({'document': document, 'reason': 'managed_document_missing'}); continue
@@ -186,9 +191,6 @@ class Library:
                 counts[result['status']] += 1
                 if result['status'] not in {'local', 'external'}:
                     failures.append({'document': document, **result})
-        manifest = self.inside(self.root / self.config['manifest'])
-        with manifest.open(encoding='utf-8', newline='') as stream:
-            rows = list(csv.DictReader(stream))
         seen = set()
         for row in rows:
             name = row['relative_path']
@@ -209,7 +211,7 @@ class Library:
         if expected and expected != seen:
             failures.append({'reason': 'manifest_coverage', 'missing': sorted(expected - seen),
                              'unexpected': sorted(seen - expected)})
-        return {'status': 'pass' if not failures else 'fail', 'links': dict(counts),
+        return {'status': 'pass' if not failures else 'fail', 'links': dict(counts), 'documents_checked': len(documents),
                 'manifest_entries': len(rows), 'failures': failures}
 
 
@@ -220,7 +222,7 @@ def main():
     resolve.add_argument('reference')
     resolve.add_argument('--from', dest='source', help='Path dokumen terhadap root clone')
     resolve.add_argument('--json', action='store_true')
-    check = sub.add_parser('check', help='Periksa pintu masuk, indeks, alias, dan manifest')
+    check = sub.add_parser('check', help='Periksa tautan Markdown, alias, cakupan, dan hash manifest')
     check.add_argument('--json', action='store_true')
     args = parser.parse_args()
     try:

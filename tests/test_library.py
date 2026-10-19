@@ -61,6 +61,10 @@ class ResolutionTests(unittest.TestCase):
         self.make_manifest()
         (self.root / 'HARNESS.md').write_text('[hilang](missing.md)')
         self.assertEqual(self.library.check()['status'], 'fail')
+        (self.root / 'HARNESS.md').write_text('# Panduan\n')
+        (self.root / 'README.md').write_text('[hilang](missing.md)')
+        self.make_manifest()
+        self.assertEqual(self.library.check()['status'], 'fail')
 
     def test_percent_encoding_fragment_and_document_relative_path(self):
         value = self.library.resolve('../rujukan%20lokal.md#judul-utama', 'folder/nested/source.md')
@@ -99,6 +103,12 @@ class ResolutionTests(unittest.TestCase):
     def test_missing_anchor_and_duplicate_heading(self):
         self.assertEqual(self.library.resolve('ekas/rujukan lokal.md#absent')['reason'], 'anchor_not_found')
         self.assertEqual(self.library.resolve('ekas/rujukan lokal.md#judul-utama-1')['status'], 'local')
+
+    def test_explicit_table_anchor_preserves_identifier_case(self):
+        file = self.root / 'folder/rujukan lokal.md'
+        file.write_text(file.read_text() + '\n| <a id="NUM-001"></a>NUM-001 | kemampuan |\n')
+        self.assertEqual(self.library.resolve('ekas/rujukan lokal.md#NUM-001')['status'], 'local')
+        self.assertEqual(self.library.resolve('ekas/rujukan lokal.md#num-001')['reason'], 'anchor_not_found')
 
     def test_traversal_absolute_and_encoded_escape_are_rejected(self):
         for reference in ['../outside', 'ekas/../../../outside', '%2e%2e/outside', '/', 'file:///etc/passwd']:
