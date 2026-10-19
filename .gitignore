@@ -3,3 +3,7 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Peta struktur lokal; dibuat ulang pada tiap clone.
+/graft/
+/.graft/

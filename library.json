@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "entrypoint": "HARNESS.md",
+  "path_convention": "Paths in this file are relative to the clone root; Markdown links are relative to their containing document.",
+  "roots": {
+    "workflow": "1 Workflow",
+    "roles": "2 Roles/peran-fleet",
+    "skills": "3 Skills/kanonik",
+    "registry": "3 Skills/registry-fleet",
+    "knowledge": "4 Knowledge Bank",
+    "ekas": "4 Knowledge Bank/ekas-lapis-teks",
+    "wiki": "4 Knowledge Bank/wiki-information-library",
+    "indexes": "4 Knowledge Bank/indeks-pengetahuan",
+    "integration": "5 Integration",
+    "database": "6 Database",
+    "tools_archive": "7 Tools"
+  },
+  "aliases": [
+    {
+      "source": "ekas",
+      "target": "4 Knowledge Bank/ekas-lapis-teks"
+    },
+    {
+      "source": "roles",
+      "target": "2 Roles/peran-fleet"
+    },
+    {
+      "source": "fleet/PROFILE-REGISTRY.json",
+      "target": "2 Roles/PROFILE-REGISTRY.json"
+    },
+    {
+      "source": "docs/standards",
+      "target": "1 Workflow/standar-operasi"
+    },
+    {
+      "source": "skills/gsp",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "skills",
+      "target": "3 Skills/kanonik"
+    },
+    {
+      "source": "gsp-hermes/skills",
+      "target": "3 Skills/kanonik"
+    },
+    {
+      "source": "C:/Users/TRIAL/workspace/gsp-hermes/skills",
+      "target": "3 Skills/kanonik"
+    },
+    {
+      "source": "C:/Users/TRIAL/workspace/gsp-hermes/scripts",
+      "target": "7 Tools/scripts-repo-gsp-hermes"
+    },
+    {
+      "source": "C:/Users/TRIAL/AppData/Local/hermes/skills/gsp",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "C:/Users/TRIAL/AppData/Local/hermes/skills",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "$LOCALAPPDATA/hermes/skills/gsp",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "%LOCALAPPDATA%/hermes/skills/gsp",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "~/.hermes/skills/gsp",
+      "target": "3 Skills/registry-fleet"
+    },
+    {
+      "source": "C:/Users/TRIAL/AppData/Local/hermes/wiki",
+      "target": "4 Knowledge Bank/wiki-information-library"
+    },
+    {
+      "source": "$LOCALAPPDATA/hermes/wiki",
+      "target": "4 Knowledge Bank/wiki-information-library"
+    },
+    {
+      "source": "%LOCALAPPDATA%/hermes/wiki",
+      "target": "4 Knowledge Bank/wiki-information-library"
+    },
+    {
+      "source": "~/.hermes/wiki",
+      "target": "4 Knowledge Bank/wiki-information-library"
+    },
+    {
+      "source": "C:/Users/TRIAL/gsp-datacenter/hermes-bridge/bridge.mjs",
+      "target": "5 Integration/hermes-bridge/bridge.mjs"
+    },
+    {
+      "source": "C:/Users/TRIAL/gsp-datacenter/hq-server.mjs",
+      "target": "5 Integration/hq/hq-server.mjs"
+    },
+    {
+      "source": "docs/2026-08-31-enforcement-fleet/controller-roster.json",
+      "target": "2 Roles/controller-roster.json"
+    }
+  ],
+  "workspace_prefixes": [
+    "C:/Users/TRIAL/workspace/gsp-hermes/workspace",
+    "<shared-ws>",
+    "<ws>"
+  ],
+  "repository_urls": [
+    "https://github.com/sixer0/AI-Knowledge-Library/blob/main/",
+    "https://raw.githubusercontent.com/sixer0/AI-Knowledge-Library/main/"
+  ],
+  "managed_documents": [
+    "README.md",
+    "HARNESS.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "1 Workflow/INDEKS.md",
+    "2 Roles/INDEKS.md",
+    "3 Skills/INDEKS.md",
+    "4 Knowledge Bank/INDEKS.md",
+    "5 Integration/INDEKS.md",
+    "6 Database/INDEKS.md",
+    "7 Tools/INDEKS.md"
+  ],
+  "manifest": "MANIFEST.csv",
+  "manifest_roots": [
+    "1 Workflow",
+    "2 Roles",
+    "3 Skills",
+    "4 Knowledge Bank",
+    "5 Integration",
+    "6 Database",
+    "7 Tools",
+    "tools",
+    "tests"
+  ],
+  "manifest_files": [
+    "README.md",
+    "HARNESS.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "library.json"
+  ]
+}

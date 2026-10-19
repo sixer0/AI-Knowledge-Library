@@ -7,9 +7,15 @@ Salinan ini dikelola dalam [repositori GitHub privat](https://github.com/sixer0/
 
 ## Cara menggunakan pustaka
 
+Untuk harness di perangkat, mulai dari [HARNESS.md](HARNESS.md).
+[AGENTS.md](AGENTS.md) dan [CLAUDE.md](CLAUDE.md) menunjuk panduan yang sama.
+Peta lokasi pada [library.json](library.json) memakai path relatif terhadap root clone.
+
+
 Pilih folder sesuai topik, baca `INDEKS.md`, lalu buka berkas yang dibutuhkan.
-Indeks menjelaskan isi folder dan mencantumkan lokasi berkas. Path dan nama teknis
-mengikuti sumber asal agar rujukannya tetap dapat ditelusuri.
+Indeks menjelaskan isi folder dan mencantumkan lokasi berkas. Tautan lokal dihitung dari lokasi dokumen. Path host lama pada metadata dan kutipan
+tetap menjadi identitas sumber; resolver pada panduan harness memetakannya jika
+salinannya tersedia.
 
 | Folder | Isi | Berkas isi, di luar INDEKS.md |
 |---|---|---:|
@@ -57,10 +63,14 @@ Untuk meninjau perubahan di GitHub, buka **Commits**, pilih commit folder, lalu 
 
 ## Pemeriksaan keutuhan
 
-`MANIFEST.csv` mencatat path relatif, ukuran byte, dan SHA-256 untuk 4.428 berkas pustaka
-asli, termasuk README dan tujuh indeks. Manifest tidak mencatat dirinya sendiri,
-metadata Git, `.gitignore`, atau laporan audit dalam `outputs/`.
+[MANIFEST.csv](MANIFEST.csv) mencatat path relatif, ukuran byte, dan SHA-256 untuk berkas
+pustaka serta panduan dan alat bantu harness. Manifest tidak mencatat dirinya sendiri,
+metadata Git, `.gitignore`, cache Graft, atau laporan audit dalam `outputs/`.
 
 Manifest diperbarui mengikuti isi salinan yang disunting. Manifest edisi awal tetap
 tersedia pada commit awal, sehingga kedua keadaan dapat dibandingkan. Saat membandingkan
 salinan NAS dengan repositori ini, gunakan manifest untuk edisi yang sesuai.
+
+Pemeriksaan keadaan clone saat ini: jalankan `python3 tools/library.py check`.
+Laporan audit bahasa di atas merekam keadaan pada commit `6e31e8b`, sebelum
+[penyesuaian rujukan untuk harness](outputs/portabilitas-harness-2026-10-19/README.md).
