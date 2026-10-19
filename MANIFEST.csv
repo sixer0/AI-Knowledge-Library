@@ -1,6 +1,6 @@
 relative_path,bytes,sha256
-1 Workflow/AGENTS-kebijakan-fleet.md,8944,e9155a82b075d4a16a63a5710970f347a12e51b580bc62193663862c9009e8f1
-1 Workflow/INDEKS.md,833,c94803488d6d8bbf8af4197247fdfadac729ab3425ca86707e670e8e9c3f6617
+1 Workflow/AGENTS-kebijakan-fleet.md,8949,11b27a0975bcaf84ed34c2ecb14ce21164e0053ba7804d47643a924b73b4af4f
+1 Workflow/INDEKS.md,833,30a0b4547829c1a980397a56abb689286a2c7ec5ebb032e1998c7bcc4a5201e4
 1 Workflow/cron/default-jobs.json,22977,94c6f5b663b68269c005f715a262fd5f14fb3d446098e50e97b63b771c8b80e3
 1 Workflow/cron/gsp-master-jobs.json,1322,5ba891d4ab1b2e2b6a847e31c856c1d65d32b38529fecf888f291880168a0041
 1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md,8900,3780b8344fb3e2d187be89166dce9b6e002c838219b0da61bf48dacd8b83b289
@@ -8,7 +8,7 @@ relative_path,bytes,sha256
 1 Workflow/standar-operasi/03_LIBRARIAN-DAILY-PROCEDURE.md,6384,e8eefa0a7870254775d2bb23022eb3e80444cbd5e50cba2f2ec21c496c6cd270
 1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md,4275,75b1dbc7382673297bf4f00f049567374e04de7a91672d8d786be59c960146d4
 1 Workflow/standar-operasi/05_SCRIPT-ORGANIZATION-STANDARD.md,4177,e8e1a69226e542dc042f385f10bd0d22d3c343b70e441f97a8048edd72b8c926
-2 Roles/INDEKS.md,3196,0e466a7f13513dcf78042eef2ee9a9b74a26b01ebfe481393bf71d6e5d287fa3
+2 Roles/INDEKS.md,3196,f61f1070d8c68bbd31c52a234c505a51390ded16e7bb391ea44b93f77ac67ab8
 2 Roles/PROFILE-REGISTRY.json,787,9aa76f5455566b63e1eb5d989dcc00fc950d338314b83a272b1320139ce35191
 2 Roles/controller-roster.json,746,dd7aecb0bfd19e2dafb3086843a43c98b008af316d0e706c2641ab85cb52153b
 2 Roles/peran-fleet/_INDEX.md,8110,4c5f20fd8445617674206e36ede7dc14578eb549b3a5317345d303a37087e859
@@ -58,7 +58,7 @@ relative_path,bytes,sha256
 2 Roles/peran-fleet/gsp-verifier.md,20773,93ef19683ef88aba46acca40879b36b2d17e75a02ead87ba441109f1064e789d
 2 Roles/peran-fleet/gsp-vss-specialist.md,20094,ead74bff3ed17c93828aedd28e00311eb3f1428b945927de3398a4189d674f3c
 2 Roles/peran-fleet/rafif.md,20914,2da9b8d05eab2b7c88f475bc0b1adea664327154970ec8ecf3d84f71c89c2b50
-3 Skills/INDEKS.md,226110,a205ec25066b429e304821578a916285938801fb2e975a0ade06cb7cafd687b4
+3 Skills/INDEKS.md,226124,1d7343b33d00bb55c4da6582c31e41e36611db3bbebf94c27fd3758581bd73d7
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/SKILL.md,2022,e3c13e7880f2feb6faca012c39d97b7dd331ba42dfe682ad66a0219008ea9863
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/database-selection.md,1180,710557db56c0e594f292f2221f0aa6e9a2466e3ab57818ebbd7bb69c2ab95ba6
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/indexing.md,931,fc215671e11f302f3523a0b2234f1d6b9fe6c7b3f5038ba36fd65fc4652bd03c
@@ -879,7 +879,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-a4567-frasa.md,622,220ed81cb6770915587246183ffaf8637fe691fe761442b86879b6ef5275f493
 3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-a5-label-ruang-kerja.md,612,dbd0db00efffa0fc1d7d74258a64d663e8e4c3720b3a894323cc490f1ca55700
 3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-b-agregasi.md,1143,b88f780eb5f71ec5f8f8f1fdaf2792aacda8d2f03a38c8ab2b144906952c4f67
-3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-semua-kode.md,1159,f8c80d55c698f34cb3aba1eeadeae2a6c8447e3b8e6b90aac0760706a2bf134e
+3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-semua-kode.md,1157,2f4b8da7249887a7d9d1c26824f89659de641f0928cebf691dc1bbdddb7390ba
 3 Skills/kanonik/gsp-output-naturalization/references/corpus-merah-hijau/merah-sosmed-caption.md,458,d5b80a15ab48b361073f323b434c7f0635f498e4fcb4ecc24379d9a5a3b6f600
 3 Skills/kanonik/gsp-output-naturalization/references/daftar-padanan-wajib.md,2197,73dcb86dfa673b5f2bd306194ac1045b130027fa4db9f28a679c20971ba3242a
 3 Skills/kanonik/gsp-output-naturalization/references/kebijakan-naturalisasi.md,18502,ef8657918db8e3019517b012d16f7bd65bf1350bb0aa4cf6b936348cd552a4f6
@@ -2044,7 +2044,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-a4567-frasa.md,622,220ed81cb6770915587246183ffaf8637fe691fe761442b86879b6ef5275f493
 3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-a5-label-ruang-kerja.md,612,dbd0db00efffa0fc1d7d74258a64d663e8e4c3720b3a894323cc490f1ca55700
 3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-b-agregasi.md,1143,b88f780eb5f71ec5f8f8f1fdaf2792aacda8d2f03a38c8ab2b144906952c4f67
-3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-semua-kode.md,1159,f8c80d55c698f34cb3aba1eeadeae2a6c8447e3b8e6b90aac0760706a2bf134e
+3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-semua-kode.md,1157,2f4b8da7249887a7d9d1c26824f89659de641f0928cebf691dc1bbdddb7390ba
 3 Skills/registry-fleet/gsp-output-naturalization/references/corpus-merah-hijau/merah-sosmed-caption.md,458,d5b80a15ab48b361073f323b434c7f0635f498e4fcb4ecc24379d9a5a3b6f600
 3 Skills/registry-fleet/gsp-output-naturalization/references/daftar-padanan-wajib.md,2197,73dcb86dfa673b5f2bd306194ac1045b130027fa4db9f28a679c20971ba3242a
 3 Skills/registry-fleet/gsp-output-naturalization/references/kebijakan-naturalisasi.md,18502,ef8657918db8e3019517b012d16f7bd65bf1350bb0aa4cf6b936348cd552a4f6
@@ -2379,7 +2379,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/tdd/mocking.md,1540,73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d
 3 Skills/registry-fleet/tdd/tests.md,2291,0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5
 3 Skills/registry-fleet/yuanbao/SKILL.md,3903,5096a9fffebde016665dae9620fff25aedc926b569d9fa023454d152c2e60aac
-4 Knowledge Bank/INDEKS.md,138471,2ad21a59d6e05106d55dc0245638e49487a1bf125ebb9b6070c4c3186573fd1b
+4 Knowledge Bank/INDEKS.md,138473,f9ff9db66d1a4dcfb938270b56f5b542bf4c3154de743439f92c25afebaf389a
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/CHANGELOG.md,54906,b53b35901becd3326aeaa2d383cb8c8cdb2726f8283a537db173aa9b9b22f503
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/DOCUMENT-CONTROL.md,4725,851e787d323e1dffce39d70dc6551add620049a7231b9ffc0f5463a54c3ca645
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md,6083,e4215fc1f805502becd008da88fa5e5a9381bfd0148594606c09067615d7cbb9
@@ -3679,7 +3679,7 @@ relative_path,bytes,sha256
 5 Integration/hq/hq-server.mjs,2221,6d7c9a289ef4f50f3ee291e105d3cb7b1794364ae267d94e1751cb94116b73bc
 5 Integration/hq/package.json,1383,81ff527ebf237bb63bc5c529968f3ddaa89eb7b83fb231410d29698fb8d5a4a5
 5 Integration/peta-integrasi.md,1095,97e9258a73002a8e44671b4bdbe8d47f66ffd6c2fa3c473cc6c91e1ca980e1c0
-6 Database/INDEKS.md,640,27e6740723faac584b724441719440afdec288e663fed859dbb23ea0e78b4f32
+6 Database/INDEKS.md,640,d0df97542546100076fd6ebf7d505e0ac575f9fd6d4aa4702f406d26a786781f
 6 Database/schema-prisma-hq.prisma,20451,445e25647d372dbf4e0ab194fd6e74a3077be48e46f4740876bb623086ba11fd
 6 Database/snapshot/kanban-2026-10-19.db,80920576,cc64ad16d370e87755ccb82c8658d921c800d4c4ea55332c05e7ddb772be4ac4
 7 Tools/INDEKS.md,59003,ab5353a3d062b379fbde15a9488468a00cd9986a68f5d9ff4f6789a98d7d4a81

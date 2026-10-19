@@ -6,5 +6,5 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2 | Total: 80.9 MB | Bahasa diperiksa: 20
 
 | Berkas | Ukuran |
 |---|---|
-| `6 Database/schema-prisma-hq.prisma` | 19 KB |
+| `6 Database/schema-prisma-hq.prisma` | 20 KB |
 | `6 Database/snapshot/kanban-2026-10-19.db` | 79024 KB |

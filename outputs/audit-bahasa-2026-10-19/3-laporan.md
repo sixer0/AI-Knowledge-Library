@@ -7,8 +7,8 @@ Singkatan percakapan pada prosa diperluas, istilah internal yang bermakna kiasan
 | Cakupan | Jumlah |
 |---|---:|
 | Berkas asli diinventarisasi | 2321 |
-| Berkas diperbarui, termasuk indeks | 237 |
-| Berkas tetap utuh | 2084 |
+| Berkas diperbarui, termasuk indeks | 235 |
+| Berkas tetap utuh | 2086 |
 
 | Sebelum | Sesudah |
 |---|---|
@@ -22,3 +22,5 @@ Verifikasi: **LULUS**. Tidak ada berkas asli yang hilang. Metadata YAML, blok ko
 Semua 2.321 berkas diinventarisasi. Pemindaian pola dan kepadatan mencakup Markdown; temuan ditinjau menurut konteks kebijakan, pedoman, dan contoh. Ini bukan pembacaan manual setiap kalimat pada seluruh skill. Berkas kode, dataset, font, arsip cadangan, dan dokumen fixture dipertahankan secara byte. Keutuhan 1.130 pasangan yang semula identik diperiksa; 19 perbedaan awal dicatat pada [perbandingan salinan](3-perbandingan-salinan.md). Tidak menjalankan skrip operasional atau menerapkan skill ke profil host asal.
 
 Rincian berkas dan sidik SHA-256: [3-perubahan.csv](3-perubahan.csv). Perbandingan kalimat lengkap tersedia pada commit folder ini. Versi sebelum penyuntingan ada pada commit awal `8785880`.
+
+Pemeriksaan akhir: dua salinan `corpus-merah-hijau/merah-semua-kode.md` dikembalikan ke versi awal karena merupakan korpus uji yang sengaja memuat gaya buruk. Perbaikan ini tercatat pada commit pemeriksaan akhir.
