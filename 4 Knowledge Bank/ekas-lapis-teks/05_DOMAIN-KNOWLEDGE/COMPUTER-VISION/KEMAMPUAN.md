@@ -11,21 +11,21 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0268 | CV-001 | Pinhole Camera Projection (K Matrix) | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 170-171] |
-| K-0269 | CV-002 | Essential Matrix & Epipolar Constraint | calculator | 1 | 6 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 615] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
-| K-0270 | CV-003 | Homography DLT from 4 Point Pairs | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 106] |
-| K-0271 | CV-004 | Planar Pose from Homography Decomposition | calculator | 1 | 5 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 568] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
-| K-0272 | CV-005 | Two-Ray Midpoint Triangulation | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 330] |
-| K-0273 | CV-006 | Rectified Stereo Depth (Z = fB/d) | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 275] |
-| K-0274 | CV-007 | Two-Frame Metric Reconstruction (Pipeline) | calculator | 1 | 5 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 576] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
-| K-0275 | CV-008 | Spatial Correlation Filtering (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 225] |
-| K-0276 | CV-009 | Power-Law (Gamma) Intensity Transform | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 173-177] |
-| K-0277 | CV-010 | Sobel Gradient (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 876] |
-| K-0278 | CV-011 | Median Filter 3x3 (Order-Statistic) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 252 & 440] |
-| K-0279 | CV-012 | Histogram Equalization (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 189] |
-| K-0280 | CV-013 | Otsu Global Thresholding | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 926-933] |
-| K-0281 | CV-014 | Binary Erosion/Dilation/Opening/Closing | calculator | 1 | 7 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 807] |
-| K-0282 | CV-015 | 2-D DFT Frequency Domain Filtering | calculator | 1 | 7 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 338-400] |
+| K-0268 | <a id="CV-001"></a>CV-001 | Pinhole Camera Projection (K Matrix) | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 170-171] |
+| K-0269 | <a id="CV-002"></a>CV-002 | Essential Matrix & Epipolar Constraint | calculator | 1 | 6 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 615] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
+| K-0270 | <a id="CV-003"></a>CV-003 | Homography DLT from 4 Point Pairs | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 106] |
+| K-0271 | <a id="CV-004"></a>CV-004 | Planar Pose from Homography Decomposition | calculator | 1 | 5 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 568] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
+| K-0272 | <a id="CV-005"></a>CV-005 | Two-Ray Midpoint Triangulation | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 330] |
+| K-0273 | <a id="CV-006"></a>CV-006 | Rectified Stereo Depth (Z = fB/d) | calculator | 1 | 6 | Multiple View Geometry in Computer Vision 2e - Hartley & Zisserman (2003, Cambridge) [pdf hal. 275] |
+| K-0274 | <a id="CV-007"></a>CV-007 | Two-Frame Metric Reconstruction (Pipeline) | calculator | 1 | 5 | Computer Vision: Algorithms and Applications 2e - Szeliski (2022, Springer) [pdf hal. 576] / Multiple View Geometry 2e - Hartley & Zisserman (2003, Ca... |
+| K-0275 | <a id="CV-008"></a>CV-008 | Spatial Correlation Filtering (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 225] |
+| K-0276 | <a id="CV-009"></a>CV-009 | Power-Law (Gamma) Intensity Transform | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 173-177] |
+| K-0277 | <a id="CV-010"></a>CV-010 | Sobel Gradient (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 876] |
+| K-0278 | <a id="CV-011"></a>CV-011 | Median Filter 3x3 (Order-Statistic) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 252 & 440] |
+| K-0279 | <a id="CV-012"></a>CV-012 | Histogram Equalization (Small Grid) | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 189] |
+| K-0280 | <a id="CV-013"></a>CV-013 | Otsu Global Thresholding | calculator | 1 | 6 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 926-933] |
+| K-0281 | <a id="CV-014"></a>CV-014 | Binary Erosion/Dilation/Opening/Closing | calculator | 1 | 7 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 807] |
+| K-0282 | <a id="CV-015"></a>CV-015 | 2-D DFT Frequency Domain Filtering | calculator | 1 | 7 | Digital Image Processing 4e - Gonzalez & Woods (2018, Pearson) [pdf hal. 338-400] |
 
 ## Prasyarat / komposit
 

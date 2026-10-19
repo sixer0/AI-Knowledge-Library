@@ -11,8 +11,8 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0118 | CIV-001 | Steel Tension Member (LRFD/ASD, Segui 3.2) | calculator | 1 | 6 | Steel Design 6e - Segui (2017, Cengage) [pdf hal. 59-63] |
-| K-0119 | CIV-002 | RC Beam Nominal Flexural Strength (Darwin 4.27/4.28) | calculator | 1 | 6 | Design of Concrete Structures 15e - Darwin, Dolan & Nilson (2015, McGraw-Hill) [pdf hal. 110-112] |
+| K-0118 | <a id="CIV-001"></a>CIV-001 | Steel Tension Member (LRFD/ASD, Segui 3.2) | calculator | 1 | 6 | Steel Design 6e - Segui (2017, Cengage) [pdf hal. 59-63] |
+| K-0119 | <a id="CIV-002"></a>CIV-002 | RC Beam Nominal Flexural Strength (Darwin 4.27/4.28) | calculator | 1 | 6 | Design of Concrete Structures 15e - Darwin, Dolan & Nilson (2015, McGraw-Hill) [pdf hal. 110-112] |
 
 ## Prasyarat / komposit
 

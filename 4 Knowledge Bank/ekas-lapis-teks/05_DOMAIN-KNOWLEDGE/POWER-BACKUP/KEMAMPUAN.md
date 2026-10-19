@@ -11,11 +11,11 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0100 | PWR-001 | Genset Site Derating & Engine Sizing | calculator | 1 | 6 | Diesel Generator Handbook - Mahon (2004, Elsevier) [pdf hal. 38-44] |
-| K-0101 | PWR-002 | Battery Room Ventilation Airflow (IEC 62485-2) | calculator | 1 | 7 | IEC 62485-2:2010 - Safety Requirements for Secondary Batteries Part 2 Stationary [pdf hal. 21-23] |
-| K-0102 | PWR-003 | Battery Bank Capacity Sizing (Ah) | calculator | 1 | 6 | Battery Reference Book 3e - Crompton (2000, Newnes) [pdf hal. 59-63] / IEC 62485-2:2010 [pdf hal. 22] |
-| K-0103 | PWR-004 | UPS kVA Sizing & Heat Load | calculator | 1 | 6 | Uninterruptible Power Supplies and Active Filters - Emadi dkk. (2004, CRC) [pdf hal. 11-38] |
-| K-0104 | PWR-005 | VRLA Capacity Test & Replacement Criterion (IEEE 1188) | calculator | 1 | 7 | IEEE Std 1188-2005 - Recommended Practice for Maintenance, Testing, and Replacement of VRLA Batteries (IEEE) [pdf hal. 19-20 (Tabel 1, Eq 1), 22-23 (K... |
+| K-0100 | <a id="PWR-001"></a>PWR-001 | Genset Site Derating & Engine Sizing | calculator | 1 | 6 | Diesel Generator Handbook - Mahon (2004, Elsevier) [pdf hal. 38-44] |
+| K-0101 | <a id="PWR-002"></a>PWR-002 | Battery Room Ventilation Airflow (IEC 62485-2) | calculator | 1 | 7 | IEC 62485-2:2010 - Safety Requirements for Secondary Batteries Part 2 Stationary [pdf hal. 21-23] |
+| K-0102 | <a id="PWR-003"></a>PWR-003 | Battery Bank Capacity Sizing (Ah) | calculator | 1 | 6 | Battery Reference Book 3e - Crompton (2000, Newnes) [pdf hal. 59-63] / IEC 62485-2:2010 [pdf hal. 22] |
+| K-0103 | <a id="PWR-004"></a>PWR-004 | UPS kVA Sizing & Heat Load | calculator | 1 | 6 | Uninterruptible Power Supplies and Active Filters - Emadi dkk. (2004, CRC) [pdf hal. 11-38] |
+| K-0104 | <a id="PWR-005"></a>PWR-005 | VRLA Capacity Test & Replacement Criterion (IEEE 1188) | calculator | 1 | 7 | IEEE Std 1188-2005 - Recommended Practice for Maintenance, Testing, and Replacement of VRLA Batteries (IEEE) [pdf hal. 19-20 (Tabel 1, Eq 1), 22-23 (K... |
 
 ## Prasyarat / komposit
 

@@ -228,7 +228,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5 - Keamanan Siber Operasional.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5%20-%20Keamanan%20Siber%20Operasional.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5 - Keamanan Siber dan Forensik Digital (Universitas Indonesia).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5%20-%20Keamanan%20Siber%20dan%20Forensik%20Digital%20%28Universitas%20Indonesia%29.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/RANTAI-JAMINAN.md) | 7 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md) | 5 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md) | 6 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Architectural Graphics (Ching).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3%20-%20Architectural%20Graphics%20%28Ching%29.md) | 2 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - AutoCAD Civil 3D 2011 Tutorial (Autodesk).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3%20-%20AutoCAD%20Civil%203D%202011%20Tutorial%20%28Autodesk%29.md) | 1 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - AutoCAD Electrical 2026 (Tickoo) - dua judul.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3%20-%20AutoCAD%20Electrical%202026%20%28Tickoo%29%20-%20dua%20judul.md) | 2 KB |
@@ -236,7 +236,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Fundamentals of Engineering Drawing (French Vierck).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3%20-%20Fundamentals%20of%20Engineering%20Drawing%20%28French%20Vierck%29.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - The Professional Practice of Architectural Working Drawings.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3%20-%20The%20Professional%20Practice%20of%20Architectural%20Working%20Drawings.md) | 2 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/RANTAI-JAMINAN.md) | 20 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md) | 20 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md) | 21 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R2 - ANSI-NETA ATS-2017.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R2%20-%20ANSI-NETA%20ATS-2017.md) | 9 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Electric Power Distribution Engineering (Gonen).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3%20-%20Electric%20Power%20Distribution%20Engineering%20%28Gonen%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Electrical Engineering Principles and Applications (Hambley).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3%20-%20Electrical%20Engineering%20Principles%20and%20Applications%20%28Hambley%29.md) | 3 KB |
@@ -250,7 +250,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Protective Relaying Principles and Applications (Blackburn Domin).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3%20-%20Protective%20Relaying%20Principles%20and%20Applications%20%28Blackburn%20Domin%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - The Art of Electronics (Horowitz Hill).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3%20-%20The%20Art%20of%20Electronics%20%28Horowitz%20Hill%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/RANTAI-JAMINAN.md) | 9 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md) | 3 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md) | 4 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R2 - IEC 61280-4-2.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R2%20-%20IEC%2061280-4-2.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - FOA Reference Guide to Fiber Optics.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3%20-%20FOA%20Reference%20Guide%20to%20Fiber%20Optics.md) | 13 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - Optical Fiber Communications (Keiser).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3%20-%20Optical%20Fiber%20Communications%20%28Keiser%29.md) | 5 KB |
@@ -266,7 +266,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md) | 6 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/R3 - Mechanical and Electrical Equipment for Buildings (Grondzik & Kwok).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/R3%20-%20Mechanical%20and%20Electrical%20Equipment%20for%20Buildings%20%28Grondzik%20%26%20Kwok%29.md) | 4 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/RANTAI-JAMINAN.md) | 15 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md) | 18 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md) | 19 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Fundamentals of Engineering Thermodynamics (Moran Shapiro).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3%20-%20Fundamentals%20of%20Engineering%20Thermodynamics%20%28Moran%20Shapiro%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Fundamentals of Fluid Mechanics (Munson Young Okiishi).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3%20-%20Fundamentals%20of%20Fluid%20Mechanics%20%28Munson%20Young%20Okiishi%29.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Machinery's Handbook 28th (Oberg).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3%20-%20Machinery%27s%20Handbook%2028th%20%28Oberg%29.md) | 5 KB |
@@ -306,7 +306,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - RCM II (John Moubray).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3%20-%20RCM%20II%20%28John%20Moubray%29.md) | 19 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Reliability Engineering (Elsayed).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3%20-%20Reliability%20Engineering%20%28Elsayed%29.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md) | 6 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md) | 8 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md) | 9 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Antenna Theory (Balanis).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3%20-%20Antenna%20Theory%20%28Balanis%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Microwave Engineering (Pozar).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3%20-%20Microwave%20Engineering%20%28Pozar%29.md) | 4 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Wireless Communications (Goldsmith).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3%20-%20Wireless%20Communications%20%28Goldsmith%29.md) | 3 KB |
@@ -316,10 +316,10 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R3 - Site Reliability Engineering (Beyer Google).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R3%20-%20Site%20Reliability%20Engineering%20%28Beyer%20Google%29.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R5 - Deep Learning (LeCun, Bengio & Hinton 2015).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R5%20-%20Deep%20Learning%20%28LeCun%2C%20Bengio%20%26%20Hinton%202015%29.md) | 2 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/RANTAI-JAMINAN.md) | 19 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md) | 4 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md) | 5 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/R3 - Storage Networks Explained.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/R3%20-%20Storage%20Networks%20Explained.md) | 8 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md) | 5 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md) | 6 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md) | 7 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - INCOSE Systems Engineering Handbook (Walden).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3%20-%20INCOSE%20Systems%20Engineering%20Handbook%20%28Walden%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - System Engineering Management (Blanchard).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3%20-%20System%20Engineering%20Management%20%28Blanchard%29.md) | 3 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - Systems Engineering Principles and Practice (Kossiakoff).md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3%20-%20Systems%20Engineering%20Principles%20and%20Practice%20%28Kossiakoff%29.md) | 3 KB |
@@ -328,7 +328,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/KEMAMPUAN.md) | 2 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3%20-%20Infrared%20Thermal%20Imaging.md) | 10 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/RANTAI-JAMINAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/RANTAI-JAMINAN.md) | 8 KB |
-| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md) | 7 KB |
+| [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md) | 8 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2 - BS EN 62676-1-2.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2%20-%20BS%20EN%2062676-1-2.md) | 6 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3%20-%20CCTV%20From%20Light%20to%20Pixels.md) | 10 KB |
 | [`4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md`](ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3%20-%20Computer%20Vision%20Algorithms%20and%20Applications.md) | 5 KB |

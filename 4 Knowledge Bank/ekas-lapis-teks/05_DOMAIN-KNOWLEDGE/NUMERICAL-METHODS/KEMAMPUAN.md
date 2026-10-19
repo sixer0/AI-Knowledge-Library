@@ -11,34 +11,34 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0001 | NUM-001 | ARX(1,1) System ID with Free-Run Validation | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 461 & 477] |
-| K-0002 | NUM-002 | Polynomial Regression with Parsimony Selection | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 186, 212, 216, 221] |
-| K-0003 | NUM-003 | POD/PCA via Snapshot Correlation (Jacobi) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 29, 53, 567-574] |
-| K-0004 | NUM-004 | DMD (2-State Exact) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 339] |
-| K-0005 | NUM-005 | SINDy 1-State (Polynomial Library, STLS) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 357 & 163] |
-| K-0006 | NUM-006 | Data-Driven Pole Placement (1-State) | calculator | 2 | 8 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 495, 403 & 415] |
-| K-0007 | NUM-007 | Root Finding Orchestrator (Bracket + Polish) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 146 & 164] |
-| K-0008 | NUM-008 | Bisection Root Finding (Bracketing) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 146] |
-| K-0009 | NUM-009 | Newton-Raphson Root Finding | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 164 & 170] |
-| K-0010 | NUM-010 | Linear Solver with Dual-Method Verification | calculator | 1 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 267 & 301] |
-| K-0011 | NUM-011 | Gauss Elimination Linear Solver | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 267 & 274] |
-| K-0012 | NUM-012 | LU Decomposition (Doolittle) | calculator | 2 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 301] |
-| K-0013 | NUM-013 | Polynomial Interpolation (Newton DD vs Lagrange) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 515 & 526] |
-| K-0014 | NUM-014 | Numerical Integration (Simpson / Trapezoid) | calculator | 3 | 8 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 630 & 642] |
-| K-0015 | NUM-015 | ODE Initial-Value Solver (RK4 / Euler) | calculator | 3 | 9 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 739 & 759] |
-| K-0016 | NUM-016 | RK4 Scalar IVP with Order Verification | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 739 & 759] |
-| K-0017 | NUM-017 | Model Verification via Manufactured Solutions (MMS) | calculator | 2 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 101-122 & 739] / Method of Manufactured Solutions - praktik verifikasi kode baku [-... |
-| K-0018 | NUM-018 | Parameter Sweep, Sensitivity & Threshold Crossing | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 117 & 146] |
-| K-0019 | NUM-019 | Observed Order & Richardson Extrapolation | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 75, 85, 101, 117, 122] |
-| K-0020 | NUM-020 | Linear Least-Squares Regression | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 480] |
-| K-0021 | NUM-021 | 1D Optimization (Golden-Section) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 378, 379 & 386] |
-| K-0022 | OPT-001 | Design Variable Selection | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill NUM-018 (impor kalkulator) [-] |
-| K-0023 | OPT-002 | Constraint Definition | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill OPT-004 (impor kalkulator) [-] |
-| K-0024 | OPT-003 | Objective Function | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill SYS-011 (impor kalkulator) [-] |
-| K-0025 | OPT-004 | Linear Optimization | calculator | 4 | 9 | Numerical Methods for Engineers - Chapra & Canale (2020) [Contoh 15.1 dan tableau simpleks lanjutannya] |
-| K-0026 | OPT-005 | Nonlinear Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
-| K-0027 | OPT-006 | Constrained Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
-| K-0028 | OPT-007 | Multi Objective Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
+| K-0001 | <a id="NUM-001"></a>NUM-001 | ARX(1,1) System ID with Free-Run Validation | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 461 & 477] |
+| K-0002 | <a id="NUM-002"></a>NUM-002 | Polynomial Regression with Parsimony Selection | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 186, 212, 216, 221] |
+| K-0003 | <a id="NUM-003"></a>NUM-003 | POD/PCA via Snapshot Correlation (Jacobi) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 29, 53, 567-574] |
+| K-0004 | <a id="NUM-004"></a>NUM-004 | DMD (2-State Exact) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 339] |
+| K-0005 | <a id="NUM-005"></a>NUM-005 | SINDy 1-State (Polynomial Library, STLS) | calculator | 2 | 7 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 357 & 163] |
+| K-0006 | <a id="NUM-006"></a>NUM-006 | Data-Driven Pole Placement (1-State) | calculator | 2 | 8 | Data-Driven Science and Engineering - Brunton & Kutz 2e (2021, Cambridge) [pdf hal. 495, 403 & 415] |
+| K-0007 | <a id="NUM-007"></a>NUM-007 | Root Finding Orchestrator (Bracket + Polish) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 146 & 164] |
+| K-0008 | <a id="NUM-008"></a>NUM-008 | Bisection Root Finding (Bracketing) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 146] |
+| K-0009 | <a id="NUM-009"></a>NUM-009 | Newton-Raphson Root Finding | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 164 & 170] |
+| K-0010 | <a id="NUM-010"></a>NUM-010 | Linear Solver with Dual-Method Verification | calculator | 1 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 267 & 301] |
+| K-0011 | <a id="NUM-011"></a>NUM-011 | Gauss Elimination Linear Solver | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 267 & 274] |
+| K-0012 | <a id="NUM-012"></a>NUM-012 | LU Decomposition (Doolittle) | calculator | 2 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 301] |
+| K-0013 | <a id="NUM-013"></a>NUM-013 | Polynomial Interpolation (Newton DD vs Lagrange) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 515 & 526] |
+| K-0014 | <a id="NUM-014"></a>NUM-014 | Numerical Integration (Simpson / Trapezoid) | calculator | 3 | 8 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 630 & 642] |
+| K-0015 | <a id="NUM-015"></a>NUM-015 | ODE Initial-Value Solver (RK4 / Euler) | calculator | 3 | 9 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 739 & 759] |
+| K-0016 | <a id="NUM-016"></a>NUM-016 | RK4 Scalar IVP with Order Verification | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 739 & 759] |
+| K-0017 | <a id="NUM-017"></a>NUM-017 | Model Verification via Manufactured Solutions (MMS) | calculator | 2 | 6 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 101-122 & 739] / Method of Manufactured Solutions - praktik verifikasi kode baku [-... |
+| K-0018 | <a id="NUM-018"></a>NUM-018 | Parameter Sweep, Sensitivity & Threshold Crossing | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 117 & 146] |
+| K-0019 | <a id="NUM-019"></a>NUM-019 | Observed Order & Richardson Extrapolation | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 75, 85, 101, 117, 122] |
+| K-0020 | <a id="NUM-020"></a>NUM-020 | Linear Least-Squares Regression | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 480] |
+| K-0021 | <a id="NUM-021"></a>NUM-021 | 1D Optimization (Golden-Section) | calculator | 2 | 7 | Numerical Methods for Engineers - Chapra & Canale (2020) [pdf hal. 378, 379 & 386] |
+| K-0022 | <a id="OPT-001"></a>OPT-001 | Design Variable Selection | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill NUM-018 (impor kalkulator) [-] |
+| K-0023 | <a id="OPT-002"></a>OPT-002 | Constraint Definition | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill OPT-004 (impor kalkulator) [-] |
+| K-0024 | <a id="OPT-003"></a>OPT-003 | Objective Function | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky [-] / EKAS skill SYS-011 (impor kalkulator) [-] |
+| K-0025 | <a id="OPT-004"></a>OPT-004 | Linear Optimization | calculator | 4 | 9 | Numerical Methods for Engineers - Chapra & Canale (2020) [Contoh 15.1 dan tableau simpleks lanjutannya] |
+| K-0026 | <a id="OPT-005"></a>OPT-005 | Nonlinear Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
+| K-0027 | <a id="OPT-006"></a>OPT-006 | Constrained Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
+| K-0028 | <a id="OPT-007"></a>OPT-007 | Multi Objective Optimization | stub-candidate | 0 |  | Engineering Optimization - Rao |
 
 ## Prasyarat / komposit
 

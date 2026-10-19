@@ -11,24 +11,24 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0355 | SYS-001 | System Lifecycle Planning | document | 0 | 2 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md (milik pemilik sistem) [-] / INCOSE Systems Engineering Handbook [-] |
-| K-0356 | SYS-002 | Technical Management Plan | document | 0 | 2 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md & ASSURANCE-WORKFLOW.md [-] / INCOSE Systems Engineering Handbook [-] |
-| K-0357 | SYS-003 | Risk Register Scoring & Ranking (C/L Matrix) | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 84-85 (109-110 pdf)] |
-| K-0358 | SYS-004 | Configuration Management | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-003 (impor kalkulator) [-] |
-| K-0359 | SYS-005 | Design Review Planning | document | 0 | 4 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md (dokumen milik pemilik sistem) [berkas penuh] / INCOSE Systems Engineering Handbook [-] |
-| K-0360 | SYS-006 | Stakeholder Need Analysis | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky, Systems Engineering and Analysis [-] / EKAS skill SYS-011 (impor kalkulator) [-] |
-| K-0361 | SYS-007 | Function Tree Structure Audit | calculator | 1 | 7 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 132] |
-| K-0362 | SYS-008 | System Architecture | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 (impor kalkulator) [-] |
-| K-0363 | SYS-009 | Subsystem Decomposition | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 (impor kalkulator) [-] |
-| K-0364 | SYS-010 | Interface Register & N2 Audit | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 227] |
-| K-0365 | SYS-011 | Trade Study (Weighted Decision Matrix) | calculator | 2 | 7 | Systems Engineering Principles and Practice - Kossiakoff et al. [hal. cetak 275 (TOC)] / INCOSE Systems Engineering Handbook (2023) [pdf hal. 103] |
-| K-0366 | SYS-012 | Conops Generation | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 FUNCTIONAL_DECOMPOSITION [-] |
-| K-0367 | SYS-013 | Requirement Decomposition | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 132-137] / Systems Engineering Principles and Practice - Kossiakoff et al. [hal. cetak 153 (TOC)] |
-| K-0368 | SYS-014 | Requirement Set Validation (GtWR Table 2.7/2.8) | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 141 (cetak 116)] |
-| K-0369 | SYS-015 | Requirement Traceability Matrix | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 226] |
-| K-0370 | SYS-016 | Verification Planning (IADT Matrix) | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 163] |
-| K-0371 | SYS-017 | Validation Planning | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-016 (impor kalkulator) [-] |
-| K-0372 | SYS-018 | Vee Model Pairing Plan (Decomposition vs V&V) | calculator | 1 | 5 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 164 & 172] |
+| K-0355 | <a id="SYS-001"></a>SYS-001 | System Lifecycle Planning | document | 0 | 2 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md (milik pemilik sistem) [-] / INCOSE Systems Engineering Handbook [-] |
+| K-0356 | <a id="SYS-002"></a>SYS-002 | Technical Management Plan | document | 0 | 2 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md & ASSURANCE-WORKFLOW.md [-] / INCOSE Systems Engineering Handbook [-] |
+| K-0357 | <a id="SYS-003"></a>SYS-003 | Risk Register Scoring & Ranking (C/L Matrix) | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 84-85 (109-110 pdf)] |
+| K-0358 | <a id="SYS-004"></a>SYS-004 | Configuration Management | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-003 (impor kalkulator) [-] |
+| K-0359 | <a id="SYS-005"></a>SYS-005 | Design Review Planning | document | 0 | 4 | EKAS 01_GOVERNANCE/ASSURANCE-GATES.md (dokumen milik pemilik sistem) [berkas penuh] / INCOSE Systems Engineering Handbook [-] |
+| K-0360 | <a id="SYS-006"></a>SYS-006 | Stakeholder Need Analysis | document | 0 | 2 | INCOSE Systems Engineering Handbook; Blanchard & Fabrycky, Systems Engineering and Analysis [-] / EKAS skill SYS-011 (impor kalkulator) [-] |
+| K-0361 | <a id="SYS-007"></a>SYS-007 | Function Tree Structure Audit | calculator | 1 | 7 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 132] |
+| K-0362 | <a id="SYS-008"></a>SYS-008 | System Architecture | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 (impor kalkulator) [-] |
+| K-0363 | <a id="SYS-009"></a>SYS-009 | Subsystem Decomposition | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 (impor kalkulator) [-] |
+| K-0364 | <a id="SYS-010"></a>SYS-010 | Interface Register & N2 Audit | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 227] |
+| K-0365 | <a id="SYS-011"></a>SYS-011 | Trade Study (Weighted Decision Matrix) | calculator | 2 | 7 | Systems Engineering Principles and Practice - Kossiakoff et al. [hal. cetak 275 (TOC)] / INCOSE Systems Engineering Handbook (2023) [pdf hal. 103] |
+| K-0366 | <a id="SYS-012"></a>SYS-012 | Conops Generation | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-007 FUNCTIONAL_DECOMPOSITION [-] |
+| K-0367 | <a id="SYS-013"></a>SYS-013 | Requirement Decomposition | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 132-137] / Systems Engineering Principles and Practice - Kossiakoff et al. [hal. cetak 153 (TOC)] |
+| K-0368 | <a id="SYS-014"></a>SYS-014 | Requirement Set Validation (GtWR Table 2.7/2.8) | calculator | 1 | 6 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 141 (cetak 116)] |
+| K-0369 | <a id="SYS-015"></a>SYS-015 | Requirement Traceability Matrix | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 226] |
+| K-0370 | <a id="SYS-016"></a>SYS-016 | Verification Planning (IADT Matrix) | calculator | 0 | 8 | INCOSE Systems Engineering Handbook (2023) [pdf hal. 163] |
+| K-0371 | <a id="SYS-017"></a>SYS-017 | Validation Planning | document | 0 | 2 | INCOSE Systems Engineering Handbook [-] / EKAS skill SYS-016 (impor kalkulator) [-] |
+| K-0372 | <a id="SYS-018"></a>SYS-018 | Vee Model Pairing Plan (Decomposition vs V&V) | calculator | 1 | 5 | INCOSE Systems Engineering Handbook 5e (2023, Wiley) [pdf hal. 164 & 172] |
 
 ## Prasyarat / komposit
 

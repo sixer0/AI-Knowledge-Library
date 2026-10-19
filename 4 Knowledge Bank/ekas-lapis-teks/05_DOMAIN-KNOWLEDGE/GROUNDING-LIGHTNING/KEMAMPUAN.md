@@ -11,10 +11,10 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0105 | GND-001 | Soil Resistivity (Wenner 4-Electrode) | calculator | 1 | 6 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 579-581] |
-| K-0106 | GND-002 | Earth Rod Resistance (Single & Two Parallel) | calculator | 1 | 6 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 561-564] |
-| K-0107 | GND-003 | Fall-of-Potential Probe Position (61.8% Rule) | calculator | 1 | 5 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 580-582] |
-| K-0108 | GND-004 | Rolling Sphere / Striking Distance (Uman 3.2) | calculator | 1 | 7 | The Art and Science of Lightning Protection - Uman (2008, Cambridge) [pdf hal. 68-69, 74-76, 89-90] |
+| K-0105 | <a id="GND-001"></a>GND-001 | Soil Resistivity (Wenner 4-Electrode) | calculator | 1 | 6 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 579-581] |
+| K-0106 | <a id="GND-002"></a>GND-002 | Earth Rod Resistance (Single & Two Parallel) | calculator | 1 | 6 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 561-564] |
+| K-0107 | <a id="GND-003"></a>GND-003 | Fall-of-Potential Probe Position (61.8% Rule) | calculator | 1 | 5 | Grounds for Grounding 2e - Joffe & Lock (2023, Wiley-IEEE) [pdf hal. 580-582] |
+| K-0108 | <a id="GND-004"></a>GND-004 | Rolling Sphere / Striking Distance (Uman 3.2) | calculator | 1 | 7 | The Art and Science of Lightning Protection - Uman (2008, Cambridge) [pdf hal. 68-69, 74-76, 89-90] |
 
 ## Prasyarat / komposit
 

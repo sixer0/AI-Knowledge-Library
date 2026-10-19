@@ -11,9 +11,9 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0113 | CON-001 | Critical Path Method Schedule (Mubarak Ch4) | calculator | 1 | 6 | Construction Project Scheduling and Control 4e - Mubarak (2019, Wiley) [pdf hal. 80-90] |
-| K-0114 | CON-002 | Loader-Truck Fleet Production & Balance (Peurifoy Ch10) | calculator | 1 | 6 | Construction Planning, Equipment, and Methods 9e - Peurifoy, Schexnayder dkk. (2018, McGraw-Hill) [pdf hal. 479-483] |
-| K-0115 | CON-003 | Sequential Compounding Markup Estimate (Holm) | calculator | 1 | 6 | Construction Cost Estimating - Holm & Schaufelberger (2021, Routledge) [pdf hal. 47-48] |
+| K-0113 | <a id="CON-001"></a>CON-001 | Critical Path Method Schedule (Mubarak Ch4) | calculator | 1 | 6 | Construction Project Scheduling and Control 4e - Mubarak (2019, Wiley) [pdf hal. 80-90] |
+| K-0114 | <a id="CON-002"></a>CON-002 | Loader-Truck Fleet Production & Balance (Peurifoy Ch10) | calculator | 1 | 6 | Construction Planning, Equipment, and Methods 9e - Peurifoy, Schexnayder dkk. (2018, McGraw-Hill) [pdf hal. 479-483] |
+| K-0115 | <a id="CON-003"></a>CON-003 | Sequential Compounding Markup Estimate (Holm) | calculator | 1 | 6 | Construction Cost Estimating - Holm & Schaufelberger (2021, Routledge) [pdf hal. 47-48] |
 
 ## Prasyarat / komposit
 

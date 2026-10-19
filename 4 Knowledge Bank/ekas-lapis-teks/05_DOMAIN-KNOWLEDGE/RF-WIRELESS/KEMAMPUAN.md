@@ -11,31 +11,31 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0201 | RF-001 | Rf Link Budget | calculator | 3 | 5 | komposisi skill EKAS RF-019 PATH_LOSS, RF-020 RECEIVED_POWER, RF-021 SNR_CALC (Goldsmith Ch2/4/6 lewat paket-paket itu) [-] |
-| K-0202 | RF-002 | Terminated Lossless Line Input Impedance | calculator | 2 | 7 | Microwave Engineering 4e - David Pozar (2012, Wiley) [pdf hal. 76] |
-| K-0203 | RF-003 | Quarter-Wave Transformer Design | calculator | 2 | 6 | Microwave Engineering 4e - David Pozar (2012, Wiley) [pdf hal. 266 (92)] |
-| K-0204 | RF-004 | Smith Chart Calc | calculator | 4 | 8 | Pozar - Microwave Engineering (2012, Wiley) [Bab 2] |
-| K-0205 | RF-005 | VSWR & Mismatch Loss | calculator | 2 | 7 | Microwave Engineering - Pozar (2012) [pdf hal. 68+] |
-| K-0206 | RF-006 | Return Loss | calculator | 1 | 7 | Microwave Engineering - Pozar (2012) [pdf hal. 68+] |
-| K-0207 | RF-007 | Two-Port S-Parameter Analysis | calculator | 1 | 6 | Microwave Engineering - Pozar (2012) [pdf hal. 198-207] |
-| K-0208 | RF-008 | Cascaded Two-Port Network (ABCD) | calculator | 1 | 6 | Microwave Engineering - Pozar (2012) [pdf hal. 208-213] |
-| K-0209 | RF-009 | Antenna Gain (Efficiency x Directivity / Aperture) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 82-83 & 108] |
-| K-0210 | RF-010 | Antenna Pattern Beamwidth (HPBW/FNBW) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 62-63] |
-| K-0211 | RF-011 | Directivity (Exact vs Kraus/Tai-Pereira) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 63-73] |
-| K-0212 | RF-012 | Half-Wavelength Dipole Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 198-206] |
-| K-0213 | RF-013 | Rectangular Microstrip Patch Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 810-817] |
-| K-0214 | RF-014 | Uniform Linear Array Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 315-341] |
-| K-0215 | RF-015 | N-Element Uniform Array Factor | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 315-322] |
-| K-0216 | RF-016 | Antenna Placement | document | 0 | 2 | Balanis - Antenna Theory & Uman - Lightning (via skill EKAS) [-] / EKAS skill RF-017 COVERAGE_ESTIMATION & GND-004 ROLLING_SPHERE [-] |
-| K-0217 | RF-017 | Coverage Radius from Link Budget (Inverse FSPL) | calculator | 1 | 6 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. (RF-019 terverifikasi)] |
-| K-0218 | RF-018 | Shannon Channel Capacity (AWGN) | calculator | 2 | 6 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 128-129] |
-| K-0219 | RF-019 | Free-Space Path Loss & Fresnel Zone | calculator | 2 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 56-60] |
-| K-0220 | RF-020 | Received Power (Friis Link Budget) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 56-60] |
-| K-0221 | RF-021 | Noise Floor & SNR | calculator | 2 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 201] |
-| K-0222 | RF-022 | Adaptive MQAM Modulation Selection (Goldsmith 9.3) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. 318-319] |
-| K-0223 | RF-023 | BER for BPSK/QPSK over AWGN (Q-Function) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. 201] |
-| K-0224 | RF-024 | Cell Coverage | stub-candidate | 0 |  | Wireless Communications - Goldsmith (2005) |
-| K-0225 | RF-025 | Wireless Capacity | stub-candidate | 0 |  | Wireless Communications - Goldsmith (2005) |
+| K-0201 | <a id="RF-001"></a>RF-001 | Rf Link Budget | calculator | 3 | 5 | komposisi skill EKAS RF-019 PATH_LOSS, RF-020 RECEIVED_POWER, RF-021 SNR_CALC (Goldsmith Ch2/4/6 lewat paket-paket itu) [-] |
+| K-0202 | <a id="RF-002"></a>RF-002 | Terminated Lossless Line Input Impedance | calculator | 2 | 7 | Microwave Engineering 4e - David Pozar (2012, Wiley) [pdf hal. 76] |
+| K-0203 | <a id="RF-003"></a>RF-003 | Quarter-Wave Transformer Design | calculator | 2 | 6 | Microwave Engineering 4e - David Pozar (2012, Wiley) [pdf hal. 266 (92)] |
+| K-0204 | <a id="RF-004"></a>RF-004 | Smith Chart Calc | calculator | 4 | 8 | Pozar - Microwave Engineering (2012, Wiley) [Bab 2] |
+| K-0205 | <a id="RF-005"></a>RF-005 | VSWR & Mismatch Loss | calculator | 2 | 7 | Microwave Engineering - Pozar (2012) [pdf hal. 68+] |
+| K-0206 | <a id="RF-006"></a>RF-006 | Return Loss | calculator | 1 | 7 | Microwave Engineering - Pozar (2012) [pdf hal. 68+] |
+| K-0207 | <a id="RF-007"></a>RF-007 | Two-Port S-Parameter Analysis | calculator | 1 | 6 | Microwave Engineering - Pozar (2012) [pdf hal. 198-207] |
+| K-0208 | <a id="RF-008"></a>RF-008 | Cascaded Two-Port Network (ABCD) | calculator | 1 | 6 | Microwave Engineering - Pozar (2012) [pdf hal. 208-213] |
+| K-0209 | <a id="RF-009"></a>RF-009 | Antenna Gain (Efficiency x Directivity / Aperture) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 82-83 & 108] |
+| K-0210 | <a id="RF-010"></a>RF-010 | Antenna Pattern Beamwidth (HPBW/FNBW) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 62-63] |
+| K-0211 | <a id="RF-011"></a>RF-011 | Directivity (Exact vs Kraus/Tai-Pereira) | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 63-73] |
+| K-0212 | <a id="RF-012"></a>RF-012 | Half-Wavelength Dipole Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 198-206] |
+| K-0213 | <a id="RF-013"></a>RF-013 | Rectangular Microstrip Patch Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 810-817] |
+| K-0214 | <a id="RF-014"></a>RF-014 | Uniform Linear Array Design | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 315-341] |
+| K-0215 | <a id="RF-015"></a>RF-015 | N-Element Uniform Array Factor | calculator | 1 | 6 | Antenna Theory - Constantine Balanis 4e (2016, Wiley) [pdf hal. 315-322] |
+| K-0216 | <a id="RF-016"></a>RF-016 | Antenna Placement | document | 0 | 2 | Balanis - Antenna Theory & Uman - Lightning (via skill EKAS) [-] / EKAS skill RF-017 COVERAGE_ESTIMATION & GND-004 ROLLING_SPHERE [-] |
+| K-0217 | <a id="RF-017"></a>RF-017 | Coverage Radius from Link Budget (Inverse FSPL) | calculator | 1 | 6 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. (RF-019 terverifikasi)] |
+| K-0218 | <a id="RF-018"></a>RF-018 | Shannon Channel Capacity (AWGN) | calculator | 2 | 6 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 128-129] |
+| K-0219 | <a id="RF-019"></a>RF-019 | Free-Space Path Loss & Fresnel Zone | calculator | 2 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 56-60] |
+| K-0220 | <a id="RF-020"></a>RF-020 | Received Power (Friis Link Budget) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 56-60] |
+| K-0221 | <a id="RF-021"></a>RF-021 | Noise Floor & SNR | calculator | 2 | 7 | Wireless Communications - Andrea Goldsmith (2005) [pdf hal. 201] |
+| K-0222 | <a id="RF-022"></a>RF-022 | Adaptive MQAM Modulation Selection (Goldsmith 9.3) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. 318-319] |
+| K-0223 | <a id="RF-023"></a>RF-023 | BER for BPSK/QPSK over AWGN (Q-Function) | calculator | 1 | 7 | Wireless Communications - Andrea Goldsmith (2005, Cambridge) [pdf hal. 201] |
+| K-0224 | <a id="RF-024"></a>RF-024 | Cell Coverage | stub-candidate | 0 |  | Wireless Communications - Goldsmith (2005) |
+| K-0225 | <a id="RF-025"></a>RF-025 | Wireless Capacity | stub-candidate | 0 |  | Wireless Communications - Goldsmith (2005) |
 
 ## Prasyarat / komposit
 

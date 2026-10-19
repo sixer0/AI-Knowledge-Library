@@ -2379,7 +2379,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/tdd/mocking.md,1540,73a10b6a26b56197c738a764c1e4205af98c74553f4a713795997f6bc35b917d
 3 Skills/registry-fleet/tdd/tests.md,2291,0b401f98bd3684d2fea6440d6946afcf8f5f68ac6a65599dd7a2b90dd9f02eb5
 3 Skills/registry-fleet/yuanbao/SKILL.md,3903,5096a9fffebde016665dae9620fff25aedc926b569d9fa023454d152c2e60aac
-4 Knowledge Bank/INDEKS.md,242838,cbe54d1853481eee6c8356caf0c7f24eecbc6c3dab0f420ff08934e9b3876e34
+4 Knowledge Bank/INDEKS.md,242838,2eccbcfb04e68928e6ef8aa257e6aa055da3841880ea1deafafbf50b3dfc0b10
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/CHANGELOG.md,54906,b53b35901becd3326aeaa2d383cb8c8cdb2726f8283a537db173aa9b9b22f503
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/DOCUMENT-CONTROL.md,4741,dcd68c88edf3c50ab6c9ce8c6f89836166378801a8ff196c7b7ba568e1918a0b
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md,6170,40bb4718bb0c1d7cedc4e04e0bce18d5913e3f6ce6a66c8556d04a711e88166a
@@ -2563,19 +2563,19 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-001.md,1852,7cffbd2f00e875f59c2a7d97acfd380ad94bfa235d3ddcb2db639492a7e03111
 4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-002.md,2341,cf9756d0ff87babd26d420a67ecda6049e75d7011190b7b482872acc4994f02e
 4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-003.md,3407,cf3d527dc715c7b1d468835d7b63d5eaf68380b090c36f6452f475257f48bfc6
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/KEMAMPUAN.md,8228,82bea8ad62ee1102614fd640c1989176a134ad8a0dd936b906a39796d774c2dd
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/KEMAMPUAN.md,8688,a3de9032844b8234674dfd631ac97f8ea1b99b8e77063787a8e56603f1440fb8
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Data-Driven Science and Engineering (Brunton & Kutz).md,2774,f6e97e5c55e3afb2490b4cdf4e8876d2c2908d6d7f823a94ba928e382cd15f59
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Deep Learning (Goodfellow et al.).md,3094,9ef920811ada4c27dab88d22fda45eadd4981f138d88599390b11708dce8ea28
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Designing Machine Learning Systems (Chip Huyen).md,3200,d7e2be4c796a204b8308bb650866c14e1aad071eb3d6ca712c9a547efb68a404
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Hands-On Machine Learning (Geron).md,3758,d9a8957d63d395bad25a3acd709e30a7e030dbe8b76cabd7c9902e5459190c8f
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/RANTAI-JAMINAN.md,26548,013e12a348181b3ef9bb250a15a6724bfd25ec2a838889f414ca222e6f604aae
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/README.md,1275,41c5b58829977f4a24984df5241dd948dff500a37798d09d4be976397f42c190
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/KEMAMPUAN.md,2129,ab8a05c75d86b7a394b543ef4219012dc79f4e876ad75f336e312d77792d0e4d
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/KEMAMPUAN.md,2169,477ffbfe58a61c28ced3fc7ab03a7ad2d3f94ce5abe50a4594aeb08746c16077
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - BIM Handbook (Sacks dkk.).md,1566,73f29517f585ef32c6d8b1d2659b383944d5124333c892d4e83e892a432a8bc7
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - Building Codes Illustrated (Ching & Winkel).md,1947,298656d5e16f084d5adf996d8134432db879d4e7ae19b6033867f53152d0cbcc
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - Building Construction Illustrated (Ching).md,1916,761b842f8fe7b8bc16792d0c939ca710f00e5fe689f68b7b0fb69a9d5305d2a7
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md,6391,815c88791fcdc5c5a0315a90ff300de55981adcc03fb9793a4ce5614b027be1f
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/KEMAMPUAN.md,2067,4488bdd683dd0dc30af782eb0f12390fa6fe308f03dda6dc87fd0982ed02a6b1
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/KEMAMPUAN.md,2107,36fd01714a4b8df2b0062f2edd25b54bf0121ce58bdb7eaaf6dc96ea75e5680d
 "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Design of Concrete Structures (Darwin, Dolan & Nilson).md",2242,ce6a0c23a8e6c61af8e3c7ae4b2ded6f152ad7d6faa713383cf5441233cdcb3a
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Engineering Mechanics Dynamics 14th (Hibbeler).md,5007,5141fff7b2e61eb27d815337e6ed8f665848049f70a5e8dbee0c6e6d5aefb2b3
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Engineering Mechanics Statics 14th (Hibbeler).md,4758,4a7a38e10b829bf1dedb2612795fa705511f79a983634eb2044b373824dd1bd7
@@ -2585,12 +2585,12 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Steel Design (Segui).md,2226,ec6d35835daa7c09718eeced144cf2cb8516faf0eb6aec756fe57a359ea22a59
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Structural Analysis (Hibbeler).md,3087,9e0991524b030719fb8f26de7da70d94254251dde1e91cd7dee8a65560bd4a52
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/RANTAI-JAMINAN.md,8836,883e1ca135ed832b4056af568cfad2aa84172d07a086f9936d3c4bfc32636202
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/KEMAMPUAN.md,7081,d5d3c5462a07d49ddd0256b3a52f83c48ec329accb9a5819c55aecb1d09a677e
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/KEMAMPUAN.md,7366,b9e874a92550dc8878908ecee83a0e5d8d26c981d2a2ee8355210576e75a8b8c
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/R3 - Digital Image Processing (Gonzalez & Woods).md,4577,9ab23c32ebb154e97d3b7e72144c73c8f8d8beeb13a417353b64366798ab9118
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/R3 - Multiple View Geometry (Hartley & Zisserman).md,2318,ece1e7a819464fcce6ae36701cb4a4cd5e49a3922bd7a20919d5ac995aac9765
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/RANTAI-JAMINAN.md,22954,012158780181d3875102ffb47e7b2bc6cf458376a7ad07e4950429d39ea80428
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/README.md,1231,ff442113b3bf2b8dcd0c87d66de5db4c58e580c034ff69d1ced84b4525f6f965
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/KEMAMPUAN.md,2307,033db402b83e2346896dc8ad6665815115d6082d98a7ff958096299d1f5d4cdf
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/KEMAMPUAN.md,2367,e85d57dfcd320b72abe9e3adbd16a81e22871159673f3b0d59ce7b7afcc1f995
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Cost Estimating (Holm & Schaufelberger).md,2371,a12f951d18b63e0802cde13d580fe10ec87c68838c20118cdd54b10764db7769
 "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Planning, Equipment, and Methods (Peurifoy).md",2595,6e213c1c305d162db947fd694f6bef06b7dc4f4ff2acd1e3fbc5144db248e581
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Project Scheduling and Control (Mubarak).md,2504,d09575ca7ebf68472b013ddd0a017de1be60500861189f6d67b53e0dfbd0edac
@@ -2602,7 +2602,7 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5 - Keamanan Siber Operasional.md,5363,b2abae52010d549ce252ed03da506f8d43681b9553e86e958be288e83f6708a4
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R5 - Keamanan Siber dan Forensik Digital (Universitas Indonesia).md,5523,6b782ed474e06d1a5fddf7dbfcc6675b7b1366263977df329fb19da120c82015
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/RANTAI-JAMINAN.md,7337,90d0a7cb25f02efd0038822c4db9aafb008a6306828eba0cd6f54f84a73f785b
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md,5475,e4e8af3d3a7f596a20dc0ab2d6c8238a9d50a076aa0c5efd6312fec0063f6771
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/KEMAMPUAN.md,5915,51edb0044fec9d171ccf3c739cd74a3c91784c1980fc352d3505a30b1f9e08b3
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Architectural Graphics (Ching).md,1618,72d0dfd5aef5a8b0622aa5b1e7ad8715170e381e80b2b3268395a1c7248879a9
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - AutoCAD Civil 3D 2011 Tutorial (Autodesk).md,1319,7fbb1958ea005a7e639f01c1e2f93b1d4754f9c1d45de354b4a1dd57bd26412b
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - AutoCAD Electrical 2026 (Tickoo) - dua judul.md,2306,6cb0a965797f86b13f4d2a02d8dd9d12aeb5a1fcaffef8d802f4724c329e7dcd
@@ -2610,7 +2610,7 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Fundamentals of Engineering Drawing (French Vierck).md,4698,3c215a6057d905866e3f31ddc9bc1d0ec8b0a63e22a2aca73194506201fc1500
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - The Professional Practice of Architectural Working Drawings.md,1570,607a6e841ec950d7a83346da23b29d6f4cacdf1a91929316a3406f6c6b289018
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/RANTAI-JAMINAN.md,20573,04b97012408f94f6170b9580dcd257bbe019053cc479322d9559fd489517a947
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md,20378,6fc7935d23f97a8d2d85789788ef2e3ed6f625e8dd4705f0197091ded9651052
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/KEMAMPUAN.md,21798,e89f014e0137fd956daa2b503f8b6bb0bf6291d57ce8c42ac356b295b7c9135a
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R2 - ANSI-NETA ATS-2017.md,9349,4cc7f977684d8112a3bed239e56fee7efd7501f0a777269b4200d2af19017786
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Electric Power Distribution Engineering (Gonen).md,3460,9e52d4c001d72a77534143680defab70804725cb4c3c7a8df67161e0b47f52d7
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Electrical Engineering Principles and Applications (Hambley).md,3051,53b6b0056f8f024c5647ffe8ba9c34b4e2f8307df3abdeffbf2b124c3131f924
@@ -2624,23 +2624,23 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Protective Relaying Principles and Applications (Blackburn Domin).md,3535,4d9e618e672f497f574355ab879299cc152d0186621fbf04e23055b2672897e4
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - The Art of Electronics (Horowitz Hill).md,3225,32a0357b92bab6f050921cf8eb149354f96f77c0c3166dac063af88313463a47
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/RANTAI-JAMINAN.md,8720,0028f1e56c39e74c68ebd641f19579c8e74d2a7d389b2f3f0ba672612c63b91a
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md,3528,0ee76757c45d0eccdc15c084b17c3e35cd9ec1d81968c7c9bd1062e59454d2c2
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/KEMAMPUAN.md,3728,e009312b26b5175b2818a2387c5fbba44d2440bb92196c8b36b38ac30ad397c4
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R2 - IEC 61280-4-2.md,5012,f6c3349457a665ce88344712af8ac0f05e2016473253553714337fb7d7d87d69
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - FOA Reference Guide to Fiber Optics.md,13143,97fc147866a51677cc25f3330c59fef628ae900db59383c0ac76d618d4622f99
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - Optical Fiber Communications (Keiser).md,4677,7eb093002e033deb9cac857a1c75431388c8e3a625f696e2093734177b090044
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - Reference Guide to Fiber Optic Testing Vol 1.md,4465,0fddc4d26284ea6be37394faaa6a129f769f31e1f9e7842888f645cfc321f4c2
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/RANTAI-JAMINAN.md,9571,da9656f46da768a0f00ad1a6686148aab215cc2a3e59cab127c62c16a65f634c
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/KEMAMPUAN.md,2093,5ebb2852b9c337e4c78b782aab3323f4d49bbad2f56f076281ea9b54fb11f8f5
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/KEMAMPUAN.md,2133,66747f673db137eeb7b068ae079e2c00d641a87616bec35ccbb04c06ee7c16d4
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/R3 - GIS Fundamentals (Bolstad & Manson).md,3396,f1e45cb0530fb8976ec866c6f06170a4e1843f6cf7f53df57b7fcf383c38bd71
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/R3 - Surveying Principles and Applications (Kavanagh & Mastin).md,1795,c4ff7e7ee5c5593ca4a5041a8fab0eb576884d61c3a86e3da061828e5325bf23
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/RANTAI-JAMINAN.md,31624,4d59dfd7307b2cb50632cff0543aafea9d87112d30c96ff60503a152d2ad7126
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/KEMAMPUAN.md,2440,1de4345761e4f9b13b432e416708f66492ec9be587059e539cae2919c407e1a3
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/KEMAMPUAN.md,2520,f07907f864067b39a5878397f08a58e5854da2a8752b315cf18e6531d4525ef9
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/R3 - Grounds for Grounding.md,10765,59f934f0d74d34b217e5063efd52a2f4df325dde7452c0364002cc91ed9c9135
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/R3 - The Art and Science of Lightning Protection.md,7863,cc9b01d8869e98ff843d3594b31bafdccbdb5b97549531affc55dcbf1003191c
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md,6040,95e52d7d616200ad18b223d8a1206f8704f7dc2a0eac6a37e802c018e549f8cc
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/R3 - Mechanical and Electrical Equipment for Buildings (Grondzik & Kwok).md,3587,7f89ea4881fbd3d04057ea449a9ecf04ffed3bb1d9798221130755ae8bb11078
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/RANTAI-JAMINAN.md,15253,b58cc9d26c8c35904cf8570d93f60f1c680581d11ce06336bc85408e1e189c24
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md,17952,b47939a990cbbd1a30c505b421a43df6469b77cd1e01d0867d5541fcbdf74d71
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/KEMAMPUAN.md,19532,5543aa9ab2472a014e3e12a7bfb142cf48dab0acf5c5db1bcdd771a53813c8bd
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Fundamentals of Engineering Thermodynamics (Moran Shapiro).md,3538,3ceeb74330a8313427c5ff31987829cba2deb8db312ae317b8f3139e280bfec2
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Fundamentals of Fluid Mechanics (Munson Young Okiishi).md,4890,6cad6ae3c1632aac0a04b5ab819bf3b361ac6b9cfb86547ec64cb6a63f713487
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Machinery's Handbook 28th (Oberg).md,4822,1ede260d2e7f6f3b0b71c99d827e7fc098f1c82f502135618e410a8b721a71c3
@@ -2649,19 +2649,19 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Mechanical Engineering Reference Manual 13.4 (Lindeburg).md,3197,34a6fc327c15d3bd067c2632166e6a67b4a9f8aaf4ee35bdea9403dca4c9c31e
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Shigley's Mechanical Engineering Design.md,4086,843e8b7bbbe01d134911fdec343880d5092db12c96846c4be22c3960f1247283
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/RANTAI-JAMINAN.md,23614,d487b3021ca26eb454006d4d7d997956b9f09874408b741db36967e6e5d37867
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/KEMAMPUAN.md,2078,c8977914433e3d3e89ff6ce77b9e6521c5e9995a3997dfacd09fde4582c89f6b
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/KEMAMPUAN.md,2118,49f281e2620e7017cf53f20ed59ec4cd8da91bbc9e622ca34765d80ce5094006
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - CCNA 200-301 Official Cert Guide Library.md,3530,9b78c1c2ac3ddc91424da781dad47fbb15f7cc4d5bf5d7aba296eab1314081ed
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - Computer Networking A Top-Down Approach.md,3733,36962eae6c7e912d9df6289524263b05479647f55d58d6aa92b722e7c5c9e82f
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - Network Warrior.md,4756,73823115d5d5d7e41bcef0071574452833d269d1af6367375740f6b868a83e21
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - TCP-IP Illustrated Vol 1.md,9126,9c762975fd77b1d4d5c6e442a85ce74830b8a771827122030919a6b5a2928c24
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - The Practice of System and Network Administration.md,4211,15e08e2ac69e69aaad9e536542e4637d8ee2376ad83514e35f7966c72184af47
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md,9182,66e268cbcda247922d16af317fd46e6342a4bd1142a29f4a4ae87bd590117408
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/KEMAMPUAN.md,9790,939e5ebe4b2f3c56eb91b8895009bc951f8adb31597714e7edaf68d3c17e6195
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/KEMAMPUAN.md,10350,1f76e62898e80eb651aefeae106826d276b59c2bfc8410ddfa4b857908aaeb87
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/R3 - Applied Numerical Methods with MATLAB (Chapra).md,6562,32942aa458cd8dcaa9f2bede48dab61788385a942de5ffd9c01b7acf78cc1d8f
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/R3 - Numerical Methods for Engineers (Chapra & Canale).md,3333,b37bc23818cc64a79197b8303192b0657338910b99e59964cd6306f1e65fc33c
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/RANTAI-JAMINAN.md,18522,9395ca520d19d37eff68a15a7b74873ca234b5f14407aa51adedafe4ad4fa2cb
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/README.md,1241,ff71ed690c6664e966824b736eec23699390f64914d5459475c51f5cb5f09c1e
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/KEMAMPUAN.md,2694,3ffe4cf12fc2b3bf250c03b99dea1db8547b03ea1a47fd5fb2bd31992761b6e4
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/KEMAMPUAN.md,2794,290cbb18bc99e02aac7186cdea980f45e80bfef2bb981cd3310567108e6c433c
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R2 - IEEE 1188-2005 dan IEC 62485-2.md,5790,1050ac87dc299720feed014cd19cfe6ddd29271362c5e49c243df7316e3ab832
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R3 - Battery Reference Book.md,7093,9d9953e72e6285e3a1ccbd7576591a4261b7d642118196bb3d9fb7d470fb0ef7
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R3 - Diesel Generator Handbook.md,8127,155fe891fe7833201e9ee7f2798866f436f7c8a72301d382ab4d10fe7875e347
@@ -2674,13 +2674,13 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Quality Auditing in Construction Projects (Rumane).md,2187,900dd9ff7e1cb7cc52f28c90fb483d61195d24666335d263d26bff5db7da6c41
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Quality Management in Construction Projects (Rumane).md,3612,bddeda21577de0c728fa3488946fab21d38f95ea9cf1c7244a178e31bc649a0d
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/RANTAI-JAMINAN.md,7363,fc7d42a34fbd3c9e662fd2c69876e8984771de08125425268c8751a3cc91c804
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/KEMAMPUAN.md,3656,5a385d41f4927186cafa9e1867a14d318cd150101c9ffedec42d33cf4ff05f7c
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/KEMAMPUAN.md,3896,555b9d31d6304998ec47d6b546816817b3d7443759e4d0d7a2c4fbdf635ab51b
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Maintenance Planning Coordination and Scheduling.md,5386,243f1c6d8a797c8293f5f6b7faaa60e6236127ab38c6a0b72bf6e06fcd625304
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Maintenance and Reliability Best Practices.md,5073,63b01820972867afb53b1a50f3f9b4d034b568d48c3a3cbc46e0c89fd30e71ce
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - RCM II (John Moubray).md,19501,290cbe3074f3b9345d87add7e7f72f4782676aea2572a203dd2ef1141b319505
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Reliability Engineering (Elsayed).md,4934,740758ad1a0d80a2550579a9143a95fd5b7668c1c2142bf9b21e68dfa634c4d5
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md,5797,82ca89b2acc348f72bd11a7b95d3b86783d3ec1c11a81b3efa14198a141ef75e
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md,8237,c2135d51e66de403acfb2b59c1942e5e93db2150f3943d70b1f349779c9f2a9c
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/KEMAMPUAN.md,8712,1b1f1159e927529d9a71c560af772a59e677f078b1e1620fe75d0eb72e9653a9
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Antenna Theory (Balanis).md,2831,22bc89465caa43ed0b84b59d19f4f19335bd6a0a45376107972f57d91685d682
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Microwave Engineering (Pozar).md,4540,41ab10879ee7856ea6a075f6955ab0a144e4616010197569f474fa80aa1642d6
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Wireless Communications (Goldsmith).md,3016,da32a143081fc8fc5b4f948389ded520a6eb2641a763448bb66614735bd4d33b
@@ -2690,19 +2690,19 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R3 - Site Reliability Engineering (Beyer Google).md,4702,d6c16262864f201c8ecd32a6c010d84b70a70596d650d352b4ded2344b95f5ca
 "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R5 - Deep Learning (LeCun, Bengio & Hinton 2015).md",1762,7870c048f00263e3f74cf8f97092a32b5cb4cb69c1d70051fe458d97a6b0a01d
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/RANTAI-JAMINAN.md,19549,6ec1497a7eb530061c9f58cd768d42a5f948a08ba4a817d6e81d78657c37ff46
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md,4497,f251cdf29e946712d923399ae4e1225753b6093ac3559e0dfd87a12007a2d2d2
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/KEMAMPUAN.md,4797,4f256dbd65156fbc5ded58db72fb55eb059839e255e23260bfb727218c3415d6
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/R3 - Storage Networks Explained.md,8162,da089b526f3d98040a95ca36bdf986526f865fa4c0f92cddcb6fd215b187e733
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md,4948,ef64e2df5d6947239e723674fac0d0b99422016dd7dc8e5eeb568e580d376d93
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md,6618,c0b81a789f8c142beb9dd6ecd15d18436ecebb9225902925a243d7dfe4e31093
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/KEMAMPUAN.md,6978,d5f6766625694ef56712f8889a10ebfe046eefbe38d4c45dcc53a4c5d11ce898
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - INCOSE Systems Engineering Handbook (Walden).md,3009,d01307ae3478b2927ece554b8dcd81a182cae80b3c570f57b4b23b5be35db9c3
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - System Engineering Management (Blanchard).md,2718,f2503934171d4e411f0d9b9941ec70785f42f639b542222a642ee0653c0f8a07
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - Systems Engineering Principles and Practice (Kossiakoff).md,3342,a5ab5cf5abcf578759505fa6f4070237c1c649414d0820d7285af0dd73b429d7
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/RANTAI-JAMINAN.md,33641,2285fe2ed9872cac077589ba25ecea35913ccf5edf8bab586699c84080ca9e19
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/README.md,1312,0bf365e2e77d9d8d070cb4c415e68b1ed9cc7e4fae241001413fa171822895e2
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/KEMAMPUAN.md,2095,55c5382d5bbd47b511d270a61cb6dab5c9a320dae3cb2d91ba323993be34cb97
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/KEMAMPUAN.md,2135,89e3c8ff685512ddb7926a59b1e8e237a915c7b5cf8e9b31eae72dce83976795
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md,10360,34e39af7772f8b8412535350747855c9cdcd10e99e05f587121dd2571470997a
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/RANTAI-JAMINAN.md,8006,9baa99d8f844d6ed3e9d57057a64e0eaaea3e8db75eea5909378e29b1951603a
-4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md,7606,7ef775923b86e65b8067f3b706a370b1eac1b03a5ca171c27c50523c5d42e7cb
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/KEMAMPUAN.md,8246,c35f6a64fc1defc17938f22b10846e5572882f295d07151dc09a409ba0293f56
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2 - BS EN 62676-1-2.md,5846,10d45dd5fd27bbc7774557afaa7201f6eda664230fb5ffdf8d712400f18ed8e1
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md,10731,0214ea26a962b40708a33dfe10b4603209f1edce8e0783e65b820ffe099d159c
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md,5355,cbf8c769ffacc295989c849c8d39b7fd1015b86f34b37e1b1ba42434b734a760

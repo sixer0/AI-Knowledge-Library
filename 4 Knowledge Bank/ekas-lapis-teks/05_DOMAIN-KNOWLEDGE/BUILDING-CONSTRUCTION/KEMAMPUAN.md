@@ -11,8 +11,8 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0120 | BLD-001 | Envelope Heat Loss (U = 1/Sum R; q = U A dT) | calculator | 1 | 6 | Mechanical and Electrical Equipment for Buildings 12e - Grondzik & Kwok (2014, Wiley) [pdf hal. 340, 385-390] |
-| K-0121 | BLD-002 | Average Illuminance by Lumen Method (MEEB 16.1) | calculator | 1 | 6 | Mechanical and Electrical Equipment for Buildings 12e - Grondzik & Kwok (2014, Wiley) [pdf hal. 753-755] |
+| K-0120 | <a id="BLD-001"></a>BLD-001 | Envelope Heat Loss (U = 1/Sum R; q = U A dT) | calculator | 1 | 6 | Mechanical and Electrical Equipment for Buildings 12e - Grondzik & Kwok (2014, Wiley) [pdf hal. 340, 385-390] |
+| K-0121 | <a id="BLD-002"></a>BLD-002 | Average Illuminance by Lumen Method (MEEB 16.1) | calculator | 1 | 6 | Mechanical and Electrical Equipment for Buildings 12e - Grondzik & Kwok (2014, Wiley) [pdf hal. 753-755] |
 
 ## Prasyarat / komposit
 

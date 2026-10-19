@@ -11,85 +11,85 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0122 | DYN-001 | Rectilinear Kinematics (Constant Acceleration) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 30] |
-| K-0123 | DYN-002 | Projectile Motion (Velocity & Trajectory) | calculator | 2 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 66] |
-| K-0124 | DYN-003 | Curvilinear Acceleration (Normal-Tangential) | calculator | 2 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 81] |
-| K-0125 | DYN-004 | Rotation About a Fixed Axis | calculator | 3 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 347] |
-| K-0126 | DYN-005 | Principle of Work and Energy (Block with Friction) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 209] |
-| K-0127 | DYN-006 | Impulse-Momentum & Central Impact | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 262 & 291] |
-| K-0128 | DYN-007 | Free Vibration (Undamped & Viscous Damped) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 668/682/692] |
-| K-0129 | FLD-001 | Hydrostatic Pressure & U-Tube Manometer | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 65 & 73] |
-| K-0130 | FLD-002 | Hydrostatic Force on a Plane Surface | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 81] |
-| K-0131 | FLD-003 | Bernoulli Equation Solver (Two Points) | calculator | 1 | 7 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 139] |
-| K-0132 | FLD-004 | Pipe Flow Continuity (Q = VA) | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 225] |
-| K-0133 | FLD-005 | Pipe Pressure Drop (from Head Loss) | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512 (area 8.4-8.5)] |
-| K-0134 | FLD-006 | Pipe Head Loss (Darcy-Weisbach + Minor) | calculator | 3 | 8 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462+ (awal bab via teks)] |
-| K-0135 | FLD-007 | Reynolds Number & Flow Regime | calculator | 1 | 7 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462 (awal bab via teks; destinasi outline rusak)] |
-| K-0136 | FLD-008 | Darcy Friction Factor (Colebrook) | calculator | 3 | 8 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462+ (awal bab via teks; destinasi outline rusak)] |
-| K-0137 | FLD-009 | Pipe Sizing for Allowed Head Loss (Type III) | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512] |
-| K-0138 | FLD-010 | Pump Head & Hydraulic Power | calculator | 2 | 7 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 775 (awal bab via teks; destinasi outline rusak)] |
-| K-0139 | FLD-011 | Pump Selection from Candidate List | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 784] |
-| K-0140 | FLD-012 | Parallel Pipe Network Flow Split | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512] |
-| K-0141 | MAT-001 | Beam Deflection Roark | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
-| K-0142 | MAT-002 | Beam Stress | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
-| K-0143 | MAT-003 | Plate Bending | calculator | 3 | 11 | Marks' Standard Handbook for Mechanical Engineers (2006) [hal. buku 5-47..5-48 (PDF 319-321)] |
-| K-0144 | MAT-004 | Plate Stress | calculator | 3 | 13 | Marks' Standard Handbook for Mechanical Engineers (2006) [hal. buku 5-47..5-48 (PDF 319-321)] |
-| K-0145 | MAT-005 | Shell Stress | calculator | 4 | 10 | MERM 13.4 - Lindeburg, Mechanical Engineering Reference Manual (2015) [Pers. 53.21, 53.22, 53.23, 53.24] |
-| K-0146 | MAT-006 | Thin-Walled Pressure Vessel Stress | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 434] |
-| K-0147 | MAT-007 | Pressure Vessel Wall Sizing (Inverse of MAT-006) | calculator | 1 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 434] |
-| K-0148 | MAT-008 | Buckling | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
-| K-0149 | MAT-009 | Normal Stress Check | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler, 9th ed. / SI (2017) [pdf hal. 24] |
-| K-0150 | MAT-010 | Transverse Shear Stress (tau = VQ/It) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 388] |
-| K-0151 | MAT-011 | Normal & Thermal Strain (Hooke) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 91 / 108 / 176] |
-| K-0152 | MAT-012 | Shaft Torsion (Stress & Twist) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 204-207] |
-| K-0153 | MAT-013 | Beam Bending Stress (Flexure Formula) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 284-310] |
-| K-0154 | MAT-014 | Beam Deflection (Standard Cases, App C) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 602 & 832] |
-| K-0155 | MAT-015 | Euler Column Buckling | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 686-695 (inelastis 713)] |
-| K-0156 | MAT-016 | Principal Stresses (Plane Stress) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 466-471] |
-| K-0157 | MAT-017 | Mohr's Circle Stress Transformation | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 490] |
-| K-0158 | MAT-018 | Combined Axial + Bending Stress | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 441] |
-| K-0159 | MEC-001 | Engineering Unit Conversion (Exact Factors) | calculator | 1 | 7 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 2227] |
-| K-0160 | MEC-002 | Material Physical Constants (Shigley A-5) | calculator | 1 | 6 | Shigley's Mechanical Engineering Design SI 11e - Budynas & Nisbett (2021, McGraw-Hill) [pdf hal. 1042] |
-| K-0161 | MEC-003 | General Mech Calc | stub-candidate | 0 |  | Mechanical Engineering Reference Manual - Lindeburg (2015) |
-| K-0162 | MEC-004 | Machine Element Selection | stub-candidate | 0 |  | Mechanical Engineering Reference Manual - Lindeburg (2015) |
-| K-0163 | MEC-005 | Metric Thread Size Selection (by Tensile Area) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 1396] |
-| K-0164 | MEC-006 | ISO Preferred Fits (Hole-Basis, Shigley A-11/A-12) | calculator | 1 | 7 | Shigley's Mechanical Engineering Design SI 11e - Budynas & Nisbett (2021, McGraw-Hill) [pdf hal. 425/1057/1058] |
-| K-0165 | MEC-007 | Preferred Number Size Selection (Renard) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 678] |
-| K-0166 | MEC-008 | Bolt Size Selection for Joint Load | calculator | 1 | 6 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 494 (proof) & Machinery's 1396 (At)] |
-| K-0167 | MEC-009 | Material Table Lookup | stub-candidate | 0 |  | Machinery's Handbook - Oberg et al. 28th (2008) |
-| K-0168 | MEC-010 | Machining Parameters (Turning, from Vc) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 982-986] |
-| K-0169 | MEC-011 | Mechanical Reference Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
-| K-0170 | MEC-012 | Thermal Property Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
-| K-0171 | MEC-013 | Fluid Property Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
-| K-0172 | MEC-014 | Machine Design Reference | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
-| K-0173 | MEC-015 | Shaft Diameter Design (Static, Combined Loading) | calculator | 1 | 6 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 359] / Machinery's Handbook - Oberg et al. (2008), 28th ed. [ha... |
-| K-0174 | MEC-016 | Spur Gear Geometry & Force Analysis | calculator | 2 | 6 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 626 & 642] |
-| K-0175 | MEC-017 | Rolling Bearing Selection (L10 Life) | calculator | 2 | 7 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 447] |
-| K-0176 | MEC-018 | Bolted Joint Design (Preload & Torque) | calculator | 3 | 8 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 503-512 (tabel kelas: pdf 512 / hal. cetak 494)] / Machinery's ... |
-| K-0177 | MEC-019 | Helical Compression Spring (Stress & Rate) | calculator | 2 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 570-580] |
-| K-0178 | MEC-020 | Belt Drive Geometry & Standard Length Selection | calculator | 1 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 770 & 775] |
-| K-0179 | MEC-021 | Precision Roller Chain Selection (Collins 17.10) | calculator | 1 | 7 | Mechanical Design of Machine Elements and Machines 2e - Collins, Busby & Staab (2010, Wiley) [pdf hal. 771-777 & 789-796] |
-| K-0180 | MEC-022 | Shaft Coupling Selection (User Catalog) | calculator | 1 | 7 | Mechanical Design of Machine Elements and Machines 2e - Collins, Busby & Staab (2010, Wiley) [pdf hal. 379-381] |
-| K-0181 | STA-001 | Force Vector Components (2D/3D) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 22] |
-| K-0182 | STA-002 | Resultant of Concurrent Coplanar Forces | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 22 (bukti kosinus pdf 61)] |
-| K-0183 | STA-003 | Moment of a Force About a Point (2D) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 231] |
-| K-0184 | STA-004 | Particle FBD Equilibrium Check & Equilibrant | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 163 (benda tegar pdf 400)] |
-| K-0185 | STA-005 | 2D Rigid-Body Equilibrium (Reactions) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 25] |
-| K-0186 | STA-006 | 2D Truss Analysis (Method of Joints) | calculator | 2 | 8 | Structural Analysis - R.C. Hibbeler 9th (2017, Pearson) [pdf hal. 108, 112, 63] |
-| K-0187 | STA-007 | Frame with Two-Force Strut (Pin + Strut) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 484] |
-| K-0188 | STA-008 | Composite Area Centroid (via STA-009 Engine) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 881] |
-| K-0189 | STA-009 | Composite Section Moment of Inertia | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 813] |
-| K-0190 | STA-010 | Friction: Slip vs Tip & Incline | calculator | 2 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 882] |
-| K-0191 | THM-001 | Steady-Flow Energy Balance (Control Volume) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran et al. (2014) [pdf hal. 196-199] |
-| K-0192 | THM-002 | Steady-Flow Mass Balance (Control Volume) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 188, 191 & 192] |
-| K-0193 | THM-003 | Enthalpy Change (Ideal Gas / Incompressible) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 129, 141 & 153] |
-| K-0194 | THM-004 | Ideal-Gas Entropy Change & Isentropic State | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 317 & 343] |
-| K-0195 | THM-005 | Ideal Gas State Solver (PV = mRT) | calculator | 2 | 8 | Fundamentals of Engineering Thermodynamics - Moran et al. (2014) [pdf hal. 150] |
-| K-0196 | THM-006 | Ideal Rankine Cycle Performance | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 463-469] |
-| K-0197 | THM-007 | Air-Standard Brayton Cycle | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 544-552] |
-| K-0198 | THM-008 | Compressor/Pump Work & Isentropic Efficiency | calculator | 2 | 6 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 208 & 355] |
-| K-0199 | THM-009 | Turbine Work & Isentropic Efficiency | calculator | 2 | 6 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 204-206 & 350] |
-| K-0200 | THM-010 | Heat Exchanger Energy Balance | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 213-214] |
+| K-0122 | <a id="DYN-001"></a>DYN-001 | Rectilinear Kinematics (Constant Acceleration) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 30] |
+| K-0123 | <a id="DYN-002"></a>DYN-002 | Projectile Motion (Velocity & Trajectory) | calculator | 2 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 66] |
+| K-0124 | <a id="DYN-003"></a>DYN-003 | Curvilinear Acceleration (Normal-Tangential) | calculator | 2 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 81] |
+| K-0125 | <a id="DYN-004"></a>DYN-004 | Rotation About a Fixed Axis | calculator | 3 | 6 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 347] |
+| K-0126 | <a id="DYN-005"></a>DYN-005 | Principle of Work and Energy (Block with Friction) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 209] |
+| K-0127 | <a id="DYN-006"></a>DYN-006 | Impulse-Momentum & Central Impact | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 262 & 291] |
+| K-0128 | <a id="DYN-007"></a>DYN-007 | Free Vibration (Undamped & Viscous Damped) | calculator | 2 | 7 | Engineering Mechanics - Dynamics, R.C. Hibbeler 14e (2015, Prentice Hall) [pdf hal. 668/682/692] |
+| K-0129 | <a id="FLD-001"></a>FLD-001 | Hydrostatic Pressure & U-Tube Manometer | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 65 & 73] |
+| K-0130 | <a id="FLD-002"></a>FLD-002 | Hydrostatic Force on a Plane Surface | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 81] |
+| K-0131 | <a id="FLD-003"></a>FLD-003 | Bernoulli Equation Solver (Two Points) | calculator | 1 | 7 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 139] |
+| K-0132 | <a id="FLD-004"></a>FLD-004 | Pipe Flow Continuity (Q = VA) | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 225] |
+| K-0133 | <a id="FLD-005"></a>FLD-005 | Pipe Pressure Drop (from Head Loss) | calculator | 2 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512 (area 8.4-8.5)] |
+| K-0134 | <a id="FLD-006"></a>FLD-006 | Pipe Head Loss (Darcy-Weisbach + Minor) | calculator | 3 | 8 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462+ (awal bab via teks)] |
+| K-0135 | <a id="FLD-007"></a>FLD-007 | Reynolds Number & Flow Regime | calculator | 1 | 7 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462 (awal bab via teks; destinasi outline rusak)] |
+| K-0136 | <a id="FLD-008"></a>FLD-008 | Darcy Friction Factor (Colebrook) | calculator | 3 | 8 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 462+ (awal bab via teks; destinasi outline rusak)] |
+| K-0137 | <a id="FLD-009"></a>FLD-009 | Pipe Sizing for Allowed Head Loss (Type III) | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512] |
+| K-0138 | <a id="FLD-010"></a>FLD-010 | Pump Head & Hydraulic Power | calculator | 2 | 7 | Fundamentals of Fluid Mechanics - Munson et al. 4th [pdf sekitar 775 (awal bab via teks; destinasi outline rusak)] |
+| K-0139 | <a id="FLD-011"></a>FLD-011 | Pump Selection from Candidate List | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 784] |
+| K-0140 | <a id="FLD-012"></a>FLD-012 | Parallel Pipe Network Flow Split | calculator | 1 | 6 | Fundamentals of Fluid Mechanics - Munson/Young/Okiishi 4e (Wiley) [pdf hal. 512] |
+| K-0141 | <a id="MAT-001"></a>MAT-001 | Beam Deflection Roark | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
+| K-0142 | <a id="MAT-002"></a>MAT-002 | Beam Stress | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
+| K-0143 | <a id="MAT-003"></a>MAT-003 | Plate Bending | calculator | 3 | 11 | Marks' Standard Handbook for Mechanical Engineers (2006) [hal. buku 5-47..5-48 (PDF 319-321)] |
+| K-0144 | <a id="MAT-004"></a>MAT-004 | Plate Stress | calculator | 3 | 13 | Marks' Standard Handbook for Mechanical Engineers (2006) [hal. buku 5-47..5-48 (PDF 319-321)] |
+| K-0145 | <a id="MAT-005"></a>MAT-005 | Shell Stress | calculator | 4 | 10 | MERM 13.4 - Lindeburg, Mechanical Engineering Reference Manual (2015) [Pers. 53.21, 53.22, 53.23, 53.24] |
+| K-0146 | <a id="MAT-006"></a>MAT-006 | Thin-Walled Pressure Vessel Stress | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 434] |
+| K-0147 | <a id="MAT-007"></a>MAT-007 | Pressure Vessel Wall Sizing (Inverse of MAT-006) | calculator | 1 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 434] |
+| K-0148 | <a id="MAT-008"></a>MAT-008 | Buckling | stub-candidate | 0 |  | Roark's Formulas for Stress and Strain |
+| K-0149 | <a id="MAT-009"></a>MAT-009 | Normal Stress Check | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler, 9th ed. / SI (2017) [pdf hal. 24] |
+| K-0150 | <a id="MAT-010"></a>MAT-010 | Transverse Shear Stress (tau = VQ/It) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 388] |
+| K-0151 | <a id="MAT-011"></a>MAT-011 | Normal & Thermal Strain (Hooke) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 91 / 108 / 176] |
+| K-0152 | <a id="MAT-012"></a>MAT-012 | Shaft Torsion (Stress & Twist) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 204-207] |
+| K-0153 | <a id="MAT-013"></a>MAT-013 | Beam Bending Stress (Flexure Formula) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 284-310] |
+| K-0154 | <a id="MAT-014"></a>MAT-014 | Beam Deflection (Standard Cases, App C) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 602 & 832] |
+| K-0155 | <a id="MAT-015"></a>MAT-015 | Euler Column Buckling | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 686-695 (inelastis 713)] |
+| K-0156 | <a id="MAT-016"></a>MAT-016 | Principal Stresses (Plane Stress) | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 466-471] |
+| K-0157 | <a id="MAT-017"></a>MAT-017 | Mohr's Circle Stress Transformation | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 490] |
+| K-0158 | <a id="MAT-018"></a>MAT-018 | Combined Axial + Bending Stress | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 441] |
+| K-0159 | <a id="MEC-001"></a>MEC-001 | Engineering Unit Conversion (Exact Factors) | calculator | 1 | 7 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 2227] |
+| K-0160 | <a id="MEC-002"></a>MEC-002 | Material Physical Constants (Shigley A-5) | calculator | 1 | 6 | Shigley's Mechanical Engineering Design SI 11e - Budynas & Nisbett (2021, McGraw-Hill) [pdf hal. 1042] |
+| K-0161 | <a id="MEC-003"></a>MEC-003 | General Mech Calc | stub-candidate | 0 |  | Mechanical Engineering Reference Manual - Lindeburg (2015) |
+| K-0162 | <a id="MEC-004"></a>MEC-004 | Machine Element Selection | stub-candidate | 0 |  | Mechanical Engineering Reference Manual - Lindeburg (2015) |
+| K-0163 | <a id="MEC-005"></a>MEC-005 | Metric Thread Size Selection (by Tensile Area) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 1396] |
+| K-0164 | <a id="MEC-006"></a>MEC-006 | ISO Preferred Fits (Hole-Basis, Shigley A-11/A-12) | calculator | 1 | 7 | Shigley's Mechanical Engineering Design SI 11e - Budynas & Nisbett (2021, McGraw-Hill) [pdf hal. 425/1057/1058] |
+| K-0165 | <a id="MEC-007"></a>MEC-007 | Preferred Number Size Selection (Renard) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 678] |
+| K-0166 | <a id="MEC-008"></a>MEC-008 | Bolt Size Selection for Joint Load | calculator | 1 | 6 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 494 (proof) & Machinery's 1396 (At)] |
+| K-0167 | <a id="MEC-009"></a>MEC-009 | Material Table Lookup | stub-candidate | 0 |  | Machinery's Handbook - Oberg et al. 28th (2008) |
+| K-0168 | <a id="MEC-010"></a>MEC-010 | Machining Parameters (Turning, from Vc) | calculator | 1 | 6 | Machinery's Handbook 28e - Oberg dkk. (2008, Industrial Press) [pdf hal. 982-986] |
+| K-0169 | <a id="MEC-011"></a>MEC-011 | Mechanical Reference Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
+| K-0170 | <a id="MEC-012"></a>MEC-012 | Thermal Property Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
+| K-0171 | <a id="MEC-013"></a>MEC-013 | Fluid Property Lookup | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
+| K-0172 | <a id="MEC-014"></a>MEC-014 | Machine Design Reference | stub-candidate | 0 |  | Marks' Standard Handbook - Avallone et al. (2006) |
+| K-0173 | <a id="MEC-015"></a>MEC-015 | Shaft Diameter Design (Static, Combined Loading) | calculator | 1 | 6 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 359] / Machinery's Handbook - Oberg et al. (2008), 28th ed. [ha... |
+| K-0174 | <a id="MEC-016"></a>MEC-016 | Spur Gear Geometry & Force Analysis | calculator | 2 | 6 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 626 & 642] |
+| K-0175 | <a id="MEC-017"></a>MEC-017 | Rolling Bearing Selection (L10 Life) | calculator | 2 | 7 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 447] |
+| K-0176 | <a id="MEC-018"></a>MEC-018 | Bolted Joint Design (Preload & Torque) | calculator | 3 | 8 | Mechanical Design of Machine Elements and Machines - Collins et al., 2nd ed. [pdf hal. 503-512 (tabel kelas: pdf 512 / hal. cetak 494)] / Machinery's ... |
+| K-0177 | <a id="MEC-019"></a>MEC-019 | Helical Compression Spring (Stress & Rate) | calculator | 2 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 570-580] |
+| K-0178 | <a id="MEC-020"></a>MEC-020 | Belt Drive Geometry & Standard Length Selection | calculator | 1 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 770 & 775] |
+| K-0179 | <a id="MEC-021"></a>MEC-021 | Precision Roller Chain Selection (Collins 17.10) | calculator | 1 | 7 | Mechanical Design of Machine Elements and Machines 2e - Collins, Busby & Staab (2010, Wiley) [pdf hal. 771-777 & 789-796] |
+| K-0180 | <a id="MEC-022"></a>MEC-022 | Shaft Coupling Selection (User Catalog) | calculator | 1 | 7 | Mechanical Design of Machine Elements and Machines 2e - Collins, Busby & Staab (2010, Wiley) [pdf hal. 379-381] |
+| K-0181 | <a id="STA-001"></a>STA-001 | Force Vector Components (2D/3D) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 22] |
+| K-0182 | <a id="STA-002"></a>STA-002 | Resultant of Concurrent Coplanar Forces | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 22 (bukti kosinus pdf 61)] |
+| K-0183 | <a id="STA-003"></a>STA-003 | Moment of a Force About a Point (2D) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 231] |
+| K-0184 | <a id="STA-004"></a>STA-004 | Particle FBD Equilibrium Check & Equilibrant | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 163 (benda tegar pdf 400)] |
+| K-0185 | <a id="STA-005"></a>STA-005 | 2D Rigid-Body Equilibrium (Reactions) | calculator | 2 | 6 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 25] |
+| K-0186 | <a id="STA-006"></a>STA-006 | 2D Truss Analysis (Method of Joints) | calculator | 2 | 8 | Structural Analysis - R.C. Hibbeler 9th (2017, Pearson) [pdf hal. 108, 112, 63] |
+| K-0187 | <a id="STA-007"></a>STA-007 | Frame with Two-Force Strut (Pin + Strut) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 484] |
+| K-0188 | <a id="STA-008"></a>STA-008 | Composite Area Centroid (via STA-009 Engine) | calculator | 2 | 6 | Instructor's Solutions Manual - Engineering Mechanics: Statics SI 14e, R.C. Hibbeler (2017, Pearson) [pdf hal. 881] |
+| K-0189 | <a id="STA-009"></a>STA-009 | Composite Section Moment of Inertia | calculator | 2 | 7 | Mechanics of Materials - R.C. Hibbeler 9th/SI (2017) [pdf hal. 813] |
+| K-0190 | <a id="STA-010"></a>STA-010 | Friction: Slip vs Tip & Incline | calculator | 2 | 7 | Mechanical Design of Machine Elements - Collins dkk. 2e (2020) [pdf hal. 882] |
+| K-0191 | <a id="THM-001"></a>THM-001 | Steady-Flow Energy Balance (Control Volume) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran et al. (2014) [pdf hal. 196-199] |
+| K-0192 | <a id="THM-002"></a>THM-002 | Steady-Flow Mass Balance (Control Volume) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 188, 191 & 192] |
+| K-0193 | <a id="THM-003"></a>THM-003 | Enthalpy Change (Ideal Gas / Incompressible) | calculator | 1 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 129, 141 & 153] |
+| K-0194 | <a id="THM-004"></a>THM-004 | Ideal-Gas Entropy Change & Isentropic State | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 317 & 343] |
+| K-0195 | <a id="THM-005"></a>THM-005 | Ideal Gas State Solver (PV = mRT) | calculator | 2 | 8 | Fundamentals of Engineering Thermodynamics - Moran et al. (2014) [pdf hal. 150] |
+| K-0196 | <a id="THM-006"></a>THM-006 | Ideal Rankine Cycle Performance | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 463-469] |
+| K-0197 | <a id="THM-007"></a>THM-007 | Air-Standard Brayton Cycle | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 544-552] |
+| K-0198 | <a id="THM-008"></a>THM-008 | Compressor/Pump Work & Isentropic Efficiency | calculator | 2 | 6 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 208 & 355] |
+| K-0199 | <a id="THM-009"></a>THM-009 | Turbine Work & Isentropic Efficiency | calculator | 2 | 6 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 204-206 & 350] |
+| K-0200 | <a id="THM-010"></a>THM-010 | Heat Exchanger Energy Balance | calculator | 2 | 7 | Fundamentals of Engineering Thermodynamics - Moran dkk. 8e (2014) [pdf hal. 213-214] |
 
 ## Prasyarat / komposit
 

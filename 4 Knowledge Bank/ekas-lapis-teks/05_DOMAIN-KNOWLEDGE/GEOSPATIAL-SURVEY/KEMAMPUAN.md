@@ -11,8 +11,8 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0116 | SVY-001 | Differential Leveling & Arithmetic Check | calculator | 1 | 6 | Surveying: Principles and Applications 9e - Kavanagh & Mastin (2014, Pearson) [pdf hal. 49-54] |
-| K-0117 | SVY-002 | Traverse Closure & Compass Rule Adjustment | calculator | 1 | 6 | Surveying: Principles and Applications 9e - Kavanagh & Mastin (2014, Pearson) [pdf hal. 158-184] |
+| K-0116 | <a id="SVY-001"></a>SVY-001 | Differential Leveling & Arithmetic Check | calculator | 1 | 6 | Surveying: Principles and Applications 9e - Kavanagh & Mastin (2014, Pearson) [pdf hal. 49-54] |
+| K-0117 | <a id="SVY-002"></a>SVY-002 | Traverse Closure & Compass Rule Adjustment | calculator | 1 | 6 | Surveying: Principles and Applications 9e - Kavanagh & Mastin (2014, Pearson) [pdf hal. 158-184] |
 
 ## Prasyarat / komposit
 

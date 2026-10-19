@@ -11,16 +11,16 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0226 | FBR-001 | Optical Link Power Budget | calculator | 3 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307 / pdf hal. 334 (awal bab)] |
-| K-0227 | FBR-002 | Fiber Attenuation Coefficient (Two-Point OTDR) | calculator | 1 | 6 | Optical Fiber Communications - Gerd Keiser 4e (2010, McGraw-Hill) [pdf hal. 132] / IEC 61280-4-2:2014 - Installed Cable Plant Single-mode Attenuation ... |
-| K-0228 | FBR-003 | Connector Loss | calculator | 3 | 11 | FOA Reference Guide To Fiber Optics; Keiser - Optical Fiber Communications (2010) [FOA pdf 78-84; Keiser pdf 256-259] |
-| K-0229 | FBR-004 | Splice Loss | calculator | 3 | 9 | Keiser - Optical Fiber Communications (2010, McGraw-Hill) [pdf hal. 262-264] |
-| K-0230 | FBR-005 | Optical Power Margin Check | calculator | 2 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307] |
-| K-0231 | FBR-006 | Fiber Type Selection (Bandwidth-Length) | calculator | 1 | 6 | FOA Reference Guide to Fiber Optics - Jim Hayes (2019) [pdf hal. 50] / Optical Fiber Communications 4e - Keiser (2010, McGraw-Hill) [pdf hal. 132-145] |
-| K-0232 | FBR-007 | Operating Window Selection (850/1300/1310/1550) | calculator | 1 | 6 | FOA Reference Guide to Fiber Optics - Jim Hayes (2019) [pdf hal. 50 & 35] / Optical Fiber Communications 4e - Keiser (2010, McGraw-Hill) [pdf hal. 132... |
-| K-0233 | FBR-008 | Maximum Attenuation-Limited Link Distance | calculator | 1 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307-310] |
-| K-0234 | FBR-009 | Chromatic Dispersion Budget Check | calculator | 1 | 6 | Optical Fiber Communications - Gerd Keiser 4e (2010, McGraw-Hill) [pdf hal. 145] |
-| K-0235 | FBR-010 | Installed Cable Plant Acceptance (IEC 61280-4-2 Annex G) | calculator | 1 | 7 | IEC 61280-4-2:2014 - Installed Cable Plant Single-mode Attenuation and ORL (Ed 2.0) [pdf hal. 50-53 & 67] |
+| K-0226 | <a id="FBR-001"></a>FBR-001 | Optical Link Power Budget | calculator | 3 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307 / pdf hal. 334 (awal bab)] |
+| K-0227 | <a id="FBR-002"></a>FBR-002 | Fiber Attenuation Coefficient (Two-Point OTDR) | calculator | 1 | 6 | Optical Fiber Communications - Gerd Keiser 4e (2010, McGraw-Hill) [pdf hal. 132] / IEC 61280-4-2:2014 - Installed Cable Plant Single-mode Attenuation ... |
+| K-0228 | <a id="FBR-003"></a>FBR-003 | Connector Loss | calculator | 3 | 11 | FOA Reference Guide To Fiber Optics; Keiser - Optical Fiber Communications (2010) [FOA pdf 78-84; Keiser pdf 256-259] |
+| K-0229 | <a id="FBR-004"></a>FBR-004 | Splice Loss | calculator | 3 | 9 | Keiser - Optical Fiber Communications (2010, McGraw-Hill) [pdf hal. 262-264] |
+| K-0230 | <a id="FBR-005"></a>FBR-005 | Optical Power Margin Check | calculator | 2 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307] |
+| K-0231 | <a id="FBR-006"></a>FBR-006 | Fiber Type Selection (Bandwidth-Length) | calculator | 1 | 6 | FOA Reference Guide to Fiber Optics - Jim Hayes (2019) [pdf hal. 50] / Optical Fiber Communications 4e - Keiser (2010, McGraw-Hill) [pdf hal. 132-145] |
+| K-0232 | <a id="FBR-007"></a>FBR-007 | Operating Window Selection (850/1300/1310/1550) | calculator | 1 | 6 | FOA Reference Guide to Fiber Optics - Jim Hayes (2019) [pdf hal. 50 & 35] / Optical Fiber Communications 4e - Keiser (2010, McGraw-Hill) [pdf hal. 132... |
+| K-0233 | <a id="FBR-008"></a>FBR-008 | Maximum Attenuation-Limited Link Distance | calculator | 1 | 7 | Optical Fiber Communications - Gerd Keiser (2010) [hal. cetak 307-310] |
+| K-0234 | <a id="FBR-009"></a>FBR-009 | Chromatic Dispersion Budget Check | calculator | 1 | 6 | Optical Fiber Communications - Gerd Keiser 4e (2010, McGraw-Hill) [pdf hal. 145] |
+| K-0235 | <a id="FBR-010"></a>FBR-010 | Installed Cable Plant Acceptance (IEC 61280-4-2 Annex G) | calculator | 1 | 7 | IEC 61280-4-2:2014 - Installed Cable Plant Single-mode Attenuation and ORL (Ed 2.0) [pdf hal. 50-53 & 67] |
 
 ## Prasyarat / komposit
 

@@ -11,18 +11,18 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0343 | REL-001 | MTBF from Field Data | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 93 & 216] |
-| K-0344 | REL-002 | MTTR from Repair Records | calculator | 1 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 226] |
-| K-0345 | REL-003 | Steady-State Availability | calculator | 3 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 237] |
-| K-0346 | REL-004 | Failure Rate & FIT from Fleet Data | calculator | 2 | 6 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 38-39] |
-| K-0347 | REL-005 | Reliability Function R(t) (Exponential/Weibull) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 23, 39 & 44] |
-| K-0348 | REL-006 | Weibull Parameter Estimation (Median-Rank Regression) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 300, 313, 353 & 44] |
-| K-0349 | REL-007 | Series System Reliability | calculator | 2 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 121] |
-| K-0350 | REL-008 | Parallel (Redundant) System Reliability | calculator | 2 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 123] |
-| K-0351 | REL-009 | Reliability Block Diagram (Series-Parallel) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 118-127] |
-| K-0352 | REL-010 | Spare Parts via Poisson Demand | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 664-669 & 92] |
-| K-0353 | REL-011 | On-Condition Task Interval vs P-F (Moubray 7.2) | calculator | 1 | 6 | Reliability-centered Maintenance RCM II 2e - John Moubray (Butterworth-Heinemann) [pdf hal. 162-167] |
-| K-0354 | REL-012 | Failure-Finding Interval Two Forms (Moubray Ch8) | calculator | 1 | 7 | Reliability-centered Maintenance RCM II 2e - John Moubray (Butterworth-Heinemann) [pdf hal. 193-197] |
+| K-0343 | <a id="REL-001"></a>REL-001 | MTBF from Field Data | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 93 & 216] |
+| K-0344 | <a id="REL-002"></a>REL-002 | MTTR from Repair Records | calculator | 1 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 226] |
+| K-0345 | <a id="REL-003"></a>REL-003 | Steady-State Availability | calculator | 3 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 237] |
+| K-0346 | <a id="REL-004"></a>REL-004 | Failure Rate & FIT from Fleet Data | calculator | 2 | 6 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 38-39] |
+| K-0347 | <a id="REL-005"></a>REL-005 | Reliability Function R(t) (Exponential/Weibull) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 23, 39 & 44] |
+| K-0348 | <a id="REL-006"></a>REL-006 | Weibull Parameter Estimation (Median-Rank Regression) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 300, 313, 353 & 44] |
+| K-0349 | <a id="REL-007"></a>REL-007 | Series System Reliability | calculator | 2 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 121] |
+| K-0350 | <a id="REL-008"></a>REL-008 | Parallel (Redundant) System Reliability | calculator | 2 | 7 | Reliability Engineering - Elsayed (2021) [pdf hal. 123] |
+| K-0351 | <a id="REL-009"></a>REL-009 | Reliability Block Diagram (Series-Parallel) | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 118-127] |
+| K-0352 | <a id="REL-010"></a>REL-010 | Spare Parts via Poisson Demand | calculator | 2 | 7 | Reliability Engineering - Elsayed A. Elsayed 3e (2021, Wiley) [pdf hal. 664-669 & 92] |
+| K-0353 | <a id="REL-011"></a>REL-011 | On-Condition Task Interval vs P-F (Moubray 7.2) | calculator | 1 | 6 | Reliability-centered Maintenance RCM II 2e - John Moubray (Butterworth-Heinemann) [pdf hal. 162-167] |
+| K-0354 | <a id="REL-012"></a>REL-012 | Failure-Finding Interval Two Forms (Moubray Ch8) | calculator | 1 | 7 | Reliability-centered Maintenance RCM II 2e - John Moubray (Butterworth-Heinemann) [pdf hal. 193-197] |
 
 ## Prasyarat / komposit
 

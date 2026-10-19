@@ -11,8 +11,8 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0109 | THI-001 | IFOV & Measurement Spot Size (Vollmer 2.5.3) | calculator | 1 | 6 | Infrared Thermal Imaging 2e - Vollmer & Moellmann (2018, Wiley-VCH) [pdf hal. 234-236] |
-| K-0110 | THI-002 | Thermographic Delta-T Action (NETA Table 100.18) | calculator | 1 | 7 | ANSI/NETA ATS-2017 - Acceptance Testing Specifications for Electrical Power Equipment [pdf hal. 218 & 246] |
+| K-0109 | <a id="THI-001"></a>THI-001 | IFOV & Measurement Spot Size (Vollmer 2.5.3) | calculator | 1 | 6 | Infrared Thermal Imaging 2e - Vollmer & Moellmann (2018, Wiley-VCH) [pdf hal. 234-236] |
+| K-0110 | <a id="THI-002"></a>THI-002 | Thermographic Delta-T Action (NETA Table 100.18) | calculator | 1 | 7 | ANSI/NETA ATS-2017 - Acceptance Testing Specifications for Electrical Power Equipment [pdf hal. 218 & 246] |
 
 ## Prasyarat / komposit
 

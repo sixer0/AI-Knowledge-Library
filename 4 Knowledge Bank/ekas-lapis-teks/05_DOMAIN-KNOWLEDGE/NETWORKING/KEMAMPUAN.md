@@ -11,8 +11,8 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0111 | NET-001 | Bandwidth-Delay Product & TCP Window Scale | calculator | 1 | 6 | TCP/IP Illustrated Vol 1 2e - Fall & Stevens (2012, Addison-Wesley) [pdf hal. 645-647] |
-| K-0112 | NET-002 | Nodal Delay & Traffic Intensity (Kurose 1.4) | calculator | 1 | 7 | Computer Networking: A Top-Down Approach 7e - Kurose & Ross (2017, Pearson) [pdf hal. 65-70] |
+| K-0111 | <a id="NET-001"></a>NET-001 | Bandwidth-Delay Product & TCP Window Scale | calculator | 1 | 6 | TCP/IP Illustrated Vol 1 2e - Fall & Stevens (2012, Addison-Wesley) [pdf hal. 645-647] |
+| K-0112 | <a id="NET-002"></a>NET-002 | Nodal Delay & Traffic Intensity (Kurose 1.4) | calculator | 1 | 7 | Computer Networking: A Top-Down Approach 7e - Kurose & Ross (2017, Pearson) [pdf hal. 65-70] |
 
 ## Prasyarat / komposit
 

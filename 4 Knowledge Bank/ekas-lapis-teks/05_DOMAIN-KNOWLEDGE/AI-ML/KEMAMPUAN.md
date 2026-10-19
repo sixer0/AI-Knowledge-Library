@@ -11,29 +11,29 @@ Register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../02_REGIST
 
 | unit | skill | nama | kind | rumus | uji | sumber (per references.yaml) |
 |---|---|---|---|---|---|---|
-| K-0298 | AIM-001 | Ml Requirement Analysis | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill SYS-014 REQUIREMENT_VALIDATION [-] |
-| K-0299 | AIM-002 | Data Pipeline Design | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill AIM-016 CROSS_VALIDATION [-] |
-| K-0300 | AIM-003 | Model Selection | calculator | 1 | 6 | Designing Machine Learning Systems - Chip Huyen (pemilihan model berbasis bukti) [-] |
-| K-0301 | AIM-004 | Inference Sizing | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
-| K-0302 | AIM-005 | Latency Estimation | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
-| K-0303 | AIM-006 | Throughput Estimation | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
-| K-0304 | AIM-007 | Model Deployment | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill CCT-021 LATENCY_BUDGET [-] |
-| K-0305 | AIM-008 | Model Monitoring | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill DAT-010 ERROR_BUDGET [-] |
-| K-0306 | AIM-009 | Model Drift | calculator | 3 | 9 | Huyen - Designing Machine Learning Systems (2022, O'Reilly) [pdf hal. 264-267] |
-| K-0307 | AIM-010 | Data Preprocessing | stub-candidate | 0 |  | Hands-On Machine Learning - Geron |
-| K-0308 | AIM-011 | Feature Engineering | calculator | 1 | 6 | Designing Machine Learning Systems - Chip Huyen (rekayasa fitur) + praktik regularisasi [-] |
-| K-0309 | AIM-012 | ROC-AUC (Two Independent Estimators) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 135] |
-| K-0310 | AIM-013 | Regression Metrics (RMSE, MAE, R2) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 65] |
-| K-0311 | AIM-014 | K-Means Step (Assign + Update, Monotone Audit) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 303] |
-| K-0312 | AIM-015 | Classification Metrics from Confusion Matrix | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 128-130] |
-| K-0313 | AIM-016 | K-Fold Split Plan (Plain & Stratified) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 105 & 126] |
-| K-0314 | AIM-017 | Grid/Random Search Plan Generator | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 108-111] |
-| K-0315 | AIM-018 | MLP Parameter & Memory Budget | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 360 & 405] |
-| K-0316 | AIM-019 | MLP Loss & Output Activation Selection | calculator | 1 | 7 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 366-368] |
-| K-0317 | AIM-020 | Optimizer Selection (Geron Table 11-2) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 446] |
-| K-0318 | AIM-021 | Representation Learning | stub-candidate | 0 |  | Deep Learning - Goodfellow, Bengio & Courville |
-| K-0319 | AIM-022 | Conv Layer Output & Parameter Budget | calculator | 1 | 7 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 551 & 562] |
-| K-0320 | AIM-023 | Ridge Regression (Closed Form + KKT Audit) | calculator | 2 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 182] |
+| K-0298 | <a id="AIM-001"></a>AIM-001 | Ml Requirement Analysis | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill SYS-014 REQUIREMENT_VALIDATION [-] |
+| K-0299 | <a id="AIM-002"></a>AIM-002 | Data Pipeline Design | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill AIM-016 CROSS_VALIDATION [-] |
+| K-0300 | <a id="AIM-003"></a>AIM-003 | Model Selection | calculator | 1 | 6 | Designing Machine Learning Systems - Chip Huyen (pemilihan model berbasis bukti) [-] |
+| K-0301 | <a id="AIM-004"></a>AIM-004 | Inference Sizing | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
+| K-0302 | <a id="AIM-005"></a>AIM-005 | Latency Estimation | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
+| K-0303 | <a id="AIM-006"></a>AIM-006 | Throughput Estimation | stub-candidate | 0 |  | Designing Machine Learning Systems - Chip Huyen (2022) |
+| K-0304 | <a id="AIM-007"></a>AIM-007 | Model Deployment | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill CCT-021 LATENCY_BUDGET [-] |
+| K-0305 | <a id="AIM-008"></a>AIM-008 | Model Monitoring | document | 0 | 2 | Designing Machine Learning Systems - Chip Huyen [-] / EKAS skill DAT-010 ERROR_BUDGET [-] |
+| K-0306 | <a id="AIM-009"></a>AIM-009 | Model Drift | calculator | 3 | 9 | Huyen - Designing Machine Learning Systems (2022, O'Reilly) [pdf hal. 264-267] |
+| K-0307 | <a id="AIM-010"></a>AIM-010 | Data Preprocessing | stub-candidate | 0 |  | Hands-On Machine Learning - Geron |
+| K-0308 | <a id="AIM-011"></a>AIM-011 | Feature Engineering | calculator | 1 | 6 | Designing Machine Learning Systems - Chip Huyen (rekayasa fitur) + praktik regularisasi [-] |
+| K-0309 | <a id="AIM-012"></a>AIM-012 | ROC-AUC (Two Independent Estimators) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 135] |
+| K-0310 | <a id="AIM-013"></a>AIM-013 | Regression Metrics (RMSE, MAE, R2) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 65] |
+| K-0311 | <a id="AIM-014"></a>AIM-014 | K-Means Step (Assign + Update, Monotone Audit) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 303] |
+| K-0312 | <a id="AIM-015"></a>AIM-015 | Classification Metrics from Confusion Matrix | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 128-130] |
+| K-0313 | <a id="AIM-016"></a>AIM-016 | K-Fold Split Plan (Plain & Stratified) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 105 & 126] |
+| K-0314 | <a id="AIM-017"></a>AIM-017 | Grid/Random Search Plan Generator | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 108-111] |
+| K-0315 | <a id="AIM-018"></a>AIM-018 | MLP Parameter & Memory Budget | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 360 & 405] |
+| K-0316 | <a id="AIM-019"></a>AIM-019 | MLP Loss & Output Activation Selection | calculator | 1 | 7 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 366-368] |
+| K-0317 | <a id="AIM-020"></a>AIM-020 | Optimizer Selection (Geron Table 11-2) | calculator | 1 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 446] |
+| K-0318 | <a id="AIM-021"></a>AIM-021 | Representation Learning | stub-candidate | 0 |  | Deep Learning - Goodfellow, Bengio & Courville |
+| K-0319 | <a id="AIM-022"></a>AIM-022 | Conv Layer Output & Parameter Budget | calculator | 1 | 7 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 551 & 562] |
+| K-0320 | <a id="AIM-023"></a>AIM-023 | Ridge Regression (Closed Form + KKT Audit) | calculator | 2 | 6 | Hands-On Machine Learning 2e - Aurelien Geron (2019, O'Reilly) [pdf hal. 182] |
 
 ## Prasyarat / komposit
 
