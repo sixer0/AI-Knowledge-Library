@@ -45,7 +45,13 @@ def markdown_links(text):
             fence = char if fence is None else None if char == fence else fence
         elif not fence:
             lines.append(line)
-    return re.findall(r'!?\[[^\]\n]*\]\((<[^>\n]+>|[^)\n]+)\)', '\n'.join(lines))
+    result = []
+    for line in lines:
+        code = [m.span() for m in re.finditer(r'(`+)[^`\n]*\1', line)]
+        for match in re.finditer(r'!?\[[^\]\n]*\]\((<[^>\n]+>|[^)\n]+)\)', line):
+            if not any(a <= match.start() < b for a, b in code):
+                result.append(match[1])
+    return result
 
 
 class Library:

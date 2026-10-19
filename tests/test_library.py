@@ -126,7 +126,7 @@ class ResolutionTests(unittest.TestCase):
             self.assertEqual(data['absolute_path'], str((relocated / 'folder/rujukan lokal.md').resolve()))
 
     def test_markdown_examples_in_fences_are_not_navigation(self):
-        links = MODULE_API.markdown_links('```md\n[x](missing.md)\n```\n[y](ok.md)')
+        links = MODULE_API.markdown_links('```md\n[x](missing.md)\n```\n`[x](not-a-link.md)`\n[y](ok.md)')
         self.assertEqual(links, ['ok.md'])
 
 
