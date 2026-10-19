@@ -2,6 +2,23 @@
 
 Dibekukan: 2026-10-19 (kartu SKL-NAS-1019)
 
+## Salinan yang tersedia di clone
+
+| Komponen | Rujukan lokal | Kedudukan |
+|---|---|---|
+| Headquarter | [hq/hq-server.mjs](hq/hq-server.mjs) | Salinan kode referensi |
+| Hermes Bridge | [hermes-bridge/bridge.mjs](hermes-bridge/bridge.mjs) | Salinan kode referensi; dependensi host dijelaskan pada README bridge |
+| Kanban | [Snapshot basis data](../6%20Database/snapshot/kanban-2026-10-19.db) | Keadaan beku pada tanggal edisi; tidak menjadi basis data layanan aktif |
+| Wiki IL | [Salinan wiki](../4%20Knowledge%20Bank/wiki-information-library/) | Pustaka lokal untuk ditelusuri |
+| WebUI Hermes | Tidak disertakan | Alamat layanan lama bukan endpoint harness ini |
+
+Untuk penggunaan lintas harness, baca [HARNESS.md](../HARNESS.md).
+
+## Lokasi pada host asal
+
+Tabel berikut merekam arsitektur sumber. Path, port, dan alamat tersebut tidak
+menentukan lokasi clone atau konfigurasi layanan pada perangkat pembaca.
+
 | Komponen | Lokasi host | Peran | Catatan |
 |---|---|---|---|
 | GSP Agent HQ | C:/Users/TRIAL/gsp-datacenter (node hq-server.mjs) | Dasbor pemantauan dan pengendalian tugas, port 9011 | Login WebUiUser, cookie HMAC |

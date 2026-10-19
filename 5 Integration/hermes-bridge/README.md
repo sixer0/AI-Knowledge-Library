@@ -1,5 +1,7 @@
 # Brahma Bridge
 
+Panduan ini merekam penyiapan pada host asal. Untuk menelusuri salinan melalui harness lokal, mulai dari [HARNESS.md](../../HARNESS.md). Kode bridge dan perintah penyiapan di bawah tetap membutuhkan lingkungan serta dependensi sumber.
+
 Bridge menyinkronkan **GSP Agent Headquarter** (situs yang telah dipasang) dengan **Brahma** (agen lokal pada Mac mini) dalam dua arah. Keduanya bertukar pesan melalui Postgres bersama. Bridge hanya memerlukan koneksi keluar ke Postgres dan akses ke CLI `hermes` lokal; bridge tidak membuka layanan ke internet.
 
 ```
@@ -43,7 +45,7 @@ website  ◀──read HermesTask/────   Postgres  ◀──mirror──
 | `BRIDGE_RUN_TIMEOUT_MS` | `240000` | batas waktu satu pelaksanaan tugas agen, dalam milidetik |
 
 ## Catatan dan asumsi
-- Bentuk argumen CLI (`hermes kanban create <title>`, `hermes cron create <schedule> <prompt>`) disusun berdasarkan Hermes v0.17.x. Jika versi yang digunakan berbeda, sesuaikan `runRequest()` di `bridge.mjs`.
+- Bentuk argumen CLI (`hermes kanban create <title>`, `hermes cron create <schedule> <prompt>`) disusun berdasarkan Hermes v0.17.x. Jika versi yang digunakan berbeda, sesuaikan `runRequest()` di [`bridge.mjs`](bridge.mjs).
 - Bridge menulis ke Postgres melalui SQL langsung sehingga tidak memerlukan Prisma.
 - Pekerjaan yang menimbulkan perubahan harus disetujui pengguna melalui Approval Inbox pada situs sebelum dijalankan oleh bridge.
 

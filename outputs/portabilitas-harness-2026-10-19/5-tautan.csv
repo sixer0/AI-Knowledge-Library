@@ -1,0 +1,8 @@
+dokumen,baris_sebelum,jenis,rujukan_asli,tautan_relatif,target_repo
+5 Integration/INDEKS.md,9,inline,5 Integration/hermes-bridge/README.md,hermes-bridge/README.md,5 Integration/hermes-bridge/README.md
+5 Integration/INDEKS.md,10,inline,5 Integration/hermes-bridge/bridge.mjs,hermes-bridge/bridge.mjs,5 Integration/hermes-bridge/bridge.mjs
+5 Integration/INDEKS.md,11,inline,5 Integration/hq/env-contohsaniter.txt,hq/env-contohsaniter.txt,5 Integration/hq/env-contohsaniter.txt
+5 Integration/INDEKS.md,12,inline,5 Integration/hq/hq-server.mjs,hq/hq-server.mjs,5 Integration/hq/hq-server.mjs
+5 Integration/INDEKS.md,13,inline,5 Integration/hq/package.json,hq/package.json,5 Integration/hq/package.json
+5 Integration/INDEKS.md,14,inline,5 Integration/peta-integrasi.md,peta-integrasi.md,5 Integration/peta-integrasi.md
+5 Integration/hermes-bridge/README.md,48,inline,bridge.mjs,bridge.mjs,5 Integration/hermes-bridge/bridge.mjs
