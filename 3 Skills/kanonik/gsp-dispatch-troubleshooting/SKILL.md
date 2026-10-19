@@ -63,7 +63,7 @@ Verify with a fresh query: the row must show `failed`, and no other rows should 
 - **Check child process command lines, not just parent PIDs.** A dispatch may spawn multiple `hermes -p <profile> -z ...` layers; kill the actual worker tree, not just the outermost wrapper.
 
 ## Verification Checklist
-- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load `references/windows-hq-bridge-ops.md`.
+- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load [`references/windows-hq-bridge-ops.md`](references/windows-hq-bridge-ops.md).
 
 
 - [ ] No Windows processes remain for the stuck dispatch PID(s)
@@ -75,4 +75,4 @@ Verify with a fresh query: the row must show `failed`, and no other rows should 
 
 ## References
 
-- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load `references/windows-hq-bridge-ops.md`.
+- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load [`references/windows-hq-bridge-ops.md`](references/windows-hq-bridge-ops.md).

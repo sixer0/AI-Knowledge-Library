@@ -22,15 +22,15 @@ metadata:
 - Menyusun **prosedur uji & berita acara** (OTDR/OLTS, ambang lulus, ORL).
 - Menyelesaikan perselisihan hasil ukur (RTM).
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/RANTAI-JAMINAN.md` · resume Hayes (FOA)
-& JDSU di folder yang sama · BA §1 di `ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`.
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/RANTAI-JAMINAN.md) · resume Hayes (FOA)
+& JDSU di folder yang sama · BA §1 di [`ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md).
 
 ## Alur wajib (urut — jangan dibalik)
 
 1. **Kumpulkan konfigurasi jalur**: jenis serat (OS/OM), panjang, jumlah konektor
    (tiap patch panel = sepasang), jumlah sambungan, panjang gelombang uji (1310/1550 nm,
    atau sesuai transceiver).
-2. **Hitung loss budget** (lihat `references/01-loss-budget-dan-uji.md`) untuk tiap λ.
+2. **Hitung loss budget** (lihat [`references/01-loss-budget-dan-uji.md`](references/01-loss-budget-dan-uji.md)) untuk tiap λ.
 3. **Bandingkan dengan anggaran daya transceiver (R4)**.
 4. **Tetapkan ambang lulus = kolom terburuk** (worst case) [R3 — Hayes PDF 145] —
    bukan rata-rata, bukan angka terbaik.

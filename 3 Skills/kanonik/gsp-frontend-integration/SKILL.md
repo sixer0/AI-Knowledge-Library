@@ -29,7 +29,7 @@ Production-grade frontend-backend integration with real endpoint testing and rob
 ## Koridor Dokumen GSP
 
 Berlaku atas **artefak tulis** skill ini (README, komentar/docstring, changelog, laporan review, spesifikasi API); kaidah pemrograman tidak diubah.
-Kontrak keluaran seragam: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
+Kontrak keluaran seragam: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
 L.3 heading bernomor + berkas `snake_case` (dokumen DATUM TERBIT/SERAH ikut DT-12), L.4 angka wajib `[R-n, sumber, hal]`, L.5 bahasa mengikuti user, L.6 checklist pra-serah (Module F.1) sebelum menyerahkan.
 Konflik FORMAT → Module L menang; konflik GAYA presisi → Module H/K tetap menang.
 ## Triggers

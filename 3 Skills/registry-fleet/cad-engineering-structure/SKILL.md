@@ -422,7 +422,7 @@ Hasil adaptasi CAD-SWARM-01; sumber angka MCP-RISIK.md (smoke terverifikasi 2026
 
 Profil pemilik: `gsp-engineering-analyst` | Konsumen wajib: gsp-architecture-specialist, gsp-power-specialist | Tier: AWARENESS
 
-- `pustaka-teknis` + `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`: angka sizing wajib gerbang R1/R2/R4.
+- `pustaka-teknis` + [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md): angka sizing wajib gerbang R1/R2/R4.
 - `excel-master`: schedule kolom/balok/pelat/fondasi sebagai workbook teraudit.
 - Disclaimer preliminary design WAJIB bertahan di semua keluaran (sudah ada di frontmatter sumber).
 

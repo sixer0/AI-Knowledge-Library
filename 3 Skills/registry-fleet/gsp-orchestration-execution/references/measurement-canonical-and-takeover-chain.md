@@ -52,7 +52,7 @@ pasca-render matplotlib mengenumerasi Text objects (pt pasti dari sumber gaya,
 dpi diketahui) dengan validasi silang 10 sampel kontrol sebelum dipakai vonis;
 alat lama disimpan sebagai jejak + blind spot geometry diakui jujur di register.
 Gerbang tetap: DILARANG render/vonis massal sebelum instrumen kanonik hijau.
-Bedakan dari `instrument-defect-vs-product-defect.md`: di sana alat merah -> produk
+Bedakan dari [`instrument-defect-vs-product-defect.md`](instrument-defect-vs-product-defect.md): di sana alat merah -> produk
 bisa bersih; di sini alat merah persisten -> ganti kelas alat, catat putusan.
 
 ## 5. Tabrakan definisi gerbang = putusan controller tercatat + countersign

@@ -32,7 +32,7 @@ metadata:
 3. **Jika skill BELUM ada** → dispatch `gsp-skill-creator` untuk membuat skill,
    lalu distribusi hasilnya ke profil target (loop eksplisit — kamulah yang mengantar).
 4. **Verifikasi instalasi** — folder skill ada + SKILL.md readable; jika skill masuk ALWAYS LOAD,
-   SOUL.md profil menyebutnya; cek tidak ada sisa duplikat path. Paket berisi `scripts/`: jalankan
+   SOUL.md profil menyebutnya; cek tidak ada sisa duplikat path. Paket berisi [`scripts/`](scripts/): jalankan
    gerbang eksekusi (seksi "Gerbang Eksekusi Skrip"), bukan hanya kompilasi.
 5. **Laporan** — simpan ringkasan ke `docs/<YYYY-MM-DD>-<slug>/skill_distribution.md`
    (tabel: profil → skill → sumber → status) + `STATUS: complete|needs-review|blocked|failed`.
@@ -53,7 +53,7 @@ metadata:
   ada sebelum dia mulai bekerja (koreksi teks v1.2.4, kartu t_0768c6f2; repro 03-09:
   `skill_view('gsp-report-format')` mengembalikan not found dari profil `gsp-skill-manager`
   padahal berkasnya ada dan utuh di registry fleet).
-- Registry fleet (`$LOCALAPPDATA/hermes/skills/gsp`) = sumber tunggal on-demand; semua skill
+- Registry fleet ([`$LOCALAPPDATA/hermes/skills/gsp`](../)) = sumber tunggal on-demand; semua skill
   didistribusi dari sana (flat `<name>/SKILL.md`).
 
 ## Aturan WAJIB: lapisan baca teks penuh saat memilih skill (SM-LB, 27-09-2026)
@@ -77,7 +77,7 @@ pemindai dua-level pernah kehilangan 7 skill engine `database/*` — blind spot 
 ## Aturan WAJIB: pasangan skill penulisan dokumen (SM-2, 31-08-2026)
 SETIAP rekomendasi skill yang kamu kirim ke fleet WAJIB menyertakan minimal satu skill
 penulisan dokumen sesuai jenis output tugas — bukan opsional, bukan hanya atas permintaan.
-Pemetaan jenis output -> pasangan wajib (skill ada di registry fleet `~/.hermes/skills/gsp/`):
+Pemetaan jenis output -> pasangan wajib (skill ada di registry fleet [`~/.hermes/skills/gsp/`](../)):
 - Laporan/dokumen resmi GSP (DOCX) -> `gsp-report-format` + `gsp-word-report-deliverable`;
   bila output wajib format DATUM (klien/tender/antar-divisi): tambah `datum-house-style`
   (bentuk+mesin: pustakachart, datumsimbol, datum_figur ENH 08-10) + `gsp-expert-style`
@@ -135,7 +135,7 @@ menyentuh kelasnya, entri ini mengikat sebelum menyusun daftar dari teks penuh r
 | Skill | Kelas | Kanal muat | Catatan pakai |
 |---|---|---|---|
 | `gsp-ekas-knowledge-index` | Router pengetahuan EKAS (1.558 unit, 20 domain) | AWARENESS via grants registry (junction per profil pekerja EKAS + `skills.external_dirs`; TIDAK fisik) | Pemicu: tugas bertopik teknik apa pun -> panggil indeks SEBELUM menjawab dari ingatan. Angka mengikat tetap lewat gerbang `pustaka-teknis` + kartu REF-*. Resipient grants: engineering-analyst, 7 specialist EKAS, document-writer. |
-| `gsp-doc-layout-gates` | Standar gerbang layout DOCX/PDF sisi PRODUKSI (terbit) | AWARENESS via grants registry (33 profil: 13 controller + kelas dokumen/verifikasi/laporan EKAS + skill-creator; TIDAK fisik kecuali gsp-master01 sebagai penulis) | Pemicu: membangun/men-render DOCX/PDF deliverable. Promosi PROMOSI-GLOBAL-1007 kartu t_8505ac23; sumber dibuat di `skills/gsp/` profil master01, ditempatkan FLAT di fleet+kanonik v1.0.0. |
+| `gsp-doc-layout-gates` | Standar gerbang layout DOCX/PDF sisi PRODUKSI (terbit) | AWARENESS via grants registry (33 profil: 13 controller + kelas dokumen/verifikasi/laporan EKAS + skill-creator; TIDAK fisik kecuali gsp-master01 sebagai penulis) | Pemicu: membangun/men-render DOCX/PDF deliverable. Promosi PROMOSI-GLOBAL-1007 kartu t_8505ac23; sumber dibuat di [`skills/gsp/`](../) profil master01, ditempatkan FLAT di fleet+kanonik v1.0.0. |
 | `gsp-doc-layout-verification` | Standar gerbang layout DOCX/PDF sisi VERIFIKASI (audit byte jadi) | AWARENESS via grants registry (skop sama dengan gates; pasangan wajibnya) | Pemicu: memverifikasi artefak DOCX/PDF berisi tabel/gambar. Wajib berpasangan dengan `gsp-doc-layout-gates` saat tugas menghasilkan DAN memverifikasi dokumen. Mengandung `references/sajian-fixsa-case.md`. |
 | `gsp-deep-dive` | Standar UMUM deep-dive GSP-DD-001 untuk SEMUA kelas objek (vendor/principal, technology/product, market/competition/expo, client-integration, kelas baru via prosedur profil) | AWARENESS via grants registry jalur G2 (13 junction lane controller per DIST-2 t_cac44e70 09-10 termasuk gsp-master01 yang kini memegang kunci external_dirs; TIDAK fisik) | Pemicu manual HANYA saat Director menominasikan satu objek + deadline dan menyebut kelasnya; monitor pasif lapor kehadiran tanpa memproses. V-GATE2 PASS 9/9 (t_55c789d8, pin gen-source c50e2b4d2011de46). Satu-satunya sumber kebenaran aturan sejak DIST-2, termasuk vendor (= profil B1 di references/profiles/vendor.md). Nama DR-1 masih TERBUKA veto. |
 | `dd-vendor` | SHIM kompatibilitas (0.2.0): aturan vendor sudah pindah konten-kekal ke `gsp-deep-dive` profil B1 lewat DIST-2 t_cac44e70 | Grants G2 lama (12 junction) tetap menunjuk paket shim ini; muat `gsp-deep-dive` sebagai gantinya | Pemicu lama digantikan skill umum. Isi direktori = SKILL.md pointer saja (sidik 6d7f61ab2a7858b4 kedua sisi); pohon pra-shim 64 berkas/arsip tersimpan di docs/2026-10-09-mitra-dd-procedure/backup_20261009_145320/ dengan sidik terverifikasi. Regresi lintas mesin terbukti identik (29 checks, rc 0==0). |
@@ -149,7 +149,7 @@ Agent yang menemukan defect saat menggunakan skill mengusulkan kepada kamu:
 - Putusan + alasan dilaporkan ke agent pengusul.
 
 ## Gerbang Eksekusi Skrip (WAJIB, putusan t_a21e89ab 09-20)
-Paket berisi `scripts/` TIDAK boleh dinyatakan lolos distribusi hanya karena terkompilasi. Kompilasi (`py_compile` / `compile()`) membuktikan sintaks, bukan perilaku. Kejadian nyata `gsp-technical-drawing-generation`: paket lolos CHECK 5 "terkompilasi dari salinan wakil" di lima lokasi, tetapi `scripts/qa_figure_level.py` keluar dengan exit code 1 selamanya karena fixture selftest-nya rusak (pasangan teks "sengaja tubruk" duduk di tepi dalam dua axes berbeda sehingga irisan aktual 1,3 px < ambang OVERLAP 25%, `SELFTEST: PASS` tidak pernah tercetak). Konsumen yang memakai exit code sebagai gerbang QA menerima alat yang selalu gagal; terdeteksi satu generasi kemudian ketika berkasnya dijalankan, bukan dikompilasi. Aturan:
+Paket berisi [`scripts/`](scripts/) TIDAK boleh dinyatakan lolos distribusi hanya karena terkompilasi. Kompilasi (`py_compile` / `compile()`) membuktikan sintaks, bukan perilaku. Kejadian nyata `gsp-technical-drawing-generation`: paket lolos CHECK 5 "terkompilasi dari salinan wakil" di lima lokasi, tetapi `scripts/qa_figure_level.py` keluar dengan exit code 1 selamanya karena fixture selftest-nya rusak (pasangan teks "sengaja tubruk" duduk di tepi dalam dua axes berbeda sehingga irisan aktual 1,3 px < ambang OVERLAP 25%, `SELFTEST: PASS` tidak pernah tercetak). Konsumen yang memakai exit code sebagai gerbang QA menerima alat yang selalu gagal; terdeteksi satu generasi kemudian ketika berkasnya dijalankan, bukan dikompilasi. Aturan:
 1. **Eksekusi menggantikan kompilasi sebagai gerbang.** Jalankan berkas wakil dari salinan hasil distribusi (minimal satu lokasi wakil, sisanya dibuktikan identik lewat SHA per-berkas), lalu baca exit code. Skrip ber-dependency eksternal dijalankan dengan interpreter yang memenuhinya (mis. `uv run --python 3.11 --with matplotlib <skrip>`); `ModuleNotFoundError` pada interpreter telanjang BUKAN vonis cacat skrip - catat interpreter yang dipakai sebagai bagian bukti.
 2. **Selftest dua arah wajib diuji RED lebih dulu.** Bila skrip punya selftest (harus PASS pada input bersih DAN menangkap pada input rusak), jalankan SIMPANAN BASAL pra-edit terhadap gerbang yang sama: basal WAJIB gagal dengan exit != 0 sebelum klaim GREEN sah. Tes yang selalu lulus tanpa pernah terlihat gagal tidak membuktikan apa pun.
 3. **Exit code dilaporkan apa adanya** (basal exit N / pasca-tambal exit M per lokasi, plus baris penanda seperti `SELFTEST: PASS|FAIL`), bukan diringkas jadi "skrip jalan".
@@ -489,5 +489,5 @@ skill; kartu distribusi TIDAK berwenang menghapus pengetahuan.
 
 ## Verification
 - Setelah distribusi: `ls <profil>/skills/<name>/SKILL.md` + head SOUL/skill; beri bukti output.
-- Paket berisi `scripts/`: gerbang selesai WAJIB eksekusi berkas wakil + baca exit code sesuai seksi
+- Paket berisi [`scripts/`](scripts/): gerbang selesai WAJIB eksekusi berkas wakil + baca exit code sesuai seksi
   "Gerbang Eksekusi Skrip" di atas; kompilasi saja tidak cukup (preseden CAD-RUMAH1020-0920 t_e1c072ff).

@@ -591,8 +591,8 @@ print(f"Share this URL: {run.url}")
 
 ## See Also
 
-- `references/sweeps.md` - Comprehensive hyperparameter optimization guide
-- `references/artifacts.md` - Data and model versioning patterns
-- `references/integrations.md` - Framework-specific examples
+- [`references/sweeps.md`](references/sweeps.md) - Comprehensive hyperparameter optimization guide
+- [`references/artifacts.md`](references/artifacts.md) - Data and model versioning patterns
+- [`references/integrations.md`](references/integrations.md) - Framework-specific examples
 
 

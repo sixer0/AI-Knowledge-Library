@@ -21,8 +21,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -39,7 +39,7 @@ Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module 
 Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K tetap menang.
 ## GSP-SDT Integration (v1.2.0 - subset spreadsheet §3.2)
 
-Sumber kebenaran bentuk dokumen: `skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`
+Sumber kebenaran bentuk dokumen: [`skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`](../gsp-document-quality-standards/references/gsp-sdt/)
 (paket GSP-SDT; MERUJUK, jangan menyalin). Konvensi spreadsheet GSP-SDT PENUH dipegang skill
 ini - engine `productivity/xlsx` READ-ONLY (keputusan controller D14, menggantikan langkah 20
 blueprint). Subset yang mengikat workbook (SPEC-DOC §3.2 / D-TA-5): TIDAK berlaku bingkai
@@ -73,9 +73,9 @@ Revisi: v1.1.0 (2026-09-01, SM-2 t_4cc4e6b9) - section subset §3.2 + rujukan sn
   serah (power, fiber, VSS, termal, mekanik, dll.).
 - Setiap kali perhitungan menyangkut **ambang lulus** atau angka yang diperiksa auditor.
 
-Kanonik korpus: `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` (bagian "Untuk workbook
-(excel-master)") + `ekas/10_TEMPLATES/TPL-02-CALCULATION-SHEET.md` +
-`ekas/01_GOVERNANCE/ASSURANCE-GATES.md` (gate G3).
+Kanonik korpus: [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) (bagian "Untuk workbook
+(excel-master)") + [`ekas/10_TEMPLATES/TPL-02-CALCULATION-SHEET.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/10_TEMPLATES/TPL-02-CALCULATION-SHEET.md) +
+[`ekas/01_GOVERNANCE/ASSURANCE-GATES.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md) (gate G3).
 
 ## Aturan pokok (dari EKAS - tidak bisa ditawar)
 

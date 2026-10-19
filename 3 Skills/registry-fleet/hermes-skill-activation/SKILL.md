@@ -23,7 +23,7 @@ Class-level skill for diagnosing and bulk-activating the full Hermes skill libra
 
 ## Core Concepts
 
-Hermes stores installed skills globally at `C:/Users/TRIAL/AppData/Local/hermes/skills/` (141+ skills, category-organized) but **activates** them per-profile via a prompt snapshot file:
+Hermes stores installed skills globally at [`C:/Users/TRIAL/AppData/Local/hermes/skills/`](../) (141+ skills, category-organized) but **activates** them per-profile via a prompt snapshot file:
 
 - **Global source**: `C:/Users/TRIAL/AppData/Local/hermes/.skills_prompt_snapshot.json` — canonical 141-skill snapshot (version 2, `manifest` + `skills` array, ~158 manifest entries)
 - **Per-profile target**: `C:/Users/TRIAL/AppData/Local/hermes/profiles/<profile>/.skills_prompt_snapshot.json`
@@ -85,4 +85,4 @@ Report total and per-category breakdown. Offer to smoke-test a representative GS
 
 ## References
 
-- `references/snapshot-sync-2026-08-26.md` — session transcript and verification output for the 141-skill activation on `gsp-firman-custom`.
+- [`references/snapshot-sync-2026-08-26.md`](references/snapshot-sync-2026-08-26.md) — session transcript and verification output for the 141-skill activation on `gsp-firman-custom`.

@@ -24,7 +24,7 @@ Sumber: sesi 25-08-2026 (koreksi user: "asumsikan kamu manusia bukan mesin",
 
 ## Domain dari path (classifyPath)
 
-- `ekas/` → engineering · `docs/01_DOMAIN/<d>/` → d · `docs/[tanggal]_[proyek]/`
+- [`ekas/`](../../../../4%20Knowledge%20Bank/ekas-lapis-teks/) → engineering · `docs/01_DOMAIN/<d>/` → d · `docs/[tanggal]_[proyek]/`
   → operations + proyek · `vault/` → library + perkara · `memory/` → operations
 - `legacy-archive/` → legacy (raw; hanya scope `archive`/Arsip) · root
   `AGENTS.md`/`MEMORY.md` → core · wiki DB → wiki

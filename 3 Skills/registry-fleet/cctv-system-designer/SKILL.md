@@ -22,7 +22,7 @@ metadata:
 - Menghitung **bitrate, kapasitas rekaman, lebar pita**.
 - Menyusun spesifikasi VSS untuk tender & BA uji terima.
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md` + resume
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md) + resume
 Damjanovski / Szeliski di folder yang sama · ASUMSI-BAKU §E · BA §2–3.
 
 ## Alur wajib (urut — jangan dibalik)

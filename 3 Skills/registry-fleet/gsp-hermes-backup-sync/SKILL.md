@@ -36,7 +36,7 @@ dengan Python — file .env ber-CRLF, grep bisa false-mismatch). Lihat skill
    (credential store menangani auth; username per-host sudah dipatok).
 2. **Jalankan script sync** (sudah teruji, hardened):
    `python C:/Users/TRIAL/sync_gsp_agent.py` — atau salinan di
-   `scripts/sync_gsp_agent.py` skill ini. Engine = mirror penuh lokal
+   [`scripts/sync_gsp_agent.py`](scripts/sync_gsp_agent.py) skill ini. Engine = mirror penuh lokal
    (copy + hapus file yang sudah tidak ada di lokal); hermes-home = copy
    konfigurasi & pengetahuan saja.
 3. **Stage & cek** di `C:/Users/TRIAL/gsp-agent`:
@@ -82,8 +82,8 @@ dengan Python — file .env ber-CRLF, grep bisa false-mismatch). Lihat skill
 
 ## Support files
 
-- `scripts/sync_gsp_agent.py` — script sync hardened (jalankan, lalu stage/cek/commit/push).
-- `references/backup-sync-gsp-agent-2026-08-26.md` — detail insiden sesi 26-08
+- [`scripts/sync_gsp_agent.py`](scripts/sync_gsp_agent.py) — script sync hardened (jalankan, lalu stage/cek/commit/push).
+- [`references/backup-sync-gsp-agent-2026-08-26.md`](references/backup-sync-gsp-agent-2026-08-26.md) — detail insiden sesi 26-08
   (angka diff, urutan fix, verifikasi akhir).
 
 Untuk masalah kredensial/popup GCM/push gagal auth: lihat skill

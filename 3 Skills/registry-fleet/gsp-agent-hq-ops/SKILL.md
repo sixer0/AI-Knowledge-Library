@@ -44,7 +44,7 @@ Runbook untuk memperbaiki/mengoperasikan dua aplikasi inti GSP:
 
 Keduanya saling terhubung via RBAC: WebUI memanggil HQ `/api/brahma/rbac/*`
 dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
-`references/architecture-and-endpoints.md`.
+[`references/architecture-and-endpoints.md`](references/architecture-and-endpoints.md).
 
 ## Aturan emas
 
@@ -88,7 +88,7 @@ dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
      (DELETE `/api/user-access/<id>`) + `rm -rf` profil.
    - Pitfall: ID dari command substitution sering menempel `\r` → `tr -d '\r'`
      dulu, atau curl dapat HTTP 000.
-4. **Verifikasi UI Next.js tanpa browser**: lihat `scripts/verify_nextjs_bundle.py`.
+4. **Verifikasi UI Next.js tanpa browser**: lihat [`scripts/verify_nextjs_bundle.py`](scripts/verify_nextjs_bundle.py).
 
 ## Restart
 
@@ -145,9 +145,9 @@ dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
 
 ## Support files
 
-- `references/architecture-and-endpoints.md` — peta arsitektur, kontrak endpoint
+- [`references/architecture-and-endpoints.md`](references/architecture-and-endpoints.md) — peta arsitektur, kontrak endpoint
   RBAC/user-access/IL, prosedur restart HQ lengkap, log fix 24-08-2026.
-- `scripts/verify_nextjs_bundle.py` — verifikasi perubahan UI Next.js dev
+- [`scripts/verify_nextjs_bundle.py`](scripts/verify_nextjs_bundle.py) — verifikasi perubahan UI Next.js dev
   dengan grep string baru di chunk terkompilasi (saat browser tak tersedia).
 
 ## Provisioning guard profil RBAC (fix 27-08-2026)

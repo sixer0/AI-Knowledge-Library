@@ -1,6 +1,6 @@
 # Supervisor lessons 2026-10-07c: canon-source pre-revision citations, canal-threshold lock, scanner human-quote false positives, steer absorption
 
-Condensed from the 07-10 late wave (GAYAMANUAL GM-L2..L6b, VCTL-1007 RT/TA/R1/R1b/R4, GM-L3 figure bank). Extends `supervisor-premature-pin-freeze-artifact-addressing-and-send-fallback-2026-10-07b.md`.
+Condensed from the 07-10 late wave (GAYAMANUAL GM-L2..L6b, VCTL-1007 RT/TA/R1/R1b/R4, GM-L3 figure bank). Extends [`supervisor-premature-pin-freeze-artifact-addressing-and-send-fallback-2026-10-07b.md`](supervisor-premature-pin-freeze-artifact-addressing-and-send-fallback-2026-10-07b.md).
 
 ## 1. Canon-source drift: verbatim from the MIRROR, not the REVISED BODY (materialized class)
 

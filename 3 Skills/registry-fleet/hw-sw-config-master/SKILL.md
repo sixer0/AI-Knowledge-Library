@@ -22,13 +22,13 @@ metadata:
   kapasitas RAID, BDP, praktik operasional.
 - Menyusun **dokumentasi konfigurasi** dan prosedur operasi yang dapat diaudit.
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md` + `STORAGE/RANTAI-JAMINAN.md`
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md) + `STORAGE/RANTAI-JAMINAN.md`
 + resume (Fall & Stevens, Kurose/Ross, Odom, Limoncelli, Troppens) di folder terkait.
 
 ## Alur wajib
 
 1. **Kebutuhan & lingkup**: perangkat, segmen, kapasitas, ketersediaan (SLA).
-2. **Hitung kebutuhan** (lihat `references/01-jaringan-penyimpanan.md`):
+2. **Hitung kebutuhan** (lihat [`references/01-jaringan-penyimpanan.md`](references/01-jaringan-penyimpanan.md)):
    - Kapasitas RAID: RAID 5 `(n−1)×C` · RAID 6 `(n−2)×C` [R3 — Troppens PDF 46–70].
    - BDP (mengapa transfer lambat padahal bandwidth besar): `BDP = RTT × kapasitas penyempit`
      [R3 — Fall & Stevens PDF 769]; window scaling [TCP/IP Illustrated].

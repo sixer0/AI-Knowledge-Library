@@ -30,7 +30,7 @@ Working example: `docs/2026-09-25-dems-datum/scripts/build_laporan_datum_dems.py
   write value "<Family> <Style> (TrueType)" -> filename under HKCU `...\CurrentVersion\Fonts`
   (open with KEY_WOW64_64KEY), then `AddFontResourceExW(path, 0, 0)` + broadcast WM_FONTCHANGE.
   Fleet ttf sources: `workspace/EXPO [2026]/Font_DATUM/` (SansCond Reg/SemiBold, Mono Reg/SemiBold),
-  `gsp-hermes/skills/gsp-canvas-design/canvas-fonts/` (Serif full set, Mono Bold). SansCondensed
+  [`gsp-hermes/skills/gsp-canvas-design/canvas-fonts/`](../../../kanonik/gsp-canvas-design/canvas-fonts/) (Serif full set, Mono Bold). SansCondensed
   *Bold* (true nameID1 "IBM Plex Sans Condensed") only from google/fonts GitHub raw:
   `ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf` (SemiBold files have family name
   "...SemiBold" = separate family, Word won't synthesize-bold-match them reliably).

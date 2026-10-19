@@ -60,12 +60,12 @@ foto produk? logo? maskot? latar? warna/tipografi brand? angka untuk diagram?
 ### L0 -> Asset Factory
 1. **Kanonik**: satu gambar kanonik per subjek (Z-Image t2i, seed dicatat). Semua varian
    berasal dari sini. Simpan di `ComfyUI/input/canonical.png` (server-side name = path rantai).
-2. **Cutout**: `workflows/birefnet_cutout.json` → PNG RGBA transparan.
+2. **Cutout**: [`workflows/birefnet_cutout.json`](workflows/birefnet_cutout.json) → PNG RGBA transparan.
    Butuh upscale aset transparan: JANGAN rantai dua berkas (simpan-muat file membuang
-   alpha, lihat pitfall 14). Pakai `workflows/birefnet_upscale_chain.json`: U3->U4 satu
+   alpha, lihat pitfall 14). Pakai [`workflows/birefnet_upscale_chain.json`](workflows/birefnet_upscale_chain.json): U3->U4 satu
    graph, link IMAGE internal, alpha di-rejoin pasca-upscale. Bukti GPU: keluaran
    4096x4096 RGBA, alpha tengah 254, keempat sudut 0, lulus hard-gate HG-ALPHA-4x 3/3 run.
-3. **Varian shot**: `workflows/z_image_img2img.json` -> `seed` TETAP (lock), `denoise` default 0.3 (band aman 0.2-0.4; 0.4 = batas atas yang mengubah komposisi) [G-15],
+3. **Varian shot**: [`workflows/z_image_img2img.json`](workflows/z_image_img2img.json) -> `seed` TETAP (lock), `denoise` default 0.3 (band aman 0.2-0.4; 0.4 = batas atas yang mengubah komposisi) [G-15],
    prompt = subjek sama + instruksi view ("rotated 30 degrees..."). Ini kunci konsistensi.
 4. Flat 2D: prompt Z-Image "flat vector illustration, solid colors, thick outlines, no gradients".
 5. Banner teks: Qwen-2512, teks ≤4–6 kata dalam tanda kutip, "clean bold sans-serif".
@@ -74,15 +74,15 @@ foto produk? logo? maskot? latar? warna/tipografi brand? angka untuk diagram?
 hero (L0) → layout grid 12-kolom + TEKS RIIL (python-pptx) → combine.
 Diagram angka & tipografi kaku = **vektor non-difusi** (matplotlib/SVG/HTML→PNG via
 msedge headless) -> deterministik, tajam, tak pernah typo.
-`scripts/build_deck.py` (PPTX) / `scripts/build_deck_html.py` (HTML ≥3 section).
+[`scripts/build_deck.py`](scripts/build_deck.py) (PPTX) / [`scripts/build_deck_html.py`](scripts/build_deck_html.py) (HTML ≥3 section).
 
 ### Klip/video
-keyframe dari kanonik (L0.3) → `workflows/wan22_ti2v_5b_i2v.json` per keyframe
+keyframe dari kanonik (L0.3) → [`workflows/wan22_ti2v_5b_i2v.json`](workflows/wan22_ti2v_5b_i2v.json) per keyframe
 (1 klip = 1 shot, 49 frame @24fps ≈2 dtk, 1280×704, SATU gerakan kamera per klip)
 → concat ffmpeg. Negative bawaan resmi Wan (bahasa Mandarin) dipertahankan apa adanya.
 
 ### 3D
-`workflows/trellis2_img_to_3d.json`: cutout RGBA → structure→shape→upsample→texture→GLB.
+[`workflows/trellis2_img_to_3d.json`](workflows/trellis2_img_to_3d.json): cutout RGBA → structure→shape→upsample→texture→GLB.
 **Gerbang Q7**: jangan pakai GLB untuk deliverable klien sebelum user menyetujui DINOv3.
 
 **Status 02-09 (pivot A12)**: jalur 3D generatif dialihkan ke misi
@@ -119,7 +119,7 @@ cd "$SK" && "$VENV" scripts/run_workflow.py \
   --output-dir "C:/.../smoke" --timeout 300
 # img2img rantai: tambah --input-image "image=C:/.../file.png" (injeksi ke field bernama 'image')
 ```
-Workflow siap-pakai tersimpan di `workflows/` skill ini (API-format, `_meta.title` sah,
+Workflow siap-pakai tersimpan di [`workflows/`](workflows/) skill ini (API-format, `_meta.title` sah,
 tanpa key non-node di level atas).
 
 ## Parameter terbukti (dari template resmi Comfy-Org)
@@ -193,7 +193,7 @@ tanpa key non-node di level atas).
   (id, workflow, params+seed, exit, oom, input_hash, output_hash, notes).
 - Bukti rantai antar-lapisan = `sha256(output N) == sha256(input N+1)` ditulis di
   `SM14_chain_proof.md` (pola fan-out: satu kanonik → banyak konsumen, hash sama).
-- Skrip audit: `scripts/verify_smoke.py` (stdlib-only, 18 CHECK + `VERDICT:`;
+- Skrip audit: [`scripts/verify_smoke.py`](scripts/verify_smoke.py) (stdlib-only, 18 CHECK + `VERDICT:`;
   teks-dalam-gambar = NEEDS_REVIEW manual, JANGAN palsukan OCR).
 
 ## Referensi kontrak misi

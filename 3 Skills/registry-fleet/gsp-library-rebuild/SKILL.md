@@ -23,7 +23,7 @@ path/penamaan.
 
 | Lapisan | Isi | Fungsi |
 |---|---|---|
-| **WORKSPACE** | `docs/`, `legacy-archive/`, `memory/`, `ekas/` | RAW informasi kerja — belum knowledge |
+| **WORKSPACE** | `docs/`, `legacy-archive/`, `memory/`, [`ekas/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/) | RAW informasi kerja — belum knowledge |
 | **VAULT** | `workspace/vault/<perkara>/<YYYY-MM-DD>_<slug>.md` | Hasil **analisa**: skoring, filtrasi, deduplikasi, clustering, decompose, metadata, grouping |
 | **WIKI** | `~/.hermes/wiki/<type>s/<id>.md` → DB IL | Hasil **kurasi** vault (attest) — **paling berharga**, tampil pertama |
 
@@ -33,7 +33,7 @@ Aturan: raw TIDAK pernah diangkat jadi knowledge tanpa melewati analisa
 ## Pipeline rebuild (5 fase)
 
 ### Fase 0 — Backup & Reset
-1. **Backup**: salin `workspace/vault/` dan `~/.hermes/wiki/` ke
+1. **Backup**: salin `workspace/vault/` dan [`~/.hermes/wiki/`](../../../4%20Knowledge%20Bank/wiki-information-library/) ke
    `~/backup_il_rebuild_<tanggal>/` (wiki adalah repo git — aman; vault disalin
    utuh). JANGAN pernah hapus tanpa backup.
 2. **Reset vault**: kosongkan `workspace/vault/*`.
@@ -47,7 +47,7 @@ Enumerasi **setiap folder terkecil yang punya konten** (jangan lewatkan satupun)
 - `legacy-archive/outputs-.../outputs/<YYYY-MM-DD_<slug>>/` — tiap sub-siklus
 - `docs/<YYYY-MM-DD>_<slug>/` — tiap project Documentation Contract
 - Folder lepas di `legacy-archive/` root (file non-folder) — 1 task gabungan
-- `ekas/` = knowledge system terstruktur → TIDAK dianalisa ulang (zona proteksi; dipromosikan selektif)
+- [`ekas/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/) = knowledge system terstruktur → TIDAK dianalisa ulang (zona proteksi; dipromosikan selektif)
 - `memory/` = log operasional → catat sebagai riwayat, bukan sumber knowledge
 
 Output Fase 1: `docs/00_INDEX/rebuild-manifest.json` = daftar `{id, path, domain-hint, n_files}`.
@@ -67,7 +67,7 @@ Output Fase 1: `docs/00_INDEX/rebuild-manifest.json` = daftar `{id, path, domain
 - **Prinsip: penulis bukan verifikator** — librarian tidak memverifikasi hasilnya sendiri;
   custodian tidak menulis/mempromote.
 - Anti-duplikat/overlap: tiap dispatch menyebut path folder EKSPLISIT + larangan
-  menyentuh folder lain (zona proteksi: `ekas/`, `AGENTS.md`, `MEMORY.md`, `memory/`).
+  menyentuh folder lain (zona proteksi: [`ekas/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/), `AGENTS.md`, `MEMORY.md`, `memory/`).
 
 ### Fase 3 — Template task atomic (per folder)
 Prompt dispatch (isikan `<PATH>` dan `<HINT>`):

@@ -45,7 +45,7 @@ python "C:/Users/TRIAL/workspace/gsp-hermes/scripts/rename_profile_refs.py"
 ```
 - Replaces full name (`gsp-<old>`), short name (`<old>`), and title-case prose
   (`<Old Role>`), in order.
-- Walks `profiles/`, `workspace/gsp-hermes`, default `memories/` and `skills/`.
+- Walks `profiles/`, `workspace/gsp-hermes`, default `memories/` and [`skills/`](../../../kanonik/).
 - Skips `logs/`, `.git`, binaries (`.db/.sqlite/.jsonl/.log/.pid/.lock`),
   and gateway artifacts. Historical transcripts/logs keep the old name (correct).
 - This also updates the default profile's `memories/MEMORY.md` and fleet skills,

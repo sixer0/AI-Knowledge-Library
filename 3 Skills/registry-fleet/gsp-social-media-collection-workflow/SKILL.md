@@ -516,7 +516,7 @@ Bila lane memakai perluasan v1.1, tambahannya:
   crawl4ai venv produksi (sejajar, bukan fallback berjenjang); plafon per-misi <=8 lane TOTAL
   lintas-alat (firecrawl N=4/pekerja + crawl4ai <=2 proses/pekerja); tangga fallback menjadi
   darurat-per-alat; lapis KUMPUL->DEDUP wajib sebelum analisa lewat skrip kanonik
-  `skills/gsp-vendor-crawler/scripts/dedup_harvest.py` (butir 5 norma, butir 6 Tahap 3,
+  [`skills/gsp-vendor-crawler/scripts/dedup_harvest.py`](../../kanonik/gsp-vendor-crawler/scripts/dedup_harvest.py) (butir 5 norma, butir 6 Tahap 3,
   artefak `dedup/` di Tahap 5). Routing sumber gratis per platform tidak diubah.
 - **1.3.0 (2026-09-11, misi WF-CRAWL-0911 kartu t_893fd521)** - seksi NORMA DUA-MESIN PARALEL
   setelah Tahap 2: pencarian primer SearXNG :8080 dan ekstraksi primer Firecrawl :3002 menjadi

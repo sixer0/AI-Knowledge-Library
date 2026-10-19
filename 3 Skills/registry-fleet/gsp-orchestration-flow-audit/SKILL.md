@@ -26,7 +26,7 @@ giliran itu).
 | Folder misi | `docs/` shared ws: hitung `contract.md`, `identification/`, `PHASE-REPORTS.md`, pola nama berulang (sync-email-nas-*, gateway-*, draf-v*, triase*) | ritus yang dibayar ulang tiap giliran |
 | Skrip fleet | `gsp-hermes/scripts/` + isi folder misi terbaru | skrip sekali-pakai yang lahir ulang per giliran vs modul tetap |
 
-Jalankan `scripts/fleet_state_census.py` untuk sensus lengkap sekali jalan
+Jalankan [`scripts/fleet_state_census.py`](scripts/fleet_state_census.py) untuk sensus lengkap sekali jalan
 (kanban buckets + cron inventory + docs census). Sesuaikan regex bucket judul
 dengan kelas misi yang sedang aktif.
 

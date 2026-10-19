@@ -25,9 +25,9 @@ metadata:
 
 <!-- GSP-MASTER-DESIGN v1.1.0 -->
 ## MASTER_DESIGN Integration (v1.2.0)
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../gsp-design-system-grill/references/master-design/)
 Default tema: GENERAL, Preset: BNN BNPT BUSINESS CYBER MILITARY POLRI TNI-AD TNI-AL TNI-AU TEKNIK VISUAL KEMHAN, Aturan tema: GSP-DS-KELUARGA.md MR1–MR6.
-Detail penerapan: `references/master-design-prompt/aturan-prompt-ds.md` (urutan blok prompt wajib: identitas set → palet role→hex → tipografi peran → komposisi grid → larangan dekorasi; token-lock IR-1..IR-7 diisi dari preset; slot `classification_label`/`EvidenceTag`/footer `NN/TOTAL`).
+Detail penerapan: [`references/master-design-prompt/aturan-prompt-ds.md`](references/master-design-prompt/aturan-prompt-ds.md) (urutan blok prompt wajib: identitas set → palet role→hex → tipografi peran → komposisi grid → larangan dekorasi; token-lock IR-1..IR-7 diisi dari preset; slot `classification_label`/`EvidenceTag`/footer `NN/TOTAL`).
 Muatan slide blueprint langkah 8 DISERAP KE SINI - engine `productivity/powerpoint` READ-ONLY (keputusan controller D14): panduan tema python-pptx per preset dibawa lewat prompt, bukan lewat patch engine.
 Larangan: jangan salin HEX/font ke file ini; jangan pakai nilai tanpa rujukan preset+halaman; `TIDAK_TERBACA` tetap kosong.
 Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - section pointer + referensi aturan prompt DS (langkah 6+8).
@@ -55,8 +55,8 @@ Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - section pointer + referensi atura
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -74,8 +74,8 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -119,7 +119,7 @@ desain dari user; riset eksternal.
 
 Sebelum menyusun prompt, klasifikasikan kelas keluaran dan tentukan jalur.
 Tabel kanonis penuh, bukti terukur, dan prosedur hybrid2:
-`references/skop-lokal-vs-openai.md`. Ringkasan:
+[`references/skop-lokal-vs-openai.md`](references/skop-lokal-vs-openai.md). Ringkasan:
 
 | Kelas keluaran | Lokal (A/B/C) | Jalur bila tak mampu |
 |---|---|---|
@@ -561,7 +561,7 @@ anchor.)
 Mekanisme yang menjamin "karakter/gaya sama atau mirip sesuai desain" (Goal 4):
 setiap prompt meng-cite token master dengan **nilai hex eksak** dan tidak
 pernah mendefinisikan ulang. IR-1..IR-7 adalah aturan kontinuitas yang dimiliki
-`skills/gsp/gsp-design-system-grill/SKILL.md` (Inheritance Rules, L1525–1537 - cited);
+[`skills/gsp/gsp-design-system-grill/SKILL.md`](../gsp-design-system-grill/SKILL.md) (Inheritance Rules, L1525–1537 - cited);
 di sini aturan tersebut **dioperasionalkan untuk file prompt**:
 
 | IR | Aturan (untuk prompt) | Verifikasi |
@@ -801,10 +801,10 @@ Untuk tiap jenis image dalam lingkup (baris IR-5 matrix image derivative §1):
 ## Standards Compliance (Cite-Only - J.9 Zero Duplication)
 
 Skill ini adalah **assembly/reference content**. Seluruh standar kualitas
-dirujuk via anchor ke `skills/gsp/gsp-document-quality-standards/SKILL.md` - TIDAK
+dirujuk via anchor ke [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) - TIDAK
 pernah menyalin body aturannya (Module J.9: "Module J MENGUTIP/MELUNAKKAN
 Module D/H/I - tidak pernah menulis ulang body aturannya"). Aturan kontinuitas
-dirujuk ke `skills/gsp/gsp-design-system-grill/SKILL.md` (IR-1..IR-7). Jika sebuah
+dirujuk ke [`skills/gsp/gsp-design-system-grill/SKILL.md`](../gsp-design-system-grill/SKILL.md) (IR-1..IR-7). Jika sebuah
 aturan dibutuhkan, arahkan ke sumbernya - jangan menyalin isinya ke skill ini.
 
 | Referensi | Anchor (section → line) | Dipakai di |
@@ -826,7 +826,7 @@ aturan dibutuhkan, arahkan ke sumbernya - jangan menyalin isinya ke skill ini.
 | Module J.4.5 - "Avoid AI tone" action list | `J.4.5` → L1510–1515 | Mekanisme override per-konteks (pola split teks-vs-visual) |
 | Module J.9 - How Module J Is Used | `J.9` → L1632–1641 | Pengaturan anti-duplikasi skill ini |
 | Module F - Quality Gate | `F` → L448–516 | Quality Checklist (final gate) |
-| IR-1..IR-7 - Inheritance Rules | `skills/gsp/gsp-design-system-grill/SKILL.md` → L1525–1537 | Konsistensi token-lock (dioperasionalkan di seksi Konsistensi) |
+| IR-1..IR-7 - Inheritance Rules | [`skills/gsp/gsp-design-system-grill/SKILL.md`](../gsp-design-system-grill/SKILL.md) → L1525–1537 | Konsistensi token-lock (dioperasionalkan di seksi Konsistensi) |
 | JSON templates 1/2/3.json | `memory/1.json` / `2.json` / `3.json` | Struktur serializer parameterized |
 
 ---
@@ -893,7 +893,7 @@ token-lock IR-1..IR-7 + style-marker locks (AAM.*, recurring, terminology),
 serializer
 JSON/MD (parameterized 2.json/3.json + `prompt_text`), naming
 `slide-<NN>-<slug>` / `image-<id>-<slug>` di `prompts/{slides,images}/`.
-Standar kualitas: `skills/gsp/gsp-document-quality-standards/SKILL.md` (Module D L349,
+Standar kualitas: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) (Module D L349,
 E L412, H L591–990, H.6.2 L879–896, I L992+, J.4 L1449–1523, J.9 L1632–1641).
-Aturan kontinuitas: `skills/gsp/gsp-design-system-grill/SKILL.md` (IR-1..IR-7
+Aturan kontinuitas: [`skills/gsp/gsp-design-system-grill/SKILL.md`](../gsp-design-system-grill/SKILL.md) (IR-1..IR-7
 L1525–1537). Cite-only (J.9); project-agnostic (AC-4.6).*

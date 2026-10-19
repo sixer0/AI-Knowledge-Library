@@ -134,4 +134,4 @@ curl -sk -H "x-rbac-token: $TOK" -X POST https://localhost:9011/api/brahma/rbac/
   chat/tasks/skills/memory/workspaces/todos/gateway). Confirm with the user before
   enabling in non-private deployments.
 
-Detailed endpoint map + reproduction notes: `references/endpoints-and-flows.md`.
+Detailed endpoint map + reproduction notes: [`references/endpoints-and-flows.md`](references/endpoints-and-flows.md).

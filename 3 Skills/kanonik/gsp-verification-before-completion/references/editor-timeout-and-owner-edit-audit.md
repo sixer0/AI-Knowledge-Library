@@ -1,7 +1,7 @@
 # Editor-timeout triage, adjudikasi spot-FAIL, owner-edit, dan QA tambalan figur
 (Distilasi dari pengawasan gelombang RAFAI/PROMANUAL 04-10-2026; pelengkap
-`manuscript-figure-and-fixpass-verification.md` dan
-`notification-truncation-and-prebase-attribution.md`.)
+[`manuscript-figure-and-fixpass-verification.md`](manuscript-figure-and-fixpass-verification.md) dan
+[`notification-truncation-and-prebase-attribution.md`](notification-truncation-and-prebase-attribution.md).)
 
 ## 1. Triase kartu editor TIMEOUT (sebelum vonis, selalu ukur dulu)
 Klasifikasi jejak run-1 dengan TIGA pengukuran, lalu tempelkan hasilnya di catatan retry:

@@ -84,16 +84,16 @@ from preference, so a rule can be audited back to its instrument.
    browsing takes the MCP door; reproducibility, CI, batch export, or dimensional
    claims take the headless door. See references/mcp-architecture.md.
 3. Author geometry per references/modeling-topology.md, then gate it with
-   `scripts/topology_checks.py` (pole valence, manifoldness, winding, triangle
+   [`scripts/topology_checks.py`](scripts/topology_checks.py) (pole valence, manifoldness, winding, triangle
    count post-triangulation).
 4. Unwrap, pack, and shade per references/uv-materials.md; ship your own density
-   check with `scripts/uv_density_check.py` because Blender has none natively.
+   check with [`scripts/uv_density_check.py`](scripts/uv_density_check.py) because Blender has none natively.
 5. Light and render per templates/cycles-headless-render.md; enable GPU devices
    explicitly, since the factory device is CPU (FC-12).
 6. Parametric work per references/gn-precision.md and
    templates/gn-parametric-generator.md; drive runtime variation through modifier
    inputs only (FC-05, FC-06).
-7. Gate the deliverable with `scripts/qa_gate.py` plus the validator battery in
+7. Gate the deliverable with [`scripts/qa_gate.py`](scripts/qa_gate.py) plus the validator battery in
    references/optimization-qa.md before human eyes touch the asset.
 8. For 2D or cel-style work use references/greasepencil-libraries.md and
    templates/gp-workflow.md; source assets only from the licensed census there.
@@ -151,7 +151,7 @@ Context limits:
 Instruction format (how to read this bundle):
 - This body stays under five hundred lines and targets the sub-five-thousand
   token level-two budget; numbers, failures, and recipes live one level down in
-  `references/`, `templates/`, and `scripts/`, which cost zero tokens until
+  [`references/`](references/), [`templates/`](templates/), and [`scripts/`](scripts/), which cost zero tokens until
   opened (AN-08-26, AN-08-27, CT-25, CT-26).
 - Run the scripts rather than reading them into context; only their output is
   meant to enter the conversation (AN-08-27, CT-26).

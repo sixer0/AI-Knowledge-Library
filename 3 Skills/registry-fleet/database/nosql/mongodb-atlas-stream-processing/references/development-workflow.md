@@ -264,7 +264,7 @@ Modify pipeline (`stop` → `modify-processor` → `start`). Verify filtered out
 | IAM role ARN not found | ARN not registered in project | Register via Atlas → Cloud Provider Access |
 | dataProcessRegion format | Wrong region format | See region table above. If unsure, inspect an existing workspace |
 | Processor PROVISIONING for minutes | Restart cycle with exponential backoff | Wait for FAILED state, or stop → restart. Check logs for repeated error |
-| Parallelism exceeded | Tier too small for requested parallelism | Start with higher tier (see `sizing-and-parallelism.md`) |
+| Parallelism exceeded | Tier too small for requested parallelism | Start with higher tier (see [`sizing-and-parallelism.md`](sizing-and-parallelism.md)) |
 | Networking change needed | Networking is immutable after creation | Delete connection and recreate with new networking config |
 | 401 / 403 on API call | Invalid or expired Atlas API credentials | Verify `apiClientId`/`apiClientSecret` and project-level permissions |
 | 429 rate limit | Too many API calls | Wait and retry; avoid tight loops of discover calls |

@@ -24,7 +24,7 @@ metadata:
 
 <!-- GSP-MASTER-DESIGN v1.1.0 -->
 ## MASTER_DESIGN Integration (v1.1.0)
-Sumber kebenaran token design system GSP: `references/master-design/` (paket di skill ini - D-TA-7).
+Sumber kebenaran token design system GSP: [`references/master-design/`](references/master-design/) (paket di skill ini - D-TA-7).
 Isi: `README.md` (cara pakai + pemilihan preset), `gsp-ds-sets.json` (13 set mesin-baca, mirror byte-identik study), `gsp-ds-set-<slug>.md` ×13 (kartu token per preset), `GSP-DS-KELUARGA.md` (A1–A11, B1–B4, MR1–MR6), `gsp-font-manifest.md` (62 keluarga + path sumber, nol bundling).
 Default tema GENERAL; 12 preset bernama (D-TA-1). Kanal lain (asset/slide/prompt/HTML/dokumen) HANYA menulis pointer ke paket ini - dilarang menyalin HEX/nama font ke berkas skill lain (AC5/G8).
 Hubungan dengan alur grill: paket ini = baseline keluarga (pra-grill); grill G0–G8 tetap menyusun artefak per proyek, dan Theme adaptif proyek mengisi slot yang TIDAK_TERBACA tanpa mengubah konstanta MR5.
@@ -52,8 +52,8 @@ Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - tambah paket referensi master-des
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../../registry-fleet/gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -116,7 +116,7 @@ sebagai keluaran otomatis betapapun baik jawaban grill-nya. G0 dijalankan
 |-----------|--------|----------|
 | 1 | Dokumen eksemplar yang diberikan user untuk proyek ini | Ukur langsung (G0.2); jadikan baseline proyek |
 | 2 | Dokumen keluaran perusahaan terbaru pada domain yang sama | Ukur langsung; catat sebagai baseline warisan |
-| 3 | `references/exemplar-dossier.md` | Pakai sebagai baseline rumah; **default bila tidak ada eksemplar** |
+| 3 | [`references/exemplar-dossier.md`](references/exemplar-dossier.md) | Pakai sebagai baseline rumah; **default bila tidak ada eksemplar** |
 
 Bila prioritas 1 atau 2 tersedia, **wajib diukur** - tidak boleh langsung
 memakai dossier. Dossier adalah lantai, bukan langit-langit.
@@ -1616,7 +1616,7 @@ token sesuai medium (mencegah satu template untuk semua saluran):
 ## Standards Compliance (Cite-Only - J.9 Zero Duplication)
 
 Skill ini adalah **assembly/reference content**. Seluruh standar kualitas
-dirujuk via anchor ke `skills/gsp/gsp-document-quality-standards/SKILL.md` - TIDAK
+dirujuk via anchor ke [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) - TIDAK
 pernah menyalin body aturannya (Module J.9: "Module J MENGUTIP/MELUNAKKAN
 Module D/H/I - tidak pernah menulis ulang body aturannya"; Module D/H/I tetap
 kanonik). Entri `AUTO - Standard-Resolved` di bank meng-cite anchor di bawah
@@ -1648,17 +1648,17 @@ ini sebagai **pengganti pertanyaan** (REQ-A) - anchor only, bukan re-statement.
 | Module J.5.1 - Adaptive Structure | `J.5.1` → L1527 | AUTO G5.Q2; synthesis cek 1 |
 | Module J.9 - How Module J Is Used (anti-duplication) | `J.9` → L1640–1641 | Pengaturan anti-duplikasi skill ini |
 | Module F - Quality Gate | `F` → L448–516 (F.1 L453; F.3 L486) | Synthesis cek 8 (final gate artefak) |
-| **Module K - Precision Formatting Layer** | `## Module K` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L1+ | **Seluruh token presisi; G0; synthesis cek 9–12** |
-| Module K.2 - Anti-Round-Number (WAJIB, blocking) | `K.2` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L37–56 | G0.5; AAM.FRACTIONAL; synthesis cek 9 |
-| Module K.3 - Role-Based Typography | `K.3` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L57–101 | TYPE.FAMILY.*, TYPE.SCALE, TYPE.TRACK.* |
-| Module K.4 - Leading Curve & Spacer Rhythm | `K.4` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L102–144 | SPACE.LEAD.*, SPACE.SPACER.*; synthesis cek 10 |
-| Module K.5 - Grid, Measure, Margin | `K.5` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L145–180 | LAYOUT.GRID.MODULE, LAYOUT.MEASURE.*; synthesis cek 11 |
-| Module K.6 - Table Anatomy (menggantikan I.10.2) | `K.6` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L181–236 | Master §8, docx §4, xlsx §2; synthesis cek 12 |
-| Module K.7 - Dual Color Tracks | `K.7` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L237–258 | Master §2 (trek dingin/hangat) |
-| Module K.8 - Computed Image Placement | `K.8` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L259–281 | xlsx §5, image §4 |
-| Module K.9 - Render-Based Deck Architecture | `K.9` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L282–302 | slides §1–§2 (keputusan jalur produksi) |
-| Module K.10 - Content Architecture | `K.10` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L303–319 | Master §11; xlsx §1 dan §6 |
-| Module K.11 - Checklist Kepatuhan (12 poin) | `K.11` → `skills/gsp/gsp-document-quality-standards/references/module-k.md` L320+ | Master §12; Anti-AI checks tiap turunan |
+| **Module K - Precision Formatting Layer** | `## Module K` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L1+ | **Seluruh token presisi; G0; synthesis cek 9–12** |
+| Module K.2 - Anti-Round-Number (WAJIB, blocking) | `K.2` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L37–56 | G0.5; AAM.FRACTIONAL; synthesis cek 9 |
+| Module K.3 - Role-Based Typography | `K.3` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L57–101 | TYPE.FAMILY.*, TYPE.SCALE, TYPE.TRACK.* |
+| Module K.4 - Leading Curve & Spacer Rhythm | `K.4` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L102–144 | SPACE.LEAD.*, SPACE.SPACER.*; synthesis cek 10 |
+| Module K.5 - Grid, Measure, Margin | `K.5` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L145–180 | LAYOUT.GRID.MODULE, LAYOUT.MEASURE.*; synthesis cek 11 |
+| Module K.6 - Table Anatomy (menggantikan I.10.2) | `K.6` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L181–236 | Master §8, docx §4, xlsx §2; synthesis cek 12 |
+| Module K.7 - Dual Color Tracks | `K.7` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L237–258 | Master §2 (trek dingin/hangat) |
+| Module K.8 - Computed Image Placement | `K.8` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L259–281 | xlsx §5, image §4 |
+| Module K.9 - Render-Based Deck Architecture | `K.9` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L282–302 | slides §1–§2 (keputusan jalur produksi) |
+| Module K.10 - Content Architecture | `K.10` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L303–319 | Master §11; xlsx §1 dan §6 |
+| Module K.11 - Checklist Kepatuhan (12 poin) | `K.11` → [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L320+ | Master §12; Anti-AI checks tiap turunan |
 
 Referensi gaya desain (anchor only, bukan duplikasi):
 
@@ -1670,7 +1670,7 @@ Referensi gaya desain (anchor only, bukan duplikasi):
 
 Aturan: setiap penggunaan standar = **situsi** (anchor), bukan re-statement.
 Jika sebuah aturan dibutuhkan oleh user/turunan, arahkan ke
-`skills/gsp/gsp-document-quality-standards/SKILL.md` (dan skill desain terkait) - jangan
+[`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) (dan skill desain terkait) - jangan
 menyalin isinya ke artefak design system.
 
 ---
@@ -1679,7 +1679,7 @@ Referensi pengukuran (bukan aturan - J.9 tetap berlaku dua arah):
 
 | Referensi | Isi | Dipakai di |
 |-----------|-----|------------|
-| `references/exemplar-dossier.md` | Metrik terukur 5 dokumen rujukan: warna, skala, tracking, leading, padding, modul kolom, tier lebar, penempatan gambar, arsitektur isi. Tiap sub-seksi memuat MEASURED (bukti) + RULE (yang dipindahkan) | G0.1 prioritas 3; nilai baseline saat eksemplar proyek tidak tersedia |
+| [`references/exemplar-dossier.md`](references/exemplar-dossier.md) | Metrik terukur 5 dokumen rujukan: warna, skala, tracking, leading, padding, modul kolom, tier lebar, penempatan gambar, arsitektur isi. Tiap sub-seksi memuat MEASURED (bukti) + RULE (yang dipindahkan) | G0.1 prioritas 3; nilai baseline saat eksemplar proyek tidak tersedia |
 
 ---
 
@@ -1702,10 +1702,10 @@ artefak (artefak yang conform; skill tidak menyalin aturan).
 | 6 | AI-tone checklist: 10 indikator; **3+ HIGH → WAJIB revisi sebelum serah** | H.6.2 L879–896 | Semua artefak |
 | 7 | J.4 range+variance diterapkan (rentang paragraf, ritme kalimat, variasi pembuka/penutup) | J.4 L1449–1523; J.5 variance mandate L1527+ | Master §5, slides §2 |
 | 8 | Quality gate dijalankan pasca-draft (internal 10 poin; completeness 6 poin) | F L448–516 (F.1 L453; F.3 L486) | Final gate artefak |
-| **9** | **Anti-round-number: ≥ 2 ukuran pecahan non-.0/.5; ≥ 1 spacing di luar kelipatan 0.5 pt; leading eksak 100 %; ≥ 1 bobot garis di luar nilai antarmuka; margin berbeda pada ≥ 3 sisi. Gagal = BLOCKING** | K.2 `skills/gsp/gsp-document-quality-standards/references/module-k.md` L37–56 | Master §0/§3/§5/§7, semua turunan |
-| **10** | **Kurva leading turun saat ukuran naik (bukan konstanta); ritme lewat spacer bernama; rasio spacer : paragraf ≤ 1 : 1** | K.4 `skills/gsp/gsp-document-quality-standards/references/module-k.md` L102–144 | Master §5, docx §3/§7 |
-| **11** | **Modul lebar kolom terdefinisi dan seluruh kolom kelipatannya; tiga tier measure terdefinisi dengan NARROW sebagai default; tidak ada auto-fit** | K.5 `skills/gsp/gsp-document-quality-standards/references/module-k.md` L145–180 | Master §4, docx §4, xlsx §3, image §4 |
-| **12** | **Anatomi tabel: tanpa fill header, tanpa alternating row, tanpa garis vertikal; padding per konteks dengan `start = 0`; blok SUMBER di tiap tabel. Deviasi compliance skin dicatat eksplisit** | K.6 `skills/gsp/gsp-document-quality-standards/references/module-k.md` L181–236 | Master §8, docx §4, xlsx §2 |
+| **9** | **Anti-round-number: ≥ 2 ukuran pecahan non-.0/.5; ≥ 1 spacing di luar kelipatan 0.5 pt; leading eksak 100 %; ≥ 1 bobot garis di luar nilai antarmuka; margin berbeda pada ≥ 3 sisi. Gagal = BLOCKING** | K.2 [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L37–56 | Master §0/§3/§5/§7, semua turunan |
+| **10** | **Kurva leading turun saat ukuran naik (bukan konstanta); ritme lewat spacer bernama; rasio spacer : paragraf ≤ 1 : 1** | K.4 [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L102–144 | Master §5, docx §3/§7 |
+| **11** | **Modul lebar kolom terdefinisi dan seluruh kolom kelipatannya; tiga tier measure terdefinisi dengan NARROW sebagai default; tidak ada auto-fit** | K.5 [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L145–180 | Master §4, docx §4, xlsx §3, image §4 |
+| **12** | **Anatomi tabel: tanpa fill header, tanpa alternating row, tanpa garis vertikal; padding per konteks dengan `start = 0`; blok SUMBER di tiap tabel. Deviasi compliance skin dicatat eksplisit** | K.6 [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L181–236 | Master §8, docx §4, xlsx §2 |
 
 > **Note per-kanal cek 6 (teks-vs-visual; override pola J.4.4 L1493–1508;
 > J.4.5 L1510–1515):** cek 6 (AI-tone checklist H.6.2 L879–896) diterapkan pada
@@ -1804,9 +1804,9 @@ Checklist cepat:
 (G0, 15 dimensi M-01..M-15) + bank 21 pertanyaan ditanyakan + 10 AUTO
 standard-resolved (31 entri fisik), 10 esensial (grill-gate); template 5 artefak
 ber-line-budget (master ≥ 1050 / 13 section, turunan ≥ 640). Standar kualitas:
-`skills/gsp/gsp-document-quality-standards/SKILL.md` (Module H L591–990, H.6 L866–905,
-I L992+, J L1389+, J.9 L1640–1641, **K `skills/gsp/gsp-document-quality-standards/references/module-k.md` L1+**). Pengukuran baseline:
-`references/exemplar-dossier.md` (bukti terukur; skill ini memuat aturan
+[`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) (Module H L591–990, H.6 L866–905,
+I L992+, J L1389+, J.9 L1640–1641, **K [`skills/gsp/gsp-document-quality-standards/references/module-k.md`](../../registry-fleet/gsp-document-quality-standards/references/module-k.md) L1+**). Pengukuran baseline:
+[`references/exemplar-dossier.md`](references/exemplar-dossier.md) (bukti terukur; skill ini memuat aturan
 pemakaiannya, bukan salinan angkanya). Referensi gaya: design-taste-frontend,
 frontend-design, canvas-design (anchor only). Adopsi standar: Synthesis Checklist
 12 cek - diterapkan di prosedur sintesis, konten skill tetap cite-only (J.9).*

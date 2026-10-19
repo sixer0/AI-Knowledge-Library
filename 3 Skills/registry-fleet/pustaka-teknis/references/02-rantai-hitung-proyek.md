@@ -51,7 +51,7 @@
 2. Klasifikasi konsekuensi; 89% moda kegagalan tidak terkait umur [R3, Moubray PDF 31]
 3. Tugas: on-condition (interval ½ P-F) → restorasi → pembuangan → failure-finding (FFI)
 4. Sasaran MTBF kegagalan majemuk = **keputusan pemilik**
-5. Rantai RCM utuh: `ekas/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md`
+5. Rantai RCM utuh: [`ekas/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md`](../../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md)
 
 ## Daftar 12 rantai domain (per domain: buka file-nya)
 

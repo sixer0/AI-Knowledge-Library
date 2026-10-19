@@ -1,6 +1,6 @@
 # Komponen CSS kanonik GSP DS + gerbang render
 Carrier aturan (D-TA-7 pointer-only): dokumen ini menunjuk paket token; nilai HANYA dibaca dari
-`skills/gsp/gsp-design-system-grill/references/master-design/gsp-ds-sets.json` + kartu preset.
+[`skills/gsp/gsp-design-system-grill/references/master-design/gsp-ds-sets.json`](../../../gsp-design-system-grill/references/master-design/gsp-ds-sets.json) + kartu preset.
 Muatan ini menyerap blueprint langkah 10 (engine `creative/claude-design` READ-ONLY, keputusan D14).
 Generator: SM-1 t_de708ae3 2026-09-01.
 

@@ -60,14 +60,14 @@ Layout sensors produce false positives. Confirmed cases: case sensitivity (`GAMB
 - pymupdf `save(garbage=4, deflate=True, deflate_images=True)` can *increase* size when images are already optimally encoded (measured 105%). Measure before promising smaller files; discard the failed attempt and log why.
 
 ## Defect classes observed in the field
-See `references/sajian-fixsa-case.md` for the full red-green chain (numbers, commands, root causes). Summary: `Cm(mm)` 10x figures; pt-as-dxa tenth-scale tables; keepNext+cantSplit quarter-page voids; crops carrying source header/footer bars (fix the ASSET crop, never fabricate); captions orphaned across page breaks; split tables without repeated headers; caption text claiming N rows while the page shows fewer.
+See [`references/sajian-fixsa-case.md`](references/sajian-fixsa-case.md) for the full red-green chain (numbers, commands, root causes). Summary: `Cm(mm)` 10x figures; pt-as-dxa tenth-scale tables; keepNext+cantSplit quarter-page voids; crops carrying source header/footer bars (fix the ASSET crop, never fabricate); captions orphaned across page breaks; split tables without repeated headers; caption text claiming N rows while the page shows fewer.
 
 ## Script
 `scripts/layout_audit.py <docx> <pdf> [allowed_widths_mm_csv]` prints CHECK lines + VERDICT, exit 0 only when clean. Adapted from probes validated during the 2026-10-06 missions; sanity-run it once per environment against a known-good artifact before trusting its verdicts (sensor-first rule applies to this script too).
 
 ## Sensor calibration (VCTL-1007)
 
-`references/sensor-calibration-vctl.md` + `scripts/tcw_probe.py` (dinaikan apa adanya dari
+[`references/sensor-calibration-vctl.md`](references/sensor-calibration-vctl.md) + [`scripts/tcw_probe.py`](scripts/tcw_probe.py) (dinaikan apa adanya dari
 satu-satunya salinan fisik di profil gsp-master01 oleh DUPSKILL-L3 kartu t_605e5f7c, 11-10-2026):
 known-good calibration targets (DOCX widths harus {128.0, 166.0} mm; PDF caption 0-30 pt; XLSX
 STD-SAJI gaya kepala), rantai positif-palsu yang tertangkap (EMU 360000 vs 36000; probe gridCol

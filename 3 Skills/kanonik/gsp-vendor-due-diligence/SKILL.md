@@ -117,7 +117,7 @@ Gates all green: 19/19 links live, 0 display defects, U+2014/U+00B7 = 0 across a
   whether re-dispatch is needed (rule: audit completeness, never blind re-dispatch).
 
 ## References
-- `references/solo-mode-exemplar-clone.md` — full runbook for "Tanpa Orkestrasi" generation (proven twice 09-09: Azira, Adsquare): ladder order, SPA handling, link pre-probe, builder triple, four gates, delivery/trace rules.
-- `references/sam-gov-debarment-probe.md` — keyless SAM.gov exclusions endpoint, control-positive rule, dead endpoints.
-- `references/person-tracing-recipe.md` — team-page/sitemap/DDGS/aggregator/CDX ladder with PROV table format.
-- `references/primary-source-acquisition.md` — FTC docket+order PDFs, SEC EDGAR, Brreg, CourtListener patterns.
+- [`references/solo-mode-exemplar-clone.md`](references/solo-mode-exemplar-clone.md) — full runbook for "Tanpa Orkestrasi" generation (proven twice 09-09: Azira, Adsquare): ladder order, SPA handling, link pre-probe, builder triple, four gates, delivery/trace rules.
+- [`references/sam-gov-debarment-probe.md`](references/sam-gov-debarment-probe.md) — keyless SAM.gov exclusions endpoint, control-positive rule, dead endpoints.
+- [`references/person-tracing-recipe.md`](references/person-tracing-recipe.md) — team-page/sitemap/DDGS/aggregator/CDX ladder with PROV table format.
+- [`references/primary-source-acquisition.md`](references/primary-source-acquisition.md) — FTC docket+order PDFs, SEC EDGAR, Brreg, CourtListener patterns.

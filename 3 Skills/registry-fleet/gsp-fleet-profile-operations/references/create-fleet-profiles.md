@@ -3,7 +3,7 @@
 Contoh teruji: 7 profil (`gsp-engineering-analyst`, `gsp-vss-specialist`,
 `gsp-fiber-specialist`, `gsp-power-specialist`, `gsp-grounding-specialist`,
 `gsp-security-specialist`, `gsp-infra-specialist`) dibuat 24-08-2026 dari 12 skill EKAS.
-Skrip idempoten tersimpan: `C:/Users/TRIAL/workspace/gsp-hermes/scripts/create_ekas_specialists.py`
+Skrip idempoten tersimpan: [`C:/Users/TRIAL/workspace/gsp-hermes/scripts/create_ekas_specialists.py`](../../../../7%20Tools/scripts-repo-gsp-hermes/create_ekas_specialists.py)
 (adaptasi daftar profil per kebutuhan).
 
 ## Langkah pembuatan tiap profil

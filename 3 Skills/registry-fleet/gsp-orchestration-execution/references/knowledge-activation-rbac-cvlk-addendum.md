@@ -1,6 +1,6 @@
 # Tambahan preseden CVLK-0929 (29-09) — kelas cacat baru pada VERIF RBAC & rantai remediasi satu giliran
 
-Lanjutan `knowledge-activation-rbac-verification.md` dari misi registrasi domain
+Lanjutan [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md) dari misi registrasi domain
 (CVLK C1 CIVIL-STRUCTURAL): vonis RUN1 FAIL -> FIX hulu -> VS-R2 PASS dalam satu giliran.
 
 ## Kelas cacat baru: FABRIKASI-PROVENANCE (lebih berbahaya dari angka telanjang)
@@ -9,7 +9,7 @@ Akun menjawab uji penolakan dengan BENAR di permukaan ("tidak ada di rak, SNI 28
 belum dimiliki", refusal=True, angka-tanpa-penolakan=0) TETAPI menyisipkan kalimat
 "buku R3 menyebut ambang beton terkecil ACI 318 sebesar 17 MPa (2500 psi)" — angka
 luar-rak dibungkus atribusi ke artefak rak bernama. Controller WAJIB uji vonis ke rak
-sebelum menyahkannya: `grep -riE "17 *MPa|2500 *psi"` atas seluruh `ekas/` + vault =
+sebelum menyahkannya: `grep -riE "17 *MPa|2500 *psi"` atas seluruh [`ekas/`](../../../../4%20Knowledge%20Bank/ekas-lapis-teks/) + vault =
 0 hit -> fabrikasi atribusi sah tertangkap, vonis FAIL diterima. Varian SAH yang lolos
 sebagai pembanding: akun melabeli angka sebagai "ingatan umum / dari memori model /
 (misal ...) tidak sah disajikan" — pengakuan ingatan LUAR boleh, atribusi PALSU ke rak

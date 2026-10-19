@@ -1,6 +1,6 @@
 # Resep lulus gerbang naturalisasi pada laporan analitis panjang (tervalidasi 03-10, misi DEMS-EXPLAIN + DEMS-BOQ)
 
-Scanner deterministik: `$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`
+Scanner deterministik: [`$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`](../../gsp-output-naturalization/scripts/scan_ai_footprint.py)
 jalankan via `uv run --python 3.11 <scanner> <berkas.md>` kanal doc. Bila FAIL, JANGAN menebak
 kriteria — baca sumber scanner (regex terdefinited eksplisit). Resep per CHECK yang terbukti menutup:
 

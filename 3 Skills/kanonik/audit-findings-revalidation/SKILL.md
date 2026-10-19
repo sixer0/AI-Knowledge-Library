@@ -25,9 +25,9 @@ metadata:
 
 ## Steps
 
-1. **Extract the findings sections** from the document. For large HTML (multi-MB, `read_file` truncates), use `execute_code` with regex section-slicing by heading `id="..."` + tag-strip → text. Pull: summary table, operational warnings, unfinished-migration section, remediation plan (§ waves), forbidden-actions table. See `references/recheck-recipes.md` for the working extractor and probes.
+1. **Extract the findings sections** from the document. For large HTML (multi-MB, `read_file` truncates), use `execute_code` with regex section-slicing by heading `id="..."` + tag-strip → text. Pull: summary table, operational warnings, unfinished-migration section, remediation plan (§ waves), forbidden-actions table. See [`references/recheck-recipes.md`](references/recheck-recipes.md) for the working extractor and probes.
 2. **Snapshot current shape first**: profile count, skill-tree counts (fleet shared vs per-profile), repo-vs-live counterpart counts. The audit's unit-of-presentation may no longer match (e.g. 46 units then, 51 now) — state both.
-3. **Re-measure each finding class** with the deterministic probes in `references/recheck-recipes.md` (drift by SHA-256 tree match, description-length >60/>1024, cross-skill citation tapak, cron evidence, leftover-migration path grep, duplicate asset size).
+3. **Re-measure each finding class** with the deterministic probes in [`references/recheck-recipes.md`](references/recheck-recipes.md) (drift by SHA-256 tree match, description-length >60/>1024, cross-skill citation tapak, cron evidence, leftover-migration path grep, duplicate asset size).
 4. **Git sanity probe on the corpus repo**: `os.path.isdir(repo/.git)` — an audit recommending "seal into version control" is *more* urgent if the repo still has no `.git` at all.
 5. **Write the report** to the shared workspace `docs/<date>_relevansi-audit-<ID>.md`: context line (what host/snapshot the original audit ran on), verdict table (finding → status → fresh evidence with date), then a numbered work list ordered by the audit's own wave constraints, adapted to what's actually left. Final chat reply = verdict summary + work list + pointer to the file; offer to start with the actively-broken item first.
 

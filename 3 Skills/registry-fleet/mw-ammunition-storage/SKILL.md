@@ -21,8 +21,8 @@ Susunan bab mengikuti nomor seri subsistem sumber dan bukan urutan per-dokumen, 
 | Jalur | Untuk siapa | Langkah |
 |---|---|---|
 | Cepat | butuh keputusan praktik | buka bab subsistem terkait di bawah, baca blok bernomor rujukan |
-| Penyusun angka | butuh nilai + satuan + kelas asal | `references/register.md` bagian bab, atau grep `reg_id` di `references/register.jsonl` |
-| Pemeriksa angka | menguji kebenaran satu angka | ambil `reg_id`, cocokkan `dokumen` + `halaman` pada baris itu, buka berkas korpus bila tersedia; tanya-jawab tersering di `references/qa-pemeriksa.md` |
+| Penyusun angka | butuh nilai + satuan + kelas asal | [`references/register.md`](references/register.md) bagian bab, atau grep `reg_id` di [`references/register.jsonl`](references/register.jsonl) |
+| Pemeriksa angka | menguji kebenaran satu angka | ambil `reg_id`, cocokkan `dokumen` + `halaman` pada baris itu, buka berkas korpus bila tersedia; tanya-jawab tersering di [`references/qa-pemeriksa.md`](references/qa-pemeriksa.md) |
 
 Telusur wajib berhenti dalam dua langkah karena prosa selalu menutup pernyataan bernilai dengan penanda rujukan, penanda itu menunjuk satu `reg_id`, dan baris register tersebut memuat pasangan berkas serta nomor halaman tempat angka ditemukan. Jalur cepat dipakai untuk keputusan praktik sehari-hari tanpa membuka register, sedangkan jalur penyusun angka dipakai ketika satuan atau kelas asal perlu dipastikan sebelum memasukkan nilai ke perhitungan. Jalur pemeriksa angka dipakai saat ada keberatan atas satu butir tertentu dan memerlukan pembacaan ulang halaman sumbernya. Berkas pendukung lain yang membentuk rantai bukti paket ini adalah silsilah dokumen, tabel manusia register, berkas mesin register, tanya-jawab pemeriksa, batas pengetahuan, dan alat ukur gerbang pada direktori skrip.
 
@@ -96,13 +96,13 @@ Delapan temuan di atas adalah cacat yang ditemukan selama rakit dan sengaja dite
 
 ## Pernyataan kesegaran (R-10)
 
-Baseline beku 16-09-2026 mengikat seluruh isi paket ini karena korpus yang dipakai adalah mirror lokal 49 berkas pada tanggal tersebut dan edisi lebih baru dari IATG, UN Model Regulations, UN Manual of Tests, maupun regulasi ATF belum dijangkau serta belum diuji sama sekali. Pertanyaan tentang edisi lebih baru dijawab sebagai belum dijangkau baseline ini dan bukan ditebak isinya. Keterbatasan itu juga berlaku untuk regulasi nasional negara mana pun yang memang tidak termasuk korpus, sehingga kebutuhan penerapannya harus dicek pada otoritas yang berwenang. Batas-batas lain yang setara didaftar pada `references/batas-pengetahuan.md` beserta cara cek yang dipakai untuk memvonisnya.
+Baseline beku 16-09-2026 mengikat seluruh isi paket ini karena korpus yang dipakai adalah mirror lokal 49 berkas pada tanggal tersebut dan edisi lebih baru dari IATG, UN Model Regulations, UN Manual of Tests, maupun regulasi ATF belum dijangkau serta belum diuji sama sekali. Pertanyaan tentang edisi lebih baru dijawab sebagai belum dijangkau baseline ini dan bukan ditebak isinya. Keterbatasan itu juga berlaku untuk regulasi nasional negara mana pun yang memang tidak termasuk korpus, sehingga kebutuhan penerapannya harus dicek pada otoritas yang berwenang. Batas-batas lain yang setara didaftar pada [`references/batas-pengetahuan.md`](references/batas-pengetahuan.md) beserta cara cek yang dipakai untuk memvonisnya.
 
 ## Verifikasi dan sidik jari
 
 | Pemeriksaan | Cara ukur | Hasil |
 |---|---|---|
-| Baris register beku | hitung baris `references/register.jsonl` | 1341 |
+| Baris register beku | hitung baris [`references/register.jsonl`](references/register.jsonl) | 1341 |
 | `reg_id` unik | skrip `scripts/skl_gates.py` CHECK 5 | lihat laporan gerbang |
 | Berkas korpus terwakili | pencocokan `dokumen` ke `corpus/_manifest.json` | 49/49 |
 | Sidik jari register sha16 | sha256 byte kanonis (key sorted, LF), 16 karakter pertama | `88eff3876c72a5f9` |

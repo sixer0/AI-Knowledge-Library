@@ -6,7 +6,7 @@ Question answered: "which skill improvements applied by profile X in the last N 
 1. Enumerate touched files per profile:
    `find "$LOCALAPPDATA/hermes/profiles/<p>/skills" -type f -mtime -N ! -name '*.lock' -printf '%TY-%Tm-%Td %TH:%TM | %p\n'`
    Exclude machine ledgers from substance counts: `.usage.json`, `.curator_ledger.jsonl`, `.curator*` snapshot dirs (timestamped names like `2026-10-05T08-03-47Z` — these parse as "skill names" if you split paths naively; filter them).
-2. Resolve skill dir per file: first path component under `skills/` is the skill UNLESS nested category layout exists (`skills/<category>/<skill>/SKILL.md` — real case: gsp-master01 has `skills/gsp/gsp-doc-layout-gates` AND `skills/verification/gsp-doc-layout-verification`). Walk up to the dir containing SKILL.md.
+2. Resolve skill dir per file: first path component under [`skills/`](../../../kanonik/) is the skill UNLESS nested category layout exists (`skills/<category>/<skill>/SKILL.md` — real case: gsp-master01 has [`skills/gsp/gsp-doc-layout-gates`](../../gsp-doc-layout-gates/) AND `skills/verification/gsp-doc-layout-verification`). Walk up to the dir containing SKILL.md.
 3. For each file compute sha256[:16] and compare against BOTH global sources:
    - registry fleet: `$LOCALAPPDATA/hermes/skills/gsp/<skill>/<relpath>`
    - canonical: `C:/Users/TRIAL/workspace/gsp-hermes/skills/<skill>/<relpath>` (find by dir name — categories differ between roots)

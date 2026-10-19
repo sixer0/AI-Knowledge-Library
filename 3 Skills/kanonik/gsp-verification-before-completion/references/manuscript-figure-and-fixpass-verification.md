@@ -2,7 +2,7 @@
 
 Kelas: audit pengawas silang atas artefak NASKAH (bab tulis, front matter), aset VISUAL
 ter-render, dan kartu perbaikan/editor — bukan berkas riset/akuisisi (itu
-`saturation-verdict-and-resume-supervision.md` / `cross-lane-register-audit.md`).
+[`saturation-verdict-and-resume-supervision.md`](saturation-verdict-and-resume-supervision.md) / [`cross-lane-register-audit.md`](cross-lane-register-audit.md)).
 
 ## 1. Matcher rujukan-ID wajib TIGA varian + normalisasi pad
 

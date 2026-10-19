@@ -1,7 +1,7 @@
 # Resume-wave, audit vonis jenuh, dan rung-8 fallback (rekaman RAFAI-1004, 04-10-2026)
 
-Normatif pelapis `saturation-gate-sweep-lanes.md` (vonis per lajur) dan
-`saturation-sweep-mission-frame.md` (kerangka misi). Empat mekanik di bawah
+Normatif pelapis [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md) (vonis per lajur) dan
+[`saturation-sweep-mission-frame.md`](saturation-sweep-mission-frame.md) (kerangka misi). Empat mekanik di bawah
 terbukti dipakai di lapangan pada misi RAFAI-1004 fase riset.
 
 ## 1. Audit controller atas vonis JENUH pekerja (tafsir KETAT)

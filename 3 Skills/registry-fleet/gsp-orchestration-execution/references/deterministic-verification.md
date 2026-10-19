@@ -12,7 +12,7 @@ are the wrong shape for a dispatched oneshot with RUN_TIMEOUT_MS=1800s.
    every mechanical check and writes a timestamped report to the contract's
    docs folder, printing one line per check (`CHECK n: PASS|FAIL|NEEDS_REVIEW — name`)
    plus a final `VERDICT:` line. Reference implementation:
-   `C:/Users/TRIAL/workspace/gsp-hermes/scripts/verify_lean_fleet_r2.py`.
+   [`C:/Users/TRIAL/workspace/gsp-hermes/scripts/verify_lean_fleet_r2.py`](../../../../7%20Tools/scripts-repo-gsp-hermes/verify_lean_fleet_r2.py).
    Rules for the script: evidence from re-read files/commands only; classify
    honestly (NEEDS_REVIEW for "waiting on a human decision" is NOT FAIL);
    keep the report path fixed so the countersign can find it.

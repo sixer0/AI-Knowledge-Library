@@ -22,8 +22,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -40,7 +40,7 @@ Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module 
 Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K tetap menang.
 ## GSP-SDT Integration (v1.2.0 - dokumen resmi berkelas)
 
-Sumber kebenaran bentuk dokumen: `skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`
+Sumber kebenaran bentuk dokumen: [`skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`](../gsp-document-quality-standards/references/gsp-sdt/)
 (paket GSP-SDT; jangan salin isinya ke file ini). Default rezim skill ini: **SDT umum**;
 rezim lain (SDTP/AD/AU/PL/CY/BIZ) dipilih eksplisit per pekerjaan via `delta-matra.md`.
 
@@ -61,7 +61,7 @@ Penerapan di skill ini (jalur DOCX resmi):
 7. Gerbang pra-terbit: checklist 14 butir skill ini DIJALANKAN BERSAMAAN dengan
    `checklist-pra-terbit.md` GSP-SDT (22 butir) untuk dokumen berkelas K1–K8; keduanya LULUS
    sebelum ekspor. Konflik: FORMAT → Module L; BENTUK/ANATOMI/REGISTER → GSP-SDT; GAYA → H/K.
-8. Generator: pakai `templates/gsp_lib.py` (skill ini) + helper `snippet-docx.py` paket SDT
+8. Generator: pakai [`templates/gsp_lib.py`](templates/gsp_lib.py) (skill ini) + helper `snippet-docx.py` paket SDT
    (blok identitas, header/footer klasifikasi, nomor lembar per rezim, tabel revisi).
 
 Larangan: jangan salin tabel K1–K8/anatomi/checklist ke file ini; jangan campur total bobot
@@ -76,7 +76,7 @@ document (laporan, proposal, technical report, memo, ringkasan pimpinan) in
 DOCX/MD/PDF. The authoritative source is the acuan PDF
 `Acuan_Standar_Format_Laporan_GSP_untuk_Sistem_AI_020GSPSTDVIII2026_RevA.pdf`
 (8 hal). If the acuan is not attached, use the condensed values in
-`skills/gsp/gsp-document-quality-standards/SKILL.md` (Modules I–K) - NOTE: the
+[`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) (Modules I–K) - NOTE: the
 former bundle file "ringkasan-standar-format.md" does not exist in this
 registry (verified 30-08-2026; do not re-add the dead reference).
 
@@ -121,7 +121,7 @@ Delivery pitfalls below.
 
 1. Baca acuan PDF (pymupdf) atau gunakan nilai kondensasi di skill
    `gsp-document-quality-standards` (Modules I–K).
-2. Salin `templates/gsp_lib.py` ke folder laporan (helper python-docx yang
+2. Salin [`templates/gsp_lib.py`](templates/gsp_lib.py) ke folder laporan (helper python-docx yang
    sudah terbukti: grid, palet, header/footer + field LEMBAR n DARI N, blok
    bukti, grammar tabel, normalisasi em-dash).
 3. Susun generator `buat_laporan.py` mengikuti anatomi (sampul → ringkasan →
@@ -174,11 +174,11 @@ revisi + riwayat + register, 14. Klasifikasi sesuai skema penerima.
 
 ## Support files
 
-- `templates/gsp_lib.py` - helper python-docx terbukti (grid, palet, header/
+- [`templates/gsp_lib.py`](templates/gsp_lib.py) - helper python-docx terbukti (grid, palet, header/
   footer + field halaman, blok bukti, grammar tabel, normalisasi em-dash).
 - Nilai acuan terperinci (grid, skala tipe, palet hex, anatomi, grammar,
   klasifikasi, penamaan): skill `gsp-document-quality-standards` Modules I–K
-  (`skills/gsp/gsp-document-quality-standards/SKILL.md`) - berkas kondensasi
+  ([`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md)) - berkas kondensasi
   lama "ringkasan-standar-format.md" TIDAK ada di registry.
 
 > Penanda D16: middle dot (U+00B7) yang tersisa di berkas ini adalah kutipan verbatim master design (string blok terkendali atau teks halaman terkutip ber-rujukan halaman), bukan prosa; jangan dianggap pelanggaran aturan teks keluaran.

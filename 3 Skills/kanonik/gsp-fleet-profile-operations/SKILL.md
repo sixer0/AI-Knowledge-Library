@@ -13,7 +13,7 @@ tags: [gsp, fleet, profiles, hermes, propagation, windows]
 
 ## Fleet layout on this Windows host
 - Profiles: `C:/Users/TRIAL/AppData/Local/hermes/profiles/gsp-*` (33 profiles + user01 = WebUI user).
-- Each profile: `config.yaml` (settings), `.env` (URLs/secrets), `skills/` (copied per-profile), `SOUL.md` (persona + "Skill — ALWAYS LOAD" / "Skill — ON DEMAND" lists), shared cwd `C:/Users/TRIAL/workspace/gsp-hermes/workspace`.
+- Each profile: `config.yaml` (settings), `.env` (URLs/secrets), [`skills/`](../) (copied per-profile), `SOUL.md` (persona + "Skill — ALWAYS LOAD" / "Skill — ON DEMAND" lists), shared cwd `C:/Users/TRIAL/workspace/gsp-hermes/workspace`.
 - **Canonical generator did NOT migrate**: manifest.json / scripts / kanonik skills are absent on Windows (Mac-era `~/workspace/gsp-hermes/scripts/{generate_profiles,build_skills,validate_profiles}.py`). Fleet changes = direct per-profile edits. If the generator is ever restored, regenerate profiles first, then re-apply fleet-wide webstack settings.
 
 ## Safe per-profile edit rules
@@ -26,15 +26,15 @@ tags: [gsp, fleet, profiles, hermes, propagation, windows]
 - ALL 33 profiles: `SEARXNG_URL=http://localhost:8080` in .env, `web.search_backend=searxng`, skill `hermes-web-search-stack` in skills/ + listed in SOUL ON DEMAND.
 
 ## GSP-AI provider registration (verified 2026-08-27)
-- ALL 44 gsp-* profiles carry a `custom_providers:` block in config.yaml registering **GSP-AI** (self-hosted OpenAI-compatible gateway `http://10.83.81.246:11400/v1`, models: auto-worker / auto-auxilary / auto-efficient / thinker) + `HERMES_CUSTOM_10_83_81_246_11400_API_KEY` in each profile .env (same key as global). **DEFAULT MODEL (also 2026-08-27): ALL 47 configs (44 gsp-* + firmanhidayat + user01 + global default) now use provider `GSP-AI` / model `auto-efficient` with `fallback_providers: [{provider: kilocode, model: kilo-auto/free}]`.** Set via `C:/Users/TRIAL/workspace/gsp-hermes/scripts/set_gsp_ai_fleet_default.py` (SEQUENTIAL — never concurrent, see Pitfalls). user01's custom_providers holds GSP-Server (100.102.23.27:11434) + GSP-AI; both must be preserved when merging.
-- Idempotent rollout script: `C:/Users/TRIAL/workspace/gsp-hermes/scripts/register_gsp_ai_fleet.py` (re-run safe; verifies entry+key per profile; created gsp-firman-custom/config.yaml which was absent).
+- ALL 44 gsp-* profiles carry a `custom_providers:` block in config.yaml registering **GSP-AI** (self-hosted OpenAI-compatible gateway `http://10.83.81.246:11400/v1`, models: auto-worker / auto-auxilary / auto-efficient / thinker) + `HERMES_CUSTOM_10_83_81_246_11400_API_KEY` in each profile .env (same key as global). **DEFAULT MODEL (also 2026-08-27): ALL 47 configs (44 gsp-* + firmanhidayat + user01 + global default) now use provider `GSP-AI` / model `auto-efficient` with `fallback_providers: [{provider: kilocode, model: kilo-auto/free}]`.** Set via [`C:/Users/TRIAL/workspace/gsp-hermes/scripts/set_gsp_ai_fleet_default.py`](../../../7%20Tools/scripts-repo-gsp-hermes/set_gsp_ai_fleet_default.py) (SEQUENTIAL — never concurrent, see Pitfalls). user01's custom_providers holds GSP-Server (100.102.23.27:11434) + GSP-AI; both must be preserved when merging.
+- Idempotent rollout script: [`C:/Users/TRIAL/workspace/gsp-hermes/scripts/register_gsp_ai_fleet.py`](../../../7%20Tools/scripts-repo-gsp-hermes/register_gsp_ai_fleet.py) (re-run safe; verifies entry+key per profile; created gsp-firman-custom/config.yaml which was absent).
 - gsp-firman-custom was the only profile missing config.yaml (bare profile); gsp-budi & gsp-creative were missing .env entirely (created by the script).
 - Crawl-only (5 agents): `gsp-vendor-crawler-specialist`, `gsp-crawler-orchestrator`, `gsp-data-collector`, `gsp-social-media-crawler`, `gsp-data-analyst` — additionally `FIRECRAWL_API_URL=http://localhost:3002` + `web.extract_backend=firecrawl`.
   - **SAPU PM-4 (10-10, PROF-MERGE-1010): daftar ini historis.** Empat dari lima sudah diarsipkan 10-10 ke `C:/Users/TRIAL/gsp-archive/hermes-profiles-2026-10-10/` (kandidat hidup tersisa: `gsp-social-media-crawler` pun TIDAK ada di disk). Daftar hidup kanonis = `workspace/fleet/PROFILE-REGISTRY.json` (17 profil); jangan dispatch ke nama di baris ini tanpa cek folder profil.
 - Non-crawl: NO `FIRECRAWL_API_URL`; their `web_extract` still works via the keyless ring (exa/parallel), NOT firecrawl — intended restriction.
 
 ## Idempotent tool
-`C:/Users/TRIAL/workspace/gsp-hermes/scripts/fix_fleet_webstack.py` — env dedup + config set + skill copy + SOUL patch with identity guard + per-profile verification table. Rerun-safe.
+[`C:/Users/TRIAL/workspace/gsp-hermes/scripts/fix_fleet_webstack.py`](../../../7%20Tools/scripts-repo-gsp-hermes/fix_fleet_webstack.py) — env dedup + config set + skill copy + SOUL patch with identity guard + per-profile verification table. Rerun-safe.
 
 ## Kilocode credential (verified 2026-08-28)
 - ALL 47 profiles (44 gsp-* + firmanhidayat + user01 + novriandy) carry `KILOCODE_API_KEY` in .env, exactly 1 line each, identical to the global `.env` key (JWT ~268 chars). On 2026-08-28 the 5 profiles that lacked it (firmanhidayat, gsp-budi, gsp-creative, gsp-firman-custom, user01) were fixed by append-dedup of the global key; fix verified via re-read fingerprint + live API test (`https://api.kilo.ai/api/gateway/v1/models` → 200, 368 models; chat on kilo-auto/free and kilo-auto/efficient both 200).

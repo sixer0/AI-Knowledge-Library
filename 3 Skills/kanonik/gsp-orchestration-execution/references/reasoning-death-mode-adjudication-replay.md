@@ -5,7 +5,7 @@ Five patterns validated while supervising four concurrent missions in one aftern
 ## 1. Death by REASONING (distinct from pre-artifact death and partial-modal death)
 
 BUILD-GEN timed out 3x at 1814s each. Signature that separates it from healthy
-resume cases (`crash-loop-and-retry-modal-triage.md` section 1):
+resume cases ([`crash-loop-and-retry-modal-triage.md`](crash-loop-and-retry-modal-triage.md) section 1):
 - target builder file exists but is **0 bytes** (created, never filled);
 - only probe/scratch files grow between runs (`work/probe_*.py`);
 - `hermes kanban log <id>` tail shows the worker still READING library/source

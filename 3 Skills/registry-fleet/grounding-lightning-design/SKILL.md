@@ -22,7 +22,7 @@ metadata:
   (rolling sphere, tingkat proteksi).
 - Menyusun **uji pembumian** (Wenner/fall-of-potential) dan verifikasi zona lindung.
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md` + resume
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md) + resume
 Joffe & Lock / Uman · ASUMSI-BAKU §C.
 
 ## ⚠ Baca ini dulu: rantai PUTUS di mata ④

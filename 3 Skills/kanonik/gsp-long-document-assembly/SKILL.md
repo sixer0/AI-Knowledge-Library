@@ -34,8 +34,8 @@ skill for style, formatting, and 5W1H tiered enforcement, and with the
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../../registry-fleet/gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -412,9 +412,9 @@ to:
 
 | File | When to Use |
 |------|-------------|
-| `references/late-data-integration.md` | Phase 4–5 — late data inserted after writing waves: chapter renumbering protocol (explicit map, never arithmetic bump), renumbering count drift, count reconciliation |
-| `scripts/build_docx_from_sections.py` | Phase 4 assembly to DOCX — merges ordered markdown section files into a styled A4 document (headings, page breaks, tables; proven on a 61-page doc) |
-| `scripts/estimate_docx_pages.py` | Verification — estimate printed page count of a DOCX without Word/LibreOffice when a page-count minimum is demanded |
+| [`references/late-data-integration.md`](references/late-data-integration.md) | Phase 4–5 — late data inserted after writing waves: chapter renumbering protocol (explicit map, never arithmetic bump), renumbering count drift, count reconciliation |
+| [`scripts/build_docx_from_sections.py`](scripts/build_docx_from_sections.py) | Phase 4 assembly to DOCX — merges ordered markdown section files into a styled A4 document (headings, page breaks, tables; proven on a 61-page doc) |
+| [`scripts/estimate_docx_pages.py`](scripts/estimate_docx_pages.py) | Verification — estimate printed page count of a DOCX without Word/LibreOffice when a page-count minimum is demanded |
 
 ---
 

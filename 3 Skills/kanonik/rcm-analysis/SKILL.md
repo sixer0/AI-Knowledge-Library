@@ -24,8 +24,8 @@ metadata:
   *"failure-finding kapan?"*.
 - Menyusun analisis FMEA/FFMEA dan klasifikasi konsekuensi kegagalan.
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md` · resume Moubray / Gulati /
-Nyman & Levitt di `ekas/05_DOMAIN-KNOWLEDGE/RCM/`.
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md) · resume Moubray / Gulati /
+Nyman & Levitt di [`ekas/05_DOMAIN-KNOWLEDGE/RCM/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/).
 
 ## Alur wajib (urut — jangan dibalik)
 
@@ -39,7 +39,7 @@ Nyman & Levitt di `ekas/05_DOMAIN-KNOWLEDGE/RCM/`.
 4. **Pilih jenis tugas** sesuai Decision Diagram:
    on-condition → restorasi → pembuangan → failure-finding (FF).
    Overhaul berkala HANYA bila moda terkait umur dan tugas itu layak secara teknis + berharga.
-5. **Hitung interval** (rumus di `references/01-rumus-interval.md`).
+5. **Hitung interval** (rumus di [`references/01-rumus-interval.md`](references/01-rumus-interval.md)).
 6. **Sasaran MTBF kegagalan majemuk = keputusan PEMILIK**, bukan perancang. Tanpa itu,
    tulis menunggu keputusan tertulis.
 7. **Uji kelayakan dua tahap** untuk tiap tugas: layak secara teknis DAN berharga.

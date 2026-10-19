@@ -143,7 +143,7 @@ Security protocols: `SASL_SSL`, `SASL_PLAINTEXT`, `SSL`
 
 For Confluent Cloud, use `mechanism: "PLAIN"` with your API key as `username` and API secret as `password`.
 
-Kafka supports both **PrivateLink** and **VPC Peering** for private networking. See the [PrivateLink Reference](#privatelink-reference-all-vendors) section below for all supported vendors and providers.
+Kafka supports both **PrivateLink** and **VPC Peering** for private networking. See the [PrivateLink Reference](connection-configs.md#privatelink-reference-all-vendors) section below for all supported vendors and providers.
 
 **VPC Peering:**
 - Supported for outbound connections to Kafka brokers in your own VPC

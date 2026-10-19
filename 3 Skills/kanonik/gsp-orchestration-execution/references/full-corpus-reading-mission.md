@@ -3,7 +3,7 @@
 Kelas misi: "Baca semua file folder X satu per satu, baris per baris, tanpa yang
 terlewat - lalu buatkan resume pengetahuan" (preseden: DEMS-BACA-1003 03-10,
 DEMS-PEMAHAMAN-0925 299 berkas, EKASSAPU-0923 254 berkas). Beda dari lajur riset
-saturasi (`saturation-gate-sweep-lanes.md`): populasinya berkas di disk, bukan
+saturasi ([`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md)): populasinya berkas di disk, bukan
 klaim eksternal; vonis selesai = MANIFEST selisih-nol, bukan jenuh ber-angka.
 
 ## Prosedur (urutan terbukti 03-10)

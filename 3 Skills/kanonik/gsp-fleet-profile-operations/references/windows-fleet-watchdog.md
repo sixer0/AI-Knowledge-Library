@@ -9,7 +9,7 @@ ditemukan 24-08-2026 saat profil EKAS baru tidak muncul di daftar watchdog.
   `exec python .../gsp_gateway_watchdog.py "$@"`). User menuntut: cukup 1 script, dinamis,
   hanya menyentuh profil yang bermasalah, DIAM saat sehat, dan tidak memunculkan jendela /
   mengganggu proses lain.
-- Lokasi ganda yang HARUS sinkron: `C:/Users/TRIAL/workspace/gsp-hermes/scripts/` (kanonik) dan
+- Lokasi ganda yang HARUS sinkron: [`C:/Users/TRIAL/workspace/gsp-hermes/scripts/`](../../../../7%20Tools/scripts-repo-gsp-hermes/) (kanonik) dan
   `C:/Users/TRIAL/AppData/Local/hermes/scripts/` (dipakai cron). `cp` setelah tiap edit.
 - Cron: `GSP Fleet Gateway Watchdog` id `f6ffb5e61aa7`, no_agent=true, script
   `gsp_gateway_watchdog.sh`, schedule `55 1,4,7,10,13,16,19,22 * * *`.

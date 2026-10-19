@@ -204,17 +204,17 @@ kontrak berat mati di `RUN_TIMEOUT_MS` 1800s (kejadian nyata 29-08). Pola benar:
 6. Seed verifier/countersigner WAJIB di-append ke SEED-LOG misi sebagai bagian
    shortcheck (bukan hanya tercetak di laporan) — auditor merekonstruksi rantai
    seed dari SATU berkas. (Aturan fleet, adopsi O-6 preseden IPDR-V2 13-09.)
-Referensi: `$LOCALAPPDATA/hermes/skills/gsp/gsp-orchestration-execution/references/deterministic-verification.md`.
+Referensi: [`$LOCALAPPDATA/hermes/skills/gsp/gsp-orchestration-execution/references/deterministic-verification.md`](../../registry-fleet/gsp-orchestration-execution/references/deterministic-verification.md).
 
 ## Verifikasi artefak dokumen (VERIF-GATE 04-09)
 
 Saat objek verifikasi adalah spreadsheet `.xlsx` atau dokumen Word `.docx` yang memuat
 tabel, angka turunan, atau daftar URL, WAJIB menjalankan gerbang deterministik
-`scripts/doc_gate_check.py` pada skill ini sebelum mengklaim apa pun tentang keutuhan
+[`scripts/doc_gate_check.py`](scripts/doc_gate_check.py) pada skill ini sebelum mengklaim apa pun tentang keutuhan
 artefak; vonis mata atas kelas cacat F1 (data tabel), F2 (hyperlink/rel), dan F3 (URL
 nyasar) tidak diterima tanpa keluaran skrip. Prosedur lengkapnya (kapan wajib, lima
 langkah, cara panggil, semantik vonis D-TA-04, exit code, pitfall) ada di
-`references/document-artifact-verification.md`; baca berkas itu, jangan menebak dari
+[`references/document-artifact-verification.md`](references/document-artifact-verification.md); baca berkas itu, jangan menebak dari
 ikhtisar singkat ini. Aturan turunannya: SALAH-TARGET F3 lebih dari nol atau temuan F1
 apa pun memblokir rilis; MATI/KOSONG bukan kegagalan tetapi wajib masuk register
 catatan per SPK-002; exit 3 NEEDS_REVIEW menunggu keputusan manusia, bukan lulus.

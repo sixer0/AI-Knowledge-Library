@@ -1,5 +1,5 @@
 # MASTER_DESIGN pada kanvas visual (poster / infografik / diagram statis)
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../../gsp-design-system-grill/references/master-design/)
 Generator: SM-1 t_de708ae3 2026-09-01.
 
 ## Aturan kanvas (MR2/MR3/MR5/MR6)

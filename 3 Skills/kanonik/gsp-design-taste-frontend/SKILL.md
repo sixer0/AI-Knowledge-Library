@@ -23,8 +23,8 @@ metadata:
 
 <!-- GSP-MASTER-DESIGN v1.1.0 -->
 ## MASTER_DESIGN Integration (v1.2.0 - catatan pembatas)
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
-Saat preset GSP aktif: tiga dial dibatasi rentang per preset (tabel di `references/master-design/batas-dial.md`); doktrin "struktur sebelum gaya" (A10) MENANG atas eksperimen/aesthetic risk; negatives-list MR6 menjadi auto-lint; test "AI slop" diperluas hingga pelanggaran seragam preset (aksen >10%, status tanpa label, HEX di luar token).
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../registry-fleet/gsp-design-system-grill/references/master-design/)
+Saat preset GSP aktif: tiga dial dibatasi rentang per preset (tabel di [`references/master-design/batas-dial.md`](references/master-design/batas-dial.md)); doktrin "struktur sebelum gaya" (A10) MENANG atas eksperimen/aesthetic risk; negatives-list MR6 menjadi auto-lint; test "AI slop" diperluas hingga pelanggaran seragam preset (aksen >10%, status tanpa label, HEX di luar token).
 Di luar pekerjaan berpreset GSP, skill ini berjalan seperti biasa tanpa batasan ini.
 Larangan: jangan salin HEX/font ke file ini; nilai hanya via pointer paket.
 Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - section pembatas + referensi batas dial (bagian penyerapan langkah 10, D14).
@@ -41,7 +41,7 @@ Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - section pembatas + referensi bata
 ## Koridor Dokumen GSP
 
 Berlaku atas **artefak tulis** skill ini (README, komentar/docstring, changelog, laporan review, spesifikasi API); kaidah pemrograman tidak diubah.
-Kontrak keluaran seragam: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
+Kontrak keluaran seragam: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
 L.3 heading bernomor + berkas `snake_case` (dokumen DATUM TERBIT/SERAH ikut DT-12), L.4 angka wajib `[R-n, sumber, hal]`, L.5 bahasa mengikuti user, L.6 checklist pra-serah (Module F.1) sebelum menyerahkan.
 Konflik FORMAT → Module L menang; konflik GAYA presisi → Module H/K tetap menang.
 ## Triggers

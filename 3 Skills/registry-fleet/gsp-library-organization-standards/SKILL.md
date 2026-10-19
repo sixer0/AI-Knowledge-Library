@@ -15,7 +15,7 @@ metadata:
 
 Standar hidup organisasi Information Library GSP: bagaimana workspace/vault/wiki **disusun, dinamai,
 dimetadatai, dan dirawat** agar IL dapat ditelusuri manusia dan workspace tidak berserakan.
-Dokumen kanonik (baca saat butuh detail penuh): `docs/standards/01_ORGANIZATION-STANDARD.md`,
+Dokumen kanonik (baca saat butuh detail penuh): [`docs/standards/01_ORGANIZATION-STANDARD.md`](../../../1%20Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md),
 `02_METADATA-STANDARD.md`, `03_LIBRARIAN-DAILY-PROCEDURE.md`, `04_DAILY-TASK-PROMPT.md`.
 
 ## Dua janji yang dijaga
@@ -42,7 +42,7 @@ VAULT  <ws>/vault/<perkara>/<YYYY-MM-DD>_<slug>.md → staging/usulan
 RAW    <ws> = C:/Users/TRIAL/workspace/gsp-hermes/workspace
 ```
 
-Zona **PROTEKSI** (tidak pernah disentuh run harian): `ekas/`, `AGENTS.md`, `MEMORY.md`, isi `memory/`,
+Zona **PROTEKSI** (tidak pernah disentuh run harian): [`ekas/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/), `AGENTS.md`, `MEMORY.md`, isi `memory/`,
 semantik `vault/`, file wiki langsung.
 
 ## Struktur docs/

@@ -53,9 +53,9 @@ Approval Inbox, dan approval-ref yang sama dipakai untuk semua objek.
 | Komponen | Lokasi |
 |---|---|
 | Vault root | `~/workspace/gsp-hermes/workspace/vault` (default SHARED_WORKSPACE) |
-| Wiki (terbit) | `$HERMES_WIKI` atau `~/AppData/Local/hermes/wiki` (Windows) / `~/.hermes/wiki` (macOS/Linux) |
-| Helper vault | profil gsp-librarian: `skills/gsp/gsp-library-workflow/scripts/vault_promote.py`, `skills/gsp/gsp-library-data-standards/scripts/vault_propose.py` |
-| Kolektor bulk | `scripts/bulk_approval_collect.py` (skill ini) |
+| Wiki (terbit) | `$HERMES_WIKI` atau `~/AppData/Local/hermes/wiki` (Windows) / [`~/.hermes/wiki`](../../../4%20Knowledge%20Bank/wiki-information-library/) (macOS/Linux) |
+| Helper vault | profil gsp-librarian: [`skills/gsp/gsp-library-workflow/scripts/vault_promote.py`](../../registry-fleet/gsp-library-workflow/scripts/vault_promote.py), [`skills/gsp/gsp-library-data-standards/scripts/vault_propose.py`](../../registry-fleet/gsp-library-data-standards/scripts/vault_propose.py) |
+| Kolektor bulk | [`scripts/bulk_approval_collect.py`](scripts/bulk_approval_collect.py) (skill ini) |
 | API Approval Inbox | HQ: `POST /api/brahma/dispatch` (sideEffecting) + `PATCH /api/brahma/requests/:id` |
 | Bridge mirror | `hermes-bridge/bridge.mjs` `mirrorWiki()` → HermesMemory → IL scope=wiki (interval `BRIDGE_MIRROR_MS`, default 30s) |
 
@@ -122,7 +122,7 @@ Lalu verifikasi (jangan klaim sebelum terbukti):
   audit trail rapi; jangan menciptakan approval-ref baru per objek.
 - **Hanya librarian yang promote** — orkestrator TIDAK menjalankan vault_promote
   sendiri; ia mengirim request (Fase 2/4) ke profil gsp-librarian.
-- **Exclude perkara non-batch** — scan bulk harus mengeluarkan `ekas/`, `fleet-test`,
+- **Exclude perkara non-batch** — scan bulk harus mengeluarkan [`ekas/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/), `fleet-test`,
   dan objek yang sudah `dipromosikan` agar tidak di-promote ganda.
 - **Bridge mungkin unreachable dari profil** — kalau librarian tidak bisa cek IL
   API dari env-nya, verifikasi mirror dilakukan oleh orkestrator dari env sendiri.

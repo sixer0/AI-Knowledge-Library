@@ -246,7 +246,7 @@ Verify with a fresh query: the row must show `failed`, and no other rows should 
 
 
 - **Check child process command lines, not just parent PIDs.** A dispatch may spawn multiple `hermes -p <profile> -z ...` layers; kill the actual worker tree, not just the outermost wrapper.
-- **Kartu ber-status `review` yang crash < 65 detik tanpa tool call dengan log `Unknown skill(s): ...`** = kelas review-claim-skill-crash (preseden S15 GAYA-AHLI 05-10): load `references/review-claim-skill-crash.md`. Re-run buta dipastikan mati identik - putuskan dari artefak beku dan/atau aktivasikan skill via jalur manifest.
+- **Kartu ber-status `review` yang crash < 65 detik tanpa tool call dengan log `Unknown skill(s): ...`** = kelas review-claim-skill-crash (preseden S15 GAYA-AHLI 05-10): load [`references/review-claim-skill-crash.md`](references/review-claim-skill-crash.md). Re-run buta dipastikan mati identik - putuskan dari artefak beku dan/atau aktivasikan skill via jalur manifest.
 
 
 
@@ -258,7 +258,7 @@ Verify with a fresh query: the row must show `failed`, and no other rows should 
 
 
 
-- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load `references/windows-hq-bridge-ops.md`.
+- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load [`references/windows-hq-bridge-ops.md`](references/windows-hq-bridge-ops.md).
 
 
 
@@ -292,5 +292,5 @@ Verify with a fresh query: the row must show `failed`, and no other rows should 
 
 ## References
 
-- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load `references/windows-hq-bridge-ops.md`.
+- Windows HQ/Bridge/Cron ops recipes (dispatch via DB, force-done gate, drift_skip cron, snapshot re-sync): load [`references/windows-hq-bridge-ops.md`](references/windows-hq-bridge-ops.md).
 

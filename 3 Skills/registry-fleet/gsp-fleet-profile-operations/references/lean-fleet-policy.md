@@ -27,7 +27,7 @@ system-control countersign (agree).
   fleet registry AND profile-local copies): reproducible BUG → manager weighs →
   approve → gsp-skill-creator fixes → sync copies. CHANGE REQUEST → judge
   ecosystem-wide relevance before approve/reject.
-- Fleet registry `C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/` = single
+- Fleet registry [`C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/`](../../) = single
   source for on-demand skills (120 dirs / 127 SKILL.md after promoting 70
   orphans via `scripts/promote_orphan_skills.py`). Canonical curation tree:
   `workspace/gsp-hermes/skills/`. After patching any fleet skill, SYNC the

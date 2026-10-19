@@ -49,7 +49,7 @@ proposa atau mem-promote ke wiki — kamu hanya menilai.
      yang dirujuk proposa — apakah klaimnya BENAR-BENAR ada di sana? Kutipan/
      pabrikasi/halusinasi → **`ditolak`** dengan bukti ketidakcocokan. Untuk klaim
      penting (angka strategis, keputusan), telusuri lebih dalam sampai yakin.
-   - **c. Dedup**: cek wiki (`~/.hermes/wiki`) & proposa lain — duplikat/konflik?
+   - **c. Dedup**: cek wiki ([`~/.hermes/wiki`](../../../4%20Knowledge%20Bank/wiki-information-library/)) & proposa lain — duplikat/konflik?
      Duplikat → `perlu_revisi` dengan rujukan kanonik.
    - **d. Metadata**: frontmatter valid (title == H1 pertama, `type` di taksonomi,
      `status: usulan`, `created` ISO, `writer` = profil penulis, `domain` sesuai

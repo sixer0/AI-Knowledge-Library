@@ -62,7 +62,7 @@ Praktik Indonesia (SKB IAI/PUPR) sejajar dengan RIBA Plan of Work 2020 (8 stage 
 - **Aktivitas:** susun daftar ruang (fungsi, unit, kapasitas, luasan netto, kebutuhan khusus),
   hitung luasan bruto (netto × faktor sirkulasi/dinding/servis 1.25–1.45 sesuai tipe), cek
   terhadap KLB dan KDB.
-- **Script:** `scripts/space_program.py` (membangun program dari CSV, hitung bruto, cek KDB/KLB).
+- **Script:** [`scripts/space_program.py`](scripts/space_program.py) (membangun program dari CSV, hitung bruto, cek KDB/KLB).
 - **Output:** `program_ruang.csv/.md` + ringkasan luasan.
 - **Gate:** luasan kumulatif ≤ KLB × luas lahan; KDB terpenuhi; parkir & servis tercakup.
 

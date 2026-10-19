@@ -19,8 +19,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -59,7 +59,7 @@ and any engineering/defence/tech proposal.
    ```
    Total >> 0 dan sedikit halaman kosong → ekstrak teks, bukan OCR vision.
    Detail lengkap: skill `gsp-document-vision-ocr` →
-   `skills/gsp/gsp-document-vision-ocr/references/pymupdf-text-layer-preflight.md`.
+   [`skills/gsp/gsp-document-vision-ocr/references/pymupdf-text-layer-preflight.md`](../gsp-document-vision-ocr/references/pymupdf-text-layer-preflight.md).
 2. Ekstrak teks ke Markdown dengan penanda halaman untuk sitasi:
    `<!-- ===== PAGE N ===== -->` per halaman.
 3. **Baca baris per baris TANPA terlewat** (user eksplisit minta). Dokumen 150
@@ -132,7 +132,7 @@ and any engineering/defence/tech proposal.
 ```
 
 ## Referensi
-- `references/adint-deepdive-2026-08.md` — studi kasus pendalaman proposal
+- [`references/adint-deepdive-2026-08.md`](references/adint-deepdive-2026-08.md) — studi kasus pendalaman proposal
   ADINT 150 hal (dekomposisi, orkestrasi, temuan koreksi, pitfalls nyata).
 - Ekstraksi teks: skill `gsp-document-vision-ocr` (skills/gsp/gsp-document-vision-ocr/references/pymupdf-text-layer-preflight.md).
 - Orkestrasi fleet: skill `gsp-orchestrator-worker` (workflow default Brahma).

@@ -23,8 +23,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -51,7 +51,7 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 - Fleet GSP terinstall: `~/workspace/gsp-hermes/` (manifest.json, scripts/, skills/, workspace/).
 - Profil di `~/.hermes/profiles/gsp-*/` (SOUL.md, skills/).
 - Dashboard HQ ROSTER: `~/gsp-agent-headquarter/src/app/api/agents/route.ts`.
-- Python3 + python-docx (`python3 -c "import docx"`). Pandoc/libreoffice biasanya TIDAK ada — pakai converter bawaan skill ini (`scripts/md2docx.py`).
+- Python3 + python-docx (`python3 -c "import docx"`). Pandoc/libreoffice biasanya TIDAK ada — pakai converter bawaan skill ini ([`scripts/md2docx.py`](scripts/md2docx.py)).
 
 ## Workflow (data-driven, reproducible)
 
@@ -85,7 +85,7 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 
 ## Pitfalls
 
-- **Pandoc/libreoffice sering tidak ada** → jangan bergantung; `scripts/md2docx.py` (python-docx) sudah menangani
+- **Pandoc/libreoffice sering tidak ada** → jangan bergantung; [`scripts/md2docx.py`](scripts/md2docx.py) (python-docx) sudah menangani
   heading #..####, tabel pipe, bullet/numbered, bold/italic/code inline, blockquote, code block, dan cover terpisah.
 - **ROSTER statis di `route.ts`** — parse dengan regex blok entri `{ id, profile, name, emoji, role, model, level, group }`.
   `profile: "default"` = Brahma (level 1, grup core); level 2 = advisor (request-translator, task-architect); level 3 = spesialis.
@@ -101,8 +101,8 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 
 ## Support Files
 
-- `scripts/extract_fleet_data.py` — ekstraksi data fleet (manifest + SOUL + ROSTER + skill frontmatter) → JSON + ringkasan. Jalankan dulu; hasil dipakai generator.
-- `scripts/md2docx.py` — converter Markdown→DOCX profesional (python-docx), cover page + tabel ber-shading + heading bertingkat.
+- [`scripts/extract_fleet_data.py`](scripts/extract_fleet_data.py) — ekstraksi data fleet (manifest + SOUL + ROSTER + skill frontmatter) → JSON + ringkasan. Jalankan dulu; hasil dipakai generator.
+- [`scripts/md2docx.py`](scripts/md2docx.py) — converter Markdown→DOCX profesional (python-docx), cover page + tabel ber-shading + heading bertingkat.
 
 ## Verification
 

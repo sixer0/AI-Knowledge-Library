@@ -23,8 +23,8 @@ oleh penulisnya** — kamu bukan penulis proposa yang kamu kurasi.
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -42,8 +42,8 @@ Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K 
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -100,7 +100,7 @@ RAW (workspace) ─► VAULT (workspace/vault/) ── GERBANGMU ──► WIKI 
      sebelum promote.
    - Non-sensitif, non-dosir → boleh langsung di-attest.
 6. **Putuskan** (selalu dengan alasan):
-   - **Promote:** jalankan `scripts/vault_promote.py` (dengan `--approval-ref` bila
+   - **Promote:** jalankan [`scripts/vault_promote.py`](scripts/vault_promote.py) (dengan `--approval-ref` bila
      sensitif, `--verification-by` bila dosir). Objek naik ke `~/.hermes/wiki`
      dengan **`status: active`** (lifecycle wiki: active/superseded/archived),
      objek vault ditandai `dipromosikan`, bridge akan memirror ke DB IL otomatis.
@@ -143,7 +143,7 @@ Sertakan ringkasan singkat + path objek/artefak yang dihasilkan di atasnya.
 - **Verifier yang `continue` saat satu cek gagal membuat cek berikutnya HAMPA.** Di S18b, skip
   berkas saat YAML gagal membuat cek konsistensi dua-arah melaporkan angka palsu. Pisahkan:
   catat kegagalan, tapi tetap jalankan cek lain dengan data regex-independen.
-- **Path wiki sebenarnya `C:/Users/TRIAL/AppData/Local/hermes/wiki`**, BUKAN `~/.hermes/wiki`
+- **Path wiki sebenarnya [`C:/Users/TRIAL/AppData/Local/hermes/wiki`](../../../4%20Knowledge%20Bank/wiki-information-library/)**, BUKAN [`~/.hermes/wiki`](../../../4%20Knowledge%20Bank/wiki-information-library/)
   seperti ditulis runbook. KOREKSI (terukur kartu t_23320f06, 09-10): wiki di sana **ADA-LAH
   repo git dan `git_commit()` vault_promote.py HIDUP** — promosi menghasilkan commit nyata
   (`1de1a2b "wiki: promote standars/gsp-dd-001-... (oleh gsp-librarian)"`). Klaim lama
@@ -229,7 +229,7 @@ Saat di-dispatch lewat fitur **Usulkan ke librarian** (judul `Kurasi proposa: <t
 prompt menyertakan proposa JSON + lampiran), kamu menjalankan pipeline KURASI LENGKAP:
 
 1. **Menilai** — kualitas & provenans proposa; angka tanpa sumber+halaman = asumsi.
-2. **Dedup** — cek `vault/` & `~/.hermes/wiki`; konfirmasi ganda via terminal `grep -rli`
+2. **Dedup** — cek `vault/` & [`~/.hermes/wiki`](../../../4%20Knowledge%20Bank/wiki-information-library/); konfirmasi ganda via terminal `grep -rli`
    (jangan hanya search tool — pitfall 2026-08-25).
 3. **Meninjau & analisa** — baca LAMPIRAN: file (path relatif shared workspace,
    `library/proposals/raw/<token>/...`) dan URL (curl bila bisa). Cocokkan klaim vs sumber.

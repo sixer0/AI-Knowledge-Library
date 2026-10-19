@@ -89,7 +89,7 @@ Keduanya saling terhubung via RBAC: WebUI memanggil HQ `/api/brahma/rbac/*`
 
 dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
 
-`references/architecture-and-endpoints.md`.
+[`references/architecture-and-endpoints.md`](references/architecture-and-endpoints.md).
 
 
 
@@ -177,7 +177,7 @@ dengan header `x-rbac-token`. Detail arsitektur & kontrak endpoint ada di
 
      dulu, atau curl dapat HTTP 000.
 
-4. **Verifikasi UI Next.js tanpa browser**: lihat `scripts/verify_nextjs_bundle.py`.
+4. **Verifikasi UI Next.js tanpa browser**: lihat [`scripts/verify_nextjs_bundle.py`](scripts/verify_nextjs_bundle.py).
 
 
 
@@ -331,11 +331,11 @@ Verifikasi akhir: CreationDate proses > mtime build DAN seluruh chunk refs = 200
 
 
 
-- `references/architecture-and-endpoints.md` — peta arsitektur, kontrak endpoint
+- [`references/architecture-and-endpoints.md`](references/architecture-and-endpoints.md) — peta arsitektur, kontrak endpoint
 
   RBAC/user-access/IL, prosedur restart HQ lengkap, log fix 24-08-2026.
 
-- `scripts/verify_nextjs_bundle.py` — verifikasi perubahan UI Next.js dev
+- [`scripts/verify_nextjs_bundle.py`](scripts/verify_nextjs_bundle.py) — verifikasi perubahan UI Next.js dev
 
   dengan grep string baru di chunk terkompilasi (saat browser tak tersedia).
 

@@ -1,6 +1,6 @@
 # Supervisor: two-era count reconciliation, archive manifest re-hash, human-gate check, mtime artifact discovery (2026-10-09, BUKUV3-ING-1009 W5 verdict)
 
-Companion to `supervisor-research-lane-pin-rehash-live-counterprobe-crosslane-binding-and-full-population-index-gates-2026-10-09.md`. Five recipes, all measurement, no narrative.
+Companion to [`supervisor-research-lane-pin-rehash-live-counterprobe-crosslane-binding-and-full-population-index-gates-2026-10-09.md`](supervisor-research-lane-pin-rehash-live-counterprobe-crosslane-binding-and-full-population-index-gates-2026-10-09.md). Five recipes, all measurement, no narrative.
 
 ## 1. Count-mismatch verdict = decompose to causes with NO residual, each cause evidenced by the source itself
 

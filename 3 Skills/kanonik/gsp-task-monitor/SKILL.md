@@ -19,7 +19,7 @@ metadata:
 ## Prinsip (PUTUSAN USER D-11, misi OPT-WF-0907; amandemen prinsip 2 misi TMNUDGE-0909)
 1. **Skill ini = otak; cron = tangan.** Perilaku siklus berubah cukup dengan meng-update
    skill ini; JANGAN memindahkan logika ke skrip daemon baru (skrip susah dirawat - alasan
-   eksplisit user, 08-09). Skrip di `scripts/` hanya alat query read-only, bukan pengambil
+   eksplisit user, 08-09). Skrip di [`scripts/`](scripts/) hanya alat query read-only, bukan pengambil
    keputusan.
 2. **Read-only terhadap ENGINE (layanan, config, jadwal cron, SOUL/profil, status kartu orang lain). Terhadap PAPAN monitor boleh menulis tepat tiga hal: komentar, kartu `[PING][tm]`, dan penutupan/rekonsiliasi bookkeeping HQ yang tersinkron (B1 AUTO-SYNC, D force-done).** Tidak restart layanan, tidak ubah config, tidak ubah
    schedule cron, tidak menyentuh SOUL/profil. Monitor TIDAK membuat entri approval baru
@@ -52,7 +52,7 @@ metadata:
   mengecualikan keduanya (penanda author+badan, bukan nama profil saja).
 - Profil valid = folder di `C:/Users/TRIAL/AppData/Local/hermes/profiles/` PLUS nama
   `default` (profil default ber-home di root HERMES_HOME, bukan subfolder - jangan vonis orphan).
-- Roster controller (kanonis): `docs/2026-08-31-enforcement-fleet/controller-roster.json`
+- Roster controller (kanonis): [`docs/2026-08-31-enforcement-fleet/controller-roster.json`](../../../2%20Roles/controller-roster.json)
   di workspace bersama (13 nama, updated 03-09) - dasar resolusi pemilik gerbang.
 - Notepad cron (state antar-siklus): WAJIB prefix `HERMES_HOME="C:/Users/TRIAL/AppData/Local/hermes"`
   karena shell agen bisa memakai HERMES_HOME profil lain:
@@ -66,7 +66,7 @@ metadata:
 0. **Baca state**: `notepad list` + `get gate_seen` + `get inbox_open` + `get ping_sent` +
    `get ping_mode`. Tanpa langkah ini kamu akan mengulang laporan siklus lalu (cacat yang
    diperbaiki D-11). `ping_mode` kosong = `dry` (gagal aman).
-1. **Sweep 7 kelas** via `scripts/monitor_cycle.py` (lihat Query siap-pakai). Deterministik,
+1. **Sweep 7 kelas** via [`scripts/monitor_cycle.py`](scripts/monitor_cycle.py) (lihat Query siap-pakai). Deterministik,
    read-only, cetak blok `A..E` + blok `F_*` + `F_AGGREGATE` + `TOTAL TEMUAN`.
 2. **Dedup vs state**: temuan yang id-nya sudah ada di `gate_seen` dengan aksi identik =
    SUDAH dilaporkan; jangan laporkan ulang sebagai baru, cukup eskalasi bila umur melewati

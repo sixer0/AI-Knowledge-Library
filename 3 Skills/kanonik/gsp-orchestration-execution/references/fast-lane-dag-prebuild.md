@@ -68,7 +68,7 @@ tercapai (lihat bagian "Aturan jendela uji"). Sumber normatif norma gelombang: s
 
 ## Rekonsiliasi dengan rujukan lama
 
-- `wave-dispatch-and-resume.md` dan `wave-registration-large-fanout.md` (02-09) memakai
+- [`wave-dispatch-and-resume.md`](wave-dispatch-and-resume.md) dan [`wave-registration-large-fanout.md`](wave-registration-large-fanout.md) (02-09) memakai
   multi-parent edges antar-wave sebagai pengatur konkurensi. Di bawah N1 pola itu dibaca
   ulang: edge antar-wave sah bila hilir benar-benar mengonsumsi output hulu; bila tidak,
   ganti dengan prioritas + kap dispatcher (pitfall edge semu). Registrasi massal sekaligus

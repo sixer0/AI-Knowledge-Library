@@ -22,7 +22,7 @@ metadata:
 - Menyusun **ventilasi ruang baterai**, kriteria penggantian baterai, interval uji.
 - Menyusun BA uji kapasitas baterai & komisioning genset.
 
-Kanonik: `ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/RANTAI-JAMINAN.md` + resume Emadi/Crompton/
+Kanonik: [`ekas/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/RANTAI-JAMINAN.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/RANTAI-JAMINAN.md) + resume Emadi/Crompton/
 Mahon di folder yang sama · ASUMSI-BAKU §D · BA §5–6.
 
 ## Alur wajib (urut — jangan dibalik)

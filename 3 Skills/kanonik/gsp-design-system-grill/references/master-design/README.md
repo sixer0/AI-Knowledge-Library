@@ -5,14 +5,14 @@ Generator paket: SM-1 t_de708ae3, 2026-09-01. Sumber hulu: `docs/2026-09-01-mast
 ## Isi
 | berkas | peran |
 |---|---|
-| `gsp-ds-sets.json` | mirror byte-identik `study/DS-batch-ALL.json` - 13 set mesin-baca (palette role->hex, usage_ratio, mood, components, rules, gaps, legenda sumber palet) |
+| [`gsp-ds-sets.json`](gsp-ds-sets.json) | mirror byte-identik `study/DS-batch-ALL.json` - 13 set mesin-baca (palette role->hex, usage_ratio, mood, components, rules, gaps, legenda sumber palet) |
 | `gsp-ds-set-<slug>.md` × 13 | kartu token per preset (palet + rujukan halaman, tipografi verbatim, grid, komponen, larangan, GAP jujur) |
-| `GSP-DS-KELUARGA.md` | kondensasi konstanta A1–A11, pola bidang B1–B4, meta-rules MR1–MR6 siap-kode |
-| `gsp-font-manifest.md` | 62 keluarga font × 9 kategori + path zip sumber (NOL bundling biner - D-TA-2) |
+| [`GSP-DS-KELUARGA.md`](GSP-DS-KELUARGA.md) | kondensasi konstanta A1–A11, pola bidang B1–B4, meta-rules MR1–MR6 siap-kode |
+| [`gsp-font-manifest.md`](gsp-font-manifest.md) | 62 keluarga font × 9 kategori + path zip sumber (NOL bundling biner - D-TA-2) |
 
 ## Cara pakai (kanal apa pun: asset / slide / master prompt / HTML)
 1. Pilih preset: default **GENERAL**; 12 preset bernama: BNN, BNPT, BUSINESS, CYBER, MILITARY, POLRI, TNI-AD, TNI-AL, TNI-AU, TEKNIK, VISUAL, KEMHAN (slug = nama file kartu).
-2. Baca nilai HANYA dari `gsp-ds-sets.json` / kartu set - jangan mengarang, jangan menyalin HEX ke berkas skill lain (pointer saja).
+2. Baca nilai HANYA dari [`gsp-ds-sets.json`](gsp-ds-sets.json) / kartu set - jangan mengarang, jangan menyalin HEX ke berkas skill lain (pointer saja).
 3. Terapkan meta-rules MR1–MR6; konflik dua standar mengikuti hierarki D-TA-4 (kanal dokumen -> GSP-SDT menang; kanal visual -> DS menang; HTML -> blok identitas dulu, lalu palet DS).
 4. Nilai berlabel `terukur-piksel` = hasil ukur piksel (bukan tercetak dokumen); `estimasi-vision` = perkiraan, BUKAN spesifikasi; `TIDAK_TERBACA` tetap kosong - dilarang mengisi dengan karangan.
 

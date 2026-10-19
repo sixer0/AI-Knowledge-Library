@@ -63,7 +63,7 @@ kewajiban memakai tabel + jejak, bukan nilai spesifiknya.
 Estimasi E dihitung dalam DUA satuan, iterasi DAN menit waktu run, lalu bentuk
 dipilih dari yang lebih mengikat: E_eff = max(E_iter, E_menit). Untuk kartu riset
 pencarian web (kumpul baris bersumber), pakai konstanta laju nyata di
-`references/lad-calibration-2026-09.md` (1 baris tervalidasi = 2-4 query;
+[`references/lad-calibration-2026-09.md`](references/lad-calibration-2026-09.md) (1 baris tervalidasi = 2-4 query;
 E = baris x 3 query x 1,5 iterasi + 20 overhead), bukan asumsi 1 query/baris.
 Bukti EXPO26 (02-09, 19 run): kendala pengikat kartu pengumpul adalah waktu
 bridge 30 menit, bukan anggaran iterasi (empat partial-handoff karena waktu,

@@ -8,7 +8,7 @@ Mac, so fleet changes are applied per-profile, directly.
 ## Target state
 - ALL 33 profiles: `SEARXNG_URL=http://localhost:8080` in `.env`,
   `web.search_backend=searxng` in `config.yaml`, the `hermes-web-search-stack`
-  skill in `skills/`, and the skill listed in SOUL.md "Skill — ON DEMAND".
+  skill in [`skills/`](../../../kanonik/), and the skill listed in SOUL.md "Skill — ON DEMAND".
 - CRAWL-ONLY (5 agents): `gsp-vendor-crawler-specialist`,
   `gsp-crawler-orchestrator`, `gsp-data-collector`,
   `gsp-social-media-crawler`, `gsp-data-analyst` — additionally
@@ -21,7 +21,7 @@ Mac, so fleet changes are applied per-profile, directly.
 
 ## Audit (read-only)
 Scan each profile: `config.yaml` `web:` section (search_backend /
-extract_backend), `.env` (SEARXNG_URL / FIRECRAWL_API_URL), `skills/` dirs
+extract_backend), `.env` (SEARXNG_URL / FIRECRAWL_API_URL), [`skills/`](../../../kanonik/) dirs
 (hermes-web-search-stack, gsp-searxng, gsp-firecrawl), SOUL.md (mentions of
 searxng/firecrawl/crawl). All 33 gsp-* profiles have the web toolset enabled.
 
@@ -31,7 +31,7 @@ searxng/firecrawl/crawl). All 33 gsp-* profiles have the web toolset enabled.
 2. Config: `hermes -p <profile> config set web.search_backend searxng` —
    the `-p` global flag targets a profile's own config.yaml/.env.
 3. Skill: `shutil.copytree` from
-   `C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/hermes-web-search-stack`
+   [`C:/Users/TRIAL/AppData/Local/hermes/skills/gsp/hermes-web-search-stack`](../../hermes-web-search-stack/)
    to `<profile>/skills/hermes-web-search-stack` (skip if present).
 4. SOUL.md ON DEMAND patch: replace `` `gsp-searxng` `` with
    `` `gsp-searxng`, `hermes-web-search-stack` `` (first occurrence only).
@@ -40,7 +40,7 @@ searxng/firecrawl/crawl). All 33 gsp-* profiles have the web toolset enabled.
    the profile identity string; abort otherwise.
 
 ## Idempotent tool
-`C:/Users/TRIAL/workspace/gsp-hermes/scripts/fix_fleet_webstack.py` does all
+[`C:/Users/TRIAL/workspace/gsp-hermes/scripts/fix_fleet_webstack.py`](../../../../7%20Tools/scripts-repo-gsp-hermes/fix_fleet_webstack.py) does all
 of the above + a verification table (env/search/extract/skill/soul per
 profile). Rerun-safe (dedup + presence checks).
 

@@ -1,7 +1,7 @@
 # Rantai remediasi multi-ronde pasca-VERIF RBAC (kelas misi registrasi knowledge EKAS)
 
 Preseden: CVLK-0929 (29-30/09, domain CIVIL/CONSTRUCTION/BUILDING/GROUNDING/DRAWING-CAD),
-menambah `remediation-chain-after-verifier-fail.md` (RAFIF) dan `knowledge-register-multi-domain.md`.
+menambah [`remediation-chain-after-verifier-fail.md`](remediation-chain-after-verifier-fail.md) (RAFIF) dan [`knowledge-register-multi-domain.md`](knowledge-register-multi-domain.md).
 Berlaku untuk kelas misi: studi rak -> objek vault -> custodian -> promote -> rute memori ->
 VERIF undian 3/8 -> laporan home channel (VSSKB/NWSKILL/SDCY/CVLK).
 

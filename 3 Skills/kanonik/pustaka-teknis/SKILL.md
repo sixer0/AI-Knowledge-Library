@@ -43,12 +43,12 @@ C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/   ← PDF asli (200 berkas PDF,
 ```
 
 Path cepat:
-- `ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md` — indeks pertanyaan → rumus → buku → halaman
+- [`ekas/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md) — indeks pertanyaan → rumus → buku → halaman
 - `ekas/05_DOMAIN-KNOWLEDGE/<DOMAIN>/RANTAI-JAMINAN.md` — rantai penuh ①→⑤ per domain
 - `ekas/04_KNOWLEDGE-CARDS/<DOMAIN>/REF-*.md` — batas pemakaian tiap rujukan (baca SEBELUM mengutip)
-- `ekas/02_REGISTERS/GAP-REGISTER.md` — yang tidak ada di rak
-- `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md` — asumsi yang wajib dinyatakan
-- `ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md` — kerangka BA 8 jenis uji
+- [`ekas/02_REGISTERS/GAP-REGISTER.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.md) — yang tidak ada di rak
+- [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md) — asumsi yang wajib dinyatakan
+- [`ekas/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md) — kerangka BA 8 jenis uji
 
 ## Daftar domain korpus (inventaris hidup — regenerasi 11-10-2026)
 
@@ -56,7 +56,7 @@ Path cepat:
 > vonis lama 09-10-2026 mencatat 19 berkas rantai dengan 14 rantai lengkap; regenerasi ini
 > mengukurnya ulang dari listing disk saat eksekusi, bukan menambal angka hari itu.
 
-`ekas/05_DOMAIN-KNOWLEDGE/` memuat **25 folder domain**; **25 di antaranya sudah punya
+[`ekas/05_DOMAIN-KNOWLEDGE/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/) memuat **25 folder domain**; **25 di antaranya sudah punya
 `RANTAI-JAMINAN.md`** sejak gelombang G2 misi KORPUS-LANJUTAN-1011. Rinciannya menurut
 banner kepala tiap berkas: **9 rantai utuh**, **5 rantai putus di mata ④** (terbit putus
 dengan sengaja), dan **11 rantai parsial terbimbing** (mata ①–③+⑤ tersusun terbimbing R3,
@@ -96,7 +96,7 @@ Bila folder di disk berbeda dari daftar ini, DISK yang menang — laporkan selis
 ## Alur wajib (urut)
 
 1. **Identifikasi besaran** yang dibutuhkan + untuk apa ia dipakai (ambang? metode? produk?).
-2. **Cari di `references/01-indeks-rumus.md`** (indeks cepat). Tidak ketemu → cek `KATALOG-RUMUS.md` penuh.
+2. **Cari di [`references/01-indeks-rumus.md`](references/01-indeks-rumus.md)** (indeks cepat). Tidak ketemu → cek `KATALOG-RUMUS.md` penuh.
 3. **Buka rantai domain** `ekas/05_DOMAIN-KNOWLEDGE/<DOMAIN>/RANTAI-JAMINAN.md` — rantai memberi urutan
    kerja (rujukan → keputusan → hitung → uji → bukti), bukan resume yang berdiri sendiri.
 4. **Baca kartu rujukan** (`04_KNOWLEDGE-CARDS`) untuk batas pemakaian sebelum mengutip.
@@ -145,7 +145,7 @@ diputuskan manusia — bukan dipilih diam-diam.
 
 Dipakai untuk prinsip & metode; **angka batas wajib diperiksa ulang** terhadap edisi terbaru.
 Contoh di rak: Crompton (2000), Emadi (2004), Mahon (2004), Troppens (2009), Nyman & Levitt
-(2010) — kerangka hitung sahih, angka produk harus R4. Selengkapnya `references/03-batas-dan-celah.md`.
+(2010) — kerangka hitung sahih, angka produk harus R4. Selengkapnya [`references/03-batas-dan-celah.md`](references/03-batas-dan-celah.md).
 
 ## Verifikasi sebelum mengklaim selesai
 
@@ -153,4 +153,4 @@ Contoh di rak: Crompton (2000), Emadi (2004), Mahon (2004), Troppens (2009), Nym
 - Ambang uji: R1/R2, atau R3 + kontrak mengadopsinya (sebut pasalnya).
 - Angka produk: ada jejak R4 (lembar data/surat pabrikan) atau tertulis "menunggu data pabrikan".
 - Asumsi: sensitivitas + rencana penggantian ada.
-- `04-daftar-rujukan-lengkap.md` sinkron dengan register (regenerasi: `scripts/bangun_daftar_skill.py`).
+- `04-daftar-rujukan-lengkap.md` sinkron dengan register (regenerasi: [`scripts/bangun_daftar_skill.py`](scripts/bangun_daftar_skill.py)).

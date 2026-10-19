@@ -22,12 +22,12 @@ Campaign performance analysis with engagement metrics, ROI calculations, and pla
 
 ## Table of Contents
 
-- [Analysis Workflow](#analysis-workflow)
-- [Engagement Metrics](#engagement-metrics)
-- [ROI Calculation](#roi-calculation)
-- [Platform Benchmarks](#platform-benchmarks)
-- [Tools](#tools)
-- [Examples](#examples)
+- [Analysis Workflow](SKILL.md#analysis-workflow)
+- [Engagement Metrics](SKILL.md#engagement-metrics)
+- [ROI Calculation](SKILL.md#roi-calculation)
+- [Platform Benchmarks](SKILL.md#platform-benchmarks)
+- [Tools](SKILL.md#tools)
+- [Examples](SKILL.md#examples)
 
 ---
 
@@ -172,7 +172,7 @@ Calculate return on ad spend:
 | LinkedIn | $5.26 | <$3.00 |
 | TikTok | $1.00 | <$0.50 |
 
-See `references/platform-benchmarks.md` for complete benchmark data.
+See [`references/platform-benchmarks.md`](references/platform-benchmarks.md) for complete benchmark data.
 
 ---
 
@@ -207,7 +207,7 @@ Generates full performance analysis with ROI, benchmarks, and recommendations.
 
 ### Sample Input
 
-See `assets/sample_input.json`:
+See [`assets/sample_input.json`](assets/sample_input.json):
 
 ```json
 {
@@ -231,7 +231,7 @@ See `assets/sample_input.json`:
 
 ### Sample Output
 
-See `assets/expected_output.json`:
+See [`assets/expected_output.json`](assets/expected_output.json):
 
 ```json
 {
@@ -270,7 +270,7 @@ The sample campaign shows:
 
 ### Platform Benchmarks
 
-`references/platform-benchmarks.md` contains:
+[`references/platform-benchmarks.md`](references/platform-benchmarks.md) contains:
 
 - Engagement rate benchmarks by platform and industry
 - CTR benchmarks for organic and paid content

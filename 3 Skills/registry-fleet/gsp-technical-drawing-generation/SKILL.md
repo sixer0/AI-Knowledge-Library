@@ -35,7 +35,7 @@ Bukan render AI/ilustrasi: setiap angka pada lembar harus hasil ukur parser.
    beririsan > 25% dari bbox terkecil. QA yang hanya menguji satu axes BUTA terhadap
    tabrakan lintas panel, jadi pengujian wajib level-figure. Ini MENEMUKAN cacat
    nyata yang lolos dari pemeriksaan mata/vision, dan jauh lebih cepat: 13 lembar
-   dipindai dalam satu run. Tempelkan lewat `scripts/qa_figure_level.py`.
+   dipindai dalam satu run. Tempelkan lewat [`scripts/qa_figure_level.py`](scripts/qa_figure_level.py).
    Siklus: run -> baca daftar TEMUAN -> tambal posisi/label -> run ulang sampai
    SEMUA lembar BERSIH. Hapus teks kecil yang redundan (label furnitur yang sudah
    ada di nama ruang) alih-alih menggesernya.
@@ -87,9 +87,9 @@ Semua artefak ditautkan MEDIA:, laporan MD paralel, jejak penutupan di kontrak m
 
 ## Referensi
 
-- `references/systemic-visual-defects.md` - tiga kelas cacat nyata preseden
+- [`references/systemic-visual-defects.md`](references/systemic-visual-defects.md) - tiga kelas cacat nyata preseden
   CAD-RUMAH1020-0920 (kop field-shift, token internal bocor ke muka lembar, tabrakan
   teks lintas-axes) beserta akar, tambal alat, dan urutan gerbang serah.
-- `scripts/qa_figure_level.py` - gerbang QA teks level-figure (OUT-PAGE / OUT-AXES /
+- [`scripts/qa_figure_level.py`](scripts/qa_figure_level.py) - gerbang QA teks level-figure (OUT-PAGE / OUT-AXES /
   OVERLAP >25%) drop-in: panggil `qa_figure(fig)` sebelum `savefig`, target 0 temuan
   di semua lembar; jalankan berkasnya langsung untuk selftest dua arah.

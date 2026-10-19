@@ -1894,7 +1894,7 @@ Or load specific modules (if the agent framework supports partial loading):
 
 Setiap dokumen dibuka dengan blok metadata berisi **minimal** enam key berikut,
 urutan tetap, `snake_case`, satu baris per key. Pada Markdown gunakan YAML
-frontmatter (selaras `docs/standards/02_METADATA-STANDARD.md`); pada DOCX/XLSX
+frontmatter (selaras [`docs/standards/02_METADATA-STANDARD.md`](../../../1%20Workflow/standar-operasi/02_METADATA-STANDARD.md)); pada DOCX/XLSX
 letakkan di tabel identitas halaman judul; pada kode letakkan di blok komentar
 pembuka atau file `README.md` pendamping.
 
@@ -1975,8 +1975,8 @@ Skill penghasil dokumen **tidak menyalin** Module L. Yang dilakukan:
 sisipkan blok koridor bertanda `<!-- GSP-DOC-KORIDOR v1.0 -->` (Tier-1/Tier-2:
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.

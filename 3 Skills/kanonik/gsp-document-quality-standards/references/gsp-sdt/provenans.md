@@ -56,7 +56,7 @@ dokumen serah, PoC penuh disimpan terpisah berklasifikasi lebih tinggi.
 | Medium | Bentuk provenans |
 |---|---|
 | DOCX | label teks + simbol di samping angka / catatan kaki tabel |
-| XLSX | kolom `Provenans` wajib pada kolom nilai (lihat `snippet-xlsx.py`) |
+| XLSX | kolom `Provenans` wajib pada kolom nilai (lihat [`snippet-xlsx.py`](snippet-xlsx.py)) |
 | HTML | atribut `data-provenance="terukur|diturunkan|pemasok|asumsi"` + ikon ■◈◇△ terlihat |
 
 > Penanda D16: middle dot (U+00B7) yang tersisa di berkas ini adalah kutipan verbatim master design (string blok terkendali atau teks halaman terkutip ber-rujukan halaman), bukan prosa; jangan dianggap pelanggaran aturan teks keluaran.

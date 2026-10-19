@@ -26,7 +26,7 @@ Production-ready backend implementation following clean architecture, security b
 ## Koridor Dokumen GSP
 
 Berlaku atas **artefak tulis** skill ini (README, komentar/docstring, changelog, laporan review, spesifikasi API); kaidah pemrograman tidak diubah.
-Kontrak keluaran seragam: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
+Kontrak keluaran seragam: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
 L.3 heading bernomor + berkas `snake_case` (dokumen DATUM TERBIT/SERAH ikut DT-12), L.4 angka wajib `[R-n, sumber, hal]`, L.5 bahasa mengikuti user, L.6 checklist pra-serah (Module F.1) sebelum menyerahkan.
 Konflik FORMAT → Module L menang; konflik GAYA presisi → Module H/K tetap menang.
 ## Technology Selection
@@ -93,7 +93,7 @@ Konflik FORMAT → Module L menang; konflik GAYA presisi → Module H/K tetap me
 - OWASP Top 10: https://owasp.org/www-project-top-ten/
 - OAuth 2.1: https://oauth.net/2.1/
 - OpenTelemetry: https://opentelemetry.io/
-- Detailed references: `references/` directory (backend-technologies.md, backend-api-design.md, backend-security.md, backend-authentication.md, backend-performance.md, backend-architecture.md, backend-testing.md, backend-code-quality.md, backend-devops.md, backend-debugging.md, backend-mindset.md)
+- Detailed references: [`references/`](references/) directory (backend-technologies.md, backend-api-design.md, backend-security.md, backend-authentication.md, backend-performance.md, backend-architecture.md, backend-testing.md, backend-code-quality.md, backend-devops.md, backend-debugging.md, backend-mindset.md)
 
 ---
 
@@ -420,7 +420,7 @@ Key patterns from coder-execution:
 - Structured JSON logging (queryable, not free text)
 - No PII in logs (log reference IDs, not personal data)
 
-This skill (backend-execution) focuses on architecture patterns. See `references/backend-debugging.md` for detailed logging strategies.
+This skill (backend-execution) focuses on architecture patterns. See [`references/backend-debugging.md`](references/backend-debugging.md) for detailed logging strategies.
 
 ### Phase 4: Repository Pattern (Data Access)
 

@@ -6,11 +6,11 @@ Industry benchmarks for engagement rates, CTR, and ROI by platform.
 
 ## Table of Contents
 
-- [Engagement Rate Benchmarks](#engagement-rate-benchmarks)
-- [Click-Through Rate Benchmarks](#click-through-rate-benchmarks)
-- [Cost Benchmarks](#cost-benchmarks)
-- [Content Type Performance](#content-type-performance)
-- [Posting Time Optimization](#posting-time-optimization)
+- [Engagement Rate Benchmarks](platform-benchmarks.md#engagement-rate-benchmarks)
+- [Click-Through Rate Benchmarks](platform-benchmarks.md#click-through-rate-benchmarks)
+- [Cost Benchmarks](platform-benchmarks.md#cost-benchmarks)
+- [Content Type Performance](platform-benchmarks.md#content-type-performance)
+- [Posting Time Optimization](platform-benchmarks.md#posting-time-optimization)
 
 ---
 

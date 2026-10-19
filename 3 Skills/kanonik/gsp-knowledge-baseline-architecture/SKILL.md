@@ -28,7 +28,7 @@ Dokumen baseline yang benar menjawab "BAGAIMANA sistem ini akan dibangun", bukan
 - Badan dokumen memuat MODEL + REGISTER + KEPUTUSAN; angka naskah DIIKAT dari register beku.
 - Akurasi angka saja tidak cukup: arsitektur informasi (susun) diuji sendiri lewat V-SUSUN.
 Artefak misi lama (219 hal, dump 4.700 baris, organisasi per-sumber) adalah anti-pattern nyata:
-akurat tapi susunnya di bawah standar. Diff lengkap: `references/pelajaran-exemplar-revd.md`.
+akurat tapi susunnya di bawah standar. Diff lengkap: [`references/pelajaran-exemplar-revd.md`](references/pelajaran-exemplar-revd.md).
 
 ## Anatomi wajib dokumen (14 bagian, dari exemplar RevD)
 1. HALAMAN MUKA penuh identitas: klasifikasi + nomor salinan (NN dari MM), alamat divisi,
@@ -131,9 +131,9 @@ FAIL salah satu = kembali ke arsitektur (R-02/R-04), bukan menambal gejala.
 ```
 
 ## Template (bentuk minimal, sesuaikan kanal)
-- Lembar kendali: `templates/lembar-kendali.md`
-- Rel bukti (glif DATUM + kolom): `templates/rel-bukti.md`
-- Penutup lembar verifikasi + sidik jari: `templates/penutup-verifikasi.md`
+- Lembar kendali: [`templates/lembar-kendali.md`](templates/lembar-kendali.md)
+- Rel bukti (glif DATUM + kolom): [`templates/rel-bukti.md`](templates/rel-bukti.md)
+- Penutup lembar verifikasi + sidik jari: [`templates/penutup-verifikasi.md`](templates/penutup-verifikasi.md)
 
 ## Urutan kerja (ringkas)
 1. Inventaris sumber -> tetapkan SATU dasar lingkup (R-03) + cek kesegaran (R-10).
@@ -162,7 +162,7 @@ Dokumen ini adalah dokumen resmi panjang: gunakan bersama `gsp-document-quality-
 `gsp-long-document-assembly` (di atas ~8000 kata). Angka berujukan teknik: `pustaka-teknis`.
 
 ## Sumber pelajaran
-- `references/pelajaran-exemplar-revd.md` - diff lengkap artefak misi IMS-WMS-DRP-0908 vs
+- [`references/pelajaran-exemplar-revd.md`](references/pelajaran-exemplar-revd.md) - diff lengkap artefak misi IMS-WMS-DRP-0908 vs
   exemplar RevD (anatomi 14 bagian, tabel diff 18 aspek, traceroot 4 sebab). Dokumen sumber
   pelajaran: Dasar_Pengetahuan_Project_IMS_WMS_Arsenal_Batu_Poron RevC/RevD (133/135 hal).
 - Kartu kelahiran skill: t_a2353579 (SKILL-ACQ IMSWMS-LESSON-0909).

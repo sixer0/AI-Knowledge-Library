@@ -33,8 +33,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../../registry-fleet/gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -121,8 +121,8 @@ project/
 
 **STOP — before writing a single file, you MUST read the matching reference SOP below.** These are not optional background material; they are the authoritative step-by-step procedures for the task.
 
-- **If you need to DESIGN a building** (any request that starts from a brief, requirements, program, or "design me a ..."): **YOU MUST READ** [`references/building-design.md`](./references/building-design.md) — the full design-to-BIM workflow from massing through MEP.
-- **If you need to MODEL from existing plans** (floor plan images, sketches, known dimensions, or an existing building to replicate): **YOU MUST READ** [`references/bim-modeling.md`](./references/bim-modeling.md) — element creation order, dependencies, and best practices.
+- **If you need to DESIGN a building** (any request that starts from a brief, requirements, program, or "design me a ..."): **YOU MUST READ** [`references/building-design.md`](references/building-design.md) — the full design-to-BIM workflow from massing through MEP.
+- **If you need to MODEL from existing plans** (floor plan images, sketches, known dimensions, or an existing building to replicate): **YOU MUST READ** [`references/bim-modeling.md`](references/bim-modeling.md) — element creation order, dependencies, and best practices.
 
 Do not guess the workflow from memory. Do not start writing CSV/SVG before the relevant SOP has been read in full.
 

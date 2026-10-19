@@ -54,7 +54,7 @@ Chromium via Playwright langsung dari terminal**:
 7. Untuk interaksi: `page.evaluate` klik elemen pertama yang teksnya cocok,
    tunggu, baca ulang — verifikasi drill-down benar-benar berubah state.
 
-Script siap pakai: `scripts/render_check.py` (dump teks + screenshot).
+Script siap pakai: [`scripts/render_check.py`](scripts/render_check.py) (dump teks + screenshot).
 Catatan Windows: jalankan python dengan path `C:/...`, bukan `/c/...`; file
 kerja simpan di workspace (`C:/Users/TRIAL/workspace/`), bukan `/tmp`.
 
@@ -88,6 +88,6 @@ kerja simpan di workspace (`C:/Users/TRIAL/workspace/`), bukan `/tmp`.
 
 ## Referensi
 
-- `references/il-knowledge-first.md` — arsitektur Information Library
+- [`references/il-knowledge-first.md`](references/il-knowledge-first.md) — arsitektur Information Library
   knowledge-first + pola rebuild atomic (dispatching per folder, monitor,
   verifikasi 100% coverage).

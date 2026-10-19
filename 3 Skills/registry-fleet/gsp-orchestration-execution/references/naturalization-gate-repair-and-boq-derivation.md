@@ -12,7 +12,7 @@ lulus (preseden D-16: pelonggaran gerbang SELALU ditolak). Suntingan perbaikan h
 MENAMBAH kalimat faktual dari korpus terverifikasi (konten-kekal). Simpan patch script di
 cache profil dan salin instrumen ke folder misi agar hasil dapat direproduksi.
 
-Scanner: `%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`
+Scanner: [`%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`](../../gsp-output-naturalization/scripts/scan_ai_footprint.py)
 (dipanggil via `uv run --python 3.11`). Jalankan penuh, baca FAIL per nama CHECK, baru menambal.
 
 Makna check yang menentukan hasil penilaian (terukur 03-10):

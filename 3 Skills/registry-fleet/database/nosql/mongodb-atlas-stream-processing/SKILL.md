@@ -258,7 +258,7 @@ See [references/development-workflow.md](references/development-workflow.md) for
 - Charges are per-hour, calculated per-second, only while the processor is running
 - `stop-processor` stops billing; stopped processors retain state for 45 days at no charge
 - **For prototyping without billing:** Use `sp.process()` in mongosh — runs pipelines ephemerally without deploying a processor
-- See `references/sizing-and-parallelism.md` for tier pricing and cost optimization strategies
+- See [`references/sizing-and-parallelism.md`](references/sizing-and-parallelism.md) for tier pricing and cost optimization strategies
 
 ## Safety Rules
 

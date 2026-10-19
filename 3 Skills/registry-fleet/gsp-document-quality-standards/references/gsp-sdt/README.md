@@ -8,15 +8,15 @@ Hulu spesifikasi: `docs/2026-09-01-master-design-adaptasi/study/SPEC-DOC-SYSTEM.
 
 | Berkas | Isi | Pemakai utama |
 |---|---|---|
-| `kelas-dokumen.md` | Kelas K1–K8 × rezim: nama, klasifikasi awal, bobot verifikasi (67 vs 66) | semua jalur |
-| `anatomi-per-kelas.md` | Matriks blok wajib ●/○/– per kelas + delta PL/CY/BIZ | docx, html |
-| `penomoran-footer.md` | Pola `GSP-SDT(-XXX)-nnn`, register, klausul ≤3 tingkat, `Gambar k.n`+SUMBER, REQ-ID, pola nomor lembar per rezim, kepala-kaki C-22, revisi C-24 | docx, xlsx, html |
-| `blok-identitas.md` | Blok identitas dua bentuk (kisi 6×4 pertahanan / strip profesional) + frontmatter tambahan | docx, xlsx, html |
-| `provenans.md` | Provenans angka ■◈◇△, A/D/I/T, rantai kustodi SHA-256, padanan medium | semua jalur |
-| `checklist-pra-terbit.md` | Checklist gerbang 22 butir (≤25) siap-tempel + cara eksekusi | gerbang semua jalur |
-| `delta-matra.md` | Ringkasan delta 6 kelompok per rezim (umum/kelas/anatomi/aparatus/acuan/gerbang) | semua jalur |
-| `snippet-docx.py` | python-docx: blok identitas, header/footer klasifikasi, nomor lembar per rezim, tabel revisi, label provenans | gsp-report-format, gsp-word-report-deliverable |
-| `snippet-xlsx.py` | openpyxl: sheet identitas, kolom Provenans wajib, kunci REQ/LI/BB/FND + validator, sheet revisi (subset §3.2 / D-TA-5) | excel-master |
+| [`kelas-dokumen.md`](kelas-dokumen.md) | Kelas K1–K8 × rezim: nama, klasifikasi awal, bobot verifikasi (67 vs 66) | semua jalur |
+| [`anatomi-per-kelas.md`](anatomi-per-kelas.md) | Matriks blok wajib ●/○/– per kelas + delta PL/CY/BIZ | docx, html |
+| [`penomoran-footer.md`](penomoran-footer.md) | Pola `GSP-SDT(-XXX)-nnn`, register, klausul ≤3 tingkat, `Gambar k.n`+SUMBER, REQ-ID, pola nomor lembar per rezim, kepala-kaki C-22, revisi C-24 | docx, xlsx, html |
+| [`blok-identitas.md`](blok-identitas.md) | Blok identitas dua bentuk (kisi 6×4 pertahanan / strip profesional) + frontmatter tambahan | docx, xlsx, html |
+| [`provenans.md`](provenans.md) | Provenans angka ■◈◇△, A/D/I/T, rantai kustodi SHA-256, padanan medium | semua jalur |
+| [`checklist-pra-terbit.md`](checklist-pra-terbit.md) | Checklist gerbang 22 butir (≤25) siap-tempel + cara eksekusi | gerbang semua jalur |
+| [`delta-matra.md`](delta-matra.md) | Ringkasan delta 6 kelompok per rezim (umum/kelas/anatomi/aparatus/acuan/gerbang) | semua jalur |
+| [`snippet-docx.py`](snippet-docx.py) | python-docx: blok identitas, header/footer klasifikasi, nomor lembar per rezim, tabel revisi, label provenans | gsp-report-format, gsp-word-report-deliverable |
+| [`snippet-xlsx.py`](snippet-xlsx.py) | openpyxl: sheet identitas, kolom Provenans wajib, kunci REQ/LI/BB/FND + validator, sheet revisi (subset §3.2 / D-TA-5) | excel-master |
 
 ## Hierarki aturan (D-TA-4 + D-TA-7.5 - tidak boleh diputuskan ulang)
 

@@ -3,7 +3,7 @@
 
 Kelas tugas: user menyerahkan PDF/DOCX **manual standar / kitab terpadu** yang mengklaim
 menyatukan atau menggantikan aturan skill fleet yang sudah hidup. Beda dari
-`inbound-document-text-and-number-forensics.md` (objeknya kebenaran isi laporan pihak lain):
+[`inbound-document-text-and-number-forensics.md`](inbound-document-text-and-number-forensics.md) (objeknya kebenaran isi laporan pihak lain):
 di sini objeknya **status normatif dokumen terhadap mesin dan skill yang ada di disk**, karena
 manual semacam itu berpotensi dipromosikan jadi rujukan fleet-wide. Pertanyaan pemandu:
 "kalau dokumen ini jadi otoritas, apakah setiap klaimnya bisa dijalankan ulang dari artefak

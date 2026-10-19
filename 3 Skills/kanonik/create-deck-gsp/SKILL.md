@@ -117,7 +117,7 @@ path saja tanpa gambar tampil = penyerahan tidak sah.
 
 DILARANG menyerahkan crop mentah PDF/gambar sebagai aset logo: crop hanya memotong persegi
 dan tetap membawa latar halaman. Aset yang diserahkan wajib PNG RGBA tembus QA dua latar.
-Skrip rantai ikut skill ini di `scripts/logo-transparency/` (jalankan lewat
+Skrip rantai ikut skill ini di [`scripts/logo-transparency/`](scripts/logo-transparency/) (jalankan lewat
 `uv run --python 3.11 --with pymupdf --with pillow --with numpy python <skrip>`; simpan
 semua hasil di `assets/<misi>/`, catat seed + ambang di record).
 

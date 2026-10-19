@@ -1,6 +1,6 @@
 # Aturan Master Prompt DESIGN SYSTEM (kanal image + slide)
 Dimuat oleh `gsp-image-prompt-specialist` saat proyek memakai design system GSP.
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../../gsp-design-system-grill/references/master-design/)
 (gsp-ds-sets.json mesin-baca; kartu per preset; GSP-DS-KELUARGA.md MR1–MR6; gsp-font-manifest.md).
 Generator: SM-1 t_de708ae3 2026-09-01. Bahasa aturan ID, nama field/token EN (D-TA-6).
 

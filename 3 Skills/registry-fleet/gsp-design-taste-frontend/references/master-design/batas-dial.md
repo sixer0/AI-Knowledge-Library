@@ -1,5 +1,5 @@
 # Batas dial VARIANCE/MOTION/DENSITY saat preset GSP aktif
-Sumber aturan: `skills/gsp/gsp-design-system-grill/references/master-design/` (GSP-DS-KELUARGA.md MR1–MR6).
+Sumber aturan: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../../gsp-design-system-grill/references/master-design/) (GSP-DS-KELUARGA.md MR1–MR6).
 Generator: SM-1 t_de708ae3 2026-09-01. Berlaku HANYA ketika pekerjaan memakai design system GSP;
 di luar itu skill ini berjalan seperti biasa.
 

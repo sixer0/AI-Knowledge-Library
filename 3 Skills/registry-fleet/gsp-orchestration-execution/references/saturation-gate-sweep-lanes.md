@@ -3,9 +3,9 @@
 Lapisan LAJUR dari norma penutupan riset: kapan satu lajur boleh berhenti, bentuk vonis yang
 diterima, dan bagaimana beberapa lajur divonis bersama tanpa saling menulari kelelahan. Norma
 induk tidak diduplikasi di sini: 8 kelas jalur + tabel LADDER kanonik ada di
-`worker-offensive-logic.md`; disiplin audit pengumpulan (coverage % vs resmi, resweep, register)
+[`worker-offensive-logic.md`](worker-offensive-logic.md); disiplin audit pengumpulan (coverage % vs resmi, resweep, register)
 ada di `gsp-verification-before-completion/references/data-collection-audit-discipline.md`;
-gerbang kesegaran korpus R-10 ada di `knowledge-baseline-architecture.md`. Berkas ini hanya
+gerbang kesegaran korpus R-10 ada di [`knowledge-baseline-architecture.md`](knowledge-baseline-architecture.md). Berkas ini hanya
 menambah lapis "per lajur" untuk misi yang dipecah menjadi beberapa lajur riset paralel
 (preseden nama lajur: L1..L4 di misi FT-EVAL-0920, W1..W5 di FTDEEP-0921).
 
@@ -21,7 +21,7 @@ Sebuah lajur SAH berhenti karena jenuh hanya bila keempat syarat terukur ini ter
 
 | # | Syarat | Alat ukur | Preseden nyata |
 |---|---|---|---|
-| S1 | Seluruh kelas jalur punya akun | 8 dari 8 kelas jalur `worker-offensive-logic.md` berstatus dieksekusi ATAU N/A beralasan; N/A tanpa alasan = belum punya akun | L4 §7: "8 kelas dieksplorasi; 6 dieksekusi penuh, 2 N/A beralasan (arsip, sosial)" |
+| S1 | Seluruh kelas jalur punya akun | 8 dari 8 kelas jalur [`worker-offensive-logic.md`](worker-offensive-logic.md) berstatus dieksekusi ATAU N/A beralasan; N/A tanpa alasan = belum punya akun | L4 §7: "8 kelas dieksplorasi; 6 dieksekusi penuh, 2 N/A beralasan (arsip, sosial)" |
 | S2 | Residu dinyatakan ber-angka | Hitungan kandidat teridentifikasi, yang sudah digali, yang tersisa DAN mengapa tersisa (bukan nol tanpa hitungan) | L2 §0: "15 platform dievaluasi; 37 klaim teregister: 34 SOURCE-DERIVED, 1 PROV, 2 ASSUMPTION"; L4 baris vonis: "62 fetch primer; 42 baris register [C-nn]; 10 kueri pendukung" |
 | S3 | Rekonsiliasi cakupan | Bila ada angka resmi penyelenggara/vendor sebagai pembanding, selisih > ±5% wajib dijelaskan; direktori yang masih tumbuh diberi label PARTIAL + jadwal resweep, bukan vonis jenuh | data-collection-audit-discipline.md bagian count reconciliation ("mark PARTIAL + schedule resweep instead of pretending saturation") |
 | S4 | Register negatif + register tak-terverifikasi | Apa yang TIDAK ditemukan dicatat supaya pekerja berikutnya tidak mencari ulang; angka yang gagal dapat sumber primer ditulis TIDAK ADA DI RAK + sumber yang seharusnya, field dikosongkan bukan diisi seadanya | L4 §8 catatan negatif (judul Lin et al. tidak ada di arXiv per tanggal akses); L2 §6 register ketidakterverifikasian (harga Azure/Bedrock dinamis) |
@@ -86,22 +86,22 @@ tidak pernah jadi objek permohonan: itu batas cara, sisanya terbuka penuh.
 - Klaim vendor yang belum terverifikasi ditandai KLAIM-VENDOR/PROV dan tidak naik jadi angka;
   kosong lebih baik daripada salah (SPK-002).
 - Sebelum membekukan angka pembanding lintas lajur, jalankan gerbang R-10 kesegaran korpus
-  (`knowledge-baseline-architecture.md`): tanya edisi lebih baru, sapu disk, catat register
+  ([`knowledge-baseline-architecture.md`](knowledge-baseline-architecture.md)): tanya edisi lebih baru, sapu disk, catat register
   kedaluwarsa; baseline beku dinyatakan bertanggal, edisi baru yang belum terjangkau dinyatakan
   eksplisit.
 
 ## 7. Rujukan silang (jangan duplikasi norma induk)
-- `worker-offensive-logic.md`: definisi 8 kelas jalur, kolom ladder kanonik, aturan bukti
+- [`worker-offensive-logic.md`](worker-offensive-logic.md): definisi 8 kelas jalur, kolom ladder kanonik, aturan bukti
   kegagalan, penerapan dispatcher. Berkas ini hanya melapisinya per lajur.
 - `gsp-verification-before-completion/references/data-collection-audit-discipline.md`: rekonsiliasi
   hitungan vs angka resmi (±5%), aggregator sebagai last-resort + cross-check sitemap dua arah,
   PARTIAL+resweep vs pretending saturation, CAPPED sebagai terminal state ber-bukti.
-- `knowledge-baseline-architecture.md`: R-10 kesegaran korpus sebelum beku angka, R-11 gerbang
+- [`knowledge-baseline-architecture.md`](knowledge-baseline-architecture.md): R-10 kesegaran korpus sebelum beku angka, R-11 gerbang
   V-SUSUN; struktur kajian multi-sumber per subsistem milik TA/verifier, bukan lajur.
 - Preseden vonis nyata untuk contoh format: `docs/2026-09-20-ft-eval-0920/lajur/L4-methodology.md`
   §7 baris vonis, `L2-hosted-platforms.md` §0 dan §5, `L3-local-ft.md` §8; kriteria vonis per
   lajur misi aktif: CG-2/CG-3/CG-4 di `docs/2026-09-21-ft-deep-dive/identification/01_translated.md`.
-- `saturation-sweep-mission-frame.md`: kerangka MISI sapuan bergate jenuh dari preseden
+- [`saturation-sweep-mission-frame.md`](saturation-sweep-mission-frame.md): kerangka MISI sapuan bergate jenuh dari preseden
   IPDR-GLOBAL-0912 (registri kanonis pembilang tunggal, merge delta-only single-writer,
   kendali mutu controller atas artefak pekerja, gerbang persetujuan user pra-eksekusi,
   mekanika dispatch, format cek progres empat blok). Berkas ini melapisinya dengan vonis

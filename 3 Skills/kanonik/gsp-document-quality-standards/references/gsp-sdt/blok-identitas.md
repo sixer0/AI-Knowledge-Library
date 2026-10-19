@@ -55,9 +55,9 @@ tambahan lapisan bentuk. Saat ekspor DOCX/XLSX/HTML, field ini menjadi isi blok 
 
 ## 4. Snippet siap-pakai
 
-- DOCX (python-docx): `snippet-docx.py` - tabel identitas + header/footer klasifikasi + nomor
+- DOCX (python-docx): [`snippet-docx.py`](snippet-docx.py) - tabel identitas + header/footer klasifikasi + nomor
   lembar per rezim + tabel revisi.
-- XLSX (openpyxl): `snippet-xlsx.py` - sheet identitas, kolom Provenans, kunci REQ/LI, sheet revisi.
+- XLSX (openpyxl): [`snippet-xlsx.py`](snippet-xlsx.py) - sheet identitas, kolom Provenans, kunci REQ/LI, sheet revisi.
 - HTML: lihat pointer `gsp-frontend-design/references/gsp-sdt/blok-identitas-html.md` (carrier
   kanal HTML; muatan tetap menunjuk paket ini).
 

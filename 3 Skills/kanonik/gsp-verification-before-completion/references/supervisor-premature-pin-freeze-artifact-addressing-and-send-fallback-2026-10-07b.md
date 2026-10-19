@@ -1,6 +1,6 @@
 # Supervisor lessons 2026-10-07b: premature pin-freeze, same-name artifact addressing, send fallback
 
-Condensed from the 07-10 evening wave (PROMANUAL-V2 closeout, INDUK-1006 E-09/E-11 rulings, PV-1007 render chain, RAFIFFINAL FG2/FG3/REG-D3/RAKIT-D3c, GAYAMANUAL GM-L1). Extends `supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md` and `supervisor-verdict-ledger-vacuum-pass-com-nondeterminism-and-done-label-census-2026-10-07.md`.
+Condensed from the 07-10 evening wave (PROMANUAL-V2 closeout, INDUK-1006 E-09/E-11 rulings, PV-1007 render chain, RAFIFFINAL FG2/FG3/REG-D3/RAKIT-D3c, GAYAMANUAL GM-L1). Extends [`supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md`](supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md) and [`supervisor-verdict-ledger-vacuum-pass-com-nondeterminism-and-done-label-census-2026-10-07.md`](supervisor-verdict-ledger-vacuum-pass-com-nondeterminism-and-done-label-census-2026-10-07.md).
 
 ## 1. Premature pin-freeze class (MATERIALLYIZED, first real case)
 

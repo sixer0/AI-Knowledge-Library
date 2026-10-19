@@ -1,6 +1,6 @@
 # Registrasi domain EKAS — aktivasi rantai, GT RBAC domain-lokal, dan pemulihan (pelajaran CVLK-0929, 29-30/09)
 
-Kelas misi: domain rak EKAS -> objek vault -> custodian -> promote wiki/IL -> rute memori fleet -> VERIF akun RBAC undian -> laporan home channel. Lapisan ini berlaku UNTUK SEMUA domain baru selain yang sudah tercatat di `knowledge-register-multi-domain.md` / `knowledge-activation-rbac-verification.md`.
+Kelas misi: domain rak EKAS -> objek vault -> custodian -> promote wiki/IL -> rute memori fleet -> VERIF akun RBAC undian -> laporan home channel. Lapisan ini berlaku UNTUK SEMUA domain baru selain yang sudah tercatat di [`knowledge-register-multi-domain.md`](knowledge-register-multi-domain.md) / [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md).
 
 ## 1. Gap aktivasi: rantai hasil studi WAJIB hidup di folder rak sebelum VERIF
 Preseden CVLK C2: rantai jaminan berasal dari studi tapi hanya ada di objek vault; akun VERIF menjawab dari FOLDER domain (baris rute memori menunjuk folder) dan menjawab faktual benar "RANTAI BELUM ADA" -> gerbang FAIL 6/9 yang cacatnya hulu controller, bukan akun.

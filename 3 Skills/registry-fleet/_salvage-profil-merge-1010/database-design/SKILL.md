@@ -16,12 +16,12 @@ date_added: "2026-02-27"
 
 | File | Description | When to Read |
 |------|-------------|--------------|
-| `database-selection.md` | PostgreSQL vs Neon vs Turso vs SQLite | Choosing database |
-| `orm-selection.md` | Drizzle vs Prisma vs Kysely | Choosing ORM |
-| `schema-design.md` | Normalization, PKs, relationships | Designing schema |
-| `indexing.md` | Index types, composite indexes | Performance tuning |
-| `optimization.md` | N+1, EXPLAIN ANALYZE | Query optimization |
-| `migrations.md` | Safe migrations, serverless DBs | Schema changes |
+| [`database-selection.md`](database-selection.md) | PostgreSQL vs Neon vs Turso vs SQLite | Choosing database |
+| [`orm-selection.md`](orm-selection.md) | Drizzle vs Prisma vs Kysely | Choosing ORM |
+| [`schema-design.md`](schema-design.md) | Normalization, PKs, relationships | Designing schema |
+| [`indexing.md`](indexing.md) | Index types, composite indexes | Performance tuning |
+| [`optimization.md`](optimization.md) | N+1, EXPLAIN ANALYZE | Query optimization |
+| [`migrations.md`](migrations.md) | Safe migrations, serverless DBs | Schema changes |
 
 ---
 

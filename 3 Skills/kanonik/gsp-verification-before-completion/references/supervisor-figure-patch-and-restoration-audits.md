@@ -1,6 +1,6 @@
 # Supervisor audits: figure-patch iterations, style-only restoration, measured tests, multi-definition counts
 
-Condensed from dual-board supervision 05-10 (RAFAI/PROMANUAL books + EXPOWORLD SAJI tenan). Extends `supervisor-countersign-reproduction-and-rakit-gates.md` and `manuscript-figure-and-fixpass-verification.md`.
+Condensed from dual-board supervision 05-10 (RAFAI/PROMANUAL books + EXPOWORLD SAJI tenan). Extends [`supervisor-countersign-reproduction-and-rakit-gates.md`](supervisor-countersign-reproduction-and-rakit-gates.md) and [`manuscript-figure-and-fixpass-verification.md`](manuscript-figure-and-fixpass-verification.md).
 
 ## 1. Figure-patch (FIX-FIG class) iteration pathology and handoff
 

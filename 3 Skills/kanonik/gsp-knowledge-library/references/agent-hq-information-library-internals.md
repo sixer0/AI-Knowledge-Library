@@ -12,13 +12,13 @@ Repo: `~/gsp-agent-headquarter` (Next.js :9011, Postgres `gsp_agent_hq`, hermes-
 - `/memory-wiki` → 308 redirect to `/information-library` (next.config.ts); sidebar label "Information Library".
 
 ## Wiki scope (DB) — how rows get there
-- Source of truth: `.md` files in `~/.hermes/wiki` (`HERMES_WIKI` env). File frontmatter:
+- Source of truth: `.md` files in [`~/.hermes/wiki`](../../../../4%20Knowledge%20Bank/wiki-information-library/) (`HERMES_WIKI` env). File frontmatter:
   `id, type, title, status, confidence, provenance, tags: [...], links: [...], updated: YYYY-MM-DD` + markdown body.
-- `hermes-bridge/bridge.mjs`: `mirrorWiki()` walks `~/.hermes/wiki`, `parseEntry()` → UPSERT into
+- `hermes-bridge/bridge.mjs`: `mirrorWiki()` walks [`~/.hermes/wiki`](../../../../4%20Knowledge%20Bank/wiki-information-library/), `parseEntry()` → UPSERT into
   `HermesMemory` (id = rel path minus `.md`), then **DELETE rows whose id is not in the vault**.
   → DB is a pure mirror; a row with no vault file vanishes next tick. `writeWikiEntry(e)` writes the file
   (path default `${type}s/${id}.md`); `gitCommitWiki()` runs git init/add/commit in the wiki dir.
-- As of 2026-08-23 `~/.hermes/wiki` is empty → wiki scope returns 0 entries.
+- As of 2026-08-23 [`~/.hermes/wiki`](../../../../4%20Knowledge%20Bank/wiki-information-library/) is empty → wiki scope returns 0 entries.
 
 ## Workspace scope (filesystem, read-only)
 - Root `SHARED_WORKSPACE` env, default `~/workspace/gsp-hermes/workspace` (AGENTS.md, MEMORY.md, memory/, docs/).

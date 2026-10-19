@@ -1,6 +1,6 @@
 # Supervising two-jury + adjudicator corridors & tool-pin validity (GAYA-AHLI S12/S12b/S12c/S12d/S15/S15FIX/S16/S18/S20/S21, 05–06-10-2026)
 
-Recipe for countersigning blind-jury / adjudication / scanner-tool cards. Companion to `judge-noise-calibration.md` (that file = calibrating juries; this file = SUPERVISING a multi-jury corridor and the tool bytes underneath it).
+Recipe for countersigning blind-jury / adjudication / scanner-tool cards. Companion to [`judge-noise-calibration.md`](judge-noise-calibration.md) (that file = calibrating juries; this file = SUPERVISING a multi-jury corridor and the tool bytes underneath it).
 
 ## 1. Corridor shape that proved healthy
 patch scanner (fixture red-green) → microfix artefact per jury findings → juri-2 independen → adjudikator-3 (only when selisih ≥2 per rubrik) → putusan controller → VONIS-LEPAS atas pin revisi-C. Supervisor's job at each card: verify the PRECEDING pin lineage, not just the current claim.

@@ -1,6 +1,6 @@
 # VS-Gate + Countersign Audit + Entity-Type Matcher (2026-10-04, DEMS-VSAT F2-F4/VS/CSX)
 
-Lanjutan `merge-layer-audit-and-compressed-matcher.md` (§6-7 di sana). File ini
+Lanjutan [`merge-layer-audit-and-compressed-matcher.md`](merge-layer-audit-and-compressed-matcher.md) (§6-7 di sana). File ini
 menambah teknik terukur dari giliran audit lajur F2-F4, MRG-F2/F3, DELTA-MRG,
 MRG-ALL, VS, dan CSX.
 

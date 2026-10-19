@@ -20,10 +20,10 @@ metadata:
 
 <!-- GSP-MASTER-DESIGN v1.1.0 -->
 ## MASTER_DESIGN Integration (v1.2.0)
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../registry-fleet/gsp-design-system-grill/references/master-design/)
 Default tema: GENERAL, Preset: 12 bernama (lihat README paket), Aturan tema: GSP-DS-KELUARGA.md MR1–MR6.
-Detail: `references/master-design/README-pointer.md` - filosofi desain menajamkan preset (bukan mengganti); kanvas 1920×1080/12 kolom/margin 120/basis 8pt (MR5); rasio 70/20/10 aksen ≤10% (MR2/MR3); negatives-list MR6 jadi larangan gaya; tipografi peran + `gsp-font-manifest.md` (nama + path sumber).
-Larangan: jangan salin HEX/font ke file ini; JANGAN bundel font berlisensi ke skill/output (D-TA-2) - keluarga bundel hanya yang terbukti bebas (OFL `canvas-fonts/`).
+Detail: [`references/master-design/README-pointer.md`](references/master-design/README-pointer.md) - filosofi desain menajamkan preset (bukan mengganti); kanvas 1920×1080/12 kolom/margin 120/basis 8pt (MR5); rasio 70/20/10 aksen ≤10% (MR2/MR3); negatives-list MR6 jadi larangan gaya; tipografi peran + `gsp-font-manifest.md` (nama + path sumber).
+Larangan: jangan salin HEX/font ke file ini; JANGAN bundel font berlisensi ke skill/output (D-TA-2) - keluarga bundel hanya yang terbukti bebas (OFL [`canvas-fonts/`](canvas-fonts/)).
 Catatan kanal: bagian DS saja; standar dokumen (GSP-SDT) milik lane dokumen, tidak berlaku di kanvas statis.
 Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - field `version:` pertama kali ditambahkan + section pointer + referensi (langkah 7).
 
@@ -136,7 +136,7 @@ Add sparse, clinical typography and systematic reference markers that suggest th
 
 This is true art.
 
-**Text as a contextual element**: Text is always minimal and visual-first, but let context guide whether that means whisper-quiet labels or bold typographic gestures. A punk venue poster might have larger, more aggressive type than a minimalist ceramics studio identity. Most of the time, font should be thin. All use of fonts must be design-forward and prioritize visual communication. Regardless of text scale, nothing falls off the page and nothing overlaps. Every element must be contained within the canvas boundaries with proper margins. Check carefully that all text, graphics, and visual elements have breathing room and clear separation. This is non-negotiable for professional execution. **IMPORTANT: Use different fonts if writing text. Search the `./canvas-fonts` directory. Regardless of approach, sophistication is non-negotiable.**
+**Text as a contextual element**: Text is always minimal and visual-first, but let context guide whether that means whisper-quiet labels or bold typographic gestures. A punk venue poster might have larger, more aggressive type than a minimalist ceramics studio identity. Most of the time, font should be thin. All use of fonts must be design-forward and prioritize visual communication. Regardless of text scale, nothing falls off the page and nothing overlaps. Every element must be contained within the canvas boundaries with proper margins. Check carefully that all text, graphics, and visual elements have breathing room and clear separation. This is non-negotiable for professional execution. **IMPORTANT: Use different fonts if writing text. Search the [`./canvas-fonts`](canvas-fonts/) directory. Regardless of approach, sophistication is non-negotiable.**
 
 Download and use whatever fonts are needed to make this a reality. Get creative by making the typography actually part of the art itself -- if the art is abstract, bring the font onto the canvas, not typeset digitally.
 

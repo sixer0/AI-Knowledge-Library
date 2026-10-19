@@ -13,7 +13,7 @@ Gunakan untuk refresh fakta layout fleet dan sebagai checklist audit ekosistem/k
 - Shared workspace: `C:/Users/TRIAL/workspace/gsp-hermes/workspace` (AGENTS.md, MEMORY.md, memory/, docs/, vault/, ekas/, legacy-archive/)
 - EKAS: `C:/Users/TRIAL/gsp-ekas` (model-lokal/ 270 teks; lengkap/ 430 file + 160 PDF)
 - Firecrawl compose `C:/Users/TRIAL/firecrawl-src`; SearXNG `C:/Users/TRIAL/searxng`
-- Wiki: `C:/Users/TRIAL/AppData/Local/hermes/wiki` (catatans/faktas/keputusans/pelajarans/proyeks/standars, 54 md)
+- Wiki: [`C:/Users/TRIAL/AppData/Local/hermes/wiki`](../../../../4%20Knowledge%20Bank/wiki-information-library/) (catatans/faktas/keputusans/pelajarans/proyeks/standars, 54 md)
 - Kanban DB: `C:/Users/TRIAL/AppData/Local/hermes/kanban.db`
 
 ## Matriks layanan/port (saat audit)

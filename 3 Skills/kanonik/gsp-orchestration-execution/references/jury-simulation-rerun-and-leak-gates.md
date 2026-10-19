@@ -1,6 +1,6 @@
 # Lanjutan preseden MWSKILL-0916 s.d. rilis (17-09): rerun siklus, gerbang anti-bocor, audit controller
 
-Lanjutan `skill-knowledge-jury-simulation.md` (anatomi rantai + butir 1-6 + pitfall awal tetap
+Lanjutan [`skill-knowledge-jury-simulation.md`](skill-knowledge-jury-simulation.md) (anatomi rantai + butir 1-6 + pitfall awal tetap
 berlaku). File ini menangkap yang terbukti pada paruh kedua misi sampai L2 rilis.
 
 ## Rerun simulasi setelah paket berubah di tengah siklus (D-09/D-11/D-13)

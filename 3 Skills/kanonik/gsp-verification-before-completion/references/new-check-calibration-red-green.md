@@ -3,7 +3,7 @@
 Preseden: NAT-GATE-R1 30-09 (scanner `scan_ai_footprint.py` v1.4.1 -> v1.5.0, indikator
 baru B11/C-13 + B12/C-14, ambang C-6 25->18 dan B8 80->56). Kelas masalah: menambah atau
 melonggarkan check pada instrumen gerbang — bukan menambal instrumen yang rusak
-(itu `instrument-gate-patch-red-green.md`), melainkan membuat daya pisah baru yang
+(itu [`instrument-gate-patch-red-green.md`](instrument-gate-patch-red-green.md)), melainkan membuat daya pisah baru yang
 belum pernah diuji dunia.
 
 ## Hukum induk

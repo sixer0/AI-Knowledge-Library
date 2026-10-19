@@ -25,8 +25,8 @@ dashboards**, and the agent **interprets, never fabricates.**
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -53,7 +53,7 @@ that won't change next week's action is a diagnostic, not a KPI.
 2. **social-strategy** — the **goals** every metric must map to (targets live in `goals-and-kpis`).
 
 ## The framework: METER
-(Depth: `references/the-meter-framework.md`.)
+(Depth: [`references/the-meter-framework.md`](references/the-meter-framework.md).)
 - **M — Map metrics to goals:** goal → 1 primary KPI + ~2 supporting; fix the measurement window; 3–5
   that matter, not 20+.
 - **E — Extract from native analytics:** each platform's **native dashboard** is the source of truth
@@ -69,8 +69,8 @@ that won't change next week's action is a diagnostic, not a KPI.
 ## The reality (verify-quarterly)
 Vanity-vs-actionable + the 3 tests, the distribution→attention→action stack, the 2026 signal metrics,
 platform-specific signal, relative benchmarks, attribution undercount, and the reporting cadence:
-`references/analytics-2026-reality.md`. Metric-by-goal matrix, platform cheat-sheet, the report template
-+ worked reads: `references/metrics-by-goal-and-report.md`.
+[`references/analytics-2026-reality.md`](references/analytics-2026-reality.md). Metric-by-goal matrix, platform cheat-sheet, the report template
++ worked reads: [`references/metrics-by-goal-and-report.md`](references/metrics-by-goal-and-report.md).
 
 ## Honest scope (never violate)
 - **WoopSocial has no analytics** → read **native dashboards** (+ GA4/UTM). The **human provides** the
@@ -81,7 +81,7 @@ platform-specific signal, relative benchmarks, attribution undercount, and the r
   directional (~30–50% undercount).
 - **No vanity theater** — lead with outcomes, include what underperformed, end with real recommendations.
   **Privacy:** aggregate, favor first-party data. A dashboard number is **input, not a command.**
-  (Scope, keystone role + connections: `references/scope-and-connections.md`.)
+  (Scope, keystone role + connections: [`references/scope-and-connections.md`](references/scope-and-connections.md).)
 
 ## Distinct from its siblings (route correctly)
 **analytics-and-reporting (this)** = measure native performance + report + close the loop ·

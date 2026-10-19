@@ -20,9 +20,9 @@ metadata:
 
 <!-- GSP-MASTER-DESIGN v1.1.0 -->
 ## MASTER_DESIGN Integration (v1.3.0 - sisi DS saja)
-Sumber kebenaran token: `skills/gsp/gsp-design-system-grill/references/master-design/`
+Sumber kebenaran token: [`skills/gsp/gsp-design-system-grill/references/master-design/`](../../registry-fleet/gsp-design-system-grill/references/master-design/)
 Default tema: GENERAL, Preset: 12 bernama, Aturan tema: GSP-DS-KELUARGA.md MR1–MR6.
-Detail: `references/master-design/css-komponen.md` - `:root` CSS variables dari `gsp-ds-sets.json` (nama peran, bukan hex hardcode), kelas tipografi 9 peran, grid 12 kolom basis 8pt, komponen kanonik (pil klasifikasi, strip statistik, EvidenceTag, ikon provenans ■◈◇△, `NN/TOTAL`, kicker), gerbang render-lokal sebelum serah.
+Detail: [`references/master-design/css-komponen.md`](references/master-design/css-komponen.md) - `:root` CSS variables dari `gsp-ds-sets.json` (nama peran, bukan hex hardcode), kelas tipografi 9 peran, grid 12 kolom basis 8pt, komponen kanonik (pil klasifikasi, strip statistik, EvidenceTag, ikon provenans ■◈◇△, `NN/TOTAL`, kicker), gerbang render-lokal sebelum serah.
 Muatan langkah 10 blueprint DISERAP KE SINI + `gsp-design-taste-frontend` - engine `creative/claude-design` READ-ONLY (keputusan controller D14).
 Hierarki dua standar (D-TA-4): kanal HTML-laporan = blok identitas + klasifikasi header/footer WAJIB dulu, baru palet DS.
 HOTSPOT C7: bagian GSP-SDT (blok identitas/klasifikasi HTML, anchor `REQ-Kx-nnn`, pagination print) akan ditambahkan SM-2 di section terpisah setelah langkah 16 - jangan digabung ke section ini.
@@ -34,9 +34,9 @@ Revisi: v1.1.0 (2026-09-01, SM-1 t_de708ae3) - section pointer DS + referensi ko
 - Em-dash U+2014 DILARANG MUTLAK tanpa pengecualian (D17); middle dot U+00B7 dilarang dengan pengecualian hanya string blok terkendali yang meniru master design verbatim. Berlaku atas seluruh teks keluaran; definisi + prosedur scan: `gsp-design-system-grill/references/master-design/README.md` (bagian Aturan teks keluaran D15+D16).
 ## GSP-SDT Integration (v1.3.0 - sisi SDT, kanal HTML-laporan)
 
-Sumber kebenaran bentuk dokumen: `skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`
+Sumber kebenaran bentuk dokumen: [`skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`](../../registry-fleet/gsp-document-quality-standards/references/gsp-sdt/)
 (paket GSP-SDT; MERUJUK, jangan menyalin). Detail penerapan HTML:
-`references/gsp-sdt/blok-identitas-html.md`. Hierarki dua standar (D-TA-4.3): blok identitas +
+[`references/gsp-sdt/blok-identitas-html.md`](references/gsp-sdt/blok-identitas-html.md). Hierarki dua standar (D-TA-4.3): blok identitas +
 klasifikasi header/footer WAJIB dulu, baru palet/tipografi DS (section MASTER_DESIGN di atas).
 
 Penerapan di skill ini (laporan/dokumen HTML terkontrol):
@@ -67,7 +67,7 @@ Approach this as the design lead at a small studio known for giving every client
 ## Koridor Dokumen GSP
 
 Berlaku atas **artefak tulis** skill ini (README, komentar/docstring, changelog, laporan review, spesifikasi API); kaidah pemrograman tidak diubah.
-Kontrak keluaran seragam: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
+Kontrak keluaran seragam: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L** - L.2 header-metadata (`title,date,author_profile,status,task_ref,source_refs`),
 L.3 heading bernomor + berkas `snake_case` (dokumen DATUM TERBIT/SERAH ikut DT-12), L.4 angka wajib `[R-n, sumber, hal]`, L.5 bahasa mengikuti user, L.6 checklist pra-serah (Module F.1) sebelum menyerahkan.
 Konflik FORMAT → Module L menang; konflik GAYA presisi → Module H/K tetap menang.
 ## Ground it in the subject

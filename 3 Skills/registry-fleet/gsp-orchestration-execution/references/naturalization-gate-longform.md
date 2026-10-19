@@ -1,7 +1,7 @@
 # Naturalization gate for long-form documents (measured 03-10, mission DEMS-EXPLAIN-1003)
 
 Target: passing `scan_ai_footprint.py` (skill gsp-output-naturalization, fleet registry:
-`%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`)
+[`%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`](../../gsp-output-naturalization/scripts/scan_ai_footprint.py))
 on the FIRST run for a multi-chapter markdown report destined for the user channel.
 Preserve-content rule always applies: fixes may only add substance or split sentences,
 never alter figures, names, or citations.

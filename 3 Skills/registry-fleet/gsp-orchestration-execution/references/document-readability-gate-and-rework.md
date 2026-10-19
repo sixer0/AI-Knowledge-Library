@@ -39,4 +39,4 @@ Kartu gerbang (verifier/reviewer) yang memvonis FAIL TELAH menjalankan fungsinya
 ## 7. Peta rujukan
 - Preseden artefak: `docs/2026-10-04-prompt-manual/` (v1, vonis user) dan `docs/2026-10-06-prompt-manual-v2/` (rework: blueprint §6 anatomi cerna, §7 peta visual, §8 konten-kekal; toolkit/ cecer_meter + datum_buku; verification/vonis-spesimen*.md).
 - Otoritas bentuk dokumen DATUM: skill fleet `datum-house-style` + guideline `docs/2026-10-03-datum-guideline/` (lihat juga memory #standar-datum; berkas kanonis lama hilang - known-defect fleet).
-- Lapis satelit: `saturation-gate-sweep-lanes.md` (vonis jenuh per lajur riset buku), `knowledge-baseline-architecture.md` (anatomi dokumen), `design-contract-drift.md` (dump sumber -> KONTRAK-DESAIN -> re-vonis artefak).
+- Lapis satelit: [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md) (vonis jenuh per lajur riset buku), [`knowledge-baseline-architecture.md`](knowledge-baseline-architecture.md) (anatomi dokumen), [`design-contract-drift.md`](design-contract-drift.md) (dump sumber -> KONTRAK-DESAIN -> re-vonis artefak).

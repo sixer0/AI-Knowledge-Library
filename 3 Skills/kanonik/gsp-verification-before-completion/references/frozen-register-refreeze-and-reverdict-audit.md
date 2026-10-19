@@ -2,8 +2,8 @@
 
 Kelas: pengawas silang atas kartu FIX yang menutup gap register beku (F-series),
 re-vonis verifier independen pasca-fix (RVK), dan refreeze register (RFZ) —
-lanjutan dari `cross-lane-register-audit.md` (beku awal) dan
-`manuscript-figure-and-fixpass-verification.md` §6 (agregat vs FAIL anak).
+lanjutan dari [`cross-lane-register-audit.md`](cross-lane-register-audit.md) (beku awal) dan
+[`manuscript-figure-and-fixpass-verification.md`](manuscript-figure-and-fixpass-verification.md) §6 (agregat vs FAIL anak).
 
 ## 1. Kartu fix wajib addendum-only; gerbangnya = sha register lama TIDAK berubah
 

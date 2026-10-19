@@ -29,7 +29,7 @@ prioritas menengah. Artinya:
 
 - Kerangka daya/energi, deteksi, dan penilaian ancaman diambil dari domain terdekat:
   VSS (cctv-system-designer), termal (pustaka-teknis/termografi), keamanan siber, dan
-  objek vital (`ekas/05_DOMAIN-KNOWLEDGE/CRITICAL-INFRASTRUCTURE/`).
+  objek vital ([`ekas/05_DOMAIN-KNOWLEDGE/CRITICAL-INFRASTRUCTURE/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CRITICAL-INFRASTRUCTURE/)).
 - **Detail produk sensor (jangkauan radar, false alarm rate, konsumsi daya) = R4** dari
   lembar data pabrikan — jangan dikarang.
 - **Standar nasional/perimeter (R1) dan literatur fusi sensor tidak ada di rak** — nyatakan
@@ -59,5 +59,5 @@ prioritas menengah. Artinya:
 
 ## Rujukan yang tersedia di korpus
 
-`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/` · `.../THERMAL/` · `.../CRITICAL-INFRASTRUCTURE/`
-· `ekas/02_REGISTERS/GAP-REGISTER.md` (celah perimeter) · `ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`.
+[`ekas/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/) · `.../THERMAL/` · `.../CRITICAL-INFRASTRUCTURE/`
+· [`ekas/02_REGISTERS/GAP-REGISTER.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/02_REGISTERS/GAP-REGISTER.md) (celah perimeter) · [`ekas/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md).

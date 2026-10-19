@@ -1,6 +1,6 @@
 # Rantai remediasi GEN-2: vonis FAIL campuran + cacat grafi verdict-gate (preseden RAFIF-GUIDE-0925 GEN-2, 26-09)
 
-Lanjutan `remediation-chain-after-verifier-fail.md` (yang mengcover GEN-1: VS FAIL tunggal, relink build, FIX sempit). Kelas baru di sini: vonis FAIL yang MEMUAT cacat konten DAN cacat alat sekaligus, plus bug grafi yang lolos saat vonis kedua/ketiga.
+Lanjutan [`remediation-chain-after-verifier-fail.md`](remediation-chain-after-verifier-fail.md) (yang mengcover GEN-1: VS FAIL tunggal, relink build, FIX sempit). Kelas baru di sini: vonis FAIL yang MEMUAT cacat konten DAN cacat alat sekaligus, plus bug grafi yang lolos saat vonis kedua/ketiga.
 
 ## 1. Edge kartu verdict menggates DONE, bukan PASS (cacat grafi yang nyata terjadi)
 Kartu build hilir (DX2B) dibuat dengan parent = kartu verifikasi (VS2). Dispatcher mempromosikan build begitu VS2 `done` — padahal vonisnya FAIL. Worker GEN-1 sudah terbukti jujur memblokir diri saat melihat vonis FAIL, tapi itu sandaran perilaku, bukan gerbang grafi.

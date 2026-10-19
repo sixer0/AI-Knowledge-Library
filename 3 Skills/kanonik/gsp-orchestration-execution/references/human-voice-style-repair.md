@@ -12,7 +12,7 @@
 
 1. Ekstraksi TEKS PENUH: python-docx — paragraf DAN semua sel tabel (`uv run --with python-docx`). Simpan corpus.json + .txt per dokumen.
 2. Ukur deterministik (bekukan SATU metrics.py per misi, semua baseline pakai alat sama): mean klausa/kalimat, % kalimat >=4 koma, titik-koma/1000 kata, 'yang'/100 kata, ritme panjang kalimat (stddev, p90, maks), paragraf >150 kata, rasio pembuka kalimat berbeda.
-3. Sapu ulang scanner kanonis `scan_ai_footprint.py` di `$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/scripts/` pada ekstrak penuh. Catatan distribusi: skill `gsp-output-naturalization` tidak selalu ter-load via skill_view di semua profil, tapi jalur skrip registry selalu terjangkau.
+3. Sapu ulang scanner kanonis `scan_ai_footprint.py` di [`$LOCALAPPDATA/hermes/skills/gsp/gsp-output-naturalization/scripts/`](../../../registry-fleet/gsp-output-naturalization/scripts/) pada ekstrak penuh. Catatan distribusi: skill `gsp-output-naturalization` tidak selalu ter-load via skill_view di semua profil, tapi jalur skrip registry selalu terjangkau.
 4. Temuan kunci: LULUS gerbang token saat rilis TIDAK menjamin lolos suara — 3/3 dokumen yang dulu lolos rilis FAIL saat disapu ulang teks penuh (paragraf+sel tabel). Gerbang token lama menangkap em-dash/frasa, buta terhadap struktur kalimat, aparatus internal telanjang, dan arsitektur konteks. Vonis awal user = kelas T2 (cacat sistem gerbang), bukan T1.
 
 ## Cek-silang kutipan anti-fabrikasi (gerbang controller sebelum promosi sintesis)

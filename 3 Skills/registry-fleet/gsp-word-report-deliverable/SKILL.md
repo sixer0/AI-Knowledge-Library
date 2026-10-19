@@ -24,8 +24,8 @@ Katalog Skill (130 entri) → Katalog Super Detail (semua file + isi penuh).
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -42,7 +42,7 @@ Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module 
 Konflik **FORMAT** → Module L menang. Konflik **GAYA presisi** → Module H/K tetap menang.
 ## GSP-SDT Integration (v1.2.0 - deliverable besar patuh bentuk dokumen)
 
-Sumber kebenaran bentuk dokumen: `skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`
+Sumber kebenaran bentuk dokumen: [`skills/gsp/gsp-document-quality-standards/references/gsp-sdt/`](../gsp-document-quality-standards/references/gsp-sdt/)
 (paket GSP-SDT; MERUJUK, jangan menyalin isinya). Skill ini memegang deliverable Word besar
 (kajian/audit/katalog); GSP-SDT menambahkan lapisan bentuk untuk dokumen yang dinyatakan
 berkelas K1–K8 / rezim tertentu - kajian internal bebas tetap cukup Module L.
@@ -58,7 +58,7 @@ Penerapan di skill ini:
 3. Blok identitas + register `GSP-SDT(-XXX)-nnn` + klasifikasi kepala-kaki-sampul + nomor
    lembar pola rezim + tabel revisi (baris terbaru di puncak): lihat `blok-identitas.md`,
    `penomoran-footer.md`; helper `snippet-docx.py` paket SDT dapat dipakai bersama alur
-   `scripts/build_md_to_docx.py` skill ini (blok identitas disisipkan di awal markdown sumber).
+   [`scripts/build_md_to_docx.py`](scripts/build_md_to_docx.py) skill ini (blok identitas disisipkan di awal markdown sumber).
 4. Dokumen >8000 kata tetap lewat `gsp-long-document-assembly`; bagian SDT berlaku per bab
    (penomoran klausul per bagian, blok identitas di jilid utama saja).
 5. Kelas dokumen kajian umumnya **K3 Kajian Teknis** (bobot 8, TERBATAS) untuk keluarga
@@ -125,7 +125,7 @@ Revisi: v1.5.0 (2026-09-07, controller DEVNOTES-REV-0709) - pitfalls gerbang ben
   laporan dari bukti nyata.
 
 ### 4. Konversi markdown → Word
-- Pakai `scripts/build_md_to_docx.py` (salinan di skill ini):
+- Pakai [`scripts/build_md_to_docx.py`](scripts/build_md_to_docx.py) (salinan di skill ini):
   `python build_md_to_docx.py <src.md> <out.docx> "<TITLE>" "<SUBTITLE>" "<META>"`
 - Konverter: A4, blok judul custom, mapping heading H2→Heading 1 dan H3→Heading 2
   (H1 markdown = judul, dilewati otomatis), tabel dengan header shaded,
@@ -146,7 +146,7 @@ Revisi: v1.5.0 (2026-09-07, controller DEVNOTES-REV-0709) - pitfalls gerbang ben
 - Tutup kartu kanban dengan bukti; perbarui contract doc.
 
 ## Katalog skill super detail (inventarisasi library skill)
-- `scripts/scan_skill_library.py` - scan semua SKILL.md (registry + kanonik):
+- [`scripts/scan_skill_library.py`](scripts/scan_skill_library.py) - scan semua SKILL.md (registry + kanonik):
   frontmatter toleran (termasuk description blok `>-`), file tree LENGKAP
   (semua file + ukuran), When-to-Use penuh, hingga 25 perintah/tool dari code
   fences, body utuh → JSON + dossier + lampiran isi penuh + zip semua file.
@@ -187,8 +187,8 @@ Revisi: v1.5.0 (2026-09-07, controller DEVNOTES-REV-0709) - pitfalls gerbang ben
 ```
 
 ## File pendukung
-- `scripts/build_md_to_docx.py` - konverter markdown→Word (argv-driven).
-- `scripts/scan_skill_library.py` - scanner inventaris skill super detail
+- [`scripts/build_md_to_docx.py`](scripts/build_md_to_docx.py) - konverter markdown→Word (argv-driven).
+- [`scripts/scan_skill_library.py`](scripts/scan_skill_library.py) - scanner inventaris skill super detail
   (dossier + isi penuh + zip).
-- `references/report-structure.md` - kerangka laporan kajian 16 bab + format
+- [`references/report-structure.md`](references/report-structure.md) - kerangka laporan kajian 16 bab + format
   entri super detail + contoh tabel Status Live/Temuan.

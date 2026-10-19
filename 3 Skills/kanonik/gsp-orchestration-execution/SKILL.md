@@ -26,7 +26,7 @@ tags: [gsp, orchestration, kanban, dispatch, contract, traces]
 2. **Contract doc** in the shared workspace:
    `workspace/gsp-hermes/workspace/docs/<YYYY-MM-DD>-<slug>.md` — goal, card
    table (id/title/assignee/dep/status/bukti), execution notes, verification
-   results, decision log. Copy `templates/contract-doc.md`.
+   results, decision log. Copy [`templates/contract-doc.md`](templates/contract-doc.md).
 3. **Dispatch/delegation through the HQ pipeline** for profile work: insert
    AgentRequest (kind=`oneshot`, profile=`<gsp-*>`, status=`queued`,
    `"sideEffecting"=false`) → bridge runs `hermes -p <profile> -z <prompt>` →
@@ -65,8 +65,8 @@ tags: [gsp, orchestration, kanban, dispatch, contract, traces]
    / `partial-handoff` / `needs-review`), never patched further in the same
    run. The compensation for this cap is STRENGTHENED verifier/reviewer
    accounts: FULL verification belongs to a verifier-role CARD dispatched via
-   a role file (`roles/gsp-verifier.md`, `roles/gsp-test-expert.md`,
-   `roles/gsp-pm-verifier.md`, `roles/gsp-document-reviewer.md`) onto a worker
+   a role file ([`roles/gsp-verifier.md`](../../../2%20Roles/peran-fleet/gsp-verifier.md), [`roles/gsp-test-expert.md`](../../../2%20Roles/peran-fleet/gsp-test-expert.md),
+   [`roles/gsp-pm-verifier.md`](../../../2%20Roles/peran-fleet/gsp-pm-verifier.md), [`roles/gsp-document-reviewer.md`](../../../2%20Roles/peran-fleet/gsp-document-reviewer.md)) onto a worker
    profile whose SESSION ACCOUNT differs from the producer's (post-PROF-MERGE
    there is no standalone verifier profile; the role lives in the file, not
    the profile), each bound by the
@@ -141,7 +141,7 @@ Setiap kenaikan fase misi wajib punya blok `[FASE]` terpasang di `docs/<kontrak>
    - (b) JANGAN pernah menulis kartu baru dengan assignee profil lama dari template/skill/memory basi — rebrand/migrasi profil = sweep board (`hermes kanban list --json` -> filter assignee tak-lagi-valid -> reassign);
    - (c) kartu tanpa assignee tidak di-klaim dispatcher — selalu isi assignee eksplisit;
    - (d) audit harian: `ready` berumur >2 jam = sinyal alamat mati/edge semu, inspeksi `show --json`.
-10. **Gerbang review & blocked punya pemilik + tenggat** (temuan user 03-09 #2: penutupan lemah). Setiap kartu `review`/`needs-review` adalah tanggung jawab ASIGNOR (controller yang mendelegasikan), bukan worker: tutup dalam 1x24 jam dengan salah satu dari (a) force-done + bukti artefak terukur di disk, (b) request-changes + instruksi perbaikan konkret, (c) escalate user dengan ringkasan keputusan. Kartu `blocked` wajib berkomentar alasan + prasyarat hilang-bagaimana; >48 jam tanpa komentar = cacat orkestrasi, controller wajib triase ulang (tutup dengan bukti / unblock / needs_input ke user). Backlog `needs-review` massal adalah GEJALA gerbang tak bertuan — reconcile deterministik per kelas (ARTIFACT_OK / RESULT_ONLY / ARTIFACT_MISSING) seperti pola `scripts/` di docs/2026-09-03-fleet-gateway-recovery/, bukan satu-satu manual.
+10. **Gerbang review & blocked punya pemilik + tenggat** (temuan user 03-09 #2: penutupan lemah). Setiap kartu `review`/`needs-review` adalah tanggung jawab ASIGNOR (controller yang mendelegasikan), bukan worker: tutup dalam 1x24 jam dengan salah satu dari (a) force-done + bukti artefak terukur di disk, (b) request-changes + instruksi perbaikan konkret, (c) escalate user dengan ringkasan keputusan. Kartu `blocked` wajib berkomentar alasan + prasyarat hilang-bagaimana; >48 jam tanpa komentar = cacat orkestrasi, controller wajib triase ulang (tutup dengan bukti / unblock / needs_input ke user). Backlog `needs-review` massal adalah GEJALA gerbang tak bertuan — reconcile deterministik per kelas (ARTIFACT_OK / RESULT_ONLY / ARTIFACT_MISSING) seperti pola [`scripts/`](scripts/) di docs/2026-09-03-fleet-gateway-recovery/, bukan satu-satu manual.
 11. **Naturalisasi TIDAK menahan handoff antar-agen** (temuan user 03-09 #3, menegakkan persempitan 03-09): gerbang naturalisasi hanya berlaku pada keluaran yang dibaca MANUSIA (chat user, dokumen/deck final, notifikasi). Artefak antar-agen (contract doc, komentar kanban, identification/*, checkpoint, laporan fase internal, metadata mesin) DIKECUALIKAN — worker/verifier tidak boleh menahan `request-review`, memperlambat klaim, memvonis FAIL, atau memarkir kartu hanya karena jejak naturalisasi belum lolos pada kanal terkecuali. A1/A2 (em dash, middle dot) tetap nol di SEMUA keluaran yang dibaca user; pada artefak internal cukup dijaga lewat scanner tanpa menjadi gerbang.
 
 ### Norma gelombang N1 + fast-lane DAG pre-built (putusan user 08-09, misi OPT-WF-0907 D-05/D-07)
@@ -151,7 +151,7 @@ Setiap kenaikan fase misi wajib punya blok `[FASE]` terpasang di `docs/<kontrak>
 kartu sejak awal misi dipasang sebagai OPT-IN per misi selama 1 minggu uji (mulai 08-09, SC-G
 dijaga harian); naik menjadi DEFAULT fleet hanya lewat Decision Log controller setelah kriteria
 tercapai (rasio prebuilt >=90% misi uji DAN SC-G nol regresi selama 7 hari). SOP langkah 1-7 +
-checklist pra-dispatch + aturan jendela uji: `references/fast-lane-dag-prebuild.md`.
+checklist pra-dispatch + aturan jendela uji: [`references/fast-lane-dag-prebuild.md`](references/fast-lane-dag-prebuild.md).
 
 ### Norma rute eskalasi dua-kanal (putusan user 08-09, misi OPT-WF-0907 D-10)
 
@@ -190,14 +190,14 @@ result `STATUS: complete` atau `STATUS: needs-review` LANGSUNG (jalur WAKE-ORCH-
 editor/reviewer dibuka sebagai KARTU TERPISAH ber-`parents=[kartu-penulis]` dengan assignee
 akun berbeda (pola EDIT-*/FIX-*). Force-done dengan check gerbang merah TETAP haram (preseden
 D-16); needs-review dari penulis tetap L1 bukan L2 (aturan 8). Rantai sebab + tabel event +
-jalur pemulihan kartu terlanjur `review`: `references/review-lane-crash-loop.md`. Perbaikan
+jalur pemulihan kartu terlanjur `review`: [`references/review-lane-crash-loop.md`](references/review-lane-crash-loop.md). Perbaikan
 sejati ada di dispatcher/kernel - tiket traceroot bentuk keempat ke gsp-system-manager via
 jalur normal.
 
 <!-- [KELAS-BEBAN-1009] -->
 ### Norma kelas-beban: anti-duplikasi artefak + propagasi kelas (turunan Phase 2c)
 
-16. **Rujukan-ID, bukan salinan.** Boilerplate kebijakan ditulis sekali di berkas kanonis dan dirujuk kartu dengan ID (`LAD-0209`, `WK-ORCH-0911`, `KELAS-BEBAN-1009`); potongan >=12 kata dari 01 dilarang muncul utuh di 02 kecuali kutipan bersitasi; body kartu tidak memuat tabel 02. Kelas beban menyebar kepala 01 -> body kartu -> kolom WAJIB-BACA 02; pekerja membaca body kartu + S1 + barisnya sendiri + seksi yang dikutip WAJIB-BACA (01 hanya bila kartunya menyitasi; 02 utuh hanya untuk verifier gerbang M4 dan controller penutup fase). Prosedur: `references/kelas-beban-rt.md`; tabel plafon kanonis tinggal di Phase 2c skill `gsp-task-architect-templates` - salinan penuh kedua di sini = drift, dilarang.
+16. **Rujukan-ID, bukan salinan.** Boilerplate kebijakan ditulis sekali di berkas kanonis dan dirujuk kartu dengan ID (`LAD-0209`, `WK-ORCH-0911`, `KELAS-BEBAN-1009`); potongan >=12 kata dari 01 dilarang muncul utuh di 02 kecuali kutipan bersitasi; body kartu tidak memuat tabel 02. Kelas beban menyebar kepala 01 -> body kartu -> kolom WAJIB-BACA 02; pekerja membaca body kartu + S1 + barisnya sendiri + seksi yang dikutip WAJIB-BACA (01 hanya bila kartunya menyitasi; 02 utuh hanya untuk verifier gerbang M4 dan controller penutup fase). Prosedur: [`references/kelas-beban-rt.md`](references/kelas-beban-rt.md); tabel plafon kanonis tinggal di Phase 2c skill `gsp-task-architect-templates` - salinan penuh kedua di sini = drift, dilarang.
 <!-- [/KELAS-BEBAN-1009] -->
 <!-- [PMODE-1010] -->
 ### Norma kepala-rantai & mediasi (PMODE-1010, putusan user 10-10)
@@ -327,7 +327,7 @@ jalur normal.
 - **Bookkeeping failure ≠ agent failure**: if AgentRequest shows `failed` but
   `result` is populated, the agent DID complete — reconcile to `done`, close
   the card, and check `bridge.mjs` for the `kanbanCardId` scoping bug
-  (details: `skills/gsp/gsp-fleet-profile-operations/references/fleet-dispatch-health.md`).
+  (details: [`skills/gsp/gsp-fleet-profile-operations/references/fleet-dispatch-health.md`](../../registry-fleet/gsp-fleet-profile-operations/references/fleet-dispatch-health.md)).
 - **Bridge timeout on fleet-scale work**: inventarisir seluruh fleet (44+ profiles)
   routinely exceeds `RUN_TIMEOUT_MS` (default 30 min). If a manager/creator
   request times out at `1800000 ms`, first check filesystem artifacts
@@ -374,7 +374,7 @@ jalur normal.
   BAKU-DIST-1010 vonis verifikator FAIL-2):** `hermes skills list` TIDAK membaca env
   `HERMES_PROFILE`; tanpa flag, yang terbaca SELALU profil default. Controller yang memprobing
   17 profil dengan env itu mengira trio orkestrasi enabled fleet-wide padahal registry fleet
-  `skills/gsp/` tidak terdaftar di `skills.external_dirs` satu profil pun (16/17 kehilangan trio;
+  [`skills/gsp/`](../../registry-fleet/) tidak terdaftar di `skills.external_dirs` satu profil pun (16/17 kehilangan trio;
   worker selamat hanya karena fallback baca path registry manual). Jalur benar:
   `COLUMNS=300 hermes -p <profil> skills list --enabled-only` (nama utuh, elipsis kolom CLI bisa
   menggagankan pencocokan substring -> pakai grep nama penuh). Jaring mekanis: blok-F instrumen
@@ -386,7 +386,7 @@ jalur normal.
 - `gsp-orchestrator-worker` (user-owned) — full orchestration phase model
   (decompose → assign → execute → verify) that this execution layer implements.
 - `gsp-fleet-profile-operations` (+ its
-  `skills/gsp/gsp-fleet-profile-operations/references/fleet-dispatch-health.md`) —
+  [`skills/gsp/gsp-fleet-profile-operations/references/fleet-dispatch-health.md`](../../registry-fleet/gsp-fleet-profile-operations/references/fleet-dispatch-health.md)) —
   bridge launcher, fleet gateway watchdog, credential/env sync, dispatch
   verification recipe.
 
@@ -398,12 +398,12 @@ kata kerja eksplisit user; (3) verifier menguji artefak akhir terhadap DUMP sumb
 butir per butir - speks controller bukan alat ukur desain; (4) keluhan visual user =
 sinyal pulih-sistem-sumber, dilarang tambal gejala dengan kosakata lokal baru;
 (5) daftar delta-terizinkan pada gerbang fidelity tidak boleh memuat elemen kontrak.
-Detail + preseden pencabutan RevC: `references/design-contract-drift.md` (D-INT-11).
+Detail + preseden pencabutan RevC: [`references/design-contract-drift.md`](references/design-contract-drift.md) (D-INT-11).
 
 ## Knowledge-baseline architecture gate (WAJIB, kebijakan 09-09; preseden IMS-WMS-DRP-0908)
-Setiap tugas dokumen dasar-pengetahuan / baseline kuantitas / kajian multi-sumber WAJIB memuat dan menjalankan `references/knowledge-baseline-architecture.md` sebelum blueprint TA: organisasi bab PER-SUBSISTEM (bukan per-dokumen-sumber), SATU rantai hitung beku dengan angka naskah terikat register + sidik jari, rel bukti per paragraf, silsilah dokumen + tabel angka ditarik, temuan audit terbit, lembar verifikasi akhir, routing pembaca, data mentah sebagai BERKAS KERJA menyertai (bukan dump di badan), cek KESEGARAN KORPUS (R-10) sebelum beku, dan gerbang V-SUSUN (R-11) sebelum serah. Vonis "susunan tidak profesional" dari user = sinyal kelas ini: diff artefak vs anatomi 14 bagian dulu, tambal arsitekturnya (kartu TA), jangan tambal gejala di rakit.
+Setiap tugas dokumen dasar-pengetahuan / baseline kuantitas / kajian multi-sumber WAJIB memuat dan menjalankan [`references/knowledge-baseline-architecture.md`](references/knowledge-baseline-architecture.md) sebelum blueprint TA: organisasi bab PER-SUBSISTEM (bukan per-dokumen-sumber), SATU rantai hitung beku dengan angka naskah terikat register + sidik jari, rel bukti per paragraf, silsilah dokumen + tabel angka ditarik, temuan audit terbit, lembar verifikasi akhir, routing pembaca, data mentah sebagai BERKAS KERJA menyertai (bukan dump di badan), cek KESEGARAN KORPUS (R-10) sebelum beku, dan gerbang V-SUSUN (R-11) sebelum serah. Vonis "susunan tidak profesional" dari user = sinyal kelas ini: diff artefak vs anatomi 14 bagian dulu, tambal arsitekturnya (kartu TA), jangan tambal gejala di rakit.
 ## Standar manual pembelajaran personal (WAJIB, kebijakan 10-10 rev B; vonis user RAFIF-MANUAL-FINAL-1009)
-Setiap tugas menyusun manual/panduan belajar untuk pembaca bernama (seri Rafif dan sejenisnya) WAJIB memuat dan menjalankan `references/professional-manual-standard.md` (STD-MANUAL-PRO-001 rev B) sebelum blueprint TA: pembaca profesional muda (nol bingkai usia/Anki/kotak orang tua); BAHASA MENGIKUTI INSTRUKSI MISI (ID/EN - yang distandarkan cara kalimat disusun dan cara ilustrasi dipakai, bukan bahasanya); bab halus 25-30 + judul seksi deklaratif + benang proyek bernama; CARA KALIMAT (§C: satu kalimat satu gerakan, kontras paralel, imperatif penuntun, retoris-kait, larangan potongan beranting, irama 11-14 kata); CARA ILUSTRASI (§D: prosa mengalamatkan figur, caption = pesan berdiri sendiri, tabel sebagai alat, blok derivasi, >=1 figur/2,5 hal, prioritas data terukur); badan bersih (0 sitasi-inline/URL mentah; provenans SOURCE+margin+Referensi); kurasi register vonis; gerbang GR-PRO ukur pada teks terbit + uji rasa buta DI MUKA rantai (bab sampel dulu, bukan di ujung).
+Setiap tugas menyusun manual/panduan belajar untuk pembaca bernama (seri Rafif dan sejenisnya) WAJIB memuat dan menjalankan [`references/professional-manual-standard.md`](references/professional-manual-standard.md) (STD-MANUAL-PRO-001 rev B) sebelum blueprint TA: pembaca profesional muda (nol bingkai usia/Anki/kotak orang tua); BAHASA MENGIKUTI INSTRUKSI MISI (ID/EN - yang distandarkan cara kalimat disusun dan cara ilustrasi dipakai, bukan bahasanya); bab halus 25-30 + judul seksi deklaratif + benang proyek bernama; CARA KALIMAT (§C: satu kalimat satu gerakan, kontras paralel, imperatif penuntun, retoris-kait, larangan potongan beranting, irama 11-14 kata); CARA ILUSTRASI (§D: prosa mengalamatkan figur, caption = pesan berdiri sendiri, tabel sebagai alat, blok derivasi, >=1 figur/2,5 hal, prioritas data terukur); badan bersih (0 sitasi-inline/URL mentah; provenans SOURCE+margin+Referensi); kurasi register vonis; gerbang GR-PRO ukur pada teks terbit + uji rasa buta DI MUKA rantai (bab sampel dulu, bukan di ujung).
 
 Preseden cacat terukur: bagian C/E/G berkas itu.
 ## Riwayat
@@ -420,14 +420,14 @@ Preseden cacat terukur: bagian C/E/G berkas itu.
 - 1.8.7 (2026-10-09, kartu t_53771501, misi RTTA-IMPROVE-1009 K3): sinkron distribusi tiga lokasi hasil K1+K2 dengan merge dua arah - blok [KELAS-BEBAN-1009] dari kanonik dipertahankan; pitfall RAFIF-MF-1009 dari registry fleet dan tiga pitfall PSIKOTES-1008 + entri 1.8.6 dari salinan fisik gspuser02 dinaikkan apa adanya ke kanonik (distributor bukan penulis); references/kelas-beban-rt.md didistribusikan ke registry fleet + 15 profil pemegang; frontmatter 1.8.5->1.8.7.
 - 1.8.6 (2026-10-08, controller PSIKOTES-1008): tiga pitfall baru dari misi paket psikotes - (1) gerbang audit deterministik generator kartu batch vs daftar langkah blueprint (kasus langkah 16 terlewat, D-09); (2) larangan kartu QC dibuat dengan parent hanya kartu done + pola pemulihan block-gerbang-input (kasus L20); (3) pola tiga langkah direktif user penengah parameter desain (steering run + varian berkas baru ber-DELTA + gerbang review dipindah; preseden D-07 durasi 120->40').
 - 1.8.5 (2026-10-07, kartu t_8505ac23): promosi global PUTUSAN USER PROMOSI-GLOBAL-1007 - 33 berkas lampiran profil-lokal gsp-master01 dinaikan apa adanya ke registry fleet dan kanonik (30 referensi kelas misi era 03-10..07-10: saturation-denominator*, naturalization-gate*, corpus-read*/full-corpus*, controller-*, readability*, human-*style*, layout-gate-pgsz, max-compute, writer-card-budget, heavy-builder, late-sweep, freshness-delta, focus-wave, research-lane, resume-wave, scope-gate-cpa, prose-standard, gate-passing-data, document-readability; 2 skrip watch_cards.py + watch_cards_terminal.py; 1 templat board-mover-watch.py). Isi butir tidak disunting (distributor bukan penulis). Sensus penerima + vonis RBAC: docs/2026-10-07-promosi-global-1007/skill_distribution.md.
-- 1.8.1 (2026-09-21, kartu t_d57cb041): tambah `references/saturation-gate-sweep-lanes.md`
+- 1.8.1 (2026-09-21, kartu t_d57cb041): tambah [`references/saturation-gate-sweep-lanes.md`](references/saturation-gate-sweep-lanes.md)
   -- gerbang jenuh per lajur riset terpadu (vonis jenuh ber-angka, tabel LADDER per lajur,
   CAPPED-with-evidence sebagai permohonan putusan ke controller). Rujukan wajib kartu TA
   dan kartu lajur untuk misi riset multi-lajur.
-- 1.8.2 (2026-09-21, kartu t_b3a3b788): aliran balik fleet->kanonik atas temuan distribusi t_9c2fc795. F-02: varian lama tergusur di gsp-master01 (pola misi SAPUAN BERGATE JENUH, IPDR-GLOBAL-0912, byte-verbatim sha 70226909..ed18f) diangkat utuh menjadi `references/saturation-sweep-mission-frame.md` sebagai kerangka MISI (registri kanonis pembilang tunggal; merge delta-only single-writer; kendali mutu controller; gerbang persetujuan user; mekanika dispatch; format cek progres) yang dilapis `references/saturation-gate-sweep-lanes.md` untuk vonis per lajur. F-01: 8 referensi fleet-only dipromosikan apa adanya ke kanonik (batch-card-dag-execution; kanban-lad-guard; mission-cancel-teardown; verdict-disposition-and-wake-gate; verdict-sahkan-spot-audit; skill-knowledge-jury-simulation; skill-simulation-jury; jury-simulation-rerun-and-leak-gates). F-04: dua berkas fleet lebih baru dari kanonik dialirkan balik (gate-cache-pitfalls +bug kunci sheet v7e; hq-dispatch-bridge-quirks +gerbang force-done build-tua).
+- 1.8.2 (2026-09-21, kartu t_b3a3b788): aliran balik fleet->kanonik atas temuan distribusi t_9c2fc795. F-02: varian lama tergusur di gsp-master01 (pola misi SAPUAN BERGATE JENUH, IPDR-GLOBAL-0912, byte-verbatim sha 70226909..ed18f) diangkat utuh menjadi [`references/saturation-sweep-mission-frame.md`](references/saturation-sweep-mission-frame.md) sebagai kerangka MISI (registri kanonis pembilang tunggal; merge delta-only single-writer; kendali mutu controller; gerbang persetujuan user; mekanika dispatch; format cek progres) yang dilapis [`references/saturation-gate-sweep-lanes.md`](references/saturation-gate-sweep-lanes.md) untuk vonis per lajur. F-01: 8 referensi fleet-only dipromosikan apa adanya ke kanonik (batch-card-dag-execution; kanban-lad-guard; mission-cancel-teardown; verdict-disposition-and-wake-gate; verdict-sahkan-spot-audit; skill-knowledge-jury-simulation; skill-simulation-jury; jury-simulation-rerun-and-leak-gates). F-04: dua berkas fleet lebih baru dari kanonik dialirkan balik (gate-cache-pitfalls +bug kunci sheet v7e; hq-dispatch-bridge-quirks +gerbang force-done build-tua).
 - 1.8.3 (2026-10-05, kartu t_c6721813): aturan 15 anti crash-loop review pada kartu penulis
   naskah (pola life-cycle RAFAI-1004 D-20 disahkan manager t_21314a56) + referensi baru
-  `references/review-lane-crash-loop.md` (tabel event papan t_bff41a2e, vonis jebakan kernel
+  [`references/review-lane-crash-loop.md`](references/review-lane-crash-loop.md) (tabel event papan t_bff41a2e, vonis jebakan kernel
   request_review di state review, pola sah result STATUS langsung + kartu editor terpisah
   ber-parent, batas force-done D-16). Catatan kernel: perbaikan sejati di dispatcher
   (spawn reviewer kartu `review` tanpa run_id sah), tiket traceroot ke gsp-system-manager.

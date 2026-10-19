@@ -50,4 +50,4 @@ Scanner DOCX memperlakukan SEMUA paragraf berurutan (termasuk heading dan baris 
 
 ## Template
 
-`templates/build_report_docx.py` - kerangka builder generik (sampul tabel, TOC tabel, H/P/make_table/banner verifikasi/footer PAGE) siap salin-modifikasi.
+[`templates/build_report_docx.py`](templates/build_report_docx.py) - kerangka builder generik (sampul tabel, TOC tabel, H/P/make_table/banner verifikasi/footer PAGE) siap salin-modifikasi.

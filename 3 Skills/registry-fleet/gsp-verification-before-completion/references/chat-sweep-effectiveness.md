@@ -7,7 +7,7 @@ dihasilkan agen** setelah rollout. Ini satu-satunya cara jujur menjawab "apakah 
 ## Pola yang terbukti jalan
 
 Satu skrip deterministik milik controller (bukan dikerjakan worker via tool call):
-`C:/Users/TRIAL/workspace/gsp-hermes/scripts/scan_chat_sweep_20260902.py`
+[`C:/Users/TRIAL/workspace/gsp-hermes/scripts/scan_chat_sweep_20260902.py`](../../../../7%20Tools/scripts-repo-gsp-hermes/scan_chat_sweep_20260902.py)
 (args: `--n --min-chars --since --sessions-started-after --window-label --stores --json-out --report --heavy-limit`)
 
 1. **Impor scanner resmi sebagai modul** (`importlib.util.spec_from_file_location` ke

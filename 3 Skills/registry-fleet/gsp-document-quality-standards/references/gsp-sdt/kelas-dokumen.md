@@ -43,7 +43,7 @@ bersama-sama, jangan pakai nama kelas lintas rezim.
    nama, klasifikasi awal, dan bobot mengikat bersamaan.
 2. Nyatakan `kelas` + `bobot` pada blok identitas / header-metadata (kolom `status` tetap
    `complete|blocked|needs-review|failed` per Module L.2).
-3. Sebelum terbit: seluruh titik uji bobot kelas terpenuhi + checklist `checklist-pra-terbit.md`
+3. Sebelum terbit: seluruh titik uji bobot kelas terpenuhi + checklist [`checklist-pra-terbit.md`](checklist-pra-terbit.md)
    (gerbang C-23 - satu butir wajib gagal = TAHAN terbit).
 4. Angka total bobot yang dikutip ke dokumen akhir wajib menyebut rezim (67 vs 66) - sumber:
    Tabel 4.1 rezim terkait.

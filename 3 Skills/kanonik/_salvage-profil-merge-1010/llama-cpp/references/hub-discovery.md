@@ -57,7 +57,7 @@ Extract, in order:
 
 Treat the HF local-app snippet as the source of truth when it is visible.
 
-Do this by reading the URL itself, not by assuming the UI rendered in a browser. If the fetched page source does not expose `Hardware compatibility`, say that the section was not text-visible and fall back to the tree API plus generic guidance from `quantization.md`.
+Do this by reading the URL itself, not by assuming the UI rendered in a browser. If the fetched page source does not expose `Hardware compatibility`, say that the section was not text-visible and fall back to the tree API plus generic guidance from [`quantization.md`](quantization.md).
 
 ## 3. Confirm exact files from the tree API
 
@@ -164,5 +164,5 @@ Projector:
 
 - Repo-specific quant labels matter. Do not rewrite `UD-Q4_K_M` to `Q4_K_M` unless the page itself does.
 - `mmproj` files are projector weights for multimodal models, not the main language model checkpoint.
-- If the HF hardware compatibility panel is missing because the user has no hardware profile configured, or because the fetched page source did not expose it, still use the tree API plus generic quant guidance from `quantization.md`.
+- If the HF hardware compatibility panel is missing because the user has no hardware profile configured, or because the fetched page source did not expose it, still use the tree API plus generic quant guidance from [`quantization.md`](quantization.md).
 - If the repo already has GGUFs, do not jump straight to conversion workflows.

@@ -25,7 +25,7 @@ Detail organisasi knowledge IL (commit `e1941ff`, 25-08-2026) di
 | `docs/00_INDEX` · `AGENTS.md` · `MEMORY.md` | core | — |
 | `docs/02_PROJECT` | docs | — |
 | `docs/03_REFERENCE` | reference | — |
-| `docs/standards`, `docs/_inbox` (non-date) | docs | — |
+| [`docs/standards`](../../../../1%20Workflow/standar-operasi/), `docs/_inbox` (non-date) | docs | — |
 | `vault/<perkara>/…` | library | perkara |
 | `memory/**` | operations | — |
 | entri wiki (HermesMemory) | wiki | — |

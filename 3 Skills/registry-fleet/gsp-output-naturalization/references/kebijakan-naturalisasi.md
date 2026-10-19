@@ -150,7 +150,7 @@ NAT-S23 atas kandidat NAT-HIL-E3 (`contract.md` seksi rekonsiliasi, disposition 
 |---|---|---|
 | Module H | Aturan lengkap voice/kalimat/paragraf/kosakata/angka GSP (H.1-H.7) | `$LOCALAPPDATA/hermes/skills/gsp/gsp-document-quality-standards/SKILL.md:594-923` |
 | Humanizer engine | Taksonomi 34 pola jejak AI, v2.5.1, MIT @blader (dikutip, tidak disalin, engine read-only D14) | `$LOCALAPPDATA/hermes/skills/creative/humanizer/SKILL.md` |
-| Matriks sweep | Metode scan per format, aturan penggantian, kontrol merah-hijau, pola klaim cakupan | `$LOCALAPPDATA/hermes/skills/gsp/gsp-verification-before-completion/references/ai-footprint-sweep.md` |
+| Matriks sweep | Metode scan per format, aturan penggantian, kontrol merah-hijau, pola klaim cakupan | [`$LOCALAPPDATA/hermes/skills/gsp/gsp-verification-before-completion/references/ai-footprint-sweep.md`](../../gsp-verification-before-completion/references/ai-footprint-sweep.md) |
 | Spesifikasi RT | Definisi operasional penuh, tabel A1-A7/B1-B9 + ambang, kriteria S/C | `workspace/docs/2026-09-02-naturalisasi-output/identification/01_translated.md` |
 | Blueprint TA + adopsi SM | DAG 30 langkah, D-TA-01..D-TA-10, basis profil resmi 53 | `workspace/docs/2026-09-02-naturalisasi-output/identification/02_structured.md` + `contract.md` seksi 4b |
 

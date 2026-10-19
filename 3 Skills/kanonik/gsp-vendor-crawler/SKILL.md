@@ -27,8 +27,8 @@ description: "Workflow intelijen vendor/expo berbasis region: pipeline 6 tahap b
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../../registry-fleet/gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -130,7 +130,7 @@ Aturan umum yang mengikat seluruh pipeline:
 6. **Fan-out multi-alat (WF-CRAWL-0911 D-06)** — pencarian Stage 1 lewat
    SearXNG `:8080`; ekstraksi/render/sitemap-sweep Stage 2-4 disebarkan paralel
    ke Firecrawl `:3002` DAN crawl4ai, hasil KUMPUL -> DEDUP
-   (`scripts/dedup_harvest.py`) -> unique -> analisa; fallback ddgs/keyless/cloud
+   ([`scripts/dedup_harvest.py`](scripts/dedup_harvest.py)) -> unique -> analisa; fallback ddgs/keyless/cloud
    hanya untuk alat mati terbukti, tercatat di crawl_log
    (seksi NORMA FAN-OUT MULTI-ALAT).
 
@@ -141,9 +141,9 @@ Aturan umum yang mengikat seluruh pipeline:
 Pencarian dan ekstraksi pipeline ini berjalan default di mesin lokal self-hosted
 GSP. Seksi ini kontrak pengikat antar tahap; resep eksekusi TIDAK diduplikasi
 di sini (J.9 / D-TA-01 reference-don't-duplicate) — sumber kebenaran tunggal
-detail eksekusi adalah skill kanonik `skills/gsp/gsp-searxng/SKILL.md`
-(§PARALEL + SEBAR ENGINE), `skills/gsp/gsp-firecrawl/SKILL.md` (§PARALEL), dan
-`skills/gsp/gsp-crawl4ai/SKILL.md` (§PENGGUNAAN PRODUKSI). Mesin lokal adalah
+detail eksekusi adalah skill kanonik [`skills/gsp/gsp-searxng/SKILL.md`](../../registry-fleet/gsp-searxng/SKILL.md)
+(§PARALEL + SEBAR ENGINE), [`skills/gsp/gsp-firecrawl/SKILL.md`](../../registry-fleet/gsp-firecrawl/SKILL.md) (§PARALEL), dan
+[`skills/gsp/gsp-crawl4ai/SKILL.md`](../../registry-fleet/gsp-crawl4ai/SKILL.md) (§PENGGUNAAN PRODUKSI). Mesin lokal adalah
 mekanisme, bukan otoritas sumber: hierarki 4 kategori sumber (grill G-6) dan
 citation per record (D.5) tidak berubah.
 
@@ -645,7 +645,7 @@ Jika versi lokal vs EN **tidak sepadan** (tanggal/venue/daftar berbeda):
 Rule 2 adalah mekanisme grill runtime untuk informasi crawl yang tidak lengkap.
 Ia hidup **SEBAGAI SEKSI dalam skill ini** — bukan companion skill terpisah
 (scope decision; DP-9). Anatomi pola mengadopsi precedent
-`skills/gsp/gsp-design-system-grill/SKILL.md` L52-171 (bounded session, Wave 1 → Wave 2,
+[`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) L52-171 (bounded session, Wave 1 → Wave 2,
 sufficiency, defaults, gate) — **cite-only, J.9**: pola diadopsi, body tidak
 disalin. Protokol satu sesi bounded → batch presentasi → stop-on-sufficiency →
 rekap jawaban + asumsi → lanjut crawl. TIDAK ada re-grill per record
@@ -986,10 +986,10 @@ output/vendor_crawler/<region>/
 ## Standards Compliance (Cite-Only — J.9 Zero Duplication)
 
 Skill ini adalah **assembly/reference content**. Seluruh standar kualitas
-dirujuk via anchor ke `skills/gsp/gsp-document-quality-standards/SKILL.md` — TIDAK
+dirujuk via anchor ke [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) — TIDAK
 pernah menyalin body aturannya (Module J.9: "Module J MENGUTIP/MELUNAKKAN
 Module D/H/I — tidak pernah menulis ulang body aturannya"). Anatomi grill
-dirujuk ke `skills/gsp/gsp-design-system-grill/SKILL.md` (L52-171 — bounded session,
+dirujuk ke [`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) (L52-171 — bounded session,
 Wave 1 → Wave 2, sufficiency, defaults). Jika sebuah aturan dibutuhkan,
 arahkan ke sumbernya — jangan menyalin isinya ke skill ini.
 
@@ -1004,15 +1004,15 @@ arahkan ke sumbernya — jangan menyalin isinya ke skill ini.
 | Module J — Pre-Creation Spec Analysis | `## Module J` → L1389+ | Struktur spec-producing agent |
 | Module J.4 — Flexibility Layer (range+variance) | `J.4` → L1449–1523 | Anti-padding/line-budget guardrail |
 | Module J.9 — How Module J Is Used | `J.9` → L1640–1641 | Pengaturan anti-duplikasi skill ini |
-| Grill anatomy — bounded probing | `skills/gsp/gsp-design-system-grill/SKILL.md` → L52–171 | Rule 2 (Wave 1/2, sufficiency, defaults, gate) |
-| Delegation protocol + worker isolation | `skills/gsp/gsp-orchestrator-worker/SKILL.md` → Phase 0 (Task Analysis & Decomposition), Phase 0c (Worker Assignments & Overlap Check), Phase 0d (Parallel Output Isolation), Phase 2 (Execute Workers) | O.2 lifecycle + single allocator; O.3 konkurensi; O.4 worker staging isolation |
-| Waves + checkpoint / bounded replan | `skills/gsp/gsp-plan-and-execute/SKILL.md` → Phase 1 (Decompose into Phases), Phase 2 (Execute Phases Sequentially), Phase 3 (Replan on Checkpoint Failure) | O.3 wave model + bounded waves; O.2 failure handling retry ≤2 |
-| State persistence + resume | `skills/gsp/gsp-checkpoint-resume/SKILL.md` → Phase 1 (Create Checkpoint), Phase 2 (Resume from Checkpoint) | O.2 checkpoint per unit; O.2.4 status `VENDOR_CRAWL_UNIT_STARTED` |
-| Bounded grill session | `skills/gsp/gsp-design-system-grill/SKILL.md` → L52–171 | O.5.4 single grill channel (≤1 sesi bounded) |
+| Grill anatomy — bounded probing | [`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) → L52–171 | Rule 2 (Wave 1/2, sufficiency, defaults, gate) |
+| Delegation protocol + worker isolation | [`skills/gsp/gsp-orchestrator-worker/SKILL.md`](../../registry-fleet/gsp-orchestrator-worker/SKILL.md) → Phase 0 (Task Analysis & Decomposition), Phase 0c (Worker Assignments & Overlap Check), Phase 0d (Parallel Output Isolation), Phase 2 (Execute Workers) | O.2 lifecycle + single allocator; O.3 konkurensi; O.4 worker staging isolation |
+| Waves + checkpoint / bounded replan | [`skills/gsp/gsp-plan-and-execute/SKILL.md`](../../registry-fleet/gsp-plan-and-execute/SKILL.md) → Phase 1 (Decompose into Phases), Phase 2 (Execute Phases Sequentially), Phase 3 (Replan on Checkpoint Failure) | O.3 wave model + bounded waves; O.2 failure handling retry ≤2 |
+| State persistence + resume | [`skills/gsp/gsp-checkpoint-resume/SKILL.md`](../../registry-fleet/gsp-checkpoint-resume/SKILL.md) → Phase 1 (Create Checkpoint), Phase 2 (Resume from Checkpoint) | O.2 checkpoint per unit; O.2.4 status `VENDOR_CRAWL_UNIT_STARTED` |
+| Bounded grill session | [`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) → L52–171 | O.5.4 single grill channel (≤1 sesi bounded) |
 
 Aturan: setiap penggunaan standar = **situsi** (anchor), bukan re-statement.
 Jika sebuah aturan dibutuhkan oleh user/output, arahkan ke
-`skills/gsp/gsp-document-quality-standards/SKILL.md` — jangan menyalin isinya ke
+[`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md) — jangan menyalin isinya ke
 artefak output.
 
 ---
@@ -1171,7 +1171,7 @@ section-name, bukan salinan kontrak — J.9):
 
 Lifecycle delegasi: **decompose → assign → execute → merge**. Protokol ini
 adalah inti orkestrasi; arsitektur pola delegasi diadopsi cite-only dari
-`skills/gsp/gsp-orchestrator-worker/SKILL.md` (Phase 0 Task Analysis & Decomposition;
+[`skills/gsp/gsp-orchestrator-worker/SKILL.md`](../../registry-fleet/gsp-orchestrator-worker/SKILL.md) (Phase 0 Task Analysis & Decomposition;
 Phase 0c Worker Assignments & Overlap Check; Phase 2 Execute Workers) — J.9,
 body tidak disalin. (AC-7.2.1)
 
@@ -1215,7 +1215,7 @@ diubah (regression preservation; specialist tetap murni worker). Mirror
 
 | Status | Makna | Aksi orchestrator |
 |--------|-------|-------------------|
-| `VENDOR_CRAWL_UNIT_STARTED` | Worker mulai eksekusi unit | Catat di unit registry + checkpoint (pola `skills/gsp/gsp-checkpoint-resume/SKILL.md` Phase 1 — cite-only) |
+| `VENDOR_CRAWL_UNIT_STARTED` | Worker mulai eksekusi unit | Catat di unit registry + checkpoint (pola [`skills/gsp/gsp-checkpoint-resume/SKILL.md`](../../registry-fleet/gsp-checkpoint-resume/SKILL.md) Phase 1 — cite-only) |
 | `VENDOR_CRAWL_UNIT_COMPLETE` | Unit selesai, staging payload utuh | Merge seri (append + idempotent upsert) |
 | `VENDOR_CRAWL_UNIT_PARTIAL` | Unit selesai dengan `data_quality_flag=partial` + gap list | Antrian focused recrawl (seksi O.5); gap TIDAK di-merge sebagai complete |
 | `VENDOR_CRAWL_UNIT_FAILED` | Worker gagal di tengah unit | Retry idempotent `unit_id` SAMA ≤2 → mark failed + re-delegate (atau `-local`); hasil parsial TIDAK di-merge |
@@ -1368,7 +1368,7 @@ sumber belum cross-check. Urutan ini dipakai antrian queue (seksi O.3.4).
 ### O.5.4 Single Grill Channel (invariant)
 
 Orchestrator memegang **satu-satunya** channel grill (Rule 2 E.1–E.4 di-cite,
-section-name + pola `skills/gsp/gsp-design-system-grill/SKILL.md` L52-171 bounded
+section-name + pola [`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) L52-171 bounded
 session — cite-only, J.9). Worker HANYA melaporkan gap
 (`VENDOR_CRAWL_UNIT_PARTIAL` + gap list), TIDAK pernah bertanya ke user.
 Jika gap membutuhkan keputusan user → orchestrator melakukan **≤1 sesi grill
@@ -1474,10 +1474,10 @@ compliance respectful crawling (RFC 9309 robots gate cache <=24 jam / parse
 tahap 6 (SQLite vendor_info.db 12 entitas + export.json + summary.md 7 seksi +
 citation_manifest.json di output/vendor_crawler/<region>/); kedalaman DEEP;
 goals kombinasi kuantitatif+kualitatif; sumber 4 kategori dengan hierarki
-authority. Standar kualitas: `skills/gsp/gsp-document-quality-standards/SKILL.md`
+authority. Standar kualitas: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../../registry-fleet/gsp-document-quality-standards/SKILL.md)
 (Module D L349, E L412, H L591-990, H.6 L866-905, H.6.2 L879-896, I L992+,
 J L1389+, J.4 L1449-1523, J.9 L1640-1641). Anatomi grill:
-`skills/gsp/gsp-design-system-grill/SKILL.md` L52-171. Cite-only (J.9);
+[`skills/gsp/gsp-design-system-grill/SKILL.md`](../../registry-fleet/gsp-design-system-grill/SKILL.md) L52-171. Cite-only (J.9);
 project-agnostic.*
 
 
@@ -1490,7 +1490,7 @@ project-agnostic.*
   pencarian SearXNG `:8080` tetap primer Stage 1; ekstraksi Stage 2-4 disebarkan
   paralel ke Firecrawl `:3002` DAN crawl4ai (venv produksi) — bukan fallback
   berjenjang; lapis KUMPUL -> DEDUP -> unique -> analisa lewat skrip baru
-  `scripts/dedup_harvest.py` (kunci URL ternormalisasi + sha256 konten;
+  [`scripts/dedup_harvest.py`](scripts/dedup_harvest.py) (kunci URL ternormalisasi + sha256 konten;
   deterministik+idempoten, teruji fixture 6 rekaman -> 4 unik, byte-identik
   antar run dan antar urutan input); plafon lintas-alat <=8 lane/misi
   (firecrawl N=4/pekerja, crawl4ai <=2 proses/pekerja); tangga fallback lama

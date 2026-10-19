@@ -18,9 +18,9 @@ Skill TIPIS sesuai D-TA-01: reference-don't-duplicate. Aturan lengkap tinggal di
 asalnya (Module H, humanizer, matriks sweep); skill ini merangkai definisi operasional,
 default register, ambang agregasi, prosedur gerbang, dan cara panggil scanner. Detail
 kanal penuh, daftar pengecualian, format catatan override, dan resolusi en dash ada di
-`references/kebijakan-naturalisasi.md` (dibangun kartu NAT-S8); empat pelajaran misi
+[`references/kebijakan-naturalisasi.md`](references/kebijakan-naturalisasi.md) (dibangun kartu NAT-S8); empat pelajaran misi
 GAYA-AHLI-1005 (kanal resmi 'standar', worker-mati-setelah-artefak, pin-komentar-vs-artefak,
-reshoot-sempit dua juri) ada di `references/pelajaran-gaya-ahli-1005.md`. Engine
+reshoot-sempit dua juri) ada di [`references/pelajaran-gaya-ahli-1005.md`](references/pelajaran-gaya-ahli-1005.md). Engine
 `creative/humanizer` read-only (D14): dikutip, tidak disalin, tidak diedit (D-TA-03).
 
 ## When to Use
@@ -46,14 +46,14 @@ reshoot-sempit dua juri) ada di `references/pelajaran-gaya-ahli-1005.md`. Engine
   WAJIB naturalisasi penuh karena berpotensi dibawa ke direksi/klien.
   Daftar pengecualian penuh: seksi 3.2 spesifikasi RT
   (`docs/2026-09-02-naturalisasi-output/identification/01_translated.md`, salin ke
-  `references/kebijakan-naturalisasi.md` di NAT-S8).
+  [`references/kebijakan-naturalisasi.md`](references/kebijakan-naturalisasi.md) di NAT-S8).
 
 ## Sumber rujukan kanonik (pointer, jangan disalin)
 | Rumah | Isi | Lokasi |
 |---|---|---|
-| Module H | Standar anti-AI writing GSP (voice, kalimat, paragraf, kosakata, angka) | `$LOCALAPPDATA/hermes/skills/gsp/gsp-document-quality-standards/SKILL.md` baris 594-923 |
+| Module H | Standar anti-AI writing GSP (voice, kalimat, paragraf, kosakata, angka) | [`$LOCALAPPDATA/hermes/skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) baris 594-923 |
 | Humanizer | Taksonomi 34 pola jejak AI, v2.5.1, MIT @blader (dikutip, engine read-only) | `$LOCALAPPDATA/hermes/skills/creative/humanizer/SKILL.md` |
-| Matriks sweep | Metode scan per format + aturan penggantian + laporan wajib | `$LOCALAPPDATA/hermes/skills/gsp/gsp-verification-before-completion/references/ai-footprint-sweep.md` |
+| Matriks sweep | Metode scan per format + aturan penggantian + laporan wajib | [`$LOCALAPPDATA/hermes/skills/gsp/gsp-verification-before-completion/references/ai-footprint-sweep.md`](../gsp-verification-before-completion/references/ai-footprint-sweep.md) |
 | Spesifikasi RT | Definisi operasional, kanal K1-K6, A1-A7/B1-B9, override | `workspace/docs/2026-09-02-naturalisasi-output/identification/01_translated.md` |
 | Keputusan | D-TA-01..D-TA-10 (adopt), basis profil 53 | `workspace/docs/2026-09-02-naturalisasi-output/contract.md` seksi 4b |
 
@@ -272,7 +272,7 @@ C-26/C-27/C-28/C-33 + mekanisme D18; dicoret permanen: C-30/C-31/C-32/C-34
 | - | Whitelist struktural C-14 (M-04): pola boilerplate tertutup (tanda tangan surat, kepala turunan, baris notasi) keluar dari populasi salinan-berlebih; pemeriksaan TIDAK dihapus - narasi dobel tetap FAIL (fixture dua arah) | - | tetap berlaku seperti sebelumnya |
 | BUG | Fix M-05: `frasa_hits` kini regex berbatas kata (sebelumnya substring murni `in`; kasus nyata CH17 `such as an aisle` divonis A4 oleh entri `as an ai`, jalur absolut). Berlaku untuk A4/A5/A6/A7/B4 karena satu fungsi. Cache isi-only deterministik | - | perbaikan vonis, dua arah dijaga selftest |
 | Larangan | M-17: kelas penguat (holistik/sinergi/terdepan/paripurna/pemberdayaan/keberlanjutan/sangat+adjektif) dan kemubaziran sinonim DILARANG masuk daftar hitam pada revisi berikutnya (bukti G3: manusia lebih padat penguat dari fleet - tanpa daya pisah); aturan benar = tagih angka densitas B4 | - | komentar pengaman di kode |
-| Data | M-18: `references/daftar-padanan-wajib.md` - berkas data referensi Manual L4; tiga pasangan berlabel ASSUMPTION (backup/rollback/pipeline + review) dilarang jadi dasar FAIL sampai bukti pakai | - | bukan gerbang |
+| Data | M-18: [`references/daftar-padanan-wajib.md`](references/daftar-padanan-wajib.md) - berkas data referensi Manual L4; tiga pasangan berlabel ASSUMPTION (backup/rollback/pipeline + review) dilarang jadi dasar FAIL sampai bukti pakai | - | bukan gerbang |
 
 Semua check S14 bekerja pada lapis prosa scanner dengan pemecah kanon `sentences_of`
 dan menghormati blok kutipan D18. Temuan struktural Seksi 0 putusan dibukukan: FAIL
@@ -374,7 +374,7 @@ python scripts/scan_ai_footprint.py --selftest   # exit 0 wajib; byte-identik du
 - Kasus-linear penanda D16 (scanner v1.3.0, kartu `t_c79b5f6d`): pola penanda D16 memakai
   kuantifier possessive sehingga baris pemisah panjang (puluhan tanda minus) tidak lagi
   memicu backtracking eksponensial. Regresinya dijaga selftest dengan fixture potongan
-  nyata pesan gsp-custodian `state.db` message id=292 (`scripts/fixtures/regresi-id292.txt`,
+  nyata pesan gsp-custodian `state.db` message id=292 ([`scripts/fixtures/regresi-id292.txt`](scripts/fixtures/regresi-id292.txt),
   isi verbatim, 6753 karakter sumber). Jangan melonggarkan kembali pola itu tanpa mengulang
   uji fixture tersebut.
 - Lapisan ekstraksi HTML (scanner v1.8.1, NAT-GATE-R4, temuan kalibrasi artefak rekap
@@ -395,7 +395,7 @@ python scripts/scan_ai_footprint.py --selftest   # exit 0 wajib; byte-identik du
 - Umur: berlaku sampai user mencabut atau misi/kartu selesai, lalu auto-revert ke formal.
 - Tercatat: wajib di Decision Log kontrak misi dengan format minimal: tanggal, kutipan
   permintaan user, register baru, cakupan (kanal + misi). Format catatan penuh:
-  `references/kebijakan-naturalisasi.md` (NAT-S8).
+  [`references/kebijakan-naturalisasi.md`](references/kebijakan-naturalisasi.md) (NAT-S8).
 - Batas keras: override tidak pernah mengampuni A1/A2 (jejak tipografi D16/D17 tetap nol
   di semua register).
 - Sesi headless: jalankan default formal, catat opsi di komentar kartu (jangan `clarify`).
@@ -481,7 +481,7 @@ python scripts/scan_ai_footprint.py --selftest   # exit 0 wajib; byte-identik du
 - Seksi wajib hadir (kriteria S-4 butir a-f): default register per kanal, A1-A7, B1-B9,
   aturan agregasi D-TA-09, prosedur 4 langkah, cara panggil scanner + prosedur override.
 - Tiap aturan menyebut sumber (baris Module H / pola humanizer / D16-D17 / D-TA-xx).
-- Berkas kebijakan ini dan `references/kebijakan-naturalisasi.md` lolos C-1/C-2/C-3 saat
+- Berkas kebijakan ini dan [`references/kebijakan-naturalisasi.md`](references/kebijakan-naturalisasi.md) lolos C-1/C-2/C-3 saat
   dipindai pada kanal doc; `--require-marker` hanya dijalankan sebagai gate pra-terbit
   deliverable, bukan sebagai vonis pada artefak internal (putusan
   `nat-s9hil-putusan.md` butir 1).
@@ -536,7 +536,7 @@ python scripts/scan_ai_footprint.py --selftest   # exit 0 wajib; byte-identik du
   blok kutipan ber-rujukan), perluasan C-13 (M-12) / C-18 (M-13) / C-20 data sapaan
   (M-16 diserap), whitelist boilerplate C-14 (M-04), fix bug batas kata `frasa_hits`
   (M-05), larangan perluasan daftar hitam penguat (M-17), berkas data
-  `references/daftar-padanan-wajib.md` (M-18). Drift versi internal ditambal:
+  [`references/daftar-padanan-wajib.md`](references/daftar-padanan-wajib.md) (M-18). Drift versi internal ditambal:
   `__version__` skrip 1.8.1 disinkronkan ke 1.9.0 bersama SKILL.md (temuan
   countersign pengawas atas kartu kembar `t_481c2889`). Butir tunda M-06/M-11/M-16
   dan reject M-07/M-14 TIDAK diimplementasikan; C-29/C-32 tidak dialokasikan.

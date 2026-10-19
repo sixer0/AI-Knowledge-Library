@@ -98,5 +98,5 @@ rejected identifiers against the published register (must be 0 hits) and check
 their only appearance is inside the negative-register section with page titles
 recorded. R1b passed this test ("tidak ada yang bocor ke register" = true by
 grep). This is the closure half of the entity-match lesson from
-`vs-gate-countersign-and-entity-type-matcher.md`: not just catching the bad
+[`vs-gate-countersign-and-entity-type-matcher.md`](vs-gate-countersign-and-entity-type-matcher.md): not just catching the bad
 row, but proving it never propagated.

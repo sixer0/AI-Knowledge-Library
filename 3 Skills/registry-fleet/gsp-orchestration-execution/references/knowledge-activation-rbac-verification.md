@@ -39,7 +39,7 @@ manusia lewat akun RBAC, dengan sampel acak yang sah. Preseden: VSSKB-0923 (23-0
 
 Marker koreksi/defect yang hanya ditempel di lapis HILIR (wiki, Information Library)
 TIDAK sampai ke jawaban agen, karena agen menempuh rute memori ke lapis SUMBER
-(korpus `ekas/`). Perbaikan harus dipropagasi ke SEMUA lapis yang benar-benar dibaca
+(korpus [`ekas/`](../../../../4%20Knowledge%20Bank/ekas-lapis-teks/)). Perbaikan harus dipropagasi ke SEMUA lapis yang benar-benar dibaca
 agen menurut rute, lalu diverifikasi grep pada lapis itu - bukan pada lapis promosi.
 Ini penerapan SPK-002 butir 7 (tambal gerbang/lapis penyebab, bukan gejala hilir).
 Kartu FIX terpisah per lapis (di sini: FIX-EKAS hanya-tambah dengan penjaga subsequence

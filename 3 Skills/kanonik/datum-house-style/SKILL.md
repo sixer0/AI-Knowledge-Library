@@ -27,7 +27,7 @@ v1.8 Rev J. Mesin Rev J dan tokens.json 1.8 tidak ada di disk (vonis probe
 05-10: 0 hit pada lima root). Setiap butir paket menunjuk sumbernya sendiri
 (lihat kolom Provenans pada DAFTAR INSTRUMEN di bawah): spesifikasi 000/001
 RevA, register ukur M01, garis builder DATMANUAL terbukti, atau arsip legacy
-(hanya `datumbind.py`). DILARANG mengklaim "restorasi Rev J" pada keluaran
+(hanya [`datumbind.py`](datumbind.py)). DILARANG mengklaim "restorasi Rev J" pada keluaran
 mana pun. Sampai v2.0 lulus verifikasi independen (kartu DHS-VER-06), otoritas
 sementara lapis aturan tetap IL `standars/manual-datum-002-datman-1004`
 (vonis F22-REV4 PASS). Petakan 75 aturan -> instrumen adalah GAP-10, milik
@@ -61,29 +61,29 @@ builder. Speks: <ws>/docs/2026-10-08-adint-proposal-1008/SPEKS-RAIL-1008.md.
 
 ## DAFTAR INSTRUMEN (final v2.1.0)
 
-Semua instrumen token-driven: palet/wajah/grid dibaca dari `tokens.json` lewat
+Semua instrumen token-driven: palet/wajah/grid dibaca dari [`tokens.json`](tokens.json) lewat
 resolver `datumbind.tokens_path()` — tidak ada heks/nama font hardcoded di modul
 (checked oleh selftest). Interpreter nyata host ini: pola `uv` di bawah.
 
 | # | Instrumen | Fungsi | Cara pakai | Provenans (sumber) | Gerbang jalan |
 |---|---|---|---|---|---|
-| 1 | `tokens.json` | Token palet/tipografi/grid TUNGGAL; bila prosa dan token bertentangan, token menang | dibaca lewat `tokens_path()`, jangan hardcode | builder DATMANUAL (build_manual_datum.py baris 42-67), build_contoh_datum_docx.py baris 29-46, spec 000 RevA Tabel 3.2-3.5; provenans per seksi di dalam berkas | DHS-RB-01; regex nol-hex selftest_builder CHECK G1 |
-| 2 | `datumbind.py` | Register / Derivation / audit_docx / audit_retired + resolver `tokens_path()` | CLI: `uv run --python 3.11 --with python-docx python datumbind.py "Register Kuantitas.json" "<dok>.docx"` (exit 0 semua angka tertelusur; exit 1 stray tercetak); import sebagai modul | promosi verbatim arsip legacy sha `5e7bca7f…652e54` (260 baris) + komentar provenans + limit E-12 + resolver lokal (satu-satunya butir ber-arsip) | `selftest_datumbind.py` dua arah 13 CHECK |
-| 3 | `scripts/datum_lint.py` | Lint berkas .docx rilis: 38 cek DATUM-01..38 (tahap file 27, build 7, eye 4; build/eye tercetak NOT-RUN jujur dengan pemilik tahapnya) | `uv run --python 3.11 --with python-docx python scripts/datum_lint.py <dok.docx>`; uji diri: `... datum_lint.py --selftest`; exit 0 bersih / 1 FAIL / 2 salah pakai | daftar cek = M01 `docs/2026-10-04-datum-manual/measurement/01-instrumen-penegakan.md` §2.1 (salinan Tabel 8.1 spesifikasi 000 RevA, 38 ID unik); rebuild DHS-RB-02 | `--selftest` dua arah: RED basal rusak (`scripts/fixtures_lint/basal_rusak.docx`) exit!=0 + GREEN exit 0 |
-| 4 | `scripts/datumbuku.py` | Lint workbook .xlsx: 23 cek W01..W23 (W19 peringatan, tidak menahan terbit; tiga batas lint §11.3 melekat) | `uv run --python 3.11 --with openpyxl python scripts/datumbuku.py BERKAS.xlsx [--json] [--silent]`; uji diri: `--selftest`; exit 0 bersih / 1 temuan penahan / 2 berkas tak terbaca | Standar_Workbook_DATUM_001-GSP-STD-X-2026_RevA §11.1 (Tabel 11.2) + Lampiran A; arsip bukukerja.py dibaca read-only sebagai contoh bentuk, bukan sumber logika; kalibrasi nol temuan pada spesimen RAB_..._RevA.xlsx; rebuild DHS-RB-03 | `--selftest` dua arah atas `scripts/fixtures_buku/` (bersih + 22 rusak + 1 peringatan) |
-| 5 | `datum_diagram.py` | Engine diagram/infografik: spek JSON -> SVG mm; 9 keluarga/7 mesin layout, 10 bentuk simpul, 6 jenis konektor, geometri terkunci kisi token, apparatus page/figure, penolakan sumber Mermaid | `uv run --python 3.11 python datum_diagram.py spec.json -o out.svg`; flag `--schema --list --estimate --release --json`; exit 1 bila DIAGRAM DEFECT | 000 RevA bab 6 (penanda P1..P7 di header berkas: Tabel 6.1-6.4 baris 656-734, penolakan Mermaid 6.5), M01 2.1 baris 92-105 (cek build DATUM-24..37), register temuan E-08/E-17/E-19/E-20; rebuild DHS-RB-04 | `selftest_datum_diagram.py` dua arah 20 CHECK + `fixtures_diagram/` |
-| 6 | `datum_docx.py` | Builder DOCX token-driven: cover, heading, para, table, derivation, figure; save ber-guard N1 + updateFields + properti inti | import: `from datum_docx import DatumDocx` (tidak ada build saat import, limit E-04); pola pemakaian di docstring berkas | garis builder DATMANUAL terbukti (build_manual_datum.py penghasil docx 100 hal lolos VERIF-final-4 CHECK 1-14; helper diadaptasi verbatim-struktur) + build_contoh_datum_docx.py; kelas builder DHS-RB-05 | `selftest_builder.py` (guard + build nyata + audit COM) |
-| 7 | `datum_xlsx.py` | Builder workbook token-driven: pita klasifikasi dua blok TANPA merged cell, eyebrow thin-space, blok identitas pasangan label-mono, kunci glif rich-text | import: `from datum_xlsx import DatumWorkbook`; nama lembar dicek N1 saat save | pola chrome build_contoh_datum_xlsx.py terbukti + kontrak STD-SAJI-001 (BLD_saji_check.py G-SAJI-1..8); lint 23 cek tetap milik datumbuku.py; kelas builder DHS-RB-05 | `selftest_builder.py` |
-| 8 | `datum_pptx.py` | Builder deck presentasi token-driven: title/content slide, bullet, table_slide | import: `from datum_pptx import DatumDeck` | KELAS BARU — probe 05-10: 0 builder pptx DATUM terbukti di disk; chrome mengikuti pola DOCX terbukti + tokens.json + 000 RevA Tabel 3.2-3.4; dinyatakan jujur sebagai bukan-pewaris; DHS-RB-05 | `selftest_builder.py` |
-| 9 | `datumcheck.py` | Guard situs-panggil G1-G3+N1 + cek ulang 03/04/09/10/16 saat objek dibuat (dipanggil datum_docx) + audit berkas jadi: A1 halaman nyata Word COM, A2 tautan aktif-terlihat (SPK-002 butir 8), A3 em dash U+2014 nol, A4 properti inti, A5 updateFields | audit CLI: `uv run --python 3.11 --with python-docx [--with pywin32] python datumcheck.py <dok.docx> [--pages-com]`; guard di-import pemanggil | 000 RevA tabel 8.2 (D000:L937 lewat M01 §2.2 yang diukur ulang 05-10: 4 guard); limit lebar 128/166 mm dari token grid_mm; pola checker garis check_contoh_datum_short.py + verif_datum_ver04.py; DHS-RB-05 | `selftest_builder.py` 42 CHECK dua arah |
-| 10 | `embed_fonts.py` | Langkah font DATUM: probe registry trio Plex, instal per-user tanpa admin, embed TrueType ke DOCX via Word COM; `ensure_fonts()` hard-fail sebelum build apa pun | `python embed_fonts.py check` / `install` / `embed <dok.docx>`; import `ensure_fonts` | pola instal dipindah utuh dari pitfalls terwaris paket ini (validated DEMS-DATUM-0925); sumber ttf fleet `workspace/EXPO [2026]/Font_DATUM/` + `gsp-canvas-design/canvas-fonts/`; DHS-RB-05 | `selftest_builder.py` + audit pasca-embed (font_part nyata di zip) |
-| 11 | `pustakachart.py` + `pustakachart_data.py` | Pustaka chart GSP (ENH-A): render deterministik galeri katalog VCTL (74 PNG, keluarga bar/column/threshold/komposisi/sebaran/hubungan/geospasial/aliran/kinerja) dalam palet+tipografi DATUM; palet baca runtime dari tokens.json, kanvas hanya 128/166 mm, teks terkecil diukur per figur | `uv run --python 3.11 --no-project --with matplotlib --with numpy python pustakachart.py --out <dir> [--check-min-pt]`; dua run berurutan WAJIB byte-identik (terbukti 08-10: 74 PNG, selisih 0); blok warisan datum_chart_buku opsional | promosi toolkit `docs/2026-10-07-vctl-chart-catalog/scripts/render_chart_examples.py` rev0 (VCTL-1007, kontrak D-03 + G-REND-1); resep gambar tidak diubah | gerbang promosi 08-10: determinisme byte-identik + `--check-min-pt` (min 5,8 pt >= lantai DATUM-28 5,5 pt) |
-| 12 | `datumsimbol.py` | Pustaka simbol DATUM (ENH-F): 41 simbol empat dialek (iec 16, isa 12, sec 7, mil 6) sebagai SVG milimeter token-driven + lembar per dialek berpaginasi blok 247 mm | `uv run --python 3.11 --no-project python datumsimbol.py --list` / `--dialect iec --sheet out.svg` / `--symbol iec:breaker --out s.svg` | normatif (makna/edisi/larangan) TIDAK diduplikasi: satu rumah di `docs/2026-10-04-datum-manual/library/katalog-simbol.md` (SIM-nn); geometri konvensional, SM-12 hormati (berkas berbayar tidak disalin) | menutup E-11 (id tanda hubung) dan E-18 (paginasi 247 mm); SM-03 tercetak di kepala lembar sec; uji render dua putaran 08-10 (round-2 juri mata: label utuh, empat switching berbeda) |
-| 13 | `datum_figur.py` | Baterai figur ENH-E: ukur objek terbit PDF (F1 overflow, F2 caption<=40pt, F3 overlap level KATA, F4 void>25%) + pengecualian sampul DT-14 dan void dideklarasikan | `uv run --python 3.11 --with pymupdf python datum_figur.py BERKAS.pdf [--allow-void 46,57] [--cover-pages 1]`; exit 0 bersih / 1 cacat / 2 tak terbaca; terpanggil otomatis sebagai CHECK A6 `datumcheck.py` bila padanan PDF ada | sensor ditambal dari lesson 08-10: dedup xref-per-halaman, ambang 57x23pt, hitung kata bukan blok | dua arah 08-10: MERAH EOSADINT RevB (6 cacat, 5 halaman overlap terkonfirmasi kata), HIJAU repro pasca-ENH-C + katalog VCTL (void dideklarasikan) + manual terpadu |
+| 1 | [`tokens.json`](tokens.json) | Token palet/tipografi/grid TUNGGAL; bila prosa dan token bertentangan, token menang | dibaca lewat `tokens_path()`, jangan hardcode | builder DATMANUAL (build_manual_datum.py baris 42-67), build_contoh_datum_docx.py baris 29-46, spec 000 RevA Tabel 3.2-3.5; provenans per seksi di dalam berkas | DHS-RB-01; regex nol-hex selftest_builder CHECK G1 |
+| 2 | [`datumbind.py`](datumbind.py) | Register / Derivation / audit_docx / audit_retired + resolver `tokens_path()` | CLI: `uv run --python 3.11 --with python-docx python datumbind.py "Register Kuantitas.json" "<dok>.docx"` (exit 0 semua angka tertelusur; exit 1 stray tercetak); import sebagai modul | promosi verbatim arsip legacy sha `5e7bca7f…652e54` (260 baris) + komentar provenans + limit E-12 + resolver lokal (satu-satunya butir ber-arsip) | [`selftest_datumbind.py`](selftest_datumbind.py) dua arah 13 CHECK |
+| 3 | [`scripts/datum_lint.py`](scripts/datum_lint.py) | Lint berkas .docx rilis: 38 cek DATUM-01..38 (tahap file 27, build 7, eye 4; build/eye tercetak NOT-RUN jujur dengan pemilik tahapnya) | `uv run --python 3.11 --with python-docx python scripts/datum_lint.py <dok.docx>`; uji diri: `... datum_lint.py --selftest`; exit 0 bersih / 1 FAIL / 2 salah pakai | daftar cek = M01 `docs/2026-10-04-datum-manual/measurement/01-instrumen-penegakan.md` §2.1 (salinan Tabel 8.1 spesifikasi 000 RevA, 38 ID unik); rebuild DHS-RB-02 | `--selftest` dua arah: RED basal rusak ([`scripts/fixtures_lint/basal_rusak.docx`](scripts/fixtures_lint/basal_rusak.docx)) exit!=0 + GREEN exit 0 |
+| 4 | [`scripts/datumbuku.py`](scripts/datumbuku.py) | Lint workbook .xlsx: 23 cek W01..W23 (W19 peringatan, tidak menahan terbit; tiga batas lint §11.3 melekat) | `uv run --python 3.11 --with openpyxl python scripts/datumbuku.py BERKAS.xlsx [--json] [--silent]`; uji diri: `--selftest`; exit 0 bersih / 1 temuan penahan / 2 berkas tak terbaca | Standar_Workbook_DATUM_001-GSP-STD-X-2026_RevA §11.1 (Tabel 11.2) + Lampiran A; arsip bukukerja.py dibaca read-only sebagai contoh bentuk, bukan sumber logika; kalibrasi nol temuan pada spesimen RAB_..._RevA.xlsx; rebuild DHS-RB-03 | `--selftest` dua arah atas [`scripts/fixtures_buku/`](scripts/fixtures_buku/) (bersih + 22 rusak + 1 peringatan) |
+| 5 | [`datum_diagram.py`](datum_diagram.py) | Engine diagram/infografik: spek JSON -> SVG mm; 9 keluarga/7 mesin layout, 10 bentuk simpul, 6 jenis konektor, geometri terkunci kisi token, apparatus page/figure, penolakan sumber Mermaid | `uv run --python 3.11 python datum_diagram.py spec.json -o out.svg`; flag `--schema --list --estimate --release --json`; exit 1 bila DIAGRAM DEFECT | 000 RevA bab 6 (penanda P1..P7 di header berkas: Tabel 6.1-6.4 baris 656-734, penolakan Mermaid 6.5), M01 2.1 baris 92-105 (cek build DATUM-24..37), register temuan E-08/E-17/E-19/E-20; rebuild DHS-RB-04 | [`selftest_datum_diagram.py`](selftest_datum_diagram.py) dua arah 20 CHECK + [`fixtures_diagram/`](fixtures_diagram/) |
+| 6 | [`datum_docx.py`](datum_docx.py) | Builder DOCX token-driven: cover, heading, para, table, derivation, figure; save ber-guard N1 + updateFields + properti inti | import: `from datum_docx import DatumDocx` (tidak ada build saat import, limit E-04); pola pemakaian di docstring berkas | garis builder DATMANUAL terbukti (build_manual_datum.py penghasil docx 100 hal lolos VERIF-final-4 CHECK 1-14; helper diadaptasi verbatim-struktur) + build_contoh_datum_docx.py; kelas builder DHS-RB-05 | [`selftest_builder.py`](selftest_builder.py) (guard + build nyata + audit COM) |
+| 7 | [`datum_xlsx.py`](datum_xlsx.py) | Builder workbook token-driven: pita klasifikasi dua blok TANPA merged cell, eyebrow thin-space, blok identitas pasangan label-mono, kunci glif rich-text | import: `from datum_xlsx import DatumWorkbook`; nama lembar dicek N1 saat save | pola chrome build_contoh_datum_xlsx.py terbukti + kontrak STD-SAJI-001 (BLD_saji_check.py G-SAJI-1..8); lint 23 cek tetap milik datumbuku.py; kelas builder DHS-RB-05 | [`selftest_builder.py`](selftest_builder.py) |
+| 8 | [`datum_pptx.py`](datum_pptx.py) | Builder deck presentasi token-driven: title/content slide, bullet, table_slide | import: `from datum_pptx import DatumDeck` | KELAS BARU — probe 05-10: 0 builder pptx DATUM terbukti di disk; chrome mengikuti pola DOCX terbukti + tokens.json + 000 RevA Tabel 3.2-3.4; dinyatakan jujur sebagai bukan-pewaris; DHS-RB-05 | [`selftest_builder.py`](selftest_builder.py) |
+| 9 | [`datumcheck.py`](datumcheck.py) | Guard situs-panggil G1-G3+N1 + cek ulang 03/04/09/10/16 saat objek dibuat (dipanggil datum_docx) + audit berkas jadi: A1 halaman nyata Word COM, A2 tautan aktif-terlihat (SPK-002 butir 8), A3 em dash U+2014 nol, A4 properti inti, A5 updateFields | audit CLI: `uv run --python 3.11 --with python-docx [--with pywin32] python datumcheck.py <dok.docx> [--pages-com]`; guard di-import pemanggil | 000 RevA tabel 8.2 (D000:L937 lewat M01 §2.2 yang diukur ulang 05-10: 4 guard); limit lebar 128/166 mm dari token grid_mm; pola checker garis check_contoh_datum_short.py + verif_datum_ver04.py; DHS-RB-05 | [`selftest_builder.py`](selftest_builder.py) 42 CHECK dua arah |
+| 10 | [`embed_fonts.py`](embed_fonts.py) | Langkah font DATUM: probe registry trio Plex, instal per-user tanpa admin, embed TrueType ke DOCX via Word COM; `ensure_fonts()` hard-fail sebelum build apa pun | `python embed_fonts.py check` / `install` / `embed <dok.docx>`; import `ensure_fonts` | pola instal dipindah utuh dari pitfalls terwaris paket ini (validated DEMS-DATUM-0925); sumber ttf fleet `workspace/EXPO [2026]/Font_DATUM/` + `gsp-canvas-design/canvas-fonts/`; DHS-RB-05 | [`selftest_builder.py`](selftest_builder.py) + audit pasca-embed (font_part nyata di zip) |
+| 11 | [`pustakachart.py`](pustakachart.py) + [`pustakachart_data.py`](pustakachart_data.py) | Pustaka chart GSP (ENH-A): render deterministik galeri katalog VCTL (74 PNG, keluarga bar/column/threshold/komposisi/sebaran/hubungan/geospasial/aliran/kinerja) dalam palet+tipografi DATUM; palet baca runtime dari tokens.json, kanvas hanya 128/166 mm, teks terkecil diukur per figur | `uv run --python 3.11 --no-project --with matplotlib --with numpy python pustakachart.py --out <dir> [--check-min-pt]`; dua run berurutan WAJIB byte-identik (terbukti 08-10: 74 PNG, selisih 0); blok warisan datum_chart_buku opsional | promosi toolkit `docs/2026-10-07-vctl-chart-catalog/scripts/render_chart_examples.py` rev0 (VCTL-1007, kontrak D-03 + G-REND-1); resep gambar tidak diubah | gerbang promosi 08-10: determinisme byte-identik + `--check-min-pt` (min 5,8 pt >= lantai DATUM-28 5,5 pt) |
+| 12 | [`datumsimbol.py`](datumsimbol.py) | Pustaka simbol DATUM (ENH-F): 41 simbol empat dialek (iec 16, isa 12, sec 7, mil 6) sebagai SVG milimeter token-driven + lembar per dialek berpaginasi blok 247 mm | `uv run --python 3.11 --no-project python datumsimbol.py --list` / `--dialect iec --sheet out.svg` / `--symbol iec:breaker --out s.svg` | normatif (makna/edisi/larangan) TIDAK diduplikasi: satu rumah di `docs/2026-10-04-datum-manual/library/katalog-simbol.md` (SIM-nn); geometri konvensional, SM-12 hormati (berkas berbayar tidak disalin) | menutup E-11 (id tanda hubung) dan E-18 (paginasi 247 mm); SM-03 tercetak di kepala lembar sec; uji render dua putaran 08-10 (round-2 juri mata: label utuh, empat switching berbeda) |
+| 13 | [`datum_figur.py`](datum_figur.py) | Baterai figur ENH-E: ukur objek terbit PDF (F1 overflow, F2 caption<=40pt, F3 overlap level KATA, F4 void>25%) + pengecualian sampul DT-14 dan void dideklarasikan | `uv run --python 3.11 --with pymupdf python datum_figur.py BERKAS.pdf [--allow-void 46,57] [--cover-pages 1]`; exit 0 bersih / 1 cacat / 2 tak terbaca; terpanggil otomatis sebagai CHECK A6 [`datumcheck.py`](datumcheck.py) bila padanan PDF ada | sensor ditambal dari lesson 08-10: dedup xref-per-halaman, ambang 57x23pt, hitung kata bukan blok | dua arah 08-10: MERAH EOSADINT RevB (6 cacat, 5 halaman overlap terkonfirmasi kata), HIJAU repro pasca-ENH-C + katalog VCTL (void dideklarasikan) + manual terpadu |
 
-Berkas uji pendamping: `selftest_datumbind.py`, `selftest_datum_diagram.py`,
-`selftest_builder.py`, `scripts/fixtures_lint/` (+ `make_fixture.py` pembangun
-fixture), `scripts/fixtures_buku/`, `fixtures_diagram/`. Vonis akhir hidup-tidaknya
+Berkas uji pendamping: [`selftest_datumbind.py`](selftest_datumbind.py), [`selftest_datum_diagram.py`](selftest_datum_diagram.py),
+[`selftest_builder.py`](selftest_builder.py), [`scripts/fixtures_lint/`](scripts/fixtures_lint/) (+ `make_fixture.py` pembangun
+fixture), [`scripts/fixtures_buku/`](scripts/fixtures_buku/), [`fixtures_diagram/`](fixtures_diagram/). Vonis akhir hidup-tidaknya
 mesin milik kartu verifikasi independen DHS-VER-06 (writer-is-not-verifier),
 bukan milik penulis paket.
 
@@ -92,9 +92,9 @@ bukan milik penulis paket.
 `gbr_gaya.py` (toolkit misi editorial Rafif) dan `datum_chart_buku.py` (toolkit
 PROMANUAL-V2) DILARANG untuk keluaran baru: heks dipaku di kode (aksen biru,
 abu netral), kanvas 125/176 mm bukan token DATUM, huruf 9 pt di luar skala.
-Rumah kanonis chart fleet kini `pustakachart.py` (instrumen 11 paket ini).
+Rumah kanonis chart fleet kini [`pustakachart.py`](pustakachart.py) (instrumen 11 paket ini).
 Misi lama yang sudah terbit tidak diedit retroaktif; pemakai berikutnya
-dimigrasikan, dan blok warisan `pustakachart.py` tetap menyediakan padanan
+dimigrasikan, dan blok warisan [`pustakachart.py`](pustakachart.py) tetap menyediakan padanan
 threshold untuk perbandingan sebelum-sesudah.
 
 ## Kompatibilitas gerbang naturalisasi (WAJIB, ENH 08-10)
@@ -132,7 +132,7 @@ paket ini wajib menghasilkan berkas yang lolos tanpa penambalan pasca-terbit:
   atas dan menimpa paragraf sebelumnya — cacat terproduksi EOSADINT RevB
   hlm 11/15/29, repro dua arah 08-10). Perilaku lama untuk paragraf teks tidak
   berubah.
-- `datumcheck.py`: CHECK A6 baru (baterai figur pada padanan PDF; SKIP jujur
+- [`datumcheck.py`](datumcheck.py): CHECK A6 baru (baterai figur pada padanan PDF; SKIP jujur
   bila PDF atau pymupdf belum ada).
 - `datum_diagram.py layout_flow()`: kunci opsional `per_row` membungkus rantai
   panjang jadi baris (E-30 ditutup; kapasitas kolom dibatasi lebar minimum 3
@@ -156,7 +156,7 @@ paket ini wajib menghasilkan berkas yang lolos tanpa penambalan pasca-terbit:
 
 ## Perubahan v2.2.1 (PUTUSAN-HEUR-1009, 09-10; kartu t_2c28626f)
 
-Dua false-positive heuristik di `scripts/datum_lint.py` ditambal sesuai mekanisme
+Dua false-positive heuristik di [`scripts/datum_lint.py`](scripts/datum_lint.py) ditambal sesuai mekanisme
 yang disahkan manager di `docs/2026-10-09_ddv-heur-evaluasi/PUTUSAN-HEUR-1009.md`.
 Tidak ada ambang/limit cek lain yang diubah (limit DATUM-18 dan DATUM-22 tetap 0).
 
@@ -207,8 +207,8 @@ Dua cacat kelas "dua builder beda perilaku" ditutup di engine, bukan di builder 
   label tangan di builder. Konsumen lama yang memancarkan entri tanpa satuan kini
   WAJIB mengisi satuan (mis. `"poin bobot"`, `"%"`, `"rasio"`) — breaking change
   minor yang disengaja dan disahkan.
-- **Selftest dua arah:** `selftest_builder.py` +CHECK B7 (default ASCII, U+00B7
-  nol di slug) & B8 (jalur legacy memulihkan glif warisan); `selftest_datumbind.py`
+- **Selftest dua arah:** [`selftest_builder.py`](selftest_builder.py) +CHECK B7 (default ASCII, U+00B7
+  nol di slug) & B8 (jalur legacy memulihkan glif warisan); [`selftest_datumbind.py`](selftest_datumbind.py)
   +CHECK 2b (emit tanpa satuan ditolak) & 2c (satuan terpancar sesuai spec rev B).
   Red-green terbukti di cermin pra-patch: SEP/LEGACY/UNIT FAIL sebelum sunting,
   PASS sesudah; entri bersatuan KEKAL identik sejak basal.
@@ -241,7 +241,7 @@ dan register hash tidak stabil antar jalur build.
   w:hAnchor="margin" w:x="7597"/>`. Assert byte-jadi builder membandingkan terhadap
   bentuk PASCA-save ini, bukan bentuk pra-save helper. Standarkan yang diukur, jangan
   lawan normalisasi default Word.
-- **Selftest dua arah:** `selftest_builder.py` +CHECK H1 (helper memuat `w:hAnchor`,
+- **Selftest dua arah:** [`selftest_builder.py`](selftest_builder.py) +CHECK H1 (helper memuat `w:hAnchor`,
   nol `w:anchorH`; deterministik tanpa COM), H2 (konstanta token-driven == nilai ukur),
   H3 (round-trip Word idempoten atas bentuk kanonis; bersyarat pywin32, SKIP tanpa FAIL
   bila COM tak tersedia). Red-green terbukti di cermin pra-patch: H1/H2/H3 FAIL sebelum
@@ -332,11 +332,11 @@ kehilangan jangkar sah (kelas yang dilaporkan needs-review FIGUR-2).
 - **Distribusi:** KANONIK sha16 mesin 63515916c87f2c69 (selftest aa17cfaa14fd7930,
   tokens.json da95cb7b202e7e69 dan datumbind c7955516bbad1fcd tidak berubah);
   sinkron fleet menyusul sebagai kartu lanjutan manager (pola SYNC-DHS-250) —
-  kartu ini TIDAK menyentuh `$LOCALAPPDATA/hermes/skills/gsp/`.
+  kartu ini TIDAK menyentuh [`$LOCALAPPDATA/hermes/skills/gsp/`](../../registry-fleet/).
 
 ## Perubahan v2.5.0 (BUG-DATUM-DIAGRAM, 09-10; kartu t_ef103378; laporan FIGUR-1 t_559f107b + FIGUR-2 t_a3146011 + steer operator mid-run)
 
-Tiga cacat MESIN `datum_diagram.py` ditambal di KANONIK SAJA (larangan sync fleet
+Tiga cacat MESIN [`datum_diagram.py`](datum_diagram.py) ditambal di KANONIK SAJA (larangan sync fleet
 mid-run demi determinisme FIGUR-2; distribusi menyusul jalur biasa). Basis repro
 wrapper pemanggil `work/figur1_diagwrap.py` dan `work/datum_diagram_hopfix.py`.
 
@@ -408,8 +408,8 @@ wrapper pemanggil `work/figur1_diagwrap.py` dan `work/datum_diagram_hopfix.py`.
 ## Lokasi & distribusi
 
 Pasang FLAT `<name>/` (jangan nested): kanonik
-`C:/Users/TRIAL/workspace/gsp-hermes/skills/datum-house-style/` dan registry
-fleet `$LOCALAPPDATA/hermes/skills/gsp/datum-house-style/`. Sensus 05-10:
+[`C:/Users/TRIAL/workspace/gsp-hermes/skills/datum-house-style/`](./) dan registry
+fleet [`$LOCALAPPDATA/hermes/skills/gsp/datum-house-style/`](../../registry-fleet/datum-house-style/). Sensus 05-10:
 kedua lokasi byte-identik (43 berkas unik di luar `__pycache__`; sha256 penuh
 di `docs/2026-10-05-gap09-datum-recovery/MANIFEST-DHS-DIST-05.md`). Profil
 pekerja TIDAK memegang salinan fisik (kebijakan LEAN FLEET 29-08: AWARENESS,
@@ -468,7 +468,7 @@ tebakan, lalu bangun ulang dengan angka halaman sebenarnya (preseden 007 Rev A:
   salin ttf ke `%LOCALAPPDATA%\Microsoft\Windows\Fonts`, tulis value `"<Family> <Style> (TrueType)"`
   -> filename di HKCU `...\CurrentVersion\Fonts` (KEY_WOW64_64KEY), lalu `AddFontResourceExW(path,0,0)`
   + broadcast `WM_FONTCHANGE`. Sumber ttf fleet: `workspace/EXPO [2026]/Font_DATUM/` dan
-  `gsp-hermes/skills/gsp-canvas-design/canvas-fonts/`; SansCondensed *Bold* hanya dari
+  [`gsp-hermes/skills/gsp-canvas-design/canvas-fonts/`](../gsp-canvas-design/canvas-fonts/); SansCondensed *Bold* hanya dari
   google/fonts raw `ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Bold.ttf` (file SemiBold
   = family terpisah, Word tidak mensintesis bold-match).
 - **Glif ■◈◇△ tidak punya glyph di IBM Plex**: Word fallback ke Courier/CambriaMath saat
@@ -483,20 +483,20 @@ tebakan, lalu bangun ulang dengan angka halaman sebenarnya (preseden 007 Rev A:
   (mis. 0,0201 kg/kg) dilaporkan stray dan wajib diizinkan manual lewat `allow=(...)`.
   Jangan ubar-semantik mesin tanpa putusan tercatat.
 - **Word COM membuang `w:updateFields` saat save `EmbedTrueTypeFonts=True`** (temuan
-  DHS-RB-05): jalankan mitigasi pasca-proses zip dari `embed_fonts.py` setelah embed,
+  DHS-RB-05): jalankan mitigasi pasca-proses zip dari [`embed_fonts.py`](embed_fonts.py) setelah embed,
   urutan skema CT_Settings menuntut `updateFields` sebelum `w:compat`; audit A5
-  `datumcheck.py` memverifikasi hasil akhir.
+  [`datumcheck.py`](datumcheck.py) memverifikasi hasil akhir.
 
 ## Verification (short check pekerja)
 
 1. Paket flat terbaca di kedua registry: `ls $LOCALAPPDATA/hermes/skills/gsp/datum-house-style/` dan kanonik.
 2. Sensus sha256 dua lokasi (kecuali `__pycache__`) = 0 defect; bandingkan terhadap MANIFEST distribusi.
-3. `tokens.json` valid JSON (`uv run --python 3.11 python -c` lewat berkas skrip, atau jq/python).
+3. [`tokens.json`](tokens.json) valid JSON (`uv run --python 3.11 python -c` lewat berkas skrip, atau jq/python).
 4. Gerbang eksekusi (preseden t_a21e89ab): JALANKAN selftest sungguhan dari salinan
    fleet, catat exit code mentah; minimal satu dua arah diuji RED dulu (basal rusak
    wajib exit != 0) sebelum klaim GREEN. `compile()` saja bukan gerbang. Empat gerbang:
    `scripts/datum_lint.py --selftest`, `scripts/datumbuku.py --selftest`,
-   `selftest_datum_diagram.py` (23 CHECK), `selftest_builder.py` (42 CHECK); gerbang ENH: `datum_figur.py` dua arah (merah EOSADINT/hijau repro) dan `pustakachart.py` dua run byte-identik.
+   [`selftest_datum_diagram.py`](selftest_datum_diagram.py) (23 CHECK), [`selftest_builder.py`](selftest_builder.py) (42 CHECK); gerbang ENH: [`datum_figur.py`](datum_figur.py) dua arah (merah EOSADINT/hijau repro) dan [`pustakachart.py`](pustakachart.py) dua run byte-identik.
 5. Builder konsumen membaca token hanya lewat `tokens_path()` — grep jalur root Linux
    peninggalan mesin lama (awalan home root absolut) di skrip baru harus 0 hit.
 5a. Bangunan baru WAJIB disimpan ulang lewat Word COM sebelum lint (buka

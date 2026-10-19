@@ -2,8 +2,8 @@
 
 Pola teruji dari misi riset multi-lajur yang berlanjut produksi buku (dekomposisi RT/TA ->
 12 sub-lajur akuisisi -> analisis/rekonsiliasi -> vonis verifier -> agregat -> sintesis ->
-blueprint buku -> tulis berantai). Melapis `saturation-gate-sweep-lanes.md` (norma vonis) dan
-`saturation-sweep-mission-frame.md` (kerangka misi); berkas ini hanya operasional mekanik.
+blueprint buku -> tulis berantai). Melapis [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md) (norma vonis) dan
+[`saturation-sweep-mission-frame.md`](saturation-sweep-mission-frame.md) (kerangka misi); berkas ini hanya operasional mekanik.
 
 ## 1. Watcher latar: parser `show --json` dan ambang selesai
 
@@ -65,7 +65,7 @@ blueprint buku -> tulis berantai). Melapis `saturation-gate-sweep-lanes.md` (nor
   per misi), edge HANYA ke hulu data nyata. Rantai sengaja untuk menegakkan kap ditulis eksplisit
   di kontrak (mis. gelombang sensus menunggu gelombang teknik selesai = edge kap, bukan data -
   catat supaya audit tidak membacanya sebagai edge semu).
-- Direktif lajur (`worker-offensive-logic.md`, `saturation-gate-sweep-lanes.md`, RULE
+- Direktif lajur ([`worker-offensive-logic.md`](worker-offensive-logic.md), [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md), RULE
   PRESISI-HASIL) ditempel UTUH ke body kartu lewat skrip pembuat yang membaca berkas rujukan
   saat create - bukan diringkas, bukan sekadar menunjuk nama skill.
 - Vonis verifier FAIL pertama pada suatu kelas jalur (mis. kelas-8 diklaim tanpa akun render)

@@ -45,8 +45,8 @@ menyalin isi korpus; ia MENUNJUK jalan (memori = jalur, bukan muatan).
 ## Protokol panggil (3 langkah, deterministik)
 
 Interpreter: `uv run --python 3.11` atau python 3.11+; skrip stdlib saja.
-Path kanonik: `C:/Users/TRIAL/workspace/gsp-hermes/skills/gsp-ekas-knowledge-index/`
-(registry fleet mirror: `%LOCALAPPDATA%/hermes/skills/gsp/gsp-ekas-knowledge-index/`).
+Path kanonik: [`C:/Users/TRIAL/workspace/gsp-hermes/skills/gsp-ekas-knowledge-index/`](../../kanonik/gsp-ekas-knowledge-index/)
+(registry fleet mirror: [`%LOCALAPPDATA%/hermes/skills/gsp/gsp-ekas-knowledge-index/`](./)).
 
 1. **Cari unit** dari frasa tugas:
    ```
@@ -60,7 +60,7 @@ Path kanonik: `C:/Users/TRIAL/workspace/gsp-hermes/skills/gsp-ekas-knowledge-ind
    Kueri bebas tanpa flag mencari di UNIT dan KEMAMPUAN sekaligus (hasil berlabel).
    Daya-ikat kemampuan: lahir `pending_verification` / sign-off engineer 0/332 ->
    `draft-tidak-terverifikasi-insan` (P-5). Angka keluaran paket BELUM sah sebagai
-   ambang terima; register per paket: `ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`,
+   ambang terima; register per paket: [`ekas/02_REGISTERS/KEMAMPUAN-REGISTER.csv`](../../../4%20Knowledge%20Bank/ekas-lapis-teks/02_REGISTERS/KEMAMPUAN-REGISTER.csv),
    digest per domain: `ekas/05_DOMAIN-KNOWLEDGE/<DOMAIN>/KEMAMPUAN.md`.
 2. **Naik ke domain** bila pertanyaan lintas-unit:
    ```
@@ -114,11 +114,11 @@ Path kanonik: `C:/Users/TRIAL/workspace/gsp-hermes/skills/gsp-ekas-knowledge-ind
 
 ## Berkas paket
 
-- `references/INDEKS-UNIT.csv` — 1.558 unit (unit_id|jenis|bab|R|ringkas|digest|kw), delimiter pipe.
-- `references/PETA-DOMAIN.csv` — 25 domain (domain|rantai|berkas_rak|digest|catatan; diregenerasi 11-10 dari listing disk, kolom catatan menandai rantai parsial domain baru).
-- `references/pelajaran-adapter-model.md` — bukti empirik EKAS-MODEL-1006: angka TIDAK boleh dijawab dari bobot/ingatan (3 instrumen independen); wajib lewat router ini + gerbang SPK-002.
-- `references/META.json` — pin sumber, tanggal beku, peta bab.
-- `scripts/cari_ekas.py` — pemanggil (query / --domain / --unit / --bab / --jenis).
+- [`references/INDEKS-UNIT.csv`](references/INDEKS-UNIT.csv) — 1.558 unit (unit_id|jenis|bab|R|ringkas|digest|kw), delimiter pipe.
+- [`references/PETA-DOMAIN.csv`](references/PETA-DOMAIN.csv) — 25 domain (domain|rantai|berkas_rak|digest|catatan; diregenerasi 11-10 dari listing disk, kolom catatan menandai rantai parsial domain baru).
+- [`references/pelajaran-adapter-model.md`](references/pelajaran-adapter-model.md) — bukti empirik EKAS-MODEL-1006: angka TIDAK boleh dijawab dari bobot/ingatan (3 instrumen independen); wajib lewat router ini + gerbang SPK-002.
+- [`references/META.json`](references/META.json) — pin sumber, tanggal beku, peta bab.
+- [`scripts/cari_ekas.py`](scripts/cari_ekas.py) — pemanggil (query / --domain / --unit / --bab / --jenis).
 
 ## Verifikasi pemakaian
 

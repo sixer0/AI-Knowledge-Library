@@ -8,7 +8,7 @@
   - `hermes skills list` → `0 hub-installed, 0 builtin, 0 local — 0 enabled, 0 disabled`
   - `hermes profile show gsp-firman-custom` → `Skills: 0`
   - `profiles/gsp-firman-custom/.skills_prompt_snapshot.json` → `{"version":2,"manifest":{},"skills":[],"category_descriptions":{}}`
-  - Global `C:/Users/TRIAL/AppData/Local/hermes/skills/` → 141 SKILL.md files across 19 top-level categories
+  - Global [`C:/Users/TRIAL/AppData/Local/hermes/skills/`](../../) → 141 SKILL.md files across 19 top-level categories
   - Global canonical snapshot `C:/Users/TRIAL/AppData/Local/hermes/.skills_prompt_snapshot.json` → `141 skills, 158 manifest entries` (verified via Python json load)
 
 ## Diagnosis Steps Taken

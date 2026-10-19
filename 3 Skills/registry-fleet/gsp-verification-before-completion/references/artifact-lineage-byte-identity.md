@@ -40,4 +40,4 @@ Aturan induk: vonis L2 hanya dari pengukuran disk pada giliran itu. Berkas ini m
 ## 5. Pair dengan disiplin visus figur
 
 Adjudikasi koordinat endpoint-SVG vs border rect sebelum vonis melayang/menempel:
-lihat `visual-qc-connector-discipline.md` (tiga preseden ilusi perioda dash, dua menimpa sensor controller).
+lihat [`visual-qc-connector-discipline.md`](visual-qc-connector-discipline.md) (tiga preseden ilusi perioda dash, dua menimpa sensor controller).

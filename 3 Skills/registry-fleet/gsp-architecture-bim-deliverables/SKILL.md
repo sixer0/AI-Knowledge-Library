@@ -23,8 +23,8 @@ metadata:
 ## Koridor Dokumen GSP
 
 Semua artefak tulis yang dihasilkan skill ini WAJIB mengikuti koridor berikut.
-Sumber kebenaran: `skills/gsp/gsp-document-quality-standards/SKILL.md` **Module L**
-(ringkasan: `skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`).
+Sumber kebenaran: [`skills/gsp/gsp-document-quality-standards/SKILL.md`](../gsp-document-quality-standards/SKILL.md) **Module L**
+(ringkasan: [`skills/gsp/gsp-document-quality-standards/references/koridor-dokumen.md`](../gsp-document-quality-standards/references/koridor-dokumen.md)).
 
 1. **Header-metadata** di pembuka dokumen: `title`, `date`, `author_profile`,
    `status` (`complete|blocked|needs-review|failed`), `task_ref`, `source_refs`.
@@ -114,7 +114,7 @@ Urutan pekerjaan umum (subtotal per item berfungsi sebagai check):
 11. Finishing (cat, coating)
 12. Lansekap & pekerjaan luar
 
-Script `scripts/rab_template.py` membuat template CSV (kolom: no, pekerjaan, satuan,
+Script [`scripts/rab_template.py`](scripts/rab_template.py) membuat template CSV (kolom: no, pekerjaan, satuan,
 volume, harga_satuan, subtotal) + ringkasan total; konversi ke XLSX via skill `xlsx`
 bila klien butuh file Excel.
 
