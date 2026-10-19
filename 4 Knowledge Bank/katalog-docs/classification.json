@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-25T10:00:00+07:00",
+  "classifier": "gsp-librarian",
+  "note": "DRAFT clustering awal (dari nama folder & inspeksi cepat) — BUKAN klasifikasi final. Prinsip IL: workspace=RAW, VAULT=analisa, WIKI=paling berharga. Setiap baris di sini WAJIB diverifikasi lewat analisa konten konkret oleh gsp-librarian (skill gsp-library-analysis) sebelum dianggap klasifikasi. Information Library TIDAK membaca file ini; yang dibaca IL hanyalah hasil analisa yang masuk vault/wiki.",
+  "status": "draft-pending-analysis",
+  "items": [
+    {
+      "match": "legacy-archive/ADINT-20260824T085309Z-1-001",
+      "domain": "defense-intel",
+      "project": "adint-vendor-research",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Vendor Research — Siklus Orkestrasi Penuh",
+      "summary": "Riset vendor Advertising-Derived Intelligence (ADINT) untuk platform sovereign PT GSP: pemetaan ekosistem vendor global, 6 kategori fungsional, vendor profiling, due diligence, knowledge graph, dan rekomendasi strategis build-vs-license. Output: laporan final v3.0, executive briefing, INFORMATION_LIBRARY."
+    },
+    {
+      "match": "legacy-archive/KEMHAN -20260824T085136Z-1-001",
+      "domain": "defense-intel",
+      "project": "kemhan-bin-ransus",
+      "type": "cycle",
+      "rank": 1,
+      "title": "KEMHAN-BIN — Kajian Ekosistem TCC & Ransus Pengamanan Informasi",
+      "summary": "Kajian ekosistem Tactical Command Center (TCC) dan proposal Ransus Pengamanan Informasi untuk KEMHAN/BIN: proposal teknis, design system IDS, executive summary, pengadaan."
+    },
+    {
+      "match": "legacy-archive/RANSUS-20260824T085403Z-1-001",
+      "domain": "defense-intel",
+      "project": "ransus-pengamanan-informasi",
+      "type": "cycle",
+      "rank": 1,
+      "title": "RANSUS Pengamanan Informasi — Proposal Teknis 045-GSP-PT-VIII-2026",
+      "summary": "Proposal teknis Ransus Pengamanan Informasi (045-GSP-PT-VIII-2026 RevA): dokumen proposal PDF/DOCX dan slide presentasi untuk BIN."
+    },
+    {
+      "match": "legacy-archive/ARSENAL-IDS-BARAT-TIMUR-20260824T085012Z-1-001",
+      "domain": "defense-intel",
+      "project": "arsenal-ids-barat-timur",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ARSENAL IDS Barat-Timur — Proposal Proyek",
+      "summary": "Proposal Intrusion Detection System (IDS) wilayah Barat-Timur: dokumen proposal (DOCX), presentasi (PPTX), dan RAB (XLSX)."
+    },
+    {
+      "match": "legacy-archive/Arsenal Tahap 4-20260824T085411Z-1-001",
+      "domain": "defense-intel",
+      "project": "arsenal-tahap-4",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ARSENAL Tahap 4 — Siklus Orkestrasi",
+      "summary": "Siklus orkestrasi ARSENAL Tahap 4 (lanjutan program ARSENAL)."
+    },
+    {
+      "match": "legacy-archive/china-defence-expo-crawler-20260824T085128Z-1-001",
+      "domain": "defense-intel",
+      "project": "china-defence-expo",
+      "type": "cycle",
+      "rank": 1,
+      "title": "China Defence Expo — Crawler & Riset",
+      "summary": "Crawler dan riset China Defence Expo: koleksi data peserta/pameran pertahanan China, analisis vendor."
+    },
+    {
+      "match": "legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001",
+      "domain": "corporate",
+      "project": "china-expo-toni",
+      "type": "cycle",
+      "rank": 1,
+      "title": "China Expo — Riset Toni",
+      "summary": "Riset China Expo (corporate/business development)."
+    },
+    {
+      "match": "legacy-archive/FORENSIC-20260824T085317Z-1-001",
+      "domain": "defense-intel",
+      "project": "forensic-nfl-2026",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP-NFL-2026 — Kajian Komprehensif & Vendor Master",
+      "summary": "Kajian komprehensif Tier0 GSP-NFL-2026: analisis forensik, BOQ, vendor master report."
+    },
+    {
+      "match": "legacy-archive/Labinsen TNI AL-20260824T085454Z-1-001",
+      "domain": "defense-intel",
+      "project": "labinsen-tni-al",
+      "type": "cycle",
+      "rank": 1,
+      "title": "Labinsen TNI AL — Siklus Orkestrasi",
+      "summary": "Siklus orkestrasi untuk Labinsen TNI AL."
+    },
+    {
+      "match": "legacy-archive/Research Agentic Operating System-20260824T084946Z-1-001",
+      "domain": "digital",
+      "project": "riset-sistem-ai-gsp",
+      "type": "cycle",
+      "rank": 1,
+      "title": "Research Agentic Operating System — Riset",
+      "summary": "Riset sistem operasi agentic AI (Research Agentic Operating System)."
+    },
+    {
+      "match": "legacy-archive/RISET SISTEM OPERASI AI GSP DAN KAM-20260824T085358Z-1-001",
+      "domain": "digital",
+      "project": "riset-sistem-ai-gsp",
+      "type": "cycle",
+      "rank": 1,
+      "title": "Riset Sistem Operasi AI GSP dan KAM",
+      "summary": "Riset sistem operasi AI GSP dan Knowledge Asset Management (KAM)."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-17_gsp_orchestration_skill_report",
+      "domain": "digital",
+      "project": "gsp-orchestration-skill",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP Orchestration Skill Report",
+      "summary": "Laporan skill orkestrasi GSP (fondasi workflow orchestration fleet)."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_adint-vendor-due-diligence",
+      "domain": "defense-intel",
+      "project": "adint-vendor-research",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Vendor Due Diligence",
+      "summary": "Due diligence vendor ADINT (bagian dari riset vendor ADINT)."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_gsp_subagent_model_map",
+      "domain": "digital",
+      "project": "gsp-subagent-model-map",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP Subagent Model Map",
+      "summary": "Pemetaan model subagent GSP."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_test-project",
+      "domain": "operations",
+      "project": "test-project",
+      "type": "cycle",
+      "rank": 1,
+      "title": "Test Project (Uji Coba Pipeline)",
+      "summary": "Proyek uji coba pipeline orkestrasi."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_adint-vendor-research",
+      "domain": "defense-intel",
+      "project": "adint-vendor-research",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Vendor Research — Siklus Riset (Jul 28)",
+      "summary": "Siklus riset vendor ADINT 2026-07-28."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_gsp-enforcement",
+      "domain": "digital",
+      "project": "gsp-enforcement",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP Enforcement — Gate & Rules",
+      "summary": "Desain gate enforcement, rules, dan prompt untuk penegakan standar GSP."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_gsp-enforcement-verification",
+      "domain": "digital",
+      "project": "gsp-enforcement",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP Enforcement — Verifikasi",
+      "summary": "Verifikasi rules enforcement GSP."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-29_adint-information-library",
+      "domain": "library",
+      "project": "adint-information-library",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Information Library — Siklus Kurasi",
+      "summary": "Siklus pembangunan Information Library ADINT."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-31_gsp-ransus-intelligent",
+      "domain": "defense-intel",
+      "project": "ransus-pengamanan-informasi",
+      "type": "cycle",
+      "rank": 1,
+      "title": "GSP Ransus Intelligent — Siklus Orkestrasi",
+      "summary": "Siklus orkestrasi Ransus Intelligent (pengamanan informasi)."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-04_hud-tts-sts-integration",
+      "domain": "digital",
+      "project": "hud-tts-sts-integration",
+      "type": "cycle",
+      "rank": 1,
+      "title": "HUD-TTS-STS Integration — Siklus Orkestrasi",
+      "summary": "Siklus integrasi HUD, Text-To-Speech, dan Speech-To-Text."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-05_adint_information_library",
+      "domain": "library",
+      "project": "adint-information-library",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Information Library — Siklus Kurasi (Agu 5)",
+      "summary": "Siklus kurasi Information Library ADINT 2026-08-05."
+    },
+    {
+      "match": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-05_adint-vendor-enrichment",
+      "domain": "defense-intel",
+      "project": "adint-vendor-research",
+      "type": "cycle",
+      "rank": 1,
+      "title": "ADINT Vendor Enrichment — Siklus Enrichment",
+      "summary": "Siklus enrichment data vendor ADINT 2026-08-05."
+    }
+  ]
+}

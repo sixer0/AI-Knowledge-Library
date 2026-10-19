@@ -1,0 +1,616 @@
+{
+  "fixtures": [
+    {
+      "arah": "HIJAU",
+      "bytes": 1969,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-24",
+          "want": "PASS"
+        }
+      ],
+      "file": "f3-c24-arc-green.md",
+      "note": "satu momen pembalik di badan dokumen cukup untuk C-24 PASS (arah hijau dua sisi)",
+      "sha256": "be698ce37c9e9e702e74b19e63cd6e9edbdd9665251653675f8df986c7e11907"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 1776,
+      "channel": "kitab",
+      "checks": [
+        {
+          "check": "C-24",
+          "want": "FAIL"
+        }
+      ],
+      "file": "f3-c24-flat-kitab.md",
+      "note": "kanal kitab TIDAK meruntuhkan C-24: vonisnya sudah diputus PUTUSAN t_77fd88c3, bukan dibuka lewat M-07",
+      "sha256": "8d640bee590593b3dcdd697982b777fc2ddec3d3946666a6d1f28ec01ee11fae"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 1776,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-24",
+          "want": "FAIL"
+        }
+      ],
+      "file": "f3-c24-flat-red.md",
+      "note": "8 bab katalog tanpa satu pun momen pembalik -> C-24 menagih FAIL (bukti REJECT butir M-07)",
+      "sha256": "8d640bee590593b3dcdd697982b777fc2ddec3d3946666a6d1f28ec01ee11fae"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 893,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-8b",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-c8b-limitation-green.md",
+      "note": "kata 'limitation' berbahasa Inggris diakui LIMITATION_WORDS -> C-8b PASS (tagihan P1)",
+      "sha256": "c87c1733d117608727cb93ffeffb699daa643dd455f9495e2a9326a0a3c70825"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 602,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-8b",
+          "detail": "tanpa pengakuan batasan",
+          "want": "FAIL"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-c8b-limitation-red.md",
+      "note": "dokumen analitis tanpa pengakuan batasan apa pun menagih C-8b (perilaku tak berubah S14)",
+      "sha256": "c56ae4eccc0062df3b105d2e312b38eea69890e3f64d67aebf298fd525341d17"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 990,
+      "channel": "kitab",
+      "checks": [
+        {
+          "check": "C-26",
+          "detail": "kanal kitab",
+          "want": "INFO"
+        },
+        {
+          "check": "C-27",
+          "detail": "kanal kitab",
+          "want": "INFO"
+        },
+        {
+          "check": "C-6",
+          "want": "FAIL"
+        }
+      ],
+      "file": "f3-kitab-clause.md",
+      "note": "kanal kitab: C-26/C-27 runtuh INFO dengan alasan eksplisit, plafon gaya milik C-6 (preseden t_77fd88c3)",
+      "sha256": "761c5b9e5e181f961c6cd94cd3d7e79423239a1164eb19ca59726b1487f47fdb"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 525,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-26",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m01-clause-green.md",
+      "note": "prosa kendur di bawah ambang 2,2/20% harus PASS",
+      "sha256": "11fbac88730523beffc6e1c0e762e397a1b75e851733d0edeea246eeb93ad236"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 990,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-26",
+          "detail": "DI ATAS ambang",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m01-clause-red.md",
+      "note": "rantai >=4 pemisah klausa menagih mode pantauan C-26",
+      "sha256": "761c5b9e5e181f961c6cd94cd3d7e79423239a1164eb19ca59726b1487f47fdb"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 1448,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-26",
+          "want": "PASS"
+        },
+        {
+          "check": "C-27",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m01-tablesel-green.md",
+      "note": "sel tabel/formula padat koma tidak menaikkan metrik klausa (syarat M-01 butir 1)",
+      "sha256": "672204b67a54f53e6a540dd2d4eca8cb1ba761aba674eed8d900a166275a1535"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 525,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-27",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m02-longavg-green.md",
+      "note": "rata-rata dalam rentang target K2 21-32 harus PASS",
+      "sha256": "11fbac88730523beffc6e1c0e762e397a1b75e851733d0edeea246eeb93ad236"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 987,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-27",
+          "detail": "DI ATAS plafon",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m02-longavg-red.md",
+      "note": "rata-rata lapis prosa di atas plafon 32 memicu mode pantauan C-27",
+      "sha256": "54eae9f2d7ab8bc24e18d62e4f24cc00dc9ff70b3abbb58d12168ddf5a18cb47"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 106,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "rincian aparatus",
+          "want": "INFO"
+        },
+        {
+          "check": "C-1",
+          "want": "FAIL"
+        }
+      ],
+      "file": "f3-m03-aparatus-d16.md",
+      "note": "lapis satu: berkas berpenanda D16 dapat rincian aparatus, vonis C-1 TETAP mutlak FAIL",
+      "sha256": "20db47685b501567d26b3bfb223bc6efa2304665fff3f326fdf2052e81a1eabc"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 133,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "rincian aparatus",
+          "want_not": "INFO"
+        },
+        {
+          "check": "C-1",
+          "want": "FAIL"
+        }
+      ],
+      "file": "f3-m03-aparatus-nod16-green.md",
+      "note": "lapis satu dua arah: tanpa penanda D16 tidak ada baris rincian aparatus, C-1 tetap mutlak",
+      "sha256": "6bbad3007fb8b907f36adfa210b0fc954fd815d3b1f3d7ffd4db1bb599ea9ce8"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 787,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "A4",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "C-4",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "DIKECUALIKAN blok",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m03-quote-marked-green.md",
+      "note": "D18 lapis dua: kutipan vendor BER-RUJUKAN mengecualikan prosa surat dari A4/C-4 (kasus I-5)",
+      "sha256": "4149fcb5391262de3bc07eff5832631f0bce1ccb10f8d0f4176d144e0c5b0613"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 757,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "A4",
+          "want": "FAIL"
+        },
+        {
+          "check": "tanpa rujukan",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m03-quote-unmarked-red.md",
+      "note": "penanda Blok Kutipan tanpa rujukan sumber DITOLAK -> prosa surat kembali divonis A4",
+      "sha256": "6f73b504a40d179218c3248db626a8435888f973d9432b1a6e214e3e568190da"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 1353,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-14",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m04-boilerplate-green.md",
+      "note": "blok tanda tangan ID berulang (whitelist tertutup _DUP_BOILER_RE) tidak dihitung salinan",
+      "sha256": "6019d4e6a002edaaea8a7594c4dfe60af5a4282c0921665b28e8a4ad0e301779"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 1245,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-14",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m04-kindregards-green.md",
+      "known_defect": "DEFECT-1: PUTUSAN M-04 + R3 seksi 3.6 menyebut blok tanda tangan 'Kind regards' sebagai boilerplate sah yang wajib PASS C-14, tetapi _DUP_BOILER_RE hanya memuat padanan Indonesia ('dengan hormat|hormat kami'). Bentuk nyata korpus VENDOR-V19 (baris pendek berpisah, dijadikan fixture f3-m04-sigblock-real-green.md) lolos karena tiap baris di bawah ambang 6 kata, jadi positif-palsu tidak muncul di korpus hari ini; namun begitu surat diratakan menjadi satu kalimat panjang (ekstraktor docx/teks biasa) gerbang salah vonis pada kedua scanner. Putusan yang dibutuhkan: tambahkan idiom EN ke daftar tertutup atau cabut kasusnya dari register.",
+      "note": "DEFECT-1: blok tanda tangan EN berulang sah - whitelist belum mengenal idiom EN",
+      "sha256": "90bd81b92a992cfa862faab44c23941b2d28a1cf2e485ce97f637834aaa4934a"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 1117,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-14",
+          "want": "FAIL"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m04-narrative-red.md",
+      "note": "gagasan narasi ditulis ulang 4x TETAP FAIL - whitelist bukan penghapusan pemeriksaan",
+      "sha256": "2da18d2364d108137c6f5df3a10b582539c408e4c99b3d86d1bcdce09f495197"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 1281,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-14",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m04-sigblock-real-green.md",
+      "note": "bentuk nyata blok tanda tangan EN (baris pendek) PASS pada v1.8.1 dan v1.9.0",
+      "sha256": "32b0fa8b2711c2ff62293f44d6b35b20e41a2721227072801378ccb886bb2fe6"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 489,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "A4",
+          "want": "PASS"
+        },
+        {
+          "check": "C-4",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m05-aisle-green.md",
+      "note": "CH17: substring 'as an ai' di dalam 'such as an aisle name' tidak boleh tertangkap (fix M-05)",
+      "sha256": "17d1239444c2fefaf3a4d5f4ab3cc2072de13785ff36bc32f1bda777ed386061"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 352,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "A4",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-4",
+          "want": "FAIL"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m05-asanai-red.md",
+      "note": "pemakaian asli 'as an ai' tetap tertangkap - arah merah dijaga",
+      "sha256": "9c3a945d147ac2915bc2ef0ddcae414bced094839cb08aec29b98d32482b222c"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 114385,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "rasio pembuka",
+          "want": "PASS"
+        }
+      ],
+      "file": "f3-m09-diverse-green.md",
+      "note": "pasangan stres gerbang >2.000 kalimat: rasio pembuka di atas 0,20 -> PASS",
+      "sha256": "a866276bb4db500a291ffff9a03c3c861e0ac74b267ffdb2d1ef4f08ef449484"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 114870,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "rasio pembuka",
+          "want": "INFO"
+        }
+      ],
+      "file": "f3-m09-lowopener-red.md",
+      "note": "pasangan stres gerbang >2.000 kalimat: rasio pembuka di bawah 0,20 -> INFO",
+      "sha256": "8d619c20476a5d56474a84c1dffa7e8909b972e44c450f942e011a58c05e341b"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 532,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-28",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m10-humansubj-green.md",
+      "note": "subjek manusia pada verba keputusan harus PASS",
+      "sha256": "82cce3b99c9bab57782922f731be3866b5f89926c523bb5e31c92cc6d951b2f6"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 618,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-28",
+          "detail": "DI ATAS ambang",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "f3-m10-toolsubj-red.md",
+      "note": "subjek artefak alat pada verba keputusan memicu mode pantauan C-28",
+      "sha256": "65c8c04d3462c712f8174299e0f6a397c201e1cfc6105d5faea6514d20995455"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 736,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "perluasan C-13",
+          "detail": "READY_FOR_REVIEW",
+          "want": "INFO"
+        },
+        {
+          "check": "C-13",
+          "want_not": "FAIL"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m12-newclass-red.md",
+      "note": "enum ALLCAPS bergaris-bawah dilaporkan INFO kelas baru, tidak pernah menjatuhkan FAIL",
+      "sha256": "3eae7533ce71e1feba47ff78d4dec3bdd05f706f8165f5af3daf318203ce0db1"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 701,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-13",
+          "want": "PASS"
+        },
+        {
+          "check": "perluasan C-13",
+          "want_not": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m12-whitelist-green.md",
+      "note": "CH02: stem konfigurasi alat git-config tidak tersandung identifier kelas baru",
+      "sha256": "cc7091a8b1e61ef995fc5240a566e54458af97b324580379daaae14ff4cebf4b"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 665,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-18",
+          "detail": "kalimat padat penanda \\[R-n\\] 0 ",
+          "want": "INFO"
+        }
+      ],
+      "file": "f3-m13-rmark-green.md",
+      "note": "satu penanda [R-n] per kalimat tidak dihitung padat oleh penghitung M-13",
+      "sha256": "2d1e80cea40a07cbe16147af091a31a69f01906687e8c4bab8be1c063a334b66"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 1043,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-18",
+          "detail": "kalimat padat penanda \\[R-n\\] [1-9]",
+          "want": "INFO"
+        }
+      ],
+      "file": "f3-m13-rmark-red.md",
+      "note": "satu kalimat memuat >1 penanda rujukan pada <20 kata per penanda dihitung penghitung M-13",
+      "sha256": "1320060def4c1737a9fe51d7ee3ba8305fede2344fce81b69e68a425da77167b"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 422,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-33",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m15-rupiah-green.md",
+      "note": "satu varian rupiah konsisten harus PASS",
+      "sha256": "72e2648230a6c1a9b5cb42ff3619ed35ba6bfe2e1101b4b955e8c9ae4e612b3a"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 422,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-33",
+          "detail": "rupiah campur",
+          "want": "INFO"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "f3-m15-rupiah-red.md",
+      "note": "varian rupiah tempel vs ber-spasi sama-sama berpopulasi memicu mode pantauan C-33",
+      "sha256": "e9a2fd45a67948020009f355409251dd996ec9a68ceb728a826886769f123a12"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 525,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-20",
+          "detail": "sapaan K2 \\[kamu=0, Yth\\.=0, Bapak=0, Ibu=0, Saudara=0\\]",
+          "want": "INFO"
+        }
+      ],
+      "file": "f3-m16-sapaan-absent-green.md",
+      "note": "arah dua sisi: dokumen tanpa sapaan mencatat nol pada semua label, bukan angka hantu",
+      "sha256": "11fbac88730523beffc6e1c0e762e397a1b75e851733d0edeea246eeb93ad236"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 692,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-20",
+          "detail": "sapaan K2 \\[kamu=0, Yth\\.=0, Bapak=1, Ibu=1, Saudara=1\\]",
+          "want": "INFO"
+        }
+      ],
+      "file": "f3-m16-sapaan-data.md",
+      "note": "penghitung sapaan K2 menempel sebagai data pada detail C-20, vonis tidak berubah",
+      "sha256": "a02fb4c72e81c8b2191254574eaeef39fc74d992cba8344c512acf2b6664c5de"
+    }
+  ],
+  "generator": "f3_gen_fixtures.py",
+  "mission": "GAYA-AHLI-1005 S15",
+  "scanner_target": "v1.9.0 sha16 d61b996931e93dcd"
+}

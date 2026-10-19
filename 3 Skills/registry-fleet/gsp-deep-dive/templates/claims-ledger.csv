@@ -1,0 +1,2 @@
+claim_id,vendor_text_verbatim,source_document,page_or_location,claim_type,test_method,stated_value,recomputed_value,variance_pct,evidence_label,carrier_load,status,verification_account,date,lane
+CLM-001,"Detection range up to 12 km at 90% confidence",datasheet-2026.pdf,p.7,performance,(12*0.9)/12*100,90%,90,0,VENDOR-CLAIMED,Y,open,gsp-verifier,2026-10-09,S2

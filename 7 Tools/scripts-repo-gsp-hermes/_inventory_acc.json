@@ -1,0 +1,1284 @@
+{
+ "profile_count": 48,
+ "phantom_refs": {
+  "gsp-architecture-specialist": [
+   "gsp-architecture-workflow",
+   "gsp-architecture-code-compliance",
+   "gsp-verification-before-completion",
+   "gsp-architecture-climate-design",
+   "gsp-architecture-building-physics",
+   "gsp-architecture-bim-deliverables",
+   "gsp-architecture-drawing-reading",
+   "gsp-document-quality-standards",
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-canvas-design",
+   "gsp-image-prompt-specialist",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-coder-execution": [
+   "gsp-verification-before-completion",
+   "gsp-backend-execution",
+   "gsp-brainstorming",
+   "gsp-context-engineering",
+   "gsp-deploy-to-vercel",
+   "gsp-design-taste-frontend",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-frontend-design",
+   "gsp-frontend-integration",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-webapp-testing",
+   "tdd",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop",
+   "gsp-plan-and-execute",
+   "gsp-writing-plans"
+  ],
+  "gsp-crawler-orchestrator": [
+   "gsp-vendor-crawler",
+   "gsp-social-media-collection-workflow",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-social-media-data-standards",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-custodian": [
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-data-analyst": [
+   "gsp-writing-plans",
+   "gsp-context-engineering",
+   "gsp-reflection-loop",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-vendor-crawler",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix",
+   "gsp-document-quality-standards"
+  ],
+  "gsp-data-collector": [
+   "gsp-agent-browser",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-database-specialist": [
+   "gsp-diagnose",
+   "gsp-verification-before-completion",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-design-system-specialist": [
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards",
+   "gsp-frontend-design",
+   "gsp-image-prompt-specialist",
+   "gsp-brainstorming",
+   "gsp-human-in-loop-gate",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-docker-specialist": [
+   "gsp-deploy-to-vercel",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix",
+   "gsp-diagnose"
+  ],
+  "gsp-document-analyst": [
+   "gsp-document-quality-standards",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-converter": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-reader": [
+   "gsp-searxng"
+  ],
+  "gsp-document-reviewer": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-translator": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-writer": [
+   "gsp-document-quality-standards",
+   "gsp-long-document-assembly",
+   "gsp-content-research-writer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-reflection-loop",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-engineering-analyst": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-explore": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-fiber-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-git-specialist": [
+   "gsp-using-git-worktrees",
+   "gsp-setup-pre-commit",
+   "gsp-finishing-a-development-branch",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-grounding-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-image-analyst": [
+   "gsp-image-enhancer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-image-prompt-specialist": [
+   "gsp-image-prompt-specialist",
+   "gsp-document-quality-standards",
+   "gsp-design-system-grill",
+   "gsp-context-engineering",
+   "gsp-searxng"
+  ],
+  "gsp-image-specialist": [
+   "gsp-image-enhancer",
+   "gsp-image-prompt-specialist",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-infra-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-librarian": [
+   "gsp-library-workflow",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-document-quality-standards"
+  ],
+  "gsp-pm-analyst": [
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-writing-plans",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-pm-planner": [
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-pm-verifier": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-eval-driven-improver"
+  ],
+  "gsp-pm-writer": [
+   "gsp-document-quality-standards",
+   "gsp-to-prd",
+   "gsp-writing-plans",
+   "gsp-content-research-writer",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-power-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-request-translator": [
+   "gsp-brainstorming",
+   "gsp-to-prd",
+   "gsp-searxng"
+  ],
+  "gsp-security-review": [
+   "gsp-security-review",
+   "gsp-security-review-gate",
+   "gsp-verification-before-completion",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-security-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-senior-code-reviewer": [
+   "gsp-code-review-senior",
+   "gsp-context-engineering",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop"
+  ],
+  "gsp-skill-creator": [
+   "gsp-verification-before-completion",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-skill-manager": [
+   "gsp-verification-before-completion",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-social-media-analyst": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-analysis-workflow",
+   "gsp-verification-before-completion",
+   "gsp-social-media-analyzer",
+   "gsp-social-analytics",
+   "gsp-sentiment-analysis",
+   "gsp-social-listening",
+   "gsp-social-listening-brief",
+   "gsp-social-media-intelligence",
+   "gsp-analytics-reporting",
+   "gsp-social-media-monitor",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-social-media-crawler": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-collection-workflow",
+   "gsp-verification-before-completion",
+   "gsp-web-crawling-reference",
+   "gsp-crawl4ai",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-vendor-crawler",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-system-control": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-system-manager": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-task-architect": [
+   "gsp-task-architect-templates",
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-to-prd",
+   "gsp-searxng",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute"
+  ],
+  "gsp-test-expert": [
+   "tdd",
+   "gsp-agent-browser",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-vendor-crawler-specialist": [
+   "gsp-vendor-crawler",
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-verifier": [
+   "gsp-verification-before-completion",
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-vss-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ]
+ },
+ "phantom_physical": {
+  "gsp-architecture-specialist": [
+   "gsp-architecture-workflow",
+   "gsp-architecture-code-compliance",
+   "gsp-verification-before-completion",
+   "gsp-architecture-climate-design",
+   "gsp-architecture-building-physics",
+   "gsp-architecture-bim-deliverables",
+   "gsp-architecture-drawing-reading",
+   "gsp-document-quality-standards",
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-canvas-design",
+   "gsp-image-prompt-specialist",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-coder-execution": [
+   "gsp-verification-before-completion",
+   "gsp-backend-execution",
+   "gsp-brainstorming",
+   "gsp-context-engineering",
+   "gsp-deploy-to-vercel",
+   "gsp-design-taste-frontend",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-frontend-design",
+   "gsp-frontend-integration",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-webapp-testing",
+   "tdd",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop",
+   "gsp-plan-and-execute",
+   "gsp-writing-plans"
+  ],
+  "gsp-crawler-orchestrator": [
+   "gsp-vendor-crawler",
+   "gsp-social-media-collection-workflow",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-social-media-data-standards",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-custodian": [
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-data-analyst": [
+   "gsp-writing-plans",
+   "gsp-context-engineering",
+   "gsp-reflection-loop",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-vendor-crawler",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix",
+   "gsp-document-quality-standards"
+  ],
+  "gsp-data-collector": [
+   "gsp-agent-browser",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-database-specialist": [
+   "gsp-diagnose",
+   "gsp-verification-before-completion",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-design-system-specialist": [
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards",
+   "gsp-frontend-design",
+   "gsp-image-prompt-specialist",
+   "gsp-brainstorming",
+   "gsp-human-in-loop-gate",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-docker-specialist": [
+   "gsp-deploy-to-vercel",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix",
+   "gsp-diagnose"
+  ],
+  "gsp-document-analyst": [
+   "gsp-document-quality-standards",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-converter": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-reader": [
+   "gsp-searxng"
+  ],
+  "gsp-document-reviewer": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-translator": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-document-writer": [
+   "gsp-document-quality-standards",
+   "gsp-long-document-assembly",
+   "gsp-content-research-writer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-reflection-loop",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-engineering-analyst": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-explore": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-fiber-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-git-specialist": [
+   "gsp-using-git-worktrees",
+   "gsp-setup-pre-commit",
+   "gsp-finishing-a-development-branch",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-grounding-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-image-analyst": [
+   "gsp-image-enhancer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-image-prompt-specialist": [
+   "gsp-image-prompt-specialist",
+   "gsp-document-quality-standards",
+   "gsp-design-system-grill",
+   "gsp-context-engineering",
+   "gsp-searxng"
+  ],
+  "gsp-image-specialist": [
+   "gsp-image-enhancer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-canvas-design"
+  ],
+  "gsp-infra-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-librarian": [
+   "gsp-library-workflow",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-document-quality-standards"
+  ],
+  "gsp-pm-analyst": [
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-writing-plans",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-pm-planner": [
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-pm-verifier": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "gsp-eval-driven-improver"
+  ],
+  "gsp-pm-writer": [
+   "gsp-document-quality-standards",
+   "gsp-to-prd",
+   "gsp-writing-plans",
+   "gsp-content-research-writer",
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-power-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-request-translator": [
+   "gsp-brainstorming",
+   "gsp-to-prd",
+   "gsp-searxng"
+  ],
+  "gsp-security-review": [
+   "gsp-security-review",
+   "gsp-security-review-gate",
+   "gsp-verification-before-completion",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "gsp-dry-run-verify-fix"
+  ],
+  "gsp-security-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ],
+  "gsp-senior-code-reviewer": [
+   "gsp-code-review-senior",
+   "gsp-context-engineering",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop"
+  ],
+  "gsp-skill-creator": [
+   "gsp-verification-before-completion",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-skill-manager": [
+   "gsp-verification-before-completion",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-social-media-analyst": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-analysis-workflow",
+   "gsp-verification-before-completion",
+   "gsp-social-media-analyzer",
+   "gsp-social-analytics",
+   "gsp-sentiment-analysis",
+   "gsp-social-listening",
+   "gsp-social-listening-brief",
+   "gsp-social-media-intelligence",
+   "gsp-analytics-reporting",
+   "gsp-social-media-monitor",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-social-media-crawler": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-collection-workflow",
+   "gsp-verification-before-completion",
+   "gsp-web-crawling-reference",
+   "gsp-crawl4ai",
+   "gsp-searxng",
+   "gsp-firecrawl",
+   "gsp-vendor-crawler",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "gsp-system-control": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-system-manager": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-task-architect": [
+   "gsp-task-architect-templates",
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-to-prd",
+   "gsp-searxng",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute"
+  ],
+  "gsp-test-expert": [
+   "tdd",
+   "gsp-agent-browser",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-vendor-crawler-specialist": [
+   "gsp-vendor-crawler",
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-verifier": [
+   "gsp-verification-before-completion",
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-self-healing-loop"
+  ],
+  "gsp-vss-specialist": [
+   "gsp-verification-before-completion",
+   "gsp-searxng"
+  ]
+ },
+ "orphan_by_profile": {
+  "gsp-architecture-specialist": [
+   "gsp-architecture-bim-deliverables",
+   "gsp-architecture-building-physics",
+   "gsp-architecture-climate-design",
+   "gsp-architecture-code-compliance",
+   "gsp-architecture-drawing-reading",
+   "gsp-architecture-workflow",
+   "gsp-brainstorming",
+   "gsp-canvas-design",
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng",
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ],
+  "gsp-budi": [
+   "database",
+   "yuanbao"
+  ],
+  "gsp-coder-execution": [
+   "gsp-backend-execution",
+   "gsp-brainstorming",
+   "gsp-context-engineering",
+   "gsp-deploy-to-vercel",
+   "gsp-design-taste-frontend",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-frontend-design",
+   "gsp-frontend-integration",
+   "gsp-observability-tracer",
+   "gsp-plan-and-execute",
+   "gsp-receiving-code-review",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing",
+   "gsp-writing-plans",
+   "tdd"
+  ],
+  "gsp-crawler-orchestrator": [
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-phase-accountability",
+   "gsp-searxng",
+   "gsp-social-media-collection-workflow",
+   "gsp-social-media-data-standards",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-creative": [
+   "database",
+   "yuanbao"
+  ],
+  "gsp-custodian": [
+   "gsp-library-data-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-data-analyst": [
+   "gsp-context-engineering",
+   "gsp-document-quality-standards",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ],
+  "gsp-data-collector": [
+   "gsp-agent-browser",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-database-specialist": [
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-design-system-specialist": [
+   "gsp-brainstorming",
+   "gsp-canvas-design",
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards",
+   "gsp-frontend-design",
+   "gsp-human-in-loop-gate",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng"
+  ],
+  "gsp-docker-specialist": [
+   "gsp-deploy-to-vercel",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-analyst": [
+   "gsp-context-engineering",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-converter": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-reader": [
+   "gsp-searxng"
+  ],
+  "gsp-document-reviewer": [
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-translator": [
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-document-writer": [
+   "gsp-content-research-writer",
+   "gsp-document-quality-standards",
+   "gsp-dry-run-verify-fix",
+   "gsp-long-document-assembly",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-engineering-analyst": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-explore": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-fiber-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-firman-custom": [
+   "bimdown-cli",
+   "construction",
+   "construction-estimator",
+   "database",
+   "hermes-skill-activation",
+   "ntriq-x402-blueprint",
+   "yuanbao"
+  ],
+  "gsp-git-specialist": [
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-searxng",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-grounding-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-image-analyst": [
+   "gsp-canvas-design",
+   "gsp-image-enhancer",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-image-prompt-specialist": [
+   "gsp-context-engineering",
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng"
+  ],
+  "gsp-image-specialist": [
+   "gsp-canvas-design",
+   "gsp-image-enhancer",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-infra-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-librarian": [
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-library-data-standards",
+   "gsp-library-workflow",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-pm-analyst": [
+   "gsp-brainstorming",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-to-issues",
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ],
+  "gsp-pm-planner": [
+   "gsp-brainstorming",
+   "gsp-dry-run-verify-fix",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-to-issues",
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ],
+  "gsp-pm-verifier": [
+   "gsp-document-quality-standards",
+   "gsp-eval-driven-improver",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-pm-writer": [
+   "gsp-content-research-writer",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-to-prd",
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ],
+  "gsp-power-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-request-translator": [
+   "gsp-brainstorming",
+   "gsp-searxng",
+   "gsp-to-prd"
+  ],
+  "gsp-security-review": [
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "gsp-security-review",
+   "gsp-security-review-gate",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-security-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-senior-code-reviewer": [
+   "gsp-code-review-senior",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-receiving-code-review",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-skill-creator": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-skill-manager": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-social-media-analyst": [
+   "gsp-analytics-reporting",
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-sentiment-analysis",
+   "gsp-social-analytics",
+   "gsp-social-listening",
+   "gsp-social-listening-brief",
+   "gsp-social-media-analysis-workflow",
+   "gsp-social-media-analyzer",
+   "gsp-social-media-data-standards",
+   "gsp-social-media-intelligence",
+   "gsp-social-media-monitor",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-social-media-crawler": [
+   "gsp-checkpoint-resume",
+   "gsp-crawl4ai",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-social-media-collection-workflow",
+   "gsp-social-media-data-standards",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion",
+   "gsp-web-crawling-reference"
+  ],
+  "gsp-system-control": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-system-manager": [
+   "gsp-verification-before-completion"
+  ],
+  "gsp-task-architect": [
+   "gsp-brainstorming",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-task-architect-templates",
+   "gsp-to-issues",
+   "gsp-to-prd",
+   "gsp-writing-plans"
+  ],
+  "gsp-test-expert": [
+   "gsp-agent-browser",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing",
+   "tdd"
+  ],
+  "gsp-vendor-crawler-specialist": [
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "gsp-verifier": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing"
+  ],
+  "gsp-vss-specialist": [
+   "gsp-searxng",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "redundant_by_profile": {
+  "gsp-architecture-specialist": [
+   "docx",
+   "grounded-citations",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "gsp-coder-execution": [
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "gsp-crawler-orchestrator": [
+   "gsp-orchestration-telemetry",
+   "gsp-orchestrator-worker",
+   "hermes-web-search-stack"
+  ],
+  "gsp-custodian": [
+   "gsp-library-custodian",
+   "gsp-library-organization-standards",
+   "gsp-library-rebuild",
+   "hermes-web-search-stack"
+  ],
+  "gsp-data-analyst": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-data-collector": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-database-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-design-system-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-docker-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-document-analyst": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-document-converter": [
+   "docx",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "gsp-document-reader": [
+   "docx",
+   "hermes-web-search-stack",
+   "ocr-and-documents",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "gsp-document-reviewer": [
+   "docx",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "gsp-document-translator": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-document-writer": [
+   "docx",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "gsp-engineering-analyst": [
+   "cctv-system-designer",
+   "dems-polri-proposal-architect",
+   "digital-forensics-evidence-system",
+   "excel-master",
+   "fiber-link-design",
+   "grounding-lightning-design",
+   "hermes-web-search-stack",
+   "hw-sw-config-master",
+   "onvif-interop",
+   "perimeter-security-designer",
+   "power-backup-sizing",
+   "pustaka-teknis",
+   "rcm-analysis"
+  ],
+  "gsp-explore": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-fiber-specialist": [
+   "excel-master",
+   "fiber-link-design",
+   "hermes-web-search-stack",
+   "pustaka-teknis"
+  ],
+  "gsp-git-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-grounding-specialist": [
+   "excel-master",
+   "grounding-lightning-design",
+   "hermes-web-search-stack",
+   "pustaka-teknis"
+  ],
+  "gsp-image-analyst": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-image-prompt-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-image-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-infra-specialist": [
+   "excel-master",
+   "hermes-web-search-stack",
+   "hw-sw-config-master",
+   "pustaka-teknis"
+  ],
+  "gsp-librarian": [
+   "gsp-library-custodian",
+   "gsp-library-organization-standards",
+   "gsp-library-rebuild",
+   "hermes-web-search-stack"
+  ],
+  "gsp-pm-analyst": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-pm-planner": [
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "gsp-pm-verifier": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-pm-writer": [
+   "docx",
+   "hermes-web-search-stack",
+   "powerpoint"
+  ],
+  "gsp-power-specialist": [
+   "excel-master",
+   "hermes-web-search-stack",
+   "power-backup-sizing",
+   "pustaka-teknis",
+   "rcm-analysis"
+  ],
+  "gsp-request-translator": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-security-review": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-security-specialist": [
+   "dems-polri-proposal-architect",
+   "digital-forensics-evidence-system",
+   "hermes-web-search-stack",
+   "onvif-interop",
+   "pustaka-teknis"
+  ],
+  "gsp-senior-code-reviewer": [
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "gsp-skill-creator": [
+   "gsp-skill-authoring",
+   "gsp-skill-distribution"
+  ],
+  "gsp-skill-manager": [
+   "gsp-skill-authoring",
+   "gsp-skill-distribution",
+   "gsp-system-manager-ops"
+  ],
+  "gsp-social-media-analyst": [
+   "grounded-citations",
+   "hermes-web-search-stack",
+   "youtube-content"
+  ],
+  "gsp-social-media-crawler": [
+   "hermes-web-search-stack",
+   "youtube-content"
+  ],
+  "gsp-system-control": [
+   "gsp-agent-hq-ops",
+   "gsp-fleet-profile-operations",
+   "gsp-system-control"
+  ],
+  "gsp-system-manager": [
+   "gsp-agent-hq-ops",
+   "gsp-fleet-profile-operations",
+   "gsp-skill-distribution",
+   "gsp-system-manager-ops"
+  ],
+  "gsp-task-architect": [
+   "gsp-orchestration-telemetry",
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "gsp-test-expert": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-vendor-crawler-specialist": [
+   "hermes-web-search-stack"
+  ],
+  "gsp-verifier": [
+   "gsp-orchestration-telemetry",
+   "hermes-web-search-stack"
+  ],
+  "gsp-vss-specialist": [
+   "cctv-system-designer",
+   "excel-master",
+   "hermes-web-search-stack",
+   "onvif-interop",
+   "perimeter-security-designer",
+   "pustaka-teknis"
+  ]
+ }
+}

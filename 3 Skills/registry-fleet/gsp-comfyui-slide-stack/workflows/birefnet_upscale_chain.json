@@ -1,0 +1,15 @@
+{
+  "1": {"class_type": "LoadImage", "_meta": {"title": "Sumber asli (RGB) — BUKAN PNG cutout"}, "inputs": {"image": "canonical.png"}},
+  "2": {"class_type": "LoadBackgroundRemovalModel", "_meta": {"title": "Load BiRefNet"}, "inputs": {"bg_removal_name": "birefnet.safetensors"}},
+  "3": {"class_type": "RemoveBackground", "_meta": {"title": "Remove BG (keluaran mask=LATAR)"}, "inputs": {"bg_removal_model": ["2", 0], "image": ["1", 0]}},
+  "6": {"class_type": "InvertMask", "_meta": {"title": "Koreksi polaritas (mask=OBJEK)"}, "inputs": {"mask": ["3", 0]}},
+  "4": {"class_type": "JoinImageWithAlpha", "_meta": {"title": "Cabang 1: RGBA 1x"}, "inputs": {"image": ["1", 0], "alpha": ["6", 0]}},
+  "5": {"class_type": "SaveImage", "_meta": {"title": "Simpan PNG RGBA 1x"}, "inputs": {"filename_prefix": "assets/cutout_1x", "images": ["4", 0]}},
+  "7": {"class_type": "UpscaleModelLoader", "_meta": {"title": "Load RealESRGAN x4"}, "inputs": {"model_name": "RealESRGAN_x4plus.safetensors"}},
+  "8": {"class_type": "ImageUpscaleWithModel", "_meta": {"title": "Upscale 4x pada RGB (model hanya RGB)"}, "inputs": {"upscale_model": ["7", 0], "image": ["1", 0]}},
+  "9": {"class_type": "MaskToImage", "_meta": {"title": "Alpha 1x -> IMAGE (grayscale 3 kanal)"}, "inputs": {"mask": ["6", 0]}},
+  "10": {"class_type": "ImageScaleBy", "_meta": {"title": "Alpha 4x nearest-exact (WAJIB = skala model)"}, "inputs": {"image": ["9", 0], "upscale_method": "nearest-exact", "scale_by": 4.0}},
+  "11": {"class_type": "ImageToMask", "_meta": {"title": "IMAGE -> MASK (kanal red = grayscale)"}, "inputs": {"image": ["10", 0], "channel": "red"}},
+  "12": {"class_type": "JoinImageWithAlpha", "_meta": {"title": "Cabang 2: RGBA 4x (re-join alpha)"}, "inputs": {"image": ["8", 0], "alpha": ["11", 0]}},
+  "13": {"class_type": "SaveImage", "_meta": {"title": "Simpan PNG RGBA 4x"}, "inputs": {"filename_prefix": "assets/cutout_up4x", "images": ["12", 0]}}
+}

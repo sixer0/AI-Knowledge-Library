@@ -1,0 +1,9 @@
+query_id,date,route_class,language,query_or_url,result_summary,evidence_status
+QRY-001,2026-10-09,1,EN,official site exact pages,primary docs captured,logged
+QRY-002,2026-10-09,2,EN,subdomain + sitemap variants,press archive found,logged
+QRY-003,2026-10-09,3,EN,CMS probe /wp-json,case-study CPT listed,logged
+QRY-004,2026-10-09,4,ID,lpse site tender phrases,tender history rows,logged
+QRY-005,2026-10-09,5,EN,CDX archive of datasheet URL,prior revision captured,logged
+QRY-006,2026-10-09,6,ZH,registry filings search,ownership extract,logged
+QRY-007,2026-10-09,7,EN,news + social name sweep,funding announcements,logged
+QRY-008,2026-10-09,8,EN,browser render XHR hunt,price endpoint captured,logged

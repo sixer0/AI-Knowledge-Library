@@ -1,0 +1,1326 @@
+{
+ "generated": "2026-09-01",
+ "source_files": "study/DS-*.md (13) + study/DS-palet-TERUKUR.json",
+ "palette_source_legend": {
+  "tercetak": "HEX dicetak eksplisit di dokumen sumber",
+  "terukur-piksel": "dominan terukur dari piksel PNG (DS-palet-TERUKUR.json, hasil controller) — dipakai untuk mengisi slot yang TIDAK_TERBACA di file DS",
+  "estimasi-vision": "perkiraan pembacaan vision, BUKAN nilai spesifikasi"
+ },
+ "sets": [
+  {
+   "set": "BNN_-_Design_System",
+   "file": "DS-bnn.md",
+   "pages": 15,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Deep Institutional Navy",
+     "hex": "#0B1F33",
+     "role": "headline/primary",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "BNN Institutional Blue",
+     "hex": "#205A86",
+     "role": "information/primary",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Signal Blue",
+     "hex": "#79A9C9",
+     "role": "data/secondary",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Ivory Gold",
+     "hex": "#C5A253",
+     "role": "accent (attention token)",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Paper White",
+     "hex": "#F7F8F7",
+     "role": "background",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Warm Ivory",
+     "hex": "#F1EEE5",
+     "role": "background alt",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Technical Gray",
+     "hex": "#D7DBDE",
+     "role": "ui/borders",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Slate",
+     "hex": "#65717C",
+     "role": "data/subtle text",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Charcoal",
+     "hex": "#20262C",
+     "role": "footer/strong text",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 88.17% (konsisten rasio 70% white/ivory)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Status HEX (COMPLY/EXCEED/REVIEW/NON-COMPLY)",
+     "hex": null,
+     "role": "status",
+     "source": "TIDAK_TERBACA hal 12 — hanya nama warna"
+    }
+   ],
+   "usage_ratio": "70% White/Ivory · 20% Navy/Blue · 7% Gray · 3% Gold (hal 4)",
+   "mood": [
+    "CLEAR",
+    "OBJECTIVE",
+    "TRACEABLE",
+    "STRUCTURED",
+    "DECISIVE",
+    "design with evidence",
+    "formal-objektif-modern (Formal 80 / Technical 75 / Modern 70 / Minimal 65 / Premium 35)"
+   ],
+   "components": [
+    "PRIMARY/SECONDARY/TEXT-LINK action",
+    "kutipan emas",
+    "kartu hero",
+    "tabel spesifikasi & kepatuhan PARAMETER|REQUIREMENT|OFFERED|STATUS",
+    "diagram alur horizontal",
+    "Procurement Component Library 12 komponen (Requirement/Specification/KPI/Compliance/Evaluation/Product/Callout/Comparison/Architecture/Timeline/BOQ/Evidence Tag)",
+    "Evidence Tag SOURCE/REFERENCE/STATUS/REV",
+    "master footer + penomoran XX/15"
+   ],
+   "rules": [
+    "Gold = attention token, bukan warna dominan (hal 4)",
+    "BUKAN gaya: Cyberpunk, Military game UI, Luxury corporate, Futuristic neon, Marketing brochure (hal 3)",
+    "ikuti grid bukan intuisi visual; satu slide satu visual winner (hal 6, 8)",
+    "hindari 3D chart/dekoratif; sorot satu insight per slide (hal 13)",
+    "hierarki informasi 60-30-10 PRIMARY/EVIDENCE/METADATA (hal 8)"
+   ],
+   "gaps": [
+    "nama font tidak pernah tercetak",
+    "HEX status tidak tercetak",
+    "tidak ada label klasifikasi keamanan tercetak"
+   ]
+  },
+  {
+   "set": "BNPT_-_design_system",
+   "file": "DS-bnpt.md",
+   "pages": 15,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "BNPT RED",
+     "hex": "#C8202F",
+     "role": "accent/authority",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "MIDNIGHT NAVY",
+     "hex": "#111C28",
+     "role": "primary text/judul",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "NEAR BLACK",
+     "hex": "#111315",
+     "role": "secondary text",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "WARM WHITE",
+     "hex": "#F7F7F4",
+     "role": "background",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "SOFT GREY",
+     "hex": "#ECEDEF",
+     "role": "netral pendukung",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "SLATE",
+     "hex": "#6C7278",
+     "role": "teks sekunder/ikon",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Cover Navy/Red/Gold/Grey",
+     "hex": [
+      "#0B1D2A",
+      "#D00416",
+      "#F5BD00",
+      "#EEEBEB"
+     ],
+     "role": "warna utama cover direction",
+     "source": "tercetak p15"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 70.3%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured ink field",
+     "hex": "#101020",
+     "role": "measured 1.74% (teks/panel gelap)",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "65% White/Light · 20% Navy/Black · 10% Red · 5% Gold (p3)",
+   "mood": [
+    "Authority",
+    "Clarity",
+    "Evidence",
+    "Restraint",
+    "Precision",
+    "Quiet Authority",
+    "TEPERCAYA, STRATEGIS, TERSTRUKTUR, DATA-DRIVEN, ADAPTIF",
+    "blueprint-inspired"
+   ],
+   "components": [
+    "Hierarchy Model 65/25/10",
+    "Requirement Card",
+    "Specification Block",
+    "Compliance Matrix",
+    "KPI Card",
+    "Graphic Language Toolkit (Precision Frame heksagon, Red Authority Line, Gold Marker, Connector, Evidence Tag BNPT-250608 VERIFIED, Micro Grid)",
+    "Hero Visual System (Environmental/Cutout/Contained/Full Frame crop heksagon)",
+    "Slide families 10 arketype",
+    "bar/donut/line chart"
+   ],
+   "rules": [
+    "Use imagery as evidence, not decoration (p7)",
+    "Use hierarchy before decoration; no noise / no excess (p2)",
+    "satu pesan per slide; kontras dengan restraint; metadata quiet (p6)",
+    "penggunaan warna terbatas sesuai USAGE RATIO 65/20/10/5 (p3)",
+    "Core Rules tetap (Grid/Hierarchy/Spacing/Typography/Data Clarity); adaptive elements berubah per mode (p10)"
+   ],
+   "gaps": [
+    "nama font tidak diekspor",
+    "HEX COLOR ROLES/aksen tidak lengkap (estimasi)",
+    "beberapa nilai chart terpotong TIDAK_TERBACA"
+   ]
+  },
+  {
+   "set": "Business_-_design_system",
+   "file": "DS-business.md",
+   "pages": 10,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Navy gelap (aksen primer)",
+     "hex": null,
+     "role": "breadcrumb, ikon, header tabel, metrik, footer",
+     "source": "TIDAK_TERBACA — tidak ada HEX tercetak"
+    },
+    {
+     "name": "Putih dominan",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 85.37% (latar putih)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Abu teks/netral",
+     "hex": "#9090A0",
+     "role": "measured 3.49%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Abu medium",
+     "hex": "#A0A0B0",
+     "role": "measured 2.33%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Hijau indikator positif",
+     "hex": null,
+     "role": "delta positif / status On Track",
+     "source": "TIDAK_TERBACA"
+    },
+    {
+     "name": "Merah status buruk",
+     "hex": null,
+     "role": "tidak dicontohkan di dokumen",
+     "source": "tidak ada di rak (GAP-4)"
+    }
+   ],
+   "usage_ratio": "visual: ±80% putih, navy satu-satunya aksen kuat, hijau hanya sinyal positif (tanpa angka tercetak)",
+   "mood": [
+    "profesional",
+    "kredibel",
+    "disiplin",
+    "decision-oriented",
+    "anti-dekoratif",
+    "gaya konsultan manajemen"
+   ],
+   "components": [
+    "breadcrumb 'NN / GENERAL BUSINESS PRESENTATION SYSTEM'",
+    "hero title block + tagline navy",
+    "process flow 4-5 langkah",
+    "callout SO WHAT?",
+    "EXECUTIVE SNAPSHOT box",
+    "KPI card + delta",
+    "waterfall chart",
+    "line chart multi-seri",
+    "tabel header navy",
+    "comparison matrix ✓/⊖/✕",
+    "weighted scorecard",
+    "recommendation box",
+    "timeline milestone + roadmap chevron",
+    "RACI dot-matrix",
+    "footer kalimat penutup (semua halaman)"
+   ],
+   "rules": [
+    "setiap slide harus menggerakkan diskusi maju (p1)",
+    "judul slide = kalimat insight, bukan label topik (p8)",
+    "anatomi slide 8 elemen wajib termasuk Source (p4)",
+    "hierarki eksekutif Takeaway→Implication→Evidence→Context→Detail (p8)",
+    "8 layout kanonik; KPI wajib change/target/status/trend (p5, p6)"
+   ],
+   "gaps": [
+    "nol HEX & nol nama font tercetak",
+    "spes grid numerik tidak dicetak",
+    "status negatif tidak dicontohkan",
+    "penomoran slide internal acak vs urutan PDF"
+   ]
+  },
+  {
+   "set": "Cyber_Security_-_Design_system",
+   "file": "DS-cyber-security.md",
+   "pages": 20,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Deep Background",
+     "hex": "#05080D",
+     "role": "latar terdalam",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Background",
+     "hex": "#080D14",
+     "role": "latar dasar",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Surface 01",
+     "hex": "#0E1620",
+     "role": "permukaan panel",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Surface 02",
+     "hex": "#15212D",
+     "role": "permukaan level 2",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Divider",
+     "hex": "#263442",
+     "role": "border",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Primary Text",
+     "hex": "#F4F7FA",
+     "role": "teks utama",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Secondary Text",
+     "hex": "#A3AFBA",
+     "role": "teks sekunder",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Muted",
+     "hex": "#65717D",
+     "role": "teks redup",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Cyber Signal",
+     "hex": "#00B8F0",
+     "role": "aksen cyan primer",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "AI Intelligence",
+     "hex": "#665CFF",
+     "role": "aksen ungu AI",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Data Highlight",
+     "hex": "#38D4FF",
+     "role": "highlight data",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Positive/Secure",
+     "hex": "#35C88A",
+     "role": "state positif",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Warning",
+     "hex": "#FFB547",
+     "role": "state peringatan",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Critical",
+     "hex": "#F05353",
+     "role": "state kritis",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Measured dark field",
+     "hex": "#000010",
+     "role": "measured dominant 79.73% (konfirmasi dark-mode)",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "hierarki kontras PRIMARY > SECONDARY > METADATA > EMPHASIS; 70/20/10 Intelligence/Evidence/Telemetry (p4-p5)",
+   "mood": [
+    "SIGNAL • SYSTEM • SECURITY • INTELLIGENCE",
+    "SOC/SIEM dark-mode",
+    "terminal/telemetri presisi",
+    "teknis, tenang, satu focal point terang di dasar gelap",
+    "anti-klişe sci-fi"
+   ],
+   "components": [
+    "buttons 3 tingkat",
+    "inputs/toggle/pagination",
+    "Threat Card",
+    "Risk Score gauge",
+    "Incident Timeline",
+    "Telemetry Strip",
+    "AI Confidence Card",
+    "Table Container",
+    "IOC Card",
+    "Attack Path",
+    "Threat Actor Profile",
+    "Risk Matrix 3x3",
+    "Cyber Kill Chain",
+    "Inference Pipeline",
+    "diagram arsitektur 3 lapis + trust zone",
+    "motion patterns (Signal Pulse/Data Flow/Reveal/State Change)"
+   ],
+   "rules": [
+    "Color is functional, not decorative (p5)",
+    "NEVER USE SEVERITY COLOR DECORATIVELY (p17)",
+    "AVOID: hooded hacker, glowing brain, humanoid robots, excessive holograms, neural particles (p7, p15, p19)",
+    "signal grid dilarang dipakai sebagai layout grid (p3)",
+    "STAYS CONSTANT: hierarchy/composition/scale/focal point/layering/grid; CHANGES: color emphasis/image treatment/data density/graphic pattern/mood (p13)",
+    "governance: QA checklist 5 grup + approval workflow DRAFT→RELEASED + version control (p20)"
+   ],
+   "gaps": [
+    "HEX state p17 hanya nama (pemetaan ke p5 disimpulkan)",
+    "dua skala tipografi koeksistensi tanpa resolusi",
+    "tidak ada light mode",
+    "token radius/stroke/kontras WCAG tidak dicetak"
+   ]
+  },
+  {
+   "set": "GENERAL_-_design_system",
+   "file": "DS-general.md",
+   "pages": 10,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "BACKGROUND",
+     "hex": "#000010",
+     "role": "base layer — measured dominant 53.32% (mengisi TIDAK_TERBACA p7)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "SURFACE",
+     "hex": "#001010",
+     "role": "surface kartu — measured 24.06%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Elevated surface / border",
+     "hex": "#404040",
+     "role": "measured 6.4%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "PRIMARY TEXT",
+     "hex": null,
+     "role": "teks utama off-white — share kecil di bawah ambang ukur",
+     "source": "TIDAK_TERBACA p7; estimasi agen [est. #E8E6E1]"
+    },
+    {
+     "name": "PRIMARY ACCENT (emas/oranye)",
+     "hex": null,
+     "role": "aksen tunggal — share < ambang ukur",
+     "source": "TIDAK_TERBACA p7; estimasi agen [est. #CFA056]"
+    },
+    {
+     "name": "POSITIVE/WARNING/CRITICAL/INFORMATION",
+     "hex": null,
+     "role": "status",
+     "source": "TIDAK_TERBACA p7 — hanya nama peran"
+    }
+   ],
+   "usage_ratio": "kontras HIGH→LOW 4 tingkat (Primary Info → Secondary → Metadata → Emphasis); aksen hemat (p7)",
+   "mood": [
+    "dark mode teknis",
+    "blueprint/dokumentasi developer presisi",
+    "formal, tertib grid, anti-dekoratif",
+    "PRINCIPLES • SYSTEMS • COMPONENTS • PATTERNS • GUIDELINES"
+   ],
+   "components": [
+    "sistem 3 lapis Core/Theme/Content",
+    "12 COLOR ROLES",
+    "9 role tipografi dengan line-length",
+    "9 pola layout library 3x3",
+    "CORE COMPONENT LIBRARY 12 komponen",
+    "icon system 9 ikon + aturan stroke seragam",
+    "image system 4 tipe",
+    "data viz 4 tipe skema abu+1 aksen"
+   ],
+   "rules": [
+    "'Use color as a functional system, not a fixed brand palette' (p7)",
+    "'This is a role system, not a font choice' (p6)",
+    "'Follow the grid, not your eye' (p4)",
+    "'THIS DECK DEFINES THE CORE SYSTEM. EACH PROJECT ADDS ITS OWN THEME AND CONTENT.' (p10)",
+    "pilih layout berdasar densitas LOW/MEDIUM/HIGH (p8)"
+   ],
+   "gaps": [
+    "nol HEX/nama font tercetak (font-agnostic by design)",
+    "inkonsistensi skala tipografi p1 vs p6",
+    "arithmetika grid 12x120+11x20=1660≠1680 ambigu",
+    "tanpa aturan saluran docx/xlsx/print"
+   ]
+  },
+  {
+   "set": "Millitary_-_design_system",
+   "file": "DS-military.md",
+   "pages": 10,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Olive Drab Gelap",
+     "hex": null,
+     "role": "primary/header/nomor fase",
+     "source": "TIDAK_TERBACA — tidak ada HEX tercetak"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 53.04% (latar terang + foto field)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured olive/earth midtone",
+     "hex": "#707060",
+     "role": "measured 4.26% (nuansa olive terukur)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured dark ink",
+     "hex": "#303020",
+     "role": "measured 3.69% (teks/panel gelap)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Status GREEN/YELLOW-ORANGE/RED/BROWN-GOLD",
+     "hex": null,
+     "role": "status READY/LIMITED/CRITICAL/confidence",
+     "source": "TIDAK_TERBACA — hanya nama warna"
+    }
+   ],
+   "usage_ratio": "gelap (teks/olive) dominan; aksen hanya indikator status/highlight prioritas (tanpa persentase tercetak)",
+   "mood": [
+    "utilitarian",
+    "earthy taktis",
+    "Clear. Verified. Relevant. Actionable.",
+    "field/command-post"
+   ],
+   "components": [
+    "page header 'NN / MILITARY OPERATIONAL PRESENTATION SYSTEM'",
+    "section header kotak olive bernomor",
+    "process flow",
+    "data table STATUS|REMARKS|UNIT",
+    "risk matrix 5x4 + risk register",
+    "status badge GREEN/YELLOW/RED",
+    "map template UTM",
+    "timeline fase 1-5",
+    "KPI strip"
+   ],
+   "rules": [
+    "critical info tidak boleh bersaing visual dengan info pendukung (p2)",
+    "OBSERVATION (fakta) vs ASSESSMENT (judgment) vs IMPLICATION wajib dibedakan (p5)",
+    "status color-coding wajib konsisten Green/Yellow/Red (p4,7,8)",
+    "readiness = capability, bukan hitungan inventaris (p7)",
+    "timeline wajib when+who+what (p9)"
+   ],
+   "gaps": [
+    "nol HEX & nol nama font tercetak",
+    "grid numerik tidak dicetak",
+    "banyak label terpotong (cut-off)",
+    "typo sumber 'TIMESTARIP', 'eight elements' vs 6 tercantum"
+   ]
+  },
+  {
+   "set": "Polri_-_design_system",
+   "file": "DS-polri.md",
+   "pages": 20,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Primary Brown",
+     "hex": "#604536",
+     "role": "primary",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Deep Brown",
+     "hex": "#3B2B23",
+     "role": "primary gelap/sidebar",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Warm Brown",
+     "hex": "#8A6752",
+     "role": "secondary",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Institutional Gold",
+     "hex": "#B79862",
+     "role": "aksen institusional",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Warm Ivory",
+     "hex": "#F5F1EC",
+     "role": "latar utama",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Warm White",
+     "hex": "#FCFAF7",
+     "role": "latar kartu",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Sand",
+     "hex": "#DED2C7",
+     "role": "netral pengisi",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Graphite",
+     "hex": "#292827",
+     "role": "teks",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Stone Gray",
+     "hex": "#8A8580",
+     "role": "teks sekunder",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Information Blue",
+     "hex": "#506D7C",
+     "role": "informasi",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Compliance Green",
+     "hex": "#60735C",
+     "role": "kepatuhan",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Warning Amber",
+     "hex": "#B57936",
+     "role": "peringatan",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Critical Red",
+     "hex": "#9B4B45",
+     "role": "kritis",
+     "source": "tercetak hal 4"
+    },
+    {
+     "name": "Measured warm-paper field",
+     "hex": "#F0F0E0",
+     "role": "measured dominant 58.79% (konfirmasi Warm Ivory)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured brown ink",
+     "hex": "#403020",
+     "role": "measured 6.21%",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "65% Light Neutral / 25% Brown-Graphite / 10% Accent (hal 4); kontras teks min 4.5:1",
+   "mood": [
+    "Clear • Accountable • Authoritative",
+    "AUTHORITATIVE/PROFESSIONAL/TECHNICAL/ACCOUNTABLE",
+    "TRUST/STRUCTURE/PRECISION/INTEGRITY",
+    "formal teknis-presisi, earthy hangat, BUKAN militeristik"
+   ],
+   "components": [
+    "component system 12 modul",
+    "bahasa grafis 8 elemen",
+    "header 'POLRI PROCUREMENT VISUAL SYSTEM / NN' + sidebar kiri gelap permanen",
+    "product hero framework 3 gaya",
+    "icon system 12 ikon stroke 1.5px 24/32/48px",
+    "diagram 4 tipe + legend bentuk/garis",
+    "tabel kepatuhan 5 kolom + badge pil",
+    "status 5 state + risk scale + decision cards",
+    "ritme deck 9 tipe slide"
+   ],
+   "rules": [
+    "HINDARI: camouflage militeristik, neon, cyberpunk, dekorasi berlebih, gaya marketplace (hal 3)",
+    "1-2 aksen per slide; kontras min 4.5:1; warna status hanya indikator penting (hal 4)",
+    "Polri Brown identitas utama; DON'T full brown/gradient glow/motif kepolisian dekoratif (hal 20)",
+    "wajib kolom sumber/bukti di tabel; highlight hanya pengecualian (hal 16)",
+    "semua keputusan dapat dilacak & diaudit (hal 17)"
+   ],
+   "gaps": [
+    "nama font tidak dicetak (display kadang terbaca 'condensed serif/slab' — ambigu)",
+    "HEX hanya hal 4",
+    "ukuran tipografi rentang pt tanpa px kanvas"
+   ]
+  },
+  {
+   "set": "TNI_AD_-_Design_System",
+   "file": "DS-tni-ad.md",
+   "pages": 15,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "COMMAND GREEN",
+     "hex": "#3F4F3A",
+     "role": "primer struktural",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "DEEP ARMY GREEN",
+     "hex": "#243128",
+     "role": "primer gelap",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "FIELD KHAKI",
+     "hex": "#A08E62",
+     "role": "sekunder/kandidat aksen gold",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "TACTICAL SAND",
+     "hex": "#D8D0C2",
+     "role": "light neutral",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "STONE GRAY",
+     "hex": "#727779",
+     "role": "netral/teks sekunder",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "CARBON BLACK",
+     "hex": "#171A19",
+     "role": "latar gelap",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "PAPER WHITE",
+     "hex": "#F4F3EF",
+     "role": "teks/latar terang",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "POSITIVE",
+     "hex": "#5D8B5A",
+     "role": "status approved/go",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "WARNING",
+     "hex": "#C1903B",
+     "role": "status review",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "CRITICAL",
+     "hex": "#A84D43",
+     "role": "status stop",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "INFORMATION",
+     "hex": "#607B94",
+     "role": "status reference",
+     "source": "tercetak hal 5"
+    },
+    {
+     "name": "Measured dark field",
+     "hex": "#102010",
+     "role": "measured dominant 51.41% (konfirmasi eksekusi dark, kontradiksi rasio 70% light)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured near-black",
+     "hex": "#101010",
+     "role": "measured 27.78%",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "70% LIGHT NEUTRAL / 20% STRUCTURAL GREEN / 10% ACCENT (hal 5) — bertentangan dengan eksekusi visual gelap (GAP-3)",
+   "mood": [
+    "FOCUSED/EVALUATIVE/SYSTEMATIC/ACCOUNTABLE/DECISIVE",
+    "AUTHORITATIVE/DISCIPLINED/STRUCTURED/TECHNICAL/OFFICIAL/MODERN",
+    "dark tactical/industrial + ornamen bingkai teknis",
+    "'BUILT FOR CLARITY. DESIGNED FOR EVALUATION. MADE FOR DECISION.'"
+   ],
+   "components": [
+    "5 TECHNICAL CONTENT MODULES (Technical Spec EQP-00123, Compliance Checklist, Vendor Comparison berbobot, Quantity Summary, Cost & Value)",
+    "5 data/evaluation visuals + scoring matrix",
+    "hero image approach 4 gaya x 4 atribut",
+    "graphic elements 8 (FRAME..DOCUMENT TAG DOC ID/TYPE/REV/DATE)",
+    "master layout library 9 template",
+    "page system dark/light theme + metadata CONFIDENTIAL"
+   ],
+   "rules": [
+    "AVOID: flashy colors, visual noise, decorative HUDs, cyberpunk aesthetics, aggressive clutter (hal 4)",
+    "GRAPHICS ORGANIZE, GUIDE, AND CLARIFY — NEVER DECORATE WITHOUT PURPOSE (hal 11)",
+    "MODULE RULES: one purpose per block, label units, highlight only decision-critical, keep source/revision traceable (hal 12)",
+    "VISUALIZATION RULES: one message per chart ... source the data (hal 13)",
+    "STAYS CONSTANT vs CAN ADAPT (hal 15)",
+    "footer metadata: DECK NAME | STATUS | TANGGAL | NOMOR (hal 8)"
+   ],
+   "gaps": [
+    "gold aksen tanpa nama+hex resmi",
+    "rasio 70% light vs eksekusi gelap tidak terselesaikan",
+    "satuan SIZE pt/px ambigu",
+    "tanpa halaman icon system & aturan kontras WCAG",
+    "lambang institusi tidak ada"
+   ]
+  },
+  {
+   "set": "TNI_AL_-_Design_system",
+   "file": "DS-tni-al.md",
+   "pages": 15,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Navy gelap (latar utama)",
+     "hex": "#001020",
+     "role": "background seluruh deck — measured dominant 75.73% (mengisi TIDAK_TERBACA)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Navy lebih dalam",
+     "hex": "#001030",
+     "role": "measured 7.66%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Biru slate / abu biru",
+     "hex": "#606070",
+     "role": "measured 3.33% (teks sekunder/border)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Emas/oranye aksen",
+     "hex": null,
+     "role": "aksen tunggal — share di bawah ambang ukur",
+     "source": "TIDAK_TERBACA; estimasi agen ~#C59D5F–#D4A356"
+    },
+    {
+     "name": "Putih teks utama",
+     "hex": null,
+     "role": "teks — share di bawah ambang ukur",
+     "source": "TIDAK_TERBACA"
+    },
+    {
+     "name": "5 swatch strip tanpa label",
+     "hex": null,
+     "role": "palet resmi",
+     "source": "tidak ada di rak (nol HEX tercetak, hal 1-15)"
+    }
+   ],
+   "usage_ratio": "monokromatik biru+putih + satu aksen emas; skor tertinggi=emas, menengah/rendah=biru-abu (implisit hal 10, 14)",
+   "mood": [
+    "Profesional • Strategis • Terstruktur",
+    "dark-mode navy korporat-militer maritim",
+    "blueprint/dot-grid/crosshair + peta Indonesia dot-matrix",
+    "'Institusional Modern' (opsi terpilih)"
+   ],
+   "components": [
+    "kartu fitur border tipis + ikon garis",
+    "panel sidebar berkotak (DAMPAK/PRINSIP OPERASIONAL/SPESIFIKASI TEKNIS)",
+    "badge '★ OPSI PALING SEIMBANG' emas",
+    "dot-rating 5 titik",
+    "tabel evaluasi berbobot",
+    "hub-and-spoke radial",
+    "timeline 5 langkah",
+    "donat alokasi + tabel progress",
+    "matriks risiko 3x3",
+    "quote block kutipan emas",
+    "banner rekomendasi border emas"
+   ],
+   "rules": [
+    "canvas 16:9 1920x1080, grid 12 kolom, spacing 8pt skala 8-64 (tercetak hal 8)",
+    "masalah yang dihindari: layout tidak seragam, terlalu padat, hierarki lemah, data sulit dipindai (hal 6)",
+    "bobot evaluasi tetap 30/20/20/15/15 = 100%, skor 1-5 (hal 10)",
+    "komponen reusable, template modular-konsisten-fleksibel, uji konsistensi sebelum rollout (hal 12-13)"
+   ],
+   "gaps": [
+    "nol HEX & nol nama font/ukuran tercetak (deck proposal arah, bukan style guide token)",
+    "kontradiksi skor matriks p10 vs rekomendasi Opsi B",
+    "typo tercetak 'Warak Fungsional'",
+    "margin/gutter tidak dicetak"
+   ]
+  },
+  {
+   "set": "TNI_AU_-_Design_System",
+   "file": "DS-tni-au.md",
+   "pages": 15,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Air Force Deep Blue",
+     "hex": "#1F3A5F",
+     "role": "PRIMARY otoritas",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Midnight Navy",
+     "hex": "#122235",
+     "role": "PRIMARY tergelap (bar footer)",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Steel Blue",
+     "hex": "#5E7895",
+     "role": "SECONDARY",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Mist Blue Gray",
+     "hex": "#AAB8C6",
+     "role": "SECONDARY",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Cloud White",
+     "hex": "#F6F8FA",
+     "role": "NEUTRAL latar",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Liight Gray (typo tercetak)",
+     "hex": "#E4E8ED",
+     "role": "NEUTRAL",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Graphite",
+     "hex": "#2E3945",
+     "role": "NEUTRAL gelap",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Muted Gold",
+     "hex": "#C29A4A",
+     "role": "ACCENT tunggal highlight prioritas",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Success",
+     "hex": "#4D8B6B",
+     "role": "functional hijau",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Warning",
+     "hex": "#D29A3A",
+     "role": "functional oranye",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Critical",
+     "hex": "#B44E4E",
+     "role": "functional merah",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Info",
+     "hex": "#6A8FB5",
+     "role": "functional biru",
+     "source": "tercetak p5"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 52.54% (konfirmasi kanvas terang)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured deep blue ink",
+     "hex": "#001040",
+     "role": "measured 4.86% (judul/navy)",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "USAGE LOGIC: deep blue authority, neutrals clean, gold highlights priority, functional untuk status (p5)",
+   "mood": [
+    "Formal, precise, technical, institutional, decision-oriented",
+    "Institutional/Aerospace/Structured/Technical/Decision-focused",
+    "dark-navy korporat di atas latar putih + blueprint pesawat",
+    "'Built for clarity, designed for impact.'"
+   ],
+   "components": [
+    "CORE COMPONENT LIBRARY 12 (Title Block, Section Header diagonal, Highlight Statistic, Comparison Card, Specification Box, Process Flow, Timeline Bar, Risk Card, Compliance Checklist, Table Container, Image+Caption, Footer Module)",
+    "Hero Visual Framework 4 mode + Visual Anatomy",
+    "8 composition modes + Direction/Balance/Tension",
+    "Navigation & Page Structure (metadata DATA REF, Confidentiality Label)",
+    "Data Presentation System (spec comparison, performance snapshot, budget donut, procurement summary)"
+   ],
+   "rules": [
+    "AVOID: flashy visuals, gaming aesthetics, cyberpunk neon, heavy ornament, aggressive military styling (p4)",
+    "hero: setiap gambar mendukung pesan; focal point langsung jelas; text zone bersih (p9)",
+    "DATA RULES 5: highlight only key numbers ... consistent emphasis (p13)",
+    "navigation: format 01/15, footer konsisten, metadata untuk version/date/review (p12)",
+    "STAYS CONSTANT vs ADAPTS BY TOPIC (p15)",
+    "klasifikasi dokumen: 'CONFIDENTIAL - FOR AUTHORIZED USE ONLY' di footer contoh (p12)"
+   ],
+   "gaps": [
+    "urutan file != urutan slide (page_13 = slide 11/15)",
+    "margin/gutter numerik tidak dicetak",
+    "metadata DATA REF tidak konsisten antar slide (dekoratif)",
+    "typo tercetak 'Liight Gray'",
+    "angka contoh = dummy"
+   ]
+  },
+  {
+   "set": "Teknik_-_design_System",
+   "file": "DS-teknik.md",
+   "pages": 10,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Primary Blue",
+     "hex": "#1D4ED8/#2563EB",
+     "role": "aksen header/ikon/badge",
+     "source": "estimasi-vision (tidak ada HEX tercetak)"
+    },
+    {
+     "name": "Dark Blue",
+     "hex": "#1E3A8A/#1E40AF",
+     "role": "header tabel/badge angka",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Text Black",
+     "hex": "#000000/#111827",
+     "role": "judul utama",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Background",
+     "hex": "#FFFFFF",
+     "role": "latar utama",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 73.57% (mendukung estimasi latar putih)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured grays",
+     "hex": [
+      "#808080",
+      "#909090",
+      "#404040"
+     ],
+     "role": "measured 3.04/2.88/2.05% (teks/garis abu)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Red bad / Green good",
+     "hex": "#DC2626/#16A34A",
+     "role": "label DON'T/DO",
+     "source": "estimasi-vision"
+    }
+   ],
+   "usage_ratio": "putih dominan + biru sebagai aksen sistem; tanpa persentase tercetak",
+   "mood": [
+    "teknis-presisi",
+    "editorial tenang ('structure and calm')",
+    "clean modern korporat",
+    "RAW → STRUCTURED → READABLE",
+    "keterbacaan prioritas utama"
+   ],
+   "components": [
+    "title block + garis aksen biru",
+    "section badge 'NN / TECHNICAL DOCUMENTATION SYSTEM'",
+    "content/stat card",
+    "comparison BAD/GOOD",
+    "table container nested header",
+    "diagram container",
+    "image card foto realistis",
+    "numbered badge biru",
+    "callout box 8 jenis (Key Point/Note/Definition/Reference/Assumption/Requirement/Warning/Exception)",
+    "rules box",
+    "piramida informasi 3 tingkat"
+   ],
+   "rules": [
+    "'High density is acceptable. Unstructured density is not.' (p3)",
+    "pisahkan informasi pendukung dari narasi via callout (p6)",
+    "tabel: unit di header, angka rata kanan desimal, bold angka kunci (p7)",
+    "prosedur 4 pola: Linear/Vertical/Phase/Decision; step = Action+Explanation+Expected Result (p8)",
+    "nomor diagram harus correspond langsung ke list (p9)",
+    "larangan: walls of text, rigid template, clutter, deskripsi tanpa visual anchor"
+   ],
+   "gaps": [
+    "p04 TIDAK_TERBACA (error koneksi vision — satu-satunya lubang cakupan di seluruh keluarga)",
+    "nol HEX resmi tercetak (semua estimasi vision)",
+    "nama font & ukuran pt perkiraan",
+    "grid/margin estimasi belum diverifikasi"
+   ],
+   "coverage_note": "p04 dipulihkan kartu mikro t_b73ecbf2 (done 12:1x); cakupan efektif 10/10"
+  },
+  {
+   "set": "Visual_-_design_System",
+   "file": "DS-visual.md",
+   "pages": 10,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Accent Gold/Mustard",
+     "hex": "#C5A059/#C5932E/#C8963E",
+     "role": "aksen primer",
+     "source": "estimasi-vision (tidak ada HEX tercetak)"
+    },
+    {
+     "name": "Text Black",
+     "hex": "#111111/#000000",
+     "role": "judul utama",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Border/Light Grey",
+     "hex": "#E5E5E5/#D3D3D3",
+     "role": "border/divider",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Background",
+     "hex": "#FFFFFF",
+     "role": "latar utama",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Measured paper field",
+     "hex": "#F0F0F0",
+     "role": "measured dominant 86.8% (mendukung latar putih)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured grays",
+     "hex": [
+      "#808080",
+      "#A0A0A0",
+      "#E0E0E0"
+     ],
+     "role": "measured 3.18/2.7/2.57%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Navy government theme",
+     "hex": "#2C3E50",
+     "role": "tema Government (p10)",
+     "source": "estimasi-vision"
+    },
+    {
+     "name": "Teal healthcare theme",
+     "hex": "#8DA39E",
+     "role": "tema Healthcare (p10)",
+     "source": "estimasi-vision"
+    }
+   ],
+   "usage_ratio": "70/20/10 hierarchy; 60/30/10 proportion guide (tercetak sebagai prinsip)",
+   "mood": [
+    "Clear • Intentional • Balanced",
+    "clean minimalist editorial",
+    "DISTINCTIVE + ADAPTABLE",
+    "'Visual before decoration. Structure before style.'",
+    "BUKAN militeristik/institusional"
+   ],
+   "components": [
+    "title block + garis aksen gold",
+    "section badge '0N / VISUAL DESIGN SYSTEM'",
+    "content/stat card wireframe",
+    "comparison FLAT/BETTER/BEST",
+    "diagram container (flow, exploded layers, hub-and-spoke, rule-of-thirds)",
+    "numbered badge",
+    "callout box",
+    "icon system line-art 1.5-2px",
+    "graphic language 8 (Frame/Line/Marker/Label/Callout/Connector/Highlight/Texture)"
+   ],
+   "rules": [
+    "hierarchy 70/20/10 — satu elemen lead, sisanya support (p2)",
+    "scale XL/L/M/S + proporsi 60/30/10 (p6)",
+    "depth via overlap/contrast/separation — bukan decoration; 5 layer (p7)",
+    "hero 4 tipe + Text Zone negative space (p3); cropping AVOID→CONTEXT→STANDARD→IMPACT→DETAIL (p5)",
+    "storytelling arc 6 langkah ESTABLISH→RESOLVE (p9)",
+    "STAYS CONSTANT {Hierarchy, Composition, Scale, Focal Point, Layering}; CHANGES {Color, Typeface, Image Style, Graphic Style, Mood} — 6 tema (p10)"
+   ],
+   "gaps": [
+    "nol HEX/nama font tercetak (semua estimasi)",
+    "grid/margin estimasi",
+    "identitas bangunan tema Government tidak terkonfirmasi"
+   ]
+  },
+  {
+   "set": "kementerian_pertahanan_-_design_system",
+   "file": "DS-kemhan.md",
+   "pages": 25,
+   "coverage_verified": true,
+   "palette": [
+    {
+     "name": "Institutional Navy",
+     "hex": "#102637",
+     "role": "panel gelap/judul/header tabel (derivasi pemakaian)",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Defense Green",
+     "hex": "#34483C",
+     "role": "netral gelap sekunder/pita diagonal",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Warm Ivory",
+     "hex": "#F3F1EA",
+     "role": "kanvas terang utama",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Paper White",
+     "hex": "#FAFAF8",
+     "role": "latar kartu",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Graphite",
+     "hex": "#24292D",
+     "role": "teks gelap/footer",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Slate",
+     "hex": "#70777A",
+     "role": "teks sekunder/garis teknis",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Command Gold",
+     "hex": "#B58A3A",
+     "role": "aksen nomor/garis/angka kunci",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Republic Red",
+     "hex": "#A92C32",
+     "role": "alert/NON-COMPLIANT",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Technical Blue",
+     "hex": "#3D6F8F",
+     "role": "informasi/data",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Compliance Green",
+     "hex": "#4F745B",
+     "role": "status COMPLIANT",
+     "source": "tercetak p3"
+    },
+    {
+     "name": "Measured ivory field",
+     "hex": "#F0F0E0",
+     "role": "measured dominant 20.12% (palet paling tersebar di keluarga)",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured pinkish ivory",
+     "hex": "#F0E0E0",
+     "role": "measured 14.16%",
+     "source": "terukur-piksel"
+    },
+    {
+     "name": "Measured navy field",
+     "hex": "#002030",
+     "role": "measured 12.79% (panel gelap)",
+     "source": "terukur-piksel"
+    }
+   ],
+   "usage_ratio": "60-70% Ivory/White · 15-20% Navy · 5-10% Green · 3-5% Gold · <3% Red (tercetak p3)",
+   "mood": [
+    "INSTITUTIONAL • TECHNICAL • TRUSTWORTHY",
+    "CLEAR/INTENTIONAL/BALANCED/DISTINCTIVE/ADAPTIVE",
+    "AUTHORITATIVE/PRECISE/TRUSTWORTHY",
+    "INSTITUTIONAL AUTHORITY × ENGINEERING PRECISION × PROCUREMENT CLARITY",
+    "militer-institusional tertahan, blueprint + ruler tick + crosshair"
+   ],
+   "components": [
+    "graphic language 8 (Precision Frame, Control Marker, Procurement Label, Technical Callout, Connector, Reference Tag, Highlight, Texture)",
+    "procurement component library 9 kartu (Requirement/Compliance/Technical Spec/Evidence/Risk/Cost/Acceptance/Timeline/Decision)",
+    "technical specification table + compliance matrix + commercial comparison berbobot",
+    "status system 5 state x 4 perwujudan (pill/dot/cell/summary)",
+    "6 tipe data viz",
+    "technical diagram system (SYS→SUBSYSTEM→COMPONENT→INTERFACE)",
+    "process flow 7 langkah REQUIREMENT→BAST",
+    "evidence chain REQ→CLAIM→EVIDENCE→TEST→RESULT→REFERENCE + kartu EV-042 dengan SHA-256",
+    "section divider 4 tipe"
+   ],
+   "rules": [
+    "NOT TACTICAL MARKETING / NOT CYBER HUD / NOT DECORATIVE (p2)",
+    "ONE SLIDE→ONE DECISION; ONE VISUAL→ONE FOCAL POINT; ONE CLAIM→ONE EVIDENCE (p11)",
+    "Color reinforces meaning — never replaces the label (p15)",
+    "Tables must support decision-making, not imitate spreadsheets (p14)",
+    "EVERY SLIDE ADVANCES THE DECISION — urutan cerita 10 langkah wajib (p10)",
+    "release checklist 4x4 gate 'CLEAR. TRACEABLE. DECISION-READY.' (p25)",
+    "kalibrasi audiens: FORMAL ENOUGH FOR GOVERNMENT / TECHNICAL ENOUGH FOR ENGINEERS / CLEAR ENOUGH FOR DECISION MAKERS (p11, p25)"
+   ],
+   "gaps": [
+    "HEX status evaluasi tidak tercetak (pemetaan = inferensi agen)",
+    "satuan tipografi px/pt ambigu",
+    "tanggal versi dua gelombang MAY 2024 vs AUG 2026",
+    "tanpa logo/lambang & label klasifikasi",
+    "anomali aritmetika contoh cost (jangan diturunkan sebagai aturan)"
+   ]
+  }
+ ]
+}

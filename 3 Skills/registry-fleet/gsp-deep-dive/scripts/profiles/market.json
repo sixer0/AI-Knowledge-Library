@@ -1,0 +1,46 @@
+{
+  "profile": "market",
+  "class": "MARKET / COMPETITION / EXPO",
+  "blueprint": "02b section 2.2 B3",
+  "nomination_key": ["Object:"],
+  "thesis_files": ["thesis.md"],
+  "lanes": ["demand-evidence", "competitor-matrix", "route-history"],
+  "gates": {
+    "G2T": {
+      "kind": "lane_grid",
+      "grid": {
+        "path": "02-lanes/lane-grid.csv",
+        "schema": ["lane", "question_id", "question", "answer", "maturity",
+                   "maturity_evidence", "dependency_and_country",
+                   "evidence_source", "evidence_date", "ceiling_applied",
+                   "unknown_search_route"],
+        "min_rows": 21,
+        "answer_column": "answer",
+        "maturity_column": "maturity",
+        "evidence_column": "maturity_evidence",
+        "ceiling_column": "ceiling_applied",
+        "route_column": "unknown_search_route"
+      },
+      "saturation": [
+        "saturation/demand.md",
+        "saturation/competition.md",
+        "saturation/routes.md"
+      ],
+      "query_log": "query-log.csv"
+    },
+    "G2K": {
+      "kind": "maps",
+      "maps": [
+        {
+          "path": "03-commercial/buyer-map.csv",
+          "schema": ["capability", "buyer_institution", "user_unit",
+                     "contact_role_if_visible", "demand_evidence",
+                     "evidence_source", "evidence_date", "language_requirement",
+                     "local_reception_note", "search_classes_touched"]
+        }
+      ],
+      "saturation": ["saturation/demand.md"]
+    }
+  },
+  "notes": "Reuses the frozen buyer-map schema as the demand basis (B3 precedent: buyer-map/query-log as basis). Competitor matrix rows live in the lane grid; route history cites procurement-route archives per row."
+}

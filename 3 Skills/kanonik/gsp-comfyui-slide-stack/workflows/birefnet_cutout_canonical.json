@@ -1,0 +1,8 @@
+{
+  "1": {"class_type": "LoadImage", "_meta": {"title": "Kanonik"}, "inputs": {"image": "canonical.png"}},
+  "2": {"class_type": "LoadBackgroundRemovalModel", "_meta": {"title": "Load BiRefNet"}, "inputs": {"bg_removal_name": "birefnet.safetensors"}},
+  "3": {"class_type": "RemoveBackground", "_meta": {"title": "Hapus BG"}, "inputs": {"bg_removal_model": ["2", 0], "image": ["1", 0]}},
+  "6": {"class_type": "InvertMask", "_meta": {"title": "Koreksi polaritas (mask=OBJEK)"}, "inputs": {"mask": ["3", 0]}},
+  "4": {"class_type": "JoinImageWithAlpha", "_meta": {"title": "Gabung RGBA"}, "inputs": {"image": ["1", 0], "alpha": ["6", 0]}},
+  "5": {"class_type": "SaveImage", "_meta": {"title": "Simpan PNG transparan"}, "inputs": {"filename_prefix": "assets/cutout_canonical", "images": ["4", 0]}}
+}

@@ -1,0 +1,7 @@
+{
+  "1": {"class_type": "LoadImage", "_meta": {"title": "Sumber"}, "inputs": {"image": "canonical.png"}},
+  "2": {"class_type": "UpscaleModelLoader", "_meta": {"title": "Load RealESRGAN x4"}, "inputs": {"model_name": "RealESRGAN_x4plus.safetensors"}},
+  "3": {"class_type": "ImageUpscaleWithModel", "_meta": {"title": "Upscale 4x"}, "inputs": {"upscale_model": ["2", 0], "image": ["1", 0]}},
+  "4": {"class_type": "ImageScaleToTotalPixels", "_meta": {"title": "Batas piksel"}, "inputs": {"upscale_method": "lanczos", "megapixels": 8.0, "resolution_steps": 1, "image": ["3", 0]}},
+  "5": {"class_type": "SaveImage", "_meta": {"title": "Simpan"}, "inputs": {"filename_prefix": "upscaled/img", "images": ["4", 0]}}
+}

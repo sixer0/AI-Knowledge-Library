@@ -1,0 +1,49 @@
+.bundled_manifest size=3877 first300=airtable:3b1f4e4c0e6aac15f2fd7f55e151bda9
+apple-notes:a969ab89eaf759c3ff421709808f15b6
+apple-reminders:b38e5f2558c2842808fe85df10226598
+architecture-diagram:bee2d27801f8662c6130f5ff704c969b
+arxiv:0c2559cf8c55906599d73d9e8f0e9227
+ascii-art:0323134573013c5409a0b35d513aedb7
+ascii-video:ef426288e59d90df
+=== gsp-custodian ===
+  .bundled_manifest: file
+  .curator_state: file
+  .usage.json: file
+  .usage.json.lock: file
+  apple: 4 SKILL.md -> ['apple-notes', 'apple-reminders', 'findmy', 'imessage']
+  autonomous-ai-agents: 6 SKILL.md -> ['claude-code', 'codex', 'computer-use', 'hermes-agent', 'merge-reconciler', 'opencode']
+  creative: 16 SKILL.md -> ['architecture-diagram', 'ascii-art', 'ascii-video', 'baoyu-infographic', 'claude-design', 'comfyui', 'design-md', 'excalidraw']
+  devops: 1 SKILL.md -> ['sdlc-review']
+  email: 2 SKILL.md -> ['email-inbox-triage', 'himalaya']
+  github: 7 SKILL.md -> ['codebase-inspection', 'github-auth', 'github-code-review', 'github-issue-to-pr', 'github-issues', 'github-pr-workflow', 'github-repo-management']
+  gsp-library-custodian: 1 SKILL.md -> ['(flat)']
+  gsp-library-data-standards: 1 SKILL.md -> ['(flat)']
+  gsp-verification-before-completion: 1 SKILL.md -> ['(flat)']
+  media: 3 SKILL.md -> ['gif-search', 'songsee', 'youtube-content']
+  mlops: 5 SKILL.md -> ['evaluation\\evaluating-llms-harness', 'evaluation\\weights-and-biases', 'huggingface-hub', 'inference\\llama-cpp', 'inference\\serving-llms-vllm']
+  note-taking: 1 SKILL.md -> ['obsidian']
+  productivity: 17 SKILL.md -> ['airtable', 'box', 'document-to-action-items', 'docx', 'google-workspace', 'maps', 'meeting-action-items', 'nano-pdf']
+  research: 7 SKILL.md -> ['arxiv', 'blocked-page-recovery', 'blogwatcher', 'competitor-news-monitor', 'grounded-citations', 'llm-wiki', 'research-paper-writing']
+  smart-home: 1 SKILL.md -> ['openhue']
+  social-media: 1 SKILL.md -> ['xurl']
+  software-development: 11 SKILL.md -> ['dogfood', 'hermes-agent-skill-authoring', 'inspecting-hermes-desktop-dom', 'node-inspect-debugger', 'plan', 'python-debugpy', 'requesting-code-review', 'simplify-code']
+=== gsp-skill-manager ===
+  .curator_ledger.jsonl: file
+  .curator_state: file
+  .usage.json: file
+  .usage.json.lock: file
+  autonomous-ai-agents: 1 SKILL.md -> ['hermes-agent']
+  devops: 1 SKILL.md -> ['windows-service-ops']
+  gsp-skill-distribution: 1 SKILL.md -> ['(flat)']
+  gsp-verification-before-completion: 1 SKILL.md -> ['(flat)']
+  software-development: 1 SKILL.md -> ['hermes-agent-skill-authoring']
+=== gsp-system-control ===
+  .curator_state: file
+  .usage.json: file
+  .usage.json.lock: file
+  autonomous-ai-agents: 1 SKILL.md -> ['hermes-agent']
+  devops: 1 SKILL.md -> ['windows-service-ops']
+  gsp-system-control: 1 SKILL.md -> ['(flat)']
+  gsp-verification-before-completion: 1 SKILL.md -> ['(flat)']
+  software-development: 1 SKILL.md -> ['hermes-agent-skill-authoring']
+mgr copy at: gsp-skill-distribution\SKILL.md

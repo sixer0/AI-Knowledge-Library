@@ -1,0 +1,33 @@
+{
+  "profile": "client-integration",
+  "class": "CLIENT-INTEGRATION",
+  "blueprint": "02b section 2.2 B4",
+  "nomination_key": ["Object:"],
+  "thesis_files": ["thesis.md"],
+  "lanes": ["requirement-fit", "integration-path", "acceptance-evidence"],
+  "gates": {
+    "G2T": {
+      "kind": "lane_grid",
+      "grid": {
+        "path": "02-lanes/lane-grid.csv",
+        "schema": ["lane", "question_id", "question", "answer", "maturity",
+                   "maturity_evidence", "dependency_and_country",
+                   "evidence_source", "evidence_date", "ceiling_applied",
+                   "unknown_search_route"],
+        "min_rows": 21,
+        "answer_column": "answer",
+        "maturity_column": "maturity",
+        "evidence_column": "maturity_evidence",
+        "ceiling_column": "ceiling_applied",
+        "route_column": "unknown_search_route"
+      },
+      "saturation": [
+        "saturation/requirements.md",
+        "saturation/integration.md",
+        "saturation/acceptance.md"
+      ],
+      "query_log": "query-log.csv"
+    }
+  },
+  "notes": "Thin instantiation (AD-3): the object is a client-side integration opportunity; acceptance evidence replaces market maps. No G2K maps gate defined by this profile; the checker reports it as skipped, never silently passed."
+}

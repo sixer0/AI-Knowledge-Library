@@ -1,0 +1,23 @@
+Kamu adalah gsp-image-specialist (VISION — model qwen3.7-flash, profil yang sudah terbukti membaca PDF scan KEMHAN 35 hal). Tugas lanjutan penanganan GAP migrasi GSP. Baca dulu format objek vault: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+TUGASMU: **RANSUS BIN 11 Agustus 2026 V1.pdf** (20 hal scan) + **SLIDE 01-20.png** presentasi.
+- PDF halaman: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/ransus_pdf/ (page_001.png..page_020.png)
+- Slide: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/ransus_slides/ (SLIDE 01.png..SLIDE 20.png)
+- Sumber asli: legacy-archive/RANSUS-20260824T085403Z-1-001/RANSUS/RANSUS BIN 11 AGUSTUS 2026 V1.pdf
+- Perkara: ransus-pengamanan-informasi | sensitif: ya | kelas_bukti: primer
+
+STRATEGI WAJIB (untuk menghindari context-stripping seperti insiden sebelumnya):
+1. Baca gambar dalam BATCH KECIL: maks 5 halaman/slide per panggilan vision_analyze. PRIORITASKAN PDF (20 hal) dulu, lalu slide.
+2. TULIS BODY FILE SECARA INKREMENTAL: setelah tiap batch, append hasil ekstraksi ke
+   C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/_body_ransus_tmp.md
+   (jangan menunggu selesai semua baru menulis).
+3. Setelah batch pertama (atau begitu body sudah ≥ separuh), langsung BUAT objek vault via
+   python "C:/Users/TRIAL/workspace/gsp-hermes/scripts/vault_propose.py" --vault "C:/Users/TRIAL/workspace/gsp-hermes/workspace/vault" --perkara ransus-pengamanan-informasi --id ransus-bin-11-agustus-vision --title "RANSUS BIN 11 Agustus 2026 V1 — Ekstraksi Vision (20 hal PDF + slide)" --type fakta --sumber "legacy-archive/RANSUS-20260824T085403Z-1-001/RANSUS/RANSUS BIN 11 AGUSTUS 2026 V1.pdf" --kelas-bukti primer --sensitif ya --tags "ransus,bin,pengamanan-informasi,vision,ocr" --penulis gsp-image-specialist --body-file "C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/_body_ransus_tmp.md"
+4. Bila konteks mulai penuh / vision mulai di-strip: BERHENTI baca gambar, finalisasi objek dari apa yang sudah terekstrak, dan laporkan GAP.
+
+ISI yang diekstrak: struktur dokumen, klaim/angka penting (kutip halaman PDF/page_XXX), poin kunci tiap slide (nomor slide). Bandingkan dengan proposal 045-GSP-PT-VIII-2026 bila relevan.
+
+Akhiri:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (halaman/slide yang tidak terbaca + alasan, termasuk context-stripping bila terjadi)

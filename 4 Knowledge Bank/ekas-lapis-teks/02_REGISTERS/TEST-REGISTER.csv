@@ -1,0 +1,2 @@
+test_id,project,test_type,method,method_source,instrument,calibration_due,acceptance_criterion,criterion_source,r_level,result,witness
+TEST-P00-001,P00 (CONTOH),Rugi sisipan dua ujung,one-cord reference,IEC 61280-4-2 PDF 17,OLTS,-,"<= 6,40 dB @1310","CALC-P00-001 (metode R3, diadopsi kontrak pasal 7.3)",R3+kontrak,-,-

@@ -1,0 +1,34 @@
+{
+  "profile": "technology",
+  "class": "TECHNOLOGY / PRODUCT",
+  "blueprint": "02b section 2.2 B2",
+  "nomination_key": ["Object:"],
+  "thesis_files": ["thesis.md"],
+  "lanes": ["capability-vs-physics", "maturity-evidence", "integration-fit"],
+  "grid_schema_ref": "AA.3 general lane grid (same frozen 11 columns as five-layer)",
+  "gates": {
+    "G2T": {
+      "kind": "lane_grid",
+      "grid": {
+        "path": "02-lanes/lane-grid.csv",
+        "schema": ["lane", "question_id", "question", "answer", "maturity",
+                   "maturity_evidence", "dependency_and_country",
+                   "evidence_source", "evidence_date", "ceiling_applied",
+                   "unknown_search_route"],
+        "min_rows": 21,
+        "answer_column": "answer",
+        "maturity_column": "maturity",
+        "evidence_column": "maturity_evidence",
+        "ceiling_column": "ceiling_applied",
+        "route_column": "unknown_search_route"
+      },
+      "saturation": [
+        "saturation/capability.md",
+        "saturation/maturity.md",
+        "saturation/integration.md"
+      ],
+      "query_log": "query-log.csv"
+    }
+  },
+  "notes": "Thin instantiation of general defaults (AD-3): three lanes x seven mandatory questions = 21 rows minimum; self-reported evidence caps at M2 under the same mechanical ceiling; expansion only through the Decision Log."
+}

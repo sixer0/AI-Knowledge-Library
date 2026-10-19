@@ -1,0 +1,15 @@
+{
+  "versi": 1,
+  "tanggal": "2026-10-10",
+  "dasar": "Putusan user PROF-MERGE-1010 butir 10-10: hidup = default + pemegang akun RBAC + pasangan librarian-custodian + skill/system manager + 3 worker peran-via-berkas",
+  "hidup": [
+    "default",
+    "gspuser01", "gspuser02", "gsp-master", "gsp-master01", "gsp-creative",
+    "gsp-firman-custom", "firmanhidayat", "rafif01", "agentriset",
+    "gsp-librarian", "gsp-custodian",
+    "gsp-skill-manager", "gsp-system-manager",
+    "gsp-thinker", "gsp-worker", "gsp-worker-fast"
+  ],
+  "gateway_wajib_hidup": ["gsp-thinker", "gsp-worker", "gsp-worker-fast"],
+  "catatan": "gateway profil manusia/manager berjalan atas kebutuhan platform pesan masing-masing; monitor hanya menagih tiga worker + memburu gateway profil di luar daftar hidup"
+}

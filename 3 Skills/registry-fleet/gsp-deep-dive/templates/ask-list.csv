@@ -1,0 +1,2 @@
+rank,ask_id,question,why_asked,evidence_requested,affects_metric,vendor_response,response_date,ledger_link,status
+1,ASK-001,Provide raw trial dataset with method notes behind the 12 km detection claim,range is load-bearing for DIM-1 and FL-6,raw data + collection method + environment log,DIM-1; CLM-001,,,CLM-001,open

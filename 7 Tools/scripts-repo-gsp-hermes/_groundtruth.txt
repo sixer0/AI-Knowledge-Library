@@ -1,0 +1,24 @@
+PROFILES root: C:\Users\TRIAL\AppData\Local\hermes\profiles exists=True
+TOTAL SKILL.md in gsp-* profiles (recursive): 577
+TOP 12 biggest:
+  gsp-firman-custom: 134
+  gsp-budi: 133
+  gsp-creative: 133
+  gsp-custodian: 85
+  gsp-skill-creator: 5
+  gsp-skill-manager: 5
+  gsp-system-control: 5
+  gsp-system-manager: 5
+  gsp-architecture-specialist: 3
+  gsp-crawler-orchestrator: 3
+  gsp-librarian: 3
+  gsp-security-review: 3
+Profiles with 0: 0, with <=3: 40 of 48
+gsp-budi SOUL: chars=2853 ALWAYS=True AWARENESS=True ONDEMAND=False
+gsp-skill-distribution [FLEET]: chars=3968 ver=1.1.1 LEAN=True BUG=True CHANGE_REQ=True
+gsp-skill-distribution [mgr-profile]: chars=3054 ver=1.1.1 LEAN=False BUG=False CHANGE_REQ=False
+gsp-skill-authoring [FLEET]: chars=3261 ver=1.1.0 LEAN=False BUG=True CHANGE_REQ=True
+gsp-skill-authoring [creator-profile]: chars=3211 ver=1.1.0 LEAN=False BUG=False CHANGE_REQ=False
+no mirror: C:\Users\TRIAL\.hermes\profiles
+no mirror: C:\Users\TRIAL\.hermes\profiles
+gsp-firman-custom skills/ top-level (25): ['.bundled_manifest', '.curator_ledger.jsonl', '.curator_state', '.hub', '.usage.json', '.usage.json.lock', 'apple', 'autonomous-ai-agents', 'creative', 'data-science', 'devops', 'email', 'github', 'gsp', 'gsp-verification-before-completion', 'hermes', 'media', 'mlops', 'note-taking', 'orchestration', 'productivity', 'research', 'smart-home', 'social-media', 'software-development']

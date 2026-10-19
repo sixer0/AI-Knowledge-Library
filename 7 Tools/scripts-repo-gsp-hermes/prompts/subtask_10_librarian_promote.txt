@@ -1,0 +1,26 @@
+Kamu adalah gsp-librarian — gatekeeper Information Library GSP. Ini tindak lanjut kurasi vault migrasi legacy (wave3) yang sudah kamu selesaikan (STATUS: complete, 46 objek menunggu_persetujuan).
+
+KEPUTUSAN USER: **User (Budi Kusharyanto / @sixer0) telah MENYETUJUI SEMUA 46 objek sensitif** untuk dipromosikan penuh ke wiki/IL. User bertindak sebagai:
+- approval untuk objek sensitif → approval-ref: `approval-user-2026-08-24-migrasi-legacy`
+- verifikasi manusia untuk objek dosir (kemhan-bin, arsenal-ids-barat-timur, arsenal-tahap-4, ransus-pengamanan-informasi, labinsen-tni-al, forensic-nfl-2026, china-expo-toni, china-defence-expo, adint-vendor-research, catatan_keputusan) → verification-by: `user-budi-kusharyanto`
+
+TUGASMU (PROMOTE SAJA — JANGAN re-kurasi, jangan ubah isi objek):
+1. Scan vault (C:/Users/TRIAL/workspace/gsp-hermes/workspace/vault) untuk SEMUA objek berstatus `menunggu_persetujuan` pada perkara: adint-vendor-research, gsp-outputs-history, kemhan-bin, china-defence-expo, arsenal-ids-barat-timur, arsenal-tahap-4, catatan_keputusan, ransus-pengamanan-informasi, riset-sistem-ai-gsp, forensic-nfl-2026, labinsen-tni-al, china-expo-toni. (KECUALI vault/ekas/ dan fleet-test.)
+2. Untuk tiap objek, jalankan promote:
+   python "C:/Users/TRIAL/AppData/Local/hermes/profiles/gsp-librarian/skills/gsp-library-workflow/scripts/vault_promote.py" \
+     --vault "C:/Users/TRIAL/workspace/gsp-hermes/workspace/vault" \
+     --wiki "C:/Users/TRIAL/AppData/Local/hermes/wiki" \
+     --object <rel-path-objek> --by gsp-librarian \
+     --approval-ref approval-user-2026-08-24-migrasi-legacy \
+     --verification-by user-budi-kusharyanto \
+     --reason "Disetujui user 2026-08-24 (migrasi legacy-archive)"
+   (--verification-by aman dipakai untuk semua; untuk non-dosir sifatnya dokumentasi tambahan.)
+3. Verifikasi: tiap objek ter-promote → file muncul di ~/AppData/Local/hermes/wiki/<type>s/<id>.md berstatus active + objek vault berstatus dipromosikan.
+4. Tulis keputusan persetujuan user ke memory/workspace: docs/2026_08_24_migrasi_legacy/persetujuan_user.md (catat: user menyetujui semua 46 objek, approval-ref, tanggal).
+5. Jangan lupa commit git di wiki bila repo (opsional, vault_promote melakukannya otomatis).
+
+Output akhir:
+STATUS: complete
+JUMLAH_DIPROMOSIKAN: <n>
+GAGAL: (daftar + alasan, bila ada — mis. gate menolak)
+SISA_MENUNGGU: (bila ada)

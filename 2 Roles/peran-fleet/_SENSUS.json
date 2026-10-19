@@ -1,0 +1,346 @@
+{
+ "gsp-3d-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 8,
+  "delta": [
+   "gsp-kanban-artifact-handoff"
+  ],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-architecture-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 11,
+  "delta": [],
+  "toolset": "file, web, terminal, code_execution, vision, skills, session_search, todo, memory",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-coder-execution": {
+  "model": "default: auto-efficient",
+  "skills": 12,
+  "delta": [
+   "datum-docx-render-pipeline",
+   "gsp-brahma-static-js-gates"
+  ],
+  "toolset": "file, terminal, code_execution, web, browser, vision, skills, memory, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-crawler-orchestrator": {
+  "model": "default: auto-efficient",
+  "skills": 9,
+  "delta": [],
+  "toolset": "file, web, browser, skills, memory, session_search, delegation, todo, clarify",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-data-analyst": {
+  "model": "default: thinker",
+  "skills": 5,
+  "delta": [
+   "gsp-artifact-concurrency-audit"
+  ],
+  "toolset": "file, web, terminal, code_execution, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-data-collector": {
+  "model": "default: worker-fast",
+  "skills": 7,
+  "delta": [
+   "expo-exhibitor-pool-discovery",
+   "expo2026-collector-runbook",
+   "kanban-complete-artifact-paths"
+  ],
+  "toolset": "file, web, browser, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-database-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 4,
+  "delta": [],
+  "toolset": "file, terminal, code_execution, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-design-system-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "image_gen, file, web, vision, skills, session_search, todo, terminal, code_execution",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-docker-specialist": {
+  "model": "default: worker-fast",
+  "skills": 4,
+  "delta": [],
+  "toolset": "file, terminal, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-analyst": {
+  "model": "default: thinker",
+  "skills": 7,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-converter": {
+  "model": "default: worker-fast",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-reader": {
+  "model": "default: worker-fast",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, terminal, vision, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-reviewer": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-translator": {
+  "model": "default: worker-fast",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-writer": {
+  "model": "default: worker-fast",
+  "skills": 8,
+  "delta": [],
+  "toolset": "image_gen, file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-document-writer-2": {
+  "model": "default: worker-fast",
+  "skills": 90,
+  "delta": [
+   "evaluating-llms-harness",
+   "llama-cpp",
+   "serving-llms-vllm",
+   "weights-and-biases"
+  ],
+  "toolset": "image_gen, file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-engineering-analyst": {
+  "model": "default: thinker",
+  "skills": 7,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-explore": {
+  "model": "default: worker-fast",
+  "skills": 227,
+  "delta": [
+   "database-design",
+   "diffusion-model-sourcing",
+   "evaluating-llms-harness",
+   "llama-cpp",
+   "mongodb-atlas-stream-processing",
+   "postgresql",
+   "postgresql-best-practices",
+   "prisma-expert",
+   "redis-clustering",
+   "serving-llms-vllm",
+   "sql-best-practices",
+   "weights-and-biases"
+  ],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-fiber-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-git-specialist": {
+  "model": "default: worker-fast",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-grounding-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-image-analyst": {
+  "model": "default: thinker",
+  "skills": 4,
+  "delta": [],
+  "toolset": "file, vision, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-image-prompt-specialist": {
+  "model": "default: worker-fast",
+  "skills": 5,
+  "delta": [],
+  "toolset": "image_gen, file, vision, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-image-specialist": {
+  "model": "default: worker-fast",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, vision, image_gen, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-imagegen-worker": {
+  "model": "default: worker-fast",
+  "skills": 3,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web, vision",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-infra-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-pm-analyst": {
+  "model": "default: thinker",
+  "skills": 4,
+  "delta": [],
+  "toolset": "file, web, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-pm-planner": {
+  "model": "default: auto-efficient",
+  "skills": 8,
+  "delta": [],
+  "toolset": "file, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-pm-verifier": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-pm-writer": {
+  "model": "default: worker-fast",
+  "skills": 6,
+  "delta": [],
+  "toolset": "image_gen, file, terminal, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-power-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-request-translator": {
+  "model": "default: auto-efficient",
+  "skills": 4,
+  "delta": [],
+  "toolset": "file, web, skills, session_search, clarify",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-security-review": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-security-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-senior-code-reviewer": {
+  "model": "default: auto-efficient",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-skill-creator": {
+  "model": "default: auto-efficient",
+  "skills": 11,
+  "delta": [],
+  "toolset": "file, terminal, code_execution, web, browser, vision, skills, memory, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-social-media-analyst": {
+  "model": "default: thinker",
+  "skills": 7,
+  "delta": [],
+  "toolset": "file, web, terminal, code_execution, skills, session_search, todo, memory",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-social-media-crawler": {
+  "model": "default: worker-fast",
+  "skills": 7,
+  "delta": [],
+  "toolset": "file, web, browser, terminal, code_execution, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-system-control": {
+  "model": "default: auto-efficient",
+  "skills": 8,
+  "delta": [],
+  "toolset": "file, terminal, code_execution, web, browser, vision, skills, memory, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-task-architect": {
+  "model": "default: auto-efficient",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, web, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-test-expert": {
+  "model": "default: worker-fast",
+  "skills": 9,
+  "delta": [],
+  "toolset": "file, terminal, code_execution, browser, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-vendor-crawler-specialist": {
+  "model": "default: worker-fast",
+  "skills": 5,
+  "delta": [],
+  "toolset": "file, web, browser, terminal, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-verifier": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, code_execution, browser, vision, skills, session_search, todo",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "gsp-vss-specialist": {
+  "model": "default: auto-efficient",
+  "skills": 6,
+  "delta": [],
+  "toolset": "file, terminal, skills, session_search, todo, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ },
+ "rafif": {
+  "model": "default: auto-efficient",
+  "skills": 4,
+  "delta": [],
+  "toolset": "bfl, browser, clarify, code_execution, computer_use, cronjob, delegation, file, image_gen, memory, session_search, skills, terminal, todo, tts, vision, web",
+  "kemampuan": "vision: auxiliary model=worker-fast; model utama supports_vision=true"
+ }
+}

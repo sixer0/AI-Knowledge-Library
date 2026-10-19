@@ -1,0 +1,4 @@
+C:\Users\TRIAL\workspace\gsp-hermes\workspace\docs\2026-08-28_gsp-system-control_init\system_control_verification.md
+C:\Users\TRIAL\workspace\gsp-hermes\workspace\docs\2026-08-28_gsp-system-control_init\system_control_verification_t_ca8502fc.md
+C:\Users\TRIAL\workspace\gsp-hermes\workspace\docs\2026-08-29-lean-fleet\contract.md
+C:\Users\TRIAL\workspace\gsp-hermes\workspace\docs\2026-08-29-lean-fleet\system_control_verification.md

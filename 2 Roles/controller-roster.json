@@ -1,0 +1,22 @@
+{
+ "policy": "controller-lane",
+ "rule": "Profil tipe CONTROLLER = (a) terikat akun WebUiUser/RBAC (semua role), PLUS (b) orchestrator gsp yang mendelegasikan pekerjaan. Sumber aturan: keputusan user 31-08-2026. Regenerasi: node rbac_roster.mjs.",
+ "updated": "2026-09-28",
+ "controllers": [
+  "agentriset",
+  "default",
+  "firmanhidayat",
+  "gsp-crawler-orchestrator",
+  "gsp-creative",
+  "gsp-firman-custom",
+  "gsp-master",
+  "gsp-master01",
+  "gsp-pm-planner",
+  "gsp-skill-manager",
+  "gsp-system-manager",
+  "gspuser01",
+  "gspuser02",
+  "rafif"
+ ],
+ "CATATAN-1010": "KEDALUWARSA sebagian: gsp-crawler-orchestrator dan gsp-pm-planner tidak lagi hidup pasca PROF-MERGE-1010; daftar hidup = fleet/PROFILE-REGISTRY.json"
+}

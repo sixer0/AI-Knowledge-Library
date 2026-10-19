@@ -1,0 +1,1271 @@
+{
+ "profile_count": 48,
+ "fleet_registry": [
+  "analytics-and-reporting",
+  "cctv-system-designer",
+  "crawl4ai-skill",
+  "crawler",
+  "dems-polri-proposal-architect",
+  "digital-forensics-evidence-system",
+  "excel-master",
+  "fiber-link-design",
+  "grounding-lightning-design",
+  "gsp-agent-hq-ops",
+  "gsp-dispatch-troubleshooting",
+  "gsp-document-vision-ocr",
+  "gsp-fleet-documentation",
+  "gsp-fleet-profile-operations",
+  "gsp-hermes-backup-sync",
+  "gsp-knowledge-library",
+  "gsp-library-bulk-approval",
+  "gsp-library-custodian",
+  "gsp-library-organization-standards",
+  "gsp-library-rebuild",
+  "gsp-memory-lookup",
+  "gsp-memory-tiering",
+  "gsp-orchestration-execution",
+  "gsp-orchestration-telemetry",
+  "gsp-orchestrator-worker",
+  "gsp-proposal-deepdive",
+  "gsp-report-format",
+  "gsp-skill-authoring",
+  "gsp-skill-distribution",
+  "gsp-swarm-rebrand",
+  "gsp-system-control",
+  "gsp-system-manager-ops",
+  "gsp-webui-rbac",
+  "gsp-webui-verification",
+  "gsp-word-report-deliverable",
+  "hermes-web-search-stack",
+  "hw-sw-config-master",
+  "onvif-interop",
+  "perimeter-security-designer",
+  "power-backup-sizing",
+  "pustaka-teknis",
+  "rcm-analysis",
+  "security-review",
+  "sentiment-analysis",
+  "social-analytics",
+  "social-listening",
+  "social-listening-brief",
+  "social-media-analyzer",
+  "social-media-intelligence",
+  "social-media-monitor"
+ ],
+ "kanonik_registry": [
+  "cctv-system-designer",
+  "dems-polri-proposal-architect",
+  "digital-forensics-evidence-system",
+  "excel-master",
+  "fiber-link-design",
+  "grounding-lightning-design",
+  "gsp-library-custodian",
+  "gsp-library-organization-standards",
+  "gsp-library-rebuild",
+  "gsp-memory-lookup",
+  "gsp-memory-tiering",
+  "gsp-orchestration-execution",
+  "gsp-orchestration-telemetry",
+  "gsp-orchestrator-worker",
+  "gsp-skill-authoring",
+  "gsp-skill-distribution",
+  "gsp-system-control",
+  "gsp-system-manager-ops",
+  "hw-sw-config-master",
+  "onvif-interop",
+  "perimeter-security-designer",
+  "power-backup-sizing",
+  "pustaka-teknis",
+  "rcm-analysis"
+ ],
+ "global_all": [
+  "apple-notes",
+  "apple-reminders",
+  "findmy",
+  "imessage",
+  "claude-code",
+  "codex",
+  "computer-use",
+  "hermes-agent",
+  "hermes-home-migration",
+  "merge-reconciler",
+  "opencode",
+  "architecture-diagram",
+  "ascii-art",
+  "ascii-video",
+  "baoyu-infographic",
+  "claude-design",
+  "comfyui",
+  "design-md",
+  "excalidraw",
+  "humanizer",
+  "manim-video",
+  "p5js",
+  "popular-web-designs",
+  "pretext",
+  "sketch",
+  "songwriting-and-ai-music",
+  "touchdesigner-mcp",
+  "jupyter-live-kernel",
+  "sdlc-review",
+  "windows-service-ops",
+  "email-inbox-triage",
+  "himalaya",
+  "codebase-inspection",
+  "github-auth",
+  "github-code-review",
+  "github-credential-ops",
+  "github-issue-to-pr",
+  "github-issues",
+  "github-pr-workflow",
+  "github-repo-management",
+  "analytics-and-reporting",
+  "cctv-system-designer",
+  "crawl4ai-skill",
+  "crawler",
+  "dems-polri-proposal-architect",
+  "digital-forensics-evidence-system",
+  "excel-master",
+  "fiber-link-design",
+  "grounding-lightning-design",
+  "gsp-agent-hq-ops",
+  "gsp-dispatch-troubleshooting",
+  "gsp-document-vision-ocr",
+  "gsp-fleet-documentation",
+  "gsp-fleet-profile-operations",
+  "gsp-hermes-backup-sync",
+  "gsp-knowledge-library",
+  "gsp-library-bulk-approval",
+  "gsp-library-custodian",
+  "gsp-library-organization-standards",
+  "gsp-library-rebuild",
+  "gsp-memory-lookup",
+  "gsp-memory-tiering",
+  "gsp-orchestration-execution",
+  "gsp-orchestration-telemetry",
+  "gsp-orchestrator-worker",
+  "gsp-proposal-deepdive",
+  "gsp-report-format",
+  "gsp-skill-authoring",
+  "gsp-skill-distribution",
+  "gsp-swarm-rebrand",
+  "gsp-system-control",
+  "gsp-system-manager-ops",
+  "gsp-webui-rbac",
+  "gsp-webui-verification",
+  "gsp-word-report-deliverable",
+  "hermes-web-search-stack",
+  "hw-sw-config-master",
+  "onvif-interop",
+  "perimeter-security-designer",
+  "power-backup-sizing",
+  "pustaka-teknis",
+  "rcm-analysis",
+  "security-review",
+  "sentiment-analysis",
+  "social-analytics",
+  "social-listening",
+  "social-listening-brief",
+  "social-media-analyzer",
+  "social-media-intelligence",
+  "social-media-monitor",
+  "webui-media-delivery",
+  "gif-search",
+  "songsee",
+  "youtube-content",
+  "youtube-transcription",
+  "huggingface-hub",
+  "knowledge-library-pipeline",
+  "obsidian",
+  "curated-knowledge-pipeline",
+  "gsp-cron-supervisor-dispatch",
+  "gsp-fleet-smoke-test",
+  "gsp-kanban-contract",
+  "airtable",
+  "box",
+  "document-to-action-items",
+  "docx",
+  "google-workspace",
+  "maps",
+  "markdown-to-docx",
+  "meeting-action-items",
+  "nano-pdf",
+  "notion",
+  "ocr-and-documents",
+  "pdf",
+  "powerpoint",
+  "product-price-monitor",
+  "session-librarian",
+  "teams-meeting-pipeline",
+  "weekly-review-planning",
+  "xlsx",
+  "arxiv",
+  "blocked-page-recovery",
+  "blogwatcher",
+  "competitor-news-monitor",
+  "grounded-citations",
+  "llm-wiki",
+  "research-paper-writing",
+  "openhue",
+  "xurl",
+  "dogfood",
+  "hermes-agent-skill-authoring",
+  "inspecting-hermes-desktop-dom",
+  "node-inspect-debugger",
+  "plan",
+  "python-debugpy",
+  "requesting-code-review",
+  "simplify-code",
+  "spike",
+  "systematic-debugging",
+  "test-driven-development"
+ ],
+ "profiles": [
+  {
+   "profile": "gsp-architecture-specialist",
+   "soul_exists": true,
+   "always": [
+    "gsp-architecture-workflow"
+   ],
+   "ondemand": [
+    "gsp-architecture-climate-design"
+   ],
+   "physical": [
+    "docx",
+    "grounded-citations",
+    "gsp-architecture-bim-deliverables",
+    "gsp-architecture-building-physics",
+    "gsp-architecture-climate-design",
+    "gsp-architecture-code-compliance",
+    "gsp-architecture-drawing-reading",
+    "gsp-architecture-workflow",
+    "gsp-brainstorming",
+    "gsp-canvas-design",
+    "gsp-checkpoint-resume",
+    "gsp-document-quality-standards",
+    "gsp-firecrawl",
+    "gsp-image-prompt-specialist",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "gsp-writing-plans",
+    "hermes-web-search-stack",
+    "pdf",
+    "powerpoint",
+    "xlsx"
+   ],
+   "soul_chars": 4004
+  },
+  {
+   "profile": "gsp-budi",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [],
+   "physical": [
+    "database",
+    "yuanbao"
+   ],
+   "soul_chars": 1763
+  },
+  {
+   "profile": "gsp-coder-execution",
+   "soul_exists": true,
+   "always": [
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "gsp-backend-execution"
+   ],
+   "physical": [
+    "gsp-backend-execution",
+    "gsp-brainstorming",
+    "gsp-context-engineering",
+    "gsp-deploy-to-vercel",
+    "gsp-design-taste-frontend",
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-finishing-a-development-branch",
+    "gsp-frontend-design",
+    "gsp-frontend-integration",
+    "gsp-observability-tracer",
+    "gsp-plan-and-execute",
+    "gsp-receiving-code-review",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-self-healing-loop",
+    "gsp-setup-pre-commit",
+    "gsp-using-git-worktrees",
+    "gsp-verification-before-completion",
+    "gsp-webapp-testing",
+    "gsp-writing-plans",
+    "hermes-web-search-stack",
+    "requesting-code-review",
+    "tdd"
+   ],
+   "soul_chars": 2539
+  },
+  {
+   "profile": "gsp-crawler-orchestrator",
+   "soul_exists": true,
+   "always": [
+    "gsp-vendor-crawler"
+   ],
+   "ondemand": [
+    "gsp-orchestrator-worker"
+   ],
+   "physical": [
+    "gsp-checkpoint-resume",
+    "gsp-document-quality-standards",
+    "gsp-dry-run-verify-fix",
+    "gsp-firecrawl",
+    "gsp-orchestration-telemetry",
+    "gsp-orchestrator-worker",
+    "gsp-phase-accountability",
+    "gsp-searxng",
+    "gsp-social-media-collection-workflow",
+    "gsp-social-media-data-standards",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 3891
+  },
+  {
+   "profile": "gsp-creative",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [],
+   "physical": [
+    "database",
+    "yuanbao"
+   ],
+   "soul_chars": 1763
+  },
+  {
+   "profile": "gsp-custodian",
+   "soul_exists": true,
+   "always": [
+    "gsp-library-custodian"
+   ],
+   "ondemand": [
+    "gsp-library-rebuild"
+   ],
+   "physical": [
+    "gsp-library-custodian",
+    "gsp-library-data-standards",
+    "gsp-library-organization-standards",
+    "gsp-library-rebuild",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2747
+  },
+  {
+   "profile": "gsp-data-analyst",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-writing-plans"
+   ],
+   "physical": [
+    "gsp-context-engineering",
+    "gsp-document-quality-standards",
+    "gsp-dry-run-verify-fix",
+    "gsp-firecrawl",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "gsp-writing-plans",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2220
+  },
+  {
+   "profile": "gsp-data-collector",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-agent-browser"
+   ],
+   "physical": [
+    "gsp-agent-browser",
+    "gsp-dry-run-verify-fix",
+    "gsp-firecrawl",
+    "gsp-searxng",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2149
+  },
+  {
+   "profile": "gsp-database-specialist",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-diagnose"
+   ],
+   "physical": [
+    "gsp-context-engineering",
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2105
+  },
+  {
+   "profile": "gsp-design-system-specialist",
+   "soul_exists": true,
+   "always": [
+    "gsp-design-system-grill"
+   ],
+   "ondemand": [
+    "gsp-frontend-design"
+   ],
+   "physical": [
+    "gsp-brainstorming",
+    "gsp-canvas-design",
+    "gsp-design-system-grill",
+    "gsp-document-quality-standards",
+    "gsp-frontend-design",
+    "gsp-human-in-loop-gate",
+    "gsp-image-prompt-specialist",
+    "gsp-searxng",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2232
+  },
+  {
+   "profile": "gsp-docker-specialist",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-deploy-to-vercel"
+   ],
+   "physical": [
+    "gsp-deploy-to-vercel",
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2080
+  },
+  {
+   "profile": "gsp-document-analyst",
+   "soul_exists": true,
+   "always": [
+    "gsp-document-quality-standards"
+   ],
+   "ondemand": [
+    "gsp-context-engineering"
+   ],
+   "physical": [
+    "gsp-context-engineering",
+    "gsp-document-quality-standards",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2096
+  },
+  {
+   "profile": "gsp-document-converter",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "docx"
+   ],
+   "physical": [
+    "docx",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "pdf",
+    "powerpoint",
+    "xlsx"
+   ],
+   "soul_chars": 2079
+  },
+  {
+   "profile": "gsp-document-reader",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "docx"
+   ],
+   "physical": [
+    "docx",
+    "gsp-searxng",
+    "hermes-web-search-stack",
+    "ocr-and-documents",
+    "pdf",
+    "powerpoint",
+    "xlsx"
+   ],
+   "soul_chars": 2061
+  },
+  {
+   "profile": "gsp-document-reviewer",
+   "soul_exists": true,
+   "always": [
+    "gsp-document-quality-standards"
+   ],
+   "ondemand": [
+    "docx"
+   ],
+   "physical": [
+    "docx",
+    "gsp-document-quality-standards",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "pdf",
+    "powerpoint",
+    "xlsx"
+   ],
+   "soul_chars": 2109
+  },
+  {
+   "profile": "gsp-document-translator",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-document-quality-standards"
+   ],
+   "physical": [
+    "gsp-document-quality-standards",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2102
+  },
+  {
+   "profile": "gsp-document-writer",
+   "soul_exists": true,
+   "always": [
+    "gsp-document-quality-standards"
+   ],
+   "ondemand": [
+    "docx"
+   ],
+   "physical": [
+    "docx",
+    "gsp-content-research-writer",
+    "gsp-document-quality-standards",
+    "gsp-dry-run-verify-fix",
+    "gsp-long-document-assembly",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "pdf",
+    "powerpoint",
+    "xlsx"
+   ],
+   "soul_chars": 2199
+  },
+  {
+   "profile": "gsp-engineering-analyst",
+   "soul_exists": true,
+   "always": [
+    "pustaka-teknis",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "excel-master",
+    "cctv-system-designer",
+    "fiber-link-design",
+    "power-backup-sizing",
+    "grounding-lightning-design",
+    "hw-sw-config-master",
+    "rcm-analysis",
+    "onvif-interop",
+    "perimeter-security-designer",
+    "digital-forensics-evidence-system",
+    "dems-polri-proposal-architect",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "cctv-system-designer",
+    "dems-polri-proposal-architect",
+    "digital-forensics-evidence-system",
+    "excel-master",
+    "fiber-link-design",
+    "grounding-lightning-design",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "hw-sw-config-master",
+    "onvif-interop",
+    "perimeter-security-designer",
+    "power-backup-sizing",
+    "pustaka-teknis",
+    "rcm-analysis"
+   ],
+   "soul_chars": 3072
+  },
+  {
+   "profile": "gsp-explore",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-agent-browser"
+   ],
+   "physical": [
+    "gsp-agent-browser",
+    "gsp-context-engineering",
+    "gsp-dry-run-verify-fix",
+    "gsp-firecrawl",
+    "gsp-searxng",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2138
+  },
+  {
+   "profile": "gsp-fiber-specialist",
+   "soul_exists": true,
+   "always": [
+    "fiber-link-design",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "pustaka-teknis",
+    "excel-master",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "excel-master",
+    "fiber-link-design",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "pustaka-teknis"
+   ],
+   "soul_chars": 2775
+  },
+  {
+   "profile": "gsp-firman-custom",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [],
+   "physical": [
+    "bimdown-cli",
+    "construction",
+    "construction-estimator",
+    "database",
+    "hermes-skill-activation",
+    "ntriq-x402-blueprint",
+    "yuanbao"
+   ],
+   "soul_chars": 1763
+  },
+  {
+   "profile": "gsp-git-specialist",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-using-git-worktrees"
+   ],
+   "physical": [
+    "gsp-dry-run-verify-fix",
+    "gsp-finishing-a-development-branch",
+    "gsp-searxng",
+    "gsp-setup-pre-commit",
+    "gsp-using-git-worktrees",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2145
+  },
+  {
+   "profile": "gsp-grounding-specialist",
+   "soul_exists": true,
+   "always": [
+    "grounding-lightning-design",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "pustaka-teknis",
+    "excel-master",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "excel-master",
+    "grounding-lightning-design",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "pustaka-teknis"
+   ],
+   "soul_chars": 2861
+  },
+  {
+   "profile": "gsp-image-analyst",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-image-enhancer"
+   ],
+   "physical": [
+    "gsp-canvas-design",
+    "gsp-image-enhancer",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2087
+  },
+  {
+   "profile": "gsp-image-prompt-specialist",
+   "soul_exists": true,
+   "always": [
+    "gsp-image-prompt-specialist"
+   ],
+   "ondemand": [
+    "gsp-design-system-grill"
+   ],
+   "physical": [
+    "gsp-context-engineering",
+    "gsp-design-system-grill",
+    "gsp-document-quality-standards",
+    "gsp-image-prompt-specialist",
+    "gsp-searxng",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2142
+  },
+  {
+   "profile": "gsp-image-specialist",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-image-enhancer"
+   ],
+   "physical": [
+    "gsp-canvas-design",
+    "gsp-image-enhancer",
+    "gsp-image-prompt-specialist",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2090
+  },
+  {
+   "profile": "gsp-infra-specialist",
+   "soul_exists": true,
+   "always": [
+    "hw-sw-config-master",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "excel-master",
+    "pustaka-teknis",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "excel-master",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "hw-sw-config-master",
+    "pustaka-teknis"
+   ],
+   "soul_chars": 2769
+  },
+  {
+   "profile": "gsp-librarian",
+   "soul_exists": true,
+   "always": [
+    "gsp-library-workflow"
+   ],
+   "ondemand": [
+    "gsp-searxng"
+   ],
+   "physical": [
+    "gsp-document-quality-standards",
+    "gsp-firecrawl",
+    "gsp-library-custodian",
+    "gsp-library-data-standards",
+    "gsp-library-organization-standards",
+    "gsp-library-rebuild",
+    "gsp-library-workflow",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 3045
+  },
+  {
+   "profile": "gsp-pm-analyst",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-brainstorming"
+   ],
+   "physical": [
+    "gsp-brainstorming",
+    "gsp-document-quality-standards",
+    "gsp-searxng",
+    "gsp-to-issues",
+    "gsp-verification-before-completion",
+    "gsp-writing-plans",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2121
+  },
+  {
+   "profile": "gsp-pm-planner",
+   "soul_exists": true,
+   "always": [
+    "gsp-writing-plans"
+   ],
+   "ondemand": [
+    "gsp-brainstorming"
+   ],
+   "physical": [
+    "gsp-brainstorming",
+    "gsp-dry-run-verify-fix",
+    "gsp-phase-accountability",
+    "gsp-plan-and-execute",
+    "gsp-searxng",
+    "gsp-to-issues",
+    "gsp-verification-before-completion",
+    "gsp-writing-plans",
+    "hermes-web-search-stack",
+    "requesting-code-review"
+   ],
+   "soul_chars": 2175
+  },
+  {
+   "profile": "gsp-pm-verifier",
+   "soul_exists": true,
+   "always": [
+    "gsp-document-quality-standards"
+   ],
+   "ondemand": [
+    "gsp-verification-before-completion"
+   ],
+   "physical": [
+    "gsp-document-quality-standards",
+    "gsp-eval-driven-improver",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2071
+  },
+  {
+   "profile": "gsp-pm-writer",
+   "soul_exists": true,
+   "always": [
+    "gsp-document-quality-standards"
+   ],
+   "ondemand": [
+    "gsp-to-prd"
+   ],
+   "physical": [
+    "docx",
+    "gsp-content-research-writer",
+    "gsp-document-quality-standards",
+    "gsp-searxng",
+    "gsp-to-prd",
+    "gsp-verification-before-completion",
+    "gsp-writing-plans",
+    "hermes-web-search-stack",
+    "powerpoint"
+   ],
+   "soul_chars": 2115
+  },
+  {
+   "profile": "gsp-power-specialist",
+   "soul_exists": true,
+   "always": [
+    "power-backup-sizing",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "rcm-analysis",
+    "pustaka-teknis",
+    "excel-master",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "excel-master",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "power-backup-sizing",
+    "pustaka-teknis",
+    "rcm-analysis"
+   ],
+   "soul_chars": 2810
+  },
+  {
+   "profile": "gsp-request-translator",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-brainstorming"
+   ],
+   "physical": [
+    "gsp-brainstorming",
+    "gsp-searxng",
+    "gsp-to-prd",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2064
+  },
+  {
+   "profile": "gsp-security-review",
+   "soul_exists": true,
+   "always": [
+    "gsp-security-review"
+   ],
+   "ondemand": [
+    "gsp-verification-before-completion"
+   ],
+   "physical": [
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-searxng",
+    "gsp-security-review",
+    "gsp-security-review-gate",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2089
+  },
+  {
+   "profile": "gsp-security-specialist",
+   "soul_exists": true,
+   "always": [
+    "digital-forensics-evidence-system",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "dems-polri-proposal-architect",
+    "onvif-interop",
+    "pustaka-teknis",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "dems-polri-proposal-architect",
+    "digital-forensics-evidence-system",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "onvif-interop",
+    "pustaka-teknis"
+   ],
+   "soul_chars": 2930
+  },
+  {
+   "profile": "gsp-senior-code-reviewer",
+   "soul_exists": true,
+   "always": [],
+   "ondemand": [
+    "gsp-code-review-senior"
+   ],
+   "physical": [
+    "gsp-code-review-senior",
+    "gsp-context-engineering",
+    "gsp-dry-run-verify-fix",
+    "gsp-receiving-code-review",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "requesting-code-review"
+   ],
+   "soul_chars": 2245
+  },
+  {
+   "profile": "gsp-skill-creator",
+   "soul_exists": true,
+   "always": [
+    "gsp-skill-authoring",
+    "hermes-agent-skill-authoring",
+    "gsp-skill-distribution",
+    "hermes-agent",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "gsp-skill-authoring",
+    "hermes-agent-skill-authoring",
+    "gsp-skill-distribution",
+    "hermes-agent",
+    "gsp-verification-before-completion"
+   ],
+   "physical": [
+    "gsp-skill-authoring",
+    "gsp-skill-distribution",
+    "gsp-verification-before-completion"
+   ],
+   "soul_chars": 2780
+  },
+  {
+   "profile": "gsp-skill-manager",
+   "soul_exists": true,
+   "always": [
+    "gsp-skill-distribution",
+    "gsp-skill-authoring",
+    "gsp-verification-before-completion",
+    "hermes-agent",
+    "hermes-agent-skill-authoring",
+    "gsp-system-manager-ops"
+   ],
+   "ondemand": [
+    "gsp-skill-distribution",
+    "gsp-skill-authoring",
+    "gsp-verification-before-completion",
+    "hermes-agent",
+    "hermes-agent-skill-authoring",
+    "gsp-system-manager-ops"
+   ],
+   "physical": [
+    "gsp-skill-authoring",
+    "gsp-skill-distribution",
+    "gsp-system-manager-ops",
+    "gsp-verification-before-completion"
+   ],
+   "soul_chars": 2707
+  },
+  {
+   "profile": "gsp-social-media-analyst",
+   "soul_exists": true,
+   "always": [
+    "gsp-social-media-data-standards"
+   ],
+   "ondemand": [
+    "gsp-social-media-analyzer"
+   ],
+   "physical": [
+    "grounded-citations",
+    "gsp-analytics-reporting",
+    "gsp-checkpoint-resume",
+    "gsp-document-quality-standards",
+    "gsp-firecrawl",
+    "gsp-searxng",
+    "gsp-sentiment-analysis",
+    "gsp-social-analytics",
+    "gsp-social-listening",
+    "gsp-social-listening-brief",
+    "gsp-social-media-analysis-workflow",
+    "gsp-social-media-analyzer",
+    "gsp-social-media-data-standards",
+    "gsp-social-media-intelligence",
+    "gsp-social-media-monitor",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "youtube-content"
+   ],
+   "soul_chars": 2540
+  },
+  {
+   "profile": "gsp-social-media-crawler",
+   "soul_exists": true,
+   "always": [
+    "gsp-social-media-data-standards"
+   ],
+   "ondemand": [
+    "gsp-web-crawling-reference"
+   ],
+   "physical": [
+    "gsp-checkpoint-resume",
+    "gsp-crawl4ai",
+    "gsp-document-quality-standards",
+    "gsp-firecrawl",
+    "gsp-searxng",
+    "gsp-social-media-collection-workflow",
+    "gsp-social-media-data-standards",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "gsp-web-crawling-reference",
+    "hermes-web-search-stack",
+    "youtube-content"
+   ],
+   "soul_chars": 2332
+  },
+  {
+   "profile": "gsp-system-control",
+   "soul_exists": true,
+   "always": [
+    "gsp-system-control",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "gsp-fleet-profile-operations",
+    "gsp-agent-hq-ops",
+    "hermes-agent",
+    "windows-service-ops"
+   ],
+   "physical": [
+    "gsp-agent-hq-ops",
+    "gsp-fleet-profile-operations",
+    "gsp-system-control",
+    "gsp-verification-before-completion"
+   ],
+   "soul_chars": 2790
+  },
+  {
+   "profile": "gsp-system-manager",
+   "soul_exists": true,
+   "always": [
+    "gsp-system-manager-ops"
+   ],
+   "ondemand": [
+    "gsp-fleet-profile-operations",
+    "gsp-agent-hq-ops",
+    "hermes-agent",
+    "windows-service-ops",
+    "gsp-verification-before-completion",
+    "gsp-skill-distribution"
+   ],
+   "physical": [
+    "gsp-agent-hq-ops",
+    "gsp-fleet-profile-operations",
+    "gsp-skill-distribution",
+    "gsp-system-manager-ops",
+    "gsp-verification-before-completion"
+   ],
+   "soul_chars": 2807
+  },
+  {
+   "profile": "gsp-task-architect",
+   "soul_exists": true,
+   "always": [
+    "gsp-task-architect-templates"
+   ],
+   "ondemand": [
+    "gsp-writing-plans"
+   ],
+   "physical": [
+    "gsp-brainstorming",
+    "gsp-orchestration-telemetry",
+    "gsp-phase-accountability",
+    "gsp-plan-and-execute",
+    "gsp-searxng",
+    "gsp-task-architect-templates",
+    "gsp-to-issues",
+    "gsp-to-prd",
+    "gsp-writing-plans",
+    "hermes-web-search-stack",
+    "requesting-code-review"
+   ],
+   "soul_chars": 3603
+  },
+  {
+   "profile": "gsp-test-expert",
+   "soul_exists": true,
+   "always": [
+    "tdd"
+   ],
+   "ondemand": [
+    "gsp-agent-browser"
+   ],
+   "physical": [
+    "gsp-agent-browser",
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-eval-driven-improver",
+    "gsp-observability-tracer",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-self-healing-loop",
+    "gsp-verification-before-completion",
+    "gsp-webapp-testing",
+    "hermes-web-search-stack",
+    "tdd"
+   ],
+   "soul_chars": 2200
+  },
+  {
+   "profile": "gsp-vendor-crawler-specialist",
+   "soul_exists": true,
+   "always": [
+    "gsp-vendor-crawler"
+   ],
+   "ondemand": [
+    "gsp-document-quality-standards"
+   ],
+   "physical": [
+    "gsp-document-quality-standards",
+    "gsp-firecrawl",
+    "gsp-searxng",
+    "gsp-self-healing-loop",
+    "gsp-vendor-crawler",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2191
+  },
+  {
+   "profile": "gsp-verifier",
+   "soul_exists": true,
+   "always": [
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "gsp-agent-browser"
+   ],
+   "physical": [
+    "gsp-agent-browser",
+    "gsp-context-engineering",
+    "gsp-diagnose",
+    "gsp-dry-run-verify-fix",
+    "gsp-eval-driven-improver",
+    "gsp-observability-tracer",
+    "gsp-orchestration-telemetry",
+    "gsp-reflection-loop",
+    "gsp-searxng",
+    "gsp-self-healing-loop",
+    "gsp-verification-before-completion",
+    "gsp-webapp-testing",
+    "hermes-web-search-stack"
+   ],
+   "soul_chars": 2241
+  },
+  {
+   "profile": "gsp-vss-specialist",
+   "soul_exists": true,
+   "always": [
+    "cctv-system-designer",
+    "gsp-verification-before-completion"
+   ],
+   "ondemand": [
+    "onvif-interop",
+    "perimeter-security-designer",
+    "pustaka-teknis",
+    "excel-master",
+    "hermes-web-search-stack",
+    "gsp-searxng"
+   ],
+   "physical": [
+    "cctv-system-designer",
+    "excel-master",
+    "gsp-searxng",
+    "gsp-verification-before-completion",
+    "hermes-web-search-stack",
+    "onvif-interop",
+    "perimeter-security-designer",
+    "pustaka-teknis"
+   ],
+   "soul_chars": 2830
+  }
+ ]
+}

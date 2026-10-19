@@ -1,0 +1,4 @@
+document_name,date_received,pages,doc_type,status,what_is_missing
+intake-email.pdf,2026-10-09,3,email,received,none
+background-pdf.pdf,2026-10-09,12,report,received,none
+audit-report.pdf,,,certification,requested,latest audit report not yet supplied

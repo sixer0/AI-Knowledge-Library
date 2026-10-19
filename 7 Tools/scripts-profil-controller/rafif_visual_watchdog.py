@@ -1,0 +1,46 @@
+import json, subprocess, sys, pathlib, datetime, re
+
+STATE = pathlib.Path(r"C:/Users/TRIAL/AppData/Local/hermes/scripts_state/rafif_visual_0929_state.json")
+
+def board():
+    r = subprocess.run(["hermes", "kanban", "--board", "default", "list", "--json"],
+                       capture_output=True, text=True)
+    d = json.loads(r.stdout)
+    tasks = d if isinstance(d, list) else d.get("tasks", [])
+    out = {}
+    for t in tasks:
+        if (t.get("tenant") or "") != "RAFIF-VISUAL-0929":
+            continue
+        title = t.get("title", "")
+        m = re.match(r"^(RT|TA|D1|A[1-4](-[A-Z])?|G[A-F](-[A-Z])?|I1(-[A-Z])?|VSX(-[A-Z]\d?)?|CSX|DXB(-[A-Z])?|DGB(-[A-Z]\d?)?|FIX[A-Z0-9-]*)\b", title)
+        key = m.group(1) if m else t["id"]
+        out[key] = t.get("status")
+    return out
+
+prev = {}
+first = not STATE.exists()
+if STATE.exists():
+    prev = json.loads(STATE.read_text(encoding="utf-8")).get("status", {})
+cur = board()
+STATE.parent.mkdir(parents=True, exist_ok=True)
+STATE.write_text(json.dumps({"status": cur, "ts": datetime.datetime.now().isoformat()}, ensure_ascii=False), encoding="utf-8")
+
+changed = {k: (prev.get(k), v) for k, v in cur.items() if prev.get(k) != v}
+term = {"done", "blocked", "failed", "archived"}
+watch = list(cur.keys())
+all_term = (len(watch) >= 17) and all(cur.get(k) in term for k in watch)
+running_now = any(v == "running" for v in cur.values())
+stalled = (not first) and (not running_now) and not all_term
+
+if first:
+    sys.exit(0)
+posisi = " ".join(f"{k}={cur.get(k,'?')}" for k in watch)
+if all_term:
+    print(f"[RAFIF-VISUAL-0929] SEMUA_KARTU_TERMINAL ({len(watch)}). Posisi: {posisi}. Tutup kontrak + laporkan hasil akhir ke user.")
+elif changed:
+    print(f"[RAFIF-VISUAL-0929] PERUBAHAN: {json.dumps(changed, ensure_ascii=False)}")
+    print(f"Posisi: {posisi}")
+    if stalled:
+        print("SINYAL: TIDAK_ADA_RUNNING padahal belum terminal -> triase promosi/klaim.")
+elif stalled:
+    print(f"[RAFIF-VISUAL-0929] MACET PERSISTEN. Posisi: {posisi}")

@@ -1,0 +1,235 @@
+{
+  "_cara_jalankan": "uv run --python 3.11 --with openpyxl --with python-docx python doc_gate_check.py --target <fixture> --outdir <out> --mode fixture --expect fixture_expected.json --name-col Exhibitor --url-col Website --key-col No",
+  "_koreksi_t_b0cf1dc7": "Lokasi F3 xlsx dipindah ke kolom URL (C3/C5); rIdHyperlinkMati fiktif -> rId10 nyata; notasi alamat docx diseragamkan tabelN!rR/cC; F1d sel tabel beralamat sel (bukan indeks paragraf global) setelah pembacaan docx memetakan paragraf dalam tabel ke sel.",
+  "_penamaan": "Kartu VGV-C1 menyebut fixture_cacat/fixture_bersih di direktori tests/. Kontrak tunggal D-TA-08 (dibekukan SKILL-DECISION C-03) memakai jalur scripts/fixtures/document-gate/ dan nama per-kelas di bawah, karena tester/countersign menyusun perintah dari D-TA-08. Pemetaan: fixture_bersih.xlsx = xlsx_baseline.xlsx; fixture_cacat.xlsx = gabungan xlsx_f1/f2/f3_defects.xlsx; fixture_bersih.docx = docx_baseline.docx; fixture_cacat.docx = gabungan docx_f1/f2/f3_defects.docx. Pemecahan per kelas disengaja: satu berkas cacat mencampur kelas membuat CHECK 10 tidak bisa membuktikan SET CHECK yang benar.",
+  "_skor": "Vonis di bawah adalah KONTRAK. doc_gate_check.py --mode fixture --expect berkas ini WAJIB menghasilkan verdict dan set CHECK yang sama persis; jumlah temuan pemblokir WAJIB sama dengan jumlah butir defects (MG-R1); setiap butir expected_notes WAJIB ditemukan pada notes_register.csv dengan jumlah minimal yang disebut.",
+  "fixtures": [
+    {
+      "defects": [],
+      "expected_failed_checks": [],
+      "expected_notes": [],
+      "expected_verdict": "PASS",
+      "file": "xlsx_baseline.xlsx"
+    },
+    {
+      "defects": [],
+      "expected_failed_checks": [],
+      "expected_notes": [],
+      "expected_verdict": "PASS",
+      "file": "docx_baseline.docx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F1b",
+          "desc": "Share % 60.0 tidak cocok 60/4=1500% maupun 4/60=6.67%",
+          "id": "FX-F1B-01",
+          "location": "Data!E2"
+        },
+        {
+          "class": "F1b",
+          "desc": "Share % 40.0 tidak cocok 40/2=2000% maupun 2/40=5%",
+          "id": "FX-F1B-02",
+          "location": "Data!E3"
+        },
+        {
+          "class": "F1b",
+          "desc": "Share % baris duplikat 40.0 tidak cocok 40/2 maupun 2/40",
+          "id": "FX-F1B-03",
+          "location": "Data!E4"
+        },
+        {
+          "class": "F1b",
+          "desc": "baris Total kolom Visited=100 padahal jumlah butir di atasnya=140",
+          "id": "FX-F1B-04",
+          "location": "Data!C7"
+        },
+        {
+          "class": "F1c",
+          "desc": "kunci No=2 muncul dua kali",
+          "id": "FX-F1C-01",
+          "location": "Data!A3, Data!A4"
+        },
+        {
+          "class": "F1d",
+          "desc": "slot template '[isi]' dalam sel",
+          "id": "FX-F1D-01",
+          "location": "Data!E5"
+        },
+        {
+          "class": "F1d",
+          "desc": "sentinel error Excel #REF!",
+          "id": "FX-F1D-02",
+          "location": "Data!C6"
+        }
+      ],
+      "expected_failed_checks": [
+        2,
+        3,
+        4
+      ],
+      "expected_notes": [
+        {
+          "kind": "MATI",
+          "min_count": 1,
+          "why": "URL .invalid wajib divonis MATI dan masuk register, bukan pemblokir (D-02)"
+        }
+      ],
+      "expected_verdict": "FAIL",
+      "file": "xlsx_f1_defects.xlsx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F2b",
+          "desc": "Target hyperlink memuat spasi (preseden ADINT LV8: Excel menolak berkas)",
+          "id": "FX-F2B-01",
+          "location": "xl/worksheets/_rels/sheet1.xml.rels#rIdSpasi1"
+        },
+        {
+          "class": "F2b",
+          "desc": "rId dirujuk sel tapi tidak ada di part rels (dangling)",
+          "id": "FX-F2B-02",
+          "location": "xl/worksheets/sheet1.xml#rIdGantung1"
+        }
+      ],
+      "expected_failed_checks": [
+        6
+      ],
+      "expected_notes": [
+        {
+          "kind": "MATI",
+          "min_count": 2,
+          "why": "dua URL .invalid harus tercatat MATI"
+        }
+      ],
+      "expected_verdict": "FAIL",
+      "file": "xlsx_f2_defects.xlsx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F3",
+          "desc": "https://www.python.org hidup tapi milik entitas lain",
+          "id": "FX-F3-01",
+          "location": "Data!C3|PT Telkom Indonesia"
+        },
+        {
+          "class": "F3",
+          "desc": "https://httpbin.org/html hidup tanpa satu pun sinyal entitas",
+          "id": "FX-F3-02",
+          "location": "Data!C5|Nimbus Freight Bhd"
+        }
+      ],
+      "expected_failed_checks": [
+        8
+      ],
+      "expected_notes": [],
+      "expected_verdict": "FAIL",
+      "file": "xlsx_f3_defects.xlsx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F1b",
+          "desc": "Share % 60.0 tidak cocok 60/4 maupun 4/60",
+          "id": "FX-F1B-05",
+          "location": "docx:tabel1!r2/c5"
+        },
+        {
+          "class": "F1b",
+          "desc": "Share % 40.0 tidak cocok 40/2 maupun 2/40",
+          "id": "FX-F1B-06",
+          "location": "docx:tabel1!r3/c5"
+        },
+        {
+          "class": "F1b",
+          "desc": "Share % baris duplikat 40.0 tidak cocok 40/2 maupun 2/40",
+          "id": "FX-F1B-07",
+          "location": "docx:tabel1!r4/c5"
+        },
+        {
+          "class": "F1b",
+          "desc": "baris Total kolom Visited=100 padahal jumlah butir=140",
+          "id": "FX-F1B-08",
+          "location": "docx:tabel1!r6/c3"
+        },
+        {
+          "class": "F1c",
+          "desc": "kunci No=2 muncul dua kali",
+          "id": "FX-F1C-02",
+          "location": "docx:tabel1!r3/c1, docx:tabel1!r4/c1"
+        },
+        {
+          "class": "F1d",
+          "desc": "slot template '[isi]' dalam sel tabel",
+          "id": "FX-F1D-03",
+          "location": "docx:tabel1!r5/c5"
+        },
+        {
+          "class": "F1d",
+          "desc": "slot template '[wajib diisi]' dalam paragraf",
+          "id": "FX-F1D-04",
+          "location": "word/document.xml#paragraf"
+        }
+      ],
+      "expected_failed_checks": [
+        2,
+        3,
+        4
+      ],
+      "expected_notes": [],
+      "expected_verdict": "FAIL",
+      "file": "docx_f1_defects.docx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F2b",
+          "desc": "rel eksternal docx ber-target mengandung spasi (cacat struktur, pemblokir)",
+          "id": "FX-F2B-03",
+          "location": "word/_rels/document.xml.rels#rId10"
+        }
+      ],
+      "expected_failed_checks": [
+        6
+      ],
+      "expected_notes": [
+        {
+          "kind": "MATI",
+          "min_count": 2,
+          "why": "dua jalur URL mati (objek hyperlink + URL polos teks) wajib tercatat di register"
+        },
+        {
+          "kind": "ENTITY-CONTEXT",
+          "min_count": 1,
+          "why": "URL tanpa baris bernama wajib dilaporkan sebagai keterbatasan konteks, bukan lulus diam-diam"
+        }
+      ],
+      "expected_verdict": "FAIL",
+      "file": "docx_f2_defects.docx"
+    },
+    {
+      "defects": [
+        {
+          "class": "F3",
+          "desc": "https://www.python.org dalam sel tabel salah-target",
+          "id": "FX-F3-03",
+          "location": "docx:tabel1!r3/c3|PT Telkom Indonesia"
+        },
+        {
+          "class": "F3",
+          "desc": "https://httpbin.org/html salah-target; URL yang sama juga ada sebagai objek w:hyperlink (bukti utama C-02)",
+          "id": "FX-F3-04",
+          "location": "docx:tabel1!r5/c3|Nimbus Freight Bhd"
+        }
+      ],
+      "expected_failed_checks": [
+        8
+      ],
+      "expected_notes": [],
+      "expected_verdict": "FAIL",
+      "file": "docx_f3_defects.docx"
+    }
+  ]
+}

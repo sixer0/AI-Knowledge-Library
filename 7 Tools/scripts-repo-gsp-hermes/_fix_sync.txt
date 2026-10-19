@@ -1,0 +1,8 @@
+SYNCED gsp-skill-distribution -> profile: ver=1.1.1 LEAN=True BUG=True CHANGE_REQ=True chars=3968
+SYNCED gsp-skill-authoring -> profile: ver=1.1.0 LEAN=False BUG=True CHANGE_REQ=True chars=3261
+SOUL gsp-budi: chars=2853 ALWAYS_SECTION=True AWARENESS=True ONDEMAND=False always_skills=0
+SOUL gsp-creative: chars=2853 ALWAYS_SECTION=True AWARENESS=True ONDEMAND=False always_skills=0
+SOUL gsp-firman-custom: chars=2853 ALWAYS_SECTION=True AWARENESS=True ONDEMAND=False always_skills=0
+SOUL gsp-custodian: chars=3519 ALWAYS_SECTION=True AWARENESS=True ONDEMAND=False always_skills=0
+KANONIK synced gsp-skill-distribution
+KANONIK synced gsp-skill-authoring

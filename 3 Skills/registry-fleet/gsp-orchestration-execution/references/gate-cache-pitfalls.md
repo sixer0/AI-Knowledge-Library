@@ -1,0 +1,14 @@
+# Pitfall gerbang akurasi cache-based (D-T1-17c/17d, 04-09)
+
+## Bug kunci tanpa sheet (v7e, 05-09)
+Skrip aksi massal yang memetakan `(no) -> aksi` TANPA komponen sheet mengontaminasi silang: aksi "WAIC 643 -> quectel.com" ikut menimpa baris EUR nomor 643 (MAHLE). GERBANG: semua pemetaan aksi wajib kunci `(sheet, no)`; sebelum tulis CSV, audit diff vs berkas pra-aksi per sheet dan pulihkan sel yang nilainya == aksi sheet lain. Tally kekal TIDAK menangkap kelas bug ini (verdict tidak berubah) — roundtrip juga tidak (sheet dibangun dari CSV yang sudah tercemar). Hanya vonis gate per-baris yang menemukannya.
+
+Saat membangun gerbang verifikasi fetch-based yang resume-able (cache vonis per baris):
+
+1. **JANGAN cache vonis negatif.** Vonis SALAH-TARGET/GAGAL wajib divonis ulang setiap ronde: matcher, whitelist, atau data bisa berubah antar-ronde; vonis basi menimpa perbaikan secara senyap (gejala: sudah diperbaiki di CSV, gate masih BLOKIR dengan URL lama).
+2. **Ikat cache ke URL, bukan hanya kunci baris.** Baris yang URL-nya diganti harus jatuh ke todo. Simpan kolom `website` di cache dan bandingkan dengan nilai terkini sebelum memakai vonis lama.
+3. **Dedup kronologis sebelum agregasi.** Berkas hasil mode tempel-terus menghasilkan baris ganda per kunci antar-ronde; agregasi Counter tanpa dedup = angka membengkak (satu baris terhitung 2x). Ambil vonis TERAKHIR per (sheet,no) lalu tulis ulang berkas kanonis.
+4. **Matcher merek untuk entitas ber-nama-generik**: bukti sah berjenjang - (a) KAT kata AWAL NAMA MENTAH (tanpa saring stopword) sbg substring host: 'AM GENERAL'->amgeneral.com; (b) AKRONIM inisial kata awal nama mentah sbg label host: AGL->agl-group.com, SEE->see-radars.com, CNPC->cnpc.com.cn; (c) concat token khas. Domain portal/direktori/artikel (he.net, patsnap, data.go.id, wikipedia, answers, kaskus, komdigi.go.id) = blokir MUTLAK walau token cocok. Nama hukum vs merek dagang (China United Network Communications Group = China Unicom) hanya terjembatani sumber sekunder (wikipedia summary + CDX) -> whitelist ber-alasan dua arah, JANGAN edit senyap.
+5. **Baris hantu**: sumber lama bisa memuat baris tanpa nama/website/summary (expo06-0269..0277). Gerbang builder harus menolak baris tanpa nama; kalau dihapus, tally dan konstanta KENDALI ikut naik revisi (D-T1-17: WAIC NO 692->683) - sinkronkan SEMUA tempat (builder, verifier, laporan).
+6. **WAF 412/403 pada situs resmi yang benar** (cnpc.com.cn 412, chinaunicom reset) bukan bukti salah-entitas: adjudikasi via wikipedia+CDX, catat jujur di whitelist.
+7. **Countersign BUKAN formalitas**: CS-2 FAIL menemukan 7 salah-target yang lolos gate controller (blind spot token generik). Desain AC countersign harus pakai skrip independen + seed berbeda + cek manual kasus tercurigai.

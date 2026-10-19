@@ -1,0 +1,20 @@
+Kamu adalah gsp-image-analyst (VISION — model qwen3.7-flash). Tugas: OCR/vision GSP Technical Report ADINT.pdf — CHUNK 1 (halaman 1-50).
+Baca dulu format objek vault: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Sumber asli: legacy-archive/ADINT-20260824T085309Z-1-001/ADINT/GSP Technical Report ADINT.pdf (150 hal image-based)
+
+GAMBAR: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/adint/page_001.png s.d. page_050.png
+PENTING: folder ini ADA (150 file). Sebelum mulai, jalankan `ls` pada path itu untuk memastikan terbaca. Gunakan path ABSOLUT persis seperti di atas saat memanggil vision_analyze.
+
+STRATEGI WAJIB:
+1. Baca batch kecil (maks 5 halaman per panggilan vision). 
+2. TULIS INKREMENTAL: append tiap batch ke C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/_body_adint_p1_tmp.md
+3. BUAT OBJEK VAULT AWAL (setelah body cukup): 
+   python "C:/Users/TRIAL/workspace/gsp-hermes/scripts/vault_propose.py" --vault "C:/Users/TRIAL/workspace/gsp-hermes/workspace/vault" --perkara adint-vendor-research --id adint-report-vision-p1 --title "GSP Technical Report ADINT — OCR Vision Halaman 1-50" --type fakta --sumber "legacy-archive/ADINT-20260824T085309Z-1-001/ADINT/GSP Technical Report ADINT.pdf" --kelas-bukti primer --sensitif ya --tags "adint,vendor,research,ocr,vision" --penulis gsp-image-analyst --body-file "C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/_body_adint_p1_tmp.md"
+4. Bila vision di-strip (`[screenshot removed]`) atau gagal: CATAT sebagai GAP, jangan memalsukan isi — ekstrak dari sumber teks yang kamu tahu ada (01_assembled_report.md) dengan label "dari teks, bukan vision".
+
+ISI: ekstrak struktur + klaim/angka penting tiap halaman (kutip page_XXX.png). Ini chunk 1 dari 3 (total 150 hal); fokus pada halaman yang kamu pegang.
+
+Akhiri:
+STATUS: complete
+OBJEK: (path objek vault)
+GAP: (halaman yang gagal/stripped + alasan)

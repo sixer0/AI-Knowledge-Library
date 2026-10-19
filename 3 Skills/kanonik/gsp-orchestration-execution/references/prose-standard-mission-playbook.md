@@ -1,0 +1,30 @@
+# Playbook Misi Standar Gaya/Visual (kelas: GAYA-AHLI-1005, VISUAL-1005, 06-10)
+
+Kapan: user mengeluh keluaran "terasa AI / bertele-tele / kosakata AI / susunan konteks / layout kurang profesional", atau meminta standar gaya/visual baru.
+
+## Doktrin inti (koreksi user 06-10, kelas T3 - JANGAN ulangi kesalahan)
+Aturan standar WAJIB diturunkan dari artefak manusia profesional NYATA: kutipan verbatim atau gambar contoh ber-path+halaman/sel/baris. Metrik statistik (panjang kalimat, ritme, frekuensi kata) hanyalah alat bantu diagnosis, BUKAN sumber aturan. "Perbaiki gaya" bukan berarti "mengacak kalimat agar variasinya bagus" - artinya mempelajari bagaimana manusia menulis proposal teknis/buku, termasuk kosakatanya. Deviasi terdeteksi: aturan yang hanya punya angka dan nol pola diamati = cacat, verifier menolak.
+
+## Kerangka fase yang terbukti
+- F0 forensik: ukur korpus keluaran vs baseline manusia dengan SATU pengukur kanonis dibekukan (metrics.py: rantai klausa >=4 koma %, titik-koma/1000w, identifier telanjang, maks kalimat, paragraf >150w, diversitas pembuka). Triase keluhan user dulu (T1-T6) sebelum membalas.
+- F1 riset: kartu RT + TA (kalimat penahan baku) + lajur genre paralel kap <=5. Kelas lajur gaya: G1 anatomi proposal manusia, G2 cara penulis buku teknis, G3 studi kosakata fleet-vs-manusia + glosarium kendali. Kelas lajur visual: V1 registri simbol standar (IEC 60617/61082, ISO 1219, ISA-5.1, ANSI Y32, IEEE 315) + praktik nyata datasheet/OEM, V2 taksonomi chart tujuan-ke-bentuk + resep render teruji, V3 layout (grid, tipografi, template mm per jenis), V4 inventaris visual korpus manusia DI DISK (bukti pola utama). Tiap lajur path keluaran unik.
+- Sintesis register POLA: tiap pola >=2 kutipan manusia ber-path; CEK-SILANG WAJIB sebelum masuk: sampel acak berseed tercatat (mis. seed=1005), kutipan harus match byte di berkas sumber; yang tidak ketemu dibuang, jangan dipertahankan.
+- F2 standar: aturan bernomor dengan ENAM BIDANG wajib urut: (1) pernyataan; (2) fungsi bagi pembaca; (3) BUKTI MANUSIA >=2 ber-path (contoh karangan hanya berlabel CONTOH-ILUSTRATIF di luar bidang ini); (4) kontras fleet verbatim; (5) predikat verifikasi (angka hanya di sini, sebagai ambang bantu berlabel pola lataran); (6) instrumen penegak. Outline direview reviewer SEBELUM isi penuh ditulis (cacat arah tertangkap di kerangka).
+- Gerbang juri (untuk vonis rilis prosa): rubrik dimensi = sasaran tersurat user + dimensi penjaga "kesesuaian pola manusia"; protokol BUTA (skor terkunci sebelum melihat pembanding/skor juri lain; alasan wajib mengutip frasa dari teks); DUA juri independen bukan penulis; selisih >=2 pada dimensi mana pun naik ke ADJUDIKATOR KETIGA; vonis lepas sah hanya lewat adjudikasi dua juri. BATCH-SATU-REVISI: pasca-revisi, re-skor HANYA zona yang berubah (daftar diff + hash zona byte-identik sebagai bukti); zona tak tersentuh membawa skor lama. Pin objek (sha16) sebelum juri mulai; juri mereproduksi pin dari disk, bukan percaya komentar.
+- F3 mekanisasi jalur M-6 berantai: putusan pengelola skill (approve/reject/tunda tertulis per butir, nol menggantung) -> implementasi creator -> fixture merah-hijau test-expert -> regresi akun independen atas korpus lama. Putusan boleh memuat RAMALAN hasil atas objek hidup yang WAJIB diuji aktual oleh akun lain. Perbaikan whitelist positif-palsu sah; melonggarkan ambang penagih demi objek lulus SELALU ditolak.
+- Bukti hidup: retrofit 1-2 seksi keluaran lama before-after berdampingan, tiap suntingan berpenanda aturan + gerbang konten-kekal (identifier/fakta utuh dua sisi, angka dari parser bukan kesan) + juri buta menilai pasangan.
+
+## Pola pemulihan yang terbukti (D-16 dsb)
+- Worker mati karena limit bridge 1800s SETELAH badan artefak lahir (terjadi 4x di misi ini): JANGAN restart dari nol (menimpa artefak = preseden buruk). Controller mengukur sendiri artefak dengan parser independen (cacah aturan vs outline, kelengkapan bidang, glif, baris terakhir utuh) lalu force-done ber-bukti di result/komentar. Mitigasi kartu berat: --max-runtime 3600 + short check diminta DI AWAL kerja, bukan di akhir.
+- Kartu done tanpa result (run mati pasca-tulis): tutup dengan komentar/result controller ber-bukti ukur; jangan biarkan menggantung.
+- Komentar pengalihan yang mem-pin sha16 jadi BASI saat worker rebuild artefak (kelas "pin-komentar-vs-artefak-hidup"). Pen-pin-an sah = result kartu TERAKHIR; perbarui/batalkan komentar saat rebuild.
+- needs-review berisi temuan sah (mis. whitelist belum mencakup padanan bahasa lain): controller bikin PUTUSAN TERTULIS ber-alasan di Decision Log + kartu perbaikan terpisah; jangan diam-diam, jangan vonis pekerja gagal.
+- Crash berulang identik <65 detik tanpa tool call pada claim jalur review = traceroot ke konfigurasi profil (mis. referensi skill tak dikenal), bukan kegagalan kerja; kelas T6, lanjutkan dengan penutupan controller + proposal fleet.
+
+## Pitfall alat
+- scan_ai_footprint.py: `--text <path>` mengukur STRING PATH (2 kata), bukan isi berkas - sumber klaim PASS palsu (preseden F-25-1, membatalkan vonis rilis). Panggil dengan berkas sebagai argumen POSISI. Uji sanity: cetakan harus menyebut jumlah kalimat/paragraf wajar, bukan 1-2.
+- Sajian DOCX format DATUM cepat: salin fungsi token dari docs/2026-09-03-expo26-workbook-standard/scripts/build_contoh_datum_docx.py (contoh jadi: docs/2026-10-05-gaya-bahasa-forensik/serah/build_laporan.py). PDF + hitung halaman nyata: pywin32 via uv, ComputeStatistics(2), ExportAsFixedFormat(dst,17); bersihkan berkas kunci ~$ sebelum commit. Middle dot hanya sah di baris pita/kop resmi (blok berpenanda), badan A1/A2=0.
+- git-bash: hindari heredoc/rangkaian substitusi panjang di satu perintah (parser hardline menolak); tulis berkas dulu lalu jalankan.
+
+## Catatan kurasi
+Isi playbook ini sebagian besar milik kanonik skill `gsp-output-naturalization` (scanner + gerbang naturalisasi) dan `gsp-document-quality-standards`; sinkronkan/lebur oleh curator saat menyentuh skill itu. Registry fleet adalah salinan distribusi - aliran balik fleet->kanonik mengikuti konvensi Riwayat skill ini.

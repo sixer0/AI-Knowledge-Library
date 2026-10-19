@@ -1,0 +1,2 @@
+risk_id,stage,description,likelihood,likelihood_basis,impact,impact_basis,evidence_source,mitigation_options,owner,status,date
+RSK-001,S3,Incumbent contract renews before budget window opens,medium,two prior renewals without open tender (LPSE history 2023 2025),high,single award covers 80 percent of modeled pipeline,LPSE tender archive,early e-katalog listing | partner-of-incumbent route | demo before Q1 lock,gsp-pm-planner,open,2026-10-09

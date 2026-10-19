@@ -1,0 +1,18 @@
+Kamu adalah gsp-document-analyst dalam penyelesaian GAP migrasi GSP. Baca dulu format objek vault + aturan fidelitas: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+KONTEKS: Laporan GSP Technical Report ADINT.pdf (151 hal) sedang dilengkapi cakupan kurasi. Halaman 101-150 sebelumnya di-OCR vision oleh objek `adint-report-vision-p3` — objek itu DITOLAK librarian karena HALUSINASI (mengaku berisi program "ADINT Anggaran Dana Insentif Teknis Kementerian PUPR" padahal laporan sebenarnya soal ADVERTISING INTELLIGENCE). Sumber teks sah ada di korpus; buat penggantinya.
+
+TUGASMU: baca file ringkasan teks (halaman 101-150 laporan ADINT, Chapter 22-25 + Appendices A-G):
+C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ADINT-20260824T085309Z-1-001/ADINT/Phase 1_ Document Comprehension/03_Pages_101-150_Appendices_Summary.md (47 KB)
+Buat OBJEK VAULT digest yang JUJUR (kelas_bukti sekunder, label "digest dari ringkasan Phase 1/3") — setara dengan objek yang sudah ada `adint-report-pages-51-100-digest`.
+
+HASIL (tulis ke vault, perkara adint-vendor-research, sensitif ya, kelas_bukti sekunder):
+- Buat objek:
+  python "C:/Users/TRIAL/workspace/gsp-hermes/scripts/vault_propose.py" --vault "C:/Users/TRIAL/workspace/gsp-hermes/workspace/vault" --perkara adint-vendor-research --id adint-report-pages-101-150-digest --title "GSP Technical Report ADINT — Ringkasan Halaman 101-150 (dari Phase 1/3 Summary)" --type fakta --sumber "legacy-archive/ADINT-20260824T085309Z-1-001/ADINT/Phase 1_ Document Comprehension/03_Pages_101-150_Appendices_Summary.md" --kelas-bukti sekunder --sensitif ya --tags "adint,vendor,research,phase1,digest,appendices" --penulis gsp-document-analyst --body-file <body>
+- Body: ekstrak struktur + klaim/angka penting dari ringkasan (counter-ADINT doctrine, governance, katalog 133 vendor, appendices A-G) dengan kutipan section.
+- Tulis di body: "DIGEST dari ringkasan Phase 1/3 (bukan OCR vision). Objek vision p3 sebelumnya DITOLAK karena halusinasi (dokumen salah) — objek ini pengganti yang sah."
+
+Akhiri:
+STATUS: complete
+OBJEK: (path objek vault)
+GAP: (bagian yang tidak kamu baca + alasan)

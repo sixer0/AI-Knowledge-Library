@@ -1,0 +1,12 @@
+{
+  "1": {"class_type": "UNETLoader", "_meta": {"title": "Load Qwen-Image-2512"}, "inputs": {"unet_name": "qwen_image_2512_fp8_e4m3fn.safetensors", "weight_dtype": "default"}},
+  "2": {"class_type": "ModelSamplingAuraFlow", "_meta": {"title": "Scheduler shift"}, "inputs": {"shift": 3.1, "model": ["1", 0]}},
+  "3": {"class_type": "CLIPLoader", "_meta": {"title": "Load Qwen2.5-VL-7B TE"}, "inputs": {"clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors", "type": "qwen_image"}},
+  "4": {"class_type": "CLIPTextEncode", "_meta": {"title": "Positive Prompt"}, "inputs": {"text": "Professional presentation slide hero image: Indonesian engineer in safety vest inspecting CCTV installation on a building facade, golden hour light, photorealistic, shallow depth of field. Include clean readable text overlay \"GEMILANG SECURITY\" in bold sans-serif at top left.", "clip": ["3", 0]}},
+  "5": {"class_type": "CLIPTextEncode", "_meta": {"title": "Negative Prompt"}, "inputs": {"text": "lowres, bad anatomy, bad hands, text error, watermark, blurry, oversaturated, wax figure face", "clip": ["3", 0]}},
+  "6": {"class_type": "VAELoader", "_meta": {"title": "Load Qwen VAE"}, "inputs": {"vae_name": "qwen_image_vae.safetensors"}},
+  "7": {"class_type": "EmptySD3LatentImage", "_meta": {"title": "Canvas"}, "inputs": {"width": 1328, "height": 1328, "batch_size": 1}},
+  "8": {"class_type": "KSampler", "_meta": {"title": "Sample"}, "inputs": {"seed": 42, "steps": 50, "cfg": 4.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 1.0, "model": ["2", 0], "positive": ["4", 0], "negative": ["5", 0], "latent_image": ["7", 0]}},
+  "9": {"class_type": "VAEDecode", "_meta": {"title": "Decode"}, "inputs": {"samples": ["8", 0], "vae": ["6", 0]}},
+  "10": {"class_type": "SaveImage", "_meta": {"title": "Save Image"}, "inputs": {"filename_prefix": "slide/qwen", "images": ["9", 0]}}
+}

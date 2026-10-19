@@ -1,0 +1,20 @@
+Kamu adalah gsp-image-prompt-specialist (VISION — model qwen3.7-flash) dalam penanganan GAP migrasi GSP. Baca dulu format objek vault + aturan fidelitas di: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+TUGASMU: **OCR/Vision — RANSUS BIN 11 Agustus 2026 V1.pdf** (20 halaman scan) + **SLIDE 01-20.png** presentasi RANSUS.
+- Sumber asli PDF: legacy-archive/RANSUS-20260824T085403Z-1-001/RANSUS/RANSUS BIN 11 AGUSTUS 2026 V1.pdf
+- Gambar halaman PDF: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/ransus_pdf/ (page_001.png .. page_020.png)
+- Slide: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/ransus_slides/ (SLIDE 01.png .. SLIDE 20.png)
+
+CARA KERJA (vision_analyze):
+- Baca 20 halaman PDF (batch per 5-8 bila tool mendukung) → ekstrak struktur + klaim + angka penting + halaman.
+- Baca 20 slide → ekstrak poin utama tiap slide (judul + isi kunci) + nomor slide.
+- Klien BIN, dokumen RAHASIA — sensitif ya, kelas_bukti primer.
+
+HASIL (tulis ke vault, perkara ransus-pengamanan-informasi, sensitif ya):
+- 1 objek (type fakta): "RANSUS BIN 11 Agustus 2026 V1 — Ekstraksi Vision (20 hal PDF + 20 slide)".
+- Catat bila konten slide berbeda/lebih baru dari proposal 045-GSP-PT-VIII-2026 (bandingkan dengan objek yang sudah ada) — ini berharga untuk kurasi.
+
+Akhiri:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (halaman/slide yang tidak terbaca + alasan)

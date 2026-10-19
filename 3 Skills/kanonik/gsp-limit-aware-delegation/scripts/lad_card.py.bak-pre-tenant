@@ -1,0 +1,235 @@
+#!/usr/bin/env python3
+"""lad_card.py -- pembuat kartu delegasi Limit-Aware (LAD, kebijakan 02-09-2026).
+
+Spesifikasi: pasal C.4 kontrak docs/2026-09-02-limit-aware-delegation.
+Ditulis bersih dari prototipe dogfood_limit.py (teruji menempel 15 kartu).
+
+Perilaku:
+- cap_for(assignee): baca agent.max_turns dari config profil target;
+  fallback 500 dengan baris PERINGATAN tercetak (tidak pernah diam-diam).
+- Tempel blok LIMIT-AWARE hasil render + jejak ESTIMASI ke body kartu.
+- Tolak jalan (exit non-zero) bila --est/--shape kosong tanpa --interaktif.
+- Sarankan bentuk R-1/R-2/R-3 dari E vs 0.5 x cap; beda dari --shape
+  operator = WARN tapi tetap jalan (keputusan akhir di operator).
+- Buat kartu via `hermes kanban --board <board> create ... --max-runtime <d>`.
+- --dry-run: render blok lengkap ke stdout TANPA memanggil kanban create.
+
+Dependensi: hanya stdlib + CLI hermes.
+"""
+
+import argparse
+import math
+import os
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+FALLBACK_CAP = 500
+DEFAULT_MAX_RUNTIME = "1800"
+
+# Template blok LIMIT verbatim pasal C.1 (placeholder diisi saat render).
+LIMIT_BLOCK = """LIMIT-AWARE (blok wajib, kebijakan LAD 02-09; tutup jujur = selesai sesuai kontrak):
+- ANGGARAN: {cap} iterasi tool (agent.max_turns profil) + 30 menit run bridge (grace 10 menit).
+- AMBANG-A (cek jalur): sisa <= {setengah} iterasi ATAU jalan >= 15 menit -> stop perluasan lingkup; putuskan sadar: lanjut selesai atau siapkan checkpoint.
+- AMBANG-B (tutup jujur): sisa <= {seperempat} iterasi ATAU sisa <= 8 menit -> STOP kerja baru; tulis laporan parsial enam bidang sebagai komentar lengkap, tempel ringkasannya di result, tutup dengan STATUS: partial-handoff.
+- FORMAT LAPORAN: STATUS / ALASAN_LIMIT / SELESAI (path+ukuran nyata di disk) / SISA_KERJA (butir + estimasi iterasi) / BLOCKER / KARTU_LANJUTAN_SARAN.
+- HEMAT: mekanik per-item lewat SATU skrip execute_code (di-refund dari anggaran); gagal identik 2x = ganti pendekatan; file besar dibaca pakai grep/bagian.
+- Parsial berformat BUKAN kegagalan; crash/gave_up tanpa laporan = cacat. Orkestrator membuat kartu lanjutan dari SISA_KERJA (parents kartu ini, maksimal mata ke-3)."""
+
+SHAPE_RE = re.compile(r"^(satu|rantai-[0-9]+|paralel-[0-9]+x)$")
+
+
+def profiles_dir():
+    """Direktori profil Hermes: LOCALAPPDATA bila ada, else HOME/AppData/Local."""
+    la = os.environ.get("LOCALAPPDATA")
+    if la:
+        return Path(la) / "hermes" / "profiles"
+    return Path.home() / "AppData" / "Local" / "hermes" / "profiles"
+
+
+def valid_profiles():
+    """Nama profil yang ADA di disk (folder per profil) + 'default'.
+    Gate anti-orphan (user 03-09): dispatcher hanya mengklaim assignee
+    yang cocok profil nyata; nama hantu (mis. brahma pasca-rebrand) membuat
+    kartu ready selamanya tanpa error."""
+    d = profiles_dir()
+    names = set()
+    try:
+        for p in d.iterdir():
+            if p.is_dir():
+                names.add(p.name)
+    except OSError:
+        pass
+    names.add("default")
+    return names
+
+
+def cap_for(assignee):
+    """Baca agent.max_turns profil target. Return (cap, peringatan|None)."""
+    if assignee:
+        cfg = profiles_dir() / assignee / "config.yaml"
+        try:
+            with open(cfg, encoding="utf-8") as fh:
+                for line in fh:
+                    m = re.match(r"\s*max_turns:\s*(\d+)", line)
+                    if m:
+                        return int(m.group(1)), None
+            warn = ("PERINGATAN: config profil '%s' terbaca tapi tidak memuat "
+                    "agent.max_turns -- fallback cap %d." % (assignee, FALLBACK_CAP))
+            return FALLBACK_CAP, warn
+        except OSError:
+            warn = ("PERINGATAN: config profil '%s' tidak terbaca (%s) -- "
+                    "fallback cap %d." % (assignee, cfg, FALLBACK_CAP))
+            return FALLBACK_CAP, warn
+    return FALLBACK_CAP, "PERINGATAN: assignee kosong -- fallback cap %d." % FALLBACK_CAP
+
+
+def suggest_shape(est, cap):
+    """Saran bentuk per R-1/R-2/R-3 (E vs 0.5 x cap). R-2 vs R-3 tidak
+    terbedakan oleh skrip (butuh tahu koherensi output), jadi keduanya
+    dicetak saat E melebihi ambang."""
+    setengah = cap // 2
+    if est <= setengah:
+        return ["satu"], ["R-1: satu kartu (E <= 0.5 x cap)"]
+    mata = min(math.ceil(est / setengah), 3)
+    keluarga = ("rantai", "paralel")
+    saran = [
+        "R-2: rantai-%d (E > 0.5 x cap, output satu artefak koheren; "
+        "mata=ceil(E/(0.5xcap)), maks 3, mata ke-4 eskalasi manusia)" % mata,
+        "R-3: paralel-Kx (E > 0.5 x cap, item saling bebas; tiap kartu <= "
+        "0.5 x cap; concurrency maks 5 per misi, tanpa batas per jenis)",
+    ]
+    return keluarga, saran
+
+
+def shape_family(shape):
+    if shape == "satu":
+        return "satu"
+    if shape.startswith("rantai"):
+        return "rantai"
+    return "paralel"
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(
+        prog="lad_card.py",
+        description="Buat kartu delegasi dengan blok LIMIT-AWARE + jejak ESTIMASI.")
+    ap.add_argument("--assignee", required=True, help="profil target kartu")
+    ap.add_argument("--title", default=None, help="judul kartu")
+    ap.add_argument("--body", default="", help="isi kartu (teks)")
+    ap.add_argument("--body-file", default=None, help="isi kartu dari berkas")
+    ap.add_argument("--est", type=int, default=None, help="estimasi E (iterasi)")
+    ap.add_argument("--shape", default=None,
+                    help="bentuk delegasi: satu | rantai-N | paralel-Kx")
+    ap.add_argument("--parents", default=None, help="id parent, pisahkan koma")
+    ap.add_argument("--interaktif", action="store_true",
+                    help="mengecualikan kewajiban jejak ESTIMASI "
+                         "(kerja interaktif singkat)")
+    ap.add_argument("--max-runtime", default=DEFAULT_MAX_RUNTIME,
+                    help="cap runtime detik/durasi (default 1800)")
+    ap.add_argument("--board", default="default", help="kanban board (default default)")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="render blok lengkap ke stdout, TANPA memanggil kanban create")
+    args = ap.parse_args(argv)
+
+    # Gate anti-orphan (user 03-09): tolak assignee yang bukan profil nyata.
+    # Dispatcher hanya mengklaim kartu yang assignee-nya cocok folder profil;
+    # nama hantu/basi membuat kartu ready selamanya tanpa error.
+    if args.assignee != "none":
+        vp = valid_profiles()
+        if args.assignee not in vp:
+            print("ERROR: assignee '%s' BUKAN profil yang ada di disk (%s). "
+                  "Kartu ke nama tak-valid tidak akan pernah di-klaim dispatcher "
+                  "(orphan permanen). Pilihan valid antara lain: %s"
+                  % (args.assignee, profiles_dir(),
+                     ", ".join(sorted(vp)[:12]) + ", ..."),
+                  file=sys.stderr)
+            return 2
+
+    # Gerbang jejak estimasi (C.4 butir 3).
+    if not args.interaktif and (args.est is None or not args.shape):
+        print("ERROR: --est dan --shape wajib kecuali kerja interaktif singkat "
+              "(tambahkan --interaktif untuk mengecualikan kewajiban jejak "
+              "ESTIMASI). Kartu delegasi tidak boleh lahir tanpa angka.",
+              file=sys.stderr)
+        return 2
+
+    if args.shape and not SHAPE_RE.match(args.shape):
+        print("ERROR: --shape '%s' tidak valid; pakai satu | rantai-N | paralel-Kx."
+              % args.shape, file=sys.stderr)
+        return 2
+
+    body = args.body or ""
+    if args.body_file:
+        try:
+            with open(args.body_file, encoding="utf-8") as fh:
+                file_body = fh.read()
+            body = (file_body + "\n\n" + body) if body else file_body
+        except OSError as exc:
+            print("ERROR: --body-file tidak terbaca: %s" % exc, file=sys.stderr)
+            return 2
+
+    cap, warn = cap_for(args.assignee)
+    if warn:
+        print(warn)
+
+    setengah = cap // 2
+    seperempat = cap // 4
+    blok = LIMIT_BLOCK.format(cap=cap, setengah=setengah, seperempat=seperempat)
+
+    # Jejak ESTIMASI + pengecekan silang bentuk (C.4 butir 4).
+    if args.interaktif:
+        trace = "ESTIMASI: interaktif (kewajiban jejak dikecualikan via --interaktif)"
+    else:
+        trace = "ESTIMASI: E=%d, cap=%d, bentuk=%s" % (args.est, cap, args.shape)
+        keluarga_saran, sarans = suggest_shape(args.est, cap)
+        print("SARAN BENTUK (R-1/R-2/R-3, E=%d vs 0.5 x cap=%d):" % (args.est, setengah))
+        for s in sarans:
+            print("  " + s)
+        if shape_family(args.shape) not in keluarga_saran:
+            print("WARN: --shape '%s' beda dari saran bentuk (E=%d, 0.5 x cap=%d); "
+                  "tetap jalan -- keputusan akhir di operator."
+                  % (args.shape, args.est, setengah))
+        if args.shape.startswith("paralel-"):
+            k = int(re.findall(r"\d+", args.shape)[0])
+            if k > 5:
+                print("WARN: --shape paralel-%dx melebihi concurrency sah (maks 5 "
+                      "per misi, tanpa batas per jenis); tetap jalan -- keputusan akhir di operator." % k)
+
+    full_body = body.rstrip("\n")
+    full_body = (full_body + "\n\n" if full_body else "") + blok + "\n\n" + trace + "\n"
+
+    if args.dry_run:
+        print("--- DRY-RUN: kartu TIDAK dibuat ---")
+        print("assignee: %s | cap=%d setengah=%d seperempat=%d | max-runtime=%s | board=%s"
+              % (args.assignee, cap, setengah, seperempat, args.max_runtime, args.board))
+        print(full_body)
+        return 0
+
+    if not args.title:
+        print("ERROR: --title wajib bila bukan --dry-run.", file=sys.stderr)
+        return 2
+
+    hermes = shutil.which("hermes") or "hermes"
+    cmd = [hermes, "kanban", "--board", args.board, "create", args.title,
+           "--assignee", args.assignee, "--body", full_body,
+           "--max-runtime", str(args.max_runtime)]
+    if args.parents:
+        for pid in (p.strip() for p in args.parents.split(",")):
+            if pid:
+                cmd += ["--parent", pid]
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    out = (proc.stdout or "").strip()
+    err = (proc.stderr or "").strip()
+    if proc.returncode != 0:
+        print("ERROR: hermes kanban create gagal (exit %d):\n%s\n%s"
+              % (proc.returncode, out, err), file=sys.stderr)
+        return proc.returncode
+    print(out)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

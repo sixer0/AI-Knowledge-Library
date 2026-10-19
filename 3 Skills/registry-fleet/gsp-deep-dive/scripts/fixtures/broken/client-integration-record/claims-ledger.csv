@@ -1,0 +1,8 @@
+claim_id,vendor_text_verbatim,source_document,page_or_location,claim_type,test_method,stated_value,recomputed_value,variance_pct,evidence_label,carrier_load,status,verification_account,date,lane
+CLM-001,Detection range up to 12 km at 90% confidence,datasheet-2026.pdf,p.7,performance,(12*0.9)/12*100,90%,90,0,VENDOR-CLAIMED,Y,open,gsp-verifier,2026-10-09,S2
+CLM-002,ISO 9001:2015 certified manufacturing,certificate-scan.pdf,page 1,certification,N/A: non-numeric,N/A,N/A,N/A,PRIMARY-DOC,N,verified-L2,gsp-verifier,2026-10-09,S1
+CLM-003,Annual production capacity 240 units,factory-audit-report.pdf,section 4,capacity,200*1.2,240,240,0,PRIMARY-DOC,Y,verified-L2,gsp-verifier,2026-10-09,S2
+CLM-005,Delivered 18 city-scale deployments,reference-call-notes.md,call 2,reference,N/A: not load-bearing,18,N/A,N/A,OBSERVED,N,verified-L2,gsp-verifier,2026-10-09,S3
+CLM-006,Revenue USD 8.4m FY2025,annual-report-2025.pdf,p.12,financial,6.5+1.9,8.4,8.4,0,THIRD-PARTY,Y,verified-L2,gsp-verifier,2026-10-09,S3
+CLM-007,Segment growth 11 percent CAGR 2024-2029,analyst-note-a.pdf,fig 3,market,220/20,11%,11,0,THIRD-PARTY,Y,verified-L2,gsp-verifier,2026-10-09,S3
+CLM-008,Local support office in Jakarta,partner-agreement.pdf,clause 9,other,N/A: non-numeric,N/A,N/A,N/A,OBSERVED,N,verified-L2,gsp-verifier,2026-10-09,S3

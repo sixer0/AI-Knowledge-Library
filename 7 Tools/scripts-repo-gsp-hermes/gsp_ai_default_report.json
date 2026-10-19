@@ -1,0 +1,2626 @@
+[
+ {
+  "name": "firmanhidayat",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-architecture-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-budi",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-coder-execution",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-crawler-orchestrator",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-creative",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-custodian",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-data-analyst",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-data-collector",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-database-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-design-system-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-docker-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-analyst",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-converter",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-reader",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-reviewer",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-translator",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-document-writer",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-engineering-analyst",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-explore",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-fiber-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-firman-custom",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-git-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-grounding-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-image-analyst",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-image-prompt-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-image-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-infra-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-librarian",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-pm-analyst",
+  "steps": [
+   [
+    "unset:default",
+    false
+   ],
+   [
+    "unset:provider",
+    false
+   ],
+   [
+    "unset:base_url",
+    false
+   ],
+   [
+    "unset:api_key",
+    false
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-pm-planner",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-pm-verifier",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-pm-writer",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-power-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-request-translator",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-security-review",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-security-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-senior-code-reviewer",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-social-media-analyst",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-social-media-crawler",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-task-architect",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-test-expert",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-vendor-crawler-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-verifier",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "gsp-vss-specialist",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [],
+  "ok": true,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ },
+ {
+  "name": "user01",
+  "steps": [
+   [
+    "unset:default",
+    true
+   ],
+   [
+    "unset:provider",
+    true
+   ],
+   [
+    "unset:base_url",
+    true
+   ],
+   [
+    "unset:api_key",
+    true
+   ],
+   [
+    "set:model.default",
+    true
+   ],
+   [
+    "set:model.provider",
+    true
+   ],
+   [
+    "set:model.base_url",
+    true
+   ],
+   [
+    "set:model.api_key",
+    true
+   ],
+   [
+    "set:fallback_providers",
+    true
+   ]
+  ],
+  "problems": [
+   "GSP-AI custom provider missing"
+  ],
+  "ok": false,
+  "state": {
+   "default": "auto-efficient",
+   "provider": "GSP-AI",
+   "fallback": [
+    {
+     "provider": "kilocode",
+     "model": "kilo-auto/free"
+    }
+   ]
+  },
+  "reg": {
+   "cfg": false,
+   "env": false
+  }
+ }
+]

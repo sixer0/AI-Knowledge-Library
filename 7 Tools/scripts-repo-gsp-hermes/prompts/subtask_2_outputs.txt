@@ -1,0 +1,19 @@
+Kamu adalah gsp-document-analyst dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+PROYEK TUGASMU: Riwayat Output Workstream agentic lama (folder outputs ber-tanggal).
+- Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/outputs-20260824T085259Z-1-001/outputs
+- Baca bagian proyek 'outputs' di knowledge_map.md + manifest.json.
+- Perkara: gsp-outputs-history | kelas_bukti sesuai isi
+
+WORKSTREAM di dalamnya (petakan SEMUA, jangan ada terlewat):
+2026-07-29_adint-information-library (305 file, LIBRARY_INDEX.md Master Index), 2026-07-31_gsp-ransus-intelligent (280, GSP_Ransus_Intelligent_Proposal_Komprehensif.docx + executive summary), 2026-07-28_adint-vendor-research (180, ADINT_Vendor_Research_Report_v3.0 + 01_assembled_report.md), 2026-08-05_adint-vendor-enrichment (173, 01_enriched_vendor_master.xlsx), 2026-07-28_gsp-enforcement (22) + verification (4), 2026-07-17_gsp_orchestration_skill_report (15), 2026-08-04_hud-tts-sts-integration (15), arsenal (12), masterplan (11, termasuk 02_library_index_template + 06_flag_vocabulary_adint), identification (7), 2026-07-27_adint-vendor-due-diligence (5), 2026-07-27_test-project (4), 2026-08-05_adint_information_library (3), 2026-07-27_gsp_subagent_model_map (2), categories (2), archives (1), document-quality-improvement-guide (md+docx), LIBRARY_INDEX.md, RELATIONSHIPS.md.
+
+HASIL (tulis ke vault):
+- 1 objek index 'Riwayat Output Workstream GSP' (type proyek): daftar SEMUA workstream + folder + jumlah file + artefak kunci ber-path.
+- 3-5 objek tambahan (type catatan/keputusan/pelajaran) untuk knowledge yang terbukti dari file: mis. template library index, flag vocabulary ADINT (adaptasi Arsenal 9-flag), pelajaran orkestrasi (delegation_progress_report), integrasi HUD-TTS-STS.
+- Penilaian sensitif per objek: workstream klien (adint-*, ransus-intelligent, arsenal, enforcement) → sensitif ya; workstream internal (skill report, hud-tts-sts, masterplan) → sensitif tidak.
+
+Akhiri dengan:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (workstream/poin yang tak bisa dikurasi + alasan)

@@ -1,0 +1,740 @@
+{
+ "gsp-architecture-specialist": {
+  "always": [
+   "gsp-architecture-workflow",
+   "gsp-architecture-code-compliance",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-architecture-climate-design",
+   "gsp-architecture-building-physics",
+   "gsp-architecture-bim-deliverables",
+   "gsp-architecture-drawing-reading",
+   "gsp-document-quality-standards",
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-firecrawl",
+   "gsp-canvas-design",
+   "gsp-image-prompt-specialist",
+   "gsp-checkpoint-resume",
+   "grounded-citations",
+   "docx",
+   "xlsx",
+   "pdf",
+   "powerpoint"
+  ],
+  "role_muat": [
+   "1. **Muatan wajib di awal sesi**: `gsp-architecture-workflow` (fase desain) + `gsp-architecture-code-compliance` (regulasi/tata ruang) + `gsp-verification-before-completion`.",
+   "2. **Membaca gambar**: saat ada gambar arsitektur (foto/scan/PDF denah, tampak, potongan, detail), muat `gsp-architecture-drawing-reading`; gunakan vision_analyze, cek silang dimensi antar gambar; untuk angka yang dibaca dari raster sebut 'terbaca di gambar' + konfirmasi."
+  ]
+ },
+ "gsp-budi": {
+  "always": [],
+  "ondemand": [],
+  "role_muat": []
+ },
+ "gsp-coder-execution": {
+  "always": [
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-backend-execution",
+   "gsp-brainstorming",
+   "gsp-context-engineering",
+   "gsp-deploy-to-vercel",
+   "gsp-design-taste-frontend",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-frontend-design",
+   "gsp-frontend-integration",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-webapp-testing",
+   "requesting-code-review",
+   "tdd",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop",
+   "gsp-plan-and-execute",
+   "gsp-writing-plans"
+  ],
+  "role_muat": []
+ },
+ "gsp-crawler-orchestrator": {
+  "always": [
+   "gsp-vendor-crawler",
+   "gsp-social-media-collection-workflow"
+  ],
+  "ondemand": [
+   "gsp-orchestrator-worker",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-firecrawl",
+   "gsp-social-media-data-standards",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix",
+   "gsp-orchestration-telemetry"
+  ],
+  "role_muat": [
+   "1. Muat `gsp-vendor-crawler` terlebih dahulu; ikuti pipeline 6 tahap berbasis region.",
+   "1. Muat `gsp-social-media-collection-workflow` + `gsp-social-media-data-standards`; ikuti pipeline koleksi multi-platform (Reddit, YouTube, TikTok, IG, Threads, Bluesky, dll)."
+  ]
+ },
+ "gsp-creative": {
+  "always": [],
+  "ondemand": [],
+  "role_muat": []
+ },
+ "gsp-custodian": {
+  "always": [
+   "gsp-library-custodian",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-library-rebuild",
+   "gsp-library-organization-standards",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": [
+   "2. Verifikasi 7 dimensi per proposa vault (muat gsp-library-custodian): provenans"
+  ]
+ },
+ "gsp-data-analyst": {
+  "always": [],
+  "ondemand": [
+   "gsp-writing-plans",
+   "gsp-context-engineering",
+   "gsp-reflection-loop",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-vendor-crawler",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-dry-run-verify-fix",
+   "gsp-document-quality-standards"
+  ],
+  "role_muat": []
+ },
+ "gsp-data-collector": {
+  "always": [],
+  "ondemand": [
+   "gsp-agent-browser",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-database-specialist": {
+  "always": [],
+  "ondemand": [
+   "gsp-diagnose",
+   "gsp-verification-before-completion",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-design-system-specialist": {
+  "always": [
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "gsp-frontend-design",
+   "gsp-image-prompt-specialist",
+   "gsp-brainstorming",
+   "gsp-human-in-loop-gate",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-canvas-design"
+  ],
+  "role_muat": []
+ },
+ "gsp-docker-specialist": {
+  "always": [],
+  "ondemand": [
+   "gsp-deploy-to-vercel",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-dry-run-verify-fix",
+   "gsp-diagnose"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-analyst": {
+  "always": [
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-verification-before-completion"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-converter": {
+  "always": [],
+  "ondemand": [
+   "docx",
+   "xlsx",
+   "pdf",
+   "powerpoint",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-reader": {
+  "always": [],
+  "ondemand": [
+   "docx",
+   "xlsx",
+   "pdf",
+   "powerpoint",
+   "ocr-and-documents",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-reviewer": {
+  "always": [
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "docx",
+   "xlsx",
+   "pdf",
+   "powerpoint",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-translator": {
+  "always": [],
+  "ondemand": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-document-writer": {
+  "always": [
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "docx",
+   "xlsx",
+   "pdf",
+   "powerpoint",
+   "gsp-long-document-assembly",
+   "gsp-content-research-writer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-reflection-loop",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-engineering-analyst": {
+  "always": [
+   "pustaka-teknis",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "excel-master",
+   "cctv-system-designer",
+   "fiber-link-design",
+   "power-backup-sizing",
+   "grounding-lightning-design",
+   "hw-sw-config-master",
+   "rcm-analysis",
+   "onvif-interop",
+   "perimeter-security-designer",
+   "digital-forensics-evidence-system",
+   "dems-polri-proposal-architect",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": [
+   "1. Jawaban angka/rumus/ambang WAJIB bersumber `[R-n \u2014 sumber, hal]` \u2014 muat pustaka-teknis lebih dulu."
+  ]
+ },
+ "gsp-explore": {
+  "always": [],
+  "ondemand": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "role_muat": []
+ },
+ "gsp-fiber-specialist": {
+  "always": [
+   "fiber-link-design",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "pustaka-teknis",
+   "excel-master",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": [
+   "4. BA memuat ambang + rincian hitungan; data jalur lengkap (tipe serat, panjang, konektor, sambungan, \u03bb)."
+  ]
+ },
+ "gsp-firman-custom": {
+  "always": [],
+  "ondemand": [],
+  "role_muat": []
+ },
+ "gsp-git-specialist": {
+  "always": [],
+  "ondemand": [
+   "gsp-using-git-worktrees",
+   "gsp-setup-pre-commit",
+   "gsp-finishing-a-development-branch",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-grounding-specialist": {
+  "always": [
+   "grounding-lightning-design",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "pustaka-teknis",
+   "excel-master",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": []
+ },
+ "gsp-image-analyst": {
+  "always": [],
+  "ondemand": [
+   "gsp-image-enhancer",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-canvas-design"
+  ],
+  "role_muat": []
+ },
+ "gsp-image-prompt-specialist": {
+  "always": [
+   "gsp-image-prompt-specialist",
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "gsp-design-system-grill",
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-image-specialist": {
+  "always": [],
+  "ondemand": [
+   "gsp-image-enhancer",
+   "gsp-image-prompt-specialist",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-canvas-design"
+  ],
+  "role_muat": []
+ },
+ "gsp-infra-specialist": {
+  "always": [
+   "hw-sw-config-master",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "excel-master",
+   "pustaka-teknis",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": []
+ },
+ "gsp-librarian": {
+  "always": [
+   "gsp-library-workflow",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion",
+   "gsp-library-organization-standards"
+  ],
+  "ondemand": [
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-firecrawl",
+   "gsp-document-quality-standards"
+  ],
+  "role_muat": [
+   "2. Setiap usulan diproses lewat alur kurasi (muat gsp-library-workflow): verifikasi provenans \u2192 dedup \u2192 klasifikasi gate (sensitif/dosir) \u2192 putuskan dengan alasan."
+  ]
+ },
+ "gsp-pm-analyst": {
+  "always": [],
+  "ondemand": [
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-writing-plans",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-verification-before-completion"
+  ],
+  "role_muat": []
+ },
+ "gsp-pm-planner": {
+  "always": [
+   "gsp-writing-plans"
+  ],
+  "ondemand": [
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "requesting-code-review",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-phase-accountability",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-pm-verifier": {
+  "always": [
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-eval-driven-improver"
+  ],
+  "role_muat": []
+ },
+ "gsp-pm-writer": {
+  "always": [
+   "gsp-document-quality-standards"
+  ],
+  "ondemand": [
+   "gsp-to-prd",
+   "gsp-writing-plans",
+   "gsp-content-research-writer",
+   "docx",
+   "powerpoint",
+   "gsp-verification-before-completion",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-power-specialist": {
+  "always": [
+   "power-backup-sizing",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "rcm-analysis",
+   "pustaka-teknis",
+   "excel-master",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": []
+ },
+ "gsp-request-translator": {
+  "always": [],
+  "ondemand": [
+   "gsp-brainstorming",
+   "gsp-to-prd",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "role_muat": []
+ },
+ "gsp-security-review": {
+  "always": [
+   "gsp-security-review",
+   "gsp-security-review-gate"
+  ],
+  "ondemand": [
+   "gsp-verification-before-completion",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-dry-run-verify-fix"
+  ],
+  "role_muat": []
+ },
+ "gsp-security-specialist": {
+  "always": [
+   "digital-forensics-evidence-system",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "dems-polri-proposal-architect",
+   "onvif-interop",
+   "pustaka-teknis",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": []
+ },
+ "gsp-senior-code-reviewer": {
+  "always": [],
+  "ondemand": [
+   "gsp-code-review-senior",
+   "gsp-context-engineering",
+   "gsp-receiving-code-review",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "requesting-code-review",
+   "gsp-verification-before-completion",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop"
+  ],
+  "role_muat": []
+ },
+ "gsp-skill-creator": {
+  "always": [
+   "gsp-skill-authoring",
+   "hermes-agent-skill-authoring",
+   "gsp-skill-distribution",
+   "hermes-agent",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-skill-authoring",
+   "hermes-agent-skill-authoring",
+   "gsp-skill-distribution",
+   "hermes-agent",
+   "gsp-verification-before-completion"
+  ],
+  "role_muat": [
+   "1. Muat gsp-skill-authoring; CRUD skill & tools fleet dari registry kanonik (C:/Users/TRIAL/workspace/gsp-hermes/skills/) + registry fleet ($LOCALAPPDATA/hermes/skills/gsp/)."
+  ]
+ },
+ "gsp-skill-manager": {
+  "always": [
+   "gsp-skill-distribution",
+   "gsp-skill-authoring",
+   "gsp-verification-before-completion",
+   "hermes-agent",
+   "hermes-agent-skill-authoring",
+   "gsp-system-manager-ops"
+  ],
+  "ondemand": [
+   "gsp-skill-distribution",
+   "gsp-skill-authoring",
+   "gsp-verification-before-completion",
+   "hermes-agent",
+   "hermes-agent-skill-authoring",
+   "gsp-system-manager-ops"
+  ],
+  "role_muat": [
+   "1. Muat gsp-skill-distribution; distribusi skill on-demand sesuai request agent aktif (audit kelengkapan skill profil vs registry kanonik/fleet)."
+  ]
+ },
+ "gsp-social-media-analyst": {
+  "always": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-analysis-workflow",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-social-media-analyzer",
+   "gsp-social-analytics",
+   "gsp-sentiment-analysis",
+   "gsp-social-listening",
+   "gsp-social-listening-brief",
+   "gsp-social-media-intelligence",
+   "gsp-analytics-reporting",
+   "gsp-social-media-monitor",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-firecrawl",
+   "youtube-content",
+   "grounded-citations",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "role_muat": []
+ },
+ "gsp-social-media-crawler": {
+  "always": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-collection-workflow",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-web-crawling-reference",
+   "gsp-crawl4ai",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-firecrawl",
+   "youtube-content",
+   "gsp-vendor-crawler",
+   "gsp-document-quality-standards",
+   "gsp-checkpoint-resume"
+  ],
+  "role_muat": []
+ },
+ "gsp-system-control": {
+  "always": [
+   "gsp-system-control",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-fleet-profile-operations",
+   "gsp-agent-hq-ops",
+   "hermes-agent",
+   "windows-service-ops"
+  ],
+  "role_muat": [
+   "1. Muat gsp-system-control dan verifikasi perubahan sistem (config.yaml, .env, gateway, ROSTER, service ekosistem) dengan state NYATA \u2014 jalankan command, re-read file, bukan dari klaim."
+  ]
+ },
+ "gsp-system-manager": {
+  "always": [
+   "gsp-system-manager-ops"
+  ],
+  "ondemand": [
+   "gsp-fleet-profile-operations",
+   "gsp-agent-hq-ops",
+   "hermes-agent",
+   "windows-service-ops",
+   "gsp-verification-before-completion",
+   "gsp-skill-distribution"
+  ],
+  "role_muat": [
+   "1. Muat gsp-system-manager-ops dan lakukan pengaturan sistem ekosistem Swarm (config.yaml profil via `hermes -p <profil> config set`, .env dedup, gateway watchdog restart, entri ROSTER HQ, autostart)."
+  ]
+ },
+ "gsp-task-architect": {
+  "always": [
+   "gsp-task-architect-templates"
+  ],
+  "ondemand": [
+   "gsp-writing-plans",
+   "gsp-brainstorming",
+   "gsp-to-issues",
+   "gsp-to-prd",
+   "requesting-code-review",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute",
+   "gsp-orchestration-telemetry"
+  ],
+  "role_muat": []
+ },
+ "gsp-test-expert": {
+  "always": [
+   "tdd"
+  ],
+  "ondemand": [
+   "gsp-agent-browser",
+   "gsp-diagnose",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-verification-before-completion",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-self-healing-loop"
+  ],
+  "role_muat": []
+ },
+ "gsp-vendor-crawler-specialist": {
+  "always": [
+   "gsp-vendor-crawler"
+  ],
+  "ondemand": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-self-healing-loop"
+  ],
+  "role_muat": []
+ },
+ "gsp-verifier": {
+  "always": [
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "gsp-webapp-testing",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-self-healing-loop",
+   "gsp-orchestration-telemetry"
+  ],
+  "role_muat": []
+ },
+ "gsp-vss-specialist": {
+  "always": [
+   "cctv-system-designer",
+   "gsp-verification-before-completion"
+  ],
+  "ondemand": [
+   "onvif-interop",
+   "perimeter-security-designer",
+   "pustaka-teknis",
+   "excel-master",
+   "hermes-web-search-stack",
+   "gsp-searxng"
+  ],
+  "role_muat": []
+ }
+}

@@ -1,0 +1,5 @@
+# Catatan sementara, cadangan lokal, dan cache penyuntingan.
+/work/
+.DS_Store
+__pycache__/
+*.pyc

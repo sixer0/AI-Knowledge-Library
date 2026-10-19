@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-25",
+  "note": "Manifest task atomic rebuild IL — 1 dispatch per folder",
+  "total": 47,
+  "items": [
+    {
+      "id": "legacy-ADINT-20260824T085309Z-1-001",
+      "path": "legacy-archive/ADINT-20260824T085309Z-1-001",
+      "n_files": 446,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-ARSENAL-IDS-BARAT-TIMUR-202608",
+      "path": "legacy-archive/ARSENAL-IDS-BARAT-TIMUR-20260824T085012Z-1-001",
+      "n_files": 130,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-Arsenal Tahap 4-20260824T08541",
+      "path": "legacy-archive/Arsenal Tahap 4-20260824T085411Z-1-001",
+      "n_files": 16,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-China Expo - Toni Research-202",
+      "path": "legacy-archive/China Expo - Toni Research-20260824T085430Z-1-001",
+      "n_files": 3,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-FORENSIC-20260824T085317Z-1-00",
+      "path": "legacy-archive/FORENSIC-20260824T085317Z-1-001",
+      "n_files": 9,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-KEMHAN -20260824T085136Z-1-001",
+      "path": "legacy-archive/KEMHAN -20260824T085136Z-1-001",
+      "n_files": 659,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-Labinsen TNI AL-20260824T08545",
+      "path": "legacy-archive/Labinsen TNI AL-20260824T085454Z-1-001",
+      "n_files": 9,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-RANSUS-20260824T085403Z-1-001",
+      "path": "legacy-archive/RANSUS-20260824T085403Z-1-001",
+      "n_files": 24,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-RISET SISTEM OPERASI AI GSP DA",
+      "path": "legacy-archive/RISET SISTEM OPERASI AI GSP DAN KAM-20260824T085358Z-1-001",
+      "n_files": 38,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-Research Agentic Operating Sys",
+      "path": "legacy-archive/Research Agentic Operating System-20260824T084946Z-1-001",
+      "n_files": 12,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-china-defence-expo-crawler-202",
+      "path": "legacy-archive/china-defence-expo-crawler-20260824T085128Z-1-001",
+      "n_files": 743,
+      "hint": "siklus orkestrasi penuh"
+    },
+    {
+      "id": "legacy-output-2026-07-17_gsp_orchestration_skill_report",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-17_gsp_orchestration_skill_report",
+      "n_files": 15,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-27_adint-vendor-due-diligence",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_adint-vendor-due-diligence",
+      "n_files": 5,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-27_gsp_subagent_model_map",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_gsp_subagent_model_map",
+      "n_files": 2,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-27_test-project",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-27_test-project",
+      "n_files": 4,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-28_adint-vendor-research",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_adint-vendor-research",
+      "n_files": 180,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-28_gsp-enforcement",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_gsp-enforcement",
+      "n_files": 22,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-28_gsp-enforcement-verification",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-28_gsp-enforcement-verification",
+      "n_files": 4,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-29_adint-information-library",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-29_adint-information-library",
+      "n_files": 305,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-07-31_gsp-ransus-intelligent",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-07-31_gsp-ransus-intelligent",
+      "n_files": 280,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-08-04_hud-tts-sts-integration",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-04_hud-tts-sts-integration",
+      "n_files": 15,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-08-05_adint-vendor-enrichment",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-05_adint-vendor-enrichment",
+      "n_files": 173,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-2026-08-05_adint_information_library",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/2026-08-05_adint_information_library",
+      "n_files": 3,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-archives",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/archives",
+      "n_files": 1,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-arsenal",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/arsenal",
+      "n_files": 12,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-categories",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/categories",
+      "n_files": 2,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-identification",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/identification",
+      "n_files": 7,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-output-masterplan",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs/masterplan",
+      "n_files": 11,
+      "hint": "sub-siklus orkestrasi"
+    },
+    {
+      "id": "legacy-outputs-loose",
+      "path": "legacy-archive/outputs-20260824T085259Z-1-001/outputs",
+      "n_files": 5,
+      "hint": "file lepas outputs root"
+    },
+    {
+      "id": "docs-2026-08-24_adint-digest-101-150",
+      "path": "docs/2026-08-24_adint-digest-101-150",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_adint-vendor-research",
+      "path": "docs/2026-08-24_adint-vendor-research",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_arsenal-ids-migrasi",
+      "path": "docs/2026-08-24_arsenal-ids-migrasi",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_china-defence-expo-crawler",
+      "path": "docs/2026-08-24_china-defence-expo-crawler",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_fleet_test",
+      "path": "docs/2026-08-24_fleet_test",
+      "n_files": 56,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_fleet_test_data_collector_ekas",
+      "path": "docs/2026-08-24_fleet_test_data_collector_ekas",
+      "n_files": 3,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_kurasi_vision_wave3",
+      "path": "docs/2026-08-24_kurasi_vision_wave3",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_migrasi-vendor-korpus",
+      "path": "docs/2026-08-24_migrasi-vendor-korpus",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_riset-sistem-ai-gsp",
+      "path": "docs/2026-08-24_riset-sistem-ai-gsp",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026-08-24_status_rt_bypass",
+      "path": "docs/2026-08-24_status_rt_bypass",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_inventaris_skill_ekas",
+      "path": "docs/2026_08_24_inventaris_skill_ekas",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_kajian_ekosistem",
+      "path": "docs/2026_08_24_kajian_ekosistem",
+      "n_files": 16,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_kurasi_ekas",
+      "path": "docs/2026_08_24_kurasi_ekas",
+      "n_files": 3,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_kurasi_vault_migrasi_legacy",
+      "path": "docs/2026_08_24_kurasi_vault_migrasi_legacy",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_migrasi_legacy",
+      "path": "docs/2026_08_24_migrasi_legacy",
+      "n_files": 3,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_24_verifikasi_putaran2",
+      "path": "docs/2026_08_24_verifikasi_putaran2",
+      "n_files": 1,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "docs-2026_08_25_librarian_daily",
+      "path": "docs/2026_08_25_librarian_daily",
+      "n_files": 3,
+      "hint": "project Documentation Contract"
+    },
+    {
+      "id": "legacy-root-loose",
+      "path": "legacy-archive",
+      "n_files": 15,
+      "hint": "file lepas root legacy"
+    }
+  ]
+}

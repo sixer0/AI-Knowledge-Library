@@ -1,0 +1,169 @@
+{
+  "fixtures": [
+    {
+      "arah": "MERAH",
+      "bytes": 10603,
+      "channel": "standar",
+      "checks": [
+        {
+          "check": "A4",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-4",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-7",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "C-8",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "k8-a4-red.md",
+      "note": "MERAH arah (a): frasa hitam A4 dalam prosa penulis di kanal standar TETAP FAIL - kanal bukan penutup cacat konten (larangan eksplisit putusan)",
+      "sha256": "bb1d6f0c897b9fec6ed67de1e40e625d08e07ebeea52da4908f2d22f953a01b6"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 11452,
+      "channel": "standar",
+      "checks": [
+        {
+          "check": "C-8",
+          "detail": "tebal residu",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-7",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "D-TA-09",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "k8-b6-red.md",
+      "note": "MERAH arah (b): tebal emfatis non-label di atas ambang -> residu C-8 FAIL dan B6 terpicu walau kepala bidang S-2 dikecualikan",
+      "sha256": "ba66137c9c3ce9855011e2b3ac3334b3067e6d41a1c546b2aef5bd00ee191f10"
+    },
+    {
+      "arah": "MERAH",
+      "bytes": 10791,
+      "channel": "standar",
+      "checks": [
+        {
+          "check": "C-7",
+          "detail": "kanal standar",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-8",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "D-TA-09",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "k8-c7-red.md",
+      "note": "MERAH arah (c): aparatus pendek melampaui rasio 20% total paragraf -> C-7 FAIL dan B2 terpicu (kelonggaran terukur, bukan karpet)",
+      "sha256": "84f2cef2833d4458a42ff20c071d909c4481f393ab4845d88e5db9e196cdfb4d"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 10540,
+      "channel": "doc",
+      "checks": [
+        {
+          "check": "C-7",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "C-8",
+          "mode": "any",
+          "want": "FAIL"
+        },
+        {
+          "check": "D-TA-09",
+          "want": "FAIL"
+        },
+        {
+          "check": "exit",
+          "want": 1
+        }
+      ],
+      "file": "k8-standar-green.md",
+      "note": "KONTROL arah (d): BERKAS SAMA di kanal doc tetap vonis aturan doc (C-7 absolut <=1 menagih 2 paragraf; C-8 menghitung 48 label tanpa pengecualian; agregasi B2+B6 memicu D-TA-09)",
+      "sha256": "5fc92e068ac150880bd058858dffc3ed343499081aed86a45421c866e7ed1d39"
+    },
+    {
+      "arah": "HIJAU",
+      "bytes": 10540,
+      "channel": "standar",
+      "checks": [
+        {
+          "check": "C-1",
+          "want": "PASS"
+        },
+        {
+          "check": "A4",
+          "want": "PASS"
+        },
+        {
+          "check": "C-4",
+          "want": "PASS"
+        },
+        {
+          "check": "C-7",
+          "detail": "kanal standar",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "C-8",
+          "detail": "dikecualikan",
+          "mode": "any",
+          "want": "PASS"
+        },
+        {
+          "check": "D-TA-09",
+          "want": "PASS"
+        },
+        {
+          "check": "exit",
+          "want": 0
+        }
+      ],
+      "file": "k8-standar-green.md",
+      "note": "HIJAU KAL3: naskah standar minimal (skema enam bidang + aparatus pendek 2/11 = 18,2% < 20%) harus PASS penuh kanal standar (putusan t_eec55819 2(a).5)",
+      "sha256": "5fc92e068ac150880bd058858dffc3ed343499081aed86a45421c866e7ed1d39"
+    }
+  ],
+  "generator": "kal3_gen_fixtures.py",
+  "mission": "GAYA-AHLI-1005 KAL3",
+  "scanner_target": "v1.10.0 sha16 601a96db8f6adda7"
+}

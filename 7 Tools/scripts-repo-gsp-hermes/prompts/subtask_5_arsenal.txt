@@ -1,0 +1,22 @@
+Kamu adalah gsp-document-writer dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+PROYEK TUGASMU: ARSENAL IDS Barat & Timur — proposal & desain sistem (2 folder terpisah):
+- Root1: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ARSENAL-IDS-BARAT-TIMUR-20260824T085012Z-1-001/ARSENAL-IDS-BARAT-TIMUR/07082026 Dokumen proyek (130 file)
+- Root2: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/Arsenal Tahap 4-20260824T085411Z-1-001/Arsenal Tahap 4 (16 file)
+- Baca bagian proyek 'ARSENAL-IDS-BARAT-TIMUR' dan 'Arsenal Tahap 4' di knowledge_map.md + manifest.json.
+- Perkara: arsenal-ids-barat-timur (untuk Root1) dan arsenal-tahap-4 (untuk Root2) | sensitif: ya (proposal klien pertahanan — dosir) | kelas_bukti sesuai isi
+
+ARTEFAK KUNCI:
+Root1: 01_proposal_ids_bt.docx + 01_proposal_ids_bt_v2.docx + _v2_with_image.docx (proposal), design_system/01_design_system_master_ids_bt.md (Design System Master Revisi v2.0), prompts/00_prompt_roster.json + prompts_v2/00_prompt_roster.json, 'Arsenal IDS Barat Timur.pptx', GSP_Presentation_All_Files.zip
+Root2: 'ARSENAL TIMUR-BARAT 70 CAMERA.json' (konfigurasi 70 kamera), Arsenal_20Barat-Timur.zip + Arsenal_Barat-Timur_v1.zip, SLIDE 1..14 png
+
+HASIL (tulis ke vault):
+- 1 objek index proyek ARSENAL-IDS (type proyek, perkara arsenal-ids-barat-timur): ringkasan proposal IDS Barat-Timur, folder, 130 file, artefak kunci ber-path.
+- 1 objek index proyek Arsenal Tahap 4 (type proyek, perkara arsenal-tahap-4): 16 file, konfigurasi 70 kamera, zip.
+- 1-2 objek pengetahuan (type fakta/catatan): design system master IDS, konfigurasi 70 kamera — dengan sumber relatif.
+- Catat dosir di catatan_keputusan bila perlu.
+
+Akhiri dengan:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (arsip zip/pptx yang tak bisa dibaca + alasan)

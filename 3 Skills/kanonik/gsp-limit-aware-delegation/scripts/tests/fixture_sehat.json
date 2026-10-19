@@ -1,0 +1,144 @@
+{
+ "fixture": "gelombang kecil sehat (sintetis)",
+ "byStatus": {
+  "queued": 0,
+  "approved": 0,
+  "running": 2,
+  "done": 190,
+  "failed": 33
+ },
+ "requests": [
+  {
+   "id": "fx-001",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 1",
+   "createdAt": "2026-09-02T09:48:25.000Z",
+   "startedAt": "2026-09-02T09:48:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-002",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 2",
+   "createdAt": "2026-09-02T09:47:25.000Z",
+   "startedAt": "2026-09-02T09:47:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-003",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 3",
+   "createdAt": "2026-09-02T09:46:25.000Z",
+   "startedAt": "2026-09-02T09:46:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-004",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 4",
+   "createdAt": "2026-09-02T09:45:25.000Z",
+   "startedAt": "2026-09-02T09:45:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-005",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 5",
+   "createdAt": "2026-09-02T09:44:25.000Z",
+   "startedAt": "2026-09-02T09:44:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-006",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 6",
+   "createdAt": "2026-09-02T09:43:25.000Z",
+   "startedAt": "2026-09-02T09:43:25.000Z",
+   "finishedAt": "2026-09-02T09:48:25.000Z",
+   "updatedAt": "2026-09-02T09:48:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-007",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 7",
+   "createdAt": "2026-09-02T09:42:25.000Z",
+   "startedAt": "2026-09-02T09:42:25.000Z",
+   "finishedAt": "2026-09-02T09:47:25.000Z",
+   "updatedAt": "2026-09-02T09:47:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-008",
+   "status": "done",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 8",
+   "createdAt": "2026-09-02T09:41:25.000Z",
+   "startedAt": "2026-09-02T09:41:25.000Z",
+   "finishedAt": "2026-09-02T09:46:25.000Z",
+   "updatedAt": "2026-09-02T09:46:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-009",
+   "status": "failed",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 9",
+   "createdAt": "2026-09-02T09:43:25.000Z",
+   "startedAt": "2026-09-02T09:43:25.000Z",
+   "finishedAt": "2026-09-02T09:48:25.000Z",
+   "updatedAt": "2026-09-02T09:48:25.000Z",
+   "error": "provider error 500"
+  },
+  {
+   "id": "fx-010",
+   "status": "running",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 10",
+   "createdAt": "2026-09-02T09:48:25.000Z",
+   "startedAt": "2026-09-02T09:48:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  },
+  {
+   "id": "fx-011",
+   "status": "running",
+   "kind": "oneshot",
+   "profile": "gsp-worker-fixture",
+   "title": "fixture 11",
+   "createdAt": "2026-09-02T09:47:25.000Z",
+   "startedAt": "2026-09-02T09:47:25.000Z",
+   "finishedAt": "2026-09-02T09:49:25.000Z",
+   "updatedAt": "2026-09-02T09:49:25.000Z",
+   "error": ""
+  }
+ ]
+}

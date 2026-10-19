@@ -1,0 +1,4 @@
+document_name,date_received,pages,doc_type,status,what_is_missing
+intro-deck-2026.pdf,2026-10-09,14,deck,received,none
+datasheet-2026.pdf,2026-10-09,8,datasheet,received,none
+soc2-report.pdf,,,certification,requested,SOC2 Type II report not yet supplied

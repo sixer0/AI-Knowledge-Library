@@ -1,0 +1,12 @@
+{
+  "1": {"class_type": "UNETLoader", "_meta": {"title": "Load Z-Image-Turbo"}, "inputs": {"unet_name": "z_image_turbo_int8_convrot.safetensors", "weight_dtype": "default"}},
+  "2": {"class_type": "ModelSamplingAuraFlow", "_meta": {"title": "Scheduler shift"}, "inputs": {"shift": 3.0, "model": ["1", 0]}},
+  "3": {"class_type": "CLIPLoader", "_meta": {"title": "Load Qwen3-4B TE"}, "inputs": {"clip_name": "qwen_3_4b_fp8_mixed.safetensors", "type": "lumina2"}},
+  "4": {"class_type": "CLIPTextEncode", "_meta": {"title": "Positive Prompt"}, "inputs": {"text": "photorealistic product photo of a modern security camera on a white studio background, soft shadows, high detail", "clip": ["3", 0]}},
+  "5": {"class_type": "ConditioningZeroOut", "_meta": {"title": "Negative (zero-out)"}, "inputs": {"conditioning": ["4", 0]}},
+  "6": {"class_type": "VAELoader", "_meta": {"title": "Load AE VAE"}, "inputs": {"vae_name": "ae.safetensors"}},
+  "7": {"class_type": "EmptySD3LatentImage", "_meta": {"title": "Canvas"}, "inputs": {"width": 1024, "height": 1024, "batch_size": 1}},
+  "8": {"class_type": "KSampler", "_meta": {"title": "Sample"}, "inputs": {"seed": 42, "steps": 8, "cfg": 1.0, "sampler_name": "res_multistep", "scheduler": "simple", "denoise": 1.0, "model": ["2", 0], "positive": ["4", 0], "negative": ["5", 0], "latent_image": ["7", 0]}},
+  "9": {"class_type": "VAEDecode", "_meta": {"title": "Decode"}, "inputs": {"samples": ["8", 0], "vae": ["6", 0]}},
+  "10": {"class_type": "SaveImage", "_meta": {"title": "Save Image"}, "inputs": {"filename_prefix": "slide/zimg", "images": ["9", 0]}}
+}

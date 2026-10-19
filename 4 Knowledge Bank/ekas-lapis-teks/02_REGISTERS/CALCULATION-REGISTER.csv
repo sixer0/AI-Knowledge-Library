@@ -1,0 +1,2 @@
+calc_id,project,quantity,formula,formula_source,inputs,input_tags,result,checked_by,status
+CALC-P00-001,P00 (CONTOH),Ambang rugi sisipan per core,"(km x dB/km)+(n_kon x 0,75)+(n_sam x rugi)",REF-FO-001 PDF 129,"3,2 km; 0,5 dB/km; 4 kon; 6 sam; 0,3 dB",PROJECT-DERIVED; SOURCE-DERIVED; SOURCE-DERIVED; ASSUMPTION,"6,40 dB @1310 / 5,96 dB @1550",BELUM,G3 terbuka

@@ -1,0 +1,3 @@
+contoh bersih - bukan deliverable: fixture hijau kanal pendek untuk uji kanal chat dan notif sesuai D-TA-05.
+
+Deploy mingguan selesai pada pukul 03:15 WIB tanpa insiden dan log lengkap tersimpan pada tiket OPS-2026-118 milik tim operasi.

@@ -1,0 +1,22 @@
+Kamu adalah gsp-design-system-specialist (VISION — model qwen3.7-flash) dalam penanganan GAP migrasi GSP. Baca dulu format objek vault + aturan fidelitas di: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+TUGASMU: **Vision — deck & slide ARSENAL IDS** (3 set gambar) + 1 dokumen teks:
+1. Deck PPTX 'Arsenal IDS Barat Timur.pptx' (20 slide, 0 text run — murni gambar):
+   Media: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/arsenal_pptx/ (20 file media)
+2. Slide Arsenal Tahap 4: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/arsenal_tahap4_slides/ (SLIDE 1..14, SLDIE 14 typo, SLIDE 7 absen)
+3. Dokumen teks kecil (bukan vision): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/Research Agentic Operating System-20260824T084946Z-1-001/Research Agentic Operating System/Maximizing-AI-Image-Output-Research.docx (baca via read_file/docx)
+
+CARA KERJA (vision_analyze):
+- Baca 20 media deck + 13 slide tahap 4 → ekstrak konten visual: alur presentasi, struktur, klaim/angka yang tampak (kutip file media + slide number).
+- Baca docx Maximizing-AI-Image-Output-Research → ringkas isi (riset internal GSP soal output gambar AI).
+- Client TNI AL / proyek ARSENAL — sensitif ya untuk deck/slide; docx internal GSP boleh sensitif tidak bila tidak mengandung rahasia komersial (nilai/strategi) → tetap ya bila ada.
+
+HASIL (tulis ke vault, sensitif sesuai):
+- 1 objek (type fakta, perkara arsenal-ids-barat-timur): "Deck Arsenal IDS Barat Timur — Ekstraksi Vision (20 slide)".
+- 1 objek (type fakta, perkara arsenal-tahap-4): "Slide Arsenal Tahap 4 — Ekstraksi Vision (13 slide)".
+- 1 objek (type catatan, perkara riset-sistem-ai-gsp): "Maximizing AI Image Output Research — Ringkasan".
+
+Akhiri:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (media/slide yang tidak terbaca + alasan)

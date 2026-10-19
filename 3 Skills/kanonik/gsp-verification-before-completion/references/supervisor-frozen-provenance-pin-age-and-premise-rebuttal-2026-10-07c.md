@@ -1,0 +1,26 @@
+# Supervisor recipes: frozen provenance, pin-age, premise rebuttal (07-10 tail, boards PROMANUAL-V2 / INDUK-GAYA-VISUAL / PV-1007 / RAFIFFINAL-1007)
+
+Condensed from countersigns of UJIB, JWB1-8, GCERPOP-B/C/D, NATFIX, FIGADD, L12B/L12C-D/L13, FIX-SA3B/3C/3D, PV R1/R1B/R4/R5/L2/L10/L11/L12/L12b/L13, D2W3b/D2W11, FG2b/FG3b/REG-D3.
+
+## 1. Two-well provenance for neutral-answer chains (reader-test answer cards)
+For any make-exam / answer-neutral / score chain, verify with two independent wells each turn:
+- WELL A (content): probe answer bytes myself - sha16[:16] + size == claimed handoff; count `### Soal`-style headings by regex; grep answer files for scoring words (skor/gagal/bobot) to prove role separation - then check CONTEXT before ruling (hits were material content "gagal di distribusi baru", not self-scoring).
+- WELL B (time): key-file mtime frozen (all 8 JWB cards: kunci mtime 12:53:10 unchanged while answers written 16:43-17:51) proves "freeze before unlock" without trusting the claim; bahan sha16 cited in the answer frontmatter must equal my own probe of the packet files.
+Consequence worth stating to controller: frozen-sha answers make INCREMENTAL scoring safe - scorer can run per region without waiting for all chapters, because dispatched answer bytes cannot shift.
+When the answerer reports "TEKS TIDAK MENCUKUP", grep the packet text for the topic myself (bab-22 juri/80%: 0 hits) - a valid item is judged by whether TEXT freezes it, not by outside knowledge. Rule the defect class upstream (cacat-soal vs gagal-jawab) BEFORE the score reaches the gate table.
+
+## 2. Pin-age honesty: snapshot vs final-pin (REG-D3 case)
+Consolidation registers that re-hash from disk are only as fresh as the artifacts' fix-state. Failure mode seen: worker closes partial-handoff declaring "sha16 kini pra-tambal, jangan pin final" (honest, correct), and the consolidation card is promoted ONE MINUTE later and stamps those pre-fix bytes as "siap" with zero margin notes (grep 'margin' == 0 in both register and its verification file). Verdict language that saves downstream: register is VALID AS SNAPSHOT at its timestamp, INVALID as final pin; remedy = run the fix card, then RE-RUN the idempotent consolidation script (kept in _work/), not hand-patch rows.
+Supervisor duty: when a consolidation/aggregate card completes shortly after an upstream partial-handoff whose SISA_KERJA names specific items, cross-check the named items' status in the aggregate (my probe: 8 margin-defect figures listed by name in FG3b report all carried 'siap' in REG-D3). Flag "pin beku-dini" by name so the class is searchable.
+
+## 3. Premise rebuttal with naive probes (artifact > summary, incl. supervisor's own)
+- Worker finding "7.3 yatim: berkas ada, penanda TIADA" rebutted by plain-text probe of the active manuscript: markdown link `![...](figur/Gambar-7.3-...png)` + caption `> Gambar 7.3` both present OUTSIDE fences; file present. Lesson: any "X absent" claim gets one naive grep in the live artifact before it rides into an editor verdict. Same class as FIX-SA3C "void=2 [47 56%]" result line vs its own audit json `void_pages=[30,37,55,69,74]` (5 pages) - artifact wins; note that even my own countersign had read the correct side (5) from another section without catching the contradictory result line: audit BOTH narrative surfaces of an artifact, not just one.
+- Byte-arithmetic decomposition as free probe: claimed "30 images (1,175,552 B)" vs my sum of 30 images = 1,149,910; delta 25,642 == manifest size exactly -> coherent total, sloppy label, non-blocker, say so in those words. When my prefix probe overshoots (14,258 > 14,138 era bytes), hunt the insertion (a declared 120-byte era-marker line at head) before calling it silent mutation.
+
+## 4. Control-freeze proven by TIME, not by hash alone
+"Recipe hulu tidak disentuh" is provable when mtime of r3/r4 recipe files (15:41/15:58) predates the fix-card run window (17:18-17:43); same trick proved fg1/naskah/Ed3 untouched during FG2b (mtimes 02:57-17:29 << window 18:35+). Prefer mtime-vs-window proof whenever the claim is "did not mutate X" - it survives cases where the artifact legitimately changed via ANOTHER card (naskah-lengkap moved f1b31e2c->9a70fec5 by a different wave; the fix card was still innocent - attribute shifts by time, then re-pin downstream ledgers to the new bytes).
+
+## 5. Send-mechanics guards for countersigns (recurring this session)
+- Terminal rejects some long assembled commands ("Invalid command: expected string, got NoneType") - corruption happens AT SEND, not in content. Working channel: `execute_code` + `subprocess.run(['hermes','kanban','comment', tid, text])` with the vonis read from its temp file; guard with `show | grep -c <unique heading>` AFTER post, never trust the dispatch echo alone.
+- Pre-post census of vonis text must include CJK: `sum(1 for c in t if '\u4e00'<=c<='\u9fff')` - worker reports leaked 创建/豁免/时刻/收敛 into prose; my own drafts leaked too. Guard trio now: emdash 0, middot 0, CJK 0.
+- Map lines inside vonis/contract must carry the print of the COMMENT turn; if a card transitions between draft census and post census (self-referential: the very card I commented on moved running->blocked), append a separate correction line (pelajaran-ke-9), do not edit the posted comment.

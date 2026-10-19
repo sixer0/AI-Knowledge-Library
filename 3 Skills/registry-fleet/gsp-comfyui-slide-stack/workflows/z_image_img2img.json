@@ -1,0 +1,13 @@
+{
+  "1": {"class_type": "UNETLoader", "_meta": {"title": "Load Z-Image-Turbo"}, "inputs": {"unet_name": "z_image_turbo_int8_convrot.safetensors", "weight_dtype": "default"}},
+  "2": {"class_type": "ModelSamplingAuraFlow", "_meta": {"title": "Sampling AuraFlow"}, "inputs": {"model": ["1", 0], "shift": 3.0}},
+  "3": {"class_type": "CLIPLoader", "_meta": {"title": "Load Qwen3-4B TE"}, "inputs": {"clip_name": "qwen_3_4b_fp8_mixed.safetensors", "type": "lumina2", "device": "default"}},
+  "4": {"class_type": "CLIPTextEncode", "_meta": {"title": "Positive"}, "inputs": {"clip": ["3", 0], "text": "the same product, three-quarter view rotated 30 degrees, studio light, white background"}},
+  "5": {"class_type": "CLIPTextEncode", "_meta": {"title": "Negative"}, "inputs": {"clip": ["3", 0], "text": "blurry, low quality, distorted"}},
+  "6": {"class_type": "VAELoader", "_meta": {"title": "Load AE VAE"}, "inputs": {"vae_name": "ae.safetensors"}},
+  "7": {"class_type": "LoadImage", "_meta": {"title": "Kanonik (input)"}, "inputs": {"image": "canonical.png"}},
+  "8": {"class_type": "VAEEncode", "_meta": {"title": "Encode latent"}, "inputs": {"pixels": ["7", 0], "vae": ["6", 0]}},
+  "9": {"class_type": "KSampler", "_meta": {"title": "img2img denoise rendah 0.3 [G-15]"}, "inputs": {"seed": 42, "steps": 8, "cfg": 1.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 0.3, "model": ["2", 0], "positive": ["4", 0], "negative": ["5", 0], "latent_image": ["8", 0]}},
+  "10": {"class_type": "VAEDecode", "_meta": {"title": "Decode"}, "inputs": {"samples": ["9", 0], "vae": ["6", 0]}},
+  "11": {"class_type": "SaveImage", "_meta": {"title": "Simpan keyframe"}, "inputs": {"filename_prefix": "keyframe/kf", "images": ["10", 0]}}
+}

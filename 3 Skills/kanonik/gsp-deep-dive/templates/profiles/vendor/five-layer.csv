@@ -1,0 +1,2 @@
+layer,question_id,question,answer,maturity,maturity_evidence,dependency_and_country,evidence_source,evidence_date,ceiling_applied,unknown_search_route
+L1-Source,Q1,Is the core owned licensed or resold and from whom?,UNKNOWN,N/A,N/A,UNKNOWN,first sweep of official docs,2026-10-09,n/a,official docs + registry filings + trial report request

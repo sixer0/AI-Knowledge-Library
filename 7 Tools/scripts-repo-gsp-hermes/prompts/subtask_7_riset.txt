@@ -1,0 +1,21 @@
+Kamu adalah gsp-explore dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+PROYEK TUGASMU: Riset Internal GSP — Sistem Operasi AI / AI Workforce / Agentic Operating System (2 folder):
+- Root1: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/Research Agentic Operating System-20260824T084946Z-1-001/Research Agentic Operating System (12 file)
+- Root2: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/RISET SISTEM OPERASI AI GSP DAN KAM-20260824T085358Z-1-001/RISET SISTEM OPERASI AI GSP DAN KAM/GSP Kajian Riset AI Agentik [Pak Eka] (39 file)
+- Baca bagian proyek 'Research Agentic Operating System' dan 'RISET SISTEM OPERASI AI GSP DAN KAM' di knowledge_map.md + manifest.json.
+- Perkara: riset-sistem-ai-gsp | sensitif: tidak (riset internal GSP) KECUALI berisi strategi komersial rahasia → tetap ya | kelas_bukti sesuai isi
+
+ARTEFAK KUNCI:
+Root1: GSP_Automation_MasterPlan_002-GSP-KT-VII-2026.pdf + v2, GSP_Kajian_Mendalam_Automasi_003-GSP-KT-VII-2026.pdf, 'AI WORKFORCE DETAILED 08082026/' (Sistem AI Mandiri/Sistem AI Mandiri GSP dan KAM 005-GSP-KT-VIII-2026 pdf+docx, Rencana Induk Sistem Operasi AI GSP dan KAM 006-GSP-KT-VIII-2026 pdf+docx), Kajian_GSP_AI_Workforce.docx, Maximizing-AI-Image-Output-Research.docx
+Root2: 'Sistem AI Mandiri GSP dan KAM 005-GSP-KT-VIII-2026' (pdf+docx), 'Cetak Biru Agung 003-GSP-KAJ-VIII-2026 RevA' (pdf+docx), 'Atlas Solusi AI Komersial 002-GSP-KAJ-VIII-2026 RevA' (pdf+docx), 'Buku Kerja Pelaksanaan 006-GSP-KT-VIII-2026.xlsx', '00 Indeks dan Serah Terima/', '06 Berkas Proses 007/', bangun.py
+
+HASIL (tulis ke vault):
+- 1 objek index 'Riset Sistem Operasi AI GSP' (type proyek): dua folder, dokumen bernomor GSP-KT/KAJ-VII/VIII-2026, artefak kunci ber-path.
+- 3-5 objek pengetahuan (type fakta/keputusan/pelajaran): MasterPlan Automasi, Kajian Mendalam Automasi, Sistem AI Mandiri, Rencana Induk Sistem Operasi AI, Cetak Biru Agung, Atlas Solusi AI Komersial — ringkasan isi dari dokumen yang kamu baca, dengan sumber relatif + bagian.
+- Karena mayoritas PDF/DOCX: ekstrak teks via read_file (docx otomatis, pdf via konverter). Bila satu dokumen terlalu besar, baca halaman/daftar isi awal + judul bab.
+
+Akhiri dengan:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (dokumen yang tak bisa diekstrak + alasan)

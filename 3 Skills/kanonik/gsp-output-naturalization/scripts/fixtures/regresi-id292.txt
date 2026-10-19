@@ -1,0 +1,43 @@
+contoh cacat - bukan deliverable: fixture regresi NAT-HIL-SC1 butir 1
+(kartu t_c79b5f6d). Potongan VERBATIM pesan gsp-custodian state.db
+message id=292 (6753 karakter, ts 2026-08-26 13:23) yang membekukan
+scanner v1.2.0 lewat backtracking D16_MARKER_RE pada baris 64 minus.
+Baris berikutnya sampai akhir berkas adalah isi asli potongan, tidak
+disunting sedikit pun.
+Verifikasi selesai. Semua bukti sudah didapat langsung dari tool (curl + pencarian dedup). Berikut laporan verifikasi independen.
+
+================================================================
+VERIFIKASI INDEPENDEN — PROPOSA VAULT (gsp-custodian)
+================================================================
+PROPOSA: type=produk | title="Alat deteksi kebocoran gas Sentinel-Pro — klaim uji 26-08"
+KEPUTUSAN LIBRARIAN YANG DINILAI: proposa TIDAK dibuat menjadi objek vault (tidak layak)
+
+----------------------------------------------------------------
+BUKTI YANG DIAMBIL (bukan asumsi)
+----------------------------------------------------------------
+[1] ANTI-KARANGAN — URL lampiran dicek langsung (curl, 26-08):
+    https://example.com/sentinel-pro-datasheet
+    -> HTTP_STATUS=404, tanpa redirect
+    -> body = halaman standar "Example Domain" (iana.org/domains/example)
+    Kesimpulan: example.com adalah domain DI-RESERVASI IANA (RFC 2606)
+    untuk dokumentasi; secara teknis TIDAK MUNGKIN memuat datasheet
+    Sentinel-Pro. Rujukan satu-satunya proposa = tautan mati/placeholder.
+[2] DEDUP — pencarian "sentinel|kebocoran gas|LPG|gas leak|deteksi gas"
+    di seluruh shared workspace (vault + docs + legacy-archive):
+    49 kecocokan, semuanya tidak relevan (vendor intelijen ADINT, topik
+    AI/KAM). TIDAK ada objek vault/wiki Sentinel-Pro atau detektor gas
+    LPG, dan TIDAK ADA file sumber RAW pendukung klaim di workspace.
+
+----------------------------------------------------------------
+PENILAIAN 7 DIMENSI
+----------------------------------------------------------------
+a. PROVENANS — GAGAL TOTAL (inti proposa)
+   Klaim "5 detik / akurasi 99% / jarak 1 meter" adalah 3 angka TANPA
+   `sumber`, TANPA `halaman`, TANPA `tanggal_akses`. Body sendiri
+   mengakui "tanpa sumber tertulis". Per standar data GSP: angka tanpa
+----------------------------------------------------------------
+REKOMENDASI PERBAIKAN KONKRET (jika objek produk ini tetap diinginkan)
+----------------------------------------------------------------
+----------------------------------------------------------------
+KEPATUHAN PERAN
+----------------------------------------------------------------

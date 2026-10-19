@@ -1,0 +1,5 @@
+req_id,project,requirement_text,source,r_level,owner_decision_ref,status
+REQ-P00-001,P00 (CONTOH),"Panjang jalur 3,2 km",survei lapangan,-,notulen 12 Agu 2026,dibekukan
+REQ-P00-002,P00 (CONTOH),"8 core singlemode (4 pakai, 4 cadangan)",kesepakatan pemilik,-,notulen 12 Agu 2026,dibekukan
+REQ-P00-006,P00 (CONTOH),Metode uji IEC 61280-4-2,kontrak pasal 7.3,R2,kontrak,dibekukan
+REQ-P00-007,P00 (CONTOH),Rekaman 24 jam tanpa bingkai hilang,kesepakatan pemilik,-,notulen 12 Agu 2026,dibekukan

@@ -1,0 +1,922 @@
+{
+ "gsp-architecture-specialist": {
+  "removed": [
+   "docx",
+   "grounded-citations",
+   "gsp-architecture-bim-deliverables",
+   "gsp-architecture-building-physics",
+   "gsp-architecture-climate-design",
+   "gsp-architecture-drawing-reading",
+   "gsp-brainstorming",
+   "gsp-canvas-design",
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng",
+   "gsp-writing-plans",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "kept": [
+   "gsp-architecture-workflow",
+   "gsp-architecture-code-compliance",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-architecture-code-compliance",
+   "gsp-architecture-workflow",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-budi": {
+  "removed": [
+   "database",
+   "yuanbao"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-coder-execution": {
+  "removed": [
+   "gsp-backend-execution",
+   "gsp-brainstorming",
+   "gsp-context-engineering",
+   "gsp-deploy-to-vercel",
+   "gsp-design-taste-frontend",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-frontend-design",
+   "gsp-frontend-integration",
+   "gsp-observability-tracer",
+   "gsp-plan-and-execute",
+   "gsp-receiving-code-review",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "gsp-webapp-testing",
+   "gsp-writing-plans",
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "kept": [
+   "tdd",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "tdd"
+  ]
+ },
+ "gsp-crawler-orchestrator": {
+  "removed": [
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-orchestration-telemetry",
+   "gsp-orchestrator-worker",
+   "gsp-phase-accountability",
+   "gsp-searxng",
+   "gsp-social-media-data-standards",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-vendor-crawler",
+   "gsp-social-media-collection-workflow",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-social-media-collection-workflow",
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-creative": {
+  "removed": [
+   "database",
+   "yuanbao"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-custodian": {
+  "removed": [
+   "gsp-library-organization-standards",
+   "gsp-library-rebuild",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-library-custodian",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-library-custodian",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-data-analyst": {
+  "removed": [
+   "gsp-context-engineering",
+   "gsp-document-quality-standards",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-writing-plans",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-data-collector": {
+  "removed": [
+   "gsp-agent-browser",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-database-specialist": {
+  "removed": [
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-design-system-specialist": {
+  "removed": [
+   "gsp-brainstorming",
+   "gsp-canvas-design",
+   "gsp-document-quality-standards",
+   "gsp-frontend-design",
+   "gsp-human-in-loop-gate",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-design-system-grill",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-design-system-grill",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-docker-specialist": {
+  "removed": [
+   "gsp-deploy-to-vercel",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-analyst": {
+  "removed": [
+   "gsp-context-engineering",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-converter": {
+  "removed": [
+   "docx",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-reader": {
+  "removed": [
+   "docx",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "ocr-and-documents",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-reviewer": {
+  "removed": [
+   "docx",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "kept": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-translator": {
+  "removed": [
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-document-writer": {
+  "removed": [
+   "docx",
+   "gsp-content-research-writer",
+   "gsp-dry-run-verify-fix",
+   "gsp-long-document-assembly",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pdf",
+   "powerpoint",
+   "xlsx"
+  ],
+  "kept": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-engineering-analyst": {
+  "removed": [
+   "cctv-system-designer",
+   "dems-polri-proposal-architect",
+   "digital-forensics-evidence-system",
+   "excel-master",
+   "fiber-link-design",
+   "grounding-lightning-design",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "hw-sw-config-master",
+   "onvif-interop",
+   "perimeter-security-designer",
+   "power-backup-sizing",
+   "rcm-analysis"
+  ],
+  "kept": [
+   "pustaka-teknis",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "pustaka-teknis"
+  ]
+ },
+ "gsp-explore": {
+  "removed": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-fiber-specialist": {
+  "removed": [
+   "excel-master",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pustaka-teknis"
+  ],
+  "kept": [
+   "fiber-link-design",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "fiber-link-design",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-firman-custom": {
+  "removed": [
+   "bimdown-cli",
+   "construction",
+   "construction-estimator",
+   "database",
+   "hermes-skill-activation",
+   "ntriq-x402-blueprint",
+   "yuanbao"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-git-specialist": {
+  "removed": [
+   "gsp-dry-run-verify-fix",
+   "gsp-finishing-a-development-branch",
+   "gsp-searxng",
+   "gsp-setup-pre-commit",
+   "gsp-using-git-worktrees",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-grounding-specialist": {
+  "removed": [
+   "excel-master",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pustaka-teknis"
+  ],
+  "kept": [
+   "grounding-lightning-design",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "grounding-lightning-design",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-image-analyst": {
+  "removed": [
+   "gsp-canvas-design",
+   "gsp-image-enhancer",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-image-prompt-specialist": {
+  "removed": [
+   "gsp-context-engineering",
+   "gsp-design-system-grill",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-image-prompt-specialist",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-image-prompt-specialist",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-image-specialist": {
+  "removed": [
+   "gsp-canvas-design",
+   "gsp-image-enhancer",
+   "gsp-image-prompt-specialist",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-infra-specialist": {
+  "removed": [
+   "excel-master",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pustaka-teknis"
+  ],
+  "kept": [
+   "hw-sw-config-master",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "hw-sw-config-master"
+  ]
+ },
+ "gsp-librarian": {
+  "removed": [
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-library-custodian",
+   "gsp-library-organization-standards",
+   "gsp-library-rebuild",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-library-workflow",
+   "gsp-library-data-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-library-data-standards",
+   "gsp-library-workflow",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-pm-analyst": {
+  "removed": [
+   "gsp-brainstorming",
+   "gsp-document-quality-standards",
+   "gsp-searxng",
+   "gsp-to-issues",
+   "gsp-writing-plans",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-pm-planner": {
+  "removed": [
+   "gsp-brainstorming",
+   "gsp-dry-run-verify-fix",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-to-issues",
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "kept": [
+   "gsp-writing-plans",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "gsp-writing-plans"
+  ]
+ },
+ "gsp-pm-verifier": {
+  "removed": [
+   "gsp-eval-driven-improver",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-pm-writer": {
+  "removed": [
+   "docx",
+   "gsp-content-research-writer",
+   "gsp-searxng",
+   "gsp-to-prd",
+   "gsp-writing-plans",
+   "hermes-web-search-stack",
+   "powerpoint"
+  ],
+  "kept": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-document-quality-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-power-specialist": {
+  "removed": [
+   "excel-master",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "pustaka-teknis",
+   "rcm-analysis"
+  ],
+  "kept": [
+   "power-backup-sizing",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "power-backup-sizing"
+  ]
+ },
+ "gsp-request-translator": {
+  "removed": [
+   "gsp-brainstorming",
+   "gsp-searxng",
+   "gsp-to-prd",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-security-review": {
+  "removed": [
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-searxng",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-security-review",
+   "gsp-security-review-gate",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-security-review",
+   "gsp-security-review-gate",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-security-specialist": {
+  "removed": [
+   "dems-polri-proposal-architect",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "onvif-interop",
+   "pustaka-teknis"
+  ],
+  "kept": [
+   "digital-forensics-evidence-system",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "digital-forensics-evidence-system",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-senior-code-reviewer": {
+  "removed": [
+   "gsp-context-engineering",
+   "gsp-dry-run-verify-fix",
+   "gsp-receiving-code-review",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "kept": [
+   "gsp-code-review-senior",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-code-review-senior",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-skill-creator": {
+  "removed": [
+   "gsp-skill-distribution"
+  ],
+  "kept": [
+   "gsp-skill-authoring",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-skill-authoring",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-skill-manager": {
+  "removed": [
+   "gsp-skill-authoring",
+   "gsp-system-manager-ops"
+  ],
+  "kept": [
+   "gsp-skill-distribution",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-skill-distribution",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-social-media-analyst": {
+  "removed": [
+   "grounded-citations",
+   "gsp-analytics-reporting",
+   "gsp-checkpoint-resume",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-sentiment-analysis",
+   "gsp-social-analytics",
+   "gsp-social-listening",
+   "gsp-social-listening-brief",
+   "gsp-social-media-analyzer",
+   "gsp-social-media-intelligence",
+   "gsp-social-media-monitor",
+   "hermes-web-search-stack",
+   "youtube-content"
+  ],
+  "kept": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-analysis-workflow",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-social-media-analysis-workflow",
+   "gsp-social-media-data-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-social-media-crawler": {
+  "removed": [
+   "gsp-checkpoint-resume",
+   "gsp-crawl4ai",
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-vendor-crawler",
+   "gsp-web-crawling-reference",
+   "hermes-web-search-stack",
+   "youtube-content"
+  ],
+  "kept": [
+   "gsp-social-media-data-standards",
+   "gsp-social-media-collection-workflow",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-social-media-collection-workflow",
+   "gsp-social-media-data-standards",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-system-control": {
+  "removed": [
+   "gsp-agent-hq-ops",
+   "gsp-fleet-profile-operations"
+  ],
+  "kept": [
+   "gsp-system-control",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-system-control",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-system-manager": {
+  "removed": [
+   "gsp-agent-hq-ops",
+   "gsp-fleet-profile-operations",
+   "gsp-skill-distribution"
+  ],
+  "kept": [
+   "gsp-system-manager-ops",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-system-manager-ops",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-task-architect": {
+  "removed": [
+   "gsp-brainstorming",
+   "gsp-orchestration-telemetry",
+   "gsp-phase-accountability",
+   "gsp-plan-and-execute",
+   "gsp-searxng",
+   "gsp-to-issues",
+   "gsp-to-prd",
+   "gsp-writing-plans",
+   "hermes-web-search-stack",
+   "requesting-code-review"
+  ],
+  "kept": [
+   "gsp-task-architect-templates",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-task-architect-templates",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-test-expert": {
+  "removed": [
+   "gsp-agent-browser",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-webapp-testing",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "tdd",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion",
+   "tdd"
+  ]
+ },
+ "gsp-vendor-crawler-specialist": {
+  "removed": [
+   "gsp-document-quality-standards",
+   "gsp-firecrawl",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-vendor-crawler",
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-verifier": {
+  "removed": [
+   "gsp-agent-browser",
+   "gsp-context-engineering",
+   "gsp-diagnose",
+   "gsp-dry-run-verify-fix",
+   "gsp-eval-driven-improver",
+   "gsp-observability-tracer",
+   "gsp-orchestration-telemetry",
+   "gsp-reflection-loop",
+   "gsp-searxng",
+   "gsp-self-healing-loop",
+   "gsp-webapp-testing",
+   "hermes-web-search-stack"
+  ],
+  "kept": [
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "gsp-verification-before-completion"
+  ]
+ },
+ "gsp-vss-specialist": {
+  "removed": [
+   "excel-master",
+   "gsp-searxng",
+   "hermes-web-search-stack",
+   "onvif-interop",
+   "perimeter-security-designer",
+   "pustaka-teknis"
+  ],
+  "kept": [
+   "cctv-system-designer",
+   "gsp-verification-before-completion"
+  ],
+  "missing_always": [],
+  "final_physical": [
+   "cctv-system-designer",
+   "gsp-verification-before-completion"
+  ]
+ }
+}

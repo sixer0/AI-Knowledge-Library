@@ -1,0 +1,13 @@
+evidence_id,project,test_id,evidence_type,file_path,ba_number,date,status
+EV-B001,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/AUDIT-ARSITEKTUR_EKAS-vs-NeMo-Curator-DAPT.docx,-,2026-10-09,tersimpan
+EV-B002,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/Audit_Engineering_AI_Nemotron_Local_Model.docx,-,2026-10-09,tersimpan
+EV-B003,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/CORPUS.docx,-,2026-10-09,tersimpan
+EV-B004,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/Engineering Skill Corpus Book to Skill Mapping.docx,-,2026-10-09,tersimpan
+EV-B005,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/HANDOVER.md,-,2026-10-09,tersimpan
+EV-B006,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/SIGN-OFF_Lembar-Verifikasi-Engineer.xlsx,-,2026-10-09,tersimpan
+EV-B007,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/SKILL-MAPPING_Engineering-Corpus_Rev0.xlsx,-,2026-10-09,tersimpan
+EV-B008,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/list.txt,-,2026-10-09,tersimpan
+EV-B009,BUKUV3-ING-1009,-,arsip-deskriptor,ekas/08_EVIDENCE/BUKUV3/tree.txt,-,2026-10-09,tersimpan
+EV-B010,BUKUV3-ING-1009,-,arsip-latih-metadata,ekas/08_EVIDENCE/BUKUV3/LATIH-METADATA/MODEL-CARD_EKAS-Qwen3-4B.md,-,2026-10-09,tersimpan
+EV-B011,BUKUV3-ING-1009,-,arsip-latih-metadata,ekas/08_EVIDENCE/BUKUV3/LATIH-METADATA/DAFTAR-ISI_CURATION.csv,-,2026-10-09,tersimpan
+EV-B012,BUKUV3-ING-1009,-,arsip-latih-metadata,ekas/08_EVIDENCE/BUKUV3/LATIH-METADATA/DAFTAR-ISI_TRAINING.csv,-,2026-10-09,tersimpan

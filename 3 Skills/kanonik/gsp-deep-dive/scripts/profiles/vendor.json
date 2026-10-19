@@ -1,0 +1,13 @@
+{
+  "profile": "vendor",
+  "class": "VENDOR / PRINCIPAL",
+  "blueprint": "02b section 2.2 B1",
+  "nomination_key": ["Object:", "Vendor:"],
+  "thesis_files": ["thesis.md", "prospect-thesis.md"],
+  "lanes": ["technical", "commercial", "prospect"],
+  "gates": {
+    "G2T": {"kind": "legacy_vendor", "which": "G2T"},
+    "G2K": {"kind": "legacy_vendor", "which": "G2K"}
+  },
+  "notes": "Replicates the dd-vendor era G2-T/G2-K predicates exactly (five-layer 35-row grid, M2 ceiling, prospect/buyer maps, workbook pointer, numbered saturation, 8-class ladder). Regression contract: identical fixtures must produce identical verdicts (blueprint 02b section 4 term 3)."
+}

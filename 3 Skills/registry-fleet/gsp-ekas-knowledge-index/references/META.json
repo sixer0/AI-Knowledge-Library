@@ -1,0 +1,26 @@
+{
+ "bab": {
+  "C1": "tata-kelola-assurance",
+  "C2": "register-keyakinan",
+  "C3": "transmisi-digital",
+  "C4": "pengamatan-pemeliharaan",
+  "C5": "kelistrikan-daya",
+  "C6": "sipil-bangunan-mekanikal",
+  "C7": "siber-infra-kritis",
+  "C8": "disiplin-kerja",
+  "C9": "celah-peta-jalan"
+ },
+ "dibangun": "2026-10-06",
+ "sumber_indeks": "docs/2026-10-06_ekas-laporan-komprehensif/output/00-inventory/UNIT-INVENTORY.csv",
+ "populasi_unit": 1558,
+ "indeks_kemampuan": {
+  "berkas": "INDEKS-KEMAMPUAN.csv",
+  "populasi_unit": 372,
+  "dibangun": "2026-10-09",
+  "sumber": "staging BUKUV3 SKILLS/ via scripts/ekas-ingestion/bukuv3-ing-1009/w4_parse.py (BUKUV3-ING-1009 W4)",
+  "daya_ikat": "P-5: seluruh baris pending_verification; sign-off engineer 0/332 -> draft-tidak-terverifikasi-insan",
+  "digest_per_domain": "ekas/05_DOMAIN-KNOWLEDGE/<domain>/KEMAMPUAN.md"
+ },
+ "terakhir_disentuh": "2026-10-10 (W10 BUKUV3-JURY-1009: 4 butir skor-2 run-2 ditambal badan aturan/rumusnya — K-0278 aturan piksel pusat G&W pdf_p252, K-0310 badan rumus RMSE Pers. 2-1 Geron pdf_p65, K-0007 formulasi galat->beban komputasi Chapra pdf_p153 + Eq. 5.6 pdf_p167, K-0203 impedansi seksi Z1=sqrt(Z0 ZL) Pozar Pers. 5.25 pdf_p267; kw indeks 4 unit + digest 4 domain + resume R3 4 berkas; sha16 indeks d5e2b9bc0d041df9 -> 7521461ea1e4a029; register 61c5c5770938dc13 dan ledger cf3bf53ff364bc9e TIDAK berubah; scan C16 nol temuan pada 144 berkas)",
+ "sebelumnya": "2026-10-09 (W9B BUKUV3-JURY-1009: kw indeks +28 unit ditambal jangkar angka F2; digest 7 domain + seksi 'Jangkar angka & istilah terserap'; sha16 indeks d5e2b9bc0d041df9)"
+}

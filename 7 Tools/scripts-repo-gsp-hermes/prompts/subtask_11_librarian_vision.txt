@@ -1,0 +1,28 @@
+Kamu adalah gsp-librarian — gatekeeper Information Library GSP. Baca runbook: gsp-library-workflow + gsp-library-data-standards (terpasang di profilmu).
+
+KONTEKS: Migrasi legacy selesai (wave3). Sekarang ada GAP-handling via VISION (OCR) yang menghasilkan objek vault BARU (status usulan). Tugasmu: kurasi + QA objek-objek ini sebelum promote.
+
+DAFTAR OBJEK BARU (perkara → objek):
+- kemhan-bin: 2026-08-24_v1_1_pengadaan_ransus_spesifikasi.md (vision, primer)
+- ransus-pengamanan-informasi: 2026-08-24_ransus-bin-11-agustus-vision.md (vision, primer)
+- arsenal-ids-barat-timur: 2026-08-24_arsenal-ids-deck-vision-extraction.md (text-grounded, sekunder)
+- arsenal-tahap-4: 2026-08-24_arsenal-tahap-4-slides-vision-extraction.md (text-grounded, sekunder)
+- riset-sistem-ai-gsp: 2026-08-24_maximizing-ai-image-output-research.md (teks, sensitif tidak bila tanpa rahasia)
+- adint-vendor-research: 2026-08-24_adint-report-vision-p1.md (hybrid vision+ringkasan, primer/sekunder)
+- adint-vendor-research: adint-report-vision-p3.md (vision, primer) — PERLU QA KHUSUS
+- adint-vendor-research: 2026-08-24_adint-report-pages-51-100-digest.md (digest Phase-1, sekunder)
+
+QA WAJIB:
+1. **FLAG PENTING dari worker digest:** objek `adint-report-vision-p3` (halaman 101-150) diduga memuat konten pengelolaan DAS/sedimentasi (Kementerian PUPR, Anggaran Dana Insentif) yang TIDAK cocok dengan laporan ADINT Advertising Intelligence. Periksa: (a) baca body p3, (b) bandingkan dengan sumber page_101..150 yang ter-render di ocr/adint/, (c) putuskan apakah p3 merepresentasikan dokumen yang sama atau salah dokumen/halusinasi. Bila mismatch → tandai objek perlu_revisi/ditolak dengan catatan_keputusan jelas, JANGAN promote.
+2. Verifikasi provenans 8 objek (sumber relatif ada di legacy-archive).
+3. Dedup vs wiki & vault (objek vision ini KOMPLEMENTER terhadap objek yang sudah ada — pastikan bukan duplikat).
+4. Klasifikasi gate: sensitif ya → menunggu_persetujuan; dosir → menunggu_verifikasi; non-sensitif (maximizing-ai-image-output bila layak) → promote langsung.
+
+Helper: vault_promote.py (profilmu). Wiki: C:/Users/TRIAL/AppData/Local/hermes/wiki
+
+Output:
+STATUS: complete
+PROMOTE_LANGSUNG: (daftar)
+MENUNGGU_PERSETUJUAN: (daftar — siap bulk approval via Approval Inbox)
+DITOLAK/REVISI: (daftar + alasan)
+GAP: (hal yang butuh verifikasi manusia)

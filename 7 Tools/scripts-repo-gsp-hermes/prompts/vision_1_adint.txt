@@ -1,0 +1,22 @@
+Kamu adalah gsp-image-analyst (VISION — model qwen3.7-flash) dalam penanganan GAP migrasi GSP. Baca dulu format objek vault + aturan fidelitas di: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+
+TUGASMU: **OCR/Vision — GSP Technical Report ADINT.pdf** (150 halaman, image-based, tidak ada lapisan teks).
+- Sumber asli: legacy-archive/ADINT-20260824T085309Z-1-001/ADINT/GSP Technical Report ADINT.pdf
+- Gambar halaman ter-render di: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ocr/adint/ (page_001.png .. page_150.png)
+
+CARA KERJA (vision_analyze / tool vision):
+1. Baca DAFTAR ISI: mulai dari page_001, temukan halaman TOC (biasanya hal 2-5), lalu buat peta section → rentang halaman.
+2. Baca halaman ringkasan eksekutif + pembuka tiap bab + kesimpulan (strategis, ~20-25 halaman kunci). Gunakan peta TOC sebagai panduan.
+3. JANGAN transkrip semua 150 halaman — fokus pada struktur + klaim kunci + angka penting (dengan halaman persisnya).
+
+HASIL (tulis ke vault, perkara adint-vendor-research, sensitif ya):
+- 1 objek (type fakta): "GSP Technical Report ADINT — Peta Konten & Ekstraksi Vision (150 hal)" berisi:
+  - peta section → halaman (dari TOC)
+  - ringkasan eksekutif + poin kunci tiap bab + halaman sumber
+  - klaim/angka penting yang bisa diverifikasi per halaman (kutip page_X.png + halaman PDF)
+- Perlu diingat: angka yang sudah dikurasi dari sumber teks (Phase 1/2) jangan diulang tanpa halaman — tambahkan halaman PDF sebagai verifikasi.
+
+Aturan: semua klaim dari gambar yang benar-benar kamu baca; halaman yang tidak dibaca → catat di GAP. Kelas_bukti primer (dokumen asli). Akhiri:
+STATUS: complete
+OBJEK: (daftar vault/<perkara>/<file>.md)
+GAP: (halaman/bagian yang tidak dibaca + alasan)
