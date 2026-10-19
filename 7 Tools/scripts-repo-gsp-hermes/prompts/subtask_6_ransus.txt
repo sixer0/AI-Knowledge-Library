@@ -1,9 +1,9 @@
-Kamu adalah gsp-document-reviewer dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-document-reviewer dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
 PROYEK TUGASMU: RANSUS — Proposal Teknis Ransus Pengamanan Informasi (klien BIN).
 - Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/RANSUS-20260824T085403Z-1-001/RANSUS
 - Baca bagian proyek 'RANSUS' di knowledge_map.md + manifest.json.
-- Perkara: ransus-pengamanan-informasi | sensitif: ya (proposal teknis pengadaan klien intelijen — dosir) | kelas_bukti primer utk dokumen asli
+- Perkara: ransus-pengamanan-informasi | sensitif: ya (proposal teknis pengadaan klien intelijen — dosir) | kelas_bukti primer untuk dokumen asli
 
 ARTEFAK KUNCI:
 1. 'PROPOSAL TEKNIS/Proposal Teknis Ransus Pengamanan Informasi 045-GSP-PT-VIII-2026 RevA v1.docx' (62.3MB — baca via ekstraksi teks docx; boleh hanya halaman/bagian awal + daftar isi jika terlalu besar)
@@ -13,7 +13,7 @@ ARTEFAK KUNCI:
 5. SLIDE 01..20.png (20 slide presentasi)
 
 HASIL (tulis ke vault):
-- 1 objek index proyek (type proyek): ringkasan proposal teknis Ransus, nomor dokumen 045-GSP-PT-VIII-2026 RevA v1, folder, 24 file, artefak kunci ber-path, catatan dosir.
+- 1 objek indeks proyek (type proyek): ringkasan proposal teknis Ransus, nomor dokumen 045-GSP-PT-VIII-2026 RevA v1, folder, 24 file, artefak kunci ber-path, catatan dosir.
 - 1-2 objek pengetahuan (type fakta): struktur/isi utama proposal (dari bagian yang kamu baca), cakupan sistem — dengan sumber relatif + bagian/halaman yang kamu lihat.
 - JANGAN mengarang isi halaman yang tidak kamu baca; tulis sebagai asumsi bila perlu.
 

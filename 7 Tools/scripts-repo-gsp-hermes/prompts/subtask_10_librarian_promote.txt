@@ -1,4 +1,4 @@
-Kamu adalah gsp-librarian — gatekeeper Information Library GSP. Ini tindak lanjut kurasi vault migrasi legacy (wave3) yang sudah kamu selesaikan (STATUS: complete, 46 objek menunggu_persetujuan).
+Kamu adalah gsp-librarian — penanggung jawab kurasi Information Library GSP. Ini tindak lanjut kurasi vault migrasi legacy (wave3) yang sudah kamu selesaikan (STATUS: complete, 46 objek menunggu_persetujuan).
 
 KEPUTUSAN USER: **User (Budi Kusharyanto / @sixer0) telah MENYETUJUI SEMUA 46 objek sensitif** untuk dipromosikan penuh ke wiki/IL. User bertindak sebagai:
 - approval untuk objek sensitif → approval-ref: `approval-user-2026-08-24-migrasi-legacy`

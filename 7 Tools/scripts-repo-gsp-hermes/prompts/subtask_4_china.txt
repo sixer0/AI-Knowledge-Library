@@ -1,11 +1,11 @@
-Kamu adalah gsp-data-collector dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-data-collector dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
 PROYEK TUGASMU: China Defence Expo Crawler — koleksi & enrichment vendor China Defence Expo.
 - Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/china-defence-expo-crawler-20260824T085128Z-1-001/china-defence-expo-crawler/outputs
 - Baca bagian proyek 'china-defence-expo-crawler' di knowledge_map.md + manifest.json.
 - Perkara: china-defence-expo | sensitif: ya (data vendor pertahanan) | kelas_bukti sesuai isi
 
-ARTEFAK KUNCI (baca untuk isi yang jujur):
+ARTEFAK KUNCI (baca untuk memastikan ketepatan isi):
 1. 07082026 0925/01_north_china_discovery.md — North China Regional Discovery & Mapping
 2. 07082026 0925/01_north_china_enrichment.md — North China Vendor Enrichment (business history & qualifications)
 3. 07082026 0925/01_north_china_product_enrichment.md — product enrichment (technical specs, pricing, standards)
@@ -16,7 +16,7 @@ ARTEFAK KUNCI (baca untuk isi yang jujur):
 8. delegation_progress_report.md — jejak proses
 
 HASIL (tulis ke vault):
-- 1 objek index proyek (type proyek): ringkasan proyek crawler, folder, 743 file, artefak kunci ber-path.
+- 1 objek indeks proyek (type proyek): ringkasan proyek crawler, folder, 743 file, artefak kunci ber-path.
 - 2-3 objek pengetahuan (type fakta): temuan North China (vendor + enrichment), framework sintesis, deliverable final — semua dengan sumber relatif.
 - Catatan: banyak file duplikat ber-suffix (1)/(2) — jangan dihitung ganda di body, tapi sebutkan polanya.
 

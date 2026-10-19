@@ -1,6 +1,6 @@
-Kamu adalah gsp-document-analyst dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-document-analyst dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
-PROYEK TUGASMU: Riwayat Output Workstream agentic lama (folder outputs ber-tanggal).
+PROYEK TUGASMU: Riwayat hasil kerja dari alur agen lama (folder outputs ber-tanggal).
 - Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/outputs-20260824T085259Z-1-001/outputs
 - Baca bagian proyek 'outputs' di knowledge_map.md + manifest.json.
 - Perkara: gsp-outputs-history | kelas_bukti sesuai isi

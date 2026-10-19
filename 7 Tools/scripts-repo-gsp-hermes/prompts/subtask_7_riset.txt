@@ -1,4 +1,4 @@
-Kamu adalah gsp-explore dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-explore dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
 PROYEK TUGASMU: Riset Internal GSP — Sistem Operasi AI / AI Workforce / Agentic Operating System (2 folder):
 - Root1: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/Research Agentic Operating System-20260824T084946Z-1-001/Research Agentic Operating System (12 file)

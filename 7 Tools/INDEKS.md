@@ -1,8 +1,8 @@
 # Indeks Seksi: 7 Tools
 
-Perkakas operasi fleet: skrip watchdog/audit/monitor profil controller dan skrip utilitas repo gsp-hermes.
+Kumpulan skrip untuk operasi fleet dan pemeliharaan pustaka. `scripts-profil-controller` berisi pemantau, pemeriksa, dan pengelola tugas controller. `scripts-repo-gsp-hermes` berisi utilitas repositori serta contoh prompt tugas historis. Watchdog berarti pemantau otomatis yang bertindak sesuai kondisi tertentu. Berkas ini merupakan salinan referensi; periksa lingkungan, path, dan dependensi host asal sebelum menjalankan skrip.
 
-Dibangun: 2026-10-19 | Jumlah berkas: 743 | Total: 2.4 MB
+Edisi sumber: 2026-10-19 | Berkas isi: 743 | Total: 2.4 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|

@@ -1,11 +1,11 @@
-Kamu adalah gsp-data-analyst dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (berisi spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-data-analyst dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (berisi spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
 PROYEK TUGASMU: ADINT Vendor Research (riset vendor intelijen/adversarial intelligence).
 - Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/ADINT-20260824T085309Z-1-001/ADINT
 - Baca bagian proyek 'ADINT' di knowledge_map.md dan manifest.json untuk struktur + artefak kunci + judul H1 nyata.
 - Perkara: adint-vendor-research | sensitif: ya (riset vendor intelijen, CONFIDENTIAL) | kelas_bukti sesuai isi
 
-ARTEFAK KUNCI (baca untuk isi yang jujur):
+ARTEFAK KUNCI (baca untuk memastikan ketepatan isi):
 1. INFORMATION_LIBRARY/LIBRARY_INDEX.md — Master Index (1.417 vendor, 6 kategori, 16 fase, classification CONFIDENTIAL)
 2. INFORMATION_LIBRARY/md/categories/01_category_taxonomy.md — Taksonomi 6 kategori ADINT
 3. INFORMATION_LIBRARY/md/vendors/cat1..cat6/ — profil vendor per kategori
@@ -18,7 +18,7 @@ ARTEFAK KUNCI (baca untuk isi yang jujur):
 10. INFORMATION_LIBRARY/research/compiled/ + xlsx/vendor_universe/ — data vendor terkompilasi
 
 HASIL (tulis ke vault):
-- 1 objek index proyek (type proyek): ringkasan proyek, folder, 446 file, artefak kunci ber-path, status kurasi.
+- 1 objek indeks proyek (type proyek): ringkasan proyek, folder, 446 file, artefak kunci ber-path, status kurasi.
 - 3-5 objek pengetahuan (type fakta/keputusan/pelajaran): taksonomi 6 kategori, universum vendor 1.417, due diligence, ekosistem, rekomendasi strategis — semua dengan sumber relatif + bagian yang kamu lihat.
 
 Akhiri dengan:

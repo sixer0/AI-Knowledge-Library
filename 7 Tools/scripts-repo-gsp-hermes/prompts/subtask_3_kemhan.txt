@@ -1,11 +1,11 @@
-Kamu adalah gsp-document-reader dalam orkestrasi migrasi knowledge GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
+Kamu adalah gsp-document-reader dalam koordinasi migrasi pengetahuan GSP. Baca dulu MIGRATION_BRIEF.md (spesifikasi objek vault + aturan fidelitas WAJIB): C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/MIGRATION_BRIEF.md
 
 PROYEK TUGASMU: KEMHAN — Proyek Tactical Command Center / Ransus Pengamanan Informasi (klien Kementerian Pertahanan & BIN).
 - Root: C:/Users/TRIAL/workspace/gsp-hermes/workspace/legacy-archive/KEMHAN -20260824T085136Z-1-001/KEMHAN
 - Baca bagian proyek 'KEMHAN' di knowledge_map.md + manifest.json.
 - Perkara: kemhan-bin | sensitif: ya (dokumen pengadaan klien pertahanan/intelijen — dosir) | kelas_bukti sesuai isi
 
-ARTEFAK KUNCI (baca untuk isi yang jujur):
+ARTEFAK KUNCI (baca untuk memastikan ketepatan isi):
 1. 'Kajian_Ekosistem_Tactical_Command_Center_Ransus_Pengamanan_Informasi (1).md' — kajian ekosistem TCC
 2. 'Pengadaan Ransus Pengamanan Informasi.docx' + 'v1.1 Pengadaan Ransus Pengamanan Informasi.pdf' — dokumen pengadaan
 3. 'Proposal_Teknis_Tactical_Command_Center_BIN.docx' — proposal teknis TCC BIN
@@ -16,7 +16,7 @@ ARTEFAK KUNCI (baca untuk isi yang jujur):
 8. outputs/proposal/final/GSP_Ransus_Intelligent_Proposal_Komprehensif.docx + outputs/research + outputs/information_library/ (ADINT correspondence backups)
 
 HASIL (tulis ke vault):
-- 1 objek index proyek (type proyek): ringkasan proyek TCC/Ransus, folder, 659 file, artefak kunci ber-path, catatan bahwa ini dokumen pengadaan klien.
+- 1 objek indeks proyek (type proyek): ringkasan proyek TCC/Ransus, folder, 659 file, artefak kunci ber-path, catatan bahwa ini dokumen pengadaan klien.
 - 2-4 objek pengetahuan (type fakta/catatan): ekosistem TCC, arsitektur/design system, dokumen pengadaan, proposal teknis — semua dengan sumber relatif.
 - Catat status dosir di catatan_keputusan bila perlu (perkara field sudah diisi).
 
