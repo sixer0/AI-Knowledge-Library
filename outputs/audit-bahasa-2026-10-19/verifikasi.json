@@ -1,0 +1,56 @@
+{
+  "tanggal": "2026-10-19",
+  "baseline": "8785880",
+  "status": "LULUS",
+  "berkas_asli": 4429,
+  "berkas_asli_diubah": 859,
+  "folder": {
+    "1 Workflow": {
+      "asli": 9,
+      "diubah": 7
+    },
+    "2 Roles": {
+      "asli": 50,
+      "diubah": 46
+    },
+    "3 Skills": {
+      "asli": 2321,
+      "diubah": 282
+    },
+    "4 Knowledge Bank": {
+      "asli": 1293,
+      "diubah": 506
+    },
+    "5 Integration": {
+      "asli": 7,
+      "diubah": 3
+    },
+    "6 Database": {
+      "asli": 3,
+      "diubah": 1
+    },
+    "7 Tools": {
+      "asli": 744,
+      "diubah": 12
+    }
+  },
+  "cek": {
+    "dokumen_dibandingkan": 850,
+    "berkas_identik": 3570,
+    "entri_manifest": 4428,
+    "baris_cakupan_audit": 4429,
+    "baris_rincian_folder": 857,
+    "path_indeks": 4420,
+    "pasangan_skill_identik": 1130,
+    "pasangan_skill_berbeda_sejak_awal": 19,
+    "tautan_lokal_bermasalah_sejak_awal": 20,
+    "regresi_tautan_lokal": 0
+  },
+  "kegagalan": [],
+  "tidak_dijalankan": [
+    "uji layanan dan skrip operasional",
+    "pemeriksaan fakta eksternal",
+    "pembacaan editorial manual setiap kalimat",
+    "audit keamanan"
+  ]
+}
