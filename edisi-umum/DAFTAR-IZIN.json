@@ -1111,6 +1111,97 @@
   ],
   "skills": [
     {
+      "name": "cad-3d-visualization",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-3d-visualization",
+          "tree": "cc0bc7a236fb628f9724f4c3f0d3ab97156eb6fb"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-3d-visualization",
+          "tree": "8b8d2d5af26af6d7caedc9561ec434ec68e4928d"
+        }
+      ]
+    },
+    {
+      "name": "cad-architecture-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-architecture-design",
+          "tree": "62c1286f8f18c9c48dead382fb787fbba0c1a4f8"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-architecture-design",
+          "tree": "62c1286f8f18c9c48dead382fb787fbba0c1a4f8"
+        }
+      ]
+    },
+    {
+      "name": "cad-drawing-standards",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-drawing-standards",
+          "tree": "e0a241fb075f70b979bfaa8d82b8aa3c66cf6bfd"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-drawing-standards",
+          "tree": "e0a241fb075f70b979bfaa8d82b8aa3c66cf6bfd"
+        }
+      ]
+    },
+    {
+      "name": "cad-engineering-structure",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-engineering-structure",
+          "tree": "fb7032f9fd9278464914daf6e54214c8fde3f30c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-engineering-structure",
+          "tree": "12683a299701d7b318179821c0fbdc7154afdcf9"
+        }
+      ]
+    },
+    {
+      "name": "cad-interior-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-interior-design",
+          "tree": "b122d0d5b8cecc6b13331e1b18a766ecd080ee55"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-interior-design",
+          "tree": "81826931680b633db412293a2c2161952845a683"
+        }
+      ]
+    },
+    {
+      "name": "cad-master-orchestrator",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-master-orchestrator",
+          "tree": "4f7da659308ce8c0737e0d66517d4bbc4f87d442"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-master-orchestrator",
+          "tree": "4f7da659308ce8c0737e0d66517d4bbc4f87d442"
+        }
+      ]
+    },
+    {
+      "name": "cad-mep-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-mep-design",
+          "tree": "1aed549b5d5ef4e4c1f7c42743f93ee591df5247"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-mep-design",
+          "tree": "42d706e688441f590104ea8920bba72c1f6b6406"
+        }
+      ]
+    },
+    {
       "name": "construction",
       "copies": [
         {
@@ -2410,6 +2501,12 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "22dd10399a96ffae1631696f1456a8758e2ef0c23c192e3c766a16448f8745a0",
+      "lines": 9,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "271df5c7728304b248083d38e58b4a8b79db823af448cce7938d4d8675f3606b",
       "lines": 1,
       "basis": "generic-word"
@@ -2476,6 +2573,12 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "76f0558b6e8cd2bd2676a9c24d2ae40e21c3bd568855dfab11ccd4258695a961",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "7b9418e9939dded0cf8e6a5549a18162b7c7e5495deeefa83a12f3394b81395d",
       "lines": 15,
       "basis": "generic-word"
@@ -2508,6 +2611,12 @@
       "group": "COMMERCIAL",
       "source_sha256": "a12f951d18b63e0802cde13d580fe10ec87c68838c20118cdd54b10764db7769",
       "lines": 5,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "a2dbc2dd79990dfa7fa30a235d7b277345eb45fc3a46ded4367d4fef518726e2",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -2668,6 +2777,12 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "22dd10399a96ffae1631696f1456a8758e2ef0c23c192e3c766a16448f8745a0",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "25886f3718b95f9b993a74d7acdc3bdf56adca6e30243ebb9967bb90e0a5a076",
       "lines": 1,
       "basis": "generic-word"
@@ -2788,6 +2903,12 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "76f0558b6e8cd2bd2676a9c24d2ae40e21c3bd568855dfab11ccd4258695a961",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "7b0d3a7ff95d17efa2964820df5cc256243266dbf948d0ee60a63ffad0c5b547",
       "lines": 4,
       "basis": "generic-word"
@@ -2874,6 +2995,12 @@
       "group": "DERIVED_NAME",
       "source_sha256": "9e35f4279828def1eb2851ba16f25ee49a2b344e966c95a6ec7bcbf5cf3b4c37",
       "lines": 20,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "a2dbc2dd79990dfa7fa30a235d7b277345eb45fc3a46ded4367d4fef518726e2",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
