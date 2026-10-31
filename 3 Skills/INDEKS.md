@@ -878,7 +878,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2320 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/kanonik/gsp-output-naturalization/scripts/kal3_gen_fixtures.py`](kanonik/gsp-output-naturalization/scripts/kal3_gen_fixtures.py) | 20 KB |
 | [`3 Skills/kanonik/gsp-output-naturalization/scripts/kal3_glif_check.py`](kanonik/gsp-output-naturalization/scripts/kal3_glif_check.py) | 360 B |
 | [`3 Skills/kanonik/gsp-output-naturalization/scripts/scan_ai_footprint.py`](kanonik/gsp-output-naturalization/scripts/scan_ai_footprint.py) | 216 KB |
-| [`3 Skills/kanonik/gsp-phase-accountability/SKILL.md`](kanonik/gsp-phase-accountability/SKILL.md) | 8 KB |
+| [`3 Skills/kanonik/gsp-phase-accountability/SKILL.md`](kanonik/gsp-phase-accountability/SKILL.md) | 9 KB |
 | [`3 Skills/kanonik/gsp-plan-and-execute/SKILL.md`](kanonik/gsp-plan-and-execute/SKILL.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-proposal-deepdive/SKILL.md`](kanonik/gsp-proposal-deepdive/SKILL.md) | 8 KB |
 | [`3 Skills/kanonik/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md`](kanonik/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md) | 4 KB |
@@ -2045,7 +2045,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2320 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/registry-fleet/gsp-output-naturalization/scripts/scan_ai_footprint.py`](registry-fleet/gsp-output-naturalization/scripts/scan_ai_footprint.py) | 216 KB |
 | [`3 Skills/registry-fleet/gsp-output-naturalization/scripts/sysman_1017zt_final.txt`](registry-fleet/gsp-output-naturalization/scripts/sysman_1017zt_final.txt) | 648 B |
 | [`3 Skills/registry-fleet/gsp-output-naturalization/scripts/sysman_1017zv_final.txt`](registry-fleet/gsp-output-naturalization/scripts/sysman_1017zv_final.txt) | 521 B |
-| [`3 Skills/registry-fleet/gsp-phase-accountability/SKILL.md`](registry-fleet/gsp-phase-accountability/SKILL.md) | 8 KB |
+| [`3 Skills/registry-fleet/gsp-phase-accountability/SKILL.md`](registry-fleet/gsp-phase-accountability/SKILL.md) | 9 KB |
 | [`3 Skills/registry-fleet/gsp-plan-and-execute/SKILL.md`](registry-fleet/gsp-plan-and-execute/SKILL.md) | 5 KB |
 | [`3 Skills/registry-fleet/gsp-proposal-deepdive/SKILL.md`](registry-fleet/gsp-proposal-deepdive/SKILL.md) | 8 KB |
 | [`3 Skills/registry-fleet/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md`](registry-fleet/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md) | 4 KB |

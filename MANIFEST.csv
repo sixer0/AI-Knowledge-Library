@@ -58,7 +58,7 @@ relative_path,bytes,sha256
 2 Roles/peran-fleet/gsp-verifier.md,20835,0138db16d0e55104dbbc36e7a89553904c115c1f1e25a1cc561e36d18012f2d7
 2 Roles/peran-fleet/gsp-vss-specialist.md,20203,2f787d19dffa1133046b70e210e63c5ed83b3cb860cf4f127ac2ca6a71090425
 2 Roles/peran-fleet/rafif.md,20976,83925ff1bf51c036f0642c6c884b2279c29476595f834695d2587b796de2371e
-3 Skills/INDEKS.md,406688,3d383740ac9a5e93097757b088f33eaa93d5023bbf40339e407bb86c2584fd64
+3 Skills/INDEKS.md,406688,f2cca0a7555f66b131062df3d3599bfdac46550a64634a62f26620789d3cfb00
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/SKILL.md,2138,8f438cefea2789ce74b4915edbfd7f1ca5b3a6514508a53d04ede0e5a69bc431
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/database-selection.md,1180,710557db56c0e594f292f2221f0aa6e9a2466e3ab57818ebbd7bb69c2ab95ba6
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/indexing.md,931,fc215671e11f302f3523a0b2234f1d6b9fe6c7b3f5038ba36fd65fc4652bd03c
@@ -931,7 +931,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-output-naturalization/scripts/kal3_gen_fixtures.py,20371,006c9f4a39f1ee4b44ea8079a3d307dbe6ccc48193032ecd51a219b95b7b0a49
 3 Skills/kanonik/gsp-output-naturalization/scripts/kal3_glif_check.py,360,6906cc8b96b5a1e70b8180e3c1449b648ebc8f8cc633fb5c5fc1ad2ea68a6292
 3 Skills/kanonik/gsp-output-naturalization/scripts/scan_ai_footprint.py,221437,e5470dc217691d8dcdbbe695e9fbb326aca55e564c4391e53345d9d306e405fd
-3 Skills/kanonik/gsp-phase-accountability/SKILL.md,8183,c6c5f0478611489f48bed63d152dbef46850f73a066f41cd2be753c08e5b9545
+3 Skills/kanonik/gsp-phase-accountability/SKILL.md,8929,e4464d895d005793c0b9566523809e51b2ff14f4d28c7d73f9f7d8a52959b705
 3 Skills/kanonik/gsp-plan-and-execute/SKILL.md,4821,ed4e8bd697a70f0a2e9f1268ea538baf00c3ff934b9aedd12ce0b95cc7920930
 3 Skills/kanonik/gsp-proposal-deepdive/SKILL.md,7774,f177c53947fc789b3ded1ade03894bf31c00206b2b0105356a3353d6a2397a43
 3 Skills/kanonik/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md,4061,c4838591acd2e635f36c9c65a9287b0fc1cf982da89f4da0b273e898cababaa1
@@ -2098,7 +2098,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-output-naturalization/scripts/scan_ai_footprint.py,221437,e5470dc217691d8dcdbbe695e9fbb326aca55e564c4391e53345d9d306e405fd
 3 Skills/registry-fleet/gsp-output-naturalization/scripts/sysman_1017zt_final.txt,648,0b0d0bbbcf75add9aa16b838b4ddb1b9caad37ab44ea9b51e2bb38d14d222cf4
 3 Skills/registry-fleet/gsp-output-naturalization/scripts/sysman_1017zv_final.txt,521,1927717a467b9b54b4709f72a4fec962584ebe614059b0ac9262861579fe9694
-3 Skills/registry-fleet/gsp-phase-accountability/SKILL.md,8183,c6c5f0478611489f48bed63d152dbef46850f73a066f41cd2be753c08e5b9545
+3 Skills/registry-fleet/gsp-phase-accountability/SKILL.md,8929,e4464d895d005793c0b9566523809e51b2ff14f4d28c7d73f9f7d8a52959b705
 3 Skills/registry-fleet/gsp-plan-and-execute/SKILL.md,4821,ed4e8bd697a70f0a2e9f1268ea538baf00c3ff934b9aedd12ce0b95cc7920930
 3 Skills/registry-fleet/gsp-proposal-deepdive/SKILL.md,7720,ec53d778034ef7a6dc149e186954eb639adfdf33a0f95c4fb96803fb460ef03b
 3 Skills/registry-fleet/gsp-proposal-deepdive/references/adint-deepdive-2026-08.md,4061,c4838591acd2e635f36c9c65a9287b0fc1cf982da89f4da0b273e898cababaa1
