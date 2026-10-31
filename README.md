@@ -13,7 +13,7 @@ Untuk harness di perangkat, mulai dari [HARNESS.md](HARNESS.md).
 Peta lokasi pada [library.json](library.json) memakai path relatif terhadap root clone.
 
 
-Pilih folder sesuai topik, baca `INDEKS.md`, lalu buka berkas yang dibutuhkan.
+Pilih folder sesuai topik, cari pada `INDEKS.md`, lalu buka berkas yang dibutuhkan. Indeks koleksi besar hanya dicari, tidak dibaca utuh.
 Indeks menjelaskan isi folder dan mencantumkan lokasi berkas. Tautan lokal dihitung dari lokasi dokumen. Path host lama pada metadata dan kutipan
 tetap menjadi identitas sumber; resolver pada panduan harness memetakannya jika
 salinannya tersedia.

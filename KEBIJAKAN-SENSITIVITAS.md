@@ -146,3 +146,5 @@ Pemilik pustaka dapat menyuruh sebuah tugas, tetapi izin atas situs pihak ketiga
 
 **Bukan skrip arsip:** `tools/library.py`, `tools/build_edition.py`, `tools/update_manifest.py`, dan `tests/`.
 
+**Pengecualian uji:** rangkaian uji repositori menjalankan satu skrip arsip, yaitu penjaga LOCK, dan tidak menjalankan skrip arsip lain. Uji memeriksa bahwa penjaga itu tidak memakai proses anak, soket, atau penulisan berkas.
+
