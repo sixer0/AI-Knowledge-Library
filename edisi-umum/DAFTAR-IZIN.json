@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "edisi-umum",
-  "publish_access_docs": false,
+  "publish_access_docs": true,
   "admitted_extensions": [
     ".md",
     ".csv",
@@ -242,6 +242,16 @@
       "kind": "file",
       "path": "KEBIJAKAN-SENSITIVITAS.md",
       "blob": "112293cb46169bb8f9258c26cf2111d602da6c8e"
+    },
+    {
+      "kind": "file",
+      "path": "PANDUAN-AKSES.md",
+      "blob": "215ac235442ffc403ecd6f4991965fb3861eaca6"
+    },
+    {
+      "kind": "file",
+      "path": "TEMPLAT-PENUNJUK.md",
+      "blob": "93bc555364f44f56a90106b41e216fee531bf8ca"
     },
     {
       "kind": "file",
