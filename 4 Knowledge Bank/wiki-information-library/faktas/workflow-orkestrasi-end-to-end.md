@@ -59,3 +59,6 @@ Sumber: `kajian_ekosistem_brahma.md` bab 11.
 
 - Detail pelaksanaan ada di skill orchestration (gsp-orchestrator-worker,
   gsp-orchestration-execution, gsp-kanban-contract).
+- Catatan koreksi 31-10-2026: kalimat "kanban menggantikan delegation report" pada butir 5 adalah potret kajian
+  24-08 dan bukan aturan yang berlaku. `delegation_progress_report.md` tetap wajib menurut skill
+  gsp-orchestrator-worker, Phase 0d, butir R1 dan R2 (putusan pemilik pustaka).
