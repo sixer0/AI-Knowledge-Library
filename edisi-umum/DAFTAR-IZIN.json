@@ -996,19 +996,6 @@
       ]
     },
     {
-      "name": "gsp-swarm-rebrand",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-swarm-rebrand",
-          "tree": "b1804ecb4bb2ab2860b4cec3bfad54bfde45069c"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-swarm-rebrand",
-          "tree": "b1804ecb4bb2ab2860b4cec3bfad54bfde45069c"
-        }
-      ]
-    },
-    {
       "name": "gsp-to-issues",
       "copies": [
         {
@@ -1057,19 +1044,6 @@
         {
           "path": "3 Skills/registry-fleet/gsp-using-git-worktrees",
           "tree": "33b0312ee063a612cc304e2c758dc58a09d8ce8e"
-        }
-      ]
-    },
-    {
-      "name": "gsp-video-to-course-module",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-video-to-course-module",
-          "tree": "3bf7a1fcda7b545d4b18a69e04d2236264df7dda"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-video-to-course-module",
-          "tree": "3bf7a1fcda7b545d4b18a69e04d2236264df7dda"
         }
       ]
     },
