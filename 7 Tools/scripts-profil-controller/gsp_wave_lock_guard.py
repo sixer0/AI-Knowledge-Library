@@ -5,8 +5,11 @@ gsp_wave_lock_guard.py - Gerbang tumbukan kepemilikan LOCK pra-gelombang (PMODE-
 
 Deterministik, stdlib-only. Dua moda input (salah satu wajib):
   --cards <file.json>    daftar kartu: [{"id":"t_x","title":"...","locks":["p1","p2"],"readonly":false}, ...]
-  --blueprint <02.md>    parse tabel markdown yang KOLOM TERAKHIR headernya bernama LOCK;
-                         target dipisah ';'; target berpenanda " RO" / " (RO)" di akhir = hanya-baca.
+  --blueprint <02.md>    parse tabel markdown yang KOLOM TERAKHIR headernya LOCK atau PERAN+LOCK;
+                         sel boleh memuat peran=<x> dan LOCK=<nilai>, dipisah pipe ter-escape;
+                         target dipisah ';'; target berpenanda " RO" / " (RO)" di akhir = hanya-baca;
+                         nilai RO saja = kartu hanya-baca. Seluruh tabel dinilai sebagai satu gelombang;
+                         blueprint banyak gelombang memakai --cards per gelombang.
 
 Cek:
   CHECK 1  tumbukan-lock-antar-kartu : dua kartu satu gelombang berbagi satu target LOCK non-RO -> FAIL
@@ -14,6 +17,7 @@ Cek:
   CHECK 3  duplikat-target-dalam-kartu: duplikat target dalam satu kartu -> INFO
 
 Keluaran: baris `CHECK n: PASS|FAIL|INFO - nama | detail` + satu `VERDICT: PASS|FAIL`.
+0 kartu terparse = CHECK 1 FAIL + VERDICT FAIL: gerbang yang tidak mengukur apa pun tidak boleh lulus.
 Exit 0 = VERDICT PASS; exit 1 = VERDICT FAIL; exit 2 = salah pakai (argumen/berkas).
 Determinisme: tanpa timestamp, urutan kartu & pasangan disortir stabil -> dua run byte-identik.
 """
@@ -23,6 +27,9 @@ import re
 import sys
 
 RO_SUFFIX_RE = re.compile(r"^(.+?)\s+(?:\(RO\)|RO)\s*$")
+LOCK_HEADERS = ("LOCK", "PERAN+LOCK")
+LOCK_VALUE_RE = re.compile(r"(?:^|[\s|])LOCK\s*=\s*(.*)$")
+READONLY_VALUES = ("RO", "(RO)")
 
 
 def parse_lock_cell(cell):
@@ -32,13 +39,13 @@ def parse_lock_cell(cell):
         return out
     for part in cell.split(";"):
         part = part.strip()
-        if part in ("", "-", "--", "—", "–", "n/a", "N/A", "NONE", "none"):
+        # Backtick format kode bukan bagian nama target (TR-21).
+        if part.strip("` \t") in ("", "-", "--", "—", "–", "n/a", "N/A", "NONE", "none"):
             continue
-        m = RO_SUFFIX_RE.match(part)
-        if m:
-            out.append((m.group(1).strip(), True))
-        else:
-            out.append((part, False))
+        m = RO_SUFFIX_RE.match(part.rstrip("` \t"))
+        target = (m.group(1) if m else part).strip("` \t")
+        if target:
+            out.append((target, bool(m)))
     return out
 
 
@@ -52,13 +59,27 @@ def split_md_row(line):
     line = line.strip()
     if line.startswith("|"):
         line = line[1:]
-    if line.endswith("|"):
+    if line.endswith("|") and not line.endswith("\\|"):
         line = line[:-1]
-    return [clean_cell(x) for x in line.split("|")]
+    # Pipe ter-escape milik isi sel, bukan pemisah kolom.
+    cells = line.replace("\\|", "\x00").split("|")
+    return [clean_cell(x.replace("\x00", "|")) for x in cells]
+
+
+def normalized_header(name):
+    return name.upper().replace(" ", "")
+
+
+def lock_value(cells, header):
+    """Nilai LOCK dari sel kolom terakhir; sel bisa terpecah bila pipe tidak di-escape."""
+    m = LOCK_VALUE_RE.search(" | ".join(cells))
+    if m:
+        return m.group(1).strip()
+    return cells[-1] if header == "LOCK" else ""
 
 
 def parse_blueprint(path):
-    """Ambil semua tabel markdown yang kolom terakhir headernya LOCK -> list kartu."""
+    """Ambil semua tabel markdown yang kolom terakhir headernya LOCK/PERAN+LOCK -> list kartu."""
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
     lines = content.splitlines()
@@ -81,7 +102,7 @@ def parse_blueprint(path):
             while j < len(lines) and lines[j].strip().startswith("|"):
                 body.append(split_md_row(lines[j].strip()))
                 j += 1
-            if header and header[-1].upper() == "LOCK":
+            if header and normalized_header(header[-1]) in LOCK_HEADERS:
                 for r in body:
                     if not r or not r[0]:
                         continue
@@ -89,13 +110,15 @@ def parse_blueprint(path):
                         r.append("")
                     cid = r[0]
                     title = r[1] if len(r) > 1 and r[1] else cid
-                    locks = parse_lock_cell(r[-1])
+                    value = lock_value(r[len(header) - 1:], normalized_header(header[-1]))
+                    readonly = value.upper() in READONLY_VALUES
+                    locks = [] if readonly else parse_lock_cell(value)
                     cards.append({
                         "id": cid,
                         "title": title,
                         "locks": [t for t, _ro in locks],
-                        "ro_flags": {t: ro for t, ro in locks},
-                        "readonly": False,
+                        "ro_flags": {t: all(r for x, r in locks if x == t) for t, _ro in locks},
+                        "readonly": readonly,
                     })
             i = j
         else:
@@ -182,7 +205,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(prog="gsp_wave_lock_guard.py", description="Gerbang partisi LOCK pra-gelombang (PMODE-1010 D-03)")
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--cards", help="berkas JSON daftar kartu")
-    g.add_argument("--blueprint", help="berkas markdown 02.md berisi tabel breakdown dengan kolom LOCK terakhir")
+    g.add_argument("--blueprint", help="berkas markdown 02.md berisi tabel breakdown dengan kolom terakhir LOCK atau PERAN+LOCK")
     args = ap.parse_args(argv)
     try:
         if args.cards:
@@ -193,11 +216,11 @@ def main(argv=None):
         print("ERROR: %s" % e, file=sys.stderr)
         return 2
     if not cards:
-        print("CHECK 1: INFO - tumbukan-lock-antar-kartu | 0 kartu terparse", file=sys.stdout)
+        print("CHECK 1: FAIL - tumbukan-lock-antar-kartu | 0 kartu terparse; periksa header kolom terakhir (LOCK atau PERAN+LOCK)", file=sys.stdout)
         print("CHECK 2: INFO - kartu-tulis-tanpa-lock | 0 kartu terparse", file=sys.stdout)
         print("CHECK 3: INFO - duplikat-target-dalam-kartu | 0 kartu terparse", file=sys.stdout)
-        print("VERDICT: PASS", file=sys.stdout)
-        return 0
+        print("VERDICT: FAIL", file=sys.stdout)
+        return 1
     out, fail = run_guard(cards)
     sys.stdout.write("\n".join(out) + "\n")
     return 1 if fail else 0
