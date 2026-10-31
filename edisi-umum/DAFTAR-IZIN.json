@@ -439,19 +439,6 @@
       ]
     },
     {
-      "name": "datum-docx-render-pipeline",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/datum-docx-render-pipeline",
-          "tree": "524cd497e62ba7d967e02da0c136cc3ef766111e"
-        },
-        {
-          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/datum-docx-render-pipeline",
-          "tree": "52730d44d5712431dd414d64596e9b8af8d85e35"
-        }
-      ]
-    },
-    {
       "name": "dd-vendor",
       "copies": [
         {
@@ -1024,19 +1011,6 @@
       ]
     },
     {
-      "name": "gsp-limit-aware-delegation",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-limit-aware-delegation",
-          "tree": "6ca0e8959788e450cbdd127cb096024eadd936fd"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-limit-aware-delegation",
-          "tree": "6fa34e6538233c8c2f8e8459d33b88d09576a398"
-        }
-      ]
-    },
-    {
       "name": "gsp-memory-lookup",
       "copies": [
         {
@@ -1306,32 +1280,6 @@
         {
           "path": "3 Skills/registry-fleet/gsp-swarm-rebrand",
           "tree": "b1804ecb4bb2ab2860b4cec3bfad54bfde45069c"
-        }
-      ]
-    },
-    {
-      "name": "gsp-system-manager-ops",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-system-manager-ops",
-          "tree": "0b621b484676c92e6b51caf1ef1055b0712ada1c"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-system-manager-ops",
-          "tree": "cccc1201e13f5cdbb4fd5da1be1d61ee5ecb75ea"
-        }
-      ]
-    },
-    {
-      "name": "gsp-task-architect-templates",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-task-architect-templates",
-          "tree": "ef08b44fd1ef93a13a12fafffc270f111a7f58a4"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-task-architect-templates",
-          "tree": "ef08b44fd1ef93a13a12fafffc270f111a7f58a4"
         }
       ]
     },
