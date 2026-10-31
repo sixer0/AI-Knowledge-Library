@@ -251,19 +251,6 @@
   ],
   "skills": [
     {
-      "name": "analytics-and-reporting",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/analytics-and-reporting",
-          "tree": "f15e6782e98e08d370bcd847956a515d7dcfc3dc"
-        },
-        {
-          "path": "3 Skills/registry-fleet/analytics-and-reporting",
-          "tree": "f15e6782e98e08d370bcd847956a515d7dcfc3dc"
-        }
-      ]
-    },
-    {
       "name": "construction",
       "copies": [
         {
@@ -359,19 +346,6 @@
         {
           "path": "3 Skills/registry-fleet/grounding-lightning-design",
           "tree": "46e5b5df96072706bb50b02d17e858d768faa1d8"
-        }
-      ]
-    },
-    {
-      "name": "gsp-analytics-reporting",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-analytics-reporting",
-          "tree": "320942a8d13fd431234db2a602aca3bd09058deb"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-analytics-reporting",
-          "tree": "9b167bf6a7c423d576e146173a2563d202dca4c9"
         }
       ]
     },
@@ -1400,18 +1374,6 @@
     {
       "group": "DERIVED_NAME",
       "source_sha256": "addb9a66bbcb7ec95e8092e2fd38218ebb5578046b51aa4bae77ddff6f658bb1",
-      "lines": 2,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
-      "source_sha256": "bcfc6c0ffd6aaf0132966236f37ed81ecd14db9bd13c1581c910d7c9ed5d1f24",
-      "lines": 2,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
-      "source_sha256": "cb14df19def4ce08a77fb51218351cc46d712cb7cc3ca8ca872302332fe7fba6",
       "lines": 2,
       "basis": "generic-word"
     },
