@@ -49,10 +49,6 @@ tidak berlaku pada harness lain.
 | Skill | [3 Skills/KATALOG.jsonl](3%20Skills/KATALOG.jsonl) | Cari menurut `name`, lalu aturan pilih skill |
 | Daftar lengkap berkas skill | [3 Skills/INDEKS.md](3%20Skills/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
 | Daftar lengkap pengetahuan | [4 Knowledge Bank/INDEKS.md](4%20Knowledge%20Bank/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
-| Pengetahuan: rute domain | [PETA-DOMAIN.csv](4%20Knowledge%20Bank/indeks-pengetahuan/PETA-DOMAIN.csv) | Pemisah pipa |
-| Pengetahuan: kemampuan | [INDEKS-KEMAMPUAN.csv](4%20Knowledge%20Bank/indeks-pengetahuan/INDEKS-KEMAMPUAN.csv) | Pemisah pipa; 372 baris, semua `local` |
-| Pengetahuan: unit | [INDEKS-UNIT.csv](4%20Knowledge%20Bank/indeks-pengetahuan/INDEKS-UNIT.csv) | Pemisah pipa; rute, bukan bukti |
-| Aturan penggunaan EKAS | [Panduan EKAS](4%20Knowledge%20Bank/ekas-lapis-teks/00_START-HERE/README.md) | Baca utuh |
 | Kebijakan sensitivitas | [KEBIJAKAN-SENSITIVITAS.md](KEBIJAKAN-SENSITIVITAS.md) | Baca utuh |
 
 Koleksi yang tidak tercantum pada tabel ini tidak tersedia pada edisi ini.
@@ -80,10 +76,8 @@ dibuat dari berkas yang ikut edisi. Aturan berikut menjelaskan pilihan itu.
 
 ## Jebakan format
 
-1. `PETA-DOMAIN.csv`, `INDEKS-KEMAMPUAN.csv`, dan `INDEKS-UNIT.csv` memakai pemisah pipa, sedangkan CSV lain koma. Pembaca bawaan melihat satu kolom.
-2. `INDEKS-UNIT.csv` adalah rute, bukan bukti. Lihat bagian Menemukan rujukan lama.
-3. Register antrean EKAS, bila ada pada pohon ini, punya baris komentar sebelum header.
-4. Berkas peran pada edisi ini hanya dua baris pada tabel Pilih koleksi. Daftar peran lain yang disebut dalam koleksi tidak dipakai sebagai rujukan.
+1. Register antrean EKAS, bila ada pada pohon ini, punya baris komentar sebelum header.
+2. Berkas peran pada edisi ini hanya dua baris pada tabel Pilih koleksi. Daftar peran lain yang disebut dalam koleksi tidak dipakai sebagai rujukan.
 
 ## Aturan tautan dan path
 
@@ -92,7 +86,7 @@ dibuat dari berkas yang ikut edisi. Aturan berikut menjelaskan pilihan itu.
 - Rujukan lokal yang tersedia menggunakan tautan langsung ke berkas di edisi. Tidak diperlukan URL jarak jauh untuk membacanya.
 - URL publik untuk sumber, atribusi, dan riwayat commit tetap eksternal. Alat lokal tidak mengambil URL tersebut secara otomatis.
 - Alamat jaringan dan path mesin pada catatan lama menggambarkan lingkungan sumber. Alamat itu tidak menetapkan endpoint harness ini.
-- Metadata sumber, kutipan, CSV indeks, dan kode historis mempertahankan path aslinya. Resolver membantu menelusurinya jika salinannya tersedia.
+- Metadata sumber, kutipan, dan kode historis mempertahankan path aslinya. Resolver membantu menelusurinya jika salinannya tersedia.
 - Tautan ke berkas yang tidak ikut edisi tidak ditulis ulang; tautan yang tidak terbuka diperlakukan sama dengan `not_in_clone`.
 - Setiap `.md` di edisi memuat blok stempel, jadi buang blok itu saat menyalin templat dari edisi, dan ingat bahwa rujukan baris lama bergeser tetap 4 baris (3 baris stempel dan 1 baris kosong).
 
@@ -101,14 +95,14 @@ dibuat dari berkas yang ikut edisi. Aturan berikut menjelaskan pilihan itu.
 Jalankan contoh berikut dari root edisi:
 
 ```sh
-python3 tools/library.py resolve "ekas/00_START-HERE/README.md" --json
+python3 tools/library.py resolve "ekas/10_TEMPLATES/TPL-09-NCR.md" --json
 python3 tools/library.py resolve "roles/gsp-task-architect.md" --json
 ```
 
 Untuk rujukan relatif yang dibaca dari dokumen tertentu, berikan konteks dokumennya:
 
 ```sh
-python3 tools/library.py resolve "INDEKS-UNIT.csv" --from "4 Knowledge Bank/indeks-pengetahuan/PETA-DOMAIN.csv" --json
+python3 tools/library.py resolve "TPL-08-ITP.md" --from "4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES/TPL-09-NCR.md" --json
 ```
 
 Saat memanggil alat dari direktori lain, gunakan path menuju tools/library.py di
@@ -146,12 +140,6 @@ Pada edisi ini:
 
 Resolver tidak memilih berkas hanya karena nama akhirnya mirip. Sumber yang tidak
 disertakan tidak diganti dengan ringkasan yang berbeda.
-
-Indeks kemampuan: seluruh 372 baris mengarah ke dokumen lokal.
-Indeks unit adalah rute, bukan bukti: tidak satu pun dari 1.558 barisnya punya sumber
-lokal (557 sumbernya tidak disertakan, 1.001 kolom sumbernya kosong). Kolom ringkas
-boleh dipakai untuk menemukan topik. Jangan mengutipnya sebagai bukti; nyatakan bahwa
-sumbernya tidak tersedia. Tingkat bukti dan batas penggunaan angka mengikuti dokumen EKAS.
 
 ## Memeriksa edisi
 
