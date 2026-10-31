@@ -26,6 +26,6 @@ bernama mirip. URL sumber publik tetap dipakai untuk atribusi; endpoint lokal pa
 catatan lama adalah konteks host asal, bukan alamat layanan perangkat ini.
 
 Simpan tautan navigasi baru sebagai path relatif. Pertahankan metadata, kutipan, dan
-data sumber. Setelah mengubah berkas pustaka, perbarui manifest dan jalankan
-`python3 tools/library.py check`. Untuk perubahan resolver, jalankan juga
-`python3 -m unittest discover -s tests`.
+data sumber. Setelah mengubah berkas pustaka, bila `tools/update_manifest.py` ada, perbarui
+manifest dengan alat itu lalu jalankan `python3 tools/library.py check`. Untuk perubahan
+resolver, bila `tests/` ada, jalankan juga `python3 -m unittest discover -s tests`.
