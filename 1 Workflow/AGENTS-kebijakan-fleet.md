@@ -48,6 +48,13 @@ Blok `GATE ENFORCEMENT` wajib di SOUL.md profil controller (daftar hidup kini 17
 
 Fleet pekerja kini TIGA profil peran yang ditentukan melalui berkas: `gsp-thinker`, `gsp-worker`, `gsp-worker-fast` (pin model GSP-AI sesuai nama). Peran kerja lama (45 profil) disimpan sebagai berkas di `roles/<profil-lama>.md`; controller memasukkan `BERKAS PERAN: <path>` + rincian tugas ke prompt dispatch. Daftar profil hidup kanonis: [`fleet/PROFILE-REGISTRY.json`](../2%20Roles/PROFILE-REGISTRY.json) (17 profil). Profil lama diarsipkan utuh di `C:/Users/TRIAL/gsp-archive/hermes-profiles-2026-10-10/` (nol penghapusan sampai vonis user). Monitor gateway baru: cron `GSP Gateway Monitor v1` tiap 10 menit (skrip `gsp_gateway_monitor_v1.py`, pola diam-sehat); penjaga era 52-profil diarsipkan di `gsp-archive/monitor-lama-2026-10-10/`. Skill fisik yang hanya ada di profil lama diselamatkan ke [`skills/gsp/_salvage-profil-merge-1010/`](../3%20Skills/registry-fleet/_salvage-profil-merge-1010/). Misi RAFIF dihentikan atas perintah user (kartu berjejak, watchdog disabled).
 
+## Catatan koreksi (31-10-2026)
+
+Seksi bertanggal di atas dipertahankan sebagai riwayat. Koreksi atas seksi "Kebijakan Lean+Enforcement Dua-Lane (31-08-2026)":
+
+- Kalimat "delegasi RT (`gsp-request-translator`) + TA (`gsp-task-architect`) wajib" tidak lagi berlaku untuk setiap tugas. Sejak 10-10-2026 rantai mengikuti vonis MODE: RT tetap pertama, sedangkan vonis DIRECT berhenti di controller tanpa TA. Rujukan: [`gsp-request-translator.md`](../2%20Roles/peran-fleet/gsp-request-translator.md).
+- `gsp-crawler-orchestrator` dan `gsp-pm-planner` tidak ada pada daftar profil hidup [`PROFILE-REGISTRY.json`](../2%20Roles/PROFILE-REGISTRY.json), jadi keduanya tidak lagi menjadi anggota lane sebagai profil.
+
 ## Istilah dalam salinan pustaka ini
 
 Controller adalah agen yang mengoordinasikan pekerjaan. Worker adalah agen pelaksana. Dispatch berarti pengiriman tugas kepada agen. Registry adalah daftar rujukan skill atau profil, sedangkan mirror adalah salinan yang mengikuti sumbernya. Istilah attest berarti pengesahan hasil kurasi; provenans berarti catatan asal-usul sumber. Snapshot adalah salinan keadaan pada waktu tertentu.
