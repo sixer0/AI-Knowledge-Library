@@ -8,7 +8,7 @@ Panduan ini hanya menunjuk edisi umum. Tidak ada yang terpasang otomatis: tidak 
 
 Yang perlu diketahui tentang isi edisi:
 
-- **Edisi pertama sengaja dipersempit.** Edisi dapat dibaca harness dan penyedia apa pun, jadi kehilangan isi dinilai lebih murah daripada kebocoran. Berkas yang diragukan dikeluarkan. Koleksi yang tidak tercantum pada `README.md` edisi tidak tersedia.
+- **Edisi pertama sengaja dipersempit.** Edisi tidak mengetahui harness atau penyedia yang akan membacanya, jadi kehilangan isi dinilai lebih murah daripada kebocoran. Berkas yang diragukan dikeluarkan. Koleksi yang tidak tercantum pada `README.md` edisi tidak tersedia.
 - **Pengetahuan teknis EKAS ikut setelah kurasi per berkas.** Pengetahuan domain, kartu rujukan, dan rumus yang lolos kurasi ikut bersama templat, verifikasi, bukti, dan serah terima. Tidak semua berkas EKAS ikut, dan PDF sumbernya tidak disertakan.
 - **Tidak ada klaim bersih.** Pemindaian pola saat build adalah batas bawah. Nama tanpa gelar dan isi yang maknanya peka tetapi tanpa kata kunci tidak terdeteksi, jadi build yang lulus bukan bukti bahwa isi sudah bersih.
 - **`approval` pada daftar izin diberikan AI atas pelimpahan pemilik.** Itu bukan hasil tinjauan pemilik. Tinjauan AI melihat baris yang ditunjuk pemindaian, bukan seluruh berkas.
@@ -46,7 +46,7 @@ Rekatkan blok terisi ke berkas pengguna.
 | Claude Code | `~/.claude/CLAUDE.md` | Dokumentasi resmi | `belum diuji` |
 | Codex | `~/.codex/AGENTS.md`, atau di bawah `CODEX_HOME`. `AGENTS.override.md` dibaca lebih dulu, dan hanya berkas non-kosong pertama yang dipakai | Dokumentasi resmi | `belum diuji` |
 | opencode | `~/.config/opencode/AGENTS.md`. Bila tidak ada, `~/.claude/CLAUDE.md` dibaca sebagai cadangan, jadi penunjuk di sana ikut mencapai opencode | Dokumentasi resmi | `belum diuji` |
-| Kilo Code | Berkas pilihan pengguna di luar repositori, didaftarkan pada `instructions` di `~/.config/kilo/kilo.jsonc`. Path absolut pada `instructions` belum dipastikan | Dokumentasi resmi | `belum diuji` |
+| Kilo Code | Berkas pilihan pengguna di luar repositori, didaftarkan pada `instructions` di `~/.config/kilo/kilo.jsonc`. Path absolut pada `instructions` belum dipastikan. Teramati pada empat sesi uji model gratis: Kilo memuat `~/.claude/skills` dan `~/.agents/skills` dari `HOME` bila tidak dibatasi, sehingga isinya dapat terkirim ke penyedia model | Dokumentasi resmi, ditambah empat sesi uji | `belum diuji` |
 | Gemini CLI, Antigravity CLI | `~/.gemini/GEMINI.md`. Dokumentasi Gemini CLI mungkin usang | Dokumentasi resmi | `belum diuji` |
 | Cursor | User Rules di pengaturan aplikasi, bukan berkas | Dokumentasi resmi | `belum diuji` |
 
@@ -61,7 +61,7 @@ Aturan untuk semua harness: **izinkan folder edisi saja, tidak pernah induknya.*
 | Gemini CLI | `/directory add`, `--include-directories` | Mekanisme terdokumentasi; pembacaan tanpa itu tidak dikonfirmasi | `belum diuji` |
 | Antigravity CLI | Tidak dinyatakan. Pakai kelas 3 | Akses di luar proyek belum diperiksa | `belum diuji` |
 | Codex | **Jangan pakai `--add-dir` untuk pustaka.** Sumber menyatakan flag itu memberi akses tulis. Pakai kelas 3 | Pembacaan di luar workspace tidak dikonfirmasi | `belum diuji` |
-| Kilo Code | Tidak dinyatakan sampai ada hasil uji. Pakai kelas 3 | Keterangan yang ada hanya hipotesis | `belum diuji` |
+| Kilo Code | Tidak dinyatakan sampai ada hasil uji. Pakai kelas 3 | Teramati pada empat sesi uji model gratis: pembacaan salinan di luar folder kerja ditolak `external_directory`. 8 sesi lainnya tidak dijalankan, jadi tidak ada hasil lulus | `belum diuji` |
 | Cursor | Tidak dinyatakan. Pakai kelas 3 | Perilaku di luar workspace hanya dari forum | `belum diuji` |
 
 ### Kelas 3: pembaca berkas polos
@@ -69,7 +69,7 @@ Aturan untuk semua harness: **izinkan folder edisi saja, tidak pernah induknya.*
 Untuk harness tanpa berkas instruksi tingkat pengguna, atau yang tidak dapat membaca di luar workspace. Dua cara, keduanya tanpa adapter dan tanpa Python:
 
 1. **Sebagai pesan pertama.** Rekatkan blok terisi pada awal sesi. Cara ini berlaku selama harness dapat membaca path itu.
-2. **Sebagai workspace.** Buka folder edisi sebagai konteks kerja. Cara ini selalu tersedia. Batasnya: sesi itu bekerja pada pustaka, bukan pada proyek lain, sehingga isi perlu dibawa manual antarsesi. Multi-root tidak dijadikan jalan keluar, karena perilakunya pada Cursor hanya dari forum.
+2. **Sebagai workspace.** Buka folder edisi sebagai konteks kerja. Cara ini tidak memerlukan izin baca di luar workspace, tetapi belum diuji pada harness mana pun. Batasnya: sesi itu bekerja pada pustaka, bukan pada proyek lain, sehingga isi perlu dibawa manual antarsesi. Multi-root tidak dijadikan jalan keluar, karena perilakunya pada Cursor hanya dari forum.
 
 Urutan baca tetap: `library.json`, `HARNESS.md`, lalu katalog koleksi. Semuanya berkas teks.
 
