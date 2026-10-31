@@ -1293,8 +1293,356 @@
       ]
     }
   ],
-  "scan_reviews": [],
+  "scan_reviews": [
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "0552afcffbcda1abc629ef8b357d5ddf77722ba52a2d9f2dfd95154184ae8031",
+      "lines": 1,
+      "basis": "template-default"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "1e10e2d15eeaa360e3df932bd99fc2bcceb2726ca6d71135ec2a17cf8a5ea3b9",
+      "lines": 1,
+      "basis": "template-default"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "4092436c78b3fde1e1df9265bba31ff7158673fb9b3fbd40239dd9c53bcc0fb8",
+      "lines": 9,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "75eaaa79415c3fe4c435ae79a2a9bd301016d39212fe4d9478d6f088a25415df",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "8a30c5d56b9439fcb7ec4322b99217a1e39a9501ede5a397c3f676b2e62dc92b",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "92b60edd3a77358b87888388a97913c766467c4822ded77b839510fde131ec5b",
+      "lines": 1,
+      "basis": "template-default"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "a47b9e67c704c9d22b21db26325be011dcb153d416b2788995b6c58c54aa3d30",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "d4f2bea6ec445085b0a6019c9714423ee08068b902079db1e71d769e19fa6590",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "eea0eed6b5d389bdfbc4d72055752480fe7c8ef20096bbad7efed092c3464091",
+      "lines": 9,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "320a2ef282429bde2e8de30ee7a19a1e11190002e8c5a6c94effd7d0020d1300",
+      "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "4092436c78b3fde1e1df9265bba31ff7158673fb9b3fbd40239dd9c53bcc0fb8",
+      "lines": 11,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "4c1d5016079f0995dddfa1139269d5f11149e7faa2ae4b3f6fb1b16d0dc3dbae",
+      "lines": 5,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "8a30c5d56b9439fcb7ec4322b99217a1e39a9501ede5a397c3f676b2e62dc92b",
+      "lines": 7,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "lines": 5,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "96a04f8f29c36af3dba5673fbbbd0ca79c60df9e3d2353f93a5f1693bc215759",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "e390e076d66276bd2d80e6bb2ac2ff59a1e79bae0573a40ae22f30a13a4343e7",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "e3a62da8a3e81903145d630816002134c936d65198cc1e29224a103877ba913a",
+      "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "eea0eed6b5d389bdfbc4d72055752480fe7c8ef20096bbad7efed092c3464091",
+      "lines": 11,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "0bf20049e1925f1f6bd4958f0967cd44f0e6e9f89c55668276c2b0b72806e182",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "34db864f93ecf1520ab20273370581225f545fb0d6ca3f45199cabfa2750af86",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "60d0b4988da6b63e8a3b4b2bf47f976f50f5ed5618fca7018d5314b905365bae",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "68b114b4b5cfa4d40810b13f7b44dc7d3ad82c504fb4c1d96a7f19f4509483c7",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "7b9418e9939dded0cf8e6a5549a18162b7c7e5495deeefa83a12f3394b81395d",
+      "lines": 15,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "88c35cf5314a1c93a6608b6de5ed2640a4532b209326599e840a58dc2aae5403",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "9567fbf8514bea4f9f80f6d19a2fb43f2d4febc3f3161c6a024f8b3ea55a2c76",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "af4e6eb8cdd059db8076e952e25ae30e1cc096ae30868add0481b30e915924c9",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "0b863643bbfff2dc97a964c648ffe3d1bc9ef97557f1dc0c0773851ff6800bab",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "25886f3718b95f9b993a74d7acdc3bdf56adca6e30243ebb9967bb90e0a5a076",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "320a2ef282429bde2e8de30ee7a19a1e11190002e8c5a6c94effd7d0020d1300",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "4092436c78b3fde1e1df9265bba31ff7158673fb9b3fbd40239dd9c53bcc0fb8",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "45630d2f0bd23f37645de65215e80dea323eab2ca854e5ddfb2b48d492990770",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "6d1b378b23ae0b0e337ff72820e8e0a23e46101205d6ba0556acce8a341b372a",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "70e58cc972065684a70e00f9c3e53059993a4d295aec52e963042574f46d04a3",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "75eaaa79415c3fe4c435ae79a2a9bd301016d39212fe4d9478d6f088a25415df",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "849a4536f1f42cba5dd5bc1104c08b347b8d4a4d879d3fe9c5c4cce643c591af",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "898fe03f6e2afa44a61f3a5f24735fdb71432fb5073accfccf8937504ca7466a",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "935edacb3b548df8c519c6f89f65e6412cf2662a3a94cdc3ab0857ad4a1f77ed",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "96a04f8f29c36af3dba5673fbbbd0ca79c60df9e3d2353f93a5f1693bc215759",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "9d6d423be00b2e24c685e7b3b41c1396e440a9bdd75368d4c91fcf40bfe7aeb9",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "a412915848be6df843208024b4fc00693098a80be944d0ddc96c80ce4978a09b",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "addb9a66bbcb7ec95e8092e2fd38218ebb5578046b51aa4bae77ddff6f658bb1",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "bcfc6c0ffd6aaf0132966236f37ed81ecd14db9bd13c1581c910d7c9ed5d1f24",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "cb14df19def4ce08a77fb51218351cc46d712cb7cc3ca8ca872302332fe7fba6",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "d1743ae33398218842deea1fc17b845c5b51d0ece8a8889b07e05847b11f613c",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "d4f2bea6ec445085b0a6019c9714423ee08068b902079db1e71d769e19fa6590",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "d60da470711f1621875ca04d741a3f41f66d72d91c5690f55fb8f2ef6b9e9759",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "e3a62da8a3e81903145d630816002134c936d65198cc1e29224a103877ba913a",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "e65618da6fed2d8e4ebba1e490ea4a16b1d538120d6b18bc8c228df8b5d32612",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "eea0eed6b5d389bdfbc4d72055752480fe7c8ef20096bbad7efed092c3464091",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "HOST",
+      "source_sha256": "7db618ec40b865fe2efacf46c04c3d5dc233fc64a3c63d26451afb97b795113e",
+      "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "188f991529689a4d409f2397f5ed2ac233c3ccf0e85ed6f1bf37f03bb3ad7149",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "2302ba01281aa69e2097b748f63fca154c20200cfc9ebdca366d22d775af1490",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "304bbcdc800140faf856f26dd9e0a6513a6f602f6000a2287e009507e5400a6a",
+      "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "6a11faf7fb50e04cb071b90c4662bfc953a67c5c7edbe9675d01360135cf26cd",
+      "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "e4873b55cc35de4e889d9878767623e10ccd30b92abdb728819bfdc441d4ab0f",
+      "lines": 1,
+      "basis": "generic-word"
+    }
+  ],
   "rule_text_exempt_sha256": [
     "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3"
-  ]
+  ],
+  "approval": {
+    "status": "approved",
+    "date": "2026-10-31",
+    "decision_ref": "decisions/decisions.md: diberikan AI atas pelimpahan pemilik tanggal 2026-10-31, bukan tinjauan pemilik"
+  }
 }
