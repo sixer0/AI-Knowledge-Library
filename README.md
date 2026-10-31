@@ -43,7 +43,7 @@ repositori ini menjadi referensi pengetahuan dan arsitektur. Bahasa pada salinan
 disunting dalam audit 19 Oktober 2026; penyuntingan tersebut tidak memperbarui layanan,
 profil agen, atau berkas NAS secara otomatis.
 
-Menurut catatan edisi sumber, nilai rahasia pada konfigurasi contoh telah disamarkan
+Menurut catatan edisi sumber, nilai kredensial pada konfigurasi contoh telah disamarkan
 sebelum disalin. Audit bahasa ini tidak menyatakan telah melakukan audit keamanan.
 Snapshot basis data dibuat melalui mekanisme backup SQLite saat layanan berjalan.
 
