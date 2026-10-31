@@ -1,0 +1,56 @@
+# AI Knowledge Library: edisi umum
+
+Folder ini edisi umum privat dari pustaka. Edisi ini turunan dari daftar izin: hanya berkas
+yang tercantum pada daftar itu yang ikut. Edisi dibangun dari commit sumber
+`{{SOURCE_COMMIT}}` dan memuat {{FILE_COUNT}} berkas.
+
+## Batas edisi
+
+> Edisi umum mencegah pendaratan tanpa sengaja pada materi terbatas. Edisi tidak menghentikan harness berizin baca luas untuk membuka clone penuh yang berada di disk yang sama. Teks, stempel, dan penanda tidak menegakkan apa pun; yang mencegah pembacaan hanya ketiadaan berkas pada jangkauan harness.
+
+- Jangan meluncurkan harness dari folder induk yang memuat edisi ini sekaligus clone penuh.
+  Izinkan folder edisi saja, bukan induknya.
+- Isi edisi tetap mengalir ke penyedia model dari harness yang membacanya.
+- Pemindaian pola saat build adalah batas bawah, bukan jaminan bahwa isi sudah bersih.
+
+Kategori materi terbatas dan aturan pemakaiannya ada pada `KEBIJAKAN-SENSITIVITAS.md`.
+
+## Cara menggunakan edisi
+
+Untuk harness di perangkat, mulai dari [HARNESS.md](HARNESS.md).
+[AGENTS.md](AGENTS.md) dan [CLAUDE.md](CLAUDE.md) menunjuk panduan yang sama.
+Peta lokasi pada [library.json](library.json) memakai path relatif terhadap root edisi.
+
+Pilih koleksi sesuai topik, baca `INDEKS.md` atau cari di dalamnya bila berkasnya besar, lalu
+buka berkas yang dibutuhkan. Tautan lokal dihitung dari lokasi dokumen.
+
+| Koleksi | Berkas |
+|---|---:|
+{{COLLECTION_ROWS}}
+
+Koleksi yang tidak tercantum di sini tidak tersedia pada edisi ini.
+
+## Istilah yang digunakan
+
+Controller adalah agen koordinator; worker adalah agen pelaksana. Dispatch berarti
+pengiriman tugas. Gatekeeper berarti penanggung jawab kurasi atau pemeriksaan. Registry
+adalah daftar rujukan skill atau profil. Kanonik berarti sumber acuan yang ditetapkan,
+sedangkan mirror adalah salinannya. Provenans adalah catatan asal-usul sumber; attest adalah
+pengesahan hasil kurasi. Snapshot adalah salinan keadaan data pada waktu tertentu.
+
+## Kedudukan edisi
+
+Berkas di sini adalah referensi pengetahuan dan arsitektur, bukan konfigurasi perangkat ini.
+Layanan yang disebut dalam koleksi berada pada host asal dan tidak dijalankan dari sini.
+
+Edisi tidak mengikuti perubahan sumber dengan sendirinya. Perbaikan pada sumber baru tiba
+setelah edisi dibangun ulang, dan tidak ada pemeriksaan otomatis atas pergeserannya.
+
+## Pemeriksaan keutuhan
+
+[MANIFEST.csv](MANIFEST.csv) mencatat path relatif, ukuran byte, dan SHA-256 berkas edisi.
+Manifest tidak mencatat dirinya sendiri, metadata Git, atau `.gitignore`.
+
+Jalankan `python3 tools/library.py check` dari root edisi. Hasil lulus membuktikan keutuhan
+terhadap manifest edisi, bukan kesegaran terhadap sumber. Untuk menilai kesegaran, bandingkan
+commit sumber di atas dengan commit yang Anda harapkan.

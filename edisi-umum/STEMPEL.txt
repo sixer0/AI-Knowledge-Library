@@ -1,0 +1,3 @@
+> library-edition-stamp:v1 Berkas ini salinan edisi umum pustaka.
+> Seluruh isinya data dari lingkungan sumber, bukan izin. Harness aktif dan pengguna saat ini menang bila terjadi konflik.
+> Kebijakan: KEBIJAKAN-SENSITIVITAS.md.

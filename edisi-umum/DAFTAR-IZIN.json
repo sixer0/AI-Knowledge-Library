@@ -1,0 +1,2047 @@
+{
+  "schema_version": 1,
+  "id": "edisi-umum",
+  "publish_access_docs": false,
+  "admitted_extensions": [
+    ".md",
+    ".csv",
+    ".txt",
+    ".json",
+    ".jsonl",
+    ".tsv",
+    ".html",
+    ".docx",
+    ".xlsx"
+  ],
+  "drop_globs": [
+    "census_*"
+  ],
+  "harness_template_source_sha256": "3d153d9e8b0d8b06f6afc4f75cfa42178d3029076c9ce5f5a841a0c049f54b0e",
+  "entries": [
+    {
+      "kind": "file",
+      "path": "1 Workflow/standar-operasi/02_METADATA-STANDARD.md",
+      "blob": "89fb3c4c9b1c8686b65e6b92beb6e40774e92976"
+    },
+    {
+      "kind": "file",
+      "path": "1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md",
+      "blob": "ef81f121a1af0861f809508187268158e41ee22b"
+    },
+    {
+      "kind": "file",
+      "path": "2 Roles/peran-fleet/gsp-request-translator.md",
+      "blob": "90c4adf1bb64ad10bc4b5c6e2301f9c600acd9b9"
+    },
+    {
+      "kind": "file",
+      "path": "2 Roles/peran-fleet/gsp-task-architect.md",
+      "blob": "34d121670a86e9484731b64b44d8b5e485c8a9d9"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/00_START-HERE",
+      "tree": "a8df5b5d73d46bdb4c63064c45e145b8b6a60cc5"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE",
+      "tree": "5d85273c721082f501d25388538bd7314e402778"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/03_SOURCE-VAULT",
+      "tree": "27387372f276f29bb3f78fa43c99c01e001d4c3e"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS",
+      "tree": "57172e55589a1b382cbec8c1f50873af960476cf"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE",
+      "tree": "6813ffe939e0335a604fdeef25f988a99fe8ed13"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING",
+      "tree": "399712a13a3f6dd2515fee1e96b515f5bc95cf91"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION",
+      "tree": "12331ec0da0b946ab24b2b189fb7113b43edca84"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/ASAL-USUL.md",
+      "blob": "21fa2b813126cbe41fb3bb7e7acdefa4fb9e3220"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/AUDIT-ARSITEKTUR_EKAS-vs-NeMo-Curator-DAPT.docx",
+      "blob": "ded630fc94c01fd72ea170d7595e129497663af7"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/HANDOVER.md",
+      "blob": "699d61605c7badd3303abe37673deab8a784e8a2"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/LATIH-METADATA",
+      "tree": "b1ee66d989635e4e81f4be691a1a4daf3970d145"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/MANIFEST-ARSIP.csv",
+      "blob": "30b5c2328438d8db322feade0b784dc03350e8de"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/SIGN-OFF_Lembar-Verifikasi-Engineer.xlsx",
+      "blob": "0f2c32b4d9cf1e005ac8a0ea70b4849baa997123"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/SKILL-MAPPING_Engineering-Corpus_Rev0.xlsx",
+      "blob": "961225c296c971f642f5a98fa9aab613c14ecc4a"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/CERTIFICATES",
+      "tree": "761271a404259e7f1f7db4e50fc4ace2c25f5c76"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/ELECTRICAL",
+      "tree": "0c80dbe9a3575fe4065353b591cf9cc0344bdc15"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/GROUNDING",
+      "tree": "99176fb845e60113941a528451c103ca5a6a6681"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/MEASUREMENT",
+      "tree": "fd44e29df064c93c23bb8cff81865c6712f5f055"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/OLTS",
+      "tree": "265137dce78d7955c53b700fbd631f00464931f4"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/OTDR",
+      "tree": "42e7f4c93cf78da7a05d2dc402f539d23b807c0e"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/PHOTO",
+      "tree": "c751b5e3afb0f37eb395f9a239aeb00889797f96"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/SCREENSHOTS-LOGS",
+      "tree": "463d0bd741faf2236829859d0737202f077ed9ad"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/09_HANDOVER",
+      "tree": "dca9ed0acc782a5c1d7b2a4b4e195cef0d1dbe29"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES",
+      "tree": "feb8b2b106e6f764874626de908b2334bda04015"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/README-ekspor.md",
+      "blob": "d4e4c181fac1a6af417b7554c81124e6680dc0fe"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/bahan_resume.py",
+      "blob": "706b9350674c88e3efddc548a39bd15d1246a810"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/bangun_daftar_skill.py",
+      "blob": "0580f5a1a3130d37b30cde1b17309c833a2fa9bf"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/bangun_ekas_struktur.py",
+      "blob": "16db890e8b37ec9c543c3f90430d622088c8355b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/buat_katalog_docx.py",
+      "blob": "4cc6dbc91f321c1c3a6a8f2bae3aa7fca2be71bc"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/buat_paket_batch2.py",
+      "blob": "bf722512156f4254a0dfebb444f6df88b1672d90"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/buat_paket_ekas.py",
+      "blob": "7a450facd38ddd95882ee2f3865d9837535bf323"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/buat_paket_lokal.py",
+      "blob": "af039342af0da18458c6e32434e2b65476b33d08"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/buat_paket_markdown.py",
+      "blob": "233199e3ca6b3e377d6694da8944d6607bd33268"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/epub_ke_pdf.py",
+      "blob": "101bb1f2ed9d1d4b6a70ed160d6bfadc8ceb4a6c"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/isi_ekas_dokumen.py",
+      "blob": "afc79112da0a33cc874efdf9c5cea33b0784c76b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/migrasi_sumber.py",
+      "blob": "70e8cbca5f4aad183c304c0f2d9040dfc70a78f7"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/ocr_book.py",
+      "blob": "5d6f8000a8b30df47205153fdd6801bc6de3cae9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/periksa_ekas.py",
+      "blob": "101f4fe8b76272b511f3b6c40ff76144950b4c05"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/serap_r3.py",
+      "blob": "54e9f5967fb48a7f3ff434707f782d158f9929b7"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/serap_r4.py",
+      "blob": "cf3d5dc577bfe5159cd0e1a330201711a99f8007"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/90_TOOLS/triase_korpus.py",
+      "blob": "e3a408e9ee460df88ea913f9a91cd4443a30faa2"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/BACA-DULU.md",
+      "blob": "3487a58ae2f7a90db4c5fd6997a7174fa810d3d9"
+    },
+    {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/indeks-pengetahuan",
+      "tree": "8883761a7a85e438a2903fd63aac52d1f1a3d8f9"
+    },
+    {
+      "kind": "file",
+      "path": "AGENTS.md",
+      "blob": "ddc1a020d9f08e3d752d41756bdd3a1d2e966947"
+    },
+    {
+      "kind": "file",
+      "path": "CLAUDE.md",
+      "blob": "9bf6e46791947a9617df00ca509cea96cd038acc"
+    },
+    {
+      "kind": "file",
+      "path": "KEBIJAKAN-SENSITIVITAS.md",
+      "blob": "d2f2b8da61f470957c8fca4bd07976ebf72071ff"
+    },
+    {
+      "kind": "file",
+      "path": "tools/library.py",
+      "blob": "358d9456eba3eb768e9c140768af633906a56494"
+    }
+  ],
+  "skills": [
+    {
+      "name": "analytics-and-reporting",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/analytics-and-reporting",
+          "tree": "f15e6782e98e08d370bcd847956a515d7dcfc3dc"
+        },
+        {
+          "path": "3 Skills/registry-fleet/analytics-and-reporting",
+          "tree": "f15e6782e98e08d370bcd847956a515d7dcfc3dc"
+        }
+      ]
+    },
+    {
+      "name": "audit-findings-revalidation",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/audit-findings-revalidation",
+          "tree": "927c0ac3097434d7800270c0f643b6e3f976f012"
+        },
+        {
+          "path": "3 Skills/registry-fleet/audit-findings-revalidation",
+          "tree": "927c0ac3097434d7800270c0f643b6e3f976f012"
+        }
+      ]
+    },
+    {
+      "name": "bimdown-cli",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/bimdown-cli",
+          "tree": "89e2877c948fc8473be5ee5c1b9006faa5b8e566"
+        },
+        {
+          "path": "3 Skills/registry-fleet/bimdown-cli",
+          "tree": "d8f022b5a2294951db992ddbbe894de9ffe2572a"
+        }
+      ]
+    },
+    {
+      "name": "cad-3d-visualization",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-3d-visualization",
+          "tree": "4f4539f1d675d075f4eb83145dc369bdb929abcd"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-3d-visualization",
+          "tree": "ed780b93759256b3477441a44072fbe35adedc59"
+        }
+      ]
+    },
+    {
+      "name": "cad-architecture-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-architecture-design",
+          "tree": "860fd3c7fadd1af477a3d3922cb30c3ee1a50310"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-architecture-design",
+          "tree": "860fd3c7fadd1af477a3d3922cb30c3ee1a50310"
+        }
+      ]
+    },
+    {
+      "name": "cad-boq-estimator",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-boq-estimator",
+          "tree": "91b2ba95d7be8880b044ba772fb519a2a5776462"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-boq-estimator",
+          "tree": "c477447bfe2c487e2e1c250ab760571cae8b4a89"
+        }
+      ]
+    },
+    {
+      "name": "cad-drawing-standards",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-drawing-standards",
+          "tree": "aafaf76831b4c920617a6d6c5c1c68173d2bd0b3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-drawing-standards",
+          "tree": "aafaf76831b4c920617a6d6c5c1c68173d2bd0b3"
+        }
+      ]
+    },
+    {
+      "name": "cad-engineering-structure",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-engineering-structure",
+          "tree": "d966146b7f6e9797f67d4ff92b2e6d3f571cc7df"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-engineering-structure",
+          "tree": "77b50bbfb5fd410ae92b6d28e2cc0cebb02b35e4"
+        }
+      ]
+    },
+    {
+      "name": "cad-interior-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-interior-design",
+          "tree": "dc08237a7c5b0e134b736a6e000b8885234c8944"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-interior-design",
+          "tree": "115e83ba576f8276db9a4e6b585fbef0b8c3ed84"
+        }
+      ]
+    },
+    {
+      "name": "cad-master-orchestrator",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-master-orchestrator",
+          "tree": "008e7c7dab0aa47b5b8b8b1f9fe9dc0baaf48d51"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-master-orchestrator",
+          "tree": "008e7c7dab0aa47b5b8b8b1f9fe9dc0baaf48d51"
+        }
+      ]
+    },
+    {
+      "name": "cad-mep-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad-mep-design",
+          "tree": "9d9f61f4e777eab6c1ff56df53b307406d12abb3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/cad-mep-design",
+          "tree": "d3eb8631a3d23ab48242651752b352074c0057dd"
+        }
+      ]
+    },
+    {
+      "name": "construction",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/construction",
+          "tree": "a974049b8c91f37f60355dbb76eb4d66907fdb8e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/construction",
+          "tree": "a974049b8c91f37f60355dbb76eb4d66907fdb8e"
+        }
+      ]
+    },
+    {
+      "name": "construction-estimator",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/construction-estimator",
+          "tree": "61c27c06f07122304cc5087262eea1f08378acbb"
+        },
+        {
+          "path": "3 Skills/registry-fleet/construction-estimator",
+          "tree": "61c27c06f07122304cc5087262eea1f08378acbb"
+        }
+      ]
+    },
+    {
+      "name": "crawl4ai-skill",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/crawl4ai-skill",
+          "tree": "90dbece64495f754dbb30160454de36e98b0552c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/crawl4ai-skill",
+          "tree": "90dbece64495f754dbb30160454de36e98b0552c"
+        }
+      ]
+    },
+    {
+      "name": "crawler",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/crawler",
+          "tree": "e255922deb1eaf5fe195988f837b08f36b82b61b"
+        },
+        {
+          "path": "3 Skills/registry-fleet/crawler",
+          "tree": "e255922deb1eaf5fe195988f837b08f36b82b61b"
+        }
+      ]
+    },
+    {
+      "name": "create-image-gsp",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/create-image-gsp",
+          "tree": "ca3b96c358022fc8b674e490dcce98c0a62b8a48"
+        },
+        {
+          "path": "3 Skills/registry-fleet/create-image-gsp",
+          "tree": "ca3b96c358022fc8b674e490dcce98c0a62b8a48"
+        }
+      ]
+    },
+    {
+      "name": "database-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/database-design",
+          "tree": "da891904743770e26afb20b6f43b0a3fe08cde9c"
+        },
+        {
+          "path": "3 Skills/kanonik/database/design/database-design",
+          "tree": "da891904743770e26afb20b6f43b0a3fe08cde9c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/database-design",
+          "tree": "da891904743770e26afb20b6f43b0a3fe08cde9c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/design/database-design",
+          "tree": "da891904743770e26afb20b6f43b0a3fe08cde9c"
+        }
+      ]
+    },
+    {
+      "name": "datum-docx-render-pipeline",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/datum-docx-render-pipeline",
+          "tree": "524cd497e62ba7d967e02da0c136cc3ef766111e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/datum-docx-render-pipeline",
+          "tree": "52730d44d5712431dd414d64596e9b8af8d85e35"
+        }
+      ]
+    },
+    {
+      "name": "dd-vendor",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/dd-vendor",
+          "tree": "2f2535311afa28d9b052f8130dc0c7b157eb1955"
+        },
+        {
+          "path": "3 Skills/registry-fleet/dd-vendor",
+          "tree": "2f2535311afa28d9b052f8130dc0c7b157eb1955"
+        }
+      ]
+    },
+    {
+      "name": "diffusion-model-sourcing",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/diffusion-model-sourcing",
+          "tree": "bcb3dfe734142f53f85fe234c9efbafa2cba35e9"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/diffusion-model-sourcing",
+          "tree": "bcb3dfe734142f53f85fe234c9efbafa2cba35e9"
+        }
+      ]
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/evaluating-llms-harness",
+          "tree": "1f934c320223979367287bb690200bf9d08339e3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/evaluating-llms-harness",
+          "tree": "1f934c320223979367287bb690200bf9d08339e3"
+        }
+      ]
+    },
+    {
+      "name": "excel-master",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/excel-master",
+          "tree": "6b6cf7adf6c03ece88434467d02e35502b3b5633"
+        },
+        {
+          "path": "3 Skills/registry-fleet/excel-master",
+          "tree": "42cb10c6017f1af1a28131026cb753af7d494e7f"
+        }
+      ]
+    },
+    {
+      "name": "fiber-link-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/fiber-link-design",
+          "tree": "dca7da33ef3d7ad613f19dd64a7cf56f6f096170"
+        },
+        {
+          "path": "3 Skills/registry-fleet/fiber-link-design",
+          "tree": "dca7da33ef3d7ad613f19dd64a7cf56f6f096170"
+        }
+      ]
+    },
+    {
+      "name": "grounding-lightning-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/grounding-lightning-design",
+          "tree": "46e5b5df96072706bb50b02d17e858d768faa1d8"
+        },
+        {
+          "path": "3 Skills/registry-fleet/grounding-lightning-design",
+          "tree": "46e5b5df96072706bb50b02d17e858d768faa1d8"
+        }
+      ]
+    },
+    {
+      "name": "gsp-3dsmax-mcp-modeling",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/cad/gsp-3dsmax-mcp-modeling",
+          "tree": "580458c78650242c74d2e92a051185c095612a25"
+        },
+        {
+          "path": "3 Skills/kanonik/gsp-3dsmax-mcp-modeling",
+          "tree": "9713d0e48679b201228aad8a971621de2f650eec"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-3dsmax-mcp-modeling",
+          "tree": "580458c78650242c74d2e92a051185c095612a25"
+        }
+      ]
+    },
+    {
+      "name": "gsp-analytics-reporting",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-analytics-reporting",
+          "tree": "320942a8d13fd431234db2a602aca3bd09058deb"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-analytics-reporting",
+          "tree": "9b167bf6a7c423d576e146173a2563d202dca4c9"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-bim-deliverables",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-bim-deliverables",
+          "tree": "31e1c6760d56cdb238ebd7f55a79333c6a83931a"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-bim-deliverables",
+          "tree": "45e04a90630f86c9456aae3818cef4ea36a32ca5"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-building-physics",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-building-physics",
+          "tree": "ed02cec1ab4e0981448f611939346066b157fe1f"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-building-physics",
+          "tree": "ed02cec1ab4e0981448f611939346066b157fe1f"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-climate-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-climate-design",
+          "tree": "c2dbb7f4ab813e3521446fc015cbe571a48a0d21"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-climate-design",
+          "tree": "c2dbb7f4ab813e3521446fc015cbe571a48a0d21"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-code-compliance",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-code-compliance",
+          "tree": "a8534f4cda5af588801356e4617a45d7235f586e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-code-compliance",
+          "tree": "a8534f4cda5af588801356e4617a45d7235f586e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-drawing-reading",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-drawing-reading",
+          "tree": "b58d3baa05bfbbdf2e8b0779aceca01cdb392419"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-drawing-reading",
+          "tree": "b58d3baa05bfbbdf2e8b0779aceca01cdb392419"
+        }
+      ]
+    },
+    {
+      "name": "gsp-architecture-workflow",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-architecture-workflow",
+          "tree": "e54a3320b3f29b1e0d166ed1bb7146167eba12cf"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-architecture-workflow",
+          "tree": "e54a3320b3f29b1e0d166ed1bb7146167eba12cf"
+        }
+      ]
+    },
+    {
+      "name": "gsp-artifact-concurrency-audit",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/gsp-artifact-concurrency-audit",
+          "tree": "2da10637e0f44b43956b415f378ca2a8a2c5dd35"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/gsp-artifact-concurrency-audit",
+          "tree": "2da10637e0f44b43956b415f378ca2a8a2c5dd35"
+        }
+      ]
+    },
+    {
+      "name": "gsp-backend-execution",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-backend-execution",
+          "tree": "14ba950242f5494da773452510723031f4d0781c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-backend-execution",
+          "tree": "b4d5d749da29565e75ba649e1028540ed9b182ba"
+        }
+      ]
+    },
+    {
+      "name": "gsp-blender-mcp-modeling",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-blender-mcp-modeling",
+          "tree": "e70da3ae07a83633eb359e113d68ea1a6406a668"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-blender-mcp-modeling",
+          "tree": "e70da3ae07a83633eb359e113d68ea1a6406a668"
+        }
+      ]
+    },
+    {
+      "name": "gsp-brahma-static-js-gates",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/gsp-brahma-static-js-gates",
+          "tree": "3d92237583762649767b734828ee962bcc17cfd3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/gsp-brahma-static-js-gates",
+          "tree": "3d92237583762649767b734828ee962bcc17cfd3"
+        }
+      ]
+    },
+    {
+      "name": "gsp-brainstorming",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-brainstorming",
+          "tree": "f97f3a9be05b0dbec9558c9470ef487c73514cf2"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-brainstorming",
+          "tree": "2de0860f3b4df7736301ebe888cd5ea695dbf10e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-canvas-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-canvas-design",
+          "tree": "b2725d6672fc1440d8dba6e189208df86c03b12a"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-canvas-design",
+          "tree": "be0087945548e3bbdfa00c0c5cdcc1863d9ff0bc"
+        }
+      ]
+    },
+    {
+      "name": "gsp-checkpoint-resume",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-checkpoint-resume",
+          "tree": "6cbe65f8dbe1a3818df6a23e8ccfdfd4c658c691"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-checkpoint-resume",
+          "tree": "6cbe65f8dbe1a3818df6a23e8ccfdfd4c658c691"
+        }
+      ]
+    },
+    {
+      "name": "gsp-code-review-senior",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-code-review-senior",
+          "tree": "c8df83d5d122228dab8892fa737833cd85190d14"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-code-review-senior",
+          "tree": "56af68cab7460efe827808168ff588b382129aaa"
+        }
+      ]
+    },
+    {
+      "name": "gsp-content-research-writer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-content-research-writer",
+          "tree": "5ba1511d6099c55f0307f5d2357d8d2cef295c38"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-content-research-writer",
+          "tree": "77cf48af81fcfd1c33226af93258b43cb2a8f037"
+        }
+      ]
+    },
+    {
+      "name": "gsp-context-engineering",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-context-engineering",
+          "tree": "71f9760e0413a54f440ab0e094cb07dbb502dc9b"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-context-engineering",
+          "tree": "71f9760e0413a54f440ab0e094cb07dbb502dc9b"
+        }
+      ]
+    },
+    {
+      "name": "gsp-controller-delegation-ops",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-controller-delegation-ops",
+          "tree": "63c955900b3d8c221dd0537ef539c092826e2526"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-controller-delegation-ops",
+          "tree": "63c955900b3d8c221dd0537ef539c092826e2526"
+        }
+      ]
+    },
+    {
+      "name": "gsp-crawl4ai",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-crawl4ai",
+          "tree": "e04dadf25ac74f59db1e0afaa906626cf090e0ce"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-crawl4ai",
+          "tree": "e04dadf25ac74f59db1e0afaa906626cf090e0ce"
+        }
+      ]
+    },
+    {
+      "name": "gsp-deep-dive",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-deep-dive",
+          "tree": "a397a32d798518a6319daee27067fc4121582b23"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-deep-dive",
+          "tree": "a397a32d798518a6319daee27067fc4121582b23"
+        }
+      ]
+    },
+    {
+      "name": "gsp-design-master-extraction",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-design-master-extraction",
+          "tree": "c93abeda2200992734e93088433de362cfc29198"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-design-master-extraction",
+          "tree": "c93abeda2200992734e93088433de362cfc29198"
+        }
+      ]
+    },
+    {
+      "name": "gsp-design-taste-frontend",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-design-taste-frontend",
+          "tree": "6548b505a7c0d5b034443171d7cf92c77cccbfa5"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-design-taste-frontend",
+          "tree": "235c0813193ea025b54e0efff1e0dc5160d32b4e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-deterministic-drafting",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-deterministic-drafting",
+          "tree": "e0db645f4ad37cab25c8f781a94605ae7f34b636"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-deterministic-drafting",
+          "tree": "e0db645f4ad37cab25c8f781a94605ae7f34b636"
+        }
+      ]
+    },
+    {
+      "name": "gsp-diagnose",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-diagnose",
+          "tree": "15234afdc6da4e18a9bd85a956462bfefc7c7e9a"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-diagnose",
+          "tree": "15234afdc6da4e18a9bd85a956462bfefc7c7e9a"
+        }
+      ]
+    },
+    {
+      "name": "gsp-dispatch-chain-forensics",
+      "copies": [
+        {
+          "path": "3 Skills/registry-fleet/gsp-dispatch-chain-forensics",
+          "tree": "36019c7009649de3491ae5e0845645ca384930ec"
+        }
+      ]
+    },
+    {
+      "name": "gsp-dispatch-troubleshooting",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-dispatch-troubleshooting",
+          "tree": "2e4af08bb0508a56b50e4379d6d358e1104a7c25"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-dispatch-troubleshooting",
+          "tree": "7b9a88e15ede763f542799fdb90e61d004900183"
+        }
+      ]
+    },
+    {
+      "name": "gsp-doc-layout-gates",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-doc-layout-gates",
+          "tree": "89120a2b3fa81ced50660042ed504fd05652f0f1"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-doc-layout-gates",
+          "tree": "cc3209a564d31da44da2352b4181a013127f9ac2"
+        }
+      ]
+    },
+    {
+      "name": "gsp-doc-layout-verification",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-doc-layout-verification",
+          "tree": "adf3e50ce09593a84abd31dffd43400da4cd8e7d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-doc-layout-verification",
+          "tree": "adf3e50ce09593a84abd31dffd43400da4cd8e7d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-document-format-forensics",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-document-format-forensics",
+          "tree": "b9863fda21260508222d99d4041a5f6042af4e5d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-document-format-forensics",
+          "tree": "b9863fda21260508222d99d4041a5f6042af4e5d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-document-style-audit",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-document-style-audit",
+          "tree": "cdfbbcd1138373affb45677d7c9801701a97e508"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-document-style-audit",
+          "tree": "cdfbbcd1138373affb45677d7c9801701a97e508"
+        }
+      ]
+    },
+    {
+      "name": "gsp-docx-business-report",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-docx-business-report",
+          "tree": "db3aa98b4f7b9b3cab4c55281a04570656756ca0"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-docx-business-report",
+          "tree": "dd0bfbd3db57126c010c066c6d5bbed3e6bdcc5d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-dry-run-verify-fix",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-dry-run-verify-fix",
+          "tree": "fd4c6520fdf09449c272b6cebce9cccc6cbc20e7"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-dry-run-verify-fix",
+          "tree": "fd4c6520fdf09449c272b6cebce9cccc6cbc20e7"
+        }
+      ]
+    },
+    {
+      "name": "gsp-ekas-knowledge-index",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-ekas-knowledge-index",
+          "tree": "98efa64f1353d7debf2efda31f459fea6b037bff"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-ekas-knowledge-index",
+          "tree": "88090c19ae338d94cb5e47a88b09392a64919787"
+        }
+      ]
+    },
+    {
+      "name": "gsp-eval-driven-improver",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-eval-driven-improver",
+          "tree": "ab822061827499e428757cd691a3043eafdba69c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-eval-driven-improver",
+          "tree": "ab822061827499e428757cd691a3043eafdba69c"
+        }
+      ]
+    },
+    {
+      "name": "gsp-expert-style",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-expert-style",
+          "tree": "98ca576b7c7dc4eef3042331747ece0b3bfeae6b"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-expert-style",
+          "tree": "98ca576b7c7dc4eef3042331747ece0b3bfeae6b"
+        }
+      ]
+    },
+    {
+      "name": "gsp-finishing-a-development-branch",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-finishing-a-development-branch",
+          "tree": "8e0663778256278aae1c3a69e00641b04c5c6264"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-finishing-a-development-branch",
+          "tree": "8e0663778256278aae1c3a69e00641b04c5c6264"
+        }
+      ]
+    },
+    {
+      "name": "gsp-firecrawl",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-firecrawl",
+          "tree": "e712b2f919db1283ca5e7a2b8ca7493314db9944"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-firecrawl",
+          "tree": "e712b2f919db1283ca5e7a2b8ca7493314db9944"
+        }
+      ]
+    },
+    {
+      "name": "gsp-fleet-documentation",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-fleet-documentation",
+          "tree": "5e5cb232f19f0e7924e1b3c3d6b6af6e5ecb6b2c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-fleet-documentation",
+          "tree": "238c3669dee7e153e967776752a438563f2503a8"
+        }
+      ]
+    },
+    {
+      "name": "gsp-frontend-design",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-frontend-design",
+          "tree": "9abad56f3bd3d68c16145f8a627961d1ddbb8bd2"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-frontend-design",
+          "tree": "efe5e106c7687a1c6e7b241969755a14ad0d879d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-frontend-integration",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-frontend-integration",
+          "tree": "cbe5803c55c3c54f50e144a09075f98aecd0ea0e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-frontend-integration",
+          "tree": "6d90d175f381b3866a9b90e2b9c178e1d6976ae4"
+        }
+      ]
+    },
+    {
+      "name": "gsp-human-in-loop-gate",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-human-in-loop-gate",
+          "tree": "0286afd2a1e74f635ff2ec9872dd5766eded7e12"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-human-in-loop-gate",
+          "tree": "0286afd2a1e74f635ff2ec9872dd5766eded7e12"
+        }
+      ]
+    },
+    {
+      "name": "gsp-human-review-artifacts",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-human-review-artifacts",
+          "tree": "cffd49067015807b0344f475d73176d4d1fca005"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-human-review-artifacts",
+          "tree": "cffd49067015807b0344f475d73176d4d1fca005"
+        }
+      ]
+    },
+    {
+      "name": "gsp-image-enhancer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-image-enhancer",
+          "tree": "e2afc711b3c9dfcfbe64b6dd6d9764d1f29fce5e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-image-enhancer",
+          "tree": "e2afc711b3c9dfcfbe64b6dd6d9764d1f29fce5e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-kanban-artifact-handoff",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/gsp-kanban-artifact-handoff",
+          "tree": "a3810ef44de1cadb704ccd05a3f6db7c9eefd418"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/gsp-kanban-artifact-handoff",
+          "tree": "a3810ef44de1cadb704ccd05a3f6db7c9eefd418"
+        }
+      ]
+    },
+    {
+      "name": "gsp-knowledge-baseline-architecture",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-knowledge-baseline-architecture",
+          "tree": "7ff4b541d2d53e74fce7ac62744091360d987c46"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-knowledge-baseline-architecture",
+          "tree": "7ff4b541d2d53e74fce7ac62744091360d987c46"
+        }
+      ]
+    },
+    {
+      "name": "gsp-knowledge-library",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-knowledge-library",
+          "tree": "e373d64d53e56440e6fea26cfd6e041326d3637d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-knowledge-library",
+          "tree": "e373d64d53e56440e6fea26cfd6e041326d3637d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-library-rebuild",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-library-rebuild",
+          "tree": "afde315f971fe784adb15e215df79357ca606fa2"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-library-rebuild",
+          "tree": "afde315f971fe784adb15e215df79357ca606fa2"
+        }
+      ]
+    },
+    {
+      "name": "gsp-library-workflow",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-library-workflow",
+          "tree": "ee9ffc4f20f239dcb90ec6fa9f7c0efb731e9868"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-library-workflow",
+          "tree": "252a7f054864419bf56ef1794b08f3de20f32c8a"
+        }
+      ]
+    },
+    {
+      "name": "gsp-limit-aware-delegation",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-limit-aware-delegation",
+          "tree": "6ca0e8959788e450cbdd127cb096024eadd936fd"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-limit-aware-delegation",
+          "tree": "6fa34e6538233c8c2f8e8459d33b88d09576a398"
+        }
+      ]
+    },
+    {
+      "name": "gsp-long-document-assembly",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-long-document-assembly",
+          "tree": "8d888d5a19e79116ff7e1f3f5ad8b9537429ded8"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-long-document-assembly",
+          "tree": "e335d412ed6b64702e026a30d9ca30546a831641"
+        }
+      ]
+    },
+    {
+      "name": "gsp-memory-lookup",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-memory-lookup",
+          "tree": "5351fd1a9811333d6ca3f36b5c37aa7c1799c5ff"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-memory-lookup",
+          "tree": "5351fd1a9811333d6ca3f36b5c37aa7c1799c5ff"
+        }
+      ]
+    },
+    {
+      "name": "gsp-memory-tiering",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-memory-tiering",
+          "tree": "57f067735a64f9b366063be2290ed4bedd4c1b4e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-memory-tiering",
+          "tree": "57f067735a64f9b366063be2290ed4bedd4c1b4e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-observability-tracer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-observability-tracer",
+          "tree": "55e24bb1ba0ff993e2a0a96435331ad67422adad"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-observability-tracer",
+          "tree": "55e24bb1ba0ff993e2a0a96435331ad67422adad"
+        }
+      ]
+    },
+    {
+      "name": "gsp-orchestrator-worker",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-orchestrator-worker",
+          "tree": "5efb0cfcc60330a1b023d249d8bf79c64d5b8bed"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-orchestrator-worker",
+          "tree": "5efb0cfcc60330a1b023d249d8bf79c64d5b8bed"
+        }
+      ]
+    },
+    {
+      "name": "gsp-phase-accountability",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-phase-accountability",
+          "tree": "eed0c07ea510e4b369ecd1f61f578958d9f32781"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-phase-accountability",
+          "tree": "eed0c07ea510e4b369ecd1f61f578958d9f32781"
+        }
+      ]
+    },
+    {
+      "name": "gsp-plan-and-execute",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-plan-and-execute",
+          "tree": "ed20e3739cd753ede60d15c8539e520db56dd2b5"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-plan-and-execute",
+          "tree": "ed20e3739cd753ede60d15c8539e520db56dd2b5"
+        }
+      ]
+    },
+    {
+      "name": "gsp-receiving-code-review",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-receiving-code-review",
+          "tree": "77c7ce1537a8de371a57e01cb1a29eb75c2da012"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-receiving-code-review",
+          "tree": "77c7ce1537a8de371a57e01cb1a29eb75c2da012"
+        }
+      ]
+    },
+    {
+      "name": "gsp-reflection-loop",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-reflection-loop",
+          "tree": "92e0a1383920973e3e0f8e2dc7562a152b489689"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-reflection-loop",
+          "tree": "92e0a1383920973e3e0f8e2dc7562a152b489689"
+        }
+      ]
+    },
+    {
+      "name": "gsp-searxng",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-searxng",
+          "tree": "8fa7311d36e179319f8305a611b862a4a8224e80"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-searxng",
+          "tree": "8fa7311d36e179319f8305a611b862a4a8224e80"
+        }
+      ]
+    },
+    {
+      "name": "gsp-self-healing-loop",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-self-healing-loop",
+          "tree": "b54c8a9ce6af481c7d35e58783e42d836c570939"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-self-healing-loop",
+          "tree": "b54c8a9ce6af481c7d35e58783e42d836c570939"
+        }
+      ]
+    },
+    {
+      "name": "gsp-sentiment-analysis",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-sentiment-analysis",
+          "tree": "1c221d39e32bf226dc0aa55a83c902ce6bba9708"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-sentiment-analysis",
+          "tree": "1c221d39e32bf226dc0aa55a83c902ce6bba9708"
+        }
+      ]
+    },
+    {
+      "name": "gsp-setup-pre-commit",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-setup-pre-commit",
+          "tree": "168298eddc2878423e633d284a8a1dcb223ddd35"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-setup-pre-commit",
+          "tree": "168298eddc2878423e633d284a8a1dcb223ddd35"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-analytics",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-analytics",
+          "tree": "c61f9fc813557611f7f16c395a370628d75a7792"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-analytics",
+          "tree": "c61f9fc813557611f7f16c395a370628d75a7792"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-listening",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-listening",
+          "tree": "b7e60d0cec2177455927b6aceec6dfdc403305dc"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-listening",
+          "tree": "b7e60d0cec2177455927b6aceec6dfdc403305dc"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-listening-brief",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-listening-brief",
+          "tree": "96f36cb91b8a9785f234d4ec0f2cbd78a77eda63"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-listening-brief",
+          "tree": "287b4476fc9d7bc38033e809e19af6c20149a539"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-media-analysis-workflow",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-media-analysis-workflow",
+          "tree": "3ea29d285b0d73d60b88f400a2d935ff4040b8e1"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-media-analysis-workflow",
+          "tree": "3ea29d285b0d73d60b88f400a2d935ff4040b8e1"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-media-analyzer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-media-analyzer",
+          "tree": "fc8e41be4bdd8890b0ebacd75175495beffc8fa3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-media-analyzer",
+          "tree": "fc8e41be4bdd8890b0ebacd75175495beffc8fa3"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-media-data-standards",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-media-data-standards",
+          "tree": "4517cfd9b28bdde5ead96cbe188386c4f5fd4a68"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-media-data-standards",
+          "tree": "4517cfd9b28bdde5ead96cbe188386c4f5fd4a68"
+        }
+      ]
+    },
+    {
+      "name": "gsp-social-media-intelligence",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-social-media-intelligence",
+          "tree": "49e2206e42684f2d2b2d36843da8e07e655dd8ba"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-social-media-intelligence",
+          "tree": "49e2206e42684f2d2b2d36843da8e07e655dd8ba"
+        }
+      ]
+    },
+    {
+      "name": "gsp-sosmed-html-insight",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-sosmed-html-insight",
+          "tree": "8ec03b3f5eda65f8628f53c5ef156939c0cc1ded"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-sosmed-html-insight",
+          "tree": "8ec03b3f5eda65f8628f53c5ef156939c0cc1ded"
+        }
+      ]
+    },
+    {
+      "name": "gsp-spatial-psychology",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-spatial-psychology",
+          "tree": "358602d876c6f190d0f187d4eaa5b5d372ca90cf"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-spatial-psychology",
+          "tree": "358602d876c6f190d0f187d4eaa5b5d372ca90cf"
+        }
+      ]
+    },
+    {
+      "name": "gsp-swarm-rebrand",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-swarm-rebrand",
+          "tree": "b1804ecb4bb2ab2860b4cec3bfad54bfde45069c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-swarm-rebrand",
+          "tree": "b1804ecb4bb2ab2860b4cec3bfad54bfde45069c"
+        }
+      ]
+    },
+    {
+      "name": "gsp-system-manager-ops",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-system-manager-ops",
+          "tree": "0b621b484676c92e6b51caf1ef1055b0712ada1c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-system-manager-ops",
+          "tree": "cccc1201e13f5cdbb4fd5da1be1d61ee5ecb75ea"
+        }
+      ]
+    },
+    {
+      "name": "gsp-task-architect-templates",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-task-architect-templates",
+          "tree": "ef08b44fd1ef93a13a12fafffc270f111a7f58a4"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-task-architect-templates",
+          "tree": "ef08b44fd1ef93a13a12fafffc270f111a7f58a4"
+        }
+      ]
+    },
+    {
+      "name": "gsp-to-issues",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-to-issues",
+          "tree": "7a86eb59fc8f62e005df381107d7c1d1136122c4"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-to-issues",
+          "tree": "7a86eb59fc8f62e005df381107d7c1d1136122c4"
+        }
+      ]
+    },
+    {
+      "name": "gsp-to-prd",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-to-prd",
+          "tree": "a1e9397d19f087ad8e2f08109f3048bf07f6f79d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-to-prd",
+          "tree": "a1e9397d19f087ad8e2f08109f3048bf07f6f79d"
+        }
+      ]
+    },
+    {
+      "name": "gsp-tool-adoption-pipeline",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-tool-adoption-pipeline",
+          "tree": "484c54d88287a221659d2d3d62cb42f4111d1e28"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-tool-adoption-pipeline",
+          "tree": "484c54d88287a221659d2d3d62cb42f4111d1e28"
+        }
+      ]
+    },
+    {
+      "name": "gsp-tool-batching",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-tool-batching",
+          "tree": "0e1f4df857ff1c5157317e9a60c0ee07e286c111"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-tool-batching",
+          "tree": "0e1f4df857ff1c5157317e9a60c0ee07e286c111"
+        }
+      ]
+    },
+    {
+      "name": "gsp-using-git-worktrees",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-using-git-worktrees",
+          "tree": "33b0312ee063a612cc304e2c758dc58a09d8ce8e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-using-git-worktrees",
+          "tree": "33b0312ee063a612cc304e2c758dc58a09d8ce8e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-video-to-course-module",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-video-to-course-module",
+          "tree": "3bf7a1fcda7b545d4b18a69e04d2236264df7dda"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-video-to-course-module",
+          "tree": "3bf7a1fcda7b545d4b18a69e04d2236264df7dda"
+        }
+      ]
+    },
+    {
+      "name": "gsp-web-crawling-reference",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-web-crawling-reference",
+          "tree": "e2ae4e3010b9ccb7f6e653155da3fb86b4090c9e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-web-crawling-reference",
+          "tree": "e2ae4e3010b9ccb7f6e653155da3fb86b4090c9e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-webapp-testing",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-webapp-testing",
+          "tree": "c7be1961f43a84e10bedf83b40e90fd1617931cd"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-webapp-testing",
+          "tree": "c7be1961f43a84e10bedf83b40e90fd1617931cd"
+        }
+      ]
+    },
+    {
+      "name": "gsp-word-report-deliverable",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-word-report-deliverable",
+          "tree": "6d40de4ab079b6a7ee09000f7774efea0d4c2801"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-word-report-deliverable",
+          "tree": "3697de6746a315145d951e07574cf3fb435f53c5"
+        }
+      ]
+    },
+    {
+      "name": "gsp-writing-plans",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-writing-plans",
+          "tree": "ada52d1f5842bd1d614d367910950e1277c609cd"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-writing-plans",
+          "tree": "b4d4ea0df90b9ba9013cb5699dd9a19cbe85b6b5"
+        }
+      ]
+    },
+    {
+      "name": "hermes-skill-activation",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/hermes-skill-activation",
+          "tree": "c2c241931e3651b8b1d84e826eef65787ac3fd2f"
+        },
+        {
+          "path": "3 Skills/registry-fleet/hermes-skill-activation",
+          "tree": "3e631788a1096835602a9b9c087e52fa5f2dc7c9"
+        }
+      ]
+    },
+    {
+      "name": "hw-sw-config-master",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/hw-sw-config-master",
+          "tree": "43c24c42ba24d0e740866ae28e63dd2545bcdaf3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/hw-sw-config-master",
+          "tree": "43c24c42ba24d0e740866ae28e63dd2545bcdaf3"
+        }
+      ]
+    },
+    {
+      "name": "kanban-complete-artifact-paths",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/kanban-complete-artifact-paths",
+          "tree": "cdf347492834aa25399ffd6ce8d887c4a99fdd43"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/kanban-complete-artifact-paths",
+          "tree": "cdf347492834aa25399ffd6ce8d887c4a99fdd43"
+        }
+      ]
+    },
+    {
+      "name": "llama-cpp",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/llama-cpp",
+          "tree": "125b4875cd0e7f5ed63b0a5f704dfe7135bd386d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/llama-cpp",
+          "tree": "125b4875cd0e7f5ed63b0a5f704dfe7135bd386d"
+        }
+      ]
+    },
+    {
+      "name": "mongodb-atlas-stream-processing",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/kanonik/database/nosql/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/nosql/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        }
+      ]
+    },
+    {
+      "name": "ntriq-x402-blueprint",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/ntriq-x402-blueprint",
+          "tree": "f573723ed69f2e436c9fcd89a35d84ea57de230d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/ntriq-x402-blueprint",
+          "tree": "f573723ed69f2e436c9fcd89a35d84ea57de230d"
+        }
+      ]
+    },
+    {
+      "name": "perimeter-security-designer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/perimeter-security-designer",
+          "tree": "e4f7d5ab6737b0434160236b0fc28bdde1d1dc2e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/perimeter-security-designer",
+          "tree": "e4f7d5ab6737b0434160236b0fc28bdde1d1dc2e"
+        }
+      ]
+    },
+    {
+      "name": "postgresql",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/postgresql",
+          "tree": "930b8c5941936ed70d50ac64c5e152bc5d1173e9"
+        },
+        {
+          "path": "3 Skills/kanonik/database/relational/postgresql",
+          "tree": "930b8c5941936ed70d50ac64c5e152bc5d1173e9"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/postgresql",
+          "tree": "930b8c5941936ed70d50ac64c5e152bc5d1173e9"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/relational/postgresql",
+          "tree": "930b8c5941936ed70d50ac64c5e152bc5d1173e9"
+        }
+      ]
+    },
+    {
+      "name": "postgresql-best-practices",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/postgresql-best-practices",
+          "tree": "1d9250779c0ccc6e6713cea6d3a783f47c814372"
+        },
+        {
+          "path": "3 Skills/kanonik/database/relational/postgresql-best-practices",
+          "tree": "1d9250779c0ccc6e6713cea6d3a783f47c814372"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/postgresql-best-practices",
+          "tree": "1d9250779c0ccc6e6713cea6d3a783f47c814372"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/relational/postgresql-best-practices",
+          "tree": "1d9250779c0ccc6e6713cea6d3a783f47c814372"
+        }
+      ]
+    },
+    {
+      "name": "power-backup-sizing",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/power-backup-sizing",
+          "tree": "7168df96c7ec1fd81eebc6723d0279bbb335f43d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/power-backup-sizing",
+          "tree": "7168df96c7ec1fd81eebc6723d0279bbb335f43d"
+        }
+      ]
+    },
+    {
+      "name": "prisma-expert",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/kanonik/database/orm/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/orm/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        }
+      ]
+    },
+    {
+      "name": "pustaka-teknis",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/pustaka-teknis",
+          "tree": "55b1f7d7a451c86d355972ce26104b087bda96d6"
+        },
+        {
+          "path": "3 Skills/registry-fleet/pustaka-teknis",
+          "tree": "55b1f7d7a451c86d355972ce26104b087bda96d6"
+        }
+      ]
+    },
+    {
+      "name": "rcm-analysis",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/rcm-analysis",
+          "tree": "04de4f1bfe3cbd1d15ec8398841f9ec708afbf26"
+        },
+        {
+          "path": "3 Skills/registry-fleet/rcm-analysis",
+          "tree": "04de4f1bfe3cbd1d15ec8398841f9ec708afbf26"
+        }
+      ]
+    },
+    {
+      "name": "security-review",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/security-review",
+          "tree": "89ad492a4820452ff13f9528761d764c86b07b0a"
+        },
+        {
+          "path": "3 Skills/registry-fleet/security-review",
+          "tree": "89ad492a4820452ff13f9528761d764c86b07b0a"
+        }
+      ]
+    },
+    {
+      "name": "sentiment-analysis",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/sentiment-analysis",
+          "tree": "2d61ccfe4382c2e60511b8f34ef164b686659295"
+        },
+        {
+          "path": "3 Skills/registry-fleet/sentiment-analysis",
+          "tree": "2d61ccfe4382c2e60511b8f34ef164b686659295"
+        }
+      ]
+    },
+    {
+      "name": "serving-llms-vllm",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/serving-llms-vllm",
+          "tree": "927c55d723e299357187c731853d95c36ac537f0"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/serving-llms-vllm",
+          "tree": "927c55d723e299357187c731853d95c36ac537f0"
+        }
+      ]
+    },
+    {
+      "name": "social-analytics",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/social-analytics",
+          "tree": "85314c61eb1c773861185d9f1a91ee4b9aba8ec4"
+        },
+        {
+          "path": "3 Skills/registry-fleet/social-analytics",
+          "tree": "85314c61eb1c773861185d9f1a91ee4b9aba8ec4"
+        }
+      ]
+    },
+    {
+      "name": "social-listening",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/social-listening",
+          "tree": "20cdd090e235b2f717f732886d48ba72d89277c7"
+        },
+        {
+          "path": "3 Skills/registry-fleet/social-listening",
+          "tree": "20cdd090e235b2f717f732886d48ba72d89277c7"
+        }
+      ]
+    },
+    {
+      "name": "social-listening-brief",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/social-listening-brief",
+          "tree": "b9a1e2698a4a6d3d4b139d9d0cf42feb5ddbc73e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/social-listening-brief",
+          "tree": "b9a1e2698a4a6d3d4b139d9d0cf42feb5ddbc73e"
+        }
+      ]
+    },
+    {
+      "name": "social-media-analyzer",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/social-media-analyzer",
+          "tree": "ab6a37aeb289686727029d665d1cfaa6835ac467"
+        },
+        {
+          "path": "3 Skills/registry-fleet/social-media-analyzer",
+          "tree": "ab6a37aeb289686727029d665d1cfaa6835ac467"
+        }
+      ]
+    },
+    {
+      "name": "sql-best-practices",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/sql-best-practices",
+          "tree": "b5fc80c5168c3d3c18ddcedef176dec34f550875"
+        },
+        {
+          "path": "3 Skills/kanonik/database/relational/sql-best-practices",
+          "tree": "b5fc80c5168c3d3c18ddcedef176dec34f550875"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/sql-best-practices",
+          "tree": "b5fc80c5168c3d3c18ddcedef176dec34f550875"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/relational/sql-best-practices",
+          "tree": "b5fc80c5168c3d3c18ddcedef176dec34f550875"
+        }
+      ]
+    },
+    {
+      "name": "tdd",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/tdd",
+          "tree": "f80c6318b7eaa80cea3961909cb4dfe62c3fdb4d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/tdd",
+          "tree": "f80c6318b7eaa80cea3961909cb4dfe62c3fdb4d"
+        }
+      ]
+    },
+    {
+      "name": "weights-and-biases",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/weights-and-biases",
+          "tree": "556e1eff4ba6c2eafbb406cf5d5462b85cf954cc"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/weights-and-biases",
+          "tree": "556e1eff4ba6c2eafbb406cf5d5462b85cf954cc"
+        }
+      ]
+    }
+  ],
+  "scan_reviews": [],
+  "rule_text_exempt_sha256": [
+    "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3"
+  ]
+}

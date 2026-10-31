@@ -134,7 +134,8 @@
     "6 Database",
     "7 Tools",
     "tools",
-    "tests"
+    "tests",
+    "edisi-umum"
   ],
   "manifest_files": [
     "README.md",
