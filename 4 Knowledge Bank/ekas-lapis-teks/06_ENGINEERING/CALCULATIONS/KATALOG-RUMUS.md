@@ -1,6 +1,6 @@
 # Katalog Rumus — Perpustakaan Teknis
 
-**Lokasi rak:** `C:\Users\gspen\Videos\Buku` · **Disusun:** 19 Agustus 2026
+**Lokasi rak:** `<rak-sumber>` · **Disusun:** 19 Agustus 2026
 **Isi:** seluruh rumus, ambang, dan angka acuan yang sudah digali dan diverifikasi dari
 22 buku di rak ini.
 
@@ -418,7 +418,7 @@ sepanjang jalur — bukan kapasitas langganan (cetak 730 / PDF 769).
 **Buku:** Vollmer & Möllmann, *Infrared Thermal Imaging* (2018) · folder `R3/THERMAL/`
 
 > **CATATAN DEFECT (NWSKILL-0923/D4-FIXx, 2026-09-24):** known-defect dari studi NWSKILL-0923 (register: docs/2026-09-23-nws-knowledge-register/research/thermal-korpus-detail.md, Bagian 5). Vonis sementara lapis teks; status BELUM TERKONFIRMASI sampai manusia membuka PDF primer.
-> K-5 (label folder `R3/THERMAL/` di atas): tingkat, bukan path - direktori `R3` tidak ada di `ekas/05_DOMAIN-KNOWLEDGE/` (terukur). Path lapis teks: `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`; laci PDF: `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/` (hanya `_ISI.md`; PDF primer di `C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/`). Skrip yang me-resolve label ini gagal (register K-5).
+> K-5 (label folder `R3/THERMAL/` di atas): tingkat, bukan path - direktori `R3` tidak ada di `ekas/05_DOMAIN-KNOWLEDGE/` (terukur). Path lapis teks: `ekas/05_DOMAIN-KNOWLEDGE/THERMAL/`; laci PDF: `ekas/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/` (hanya `_ISI.md`; PDF primer di `<arsip-sumber>/03_SOURCE-VAULT/R3_TEXTBOOK-HANDBOOK/THERMAL/`). Skrip yang me-resolve label ini gagal (register K-5).
 
 **Delapan parameter wajib disetel sebelum mengukur (PDF 25):** emisivitas objek · jarak
 kamera–objek · ukuran objek · kelembapan relatif · suhu lingkungan · suhu atmosfer · suhu

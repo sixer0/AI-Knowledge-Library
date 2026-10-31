@@ -38,7 +38,7 @@ memegang desainnya; skill ini memasok **angka + rujukan + batasnya**.
 
 ```
 <shared-ws>/ekas/                                  ← sumber kebenaran teks (413 berkas, ukur disk 11-10-2026)
-C:/Users/TRIAL/gsp-ekas/lengkap/03_SOURCE-VAULT/   ← PDF asli (200 berkas PDF, 4,9 GB) — jalur ABSOLUT di LUAR shared-ws;
+<arsip-sumber>/03_SOURCE-VAULT/   ← PDF asli (200 berkas PDF, 4,9 GB) — jalur ABSOLUT di LUAR shared-ws;
                                                      bukan subfolder `ekas/`, jangan ditulis `ekas/lengkap/...`
 ```
 

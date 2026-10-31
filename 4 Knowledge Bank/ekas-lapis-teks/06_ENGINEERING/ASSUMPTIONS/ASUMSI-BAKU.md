@@ -1,6 +1,6 @@
 # Asumsi Baku — yang wajib dinyatakan bila data tipis
 
-**Lokasi rak:** `C:\Users\gspen\Videos\Buku` · **Disusun:** 19 Agustus 2026
+**Lokasi rak:** `<rak-sumber>` · **Disusun:** 19 Agustus 2026
 
 Pada hampir setiap pekerjaan, sebagian data yang dibutuhkan perhitungan tidak tersedia dari
 pelanggan. Berkas ini menetapkan **cara memperlakukannya** supaya pekerjaan tetap berjalan

@@ -1,6 +1,6 @@
 # Template Berita Acara Uji
 
-**Lokasi rak:** `C:\Users\gspen\Videos\Buku` · **Disusun:** 19 Agustus 2026
+**Lokasi rak:** `<rak-sumber>` · **Disusun:** 19 Agustus 2026
 
 Kerangka berita acara untuk delapan jenis pengujian yang lazim pada pekerjaan GSP. Tiap
 kerangka menunjuk **buku sumber ambang terimanya**, sehingga BA yang dihasilkan bukan

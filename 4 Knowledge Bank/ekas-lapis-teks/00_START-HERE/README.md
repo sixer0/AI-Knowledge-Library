@@ -1,7 +1,7 @@
 # GSP — Engineering Knowledge & Assurance System
 
 **PT Gemilang Satria Perkasa** · Struktur dibangun 20 Agustus 2026
-Rak sumber: `C:\Users\gspen\Videos\Buku`
+Rak sumber: `<rak-sumber>`
 
 ---
 

@@ -967,7 +967,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-social-media-intelligence/SKILL.md,29065,3bb833c3c887e218cf2af8e45259bcc4727764a54e8223ecc1ced06d7d4713c1
 3 Skills/kanonik/gsp-social-media-monitor/SKILL.md,2415,30610692fa439f6d20524f2405a97b54c1c3a70b1db4b288ae264cad0e010bdf
 3 Skills/kanonik/gsp-sosmed-html-insight/SKILL.md,25702,ca238e24f686e7efc0910f62655a60e3c54b0e3a1ae275ddc8f2db21359425ad
-3 Skills/kanonik/gsp-spatial-psychology/SKILL.md,14763,5fe70ef460612a814753df519e81ccae0f72c7fb02aa8afae0deff4565faed46
+3 Skills/kanonik/gsp-spatial-psychology/SKILL.md,14739,d6c1777e6e3155d361daa5b79e40c024f02dcbaaa51893ff41b6430dd03db682
 3 Skills/kanonik/gsp-swarm-env-health/SKILL.md,6773,ca8e95979fcd13777d286b1cb9c9f55a5ae43d3c343966a5cf8b15dc82c920d8
 3 Skills/kanonik/gsp-swarm-rebrand/SKILL.md,3089,6fb81fd5532e7d817b0b3a2e7d46ed45c584e7b0560d215c55e8a6d04be3f068
 3 Skills/kanonik/gsp-system-control/SKILL.md,2570,7f7ecf51f73d016a91b33a5b642da55d95374577f068f5ecda76fc5625bbd133
@@ -1186,7 +1186,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/perimeter-security-designer/references/01-kerangka-perimeter.md,1628,1d9b9587147251e2bda8c5630620316b4ff8c96a30eb04af99bc9785fa78eadd
 3 Skills/kanonik/power-backup-sizing/SKILL.md,4161,34db864f93ecf1520ab20273370581225f545fb0d6ca3f45199cabfa2750af86
 3 Skills/kanonik/power-backup-sizing/references/01-rumus-dan-ambang.md,2331,60d0b4988da6b63e8a3b4b2bf47f976f50f5ed5618fca7018d5314b905365bae
-3 Skills/kanonik/pustaka-teknis/SKILL.md,9547,c972796d173f46e506c71b8d1f4993c627c58b54673cc28af3ffc6fdab3e52df
+3 Skills/kanonik/pustaka-teknis/SKILL.md,9530,328c0e68cff641f850d79868f9f0fc283f682776e5dcb6baca019b0cdf1f1357
 3 Skills/kanonik/pustaka-teknis/references/01-indeks-rumus.md,3833,7c0b31283dc6a48aa58ad59da914aa14e5888ed1a0ce21d46c80ad0d13dee6e3
 3 Skills/kanonik/pustaka-teknis/references/02-rantai-hitung-proyek.md,3657,3c700e0decb3756e1d9f1c2aac330f2011cb21184afea68477827933247ca2ca
 3 Skills/kanonik/pustaka-teknis/references/03-batas-dan-celah.md,3643,37a1cd6873725c7820261a1fdf423412d5b704e1e378d0b6e6b700369220f098
@@ -2135,7 +2135,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-social-media-intelligence/SKILL.md,29065,3bb833c3c887e218cf2af8e45259bcc4727764a54e8223ecc1ced06d7d4713c1
 3 Skills/registry-fleet/gsp-social-media-monitor/SKILL.md,2415,30610692fa439f6d20524f2405a97b54c1c3a70b1db4b288ae264cad0e010bdf
 3 Skills/registry-fleet/gsp-sosmed-html-insight/SKILL.md,25702,ca238e24f686e7efc0910f62655a60e3c54b0e3a1ae275ddc8f2db21359425ad
-3 Skills/registry-fleet/gsp-spatial-psychology/SKILL.md,14763,5fe70ef460612a814753df519e81ccae0f72c7fb02aa8afae0deff4565faed46
+3 Skills/registry-fleet/gsp-spatial-psychology/SKILL.md,14739,d6c1777e6e3155d361daa5b79e40c024f02dcbaaa51893ff41b6430dd03db682
 3 Skills/registry-fleet/gsp-swarm-env-health/SKILL.md,6773,ca8e95979fcd13777d286b1cb9c9f55a5ae43d3c343966a5cf8b15dc82c920d8
 3 Skills/registry-fleet/gsp-swarm-rebrand/SKILL.md,3089,6fb81fd5532e7d817b0b3a2e7d46ed45c584e7b0560d215c55e8a6d04be3f068
 3 Skills/registry-fleet/gsp-system-control/SKILL.md,2570,7f7ecf51f73d016a91b33a5b642da55d95374577f068f5ecda76fc5625bbd133
@@ -2354,7 +2354,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/perimeter-security-designer/references/01-kerangka-perimeter.md,1628,1d9b9587147251e2bda8c5630620316b4ff8c96a30eb04af99bc9785fa78eadd
 3 Skills/registry-fleet/power-backup-sizing/SKILL.md,4161,34db864f93ecf1520ab20273370581225f545fb0d6ca3f45199cabfa2750af86
 3 Skills/registry-fleet/power-backup-sizing/references/01-rumus-dan-ambang.md,2331,60d0b4988da6b63e8a3b4b2bf47f976f50f5ed5618fca7018d5314b905365bae
-3 Skills/registry-fleet/pustaka-teknis/SKILL.md,9547,c972796d173f46e506c71b8d1f4993c627c58b54673cc28af3ffc6fdab3e52df
+3 Skills/registry-fleet/pustaka-teknis/SKILL.md,9530,328c0e68cff641f850d79868f9f0fc283f682776e5dcb6baca019b0cdf1f1357
 3 Skills/registry-fleet/pustaka-teknis/references/01-indeks-rumus.md,3833,7c0b31283dc6a48aa58ad59da914aa14e5888ed1a0ce21d46c80ad0d13dee6e3
 3 Skills/registry-fleet/pustaka-teknis/references/02-rantai-hitung-proyek.md,3657,3c700e0decb3756e1d9f1c2aac330f2011cb21184afea68477827933247ca2ca
 3 Skills/registry-fleet/pustaka-teknis/references/03-batas-dan-celah.md,3643,37a1cd6873725c7820261a1fdf423412d5b704e1e378d0b6e6b700369220f098
@@ -2384,7 +2384,7 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/CHANGELOG.md,54906,b53b35901becd3326aeaa2d383cb8c8cdb2726f8283a537db173aa9b9b22f503
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/DOCUMENT-CONTROL.md,4741,dcd68c88edf3c50ab6c9ce8c6f89836166378801a8ff196c7b7ba568e1918a0b
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md,6170,40bb4718bb0c1d7cedc4e04e0bce18d5913e3f6ce6a66c8556d04a711e88166a
-4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/README.md,4181,836f53ec18fb7e733eec332577ebdd9dfe086de1c04e5f02666738a164229133
+4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/README.md,4167,0f9ad97d36b77c089a8e390838b5d1c078dee832edfc8f48a0a54d1788e2dada
 4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/TEMUAN-UJI-COBA-P00.md,6413,fedcd7da61cb1a3ce4491c204f0450e62471c1346dd4b5c34519b1e84b0e7398
 4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/AI-USAGE-POLICY.md,4710,828882169aed5a2ad9ed3ca9b2fcd71ab41fe9fc7ad4e8779417f5038b56e0c9
 4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md,6933,442b3b728ffbc46b3e40c395e1819d157912322e4ef4e8a79ff6fd8b7d38d8a2
@@ -2709,11 +2709,11 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md,5355,cbf8c769ffacc295989c849c8d39b7fd1015b86f34b37e1b1ba42434b734a760
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Video Demystified (Jack).md,4096,41f857a04f7c4067cbe8e7199f4919b6e75107afe5ca3c8d159d9b6eb38c5979
 4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md,5714,74968dc26ffaaadf4d9ae2201dd07aaf798ba211a1c5aa60da765130a0478104
-4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md,11334,52d4e8d6b072d05de156b90d39c95c1d930b5894d18e500f032f7ded5f1c8dae
+4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md,11320,74939b44b879dcbe58050037c40040f45acf5593848898afc956d3ac52d9d02f
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/README.md,255,cb73dad3035ca3b79a2bdd5cc087e6fdfabcc38c804b53cae8ce599a1a77f94d
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/CALC-P00-001.md,3609,185f9c99be963d6ad1be5e9c0dcdb5c0972a64eb3e52e035a93178dbb47fb332
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KARTU-P00-001.md,5586,990afbff2a4e6b5951e1fd44685d311c7fa1a83b9ab1742a18d867288f531dc9
-4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md,33646,a0bba112ad4e59d5c4dc1277316f0443acb539eef4272baaa85959e94fcd3e66
+4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md,33615,9e35f4279828def1eb2851ba16f25ee49a2b344e966c95a6ec7bcbf5cf3b4c37
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/README.md,260,af092469533aadf2895f20973495b139be6fa57fa719e345097e5bfbb2af33db
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/DESIGN-DECISIONS/DDR-P00-001.md,1812,5c282a8730141fc31389e50e362ab046219ac953f082475dbe200f414cc0fc76
 4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/DESIGN-DECISIONS/README.md,242,9198e330dde679ebd6088e8ea2dd9acb71e87273a27eb59fe28e7e6c1e5cc4e9
@@ -2728,7 +2728,7 @@ relative_path,bytes,sha256
 4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/NON-CONFORMANCE/README.md,210,c8d4a2fb1dbce72b308e7671209dbc02db8955ce5ae502ff97e0ac199bd9a353
 4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/SAT/README.md,189,a2a72c5b5e496ebc24301524078f0b0807a0a5d98bea79be077bc025097a7fbc
 4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/README.md,249,dc871c8996d244decda0f2ee58e08b079800e933e8c9778f0addbc3e2d2b684c
-4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md,14598,1f7400d7779e7a831e51471369f5eb07c8456668d7d63a3880ad18a75f2e3dec
+4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md,14584,83a81394dce3848225b27991448782f5a62ff695a2288fb2466fd62d405bae0b
 4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEST-P00-001.md,2831,a6b96f09f30bfad78ef9cf2674c069de993098914e4d9425589b1435369b6df1
 4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/ASAL-USUL.md,741,e589cbc9962371b2eb2ba44120a55b4509e222704e470a9acd1da09f3deef2b7
 4 Knowledge Bank/ekas-lapis-teks/08_EVIDENCE/BUKUV3/AUDIT-ARSITEKTUR_EKAS-vs-NeMo-Curator-DAPT.docx,13795,86ac96133a6deb962afa59f490e71cae983655e1145c2a1bf054c7941c5d868d

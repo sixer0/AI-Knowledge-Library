@@ -18,7 +18,7 @@ metadata:
   origin: "riset SPATIAL-PSI-0930 (30-09-2026); register sumber docs/2026-09-30-ruang-psikologi-baku/SUMBER-RISET.md"
   gsp-owner-profile: gsp-architecture-specialist
   gsp-relations: [cad-interior-design, cad-architecture-design, cad-3d-visualization, cad-master-orchestrator, pustaka-teknis]
-  author: gemilangsatriaperkasa.eng@gmail.com
+  author: tim pustaka
   ekosistem: cad-building-suite — lapisan alasan (why) di bawah aturan operasional (what)
 ---
 
