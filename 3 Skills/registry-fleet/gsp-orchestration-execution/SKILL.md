@@ -19,7 +19,7 @@ tags: [gsp, orchestration, kanban, dispatch, contract, traces]
 ## Non-negotiables (per user, 24-08-2026)
 1. **Kanban contract on board `default`** — create a card per subtask BEFORE
    executing; close it with concrete evidence after.
-   - `hermes kanban --board default create "<title>" --body "<blueprint: output + verify>" --assignee brahma|<gsp-profile> --priority N [--parent <id>] --json`
+   - `hermes kanban --board default create "<title>" --body "<blueprint: output + verify>" --assignee default|<gsp-profile> --priority N [--parent <id>] --json`
    - `hermes kanban --board default complete <id> --result "<bukti konkret>"`
    - A dangling card = orchestration defect. Keep honest traces: a failed
      first attempt stays `blocked` with the error, never silently deleted.

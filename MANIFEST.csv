@@ -757,7 +757,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-memory-tiering/SKILL.md,4634,0bf20049e1925f1f6bd4958f0967cd44f0e6e9f89c55668276c2b0b72806e182
 3 Skills/kanonik/gsp-memory-tiering/scripts/verify_tiering.py,2270,1dea0064cf9e36860c30bb1b956d4a2ae6fd7d628c8c2e8c2d6f43a8f985f374
 3 Skills/kanonik/gsp-observability-tracer/SKILL.md,9971,00decb3c89ff7db3cf9a3c05aa5aa7e6d1db90669503323834ea66496e45043e
-3 Skills/kanonik/gsp-orchestration-execution/SKILL.md,55911,c7eff05c4676f8a768dbea263ae82ebde6db58a5244f863ede60671cfd8d8402
+3 Skills/kanonik/gsp-orchestration-execution/SKILL.md,55912,aa443cfe7de6558e7b686a4e62263f72e8806d1e93b7ddf12dc2e23b44402683
 3 Skills/kanonik/gsp-orchestration-execution/SKILL.md.bak-bakudist,44904,fbb6095941f10d5b954bdc3a6c02500630942eff8b01c4ab7bf465de3a8c4c5b
 3 Skills/kanonik/gsp-orchestration-execution/references/batch-card-dag-execution.md,3231,4a9598f5a3e43c826628b0e62b2de48d04b1295ed9c57f3320d9a0fdf7a54255
 3 Skills/kanonik/gsp-orchestration-execution/references/board-latency-audit-kanban-db.md,3063,917369c0bd56bf462359a9ac5e5091057830671a1d28bf1c024acbc8bcf7af07
@@ -859,7 +859,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-orchestration-execution/scripts/watch_cards.py,1639,a0b9aea153cc0315a51d2b6465201b2755b1664ce69401e8576a81ca1ba5653a
 3 Skills/kanonik/gsp-orchestration-execution/scripts/watch_cards_terminal.py,1640,86a605efa21c162867f00d5e526a233ae3a45170124debc3f7ac91f595eab788
 3 Skills/kanonik/gsp-orchestration-execution/templates/board-mover-watch.py,1639,2706cff9d1dd01ffb14d01790f6c2f9471d25cc6627727adfd7dad4a3cc9823f
-3 Skills/kanonik/gsp-orchestration-execution/templates/contract-doc.md,692,080ee7baa42b6406c41f8cf0de310252fb1159eae14b944ed003473215528857
+3 Skills/kanonik/gsp-orchestration-execution/templates/contract-doc.md,693,fccc775bfc9c63d78bab88a35ac4b396c9a43bb64bc51df4797f108c8c0b6e28
 3 Skills/kanonik/gsp-orchestration-execution/templates/watchdog-loop.sh,1257,059fbecd83e69ebc54dc8a74885ae49b84813b7b9bad9b41d778846add42dc03
 3 Skills/kanonik/gsp-orchestration-flow-audit/SKILL.md,5066,27ca2ae5e4c3898e42a7395df711202283825eb7ff14a60ff3d368ad434cd705
 3 Skills/kanonik/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md,3935,24bdff489adea3387eb01e403163d0c08c7ef4c16941dd64ecf1eef2d22043a4
@@ -1923,7 +1923,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-memory-tiering/SKILL.md,4634,0bf20049e1925f1f6bd4958f0967cd44f0e6e9f89c55668276c2b0b72806e182
 3 Skills/registry-fleet/gsp-memory-tiering/scripts/verify_tiering.py,2270,1dea0064cf9e36860c30bb1b956d4a2ae6fd7d628c8c2e8c2d6f43a8f985f374
 3 Skills/registry-fleet/gsp-observability-tracer/SKILL.md,9971,00decb3c89ff7db3cf9a3c05aa5aa7e6d1db90669503323834ea66496e45043e
-3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md,55857,2f0f7873f3682ebabd562be6efb4ce26cb26dfa58175082b82dd0e943a29cadc
+3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md,55858,ff4980b7fadc148c9fd393d66e5500946e3a15b76210883337feea2028c63ba8
 3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md.bak-bakudist,44904,fbb6095941f10d5b954bdc3a6c02500630942eff8b01c4ab7bf465de3a8c4c5b
 3 Skills/registry-fleet/gsp-orchestration-execution/references/batch-card-dag-execution.md,3231,4a9598f5a3e43c826628b0e62b2de48d04b1295ed9c57f3320d9a0fdf7a54255
 3 Skills/registry-fleet/gsp-orchestration-execution/references/board-latency-audit-kanban-db.md,3063,917369c0bd56bf462359a9ac5e5091057830671a1d28bf1c024acbc8bcf7af07
@@ -2025,7 +2025,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-orchestration-execution/scripts/watch_cards.py,1639,a0b9aea153cc0315a51d2b6465201b2755b1664ce69401e8576a81ca1ba5653a
 3 Skills/registry-fleet/gsp-orchestration-execution/scripts/watch_cards_terminal.py,1640,86a605efa21c162867f00d5e526a233ae3a45170124debc3f7ac91f595eab788
 3 Skills/registry-fleet/gsp-orchestration-execution/templates/board-mover-watch.py,1639,2706cff9d1dd01ffb14d01790f6c2f9471d25cc6627727adfd7dad4a3cc9823f
-3 Skills/registry-fleet/gsp-orchestration-execution/templates/contract-doc.md,692,080ee7baa42b6406c41f8cf0de310252fb1159eae14b944ed003473215528857
+3 Skills/registry-fleet/gsp-orchestration-execution/templates/contract-doc.md,693,fccc775bfc9c63d78bab88a35ac4b396c9a43bb64bc51df4797f108c8c0b6e28
 3 Skills/registry-fleet/gsp-orchestration-execution/templates/watchdog-loop.sh,1257,059fbecd83e69ebc54dc8a74885ae49b84813b7b9bad9b41d778846add42dc03
 3 Skills/registry-fleet/gsp-orchestration-flow-audit/SKILL.md,5066,27ca2ae5e4c3898e42a7395df711202283825eb7ff14a60ff3d368ad434cd705
 3 Skills/registry-fleet/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md,3935,24bdff489adea3387eb01e403163d0c08c7ef4c16941dd64ecf1eef2d22043a4

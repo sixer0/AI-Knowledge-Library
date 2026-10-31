@@ -9,7 +9,7 @@
 
 | Kartu | Judul | Assignee | Dep | Status | Bukti |
 |---|---|---|---|---|---|
-| `t_xxxxxxxx` | <judul> | brahma / <gsp-profile> | — | ✅ done / ⛔ blocked | <bukti konkret: hasil + angka> |
+| `t_xxxxxxxx` | <judul> | default / <gsp-profile> | — | ✅ done / ⛔ blocked | <bukti konkret: hasil + angka> |
 
 ## Eksekusi
 
