@@ -1418,6 +1418,55 @@ class Pin(EditionCase):
         self.assertEqual((run.code, run.reason), (1, 'allowlist_invalid'))
 
 
+class DerivedSource(EditionCase):
+    """CR-04: wiki yang gagal diurai menghentikan build; namanya tidak boleh hilang dari gerbang."""
+
+    WIKI_PATH = '4 Knowledge Bank/wiki-information-library/catatan-tertahan.md'
+    NAME = 'Nama Perkara Tertahan'
+    BROKEN = {
+        'frontmatter_tidak_tertutup': f'---\nperkara: {NAME}\n# isi\n'.encode(),
+        'kutip_tidak_tertutup': f'---\nperkara: "{NAME}\n---\n# isi\n'.encode(),
+        'larik_tidak_tertutup': f'---\nperkara: [{NAME}\n---\n# isi\n'.encode(),
+        'bukan_utf8': f'---\nperkara: {NAME}\n---\n'.encode() + b'\xff\xfe\n',
+    }
+
+    def test_wiki_rusak_menghentikan_build(self):
+        self.control()
+        self.fx.write('1 Workflow/n.md', f'menyebut {self.NAME}.\n')
+        for label, content in self.BROKEN.items():
+            with self.subTest(label=label):
+                self.fx.write(self.WIKI_PATH, content)
+                self.fx.publish()
+                before = tree_hash(self.fx.output)
+                run = self.fx.build()
+                self.assertBlocked(run, 'derived_source_invalid')
+                self.assertEqual(tree_hash(self.fx.output), before, 'keluaran berubah')
+                self.assertBlocked(self.fx.build('--dry-run'), 'derived_source_invalid')
+                self.assertEqual(run.data['path_sha256'], [sha(self.WIKI_PATH.encode())])
+                self.assertNotIn(self.WIKI_PATH, run.stdout + run.stderr)
+                self.assertNotIn(self.NAME, run.stdout + run.stderr)
+                report = self.fx.report()
+                self.assertEqual(report['details'], [{'path': self.WIKI_PATH}])
+                self.assertNotIn(self.NAME, json.dumps(report, ensure_ascii=False))
+
+    def test_wiki_rusak_tanpa_sebutan_tetap_berhenti(self):
+        # Nama yang tidak terbaca tidak dapat dibuktikan absen dari edisi.
+        self.fx.write(self.WIKI_PATH, self.BROKEN['frontmatter_tidak_tertutup'])
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_source_invalid')
+
+    def test_kontrol_frontmatter_tertutup_kena_gerbang_nama(self):
+        self.fx.write(self.WIKI_PATH, f'---\nperkara: {self.NAME}\n---\n# isi\n')
+        self.fx.write('1 Workflow/n.md', f'menyebut {self.NAME}.\n')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_kontrol_wiki_tanpa_frontmatter_lulus(self):
+        self.fx.write(self.WIKI_PATH, '# Tanpa frontmatter\n')
+        self.fx.publish()
+        self.assertPass(self.fx.build())
+
+
 class SourceRules(unittest.TestCase):
     """Sifat kode pada clone ini: arah impor satu, pustaka standar, flag koleksi tidak dibaca."""
 

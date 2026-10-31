@@ -12,7 +12,8 @@ Deterministik, stdlib-only. Dua moda input (salah satu wajib):
                          blueprint banyak gelombang memakai --cards per gelombang.
 
 Cek:
-  CHECK 1  tumbukan-lock-antar-kartu : dua kartu satu gelombang berbagi satu target LOCK non-RO -> FAIL
+  CHECK 1  tumbukan-lock-antar-kartu : dua kartu satu gelombang berbagi satu target LOCK non-RO -> FAIL;
+                                       dinilai per kartu, jadi ID ganda atau kosong tidak menghapus tumbukan
   CHECK 2  kartu-tulis-tanpa-lock    : kartu tulis (readonly!=true) dengan locks kosong -> FAIL
   CHECK 3  duplikat-target-dalam-kartu: duplikat target dalam satu kartu -> INFO
 
@@ -104,11 +105,11 @@ def parse_blueprint(path):
                 j += 1
             if header and normalized_header(header[-1]) in LOCK_HEADERS:
                 for r in body:
-                    if not r or not r[0]:
+                    if not any(r):
                         continue
                     while len(r) < len(header):
                         r.append("")
-                    cid = r[0]
+                    cid = r[0] or "?"
                     title = r[1] if len(r) > 1 and r[1] else cid
                     value = lock_value(r[len(header) - 1:], normalized_header(header[-1]))
                     readonly = value.upper() in READONLY_VALUES
@@ -161,12 +162,12 @@ def run_guard(cards):
             continue
         for t in sorted(set(write_targets(c))):
             claims.setdefault(t, []).append(c["id"])
-    pairs = set()
+    # Satu entri per kartu, jadi ID yang sama tetap dua pemilik. Pasangan disimpan dalam list karena alasan yang sama.
+    pairs = []
     for t, owners in claims.items():
-        owners = sorted(set(owners))
         for a in range(len(owners)):
             for b in range(a + 1, len(owners)):
-                pairs.add((owners[a], owners[b], t))
+                pairs.append((owners[a], owners[b], t))
     if pairs:
         fail = True
         detail = "; ".join("%s~%s:%s" % p for p in sorted(pairs))

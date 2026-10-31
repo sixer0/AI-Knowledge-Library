@@ -1037,20 +1037,27 @@ def token_regex(names):
 
 
 def collect_derived_names(files, repository):
-    """Pembanding dihitung dari blob wiki pada commit, hanya di memori (RK-21)."""
-    names = set()
+    """Pembanding dihitung dari blob wiki pada commit, hanya di memori (RK-21).
+
+    Frontmatter yang gagal diurai menghentikan build: nama di dalamnya tidak terbaca, jadi
+    gerbang tidak dapat membuktikan nama itu absen dari edisi. Path hanya menuju N-49.
+    """
+    names, invalid_sources = set(), []
     for path in files:
         if not path.startswith(WIKI) or not path.endswith('.md'):
             continue
         try:
             value = parse_frontmatter(repository.blob(files[path][1])).get('perkara')
         except (ValueError, UnicodeDecodeError):
+            invalid_sources.append(path)
             continue
         values = value if isinstance(value, list) else [value]
         values = [item.strip() for item in values if isinstance(item, str) and item.strip()]
         if values:
             names.update(values)
             names.add(Path(posixpath.basename(path)).stem)
+    if invalid_sources:
+        raise Blocked('derived_source_invalid', [{'path': path} for path in sorted(invalid_sources, key=sort_key)])
     return token_regex(name for name in names if len(name) >= DERIVED_MIN_CHARS)
 
 

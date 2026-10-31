@@ -24,6 +24,13 @@ def blueprint(last_header, *last_cells):
     return '\n'.join(lines) + '\n'
 
 
+def id_table(*rows):
+    """Tabel dengan kolom pertama ditentukan sendiri, untuk ID ganda dan ID kosong."""
+    lines = ['| Step | Tugas | LOCK |', '|---|---|---|']
+    lines += [f'| {card_id} | tugas | {lock} |' for card_id, lock in rows]
+    return '\n'.join(lines) + '\n'
+
+
 def guard_violations(source):
     """Bentuk di luar klaim RK-33: impor selain daftar, pemuatan dinamis, open tulis, dan pemanggilan penulis."""
     found = []
@@ -182,6 +189,60 @@ class WaveLockGuardTests(unittest.TestCase):
                 code, out = self.run_guard('--cards', 'gelombang.json', json.dumps([card]))
                 self.assertEqual(code, 0, out)
                 self.assertIn('CHECK 1: PASS', out)
+
+    # CR-01: tumbukan dinilai per kartu, bukan per ID.
+
+    def test_same_id_cards_collide(self):
+        code, out = self.run_blueprint(id_table(('W1', 'a.md'), ('W1', 'a.md')))
+        self.assertEqual(code, 1, out)
+        self.assertIn('W1~W1:a.md', out)
+        cards = [{'id': 'W1', 'locks': ['a.md']}, {'id': 'W1', 'locks': ['a.md']}]
+        code, out = self.run_guard('--cards', 'gelombang.json', json.dumps(cards))
+        self.assertEqual(code, 1, out)
+        self.assertIn('W1~W1:a.md', out)
+
+    def test_cards_without_id_collide(self):
+        for cards in ([{'locks': ['a.md']}, {'locks': ['a.md']}],
+                      [{'id': '', 'locks': ['a.md']}, {'id': None, 'locks': ['a.md']}]):
+            with self.subTest(cards=cards):
+                code, out = self.run_guard('--cards', 'gelombang.json', json.dumps(cards))
+                self.assertEqual(code, 1, out)
+                self.assertIn('?~?:a.md', out)
+
+    def test_blueprint_rows_without_id_collide(self):
+        # Sel pertama kosong bukan alasan melewati baris: kartunya tetap menulis.
+        code, out = self.run_blueprint(id_table(('', 'a.md'), ('', 'a.md')))
+        self.assertEqual(code, 1, out)
+        self.assertIn('?~?:a.md', out)
+
+    def test_three_same_id_cards_count_every_pair(self):
+        code, out = self.run_blueprint(id_table(('W1', 'a.md'), ('W1', 'a.md'), ('W1', 'a.md')))
+        self.assertEqual(code, 1, out)
+        self.assertIn('3 pasangan', out)
+
+    def test_different_ids_readonly_do_not_collide(self):
+        # Kontrol CR-01: perbaikan tidak mengarang tumbukan pada kartu hanya-baca.
+        code, out = self.run_blueprint(id_table(('W1', 'a.md RO'), ('W2', 'a.md RO')))
+        self.assertEqual(code, 0, out)
+        self.assertIn('CHECK 1: PASS', out)
+        cards = [{'id': 'W1', 'locks': ['a.md'], 'readonly': True}, {'id': 'W2', 'locks': ['a.md'], 'readonly': True}]
+        code, out = self.run_guard('--cards', 'gelombang.json', json.dumps(cards))
+        self.assertEqual(code, 0, out)
+        self.assertIn('CHECK 1: PASS', out)
+
+    def test_same_id_without_shared_write_passes(self):
+        # Kontrol CR-01: ID sama saja bukan tumbukan, dan satu kartu tidak bertumbukan dengan dirinya.
+        for rows in ((('W1', 'a.md'), ('W1', 'b.md')), (('W1', 'a.md'), ('W1', 'a.md RO')), (('W1', 'a.md; a.md'),)):
+            with self.subTest(rows=rows):
+                code, out = self.run_blueprint(id_table(*rows))
+                self.assertEqual(code, 0, out)
+                self.assertIn('CHECK 1: PASS', out)
+
+    def test_empty_row_is_not_a_card(self):
+        # Kontrol CR-01: baris tanpa isi sama sekali tetap dilewati.
+        code, out = self.run_blueprint(id_table(('W1', 'a.md'), ('', '')).replace('|  | tugas |  |', '|  |  |  |'))
+        self.assertEqual(code, 0, out)
+        self.assertIn('CHECK 2: PASS', out)
 
     def test_guard_has_no_subprocess_socket_or_writer(self):
         # RK-33: dasar pengecualian N-18 sebagai satu-satunya pemanggil skrip 7 Tools.
