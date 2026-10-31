@@ -18,7 +18,7 @@ metadata:
   origin: cad-building-suite@1.0.0-1.4.0 (delta v1.4 CAD-IMPROVE-01 clearance difabel + landing pintu)
   gsp-owner-profile: gsp-architecture-specialist
   gsp-relations: [gsp-design-system-grill, cad-drawing-standards, cad-mep-design]
-  author: gemilangsatriaperkasa.eng@gmail.com
+  author: tim pustaka
   ecosystem: cad-building-suite — menulis bagian furnitur/finish/plafon di PROJECT.json
 ---
 
@@ -184,13 +184,13 @@ Hasil adaptasi CAD-SWARM-01; sumber angka MCP-RISIK.md (smoke terverifikasi 2026
 - DXF: jalankan skrip ezdxf dengan `uv run --python 3.11 --with ezdxf python <skrip>.py`
   (ezdxf 1.4.4 terverifikasi; DXF R2010/AC1024; `$INSUNITS=4` mm sesuai skema PROJECT.json).
 - MCP DXF: tool `make_dxf` dari ezdxf-mcp built-owned lewat
-  `uv run --python 3.11 --with ezdxf python C:/Users/TRIAL/workspace/CAD/tools/mcp/ezdxf-mcp/server.py`
+  `uv run --python 3.11 --with ezdxf python <folder-rumah>/workspace/CAD/tools/mcp/ezdxf-mcp/server.py`
   (stdio JSON-RPC newline-delimited; terdaftar pada profil arch/3d/master per kartu MCP-6).
 - Render 3D kanonik: Blender portable absolut
-  `C:/Users/TRIAL/workspace/CAD/tools/blender-4.2.9-windows-x64/blender.exe -b -P <skrip>.py`
+  `<folder-rumah>/workspace/CAD/tools/blender-4.2.9-windows-x64/blender.exe -b -P <skrip>.py`
   (headless bpy; engine final CYCLES; serial rule maksimum 1 proses Cycles fleet-wide).
 - blender-mcp opsional interaktif (butuh GUI + addon TCP 9876): `uvx blender-mcp` (v1.9.1)
-  dengan addon `C:/Users/TRIAL/workspace/CAD/tools/mcp/blender-mcp/addon.py`; jalur benchmark
+  dengan addon `<folder-rumah>/workspace/CAD/tools/mcp/blender-mcp/addon.py`; jalur benchmark
   tetap `blender -b -P` dan tidak bergantung padanya.
 - Host ini TIDAK memasang AutoCAD desktop: rujukan "perintah AutoCAD" di badan skill dibaca
   sebagai permintaan teks urutan perintah saja, sedangkan jalur eksekusi nyata gambar adalah
