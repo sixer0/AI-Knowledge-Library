@@ -241,7 +241,7 @@
     {
       "kind": "file",
       "path": "KEBIJAKAN-SENSITIVITAS.md",
-      "blob": "d2f2b8da61f470957c8fca4bd07976ebf72071ff"
+      "blob": "112293cb46169bb8f9258c26cf2111d602da6c8e"
     },
     {
       "kind": "file",
@@ -905,97 +905,6 @@
       ]
     },
     {
-      "name": "gsp-social-analytics",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-analytics",
-          "tree": "c61f9fc813557611f7f16c395a370628d75a7792"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-analytics",
-          "tree": "c61f9fc813557611f7f16c395a370628d75a7792"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-listening",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-listening",
-          "tree": "b7e60d0cec2177455927b6aceec6dfdc403305dc"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-listening",
-          "tree": "b7e60d0cec2177455927b6aceec6dfdc403305dc"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-listening-brief",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-listening-brief",
-          "tree": "96f36cb91b8a9785f234d4ec0f2cbd78a77eda63"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-listening-brief",
-          "tree": "287b4476fc9d7bc38033e809e19af6c20149a539"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-media-analysis-workflow",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-media-analysis-workflow",
-          "tree": "3ea29d285b0d73d60b88f400a2d935ff4040b8e1"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-media-analysis-workflow",
-          "tree": "3ea29d285b0d73d60b88f400a2d935ff4040b8e1"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-media-analyzer",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-media-analyzer",
-          "tree": "fc8e41be4bdd8890b0ebacd75175495beffc8fa3"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-media-analyzer",
-          "tree": "fc8e41be4bdd8890b0ebacd75175495beffc8fa3"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-media-data-standards",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-media-data-standards",
-          "tree": "4517cfd9b28bdde5ead96cbe188386c4f5fd4a68"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-media-data-standards",
-          "tree": "4517cfd9b28bdde5ead96cbe188386c4f5fd4a68"
-        }
-      ]
-    },
-    {
-      "name": "gsp-social-media-intelligence",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/gsp-social-media-intelligence",
-          "tree": "49e2206e42684f2d2b2d36843da8e07e655dd8ba"
-        },
-        {
-          "path": "3 Skills/registry-fleet/gsp-social-media-intelligence",
-          "tree": "49e2206e42684f2d2b2d36843da8e07e655dd8ba"
-        }
-      ]
-    },
-    {
       "name": "gsp-to-issues",
       "copies": [
         {
@@ -1207,58 +1116,6 @@
       ]
     },
     {
-      "name": "social-analytics",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/social-analytics",
-          "tree": "85314c61eb1c773861185d9f1a91ee4b9aba8ec4"
-        },
-        {
-          "path": "3 Skills/registry-fleet/social-analytics",
-          "tree": "85314c61eb1c773861185d9f1a91ee4b9aba8ec4"
-        }
-      ]
-    },
-    {
-      "name": "social-listening",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/social-listening",
-          "tree": "20cdd090e235b2f717f732886d48ba72d89277c7"
-        },
-        {
-          "path": "3 Skills/registry-fleet/social-listening",
-          "tree": "20cdd090e235b2f717f732886d48ba72d89277c7"
-        }
-      ]
-    },
-    {
-      "name": "social-listening-brief",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/social-listening-brief",
-          "tree": "b9a1e2698a4a6d3d4b139d9d0cf42feb5ddbc73e"
-        },
-        {
-          "path": "3 Skills/registry-fleet/social-listening-brief",
-          "tree": "b9a1e2698a4a6d3d4b139d9d0cf42feb5ddbc73e"
-        }
-      ]
-    },
-    {
-      "name": "social-media-analyzer",
-      "copies": [
-        {
-          "path": "3 Skills/kanonik/social-media-analyzer",
-          "tree": "ab6a37aeb289686727029d665d1cfaa6835ac467"
-        },
-        {
-          "path": "3 Skills/registry-fleet/social-media-analyzer",
-          "tree": "ab6a37aeb289686727029d665d1cfaa6835ac467"
-        }
-      ]
-    },
-    {
       "name": "sql-best-practices",
       "copies": [
         {
@@ -1326,7 +1183,7 @@
     },
     {
       "group": "CLASS_MARK",
-      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -1380,7 +1237,7 @@
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
       "lines": 5,
       "basis": "generic-word"
     },
@@ -1446,7 +1303,7 @@
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -1489,12 +1346,6 @@
     {
       "group": "DERIVED_NAME",
       "source_sha256": "45630d2f0bd23f37645de65215e80dea323eab2ca854e5ddfb2b48d492990770",
-      "lines": 2,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
-      "source_sha256": "6d1b378b23ae0b0e337ff72820e8e0a23e46101205d6ba0556acce8a341b372a",
       "lines": 2,
       "basis": "generic-word"
     },
@@ -1566,12 +1417,6 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "d1743ae33398218842deea1fc17b845c5b51d0ece8a8889b07e05847b11f613c",
-      "lines": 2,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
       "source_sha256": "d4f2bea6ec445085b0a6019c9714423ee08068b902079db1e71d769e19fa6590",
       "lines": 4,
       "basis": "generic-word"
@@ -1614,12 +1459,6 @@
     },
     {
       "group": "PERSONAL",
-      "source_sha256": "2302ba01281aa69e2097b748f63fca154c20200cfc9ebdca366d22d775af1490",
-      "lines": 1,
-      "basis": "generic-word"
-    },
-    {
-      "group": "PERSONAL",
       "source_sha256": "304bbcdc800140faf856f26dd9e0a6513a6f602f6000a2287e009507e5400a6a",
       "lines": 2,
       "basis": "documentation-example"
@@ -1629,16 +1468,10 @@
       "source_sha256": "6a11faf7fb50e04cb071b90c4662bfc953a67c5c7edbe9675d01360135cf26cd",
       "lines": 2,
       "basis": "documentation-example"
-    },
-    {
-      "group": "PERSONAL",
-      "source_sha256": "e4873b55cc35de4e889d9878767623e10ccd30b92abdb728819bfdc441d4ab0f",
-      "lines": 1,
-      "basis": "generic-word"
     }
   ],
   "rule_text_exempt_sha256": [
-    "8eab4e184817f80f0302e2428f83278a97617161a167c4cd0f014f06f591ebb3"
+    "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1"
   ],
   "approval": {
     "status": "approved",

@@ -12,6 +12,7 @@ yang tercantum pada daftar itu yang ikut. Edisi dibangun dari commit sumber
   Izinkan folder edisi saja, bukan induknya.
 - Isi edisi tetap mengalir ke penyedia model dari harness yang membacanya.
 - Pemindaian pola saat build adalah batas bawah, bukan jaminan bahwa isi sudah bersih.
+- Persetujuan (`approval`) daftar izin dan tinjauan atas isi edisi ini diberikan AI atas pelimpahan pemilik, bukan tinjauan pemilik.
 
 Kategori materi terbatas dan aturan pemakaiannya ada pada `KEBIJAKAN-SENSITIVITAS.md`.
 
@@ -50,7 +51,7 @@ setelah edisi dibangun ulang, dan tidak ada pemeriksaan otomatis atas pergeseran
 ## Pemeriksaan keutuhan
 
 [MANIFEST.csv](MANIFEST.csv) mencatat path relatif, ukuran byte, dan SHA-256 berkas edisi.
-Manifest tidak mencatat dirinya sendiri, metadata Git, atau `.gitignore`.
+Manifest tidak mencatat dirinya sendiri, metadata Git, `.gitignore`, atau `.gitattributes`.
 
 Jalankan `python3 tools/library.py check` dari root edisi. Hasil lulus membuktikan keutuhan
 terhadap manifest edisi, bukan kesegaran terhadap sumber. Untuk menilai kesegaran, bandingkan
