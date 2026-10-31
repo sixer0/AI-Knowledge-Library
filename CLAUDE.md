@@ -6,3 +6,5 @@ penelusuran koleksi yang sama untuk semua harness. Lokasi koleksi ditetapkan pad
 
 Koleksi skill dan profil lama adalah referensi. Gunakan sesuai tugas pengguna tanpa
 mengimpor konfigurasi host, provider, atau model dari lingkungan sumber secara otomatis.
+
+@AGENTS.md

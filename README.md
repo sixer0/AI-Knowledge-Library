@@ -1,9 +1,10 @@
 # AI Knowledge Library GSP
 
+**Clone penuh, terbatas.** Repositori ini memuat materi terbatas, termasuk perkara klien, data pribadi, dan rincian host. Jangan menjadikannya pustaka lintas proyek. Hanya harness dan penyedia model yang dinamai pemilik yang boleh membacanya; lihat [KEBIJAKAN-SENSITIVITAS.md](KEBIJAKAN-SENSITIVITAS.md). Catatan ini tidak mencegah pembacaan. Untuk tugas lain, gunakan edisi umum bila tersedia pada perangkat ini; bila belum tersedia, tugas itu belum punya jalur dan tidak beralih ke clone penuh.
+
 Pustaka pengetahuan dan perkakas operasional PT. Gemilang Satria Perkasa (GSP).
-Edisi sumber dibuat pada 19 Oktober 2026 dari host Swarm untuk NAS UGREEN
-(192.168.0.90, share GSP-DATA), melalui kartu SKL-NAS-1019.
-Salinan ini dikelola dalam [repositori GitHub privat](https://github.com/sixer0/AI-Knowledge-Library).
+Edisi sumber dibuat pada 19 Oktober 2026 dari host Swarm untuk NAS, melalui kartu SKL-NAS-1019.
+Salinan ini dikelola dalam [repositori GitHub yang tidak publik](https://github.com/sixer0/AI-Knowledge-Library).
 
 ## Cara menggunakan pustaka
 
@@ -21,9 +22,9 @@ salinannya tersedia.
 |---|---|---:|
 | [1 Workflow](1%20Workflow/INDEKS.md) | Prosedur kerja, standar penataan dan metadata, pemeriksaan harian pustaka, serta jadwal otomatis (cron). | 8 |
 | [2 Roles](2%20Roles/INDEKS.md) | Tugas dan kewenangan agen, daftar profil aktif, serta controller yang terikat pada akun pengguna (RBAC). | 49 |
-| [3 Skills](3%20Skills/INDEKS.md) | Sumber skill yang dikurasi (`kanonik`) dan salinan yang digunakan fleet (`registry-fleet`). | 2320 |
+| [3 Skills](3%20Skills/INDEKS.md) | Sumber skill yang dikurasi (`kanonik`) dan salinan yang digunakan fleet (`registry-fleet`). | 2321 |
 | [4 Knowledge Bank](4%20Knowledge%20Bank/INDEKS.md) | Wiki Information Library, lapisan teks EKAS, indeks pengetahuan, dan katalog dokumen. | 1292 |
-| [5 Integration](5%20Integration/INDEKS.md) | Hubungan antarkomponen Hermes, bridge pengiriman tugas, Headquarter pada port 9011, dan WebUI pada port 9012. | 6 |
+| [5 Integration](5%20Integration/INDEKS.md) | Hubungan antarkomponen Hermes, bridge pengiriman tugas, Headquarter, dan WebUI. | 6 |
 | [6 Database](6%20Database/INDEKS.md) | Skema Prisma HQ dan salinan keadaan basis data kanban pada tanggal edisi. | 2 |
 | [7 Tools](7%20Tools/INDEKS.md) | Skrip pemantauan, audit, pengelolaan tugas, utilitas repositori, dan contoh prompt historis. | 743 |
 
