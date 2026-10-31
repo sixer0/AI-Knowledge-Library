@@ -7,8 +7,13 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 import re
 import sys
+import unicodedata
+
+ENTRY_MAX_LINES = 200
+ENTRY_MAX_BYTES = 32768
 
 
 def normalize(value):
@@ -169,6 +174,7 @@ class Library:
 
     def check(self):
         failures, counts = [], Counter()
+        edition, not_in_clone = self.config.get('edition'), 0
         for key, target in self.config.get('roots', {}).items():
             result = self._local(self.root / target, '', target)
             if result['status'] != 'local':
@@ -189,7 +195,10 @@ class Library:
             for reference in markdown_links(file.read_text(encoding='utf-8')):
                 result = self.resolve(reference, document)
                 counts[result['status']] += 1
-                if result['status'] not in {'local', 'external'}:
+                if edition is not None and result.get('reason') == 'not_in_clone':
+                    # Di edisi, tautan ke berkas yang tidak ikut dihitung; selisih jumlah yang menggagalkan.
+                    not_in_clone += 1
+                elif result['status'] not in {'local', 'external'}:
                     failures.append({'document': document, **result})
         seen = set()
         for row in rows:
@@ -203,16 +212,69 @@ class Library:
             data = Path(result['absolute_path']).read_bytes()
             if len(data) != int(row['bytes']) or hashlib.sha256(data).hexdigest() != row['sha256']:
                 failures.append({'file': name, 'reason': 'manifest_mismatch'})
+        expected = self.manifest_expected()
+        if expected != seen:
+            failures.append({'reason': 'manifest_coverage', 'missing': sorted(expected - seen),
+                             'unexpected': sorted(seen - expected)})
+        failures += self.scope_failures() + self.alias_shadows() + self.entrypoint_failures()
+        if edition is not None and edition.get('expected_missing') != not_in_clone:
+            failures.append({'reason': 'expected_missing_mismatch', 'expected': edition.get('expected_missing'),
+                             'found': not_in_clone})
+        return {'status': 'pass' if not failures else 'fail', 'links': dict(counts), 'documents_checked': len(documents),
+                'manifest_entries': len(rows), 'failures': failures}
+
+    def manifest_expected(self):
+        """Cakupan manifest; satu aturan untuk `check` dan `tools/update_manifest.py`."""
         expected = set(self.config.get('manifest_files', []))
         for directory in self.config.get('manifest_roots', []):
             for path in self.inside(self.root / directory).rglob('*'):
                 if path.is_file() and '__pycache__' not in path.parts and path.name != '.DS_Store' and path.suffix != '.pyc':
                     expected.add(path.relative_to(self.root).as_posix())
-        if expected and expected != seen:
-            failures.append({'reason': 'manifest_coverage', 'missing': sorted(expected - seen),
-                             'unexpected': sorted(seen - expected)})
-        return {'status': 'pass' if not failures else 'fail', 'links': dict(counts), 'documents_checked': len(documents),
-                'manifest_entries': len(rows), 'failures': failures}
+        return expected
+
+    def scope_failures(self):
+        """`check` tidak boleh lulus tanpa mengukur: lingkup kosong, root hilang, berkas root tak terdaftar."""
+        files, roots = self.config.get('manifest_files', []), self.config.get('manifest_roots', [])
+        failures = [] if files or roots else [{'reason': 'manifest_scope_empty'}]
+        failures += [{'reason': 'manifest_root_missing', 'root': directory} for directory in roots
+                     if not self.inside(self.root / directory).is_dir()]
+        # Berkas titik di root sengaja di luar manifest (README.md, N-16).
+        listed = {*files, *self.config['managed_documents'], self.config['manifest'], 'library.json'}
+        failures += [{'reason': 'root_file_unlisted', 'file': path.name} for path in sorted(self.root.iterdir())
+                     if path.is_file() and not path.name.startswith('.') and path.name not in listed]
+        return failures
+
+    def alias_shadows(self):
+        """Folder nyata membayangi alias, per segmen dari root, dengan NFC dan casefold.
+
+        Memakai daftar folder, bukan `exists()`, agar hasilnya sama di semua sistem berkas.
+        Alias drive dilewati karena `resolve` tidak pernah mengembalikan path lokal untuk bentuk itu.
+        """
+        def key(name):
+            return unicodedata.normalize('NFC', name).casefold()
+        failures = []
+        for alias in self.config.get('aliases', []):
+            source = normalize(alias['source'])
+            if re.match(r'^[A-Za-z]:/', source):
+                continue
+            found = ['']
+            for segment in source.split('/'):
+                found = [f'{parent}/{name}'.lstrip('/') for parent in found if (self.root / parent).is_dir()
+                         for name in sorted(os.listdir(self.root / parent)) if key(name) == key(segment)]
+            failures += [{'reason': 'alias_shadow', 'alias': alias['source'], 'found': name} for name in found]
+        return failures
+
+    def entrypoint_failures(self):
+        """C-16: `wc -l` harus kurang dari ENTRY_MAX_LINES. C-18: paling banyak ENTRY_MAX_BYTES."""
+        name = self.config.get('entrypoint', 'HARNESS.md')
+        file = self.inside(self.root / name)
+        if not file.is_file():
+            return []
+        data = file.read_bytes()
+        lines = data.count(b'\n')
+        if lines < ENTRY_MAX_LINES and len(data) <= ENTRY_MAX_BYTES:
+            return []
+        return [{'reason': 'entrypoint_oversize', 'file': name, 'lines': lines, 'bytes': len(data)}]
 
 
 def main():
