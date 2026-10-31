@@ -2,7 +2,7 @@
 
 Skill GSP tersedia dalam dua salinan: `kanonik` adalah sumber kurasi, sedangkan `registry-fleet` adalah salinan yang digunakan fleet. Buka `SKILL.md` pada skill yang sesuai, lalu ikuti rujukan yang diperlukan. Controller berarti koordinator, worker berarti pelaksana, dan dispatch berarti pengiriman tugas. Provenans adalah catatan asal-usul sumber. Kode aturan dan nama antarmuka dipertahankan agar tetap dapat dicari.
 
-Edisi sumber: 2026-10-19 | Berkas isi: 2320 | Total: 31.2 MB | Bahasa diperiksa: 2026-10-19
+Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|
@@ -1868,6 +1868,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2320 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/registry-fleet/gsp-long-document-assembly/scripts/estimate_docx_pages.py`](registry-fleet/gsp-long-document-assembly/scripts/estimate_docx_pages.py) | 3 KB |
 | [`3 Skills/registry-fleet/gsp-memory-lookup/SKILL.md`](registry-fleet/gsp-memory-lookup/SKILL.md) | 2 KB |
 | [`3 Skills/registry-fleet/gsp-memory-tiering/SKILL.md`](registry-fleet/gsp-memory-tiering/SKILL.md) | 5 KB |
+| [`3 Skills/registry-fleet/gsp-memory-tiering/scripts/verify_tiering.py`](registry-fleet/gsp-memory-tiering/scripts/verify_tiering.py) | 2 KB |
 | [`3 Skills/registry-fleet/gsp-observability-tracer/SKILL.md`](registry-fleet/gsp-observability-tracer/SKILL.md) | 10 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md`](registry-fleet/gsp-orchestration-execution/SKILL.md) | 55 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md.bak-bakudist`](registry-fleet/gsp-orchestration-execution/SKILL.md.bak-bakudist) | 44 KB |

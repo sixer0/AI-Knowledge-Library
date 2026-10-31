@@ -58,7 +58,7 @@ relative_path,bytes,sha256
 2 Roles/peran-fleet/gsp-verifier.md,20835,0138db16d0e55104dbbc36e7a89553904c115c1f1e25a1cc561e36d18012f2d7
 2 Roles/peran-fleet/gsp-vss-specialist.md,20203,2f787d19dffa1133046b70e210e63c5ed83b3cb860cf4f127ac2ca6a71090425
 2 Roles/peran-fleet/rafif.md,20976,83925ff1bf51c036f0642c6c884b2279c29476595f834695d2587b796de2371e
-3 Skills/INDEKS.md,406688,f2cca0a7555f66b131062df3d3599bfdac46550a64634a62f26620789d3cfb00
+3 Skills/INDEKS.md,406833,45f02c111dd046714862dfc245fc77e0fff694e4d53e658875b8b08e1d9ad1b1
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/SKILL.md,2138,8f438cefea2789ce74b4915edbfd7f1ca5b3a6514508a53d04ede0e5a69bc431
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/database-selection.md,1180,710557db56c0e594f292f2221f0aa6e9a2466e3ab57818ebbd7bb69c2ab95ba6
 3 Skills/kanonik/_salvage-profil-merge-1010/database-design/indexing.md,931,fc215671e11f302f3523a0b2234f1d6b9fe6c7b3f5038ba36fd65fc4652bd03c
@@ -1921,6 +1921,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-long-document-assembly/scripts/estimate_docx_pages.py,3065,9c9df4f69fb1e7fb13c81764167fa5779b4116b4063bd17a70889c18ed1d675c
 3 Skills/registry-fleet/gsp-memory-lookup/SKILL.md,2448,7db71676d4515802b6da69d36cb69d00584b8dc433f03d58855963f59b75ae70
 3 Skills/registry-fleet/gsp-memory-tiering/SKILL.md,4634,0bf20049e1925f1f6bd4958f0967cd44f0e6e9f89c55668276c2b0b72806e182
+3 Skills/registry-fleet/gsp-memory-tiering/scripts/verify_tiering.py,2270,1dea0064cf9e36860c30bb1b956d4a2ae6fd7d628c8c2e8c2d6f43a8f985f374
 3 Skills/registry-fleet/gsp-observability-tracer/SKILL.md,9971,00decb3c89ff7db3cf9a3c05aa5aa7e6d1db90669503323834ea66496e45043e
 3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md,55857,2f0f7873f3682ebabd562be6efb4ce26cb26dfa58175082b82dd0e943a29cadc
 3 Skills/registry-fleet/gsp-orchestration-execution/SKILL.md.bak-bakudist,44904,fbb6095941f10d5b954bdc3a6c02500630942eff8b01c4ab7bf465de3a8c4c5b
