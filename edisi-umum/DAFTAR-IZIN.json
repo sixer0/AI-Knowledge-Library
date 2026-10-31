@@ -35,6 +35,831 @@
     },
     {
       "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md",
+      "blob": "bfc188035c564b89239f6f871b35d4b5964826a2"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/README.md",
+      "blob": "9f9cf87b39d479f3c7032be705a06775a0cbe4dd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/00_START-HERE/TEMUAN-UJI-COBA-P00.md",
+      "blob": "8c3bd8bbd0938ce548b1f9aeecde19b5b47165dd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/AI-USAGE-POLICY.md",
+      "blob": "4363cb099c1d91b67109acbf19257e512ec954b4"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-GATES.md",
+      "blob": "da19b43cca698b3b37cc0b5c48b39c7355f31999"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/ASSURANCE-WORKFLOW.md",
+      "blob": "e99b1e6defdfbbb0b1d480dd12d1f19c2b450ea6"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/AUTHORITY-STATUS.md",
+      "blob": "8a157fc7719e7cb986e9f3f7a699ed5ee911eea9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/01_GOVERNANCE/REFERENCE-CONFIDENCE-LEVEL.md",
+      "blob": "adc8efeedb29a8cf9d2d7b88d3b0dd88f47b34dd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/CALCULATION-REGISTER.csv",
+      "blob": "b0dafbddfceaaa5bbc0ec59bd2997a90e7e45af9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/DESIGN-DECISION-REGISTER.csv",
+      "blob": "dfb7684fc3c7287b36418993145ad6d20b2e24aa"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/MASTER-REFERENCE-REGISTER.md",
+      "blob": "cef95474cfc400bc89a0504f9db23464180e7df4"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/REQUIREMENT-REGISTER.csv",
+      "blob": "0dc19b5621ecd493da946798b745d5b280581b53"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/TEST-REGISTER.csv",
+      "blob": "089c33d881db7145a75f365a1055da471a353d1f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/REF-BLD-001.md",
+      "blob": "66ebf830e10543604a0e5483d6145ae344009302"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/REF-BLD-002.md",
+      "blob": "d8fdea7c316bdf1d39be3ae691d75f9860490fed"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/BUILDING-CONSTRUCTION/REF-BLD-003.md",
+      "blob": "04bf5e4efe02eacc301aa8fe924a0fac3b19a481"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/REF-CIV-001.md",
+      "blob": "4776d1ef3eb21da0f6b2c48b243f50a39e683b15"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/REF-CIV-002.md",
+      "blob": "9e1a6614555f341a6273232182e015f0643b0a6b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/REF-CIV-003.md",
+      "blob": "4bd2b4f7d00de5f5f1e1f165dffb852feb751ac8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CIVIL-STRUCTURAL/REF-CIV-004.md",
+      "blob": "94dc6fde3fbc0d5656f45b9aceeb1da18bb762c8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CONSTRUCTION/REF-CON-001.md",
+      "blob": "986db7e545ae6bb72260a1cf275cbb784a26761f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CONSTRUCTION/REF-CON-002.md",
+      "blob": "347b6aac7086312897e2f6836160ddf1877c8314"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CONSTRUCTION/REF-CON-003.md",
+      "blob": "f7d5d5bcbf435f7e3b6afd1e74fa012697697c36"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CRITICAL-INFRASTRUCTURE/REF-CIP-001.md",
+      "blob": "4aec8829177840a831826c8410d447808d9ac8e4"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-001.md",
+      "blob": "04d30076335a2f02fd20a2d46c6dc82f14071a0e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-002.md",
+      "blob": "b2c92494eca5e6f85a5cfc9f62d608c0ac85120d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-003.md",
+      "blob": "3a30d3faa1d5cf024edc2b27e50ac03f69612580"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-004.md",
+      "blob": "f2be4fe53ae194c06e1ccacdf1c96aeee7f9fee6"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-001.md",
+      "blob": "d3e22b5a38aa3ad215c39390ebe0e5972db1264a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-002.md",
+      "blob": "06f3a7b9fa40bb0201cb0ee4b9bea14aab076d9d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-003.md",
+      "blob": "275ff951eb35c8c481d369802c4ca8f632afdea0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-004.md",
+      "blob": "a1dc573273c0242341d2177ed45f8dc32009f514"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-005.md",
+      "blob": "b92c7d6c8717105cdc73b757d79c5be70c23694b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/DRAWING-CAD/REF-DRW-006.md",
+      "blob": "f259f8cdbbb082b1ba05b2f7b68f5292ed2f1543"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/ELECTRICAL/REF-ELC-001.md",
+      "blob": "50b1750087c26e96f22e84fc8c034d832c3ed5db"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/ELECTRICAL/REF-ELC-002.md",
+      "blob": "35188a16d8c816e86b5ea2e56dd8c450ec666680"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/FIBER-OPTIC/REF-FO-001.md",
+      "blob": "a1d730fd8e24c3115210aa07483d9c8b0fb6c24e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/FIBER-OPTIC/REF-FO-002.md",
+      "blob": "d68f698e8aea13f290a397d924c1bd342edd8177"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/FIBER-OPTIC/REF-FO-003.md",
+      "blob": "2c4d164776d918ad9f612a424f9cf280b5a58674"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/GEOSPATIAL-SURVEY/REF-GEO-001.md",
+      "blob": "cdbca29af38619c121a42a9b178fff07ed35b83c"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/GEOSPATIAL-SURVEY/REF-GEO-002.md",
+      "blob": "2a084337b9d9d6eafa3ee1882d2a8c873c083398"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/GROUNDING-LIGHTNING/REF-GRD-001.md",
+      "blob": "5fc35dcb9b7d52b78df7fa1d5864a7633a328fa0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/GROUNDING-LIGHTNING/REF-LPS-001.md",
+      "blob": "e8f5b0c24466c5914f2f0b7bf7180e77eeba685e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/HVAC-BUILDING/REF-HVA-001.md",
+      "blob": "b1bbe429344d97fd5fc28da8855f5e64cfb0943f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/MECHANICAL/REF-MEC-001.md",
+      "blob": "97a6a88fd54393dd3f1e8747fac807b60cd3006b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-NET-001.md",
+      "blob": "bd72e55c2847c34705761b8bd78d97e839c31a3f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-NET-002.md",
+      "blob": "12c7400a7d1d8137ce699f84ea65cded41dec560"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-NET-003.md",
+      "blob": "74615d1a94d088e40b736abf144e74bf3e998c0b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-NET-004.md",
+      "blob": "ad375c78c627fe983860a0ea6431d5ad10748a28"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-OEM-NET.md",
+      "blob": "765fae07e8d21ca9753284b9212445666bbd8345"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/NETWORKING/REF-OPS-001.md",
+      "blob": "ae2fd051ce02e22d793f9d9656979779818580ac"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/POWER-BACKUP/REF-BAT-001.md",
+      "blob": "79b7128ef3fa11c6649a68b92b8363da356b18d1"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/POWER-BACKUP/REF-BAT-002.md",
+      "blob": "d87b3da7e8f9007661770e1c66ec5f4e18004b47"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/POWER-BACKUP/REF-OEM-UPS.md",
+      "blob": "2ec257a58852c268a7cf87d1d90eba03d089d211"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/POWER-BACKUP/REF-PWR-001.md",
+      "blob": "06c669278cbecfe7e71729b00e2d3f177a24d57b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/POWER-BACKUP/REF-PWR-002.md",
+      "blob": "668af212ed8853ca068a5a0964a171854c9f3849"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-001.md",
+      "blob": "4adedc830c3f8de73060b59d004b6329da37eefd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-002.md",
+      "blob": "cc4bf540ca2d7010059a84dab874218c61c4b031"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-003.md",
+      "blob": "be98e7b921e524d9dd514877e8d51e4d75184090"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-004.md",
+      "blob": "ffcba483a6ea538f5ad5f46dde13582448f5d381"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-005.md",
+      "blob": "b5e3eae95d21c7034282c82fae92e0edf7d00abc"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/PROJECT-QUALITY/REF-PRQ-006.md",
+      "blob": "dbfd05f2c0ed9eaa860fa7c744c173030394847b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/RCM/REF-RCM-001.md",
+      "blob": "b9e0fb7795ed0d99ef6c8293e8e9e377a9cfd9c5"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/RCM/REF-RCM-002.md",
+      "blob": "19d956b7813323d4efd6c42f10bd5e7dc090036f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/RCM/REF-RCM-003.md",
+      "blob": "03a3ca6fc8d37d5efe6227e55ea4bb3127fdd5dd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/SOFTWARE-DATA/REF-SWD-001.md",
+      "blob": "c3c5caca8852c6a3788558ae941396caabb588c3"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/STORAGE/REF-OEM-STG.md",
+      "blob": "0f9e67a2d8e23b2a27222d54626642685ab67914"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/STORAGE/REF-STG-001.md",
+      "blob": "b368f907632acd2741d93d9da7056d2ac8f6d10a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/THERMAL/REF-THM-001.md",
+      "blob": "4d921ee85502534f36de2b4934cc95b8b611e2c8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-CAM.md",
+      "blob": "aa7031dd30ed492a3930737d8859c7fc7f2c248c"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-OEM-VMS.md",
+      "blob": "20085fee8e36d617b3f9aee51813e134bcc45215"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VAI-001.md",
+      "blob": "271d785d40b80e674cdbedab51cff13ca9b2fc2e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-001.md",
+      "blob": "62e76bb11b83d49c9d8a096d5cd69b0104d97eb0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/VIDEO-SURVEILLANCE/REF-VSS-002.md",
+      "blob": "a5690e5e4f25b4ea82fdf3347853bd4005815fab"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Data-Driven Science and Engineering (Brunton & Kutz).md",
+      "blob": "25f6a4aae81c5ce838eea9930dfb9621249a62c7"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Deep Learning (Goodfellow et al.).md",
+      "blob": "e15c2de3a3e8bb86b4e9fbbcbd581896f1466020"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Designing Machine Learning Systems (Chip Huyen).md",
+      "blob": "613d80b05b86f945bd2986a7781dee2a79227b9d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/R3 - Hands-On Machine Learning (Geron).md",
+      "blob": "5eed1585f03298ec2578f14d52b85b89bc137e82"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/AI-ML/RANTAI-JAMINAN.md",
+      "blob": "bae355300ddc165fde0d1b6a000347b468d72aa2"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - BIM Handbook (Sacks dkk.).md",
+      "blob": "29fbf997eda0268c514e77b1a422151c6165fd7d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - Building Codes Illustrated (Ching & Winkel).md",
+      "blob": "20f8f99fab0444bc9047e0b8d3ba701fd719145d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/R3 - Building Construction Illustrated (Ching).md",
+      "blob": "3161e14f97fba792d2ac084c59cc57f59992c2ce"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/BUILDING-CONSTRUCTION/RANTAI-JAMINAN.md",
+      "blob": "e394ea8657f8a20ec888d1b2f4a750fa587f0e00"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Design of Concrete Structures (Darwin, Dolan & Nilson).md",
+      "blob": "d84418c612d2cae6f19472d172c5d3e3476f8996"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Materials for Civil and Construction Engineering (Mamlouk & Zaniewski).md",
+      "blob": "c5f62e6600f56c1e6ad5c73cb6d995369d2d9c38"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Steel Design (Segui).md",
+      "blob": "227f5f3cdd80430382f4fbc861ee392fd0557953"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/R3 - Structural Analysis (Hibbeler).md",
+      "blob": "2b2e892a9ed990563a673a5bfdfc21bc2d57cb75"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CIVIL-STRUCTURAL/RANTAI-JAMINAN.md",
+      "blob": "a2b2b59ef8beef943fdb3d3563d517f398de77d7"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/R3 - Multiple View Geometry (Hartley & Zisserman).md",
+      "blob": "9bc024897a18951ae19b52ae1a1b1d83cee93dfc"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/COMPUTER-VISION/RANTAI-JAMINAN.md",
+      "blob": "a030594ef993ee05db3adf96de6d94d5b1ab6159"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Cost Estimating (Holm & Schaufelberger).md",
+      "blob": "ede76704bdf27dc4a8a1b5cf06a1ab1edb499ee3"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Planning, Equipment, and Methods (Peurifoy).md",
+      "blob": "d9a26f13e9ead17b73c583dd603828d0e926fa88"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/R3 - Construction Project Scheduling and Control (Mubarak).md",
+      "blob": "8cc3383f0e17fef54c73fa206e1e5ecacaf2da41"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CONSTRUCTION/RANTAI-JAMINAN.md",
+      "blob": "1a680bc325de54fae0172a30ec2e2ab2b8b74c42"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CRITICAL-INFRASTRUCTURE/R3 - Cybersecurity Protecting Critical Infrastructures.md",
+      "blob": "3a5bdd8d8b70a995510a03f63923d52648381f92"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CRITICAL-INFRASTRUCTURE/RANTAI-JAMINAN.md",
+      "blob": "4c30c1fc680e2fea89fb684e5163001f88d5aecf"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3 - Security Engineering.md",
+      "blob": "3ad4ac43539e84ff3108e193b0954f2b58b9e161"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Architectural Graphics (Ching).md",
+      "blob": "d439e45f890db31c8041d6315fff719e211f3d59"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - AutoCAD Electrical 2026 (Tickoo) - dua judul.md",
+      "blob": "fb9f0621bc803d0501d86be41100b4af91e5a309"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - Engineering Drawing and Design (Madsen).md",
+      "blob": "3db973ab2d6cd8b30adf0040a5179c15e5fdf9d1"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/R3 - The Professional Practice of Architectural Working Drawings.md",
+      "blob": "4bb52451ffddcd26dd675a182600f59e94546b07"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/DRAWING-CAD/RANTAI-JAMINAN.md",
+      "blob": "930c063f4adec7692030228860c9483f40fd71b3"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/R3 - Electrical Power Equipment Maintenance and Testing.md",
+      "blob": "e9219ed68a4cc3d9aae194231eb4660131b80c34"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/ELECTRICAL/RANTAI-JAMINAN.md",
+      "blob": "933cf735ca47ff0b23744597598bec8c200a98d6"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R2 - IEC 61280-4-2.md",
+      "blob": "9f7621a5a860970c29239aa7bb83ece7420c0039"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - FOA Reference Guide to Fiber Optics.md",
+      "blob": "08061170ca26931eca721c0b8fdf73c31ed0263c"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/R3 - Reference Guide to Fiber Optic Testing Vol 1.md",
+      "blob": "b0921f30385569ebf0b2f521d8787a27354e1b2e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/FIBER-OPTIC/RANTAI-JAMINAN.md",
+      "blob": "78672b4bc0874c45927f58b5d69814838f36d6f9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/R3 - GIS Fundamentals (Bolstad & Manson).md",
+      "blob": "17941264ac8dc7305a7648bb130d634883ba7267"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/R3 - Surveying Principles and Applications (Kavanagh & Mastin).md",
+      "blob": "a9bdd4f0686bbca47d0638036beadd90ba60b3f1"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GEOSPATIAL-SURVEY/RANTAI-JAMINAN.md",
+      "blob": "c8b415aa71ffd7c67fb052d66d7285aa960ec772"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/R3 - Grounds for Grounding.md",
+      "blob": "4edae35e9ed462bf2623c91bae8dd58bcf8fa64e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/R3 - The Art and Science of Lightning Protection.md",
+      "blob": "40fa88d55e2d1601bcaef08c8ff012ff456e3867"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/GROUNDING-LIGHTNING/RANTAI-JAMINAN.md",
+      "blob": "0f7eb74d958cb268f6240fd7c54f74ed2ee54601"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/HVAC-BUILDING/RANTAI-JAMINAN.md",
+      "blob": "3468ba6a34391396cdc1f06ba6e303e6b74409be"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/R3 - Shigley's Mechanical Engineering Design.md",
+      "blob": "f365be18f713b703574686a071220ecd811b9ff8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/MECHANICAL/RANTAI-JAMINAN.md",
+      "blob": "584265b5a77a0a3901a8ef69d030f3c07f54d3cc"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - CCNA 200-301 Official Cert Guide Library.md",
+      "blob": "ea98de0fbc3b4eb4965d4b7666cf3ba120f6be8f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - Computer Networking A Top-Down Approach.md",
+      "blob": "f7471c2dcb51367314a289159b80df98792e482d"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - Network Warrior.md",
+      "blob": "43bcd8019593f4a3f0c9d1b3ab2f4de0eaf050cf"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - TCP-IP Illustrated Vol 1.md",
+      "blob": "70c2d3a748c7e6b87bb2803f46ce0e8922485f36"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/R3 - The Practice of System and Network Administration.md",
+      "blob": "ce664cef35e63710b02f4c7914d720227ac6e872"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NETWORKING/RANTAI-JAMINAN.md",
+      "blob": "5048652b108521277c54c6059d5dbf0d0e4588ee"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/R3 - Applied Numerical Methods with MATLAB (Chapra).md",
+      "blob": "ed350f19954d9ae6050f9ec5d951424a840810d2"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/R3 - Numerical Methods for Engineers (Chapra & Canale).md",
+      "blob": "3fa67e174e1413eae996956888d9cbbde2853616"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/NUMERICAL-METHODS/RANTAI-JAMINAN.md",
+      "blob": "5ff8cf3753e8c2b8f61e9174d387b49bc5335a95"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R2 - IEEE 1188-2005 dan IEC 62485-2.md",
+      "blob": "4120f49c662c94e39cb9c8a72804d4225bde37f0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R3 - Battery Reference Book.md",
+      "blob": "fd05d248a864b5d31db707ea9feb050e6c7c809c"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R3 - Diesel Generator Handbook.md",
+      "blob": "d1a18141fdcd5eae0213e79de377fd753dd900bb"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/R3 - Uninterruptible Power Supplies and Active Filters.md",
+      "blob": "14618463755fc38b597594354db500c7d4d1f6b0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/POWER-BACKUP/RANTAI-JAMINAN.md",
+      "blob": "131f746ebf25cef2d7df68d1bd0d0373900565d9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Construction Quality Management - Principles and Practice.md",
+      "blob": "75fc8dd5b7ad7d2a41a10e3264eeec477c474d03"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Engineering Documentation Control Handbook (Watts).md",
+      "blob": "3daae4a6008f23c6dc3482d27f1fc783a8dbd7c0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Engineering Project Management (Siegel).md",
+      "blob": "12df3d33d8a6beb267b850c476f66e64ffc202aa"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Project Management for Engineering, Business and Technology.md",
+      "blob": "35f0e6b9c3b97a7cf6ffa85f4e9f2fc522ff9e40"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/R3 - Quality Auditing in Construction Projects (Rumane).md",
+      "blob": "947d9f8e3e4b2dd58454b886e934f2ffebc2f2f8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/PROJECT-QUALITY/RANTAI-JAMINAN.md",
+      "blob": "6862f8356606d199071112de4303475ce6beeb6e"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Maintenance Planning Coordination and Scheduling.md",
+      "blob": "d04d5f47fb0923542bc6e0d742d0eb8a594263b8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - Maintenance and Reliability Best Practices.md",
+      "blob": "04fd6fb0763b4e366799f49f39b583db20d2ffc6"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/R3 - RCM II (John Moubray).md",
+      "blob": "781c841edf294d906ab54ec5f89f4b2ee75c702b"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RCM/RANTAI-JAMINAN.md",
+      "blob": "2f28ab25b00cee1aa5a01abfd8b4be9cea88f8ec"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Antenna Theory (Balanis).md",
+      "blob": "5573ee38ea63693b67deeabc198c3fb50c1c1c72"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Microwave Engineering (Pozar).md",
+      "blob": "8a806b658b7a7af67fb24577ee22e3021333ea33"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/R3 - Wireless Communications (Goldsmith).md",
+      "blob": "dc8ef441880fcb235d01dc79870ec865b5c4fbf8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/RF-WIRELESS/RANTAI-JAMINAN.md",
+      "blob": "3af5b02bc8793b4d1ad43a12ee8a6b8ba371c9da"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SOFTWARE-DATA/R5 - Deep Learning (LeCun, Bengio & Hinton 2015).md",
+      "blob": "db66be7feb018a386faf4043904d9311dcebd3cf"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/R3 - Storage Networks Explained.md",
+      "blob": "3859a8837fb0c6e23387fd3e0f99d56b07d3fc42"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/STORAGE/RANTAI-JAMINAN.md",
+      "blob": "4899bf372a4ba0ce7aa76c51b3c4ba28d4530e4f"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - INCOSE Systems Engineering Handbook (Walden).md",
+      "blob": "a922dd5885752afe3ef5b15ef5b74f854905ad78"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - System Engineering Management (Blanchard).md",
+      "blob": "a0dbbb64d9e6b42af0645e0eb43dbaab08896bab"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - Systems Engineering Principles and Practice (Kossiakoff).md",
+      "blob": "2f00e483b6d6c81b1e831614525cd825d0251b08"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/RANTAI-JAMINAN.md",
+      "blob": "d00a4092f56485dba429ad1c7218b2d5fd1a1b36"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/R3 - Infrared Thermal Imaging.md",
+      "blob": "b47c446e9d5d74a974a9da834e33561278c35108"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/THERMAL/RANTAI-JAMINAN.md",
+      "blob": "849cfc057231eaf23e091dc59bea0862c9434460"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R2 - BS EN 62676-1-2.md",
+      "blob": "fd557cb23c670714973be21af809d0598d38549a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - CCTV From Light to Pixels.md",
+      "blob": "5563ad2223c0c769450b3c75e7ac38116158417a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/R3 - Computer Vision Algorithms and Applications.md",
+      "blob": "54686e8192ffff34b25a5dbf006ac1f5b1c07fd8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/VIDEO-SURVEILLANCE/RANTAI-JAMINAN.md",
+      "blob": "8032e6c502a0be9f383dcc21e319213a61dcb1f9"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/ASSUMPTIONS/ASUMSI-BAKU.md",
+      "blob": "09d777a16782aebcc9f2196fc50eb320f6b26f00"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/CALC-P00-001.md",
+      "blob": "600e6bf7654164d66aefda99e7e9462dba9e9c24"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KARTU-P00-001.md",
+      "blob": "d53938e7b1bc90d571d05f0799074b747f7f5a34"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md",
+      "blob": "2da034c5c2038950c4850957647386c05a6de8f0"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/DESIGN-DECISIONS/DDR-P00-001.md",
+      "blob": "f85db7c0aa56262042041891818ca45401160bdd"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/REQUIREMENTS/REQ-P00-CONTOH.md",
+      "blob": "6f8b6f612e21221a9645d92224c37e316f56c9ab"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md",
+      "blob": "0e6218354c08a3d26886891c1b15bde5e0508087"
+    },
+    {
+      "kind": "file",
       "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/README.md",
       "blob": "9ae84e1ba0222fadf174ea9d222b3862ac1aeb4d"
     },
@@ -42,6 +867,11 @@
       "kind": "file",
       "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/FAT/README.md",
       "blob": "e0e40c89bc2b7edd2bb91b0719825a654d20d707"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/ITP/ITP-P00.md",
+      "blob": "46b850536f210f2b7c0a24a03bbff9c8c704b796"
     },
     {
       "kind": "file",
@@ -62,6 +892,16 @@
       "kind": "file",
       "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/README.md",
       "blob": "38d687232a9c5bab59f007953baef23aa1cb347a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEMPLATE-BERITA-ACARA.md",
+      "blob": "1a21b2edc7095cd1b71e43dee1eff155992edbf8"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/TEST-PROCEDURES/TEST-P00-001.md",
+      "blob": "f6ddc16431e24fb2ccefd656b6e2b2efbb3ec285"
     },
     {
       "kind": "tree",
@@ -112,6 +952,11 @@
       "kind": "file",
       "path": "4 Knowledge Bank/ekas-lapis-teks/09_HANDOVER/ASSET-REGISTER/README.md",
       "blob": "12709c574da2e008bcbabbdfdb76518236afaa8a"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/09_HANDOVER/BERITA-ACARA/BA-P00-FO-001.md",
+      "blob": "b15e2a3997c0f5a643bd9f90419330de97d200ad"
     },
     {
       "kind": "file",
@@ -230,6 +1075,11 @@
     },
     {
       "kind": "file",
+      "path": "4 Knowledge Bank/ekas-lapis-teks/BACA-DULU.md",
+      "blob": "3487a58ae2f7a90db4c5fd6997a7174fa810d3d9"
+    },
+    {
+      "kind": "file",
       "path": "AGENTS.md",
       "blob": "414c4c4ebeb9d973b6567fa3b8c3554144fa79fb"
     },
@@ -246,7 +1096,7 @@
     {
       "kind": "file",
       "path": "PANDUAN-AKSES.md",
-      "blob": "215ac235442ffc403ecd6f4991965fb3861eaca6"
+      "blob": "141c19450f5362fcdfb79c44247605e86107575d"
     },
     {
       "kind": "file",
@@ -317,6 +1167,19 @@
         {
           "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/diffusion-model-sourcing",
           "tree": "bcb3dfe734142f53f85fe234c9efbafa2cba35e9"
+        }
+      ]
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/evaluating-llms-harness",
+          "tree": "1f934c320223979367287bb690200bf9d08339e3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/evaluating-llms-harness",
+          "tree": "1f934c320223979367287bb690200bf9d08339e3"
         }
       ]
     },
@@ -447,6 +1310,32 @@
         {
           "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/gsp-artifact-concurrency-audit",
           "tree": "2da10637e0f44b43956b415f378ca2a8a2c5dd35"
+        }
+      ]
+    },
+    {
+      "name": "gsp-backend-execution",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-backend-execution",
+          "tree": "14ba950242f5494da773452510723031f4d0781c"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-backend-execution",
+          "tree": "b4d5d749da29565e75ba649e1028540ed9b182ba"
+        }
+      ]
+    },
+    {
+      "name": "gsp-blender-mcp-modeling",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-blender-mcp-modeling",
+          "tree": "e70da3ae07a83633eb359e113d68ea1a6406a668"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-blender-mcp-modeling",
+          "tree": "e70da3ae07a83633eb359e113d68ea1a6406a668"
         }
       ]
     },
@@ -694,6 +1583,19 @@
       ]
     },
     {
+      "name": "gsp-frontend-integration",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-frontend-integration",
+          "tree": "cbe5803c55c3c54f50e144a09075f98aecd0ea0e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-frontend-integration",
+          "tree": "6d90d175f381b3866a9b90e2b9c178e1d6976ae4"
+        }
+      ]
+    },
+    {
       "name": "gsp-human-in-loop-gate",
       "copies": [
         {
@@ -798,6 +1700,19 @@
       ]
     },
     {
+      "name": "gsp-orchestrator-worker",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-orchestrator-worker",
+          "tree": "5efb0cfcc60330a1b023d249d8bf79c64d5b8bed"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-orchestrator-worker",
+          "tree": "5efb0cfcc60330a1b023d249d8bf79c64d5b8bed"
+        }
+      ]
+    },
+    {
       "name": "gsp-plan-and-execute",
       "copies": [
         {
@@ -885,6 +1800,19 @@
         {
           "path": "3 Skills/registry-fleet/gsp-setup-pre-commit",
           "tree": "168298eddc2878423e633d284a8a1dcb223ddd35"
+        }
+      ]
+    },
+    {
+      "name": "gsp-spatial-psychology",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-spatial-psychology",
+          "tree": "ee5822a2c993fb1a8692e145efeca62f3c190372"
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-spatial-psychology",
+          "tree": "ee5822a2c993fb1a8692e145efeca62f3c190372"
         }
       ]
     },
@@ -993,6 +1921,40 @@
       ]
     },
     {
+      "name": "llama-cpp",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/llama-cpp",
+          "tree": "125b4875cd0e7f5ed63b0a5f704dfe7135bd386d"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/llama-cpp",
+          "tree": "125b4875cd0e7f5ed63b0a5f704dfe7135bd386d"
+        }
+      ]
+    },
+    {
+      "name": "mongodb-atlas-stream-processing",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/kanonik/database/nosql/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/nosql/mongodb-atlas-stream-processing",
+          "tree": "0425fd08457bff4546b85bf2546978e781d87b6e"
+        }
+      ]
+    },
+    {
       "name": "perimeter-security-designer",
       "copies": [
         {
@@ -1057,6 +2019,40 @@
         {
           "path": "3 Skills/registry-fleet/power-backup-sizing",
           "tree": "7168df96c7ec1fd81eebc6723d0279bbb335f43d"
+        }
+      ]
+    },
+    {
+      "name": "prisma-expert",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/kanonik/database/orm/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        },
+        {
+          "path": "3 Skills/registry-fleet/database/orm/prisma-expert",
+          "tree": "0a4395751db25624730955b61e8f6fad127bac93"
+        }
+      ]
+    },
+    {
+      "name": "pustaka-teknis",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/pustaka-teknis",
+          "tree": "4e2eb13970e6fdaa8f8dd406b2140951ab991df3"
+        },
+        {
+          "path": "3 Skills/registry-fleet/pustaka-teknis",
+          "tree": "4e2eb13970e6fdaa8f8dd406b2140951ab991df3"
         }
       ]
     },
@@ -1132,6 +2128,19 @@
           "tree": "f80c6318b7eaa80cea3961909cb4dfe62c3fdb4d"
         }
       ]
+    },
+    {
+      "name": "weights-and-biases",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/_salvage-profil-merge-1010/weights-and-biases",
+          "tree": "556e1eff4ba6c2eafbb406cf5d5462b85cf954cc"
+        },
+        {
+          "path": "3 Skills/registry-fleet/_salvage-profil-merge-1010/weights-and-biases",
+          "tree": "556e1eff4ba6c2eafbb406cf5d5462b85cf954cc"
+        }
+      ]
     }
   ],
   "scan_reviews": [
@@ -1149,9 +2158,57 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "28464a3b7eea4358a5ff39c7bed5c520b75bb3ad717eb4a72ef1d339d543066b",
+      "lines": 2,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "29c560df4b38386077c89bbcf07389ccd275f35972715f7d46b2818579b28224",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "29d383e853f8cd8d3927868f741ef3471cba48d3cd55e8773349c52ccdf6849a",
+      "lines": 1,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "37a1cd6873725c7820261a1fdf423412d5b704e1e378d0b6e6b700369220f098",
+      "lines": 1,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "38f72ba37d9ee99df7339e010ca487f542f58c494716188f3cfa1058a6d06026",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "4092436c78b3fde1e1df9265bba31ff7158673fb9b3fbd40239dd9c53bcc0fb8",
       "lines": 9,
       "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "442b3b728ffbc46b3e40c395e1819d157912322e4ef4e8a79ff6fd8b7d38d8a2",
+      "lines": 2,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "46247f3cff631ae8b075cc3cc566c34d2793af8628f56f5ab39ecc041c77622c",
+      "lines": 1,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "544d562346774c38e64a5083432907b93d3e1938a0ffa7c0e8da15879f7289b9",
+      "lines": 2,
+      "basis": "public-regulator"
     },
     {
       "group": "CLASS_MARK",
@@ -1161,14 +2218,14 @@
     },
     {
       "group": "CLASS_MARK",
-      "source_sha256": "8a30c5d56b9439fcb7ec4322b99217a1e39a9501ede5a397c3f676b2e62dc92b",
-      "lines": 3,
-      "basis": "generic-word"
+      "source_sha256": "7c0b31283dc6a48aa58ad59da914aa14e5888ed1a0ce21d46c80ad0d13dee6e3",
+      "lines": 1,
+      "basis": "public-regulator"
     },
     {
       "group": "CLASS_MARK",
-      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
-      "lines": 1,
+      "source_sha256": "8a30c5d56b9439fcb7ec4322b99217a1e39a9501ede5a397c3f676b2e62dc92b",
+      "lines": 3,
       "basis": "generic-word"
     },
     {
@@ -1179,9 +2236,33 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "9e35f4279828def1eb2851ba16f25ee49a2b344e966c95a6ec7bcbf5cf3b4c37",
+      "lines": 1,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "a47b9e67c704c9d22b21db26325be011dcb153d416b2788995b6c58c54aa3d30",
       "lines": 1,
       "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "aec710fb33597dd7049b633fa4c1dbe6f6ad8b208dd5d4049445d5be99981539",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "b3da7681150bf667f42256c379139e147abadd92f951ee3050c75081d7b3d1e6",
+      "lines": 5,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "c725f21ffffb94cf13308769b3b1fb0d02e76f27193501e6ecce15a38f1524fd",
+      "lines": 1,
+      "basis": "public-regulator"
     },
     {
       "group": "CLASS_MARK",
@@ -1196,9 +2277,33 @@
       "basis": "generic-word"
     },
     {
+      "group": "CLASS_MARK",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "f94baeec4738a09eaa474415ec5707366f9b4b02bce895aa4f2e51d2ae06a32d",
+      "lines": 1,
+      "basis": "public-regulator"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "1c3e6773b51ef5bffef420bfcc9756524ee42dd370a34f88ec6595062df51691",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
       "group": "CLIENT_DOC",
       "source_sha256": "320a2ef282429bde2e8de30ee7a19a1e11190002e8c5a6c94effd7d0020d1300",
       "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "38f72ba37d9ee99df7339e010ca487f542f58c494716188f3cfa1058a6d06026",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
@@ -1215,20 +2320,32 @@
     },
     {
       "group": "CLIENT_DOC",
+      "source_sha256": "883e1ca135ed832b4056af568cfad2aa84172d07a086f9936d3c4bfc32636202",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
       "source_sha256": "8a30c5d56b9439fcb7ec4322b99217a1e39a9501ede5a397c3f676b2e62dc92b",
       "lines": 7,
       "basis": "generic-word"
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
-      "lines": 5,
+      "source_sha256": "96a04f8f29c36af3dba5673fbbbd0ca79c60df9e3d2353f93a5f1693bc215759",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "96a04f8f29c36af3dba5673fbbbd0ca79c60df9e3d2353f93a5f1693bc215759",
-      "lines": 2,
+      "source_sha256": "9c762975fd77b1d4d5c6e442a85ce74830b8a771827122030919a6b5a2928c24",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "d6c1777e6e3155d361daa5b79e40c024f02dcbaaa51893ff41b6430dd03db682",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -1245,8 +2362,26 @@
     },
     {
       "group": "CLIENT_DOC",
+      "source_sha256": "e67788ec1473e1aa59e6349405a3448f3104b73eaa315fb8126693ea20103cca",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
       "source_sha256": "eea0eed6b5d389bdfbc4d72055752480fe7c8ef20096bbad7efed092c3464091",
       "lines": 11,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
+      "lines": 5,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "013e12a348181b3ef9bb250a15a6724bfd25ec2a838889f414ca222e6f604aae",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -1257,7 +2392,49 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "155fe891fe7833201e9ee7f2798866f436f7c8a72301d382ab4d10fe7875e347",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "18eb92f2793ce0c6131108442f4a5d448ca8f1bea841a2d4d0e1cf0e39d4d90a",
+      "lines": 6,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "1c3e6773b51ef5bffef420bfcc9756524ee42dd370a34f88ec6595062df51691",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "271df5c7728304b248083d38e58b4a8b79db823af448cce7938d4d8675f3606b",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "29c560df4b38386077c89bbcf07389ccd275f35972715f7d46b2818579b28224",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "34db864f93ecf1520ab20273370581225f545fb0d6ca3f45199cabfa2750af86",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "39f314e7c736354086584737f431b6bda5068425c63db057ecc7e95c001d69a7",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "4ec1762a8ed4f644349ac1271e52620952a72150dec6d93cf00b9061feafa458",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -1269,8 +2446,32 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "635f2d0357f88233352050ee0870c8f865e004c84c3240b7a6b96d41eba6bed9",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "68b114b4b5cfa4d40810b13f7b44dc7d3ad82c504fb4c1d96a7f19f4509483c7",
       "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "724e3ba573a6782cb099f76f47f346d706077f7e9783734a2aed5a4816495642",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "74939b44b879dcbe58050037c40040f45acf5593848898afc956d3ac52d9d02f",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "761d5375f3dafa771a424d0372a06d8d8629d2ffd1d1345ccfb962f6585160d4",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -1287,14 +2488,26 @@
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
+      "source_sha256": "9567fbf8514bea4f9f80f6d19a2fb43f2d4febc3f3161c6a024f8b3ea55a2c76",
       "lines": 1,
       "basis": "generic-word"
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "9567fbf8514bea4f9f80f6d19a2fb43f2d4febc3f3161c6a024f8b3ea55a2c76",
-      "lines": 1,
+      "source_sha256": "97fc147866a51677cc25f3330c59fef628ae900db59383c0ac76d618d4622f99",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "9e35f4279828def1eb2851ba16f25ee49a2b344e966c95a6ec7bcbf5cf3b4c37",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "a12f951d18b63e0802cde13d580fe10ec87c68838c20118cdd54b10764db7769",
+      "lines": 5,
       "basis": "generic-word"
     },
     {
@@ -1304,8 +2517,152 @@
       "basis": "generic-word"
     },
     {
+      "group": "COMMERCIAL",
+      "source_sha256": "b58cc9d26c8c35904cf8570d93f60f1c680581d11ce06336bc85408e1e189c24",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "d26c983b680be097e68ed775e136587222c151ad4a93c539224cf0b080d0bb57",
+      "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "e67788ec1473e1aa59e6349405a3448f3104b73eaa315fb8126693ea20103cca",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "f28fb74a39145e60489acc1cf470f05c0063489b2d1455ba06eb661f5e47dee2",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "f455d4fa1a63d22b439e52b071a09d5f6a8032dbb03784bc2f6a28e0d74c7146",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "f5cfd891a2b540a30474cee2a1172559a3dcce8cd16026ec0d9a35e6a61155c1",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "18c14e5893cbd4046bfd7c9fc7b683d09b6b57ae7affd9a230f0ad050ca4d3c2",
+      "lines": 8,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "38f72ba37d9ee99df7339e010ca487f542f58c494716188f3cfa1058a6d06026",
+      "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "3a0692b38ee3d39126fc84915d63562d0068a5fa4ba826896b6b6aa82ec5169a",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "410ea404a5a8c30c954a0c6adc449bb0a2fc9d79f0b31f90bdb0cae71805aea7",
+      "lines": 5,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "433372d84b8bbd6c28e5b971c1aae7c5d2d032aae9ff23dd7d7a47a51277dc78",
+      "lines": 5,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "4ec1762a8ed4f644349ac1271e52620952a72150dec6d93cf00b9061feafa458",
+      "lines": 11,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "6bec2db69aeff3dc13011a3359dcb87394c8b9d031ec82b786cf4b7f99011feb",
+      "lines": 3,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "724e3ba573a6782cb099f76f47f346d706077f7e9783734a2aed5a4816495642",
+      "lines": 11,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "813effc5b42b844c8a719954e384b91bd910750bec44dd424a3caa7c4b25f0b5",
+      "lines": 3,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "99afdf1eb99a8d2d296821beae62fcbff6794751259b76447de03150f3f8136a",
+      "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "a83f9df40a6db7857b4b3ce3a982da7e939680ee89079170d4d258392804e09c",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "cc145e06636090f97895b7d4cb861391c98d758397061d93ac778b294878597c",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "da32117b43607e8fcc528ee31a1f2a24e5a23d1ee540cdd0852d7d299c011748",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "CREDENTIAL",
+      "source_sha256": "e6cb16ca64ab6c1cd61a9c2fe1a25e2b191a1de560d2efd199e292b6665190c6",
+      "lines": 5,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "0028f1e56c39e74c68ebd641f19579c8e74d2a7d389b2f3f0ba672612c63b91a",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
       "group": "DERIVED_NAME",
       "source_sha256": "0b863643bbfff2dc97a964c648ffe3d1bc9ef97557f1dc0c0773851ff6800bab",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "0db111626a8806615f2235823e6c4ff125575b0e7d13266cf301eb40c691a5ef",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "10d45dd5fd27bbc7774557afaa7201f6eda664230fb5ffdf8d712400f18ed8e1",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "185f9c99be963d6ad1be5e9c0dcdb5c0972a64eb3e52e035a93178dbb47fb332",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -1323,6 +2680,36 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "3331d8dc241f1119591d51fd2050fa8d8ca14356281bb66673e841b5bba2c28d",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "34e39af7772f8b8412535350747855c9cdcd10e99e05f587121dd2571470997a",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "37232a632e00b63d257116dd88aeea72a3cb82ac63eb15d9db368a4fefe9bfd8",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "38f72ba37d9ee99df7339e010ca487f542f58c494716188f3cfa1058a6d06026",
+      "lines": 5,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "3e222149c0ed1dfa8d71144361a49d0e204100aa8fb6cf26208517bf8087909c",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "4092436c78b3fde1e1df9265bba31ff7158673fb9b3fbd40239dd9c53bcc0fb8",
       "lines": 4,
       "basis": "generic-word"
@@ -1335,7 +2722,55 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "4d507f1070458e40fb0dd387b8d154bb72fd93d42c858cbe8d6faa05bf6ac0dd",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "4ec1762a8ed4f644349ac1271e52620952a72150dec6d93cf00b9061feafa458",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "66e268cbcda247922d16af317fd46e6342a4bd1142a29f4a4ae87bd590117408",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "6b5d228e8d9222a2921089d1e1ebf46d9cd58d4aa8f5ed1710b46ad4bf1cbe3c",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "6bec2db69aeff3dc13011a3359dcb87394c8b9d031ec82b786cf4b7f99011feb",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "70e58cc972065684a70e00f9c3e53059993a4d295aec52e963042574f46d04a3",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "724e3ba573a6782cb099f76f47f346d706077f7e9783734a2aed5a4816495642",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "74939b44b879dcbe58050037c40040f45acf5593848898afc956d3ac52d9d02f",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "74968dc26ffaaadf4d9ae2201dd07aaf798ba211a1c5aa60da765130a0478104",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -1347,7 +2782,49 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "761d5375f3dafa771a424d0372a06d8d8629d2ffd1d1345ccfb962f6585160d4",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "7b0d3a7ff95d17efa2964820df5cc256243266dbf948d0ee60a63ffad0c5b547",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "813effc5b42b844c8a719954e384b91bd910750bec44dd424a3caa7c4b25f0b5",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "815c88791fcdc5c5a0315a90ff300de55981adcc03fb9793a4ce5614b027be1f",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "83a81394dce3848225b27991448782f5a62ff695a2288fb2466fd62d405bae0b",
+      "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "849a4536f1f42cba5dd5bc1104c08b347b8d4a4d879d3fe9c5c4cce643c591af",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "84c3e5f5d1c945c3efd6410a761d49e7c99f6514b05614c7a95bc9a81b80c3f5",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "883e1ca135ed832b4056af568cfad2aa84172d07a086f9936d3c4bfc32636202",
       "lines": 2,
       "basis": "generic-word"
     },
@@ -1371,8 +2848,32 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "97fc147866a51677cc25f3330c59fef628ae900db59383c0ac76d618d4622f99",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "990afbff2a4e6b5951e1fd44685d311c7fa1a83b9ab1742a18d867288f531dc9",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "9baa99d8f844d6ed3e9d57057a64e0eaaea3e8db75eea5909378e29b1951603a",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "9d6d423be00b2e24c685e7b3b41c1396e440a9bdd75368d4c91fcf40bfe7aeb9",
       "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "9e35f4279828def1eb2851ba16f25ee49a2b344e966c95a6ec7bcbf5cf3b4c37",
+      "lines": 20,
       "basis": "generic-word"
     },
     {
@@ -1383,7 +2884,31 @@
     },
     {
       "group": "DERIVED_NAME",
+      "source_sha256": "a6b96f09f30bfad78ef9cf2674c069de993098914e4d9425589b1435369b6df1",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
       "source_sha256": "addb9a66bbcb7ec95e8092e2fd38218ebb5578046b51aa4bae77ddff6f658bb1",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "aec710fb33597dd7049b633fa4c1dbe6f6ad8b208dd5d4049445d5be99981539",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "cf9756d0ff87babd26d420a67ecda6049e75d7011190b7b482872acc4994f02e",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "d26c983b680be097e68ed775e136587222c151ad4a93c539224cf0b080d0bb57",
       "lines": 2,
       "basis": "generic-word"
     },
@@ -1397,6 +2922,12 @@
       "group": "DERIVED_NAME",
       "source_sha256": "d60da470711f1621875ca04d741a3f41f66d72d91c5690f55fb8f2ef6b9e9759",
       "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "da9656f46da768a0f00ad1a6686148aab215cc2a3e59cab127c62c16a65f634c",
+      "lines": 5,
       "basis": "generic-word"
     },
     {
@@ -1418,6 +2949,18 @@
       "basis": "generic-word"
     },
     {
+      "group": "DERIVED_NAME",
+      "source_sha256": "f6c3349457a665ce88344712af8ac0f05e2016473253553714337fb7d7d87d69",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "DERIVED_NAME",
+      "source_sha256": "fedcd7da61cb1a3ce4491c204f0450e62471c1346dd4b5c34519b1e84b0e7398",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
       "group": "HOST",
       "source_sha256": "7db618ec40b865fe2efacf46c04c3d5dc233fc64a3c63d26451afb97b795113e",
       "lines": 2,
@@ -1425,7 +2968,19 @@
     },
     {
       "group": "PERSONAL",
+      "source_sha256": "013e12a348181b3ef9bb250a15a6724bfd25ec2a838889f414ca222e6f604aae",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "PERSONAL",
       "source_sha256": "188f991529689a4d409f2397f5ed2ac233c3ccf0e85ed6f1bf37f03bb3ad7149",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "18c14e5893cbd4046bfd7c9fc7b683d09b6b57ae7affd9a230f0ad050ca4d3c2",
       "lines": 1,
       "basis": "documentation-example"
     },
@@ -1437,8 +2992,56 @@
     },
     {
       "group": "PERSONAL",
+      "source_sha256": "3c999f16323cc4ba76926f7dec26410404e11591b49127c4e3703ca40184a83f",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "3e4c2ebe70b310e74fdadb5e08af9822eba5b585ef6ad1e66012016b8fc6d461",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "410ea404a5a8c30c954a0c6adc449bb0a2fc9d79f0b31f90bdb0cae71805aea7",
+      "lines": 13,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "4ec1762a8ed4f644349ac1271e52620952a72150dec6d93cf00b9061feafa458",
+      "lines": 7,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
       "source_sha256": "6a11faf7fb50e04cb071b90c4662bfc953a67c5c7edbe9675d01360135cf26cd",
       "lines": 2,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "6bec2db69aeff3dc13011a3359dcb87394c8b9d031ec82b786cf4b7f99011feb",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "724e3ba573a6782cb099f76f47f346d706077f7e9783734a2aed5a4816495642",
+      "lines": 7,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "813effc5b42b844c8a719954e384b91bd910750bec44dd424a3caa7c4b25f0b5",
+      "lines": 1,
+      "basis": "documentation-example"
+    },
+    {
+      "group": "PERSONAL",
+      "source_sha256": "da32117b43607e8fcc528ee31a1f2a24e5a23d1ee540cdd0852d7d299c011748",
+      "lines": 1,
       "basis": "documentation-example"
     }
   ],

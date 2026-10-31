@@ -9,7 +9,7 @@ Panduan ini hanya menunjuk edisi umum. Tidak ada yang terpasang otomatis: tidak 
 Yang perlu diketahui tentang isi edisi:
 
 - **Edisi pertama sengaja dipersempit.** Edisi dapat dibaca harness dan penyedia apa pun, jadi kehilangan isi dinilai lebih murah daripada kebocoran. Berkas yang diragukan dikeluarkan. Koleksi yang tidak tercantum pada `README.md` edisi tidak tersedia.
-- **Pengetahuan teknis EKAS tidak ikut.** Dari EKAS, hanya templat, verifikasi, bukti, dan serah terima yang ikut. Sisanya ditunda ke edisi berikutnya.
+- **Pengetahuan teknis EKAS ikut setelah kurasi per berkas.** Pengetahuan domain, kartu rujukan, dan rumus yang lolos kurasi ikut bersama templat, verifikasi, bukti, dan serah terima. Tidak semua berkas EKAS ikut, dan PDF sumbernya tidak disertakan.
 - **Tidak ada klaim bersih.** Pemindaian pola saat build adalah batas bawah. Nama tanpa gelar dan isi yang maknanya peka tetapi tanpa kata kunci tidak terdeteksi, jadi build yang lulus bukan bukti bahwa isi sudah bersih.
 - **`approval` pada daftar izin diberikan AI atas pelimpahan pemilik.** Itu bukan hasil tinjauan pemilik. Tinjauan AI melihat baris yang ditunjuk pemindaian, bukan seluruh berkas.
 - **Teks tidak menegakkan apa pun.** Penunjuk, stempel, dan kebijakan hanya berpengaruh pada agen yang membaca dan mematuhinya (bagian 7).
