@@ -51,7 +51,7 @@ any chain's ETA.
 
 ## Working web-search rung on poisoned hosts (D20)
 ddgs (html-DDG/bing/google backends) and SearXNG can both be unusable
-(timeouts / geo-poisoned junk). Proven alternative: local Firecrawl
+(timeouts / geo-poisoned junk). Alternative, only with a right recorded beforehand (owner permission or terms that allow it), otherwise report a dead end: local Firecrawl
 (`POST :3002/v1/scrape`) on `https://www.bing.com/search?q=...` with
 `formats:["links"]`, then decode Bing redirects `ck/a?...&u=a1<base64url>`
 (urlsafe b64, pad to %4) to get real target URLs; accept only hosts whose

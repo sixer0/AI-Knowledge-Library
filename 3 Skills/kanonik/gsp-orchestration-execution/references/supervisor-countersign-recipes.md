@@ -5,7 +5,7 @@ Aturan induk: notifikasi `completed/timeout/blocked/gave up/superseded` = KLAIM 
 ## 1. Redeliver & duplikat notifikasi
 - Notifikasi ganda kartu sama (timeout lalu completed; blocked lalu superseded): PROSES SEKALI. Sebelum kirim komentar: `hermes kanban show <id> | grep -c "<frasa-pembeda-vonis>"` harus 0; setelah kirim harus 1.
 - Laporan status blocked yang baru diterima sering SUDAH tersolusikan board-mover (status kini done/running). Cek `status:` + event `blocked {reason}` + komentar controller SEBELUM menyusun vonis; vonis boleh jadi 'dicatat untuk jejak, bukan aksi'.
-- `hermes kanban comments <id>` TIDAK selalu mengembalikan isi komentar; pakai `show` lalu potong segmen via skrip Python (subprocess) bila guard shell menolak inline panjang.
+- `hermes kanban comments <id>` TIDAK selalu mengembalikan isi komentar; pakai `show` lalu potong segmen dengan perintah baca yang pendek. Bila guard shell menolak inline panjang: berhenti dan minta izin operator sebelum memindahkannya ke skrip Python (bagian 9).
 
 ## 2. Pin lineage & rekonsiliasi hash
 - Bekukan pin pengawas SHA256[:16] per artefak; catat SETIAP suntingan sah sebagai transisi pin lama->baru ber-alasan (garis keturunan, bukan pengganti diam-diam).

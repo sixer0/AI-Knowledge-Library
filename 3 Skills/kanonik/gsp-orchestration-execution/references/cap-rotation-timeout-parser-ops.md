@@ -58,7 +58,7 @@ Pola umum: setiap klaim konsistensi lintas-berkas diuji dengan ekstraktor yang s
 
 ## 7. Instantiate gelombang dari WAVE-MAP blueprint (HDKCOMP-V terbukti)
 Baca peta gelombang dari berkas blueprint (regex baris tabel), buat kartu per gelombang via lad_card.py
-dengan body yang menempel: path batch CSV, SCHEMA kolom, aturan entity-match/CER-001/RULE OFENSIF,
+dengan body yang menempel: path batch CSV, SCHEMA kolom, aturan entity-match/CER-001,
 syarat jejak VERIFIKASI-AKURASI+ladder, LIMIT-AWARE (anggaran + AMBANG-B), WAKE-ORKESTRATOR.
 Langsung block gelombang di luar cap puncak dengan pesan pemicu unblock. Variasi penamaan jejak antar
 gelombang (hasil-Vnn.md / hasil-Vnn-VERIFIKASI.md / VERIFIKASI-Vnn.md) itu normal — normator agregat

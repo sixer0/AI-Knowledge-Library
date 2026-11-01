@@ -101,4 +101,4 @@ cap); lessons go to skill references, not L0.
 Inline terminal commands containing `$(grep ... | cut ...)` chains or very long
 payloads hit the hardline blocklist; payload is saved under
 profiles/.../cache/blocked-scripts/*.sh. Do NOT retry inline: use read_file/
-search_files for the same lookup, or run the saved script via bash <path>.
+search_files for the same lookup. Running the saved script needs operator permission; otherwise stop and report.

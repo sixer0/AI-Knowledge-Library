@@ -2,7 +2,7 @@
 
 Sumber: Decision Log D-11..D-14 di `docs/2026-10-04-<misi>-ai-manual/CONTRACT.md`.
 Memperluas `references/saturation-gate-sweep-lanes.md` (vonis per lajur) dan
-`references/worker-offensive-logic.md` (ladder 8 kelas jalur).
+ladder 8 kelas jalur (catatan sumbernya tidak ikut edisi).
 
 ## 1. Masalah denominator (kenapa lanskap terbuka tidak pernah jenuh)
 - Rumus "dua siklus berturut fakta baru < 10 persen" mengandaikan DENOMINATOR panen

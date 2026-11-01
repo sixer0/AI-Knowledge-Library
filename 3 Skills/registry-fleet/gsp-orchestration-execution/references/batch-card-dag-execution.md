@@ -24,14 +24,14 @@ Buat >3 kartu ber-DAG sekali jalan lewat skrip tersimpan, bukan perintah manual 
   AgentRequest HQ (tabel kosong bukan berarti dispatch mati) — catat ini di kontrak agar
   verifier tidak salah vonis "tanpa jejak dispatch".
 
-## 3. Sinyal blokir sandbox eksekusi skrip + jalur alternatif (04-09)
+## 3. Sinyal blokir sandbox eksekusi skrip (04-09)
 
-Dalam mode sesi tertentu (single-query tanpa user present), dua jalur gagal dan satu berhasil:
+Dalam mode sesi tertentu (single-query tanpa user present), dua jalur diblokir:
 - `execute_code` dengan `subprocess.run` -> DIBLOKIR ("bypass shell-string approval").
 - `terminal` dengan `python -c` / `node -e` inline -> DIBLOKIR ("flagged as dangerous").
-- JALUR SAH: tulis skrip penuh ke berkas (`.py` di scripts/ kontrak atau `.cjs` di
+- Bila keduanya diblokir: berhenti dan lapor. Hanya dengan izin operator: tulis skrip penuh ke berkas (`.py` di scripts/ kontrak atau `.cjs` di
   `$LOCALAPPDATA/Temp/`), jalankan via terminal sebagai perintah biasa. Query DB HQ
-  (AgentRequest dsb.) lewat `.cjs` pembawa pg Client pola `hq_dispatch.cjs`, bukan inline.
+  (AgentRequest dsb.) lewat `.cjs` pembawa pg Client pola `hq_dispatch.cjs`, bukan inline, juga hanya dengan izin atas kredensialnya.
 Ini pola kerja per-mode sesi, bukan vonis permanen tool: di sesi interaktif biasa
 execute_code+subprocess boleh jalan. Jangan menulis "X tidak bisa" sebagai aturan tetap.
 

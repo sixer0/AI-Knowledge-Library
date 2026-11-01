@@ -72,6 +72,6 @@ ada kartu non-terminal.
 ## 7. Payload inline besar kena hardline block
 
 Satu baris terminal yang terlalu panjang (git add multi-path + grep + heredoc
-sekaligus) ditolak parser blocklist TANPA regard ke isi operasi. Jalur sah: tulis
-skrip .sh/.py via write_file lalu `bash <file>`. Payload yang diblok tersimpan di
+sekaligus) ditolak parser blocklist TANPA regard ke isi operasi. Hanya bila perintahnya baca-saja dan penolakan karena bentuk: tulis
+skrip .sh/.py via write_file lalu `bash <file>`; selain itu berhenti dan lapor. Payload yang diblok tersimpan di
 `hermes/cache/blocked-scripts/` untuk ditelaah; jangan retry inline yang sama.

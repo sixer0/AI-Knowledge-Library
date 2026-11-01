@@ -26,7 +26,7 @@ Goal: user-facing documents whose body is mostly DATA TABLES (component x vendor
 ## Live-recheck recipe (before presenting any older register as quotable)
 
 ```python
-UA = {'User-Agent': 'Mozilla/5.0 ... Chrome/124 Safari/537.36'}
+UA = {'User-Agent': 'GSP-DocGate/1.0 (+kontak <surel-kontak>)'}
 for brand, u in urls:                      # unique URLs
     try: code = urllib.request.urlopen(Request(u, headers=UA), timeout=20).status
     except Exception as e: code = getattr(e, 'code', None) or ('ERR:'+str(e)[:40])

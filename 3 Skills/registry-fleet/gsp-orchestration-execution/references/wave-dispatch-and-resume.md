@@ -40,7 +40,7 @@ Worker menutup `STATUS: partial-handoff` = penutupan sah; JANGAN re-dispatch but
 Resume card (parents=[kartu asal], mata ke-2 dari maks 3) WAJIB memuat:
 1. SISA_KERJA bernomor sesuai urutan prioritas dari laporan worker.
 2. METODE TERBUKTI dari catatan parent (disalin eksplisit, mis. "backend ddgs tunggal bing
-   via skrip + probe curl user-agent browser ke situs resmi").
+   via skrip + probe curl user-agent jujur ke situs resmi").
 3. LARANGAN mengulang jalur mati yang sudah didokumentasikan parent.
 4. Batas batch per panggilan tool (mis. <= 10 query per panggilan eksekusi) agar tidak
    mati kena timeout tool di tengah batch.

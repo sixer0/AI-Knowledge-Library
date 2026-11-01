@@ -18,7 +18,7 @@ berkas lain (`modules_official_6000.3.txt`, 34 baris). Resep countersign:
    dibuka). Pada kasus ini klaim "16 sah / 23 fiktif dari 39" kureproduksi PERSIS terhadap txt
    daftar resmi — verdict tetap sah, tapi provenance URL-nya wajib di-probe ulang pada kartu fix.
 3. Tempel di countersign: "stub mati di raw jangan disimpan tanpa label; URL layak re-probe".
-   Ini varian aturan "jejak = URL + status HTTP + timestamp" (worker-offensive-logic).
+   Ini varian aturan "jejak = URL + status HTTP + timestamp".
 
 ## 2. Countersign ledger konsistensi API (pola KOMPILASI-API)
 

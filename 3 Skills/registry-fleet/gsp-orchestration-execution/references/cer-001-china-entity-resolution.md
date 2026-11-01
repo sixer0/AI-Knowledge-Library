@@ -3,7 +3,7 @@
 Dipakai untuk SEMUA akuisisi identifier entitas China / pameran di China. Dokumen penuh: `docs/2026-09-04-data-accuracy-standard/STANDAR-PROSEDUR-AKURASI-DATA-SPK-002.md` seksi 3b.
 
 ## Tangga akuisisi identifier (berjenjang, vonis berakun)
-1. **R0 sumber resmi penyelenggara** — field situs di API direktori organiser (mis. WAIC: `POST servicer.worldaic.com.cn/waic/show/info/detail` body `{enterpriseCode, exhibitionId}` -> `enterpriseWebsite`; endpoint DETAIL sering publik walau fieldnya absen di endpoint LIST — probe dengan parameter dari payload list sebelum vonis "login required"). Otoritas identitas tertinggi: token-match TIDAK diperlukan, provenans "situs resmi dari API organiser".
+1. **R0 sumber resmi penyelenggara** — field situs di API direktori organiser (mis. API terdokumentasi penyelenggara: `POST <endpoint-detail>` body `{<id-perusahaan>, <id-pameran>}` -> field situs; endpoint yang tidak terdokumentasi tidak dicoba, catat `butuh otorisasi`). Otoritas identitas tertinggi: token-match TIDAK diperlukan, provenans "situs resmi dari API organiser".
 2. **R1 registri CN** (aiqicha/qcc/tianyancha/qichamao) — HANYA jembatan nama hukum<->merek; tidak pernah jadi tautan terbit (halaman profil mereka = DIR-BLOCK).
 3. **R2 pencarian MANDARIN** — kueri `"<nama_cn>" 官网` / `"<nama_cn>"` (bukan nama EN via search global). ddgs region cn efektif; Firecrawl sebagai pembanding.
 4. **R3 ICP footer** — regex `(ICP备|备案号|京ICP|沪ICP|粤ICP|浙ICP...)` di body = penanda situs resmi CN terkuat.
