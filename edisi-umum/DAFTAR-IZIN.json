@@ -20,8 +20,33 @@
   "entries": [
     {
       "kind": "file",
+      "path": "1 Workflow/AGENTS-kebijakan-fleet.md",
+      "blob": "98d2172c4e3c6c81354c968d9c06267ac80d0d68"
+    },
+    {
+      "kind": "file",
+      "path": "1 Workflow/peta-definisi-orkestrasi.md",
+      "blob": "3764002a0a4c700c60cc704b708417d724b7213e"
+    },
+    {
+      "kind": "file",
+      "path": "1 Workflow/standar-operasi/01_ORGANIZATION-STANDARD.md",
+      "blob": "172d874b08f8486267d014b1a712bc09ca781483"
+    },
+    {
+      "kind": "file",
+      "path": "1 Workflow/standar-operasi/02_METADATA-STANDARD.md",
+      "blob": "0e79c620de1648a3894ccfdfaf2afb8c694bae74"
+    },
+    {
+      "kind": "file",
       "path": "1 Workflow/standar-operasi/04_DAILY-TASK-PROMPT.md",
       "blob": "ef81f121a1af0861f809508187268158e41ee22b"
+    },
+    {
+      "kind": "file",
+      "path": "1 Workflow/standar-operasi/05_SCRIPT-ORGANIZATION-STANDARD.md",
+      "blob": "0907bf549ca153be629f555a52f7a0f8c27432ed"
     },
     {
       "kind": "file",
@@ -1791,6 +1816,217 @@
       ]
     },
     {
+      "name": "gsp-orchestration-execution",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-orchestration-execution",
+          "tree": "786381d9bec7656b256ae62dfc910b5b18a3507b",
+          "include": [
+            "SKILL.md",
+            "references/batch-card-dag-execution.md",
+            "references/board-latency-audit-kanban-db.md",
+            "references/cap-rotation-timeout-parser-ops.md",
+            "references/cer-001-china-entity-resolution.md",
+            "references/controller-mission-playbook.md",
+            "references/controller-recovery-worker-death.md",
+            "references/controller-recurrence-classes-202610.md",
+            "references/controller-timeout-cap-crosscheck.md",
+            "references/corpus-full-read-mission.md",
+            "references/corpus-read-manifest-mission.md",
+            "references/crash-loop-and-retry-modal-triage.md",
+            "references/cross-supervisor-audit-playbook.md",
+            "references/dag-true-dependencies.md",
+            "references/data-accuracy-standard.md",
+            "references/deleg-watch-kernel-mechanics-2026-10.md",
+            "references/deleg-watch-rute45-ops.md",
+            "references/design-contract-drift.md",
+            "references/deterministic-verification.md",
+            "references/dispatch-timing-race-1010.md",
+            "references/document-readability-gate-and-rework.md",
+            "references/dynamic-watchdog-and-scratch-modal.md",
+            "references/ekas-domain-registration-lessons.md",
+            "references/fast-lane-dag-prebuild.md",
+            "references/final-chain-gates-pin-and-mirror.md",
+            "references/focus-wave-vendor-sweep.md",
+            "references/freshness-delta-card.md",
+            "references/full-corpus-reading-mission.md",
+            "references/gate-cache-pitfalls.md",
+            "references/gate-parity-persist-first-2026-10-10.md",
+            "references/gate-passing-data-sajian.md",
+            "references/heavy-builder-card-lifecycle.md",
+            "references/hq-dispatch-bridge-quirks.md",
+            "references/human-pattern-style-standard.md",
+            "references/human-voice-style-repair.md",
+            "references/instrument-defect-vs-product-defect.md",
+            "references/jury-simulation-rerun-and-leak-gates.md",
+            "references/kanban-lad-guard.md",
+            "references/kelas-beban-rt.md",
+            "references/knowledge-activation-rbac-cvlk-addendum.md",
+            "references/knowledge-activation-rbac-verification.md",
+            "references/knowledge-baseline-architecture.md",
+            "references/knowledge-register-multi-domain.md",
+            "references/knowledge-register-remediation-rounds.md",
+            "references/lane-closure-eyes-and-source-budget.md",
+            "references/late-async-batch-and-blueprint-verification.md",
+            "references/late-gate-controller-playbook.md",
+            "references/late-sweep-delta-and-token-freeze.md",
+            "references/layout-gate-pgsz-verification.md",
+            "references/long-running-collection-chains.md",
+            "references/max-compute-orchestration.md",
+            "references/measurement-canonical-and-takeover-chain.md",
+            "references/mid-mission-progress-and-steering.md",
+            "references/mission-cancel-teardown.md",
+            "references/naturalization-gate-longform.md",
+            "references/naturalization-gate-pass-recipes.md",
+            "references/naturalization-gate-repair-and-boq-derivation.md",
+            "references/naturalization-gate-repair-recipes.md",
+            "references/pendalaman-expo-standard.md",
+            "references/pipeline-kanonis-v1.md",
+            "references/professional-manual-standard.md",
+            "references/profile-merge-reprovision-gate-traps-2026-10.md",
+            "references/promotion-ordering-and-modal-claims.md",
+            "references/prose-standard-mission-playbook.md",
+            "references/readability-gated-longform-rework.md",
+            "references/reasoning-death-mode-adjudication-replay.md",
+            "references/remediation-chain-after-verifier-fail.md",
+            "references/remediation-gen2-mixed-fail-split.md",
+            "references/research-lane-mission-ops.md",
+            "references/resume-wave-rung8-and-waiters.md",
+            "references/review-lane-crash-loop.md",
+            "references/saturation-denominator-and-chain-stop.md",
+            "references/saturation-denominator-and-review-lifecycle.md",
+            "references/saturation-denominator-writer-gates.md",
+            "references/saturation-lane-contract-denominator.md",
+            "references/saturation-sweep-mission-frame.md",
+            "references/scanner-defect-classes-2026-10.md",
+            "references/scope-gate-cpa-mission.md",
+            "references/session-2026-09-03-expo26-wbs.md",
+            "references/skill-knowledge-jury-simulation.md",
+            "references/skill-simulation-jury.md",
+            "references/supervisor-countersign-recipes.md",
+            "references/supervisor-cross-audit-playbook.md",
+            "references/supervisor-jury-leak-and-correction-gates.md",
+            "references/supervisor-second-controller-lane-audit.md",
+            "references/verdict-disposition-and-wake-gate.md",
+            "references/verdict-sahkan-spot-audit.md",
+            "references/visual-figure-qc-rerender-chain.md",
+            "references/wave-dispatch-and-resume.md",
+            "references/wave-registration-large-fanout.md",
+            "references/wave-rotation-cap-and-syn-gate.md",
+            "references/wave-rotation-cap-and-timeout-triage.md",
+            "references/wave-verification-and-gates.md",
+            "references/worker-run-recovery-and-restart-gate.md",
+            "references/writer-card-budget-death-by-read.md",
+            "references/writing-card-patterns-2026-10.md",
+            "templates/contract-doc.md"
+          ]
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-orchestration-execution",
+          "tree": "054a3f4aaa1142cad00f06a7975591a148613bf7",
+          "include": [
+            "SKILL.md",
+            "references/batch-card-dag-execution.md",
+            "references/board-latency-audit-kanban-db.md",
+            "references/cap-rotation-timeout-parser-ops.md",
+            "references/cer-001-china-entity-resolution.md",
+            "references/controller-mission-playbook.md",
+            "references/controller-recovery-worker-death.md",
+            "references/controller-recurrence-classes-202610.md",
+            "references/controller-timeout-cap-crosscheck.md",
+            "references/corpus-full-read-mission.md",
+            "references/corpus-read-manifest-mission.md",
+            "references/crash-loop-and-retry-modal-triage.md",
+            "references/cross-supervisor-audit-playbook.md",
+            "references/dag-true-dependencies.md",
+            "references/data-accuracy-standard.md",
+            "references/deleg-watch-kernel-mechanics-2026-10.md",
+            "references/deleg-watch-rute45-ops.md",
+            "references/design-contract-drift.md",
+            "references/deterministic-verification.md",
+            "references/dispatch-timing-race-1010.md",
+            "references/document-readability-gate-and-rework.md",
+            "references/dynamic-watchdog-and-scratch-modal.md",
+            "references/ekas-domain-registration-lessons.md",
+            "references/fast-lane-dag-prebuild.md",
+            "references/final-chain-gates-pin-and-mirror.md",
+            "references/focus-wave-vendor-sweep.md",
+            "references/freshness-delta-card.md",
+            "references/full-corpus-reading-mission.md",
+            "references/gate-cache-pitfalls.md",
+            "references/gate-parity-persist-first-2026-10-10.md",
+            "references/gate-passing-data-sajian.md",
+            "references/heavy-builder-card-lifecycle.md",
+            "references/hq-dispatch-bridge-quirks.md",
+            "references/human-pattern-style-standard.md",
+            "references/human-voice-style-repair.md",
+            "references/instrument-defect-vs-product-defect.md",
+            "references/jury-simulation-rerun-and-leak-gates.md",
+            "references/kanban-lad-guard.md",
+            "references/kelas-beban-rt.md",
+            "references/knowledge-activation-rbac-cvlk-addendum.md",
+            "references/knowledge-activation-rbac-verification.md",
+            "references/knowledge-baseline-architecture.md",
+            "references/knowledge-register-multi-domain.md",
+            "references/knowledge-register-remediation-rounds.md",
+            "references/lane-closure-eyes-and-source-budget.md",
+            "references/late-async-batch-and-blueprint-verification.md",
+            "references/late-gate-controller-playbook.md",
+            "references/late-sweep-delta-and-token-freeze.md",
+            "references/layout-gate-pgsz-verification.md",
+            "references/long-running-collection-chains.md",
+            "references/max-compute-orchestration.md",
+            "references/measurement-canonical-and-takeover-chain.md",
+            "references/mid-mission-progress-and-steering.md",
+            "references/mission-cancel-teardown.md",
+            "references/naturalization-gate-longform.md",
+            "references/naturalization-gate-pass-recipes.md",
+            "references/naturalization-gate-repair-and-boq-derivation.md",
+            "references/naturalization-gate-repair-recipes.md",
+            "references/pendalaman-expo-standard.md",
+            "references/pipeline-kanonis-v1.md",
+            "references/professional-manual-standard.md",
+            "references/profile-merge-reprovision-gate-traps-2026-10.md",
+            "references/promotion-ordering-and-modal-claims.md",
+            "references/prose-standard-mission-playbook.md",
+            "references/readability-gated-longform-rework.md",
+            "references/reasoning-death-mode-adjudication-replay.md",
+            "references/remediation-chain-after-verifier-fail.md",
+            "references/remediation-gen2-mixed-fail-split.md",
+            "references/research-lane-mission-ops.md",
+            "references/resume-wave-rung8-and-waiters.md",
+            "references/review-lane-crash-loop.md",
+            "references/saturation-denominator-and-chain-stop.md",
+            "references/saturation-denominator-and-review-lifecycle.md",
+            "references/saturation-denominator-writer-gates.md",
+            "references/saturation-lane-contract-denominator.md",
+            "references/saturation-sweep-mission-frame.md",
+            "references/scanner-defect-classes-2026-10.md",
+            "references/scope-gate-cpa-mission.md",
+            "references/session-2026-09-03-expo26-wbs.md",
+            "references/skill-knowledge-jury-simulation.md",
+            "references/skill-simulation-jury.md",
+            "references/supervisor-countersign-recipes.md",
+            "references/supervisor-cross-audit-playbook.md",
+            "references/supervisor-jury-leak-and-correction-gates.md",
+            "references/supervisor-second-controller-lane-audit.md",
+            "references/verdict-disposition-and-wake-gate.md",
+            "references/verdict-sahkan-spot-audit.md",
+            "references/visual-figure-qc-rerender-chain.md",
+            "references/wave-dispatch-and-resume.md",
+            "references/wave-registration-large-fanout.md",
+            "references/wave-rotation-cap-and-syn-gate.md",
+            "references/wave-rotation-cap-and-timeout-triage.md",
+            "references/wave-verification-and-gates.md",
+            "references/worker-run-recovery-and-restart-gate.md",
+            "references/writer-card-budget-death-by-read.md",
+            "references/writing-card-patterns-2026-10.md",
+            "templates/contract-doc.md"
+          ]
+        }
+      ]
+    },
+    {
       "name": "gsp-orchestrator-worker",
       "copies": [
         {
@@ -1800,6 +2036,25 @@
         {
           "path": "3 Skills/registry-fleet/gsp-orchestrator-worker",
           "tree": "5efb0cfcc60330a1b023d249d8bf79c64d5b8bed"
+        }
+      ]
+    },
+    {
+      "name": "gsp-phase-accountability",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-phase-accountability",
+          "tree": "b4f77403ce8df2245626586ecda8220d41b33b10",
+          "include": [
+            "SKILL.md"
+          ]
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-phase-accountability",
+          "tree": "b4f77403ce8df2245626586ecda8220d41b33b10",
+          "include": [
+            "SKILL.md"
+          ]
         }
       ]
     },
@@ -1908,6 +2163,25 @@
       ]
     },
     {
+      "name": "gsp-task-architect-templates",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-task-architect-templates",
+          "tree": "c2c13c464682cf0fcbcf1a4c00336d881870d8a2",
+          "include": [
+            "SKILL.md"
+          ]
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-task-architect-templates",
+          "tree": "c2c13c464682cf0fcbcf1a4c00336d881870d8a2",
+          "include": [
+            "SKILL.md"
+          ]
+        }
+      ]
+    },
+    {
       "name": "gsp-to-issues",
       "copies": [
         {
@@ -1956,6 +2230,237 @@
         {
           "path": "3 Skills/registry-fleet/gsp-using-git-worktrees",
           "tree": "33b0312ee063a612cc304e2c758dc58a09d8ce8e"
+        }
+      ]
+    },
+    {
+      "name": "gsp-verification-before-completion",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-verification-before-completion",
+          "tree": "c0050f68b6ee55f95780bfbc97fdb2705a3d8183",
+          "include": [
+            "SKILL.md",
+            "references/ai-footprint-sweep.md",
+            "references/artifact-lineage-byte-identity.md",
+            "references/book-audit-instrument-recipes.md",
+            "references/bulk-transform-sanity-and-recovery.md",
+            "references/channel-flag-and-multidefinition-countersign.md",
+            "references/chat-sweep-effectiveness.md",
+            "references/claim-forensics-spotcheck.md",
+            "references/countersign-retry-audit-playbook.md",
+            "references/cross-lane-register-audit.md",
+            "references/data-collection-audit-discipline.md",
+            "references/document-artifact-verification.md",
+            "references/docx-opc-integrity-and-invocation-validity.md",
+            "references/docx-pdf-placement-metrics.md",
+            "references/duplicate-card-deadlock-substring-probes-and-self-correction-2026-10-06.md",
+            "references/editor-timeout-and-owner-edit-audit.md",
+            "references/evidence-stub-provenance-and-ledger-audit.md",
+            "references/fleet-distribution-and-fallback-claims.md",
+            "references/frozen-register-refreeze-and-reverdict-audit.md",
+            "references/gate-propagation-subject-matter-and-render-state-audits.md",
+            "references/gate-regression-vision-layers-and-verify-freshness.md",
+            "references/git-rewrite-timeout-state-and-hash-alias-audits-2026-10-06.md",
+            "references/gsp-service-verification.md",
+            "references/improvement-loop-harness.md",
+            "references/inbound-document-text-and-number-forensics.md",
+            "references/inbound-standard-manual-audit.md",
+            "references/instrument-gate-patch-red-green.md",
+            "references/jsonl-register-spotcheck.md",
+            "references/judge-noise-calibration.md",
+            "references/knowledge-activation-verification.md",
+            "references/manuscript-figure-and-fixpass-verification.md",
+            "references/merge-layer-audit-and-compressed-matcher.md",
+            "references/new-check-calibration-red-green.md",
+            "references/notification-truncation-and-prebase-attribution.md",
+            "references/pdf-print-chain-verification.md",
+            "references/readability-gate-gate-prerequisite-and-closeout-premise-audits-2026-10-06.md",
+            "references/refresh-marker-content-kekal-and-code-tree-countersign.md",
+            "references/rendered-object-layout-gates.md",
+            "references/saturation-verdict-and-resume-supervision.md",
+            "references/scoring-instrument-self-audit.md",
+            "references/shipped-artifact-channel-and-retry-note-audits.md",
+            "references/skill-edit-card-verification.md",
+            "references/supervision-measurement-recipes.md",
+            "references/supervisor-2026-10-09-counterseed-timedout-none.md",
+            "references/supervisor-aggregation-definition-self-correction-cyrillic-sensor-independent-cdf-scope-and-delta-byte-arithmetic-2026-10-08d.md",
+            "references/supervisor-artifact-first-and-hotspot-ops.md",
+            "references/supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md",
+            "references/supervisor-blind-answer-provenance-ruling-vs-disk-and-unit-arithmetic-2026-10-06h.md",
+            "references/supervisor-blind-handoff-hardcoded-detector-backbite-exact-rung-url-probe-and-summary-paraphrase-loss-2026-10-08i.md",
+            "references/supervisor-blind-jury-two-seat-convergence-gate-hole-port-and-worker-resolved-writer-collision-2026-10-08.md",
+            "references/supervisor-board-state-and-instrument-corrections.md",
+            "references/supervisor-byte-audits-and-instrument-blindness-2026-10-06.md",
+            "references/supervisor-canon-source-canal-lock-scanner-human-quotes-and-steer-absorption-2026-10-07c.md",
+            "references/supervisor-canon-source-inversion-pin-freeze-genre-scanner-and-parser-blindness-2026-10-07d.md",
+            "references/supervisor-controller-verdict-ladder-and-pin-aware-remediation-gating-2026-10-09.md",
+            "references/supervisor-counterprobe-arithmetic-headerless-tsv-crosslane-ruling-and-vision-raster-2026-10-09.md",
+            "references/supervisor-countersign-and-self-probes.md",
+            "references/supervisor-countersign-discipline.md",
+            "references/supervisor-countersign-ops.md",
+            "references/supervisor-countersign-reproduction-and-rakit-gates.md",
+            "references/supervisor-countersign-techniques.md",
+            "references/supervisor-countersign-verifier-and-replay-2026-10-09.md",
+            "references/supervisor-declared-layer-probe-clock-control-terminology-equivalence-and-self-garble-disclosure-2026-10-08e.md",
+            "references/supervisor-definition-reconciliation-2026-10-05.md",
+            "references/supervisor-delta-reconstruction-constant-repin-ceiling-readings-denominasi-and-self-sensor-failures-2026-10-08c.md",
+            "references/supervisor-engine-pin-semantic-determinism-and-collision-audits-2026-10-06d.md",
+            "references/supervisor-figure-connector-blindness-2026-10-09.md",
+            "references/supervisor-figure-patch-and-restoration-audits.md",
+            "references/supervisor-frozen-provenance-pin-age-and-premise-rebuttal-2026-10-07c.md",
+            "references/supervisor-git-closeout-blob-pins-vault-proposals-redgreen-exceptions-and-dag-edge-census-2026-10-08f.md",
+            "references/supervisor-hash-recipe-premise-order-instrument-duplication-and-register-lock-2026-10-06e.md",
+            "references/supervisor-item-bank-wave-quota-census-id-roles-forbidden-word-context-and-instrument-traceability-2026-10-08g.md",
+            "references/supervisor-juror-finding-byte-adjudication-sha-transposition-and-canon-cure-direction-2026-10-08.md",
+            "references/supervisor-jury-adjudication-corridor-and-tool-pin-validity-2026-10-06.md",
+            "references/supervisor-manifest-column-parsers-two-era-verdicts-and-close-via-audit-2026-10-06b.md",
+            "references/supervisor-measurement-recipes.md",
+            "references/supervisor-order-steer-mtime-rakit-layer-patch-pin-era-audit-custodian-teeth-and-declarative-repin-2026-10-08.md",
+            "references/supervisor-permutation-audit-seed-neutral-coverage-pin-blast-radius-and-null-result-closure-2026-10-09.md",
+            "references/supervisor-pin-lineage-soft200-and-ownership-audits-2026-10-06.md",
+            "references/supervisor-placement-gates-premise-race-and-semantic-comparison-2026-10-06f.md",
+            "references/supervisor-placement-layer-gates-size-citation-races-and-downstream-register-respect-2026-10-06g.md",
+            "references/supervisor-premature-pin-freeze-artifact-addressing-and-send-fallback-2026-10-07b.md",
+            "references/supervisor-premature-pin-freeze-juror-hold-verifier-rerun-and-canon-inversion-2026-10-07e.md",
+            "references/supervisor-probe-forensics.md",
+            "references/supervisor-remote-git-pin-stability-and-render-forensics-2026-10-06c.md",
+            "references/supervisor-repin-diff-forensics-race-serialization-partial-regen-and-juror-penahan-2026-10-07f.md",
+            "references/supervisor-research-lane-pin-rehash-live-counterprobe-crosslane-binding-and-full-population-index-gates-2026-10-09.md",
+            "references/supervisor-reverdict-wave-ruling-vs-disk-symmetric-hotspot-and-send-mechanics-2026-10-06i.md",
+            "references/supervisor-ruling-variant-ambiguity-frozen-provenance-send-corruption-and-unit-arithmetic-2026-10-06j.md",
+            "references/supervisor-send-breakage-table-unit-arithmetic-footer-definition-and-re-spine-pin-2026-10-06k.md",
+            "references/supervisor-sensor-pitfalls.md",
+            "references/supervisor-silent-patch-return-zero-docx-block-scope-corpus-encoding-and-era-archives-2026-10-08b.md",
+            "references/supervisor-stale-notification-replay-trace-census-multi-pattern-distractor-narrative-and-prepost-sensor-2026-10-08h.md",
+            "references/supervisor-state-probe-and-instrument-correction.md",
+            "references/supervisor-tagihan-embedding-frozen-genre-verdicts-and-shuffle-sync-probes-2026-10-09.md",
+            "references/supervisor-two-era-count-reconciliation-manifest-rehash-and-mtime-artifact-discovery-2026-10-09.md",
+            "references/supervisor-two-era-pins-cross-time-determinism-and-pre-send-self-capture-2026-10-06.md",
+            "references/supervisor-verdict-ledger-vacuum-pass-com-nondeterminism-and-done-label-census-2026-10-07.md",
+            "references/supervisor-verification-and-sensor-discipline.md",
+            "references/supervisor-verify-order-race-and-allowlist-2026-10-06.md",
+            "references/supervisor-zone-glif-canons-object-hash-fix-verification-and-instrument-self-corrections-2026-10-09.md",
+            "references/synthesis-integrity-audit.md",
+            "references/vision-carry-forward-and-instrument-verdict-gaps-2026-10-06.md",
+            "references/visual-qc-connector-discipline.md",
+            "references/vs-gate-countersign-and-entity-type-matcher.md",
+            "references/wave-supervision-self-instrument-and-timeout-lessons.md",
+            "references/xlsx-link-style-and-parser-discipline.md"
+          ]
+        },
+        {
+          "path": "3 Skills/registry-fleet/gsp-verification-before-completion",
+          "tree": "8f2479857ace5c667482d54c3c77aed5a4ac9156",
+          "include": [
+            "SKILL.md",
+            "references/ai-footprint-sweep.md",
+            "references/artifact-lineage-byte-identity.md",
+            "references/book-audit-instrument-recipes.md",
+            "references/bulk-transform-sanity-and-recovery.md",
+            "references/channel-flag-and-multidefinition-countersign.md",
+            "references/chat-sweep-effectiveness.md",
+            "references/claim-forensics-spotcheck.md",
+            "references/countersign-retry-audit-playbook.md",
+            "references/cross-lane-register-audit.md",
+            "references/data-collection-audit-discipline.md",
+            "references/document-artifact-verification.md",
+            "references/docx-opc-integrity-and-invocation-validity.md",
+            "references/docx-pdf-placement-metrics.md",
+            "references/duplicate-card-deadlock-substring-probes-and-self-correction-2026-10-06.md",
+            "references/editor-timeout-and-owner-edit-audit.md",
+            "references/evidence-stub-provenance-and-ledger-audit.md",
+            "references/fleet-distribution-and-fallback-claims.md",
+            "references/frozen-register-refreeze-and-reverdict-audit.md",
+            "references/gate-propagation-subject-matter-and-render-state-audits.md",
+            "references/gate-regression-vision-layers-and-verify-freshness.md",
+            "references/git-rewrite-timeout-state-and-hash-alias-audits-2026-10-06.md",
+            "references/gsp-service-verification.md",
+            "references/improvement-loop-harness.md",
+            "references/inbound-document-text-and-number-forensics.md",
+            "references/inbound-standard-manual-audit.md",
+            "references/instrument-gate-patch-red-green.md",
+            "references/jsonl-register-spotcheck.md",
+            "references/judge-noise-calibration.md",
+            "references/knowledge-activation-verification.md",
+            "references/manuscript-figure-and-fixpass-verification.md",
+            "references/merge-layer-audit-and-compressed-matcher.md",
+            "references/new-check-calibration-red-green.md",
+            "references/notification-truncation-and-prebase-attribution.md",
+            "references/pdf-print-chain-verification.md",
+            "references/readability-gate-gate-prerequisite-and-closeout-premise-audits-2026-10-06.md",
+            "references/refresh-marker-content-kekal-and-code-tree-countersign.md",
+            "references/rendered-object-layout-gates.md",
+            "references/saturation-verdict-and-resume-supervision.md",
+            "references/scoring-instrument-self-audit.md",
+            "references/shipped-artifact-channel-and-retry-note-audits.md",
+            "references/skill-edit-card-verification.md",
+            "references/supervision-measurement-recipes.md",
+            "references/supervisor-2026-10-09-counterseed-timedout-none.md",
+            "references/supervisor-aggregation-definition-self-correction-cyrillic-sensor-independent-cdf-scope-and-delta-byte-arithmetic-2026-10-08d.md",
+            "references/supervisor-artifact-first-and-hotspot-ops.md",
+            "references/supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md",
+            "references/supervisor-blind-answer-provenance-ruling-vs-disk-and-unit-arithmetic-2026-10-06h.md",
+            "references/supervisor-blind-handoff-hardcoded-detector-backbite-exact-rung-url-probe-and-summary-paraphrase-loss-2026-10-08i.md",
+            "references/supervisor-blind-jury-two-seat-convergence-gate-hole-port-and-worker-resolved-writer-collision-2026-10-08.md",
+            "references/supervisor-board-state-and-instrument-corrections.md",
+            "references/supervisor-byte-audits-and-instrument-blindness-2026-10-06.md",
+            "references/supervisor-canon-source-canal-lock-scanner-human-quotes-and-steer-absorption-2026-10-07c.md",
+            "references/supervisor-canon-source-inversion-pin-freeze-genre-scanner-and-parser-blindness-2026-10-07d.md",
+            "references/supervisor-controller-verdict-ladder-and-pin-aware-remediation-gating-2026-10-09.md",
+            "references/supervisor-counterprobe-arithmetic-headerless-tsv-crosslane-ruling-and-vision-raster-2026-10-09.md",
+            "references/supervisor-countersign-and-self-probes.md",
+            "references/supervisor-countersign-discipline.md",
+            "references/supervisor-countersign-ops.md",
+            "references/supervisor-countersign-reproduction-and-rakit-gates.md",
+            "references/supervisor-countersign-techniques.md",
+            "references/supervisor-countersign-verifier-and-replay-2026-10-09.md",
+            "references/supervisor-declared-layer-probe-clock-control-terminology-equivalence-and-self-garble-disclosure-2026-10-08e.md",
+            "references/supervisor-definition-reconciliation-2026-10-05.md",
+            "references/supervisor-delta-reconstruction-constant-repin-ceiling-readings-denominasi-and-self-sensor-failures-2026-10-08c.md",
+            "references/supervisor-engine-pin-semantic-determinism-and-collision-audits-2026-10-06d.md",
+            "references/supervisor-figure-connector-blindness-2026-10-09.md",
+            "references/supervisor-figure-patch-and-restoration-audits.md",
+            "references/supervisor-frozen-provenance-pin-age-and-premise-rebuttal-2026-10-07c.md",
+            "references/supervisor-git-closeout-blob-pins-vault-proposals-redgreen-exceptions-and-dag-edge-census-2026-10-08f.md",
+            "references/supervisor-hash-recipe-premise-order-instrument-duplication-and-register-lock-2026-10-06e.md",
+            "references/supervisor-item-bank-wave-quota-census-id-roles-forbidden-word-context-and-instrument-traceability-2026-10-08g.md",
+            "references/supervisor-juror-finding-byte-adjudication-sha-transposition-and-canon-cure-direction-2026-10-08.md",
+            "references/supervisor-jury-adjudication-corridor-and-tool-pin-validity-2026-10-06.md",
+            "references/supervisor-manifest-column-parsers-two-era-verdicts-and-close-via-audit-2026-10-06b.md",
+            "references/supervisor-measurement-recipes.md",
+            "references/supervisor-order-steer-mtime-rakit-layer-patch-pin-era-audit-custodian-teeth-and-declarative-repin-2026-10-08.md",
+            "references/supervisor-permutation-audit-seed-neutral-coverage-pin-blast-radius-and-null-result-closure-2026-10-09.md",
+            "references/supervisor-pin-lineage-soft200-and-ownership-audits-2026-10-06.md",
+            "references/supervisor-placement-gates-premise-race-and-semantic-comparison-2026-10-06f.md",
+            "references/supervisor-placement-layer-gates-size-citation-races-and-downstream-register-respect-2026-10-06g.md",
+            "references/supervisor-premature-pin-freeze-artifact-addressing-and-send-fallback-2026-10-07b.md",
+            "references/supervisor-premature-pin-freeze-juror-hold-verifier-rerun-and-canon-inversion-2026-10-07e.md",
+            "references/supervisor-probe-forensics.md",
+            "references/supervisor-remote-git-pin-stability-and-render-forensics-2026-10-06c.md",
+            "references/supervisor-repin-diff-forensics-race-serialization-partial-regen-and-juror-penahan-2026-10-07f.md",
+            "references/supervisor-research-lane-pin-rehash-live-counterprobe-crosslane-binding-and-full-population-index-gates-2026-10-09.md",
+            "references/supervisor-reverdict-wave-ruling-vs-disk-symmetric-hotspot-and-send-mechanics-2026-10-06i.md",
+            "references/supervisor-ruling-variant-ambiguity-frozen-provenance-send-corruption-and-unit-arithmetic-2026-10-06j.md",
+            "references/supervisor-send-breakage-table-unit-arithmetic-footer-definition-and-re-spine-pin-2026-10-06k.md",
+            "references/supervisor-sensor-pitfalls.md",
+            "references/supervisor-silent-patch-return-zero-docx-block-scope-corpus-encoding-and-era-archives-2026-10-08b.md",
+            "references/supervisor-stale-notification-replay-trace-census-multi-pattern-distractor-narrative-and-prepost-sensor-2026-10-08h.md",
+            "references/supervisor-state-probe-and-instrument-correction.md",
+            "references/supervisor-tagihan-embedding-frozen-genre-verdicts-and-shuffle-sync-probes-2026-10-09.md",
+            "references/supervisor-two-era-count-reconciliation-manifest-rehash-and-mtime-artifact-discovery-2026-10-09.md",
+            "references/supervisor-two-era-pins-cross-time-determinism-and-pre-send-self-capture-2026-10-06.md",
+            "references/supervisor-verdict-ledger-vacuum-pass-com-nondeterminism-and-done-label-census-2026-10-07.md",
+            "references/supervisor-verification-and-sensor-discipline.md",
+            "references/supervisor-verify-order-race-and-allowlist-2026-10-06.md",
+            "references/supervisor-zone-glif-canons-object-hash-fix-verification-and-instrument-self-corrections-2026-10-09.md",
+            "references/synthesis-integrity-audit.md",
+            "references/vision-carry-forward-and-instrument-verdict-gaps-2026-10-06.md",
+            "references/visual-qc-connector-discipline.md",
+            "references/vs-gate-countersign-and-entity-type-matcher.md",
+            "references/wave-supervision-self-instrument-and-timeout-lessons.md",
+            "references/xlsx-link-style-and-parser-discipline.md"
+          ]
         }
       ]
     },
@@ -2267,6 +2772,12 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "2abd6afb7269c8155da82f9940fca8f9cffd74cec47d9a32f7b6f79803e2c94c",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "37a1cd6873725c7820261a1fdf423412d5b704e1e378d0b6e6b700369220f098",
       "lines": 1,
       "basis": "public-regulator"
@@ -2321,6 +2832,12 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "8eb738afccd9c3424ab165b734d5e2b9859ac8bd89b765b5cbfc90637ba28c09",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "92b60edd3a77358b87888388a97913c766467c4822ded77b839510fde131ec5b",
       "lines": 1,
       "basis": "template-default"
@@ -2345,9 +2862,21 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "b263cd4b52e31934815f762c231d367730a4b9337abfb3ab80eaeec4c1bd656d",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "b3da7681150bf667f42256c379139e147abadd92f951ee3050c75081d7b3d1e6",
       "lines": 5,
       "basis": "public-regulator"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "bed6e32398772c2dd74e858ebf99229ec31d5268c84c1783c4ad1905e1ffb30f",
+      "lines": 1,
+      "basis": "generic-word"
     },
     {
       "group": "CLASS_MARK",
@@ -2357,7 +2886,19 @@
     },
     {
       "group": "CLASS_MARK",
+      "source_sha256": "cf1530f0b211d16878b6e4b1c695903c127518cc33642458f5cd3a0506133d08",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
       "source_sha256": "d4f2bea6ec445085b0a6019c9714423ee08068b902079db1e71d769e19fa6590",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLASS_MARK",
+      "source_sha256": "dc973e995f6fcb4b24e05cd3fab0c17754fc907f6b4cb3e851be2e837ca1120e",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -2387,6 +2928,12 @@
     },
     {
       "group": "CLIENT_DOC",
+      "source_sha256": "2abd6afb7269c8155da82f9940fca8f9cffd74cec47d9a32f7b6f79803e2c94c",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
       "source_sha256": "320a2ef282429bde2e8de30ee7a19a1e11190002e8c5a6c94effd7d0020d1300",
       "lines": 8,
       "basis": "generic-word"
@@ -2411,6 +2958,18 @@
     },
     {
       "group": "CLIENT_DOC",
+      "source_sha256": "6b1db712114c51cc826c408a1b703ebe7c16a0deeaa462f692bd5ae731b1b893",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "71dbcf28e93da91b3439f7de2ee68c264872d6ec15fba2e7299560e82a8725bd",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
       "source_sha256": "883e1ca135ed832b4056af568cfad2aa84172d07a086f9936d3c4bfc32636202",
       "lines": 1,
       "basis": "generic-word"
@@ -2430,6 +2989,12 @@
     {
       "group": "CLIENT_DOC",
       "source_sha256": "9c762975fd77b1d4d5c6e442a85ce74830b8a771827122030919a6b5a2928c24",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
+      "source_sha256": "cf1530f0b211d16878b6e4b1c695903c127518cc33642458f5cd3a0506133d08",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -2459,6 +3024,12 @@
     },
     {
       "group": "CLIENT_DOC",
+      "source_sha256": "e8c6e190674edc545eaa4e61ae1268b57a08582cd8c72ea5ed9916aa0ff986f2",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "CLIENT_DOC",
       "source_sha256": "eea0eed6b5d389bdfbc4d72055752480fe7c8ef20096bbad7efed092c3464091",
       "lines": 11,
       "basis": "generic-word"
@@ -2483,6 +3054,18 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "0d004fe2271eb560ca627233a9913da145883b20321166ee24dd9b8a380764c1",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "12d2bb049a151c5a2aa50c1aeee4d31e18e1d081985817e0a8cbb6cfaddc79a7",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "155fe891fe7833201e9ee7f2798866f436f7c8a72301d382ab4d10fe7875e347",
       "lines": 3,
       "basis": "generic-word"
@@ -2491,6 +3074,12 @@
       "group": "COMMERCIAL",
       "source_sha256": "18eb92f2793ce0c6131108442f4a5d448ca8f1bea841a2d4d0e1cf0e39d4d90a",
       "lines": 6,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "19d4012f7481464456653aa69c9dc8c67c17891ac23b00816823361243574dc2",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -2525,13 +3114,49 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "37eb925aca8c636b66a00ef1d17351f5c2be300f2146ce3d31986e699650d1c8",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "39f314e7c736354086584737f431b6bda5068425c63db057ecc7e95c001d69a7",
       "lines": 2,
       "basis": "generic-word"
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "3c0ba34b18e75e1576282c7ccbae857fb9f949121c51d25a0d2445fa97f84f38",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "3dc768213c82a60ab57e2a3f093470771ce9b2193b6507f3ad25195319f564e8",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "46bde3342a6652cfe404fabe4a034ff88fb499f5bf5c0fe1df51d1a7fbecc63a",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "49914325b308fdab07716f33f596e25b38198632a08b81b2d03df140287a18d2",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "4ec1762a8ed4f644349ac1271e52620952a72150dec6d93cf00b9061feafa458",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "4f7149215bf8521bb090894603803421edead48e7fa0f9d537dbc54540c7e190",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -2555,8 +3180,26 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "6e3641c8955527ec2a5bed0dab7db05f0c4a07c51bb7ba43a57b15769ce068bc",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "71573c56fcb031a2306391c2353bfcf5748c00af07f17d3d825b2b160e5ba761",
+      "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "724e3ba573a6782cb099f76f47f346d706077f7e9783734a2aed5a4816495642",
       "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "73ac46119438dc6b43b5b597e578300d4fe99c2689a110dd6b9b6c9c95b05057",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
@@ -2585,8 +3228,26 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "7ccc860c29038fc2acbc667486816e65e211a502bb5d391c93e67812a1f62b67",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "88c35cf5314a1c93a6608b6de5ed2640a4532b209326599e840a58dc2aae5403",
       "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "9266f25d62aa277aa92449e05d56f8f0ef49687303035ab00beea66801f14a53",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "92eee282c19eb97716bc2572a4d01b777941fb5fa8dc5d259458e11f245d008c",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -2599,6 +3260,18 @@
       "group": "COMMERCIAL",
       "source_sha256": "97fc147866a51677cc25f3330c59fef628ae900db59383c0ac76d618d4622f99",
       "lines": 3,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "9aedfb734edd889124c91f3e2b8dfc154790895120498f476511d19756f801df",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "9cd7d5c4a9d01fb4549dfd428b241c724fd45f5700b4db34c88254de6aa61392",
+      "lines": 1,
       "basis": "generic-word"
     },
     {
@@ -2621,6 +3294,18 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "a5bc19fb382fdd4f5441f43dd498def6c67820df5bd8a4269ddf61d696c5a2fd",
+      "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "a6288dfe70f506ae51fa74f9f95de8c2470752ed4b40c53c38e2d9fa5eda9198",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "af4e6eb8cdd059db8076e952e25ae30e1cc096ae30868add0481b30e915924c9",
       "lines": 1,
       "basis": "generic-word"
@@ -2633,8 +3318,44 @@
     },
     {
       "group": "COMMERCIAL",
+      "source_sha256": "bc974c9dff9ff837c8bcb9e6ead46402e55a020829f75b8f655c6f34628cfe81",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "beed27c26266af48086968f04e3ec72e814a253cc096456db4b918110b0985a2",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "cb38e1d0f9e0dbcf5adc82149d7a0af34dc0ba7db1c06d5658b62222cf00df10",
+      "lines": 1,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
       "source_sha256": "d26c983b680be097e68ed775e136587222c151ad4a93c539224cf0b080d0bb57",
       "lines": 8,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "d6a497f637aea32cdaa90f36a9e71b1f5f89f4dc26b45878a8f99bd575017f30",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "de61609a886ebeba2710519355dffdb23d577821c35ca2f335b549adfbc897dd",
+      "lines": 2,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "e10345d1f71e8544f0ed2a2516b89996224dd28d4169313f630729833caf4721",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
@@ -2647,6 +3368,12 @@
       "group": "COMMERCIAL",
       "source_sha256": "f28fb74a39145e60489acc1cf470f05c0063489b2d1455ba06eb661f5e47dee2",
       "lines": 4,
+      "basis": "generic-word"
+    },
+    {
+      "group": "COMMERCIAL",
+      "source_sha256": "f3cf788969a69382aa39d91b775e96c156b45f99120e7e20aac45f9441c0cd95",
+      "lines": 2,
       "basis": "generic-word"
     },
     {
@@ -2753,12 +3480,6 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "0b863643bbfff2dc97a964c648ffe3d1bc9ef97557f1dc0c0773851ff6800bab",
-      "lines": 1,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
       "source_sha256": "0db111626a8806615f2235823e6c4ff125575b0e7d13266cf301eb40c691a5ef",
       "lines": 1,
       "basis": "generic-word"
@@ -2813,12 +3534,6 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "38f72ba37d9ee99df7339e010ca487f542f58c494716188f3cfa1058a6d06026",
-      "lines": 5,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
       "source_sha256": "3e222149c0ed1dfa8d71144361a49d0e204100aa8fb6cf26208517bf8087909c",
       "lines": 1,
       "basis": "generic-word"
@@ -2862,12 +3577,6 @@
     {
       "group": "DERIVED_NAME",
       "source_sha256": "6bec2db69aeff3dc13011a3359dcb87394c8b9d031ec82b786cf4b7f99011feb",
-      "lines": 1,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
-      "source_sha256": "70e58cc972065684a70e00f9c3e53059993a4d295aec52e963042574f46d04a3",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -2999,12 +3708,6 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "a2dbc2dd79990dfa7fa30a235d7b277345eb45fc3a46ded4367d4fef518726e2",
-      "lines": 2,
-      "basis": "generic-word"
-    },
-    {
-      "group": "DERIVED_NAME",
       "source_sha256": "a412915848be6df843208024b4fc00693098a80be944d0ddc96c80ce4978a09b",
       "lines": 2,
       "basis": "generic-word"
@@ -3065,7 +3768,7 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "e65618da6fed2d8e4ebba1e490ea4a16b1d538120d6b18bc8c228df8b5d32612",
+      "source_sha256": "e8c6e190674edc545eaa4e61ae1268b57a08582cd8c72ea5ed9916aa0ff986f2",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -3177,7 +3880,7 @@
   ],
   "approval": {
     "status": "approved",
-    "date": "2026-10-31",
-    "decision_ref": "decisions/decisions.md: diberikan AI atas pelimpahan pemilik tanggal 2026-10-31, bukan tinjauan pemilik"
+    "date": "2026-11-01",
+    "decision_ref": "docs/2026-11-01_kurasi_workflow_edisi/decisions/decisions.md: diberikan AI tanggal 2026-11-01 atas pelimpahan pemilik, bukan tinjauan pemilik"
   }
 }
