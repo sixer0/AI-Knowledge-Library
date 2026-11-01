@@ -791,7 +791,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-orchestration-execution/references/gate-parity-persist-first-2026-10-10.md,5045,7da48091e136c6762c444e5314bffe52f3649f1f1dbcc06a8aebc4b9caa0b2f4
 3 Skills/kanonik/gsp-orchestration-execution/references/gate-passing-data-sajian.md,4882,372df3246ab038f71d551bcccb1dbdb6bde26f9fdeb332f0e195503b4733f1eb
 3 Skills/kanonik/gsp-orchestration-execution/references/heavy-builder-card-lifecycle.md,3988,0b999d6dca3c69de618a8df38d033fd6f2d79f6cd56fe0b606e1b010eaa78737
-3 Skills/kanonik/gsp-orchestration-execution/references/hq-dispatch-bridge-quirks.md,5033,6b1db712114c51cc826c408a1b703ebe7c16a0deeaa462f692bd5ae731b1b893
+3 Skills/kanonik/gsp-orchestration-execution/references/hq-dispatch-bridge-quirks.md,5136,c80aaeaa1cf1bfc58e12ea7c524e99d7824de21eb55568c6df3d994a73d71f32
 3 Skills/kanonik/gsp-orchestration-execution/references/human-pattern-style-standard.md,7700,23a88a0b3772a40733fe15bd5450bbf8d253e7822e50e672086c65d184337820
 3 Skills/kanonik/gsp-orchestration-execution/references/human-voice-style-repair.md,5936,1c8ab9c3b8d95f412ebcee1e4c94aea86b1d2c07d680fcb1e1a09b9c430a645e
 3 Skills/kanonik/gsp-orchestration-execution/references/instrument-defect-vs-product-defect.md,4329,1f0e70d42212d9fe31114413c6593aa9282894ab501d7379e7f7dbb7fb7382b2
@@ -1037,7 +1037,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-verification-before-completion/references/shipped-artifact-channel-and-retry-note-audits.md,5920,6e3641c8955527ec2a5bed0dab7db05f0c4a07c51bb7ba43a57b15769ce068bc
 3 Skills/kanonik/gsp-verification-before-completion/references/skill-edit-card-verification.md,4337,94f1b6bf4adb62377ca37dccfa3edc5cea7f8d9888e01208194b852d47c37b5f
 3 Skills/kanonik/gsp-verification-before-completion/references/supervision-measurement-recipes.md,6848,70e9e00e662dd6a1ee7f0cbc4e19a31456990166a4abf7061549dfdb97db2c87
-3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-2026-10-09-counterseed-timedout-none.md,4173,9ea7c3e76faaccb02e07f782fd24a0615269d98b3c6275d52eec9956fcaffc23
+3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-2026-10-09-counterseed-timedout-none.md,4217,92c61bb4ce35c427b1087de4a9d982eb16b20a8c16e9662cb48f9a702fddbca9
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-aggregation-definition-self-correction-cyrillic-sensor-independent-cdf-scope-and-delta-byte-arithmetic-2026-10-08d.md,7295,378453c81cbdb537e28b048b479189ea59cf79ab23557a356798be9f708fa213
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-artifact-first-and-hotspot-ops.md,4791,139bff9549d297882d310c570910a2c361e22ccc22b3d0b601b7cd452d06f979
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md,7019,5229f7f9697a23dbdca1a0c52e706a5055e3ee73304a99f64a889fe82863efb7
@@ -1055,7 +1055,7 @@ relative_path,bytes,sha256
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-countersign-ops.md,5326,dc973e995f6fcb4b24e05cd3fab0c17754fc907f6b4cb3e851be2e837ca1120e
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-countersign-reproduction-and-rakit-gates.md,6025,73c1cdba55778679d02a9ca9fa788f53fef1e8da9c0ab5d33ab65e20126e19e6
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-countersign-techniques.md,7799,139532b7c0a72465051dba1c2a9d7959357d390bf950035192b072250257a2b5
-3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-countersign-verifier-and-replay-2026-10-09.md,4649,a2fdaac72dd51a0877b3496a8ce26534e61c69a732c2a0774da768618f3c61a7
+3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-countersign-verifier-and-replay-2026-10-09.md,4697,d11cc5aa40fffd4e32b316a6afbb4903c4863a00ec852e90ec7511329a252130
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-cyclic-duplicate-deadlock-nbsp-blindness-and-mention-use-2026-10-06.md,11,4097889236a2af26c293033feb964c4cf118c0224e0d063fec0a89e9d0569ef2
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-declared-layer-probe-clock-control-terminology-equivalence-and-self-garble-disclosure-2026-10-08e.md,3870,5399e008a6c7efea5231af1f5d761478a78359f65e3c1051d2650d8e41102996
 3 Skills/kanonik/gsp-verification-before-completion/references/supervisor-definition-reconciliation-2026-10-05.md,5853,92eee282c19eb97716bc2572a4d01b777941fb5fa8dc5d259458e11f245d008c
@@ -1957,7 +1957,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-orchestration-execution/references/gate-parity-persist-first-2026-10-10.md,5045,7da48091e136c6762c444e5314bffe52f3649f1f1dbcc06a8aebc4b9caa0b2f4
 3 Skills/registry-fleet/gsp-orchestration-execution/references/gate-passing-data-sajian.md,4882,372df3246ab038f71d551bcccb1dbdb6bde26f9fdeb332f0e195503b4733f1eb
 3 Skills/registry-fleet/gsp-orchestration-execution/references/heavy-builder-card-lifecycle.md,3988,0b999d6dca3c69de618a8df38d033fd6f2d79f6cd56fe0b606e1b010eaa78737
-3 Skills/registry-fleet/gsp-orchestration-execution/references/hq-dispatch-bridge-quirks.md,5033,6b1db712114c51cc826c408a1b703ebe7c16a0deeaa462f692bd5ae731b1b893
+3 Skills/registry-fleet/gsp-orchestration-execution/references/hq-dispatch-bridge-quirks.md,5136,c80aaeaa1cf1bfc58e12ea7c524e99d7824de21eb55568c6df3d994a73d71f32
 3 Skills/registry-fleet/gsp-orchestration-execution/references/human-pattern-style-standard.md,7700,23a88a0b3772a40733fe15bd5450bbf8d253e7822e50e672086c65d184337820
 3 Skills/registry-fleet/gsp-orchestration-execution/references/human-voice-style-repair.md,5918,fe83bcf093feefbf0b608d1e825228603e097a8b5ba205ebbca75bf56f80c3ee
 3 Skills/registry-fleet/gsp-orchestration-execution/references/instrument-defect-vs-product-defect.md,4329,1f0e70d42212d9fe31114413c6593aa9282894ab501d7379e7f7dbb7fb7382b2
@@ -2205,7 +2205,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-verification-before-completion/references/shipped-artifact-channel-and-retry-note-audits.md,5920,6e3641c8955527ec2a5bed0dab7db05f0c4a07c51bb7ba43a57b15769ce068bc
 3 Skills/registry-fleet/gsp-verification-before-completion/references/skill-edit-card-verification.md,4337,94f1b6bf4adb62377ca37dccfa3edc5cea7f8d9888e01208194b852d47c37b5f
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervision-measurement-recipes.md,6848,70e9e00e662dd6a1ee7f0cbc4e19a31456990166a4abf7061549dfdb97db2c87
-3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-2026-10-09-counterseed-timedout-none.md,4173,9ea7c3e76faaccb02e07f782fd24a0615269d98b3c6275d52eec9956fcaffc23
+3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-2026-10-09-counterseed-timedout-none.md,4217,92c61bb4ce35c427b1087de4a9d982eb16b20a8c16e9662cb48f9a702fddbca9
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-aggregation-definition-self-correction-cyrillic-sensor-independent-cdf-scope-and-delta-byte-arithmetic-2026-10-08d.md,7295,378453c81cbdb537e28b048b479189ea59cf79ab23557a356798be9f708fa213
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-artifact-first-and-hotspot-ops.md,4791,139bff9549d297882d310c570910a2c361e22ccc22b3d0b601b7cd452d06f979
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-artifact-over-summary-who-closed-and-kanvas-semantics-2026-10-07b.md,7019,5229f7f9697a23dbdca1a0c52e706a5055e3ee73304a99f64a889fe82863efb7
@@ -2223,7 +2223,7 @@ relative_path,bytes,sha256
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-countersign-ops.md,5326,dc973e995f6fcb4b24e05cd3fab0c17754fc907f6b4cb3e851be2e837ca1120e
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-countersign-reproduction-and-rakit-gates.md,6025,73c1cdba55778679d02a9ca9fa788f53fef1e8da9c0ab5d33ab65e20126e19e6
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-countersign-techniques.md,7799,139532b7c0a72465051dba1c2a9d7959357d390bf950035192b072250257a2b5
-3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-countersign-verifier-and-replay-2026-10-09.md,4649,a2fdaac72dd51a0877b3496a8ce26534e61c69a732c2a0774da768618f3c61a7
+3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-countersign-verifier-and-replay-2026-10-09.md,4697,d11cc5aa40fffd4e32b316a6afbb4903c4863a00ec852e90ec7511329a252130
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-cyclic-duplicate-deadlock-nbsp-blindness-and-mention-use-2026-10-06.md,11,4097889236a2af26c293033feb964c4cf118c0224e0d063fec0a89e9d0569ef2
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-declared-layer-probe-clock-control-terminology-equivalence-and-self-garble-disclosure-2026-10-08e.md,3870,5399e008a6c7efea5231af1f5d761478a78359f65e3c1051d2650d8e41102996
 3 Skills/registry-fleet/gsp-verification-before-completion/references/supervisor-definition-reconciliation-2026-10-05.md,5853,92eee282c19eb97716bc2572a4d01b777941fb5fa8dc5d259458e11f245d008c

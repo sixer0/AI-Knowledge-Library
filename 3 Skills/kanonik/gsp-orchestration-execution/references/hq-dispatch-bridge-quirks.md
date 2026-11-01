@@ -56,7 +56,7 @@ sebagai tabel aktor+peran+status dalam satu jawaban tanpa penelusuran ulang.
 - Diagnosis: bandingkan mtime `.next/server/app/api/brahma/requests/[id]/route.js` (build yang
   dijalankan proses HQ) vs berkas sumber. Build 04-09 09:55 < sumber 04-09 14:50 = fix belum live.
   Restart HQ = wewenang user; jangan restart sendiri.
-- Jalur sah sementara: rekonsiliasi DB guarded per-id, satu transaksi,
+- Setelah 409: berhenti dan lapor; tulis langsung ke DB hanya dengan izin operator atas penulisan itu. Bentuk bila diizinkan: rekonsiliasi DB guarded per-id, satu transaksi,
   `UPDATE "AgentRequest" SET status='done', result=<note rujukan kartu terminal> ... WHERE id=$2
   AND status IN ('blocked','failed')` — preseden
   docs/2026-09-04-kanban-triage-c/scripts/reconcile_bridge_approval.cjs dan
