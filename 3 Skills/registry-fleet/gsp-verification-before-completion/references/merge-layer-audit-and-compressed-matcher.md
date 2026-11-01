@@ -10,7 +10,7 @@ sebagian host CN mengirim body gzip TANPA negosiasi header. Kasus nyata:
 `qacctv.com` → 28 KB byte terkompresi, nol `<title>` ter-grep, seolah halaman
 asing/kosong = positif-palsu cacat entity-match. Resep benar:
 ```bash
-curl -sL --compressed --max-time 25 -A "Mozilla/5.0" "$URL" -o page.html
+curl -sL --compressed --max-time 25 "$URL" -o page.html
 grep -oiE "merek|nama_cn" page.html | tr 'A-Z' 'a-z' | sort | uniq -c
 ```
 Hasil pasca-dekompresi: 47 token "乔安" + "jooan" → baris SAH (JOOAN).
