@@ -24,7 +24,7 @@ Preseden kembar PROMANUAL: bab-3 known-behavior ditutup jalur (b) known-defect b
 ## 4. Aritmetika satuan lapis penempatan (dua koreksi sensor dalam satu kartu)
 
 Uji penempatan gambar/tabel artefak rilis (kelas C16/C17):
-- docx inline: `<wp:extent cx cy>` dalam EMU; mm = EMU/360000. Pola sehat VISUAL pasca-SA2: hanya [128,0; 166,0]; entri 210x297 mm = 'Page Ground' latar sah (adili sebelum vonis "lebar").
+- docx inline: `<wp:extent cx cy>` dalam EMU; mm = EMU/36000. Pola sehat VISUAL pasca-SA2: hanya [128,0; 166,0]; entri 210x297 mm = 'Page Ground' latar sah (adili sebelum vonis "lebar").
 - docx tblGrid/gridCol: satuan dxa; mm = dxa/1440*25,4. Sesi ini salah DUA kali (pakai divisor EMU lalu faktor dua) sampai distribusi benar 90@128,0+1@166,0 muncul. Sanity: 7257 dxa = 128,0 mm.
 - pdf: `page.get_image_info(xrefs=True)` — TANPA flag, key 'xref' absen (KeyError); bbox[2] vs lebar halaman 595,32 pt (A4). Caption: span 'GAMBAR' dalam 30pt di bawah bbox gambar.
 - Footer riil: regex 'LEMBAR \d+ DARI \d+' pada teks halaman terakhir; pymupdf len(d) == ComputeStatistics COM == footer N.

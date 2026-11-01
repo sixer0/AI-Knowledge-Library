@@ -6,7 +6,7 @@ an upstream precondition; dev=0 on the manifest coexisted with 53/53 images over
 page because the builder passed mm into a Cm() helper (10x bug).
 
 ## Unit arithmetic (both tripped live probes)
-- `wp:extent cx/cy` in document.xml = EMU: mm = value / 360000.
+- `wp:extent cx/cy` in document.xml = EMU: mm = value / 36000.
 - `w:tblW w:w` and `<w:gridCol w:w>` = dxa/twips: mm = value / 1440 * 25.4.
   Using the wrong divisor yields all-FALSE results (observed: 91/91 tables "out of spec"
   with a wrong factor; correct math gave 90@128.0 + 1@166.0 mm, deviation 0).

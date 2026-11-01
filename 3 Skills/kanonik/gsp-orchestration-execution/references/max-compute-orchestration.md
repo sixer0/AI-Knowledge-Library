@@ -12,10 +12,10 @@ ukur dulu, jangan asumsi; gerbang mutu tidak pernah ditukar kecepatan.
   uji beban paralel nyata dengan `concurrent.futures.ThreadPoolExecutor` (tangga 8 -> 24 request,
   catat ok/n, latensi rata, wall). Preseden 07-10: 24/24 sukses, lat 1,0 s -> server BUKAN leher
   botol; yang membatasi adalah dispatcher papan.
-- KUNCI API: baca dari `profiles/<p>/config.yaml` baris `api_key:` DI DALAM proses Python.
-  Keluaran terminal TER-REDAKSI oleh sistem: nilai 13-kararakter hasil grep/sed adalah artefak
-  redaksi (401 Unauthorized), kunci asli hanya terbaca saat file dibaca in-process. Jangan pernah
-  menampilkan kunci.
+- KUNCI API: hanya dipakai dengan izin eksplisit pemilik; tanpa izin, berhenti dan lapor.
+  Keluaran terminal TER-REDAKSI oleh sistem: nilai 13-kararakter pada keluaran terminal adalah artefak
+  redaksi (401 Unauthorized), bukan kunci asli.
+  Jangan pernah menampilkan kunci.
 
 ## 2. Batch-create DAG via skrip generator (norma N1 + fast-lane)
 - Satu skrip Python per misi (`gen_lanes.py`) yang merender body dari templat + memanggil

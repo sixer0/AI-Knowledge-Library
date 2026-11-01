@@ -20,7 +20,7 @@ salinannya tersedia.
 
 | Folder | Isi | Berkas isi, di luar INDEKS.md |
 |---|---|---:|
-| [1 Workflow](1%20Workflow/INDEKS.md) | Prosedur kerja, standar penataan dan metadata, pemeriksaan harian pustaka, serta jadwal otomatis (cron). | 8 |
+| [1 Workflow](1%20Workflow/INDEKS.md) | Prosedur kerja, standar penataan dan metadata, pemeriksaan harian pustaka, serta jadwal otomatis (cron). | 9 |
 | [2 Roles](2%20Roles/INDEKS.md) | Tugas dan kewenangan agen, daftar profil aktif, serta controller yang terikat pada akun pengguna (RBAC). | 49 |
 | [3 Skills](3%20Skills/INDEKS.md) | Sumber skill yang dikurasi (`kanonik`) dan salinan yang digunakan fleet (`registry-fleet`). | 2321 |
 | [4 Knowledge Bank](4%20Knowledge%20Bank/INDEKS.md) | Wiki Information Library, lapisan teks EKAS, indeks pengetahuan, dan katalog dokumen. | 1292 |

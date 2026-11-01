@@ -34,7 +34,7 @@ Standing rule commit+push: vonis hanya dari `git ls-remote origin main` (HEAD) +
 - **Peta kolom dari cetakan awk GILIRAN YANG SAMA dengan posting**; bila state bergeser antara draf dan tayang, pasang komentar koreksi terpisah ATAU segarkan baris peta sebelum tayang (scaning: d43->d44, d12->d14 dst terjadi nyata beberapa kali).
 - **Guard grep anti-duplikat wajib frasa-heading unik**: `grep -c "Countersign pengawas"` bisa menancap juga di result/jejak pekerja (=3 palsu); pakai `grep -c "Countersign pengawas silang atas <KARTU>"`.
 - **grep VERDICT wajib cek konteks seksi**: pola pertama bisa menancap baris lint internal ("VERDICT PASS" instrumen) padahal VERDICT resmi dokumen = FAIL (GDESB2). Cari heading seksi VERDICT.
-- **Aritmetika satuan adalah alat yang bisa cacat**: tblGrid kucek dua kali salah (divisor EMU vs dxa; faktor dua) sebelum menancap dxa/1440*25,4; extent docx = EMU/360000; laporan byte CRLF harus dibaca BINARY (mode-teks melaporkan 40.849 vs nyata 41.097).
+- **Aritmetika satuan adalah alat yang bisa cacat**: tblGrid kucek dua kali salah (divisor EMU vs dxa; faktor dua) sebelum menancap dxa/1440*25,4; extent docx = EMU/36000; laporan byte CRLF harus dibaca BINARY (mode-teks melaporkan 40.849 vs nyata 41.097).
 - **Sitasi antar-kartu pakai sha16, bukan angka byte** (race tulis-menengah: TA cite 37.659 B saat RT masih menulis, disk 38.038 B; baris cocok, byte tidak).
 
 ## 7. Mekanika pengiriman (shell)

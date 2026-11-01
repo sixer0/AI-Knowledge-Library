@@ -21,7 +21,7 @@ re-issue SHORTER, not identical.
 
 Two different units live in one document.xml - mixing them produced false FAILs of MY OWN
 instrument (two corrections in one turn):
-- `<wp:extent cx="..." cy="...">` is EMU: mm = value / 360000.
+- `<wp:extent cx="..." cy="...">` is EMU: mm = value / 36000.
 - `<w:gridCol w:w="...">` / `<w:tblW w:w="...">` are dxa (1/20 pt): mm = value / 1440 * 25.4.
 Correct full-table census: sum gridCol per tblGrid, expect each total within +-0.6 mm of a
 token width (e.g. 128/166); column-too-narrow test: col_mm < 9.5. A naive second multiply

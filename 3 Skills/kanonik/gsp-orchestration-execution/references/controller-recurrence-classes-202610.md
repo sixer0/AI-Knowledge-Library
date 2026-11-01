@@ -29,7 +29,7 @@ Protokol:
 ## C4. Resep tool (Windows / COM / uv / parser)
 - Word COM "Call was rejected by callee" (instance dipakai worker lain): `win32com.client.DispatchEx("Word.Application")` (instance terpisah) + `DisplayAlerts=0`; halaman nyata `ComputeStatistics(2)`; ekspor `ExportAsFixedFormat(dst,17)`; PDF selalu dicetak dari docx TERKINI (cek mtime sezaman).
 - Runner fixture/render via uv butuh `--with matplotlib,pillow,numpy`; ModuleNotFoundError = kurang dependensi, bukan cacat objek. Verifikasi PDF mandiri lapis dua: pymupdf vs Word COM; selisih alat (mis. 160 vs 162 hal) dibukukan declared.
-- Terminal hardline memblokir perintah inline dengan substitusi ganda `$( ... $( ... ) )` atau payload raksasa → ganti jalur: search_files/read_file, atau perintah telanjang; payload terblokir tersimpan di cache/blocked-scripts (pulihkan `bash <path>`, jangan retry inline).
+- Terminal hardline memblokir perintah inline dengan substitusi ganda `$( ... $( ... ) )` atau payload raksasa → berhenti dan laporkan; ganti jalur hanya atas izin pengguna. Payload terblokir tersimpan di cache/blocked-scripts (pulihkan `bash <path>` hanya atas izin pengguna, jangan retry inline).
 - `lad_card.py`: `--parents` harus id kartu NYATA (entri ledger non-kartu / id fiktif → create exit 1); `grep -E "Created|ERROR"` bisa menelan pesan saat batch — selalu tail output penuh bila jumlah Created < jumlah kartu.
 
 ## C5. Pola akselerasi full-power (norma N1 + penahan berkas)

@@ -49,10 +49,10 @@ Pasangan wajib: references/judge-noise-calibration.md (kalibrasi juri).
 - Improvement terkonfirmasi (gerbang judge-noise-calibration) => langsung patch skill
   di tengah misi, jangan tunggu akhir.
 
-## Menulis skill saat guard curator menentang
-- skill_manage patch/write_file bisa ditolak intermiten ("Skill '' not found") atau
-  permanen (skill tidak curator-managed). Retry sekali; jika tetap tolak pada skill
-  milik-misi-sendiri yang dibangun sesi sebelumnya, jalur resmi kedua yang dipakai
-  sesi ini: patch langsung ke path file referensi, verifikasi isi di disk, sinkron
-  salinan kanonik repo. Untuk skill yang memang di luar kendali, rekomendasikan
-  `hermes curator adopt <name>` ke user — jangan dilawan.
+## Bila guard curator menolak penulisan skill
+- Penolakan skill_manage patch/write_file bisa intermiten ("Skill '' not found") atau
+  permanen (skill tidak curator-managed). Retry sekali; jika tetap tolak, berhenti dan
+  laporkan ke user: perintah, pesan tolak, dan skill yang dituju. Jangan menulis lewat
+  jalur lain (patch langsung ke path file, suntingan salinan repo) tanpa izin eksplisit
+  user. Untuk skill yang memang di luar kendali, rekomendasikan
+  `hermes curator adopt <name>` ke user — keputusan di user, jangan dilawan.

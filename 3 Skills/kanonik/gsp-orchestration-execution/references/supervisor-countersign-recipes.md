@@ -48,6 +48,6 @@ Klasifikasi state: (a) mati sebelum pena (nol artefak), (b) badan lahir gerbang 
 
 ## 9. Gotchas alat
 - Komentar panjang ber-apostrof: tulis ke berkas temp, kirim `$(cat berkas)`; rangkai perintah dengan `;` bukan `&&`.
-- `uv run --python 3.11 python skrip.py` untuk analisis (python bisa jatuh ke alias Store). Inline loop/`&` memicu guard hardline - tulis skrip ke temp; hasil guard tersimpan di cache/blocked-scripts untuk dijalankan ulang sebagai bash.
+- `uv run --python 3.11 python skrip.py` untuk analisis (python bisa jatuh ke alias Store). Inline loop/`&` memicu guard hardline - berhenti dan lapor; jangan memindahkan perintah ke skrip atau menjalankan ulang isi cache/blocked-scripts tanpa izin.
 - Skrip append kontrak: grep penutup WAJIB dijalankan; 'grep 0' pasca-append = jalankan ulang SEKALI (dua kasus transient), jangan dobel-kirim.
 - json.load dict: jangan `eval()`; bandingkan `before==after` sebagai dict. Multi-blok JSON ber-header = `json.loads` gagal 'Extra data' - parse regex per-blok.

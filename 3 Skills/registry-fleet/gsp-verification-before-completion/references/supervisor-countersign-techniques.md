@@ -51,8 +51,8 @@ Worker claims "sha16 X" without naming the algorithm. Probe md5/sha1/sha256/sha5
 - A typo in a posted comment that flips meaning ("KIDAK benar" for work that was BENAR) requires an explicit separate correction comment, same discipline as number corrections.
 - Long comments with apostrophes: write to temp file, post via `"$(cat file)"`.
 
-## 9. Terminal guard workarounds (Windows git-bash agent shell)
-- `&` inside inline `python -c` trips the hardline backgrounding guard; large heredoc/one-liner payloads hit the oversized-payload blocklist (command saved to cache/blocked-scripts/*.sh). Recipe: `write_file` the script to `$LOCALAPPDATA/Temp`, then run `bash script.sh` or `uv run --python 3.11 python script.py`.
+## 9. Terminal guard blocks (Windows git-bash agent shell)
+- `&` inside inline `python -c` trips the hardline backgrounding guard; large heredoc/one-liner payloads hit the oversized-payload blocklist (command saved to cache/blocked-scripts/*.sh). Recipe: stop and report the blocked command as an open item; do not move it into a script to get past the guard, and continue only with explicit permission.
 - Never pipe build/verify output through tail/head (masks exit code).
 
 ## 10. Open fleet-scanner defect register (as of 06-10, awaiting controller decisions)

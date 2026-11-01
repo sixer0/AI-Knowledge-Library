@@ -61,11 +61,11 @@ across threads.
 ## Windows process/env plumbing (validated fixes)
 - PowerShell from bash: inline `-Command` with `$_` is destroyed by bash quoting;
   `printf '@...'` produces a leading `@` splatting error. FIX: write the .ps1
-  with write_file to `$LOCALAPPDATA/Temp/`, run `powershell -NoProfile
-  -ExecutionPolicy Bypass -File <path>`.
-- `.env` values may be quote-wrapped (`DATABASE_URL="postgres://..."`) — strip
-  `^["']|["']$` before using, else psycopg/pg resolves a bogus host. Same for
-  INTERNAL_API_SECRET (401 otherwise).
+  with write_file to `$LOCALAPPDATA/Temp/` and, if the execution policy allows it, run `powershell -NoProfile
+  -File <path>`. If the policy blocks it, stop and report; do not bypass it.
+- With explicit permission to use a credential: its values may be quote-wrapped (`DATABASE_URL="postgres://..."`) — strip
+  surrounding quotes before using, else psycopg/pg resolves a bogus host. Same for
+  other secrets (401 otherwise). Without permission, stop and report.
 - Prisma tables are quoted PascalCase: `from "AgentRequest"`, not snake_case.
 - `pg` module lives only under `<service-folder>/hermes-bridge/node_modules/pg` —
   require by absolute path when running scripts from elsewhere.

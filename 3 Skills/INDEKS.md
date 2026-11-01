@@ -721,7 +721,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/dag-true-dependencies.md`](kanonik/gsp-orchestration-execution/references/dag-true-dependencies.md) | 6 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/data-accuracy-standard.md`](kanonik/gsp-orchestration-execution/references/data-accuracy-standard.md) | 2 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/deleg-watch-kernel-mechanics-2026-10.md`](kanonik/gsp-orchestration-execution/references/deleg-watch-kernel-mechanics-2026-10.md) | 6 KB |
-| [`3 Skills/kanonik/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md`](kanonik/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md) | 5 KB |
+| [`3 Skills/kanonik/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md`](kanonik/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md) | 4 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/design-contract-drift.md`](kanonik/gsp-orchestration-execution/references/design-contract-drift.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/deterministic-verification.md`](kanonik/gsp-orchestration-execution/references/deterministic-verification.md) | 3 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/dispatch-timing-race-1010.md`](kanonik/gsp-orchestration-execution/references/dispatch-timing-race-1010.md) | 4 KB |
@@ -754,7 +754,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/late-gate-controller-playbook.md`](kanonik/gsp-orchestration-execution/references/late-gate-controller-playbook.md) | 6 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/late-sweep-delta-and-token-freeze.md`](kanonik/gsp-orchestration-execution/references/late-sweep-delta-and-token-freeze.md) | 4 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/layout-gate-pgsz-verification.md`](kanonik/gsp-orchestration-execution/references/layout-gate-pgsz-verification.md) | 5 KB |
-| [`3 Skills/kanonik/gsp-orchestration-execution/references/long-running-collection-chains.md`](kanonik/gsp-orchestration-execution/references/long-running-collection-chains.md) | 4 KB |
+| [`3 Skills/kanonik/gsp-orchestration-execution/references/long-running-collection-chains.md`](kanonik/gsp-orchestration-execution/references/long-running-collection-chains.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/max-compute-orchestration.md`](kanonik/gsp-orchestration-execution/references/max-compute-orchestration.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/measurement-canonical-and-takeover-chain.md`](kanonik/gsp-orchestration-execution/references/measurement-canonical-and-takeover-chain.md) | 7 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/references/mid-mission-progress-and-steering.md`](kanonik/gsp-orchestration-execution/references/mid-mission-progress-and-steering.md) | 3 KB |
@@ -806,7 +806,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/kanonik/gsp-orchestration-execution/scripts/watch_cards.py`](kanonik/gsp-orchestration-execution/scripts/watch_cards.py) | 2 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/scripts/watch_cards_terminal.py`](kanonik/gsp-orchestration-execution/scripts/watch_cards_terminal.py) | 2 KB |
 | [`3 Skills/kanonik/gsp-orchestration-execution/templates/board-mover-watch.py`](kanonik/gsp-orchestration-execution/templates/board-mover-watch.py) | 2 KB |
-| [`3 Skills/kanonik/gsp-orchestration-execution/templates/contract-doc.md`](kanonik/gsp-orchestration-execution/templates/contract-doc.md) | 692 B |
+| [`3 Skills/kanonik/gsp-orchestration-execution/templates/contract-doc.md`](kanonik/gsp-orchestration-execution/templates/contract-doc.md) | 693 B |
 | [`3 Skills/kanonik/gsp-orchestration-execution/templates/watchdog-loop.sh`](kanonik/gsp-orchestration-execution/templates/watchdog-loop.sh) | 1 KB |
 | [`3 Skills/kanonik/gsp-orchestration-flow-audit/SKILL.md`](kanonik/gsp-orchestration-flow-audit/SKILL.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md`](kanonik/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md) | 4 KB |
@@ -1887,7 +1887,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/dag-true-dependencies.md`](registry-fleet/gsp-orchestration-execution/references/dag-true-dependencies.md) | 6 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/data-accuracy-standard.md`](registry-fleet/gsp-orchestration-execution/references/data-accuracy-standard.md) | 2 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/deleg-watch-kernel-mechanics-2026-10.md`](registry-fleet/gsp-orchestration-execution/references/deleg-watch-kernel-mechanics-2026-10.md) | 6 KB |
-| [`3 Skills/registry-fleet/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md`](registry-fleet/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md) | 5 KB |
+| [`3 Skills/registry-fleet/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md`](registry-fleet/gsp-orchestration-execution/references/deleg-watch-rute45-ops.md) | 4 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/design-contract-drift.md`](registry-fleet/gsp-orchestration-execution/references/design-contract-drift.md) | 5 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/deterministic-verification.md`](registry-fleet/gsp-orchestration-execution/references/deterministic-verification.md) | 3 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/dispatch-timing-race-1010.md`](registry-fleet/gsp-orchestration-execution/references/dispatch-timing-race-1010.md) | 4 KB |
@@ -1920,7 +1920,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/late-gate-controller-playbook.md`](registry-fleet/gsp-orchestration-execution/references/late-gate-controller-playbook.md) | 6 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/late-sweep-delta-and-token-freeze.md`](registry-fleet/gsp-orchestration-execution/references/late-sweep-delta-and-token-freeze.md) | 4 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/layout-gate-pgsz-verification.md`](registry-fleet/gsp-orchestration-execution/references/layout-gate-pgsz-verification.md) | 5 KB |
-| [`3 Skills/registry-fleet/gsp-orchestration-execution/references/long-running-collection-chains.md`](registry-fleet/gsp-orchestration-execution/references/long-running-collection-chains.md) | 4 KB |
+| [`3 Skills/registry-fleet/gsp-orchestration-execution/references/long-running-collection-chains.md`](registry-fleet/gsp-orchestration-execution/references/long-running-collection-chains.md) | 5 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/max-compute-orchestration.md`](registry-fleet/gsp-orchestration-execution/references/max-compute-orchestration.md) | 5 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/measurement-canonical-and-takeover-chain.md`](registry-fleet/gsp-orchestration-execution/references/measurement-canonical-and-takeover-chain.md) | 7 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/references/mid-mission-progress-and-steering.md`](registry-fleet/gsp-orchestration-execution/references/mid-mission-progress-and-steering.md) | 3 KB |
@@ -1972,7 +1972,7 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/scripts/watch_cards.py`](registry-fleet/gsp-orchestration-execution/scripts/watch_cards.py) | 2 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/scripts/watch_cards_terminal.py`](registry-fleet/gsp-orchestration-execution/scripts/watch_cards_terminal.py) | 2 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/templates/board-mover-watch.py`](registry-fleet/gsp-orchestration-execution/templates/board-mover-watch.py) | 2 KB |
-| [`3 Skills/registry-fleet/gsp-orchestration-execution/templates/contract-doc.md`](registry-fleet/gsp-orchestration-execution/templates/contract-doc.md) | 692 B |
+| [`3 Skills/registry-fleet/gsp-orchestration-execution/templates/contract-doc.md`](registry-fleet/gsp-orchestration-execution/templates/contract-doc.md) | 693 B |
 | [`3 Skills/registry-fleet/gsp-orchestration-execution/templates/watchdog-loop.sh`](registry-fleet/gsp-orchestration-execution/templates/watchdog-loop.sh) | 1 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-flow-audit/SKILL.md`](registry-fleet/gsp-orchestration-flow-audit/SKILL.md) | 5 KB |
 | [`3 Skills/registry-fleet/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md`](registry-fleet/gsp-orchestration-flow-audit/references/intra-mission-repetition-measurements.md) | 4 KB |

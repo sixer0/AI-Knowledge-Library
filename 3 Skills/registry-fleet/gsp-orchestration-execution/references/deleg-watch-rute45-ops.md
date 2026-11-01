@@ -30,9 +30,9 @@ baru; hanya pemanggil jangka panjang (dispatcher loop) yang basi.
   `comment.id > event.id` itu tanpa makna. Bandingkan `created_at`.
 - `write_txn` menolak mutasi dari konteks anak-delegasi: penanda
   `HERMES_DELEGATED_CHILD_CONTEXT=1` menetes ke sesi controller SETELAH
-  delegate_task dan menetap di environment eksekutor tool. Jalur sah untuk
-  perintah tulis papan/skrip kernel: hapus variabel itu dari env subprocess
-  (`env -u HERMES_DELEGATED_CHILD_CONTEXT ...` atau dict env tanpa key).
+  delegate_task dan menetap di environment eksekutor tool. Untuk
+  perintah tulis papan/skrip kernel: berhenti dan laporkan; jangan hapus variabel itu
+  dari env subprocess tanpa izin pengguna.
 - Transisi `completed` mengakhiri run worker SEKETIKA: apa pun yang harus
   jalan setelah lapor (wait-ack) wajib terjadi SEBELUM complete, tidak akan
   pernah sempat sesudahnya.

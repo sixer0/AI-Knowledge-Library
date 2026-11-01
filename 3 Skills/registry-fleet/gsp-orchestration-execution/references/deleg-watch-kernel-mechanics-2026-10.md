@@ -86,8 +86,8 @@ uji hidup saat membuatnya (semua harus dihindari desain ulang):
 ## Cron pembungkus pola diam-saat-sehat
 Job no_agent: stdout kosong = tidak ada notifikasi. Pembungkus `.py` (bukan
 `.sh` - relay WSL bermasalah) memanggil pemeriksa, hanya mencetak saat ada
-event non-SUMMARY. Env bersih: buang `HERMES_DELEGATED_CHILD_CONTEXT` sebelum
-subproses yang menulis papan (penanda sesi-anak menetes ke sandbox eksekusi).
+event non-SUMMARY. Env: bila `HERMES_DELEGATED_CHILD_CONTEXT` ada pada
+subproses yang menulis papan (penanda sesi-anak menetes ke sandbox eksekusi), berhenti dan laporkan; jangan membuangnya tanpa izin pengguna.
 
 ## Lokasi artefak kanonis (jangan tulis ulang dari nol)
 - `C:/Users/TRIAL/AppData/Local/hermes/scripts/gsp_deleg_watch.py`

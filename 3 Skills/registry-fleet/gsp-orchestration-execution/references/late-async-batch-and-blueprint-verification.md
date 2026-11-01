@@ -73,14 +73,14 @@ fix instead of duplicating it.
 Cards left in `review` whose verdict already landed via another card are closed
 by the assignor/controller with
 `hermes kanban complete <id> --result "<evidence>"` under
-`env -u HERMES_DELEGATED_CHILD_CONTEXT`. There is NO `--author` flag on
+a session where `HERMES_DELEGATED_CHILD_CONTEXT` is not set; if it is set, stop and report. There is NO `--author` flag on
 `complete` (usage: complete [-h] [--result] [--summary] [--metadata] [--force] task_ids...).
 
 ## 5. lad_card.py flag facts (measured 10-10)
 
 `--est` takes an INTEGER (minutes; '40m' rejected), `--shape` accepts
 `satu | rantai-N | paralel-Kx` (no 'x' suffix on rantai), and the whole call
-must run with `env -u HERMES_DELEGATED_CHILD_CONTEXT` or the create silently
+must run where `HERMES_DELEGATED_CHILD_CONTEXT` is not set (if it is set, stop and report), or the create silently
 produces nothing while printing the shape suggestion.
 
 ## 6. Late echo triage: ASYNC DELEGATION COMPLETE is informational by default
