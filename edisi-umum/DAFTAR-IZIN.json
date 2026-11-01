@@ -1820,7 +1820,7 @@
       "copies": [
         {
           "path": "3 Skills/kanonik/gsp-orchestration-execution",
-          "tree": "27a4077d576fcaa115c8aafe6453046edbab088b",
+          "tree": "b5a4caa55f39fa48a53cefe02b77898189141484",
           "include": [
             "SKILL.md",
             "references/batch-card-dag-execution.md",
@@ -1923,7 +1923,7 @@
         },
         {
           "path": "3 Skills/registry-fleet/gsp-orchestration-execution",
-          "tree": "da55324667cd1e033a3f52bd73acd8e3d1426dfa",
+          "tree": "22ab2a27ef83576d90e1d3ebd27b4ca6d11a0191",
           "include": [
             "SKILL.md",
             "references/batch-card-dag-execution.md",
@@ -2238,7 +2238,7 @@
       "copies": [
         {
           "path": "3 Skills/kanonik/gsp-verification-before-completion",
-          "tree": "862b3cbf907a1521ec98a10a8007d5adcdd97441",
+          "tree": "edcb139ce1bdfd749674d02c9e14af16a94681d5",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
@@ -2351,7 +2351,7 @@
         },
         {
           "path": "3 Skills/registry-fleet/gsp-verification-before-completion",
-          "tree": "b6997b3c48351c531ba2906842659f7cc7e2cc86",
+          "tree": "ddb4467b374fd490ff2405b188d87805267735f3",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
@@ -2958,7 +2958,7 @@
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "6b1db712114c51cc826c408a1b703ebe7c16a0deeaa462f692bd5ae731b1b893",
+      "source_sha256": "c80aaeaa1cf1bfc58e12ea7c524e99d7824de21eb55568c6df3d994a73d71f32",
       "lines": 1,
       "basis": "generic-word"
     },
