@@ -1552,6 +1552,15 @@ class DerivedFamilyLabel(EditionCase):
                                ('c-sintetik.md', 'GSP-Orchestration'), ('d-sintetik.md', f'{FAMILY_LABEL}-pusat'))
         self.assertEqual(names, {'a-sintetik', 'b-sintetik', 'c-sintetik', 'd-sintetik', 'Perkara Satu Sintetik', f'{FAMILY_LABEL}-pusat'})
 
+    def test_pemisah_lain_tetap_keras(self):
+        for value in (FAMILY_LABEL.replace('-', ' '), FAMILY_LABEL.replace('-', ''), FAMILY_LABEL.replace('-', '_')):
+            with self.subTest(value=value):
+                self.assertIn(value, self.collected(('a-sintetik.md', value)))
+
+    def test_varian_casefold_ikut_keluar(self):
+        value = FAMILY_LABEL.replace('s', '\u017f', 1)
+        self.assertNotIn(value, self.collected(('a-sintetik.md', value)))
+
 
 SKILL_COPY_PATHS = ('3 Skills/kanonik/alpha', '3 Skills/registry-fleet/alpha')
 INCLUDE_VALID = ['SKILL.md', 'references/rujukan.md']
@@ -1807,6 +1816,84 @@ class SkillInclude(EditionCase):
         self.fx.commit()
         self.assertPass(self.fx.build())
         self.assertEqual(self.skill_files(), sorted(f'{copy}/{item}' for copy in SKILL_COPY_PATHS for item in INCLUDE_VALID))
+
+    def test_tolak_antarsalinan_sama_panjang_isi_beda(self):
+        self.published(prepare=_on_copies('references/lain.md'))
+        self.control_with_include()
+
+        def mutate(config):
+            _include_on(['SKILL.md', 'references/rujukan.md'], only=0)(config)
+            _include_on(['SKILL.md', 'references/lain.md'], only=1)(config)
+        self.fx.publish(mutate)
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_tolak_antarsalinan_salinan_ketiga_berbeda(self):
+        third = '3 Skills/kanonik/kelompok/alpha'
+        self.fx.write(f'{third}/SKILL.md', (self.fx.clone / SKILL_COPY_PATHS[0] / 'SKILL.md').read_text(encoding='utf-8'))
+        self.fx.write(f'{third}/references/rujukan.md', '# Isi\n')
+        self.fx.skills['alpha'] = [*SKILL_COPY_PATHS, third]
+        self.fx.publish()
+        self.control_with_include()
+
+        def mutate(config):
+            copies = config['skills'][0]['copies']
+            for copy in copies[:2]:
+                copy['include'] = INCLUDE_VALID
+            copies[2]['include'] = ['SKILL.md']
+        self.fx.publish(mutate)
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_tolak_butir_gagal_valid_relative_walau_berkas_ada(self):
+        self.published()
+        self.control_with_include()
+        for label, item, literal in (('tanya', 'references/a?.md', True), ('kurung', 'references/a[1].md', True),
+                                     ('kontrol', 'references/a\tb.md', True), ('titik', 'references/./rujukan.md', False),
+                                     ('segmen_kosong', 'references//rujukan.md', False)):
+            with self.subTest(label):
+                if literal:
+                    _on_copies(item)(self.fx)
+                self.fx.publish(_include_on(['SKILL.md', item]))
+                self.assertIncludeRejected('allowlist_invalid')
+                if literal:
+                    for copy in SKILL_COPY_PATHS:
+                        self.fx.remove(f'{copy}/{item}')
+
+    def test_tolak_include_di_tingkat_skill(self):
+        self.published()
+        self.control_with_include()
+        self.fx.publish(lambda config: config['skills'][0].update(include=INCLUDE_VALID))
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_tolak_include_pada_entries(self):
+        self.published()
+        self.control_with_include()
+        self.fx.publish(lambda config: config['entries'][-1].update(include=['x.md']))
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_tolak_gitlink_tercantum(self):
+        self.published()
+        self.control_with_include()
+        for copy in SKILL_COPY_PATHS:
+            nested = self.fx.clone / copy / 'modul'
+            nested.mkdir()
+            run_git(nested, 'init', '-q', '-b', 'main')
+            (nested / 'x.md').write_text('# Isi\n', encoding='utf-8')
+            run_git(nested, 'add', '-A')
+            run_git(nested, 'commit', '-q', '-m', 'uji')
+        self.fx.publish(_include_on(['SKILL.md', 'modul']))
+        self.assertIncludeRejected('denied_type')
+
+    def test_tolak_dua_butir_hilang_semua_tercatat(self):
+        self.published()
+        self.control_with_include()
+        self.fx.publish(_include_on(['SKILL.md', 'references/x.md', 'references/y.md']))
+        run = self.assertIncludeRejected('skill_include_missing')
+        self.assertEqual(run.data['hits'], 4)
+
+    def test_akhiran_huruf_besar_tetap_masuk(self):
+        self.published(items=['SKILL.md', 'catatan.MD'], prepare=_on_copies('catatan.MD'))
+        self.assertPass(self.fx.build())
+        self.assertIn(f'{SKILL_COPY_PATHS[0]}/catatan.MD', self.fx.manifest())
 
 
 class SkillIncludeExpectedMissing(EditionCase):
