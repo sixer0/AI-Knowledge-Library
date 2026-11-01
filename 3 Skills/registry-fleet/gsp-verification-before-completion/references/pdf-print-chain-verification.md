@@ -1,4 +1,4 @@
-# PDF / cetak-rilis chain verification (preseden RAFIFUNITY Ed3, 06-11/06-12)
+# PDF / cetak-rilis chain verification (preseden misi buku Ed3, 06-11/06-12)
 
 Lapisan ukur di atas [`document-artifact-verification.md`](document-artifact-verification.md) (DOCX/XML). Semua pola di bawah
 terbukti dipakai nyata menutup defect kelas yang lolos gerbang DOCX.

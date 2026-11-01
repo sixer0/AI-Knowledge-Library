@@ -40,7 +40,7 @@ Pin triangle across THREE independent ledgers all matched: object embeds release
 (== your verdict pin), STD-GAYA-AHLI-001 revG pin `b83e6bca...` (== the pin pinned in your
 MEMORY block), rubrik pin (== the pin you measured with two waves earlier). Also verify
 ORDER: proposal run started AFTER final verdict (14:35 vs 14:33) — propose-after-verdict,
-never before (RAFIFFINAL-era counterexample). Dedup quality test: adjudication must be
+never before (final-stage-book-era counterexample). Dedup quality test: adjudication must be
 per-pair WITH REASON (genealogy declared "leluhur adaptasi", genre-same-subject-different),
 not "grep empty then calm".
 

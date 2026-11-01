@@ -18,7 +18,7 @@ Class discovered twice in one board (PSIKOTES CHECK 33): a QC detector that comp
 Repeatedly decisive: byte-count difference between pre/post files equals exactly the sum of (len(new)-len(old)) of the edited phrases (FIX-2 −10 B label swap; FIX-4 +4 B; FIX-5 +97 B; PSIKOTES RT 26 B transposition typo). Pair with reverse-edit reconstruction (edit back → sha equals pre-pin) for cryptographic "only this clause changed". Cheap, deterministic, catches silent rewrites that line-count checks miss.
 
 ## 5. Probe the EXACT URL from the evidence ladder, never a guessed canonical one
-Near-miss false conviction (MLSCCTV F2d-Ra): supervisor probed `sgcdn.uniview.com/News/News/201912/859314` (normalized guess) → 200 but no "Soho Capital" token → almost ruled "address not proven". The ladder rung held the true URL `.../859314_169683_0.htm` (http, with numeric suffix) → 209 KB, token present, title present. Rules:
+Near-miss false conviction (vendor research): supervisor probed `cdn.example.com/News/News/201912/000000` (normalized guess) → 200 but no "Vendor Name" token → almost ruled "address not proven". The ladder rung held the true URL `.../000000_000000_0.htm` (http, with numeric suffix) → 209 KB, token present, title present. Rules:
 - For acquisition/QC verdicts, replay **the byte-exact URL recorded in the rung/ledger row**, including scheme and suffixes.
 - Soft-404: HTTP 200 with body containing "not found/404" markers — judge by body semantics, not status code (worker's "404 permanen" claim was coherent under this reading).
 - When your probe contradicts a worker claim, first suspect your probe's address (lesson-ke-14 pattern: pin the artifact address before rebutting).

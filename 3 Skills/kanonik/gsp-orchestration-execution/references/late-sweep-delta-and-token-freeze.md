@@ -33,7 +33,7 @@ token per-kejadian, dan itu keputusan benar yang wajib ditiru:
 
 - Satu string bisa membawa DUA makna per kejadian ("1.000" = 1.000 V sekaligus
   1.000 MOhm pada baris tabel berbeda; "0,5" = DoD sekaligus M_terproteksi).
-  Penggantian buta string-ke-token = risiko salah-ikat, melanggar AKURASI MUTLAK.
+  Penggantian buta string-ke-token salah-ikat, melanggar AKURASI MUTLAK.
 - Jalur sah: bekukan NILAI ke register di kartu SPINE (model-dulu terpenuhi di
   level nilai), suntingan per-kejadian jadi KARTU LANJUTAN terpisah ber-parent
   ke SPINE (FIXTOKEN), assignee = penulis bab asal; kartu rakit hilir diberi

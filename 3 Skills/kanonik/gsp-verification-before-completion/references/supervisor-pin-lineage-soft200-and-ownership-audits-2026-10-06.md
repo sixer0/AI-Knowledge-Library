@@ -1,4 +1,4 @@
-# Resep pengawasan lanjutan: soft-200, lineage pin, instrumen sadar-kepemilikan, uji kekekalan dua-sisi (06-11-2026, RAFIFUNITY/PROMANUAL/GAYA-AHLI)
+# Resep pengawasan lanjutan: soft-200, lineage pin, instrumen sadar-kepemilikan, uji kekekalan dua-sisi (06-11-2026, buku Unity/PROMANUAL/GAYA-AHLI)
 
 Lima pola terverifikasi dari giliran countersign setelah fajar 06-10 (REVIEW-BATCH-51A–D, G-AKURASI-52, FIX-ZIP-CLAIM-C, FIX-BATCH-3A/4, MF14/MF94/SIDECAR, S18, FIXD/RRKT/RGRILIS-v2/3/4). Semua berasal dari pengukuran disk pengawas, bukan laporan pekerja.
 

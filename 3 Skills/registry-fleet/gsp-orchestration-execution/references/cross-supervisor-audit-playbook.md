@@ -21,7 +21,7 @@ prematur berisi kode lajur salah. Koreksi diri ditulis TERBUKA sebagai komentar 
 2. **Spot-check entity-match**: kandidat = vendor token tidak muncul di host/URL dan kolom `brand`
    tidak cocok host. Uji HIDUP: `curl -sL --compressed` (server CN sering kirim gzip mentah =
    positif-palsu tanpa --compressed). Baca kolom `brand` dulu: merek != nama badan itu SAH
-   (Ubiquiti@ui.com, Harman@dbxpro, Octave@qognify pasca-akuisisi, Schneider@se.com,
+   (merek A pada domain induk, Harman@dbxpro, Octave@qognify pasca-akuisisi, merek B pada domain induk,
    R&S LANCOM@rohde-schwarz). Tantangan Cloudflare/Akamai BUKAN bukti salah-target — catatan
    pekerja yang lebih kaya dari alat kita menang; rekap via render bila ragu.
    **RULE ESCHENBACK**: token di body/host TIDAK cukup — wajib uji TIPE-ENTITAS di judul/OG.
@@ -70,4 +70,4 @@ populasi penuh (vonis FAIL itu gerbang BEKERJA, bukan kegagalan) -> putusan cont
 (kriteria kanonis + nasib tagihan) -> kartu FIX -> VS run-2 (boleh FAIL lagi; loop tengah jujur)
 -> FIX2 -> VS PASS -> countersign instrumen-independen-seed-berbeda -> builder workbook dengan
 guard require-green -> gerbang tampil lebih ketat dari builder. Kontras: rantai yang berhenti di
-countersign tanpa loop fix (VENDOR-DEMS) tidak bisa rilis.
+countersign tanpa loop fix (VENDOR-proyek) tidak bisa rilis.

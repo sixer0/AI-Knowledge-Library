@@ -59,7 +59,7 @@ Key opsional khusus vault/wiki (dari `gsp-library-data-standards`): `id`, `sensi
 |---|--------|------------------------|
 | M1 | `title` di frontmatter **sama** dengan H1 pertama (UI IL membaca H1) | Entri tampil dengan judul ganda/aneh di IL |
 | M2 | `created` & `updated` format ISO `YYYY-MM-DD` | Tak bisa disortir/dilacak waktu |
-| M3 | `writer` memakai nama profil/akun GSP (`gsp-data-analyst`, `gsp-librarian`, `user-budi-kusharyanto`), **bukan** nama model | Asal-usul kepenulisan tidak dapat dilacak |
+| M3 | `writer` memakai nama profil/akun GSP (`gsp-<peran>`, `gsp-librarian`, `user-<nama>`), **bukan** nama model | Asal-usul kepenulisan tidak dapat dilacak |
 | M4 | Setiap angka/klaim kuat wajib `sumber` + `halaman`; tanpa itu angka dianggap **asumsi** | Fakta tak terverifikasi masuk IL |
 | M5 | `type` mengikuti taksonomi; `status` mengikuti siklus hidup (lihat 01 §7) | Tak bisa difilter/dikelola |
 | M6 | `editor` memperbarui `updated` setiap kali dokumen diubah | Riwayat edit tak tercatat |

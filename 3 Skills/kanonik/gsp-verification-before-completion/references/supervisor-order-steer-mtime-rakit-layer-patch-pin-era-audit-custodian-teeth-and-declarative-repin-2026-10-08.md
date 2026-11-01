@@ -1,6 +1,6 @@
 # Supervisor lessons 08-10: order-by-mtime, rakit-layer patch, pin-era audit, custodian teeth, declarative re-pin
 
-Condensed from VCTL-1007 tail (SB `t_d6715b08`, FIX-3 `t_86670cef`, LIB `t_e396fce0`, LIB2 `t_469ed5fe`) plus GAYAMANUAL L7b cross-checks. All countersigns posted, guards =1.
+Condensed from parallel mission 1007 tail (SB `t_d6715b08`, FIX-3 `t_86670cef`, LIB `t_e396fce0`, LIB2 `t_469ed5fe`) plus GAYAMANUAL L7b cross-checks. All countersigns posted, guards =1.
 
 ## 1. Urutan wajib dibuktikan lewat jam berkas, bukan narasi
 

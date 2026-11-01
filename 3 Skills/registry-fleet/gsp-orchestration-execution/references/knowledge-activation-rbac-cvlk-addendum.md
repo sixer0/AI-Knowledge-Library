@@ -1,4 +1,4 @@
-# Tambahan preseden CVLK-0929 (29-09) — kelas cacat baru pada VERIF RBAC & rantai remediasi satu giliran
+# Tambahan preseden misi terkait (29-09) — kelas cacat baru pada VERIF RBAC & rantai remediasi satu giliran
 
 Lanjutan [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md) dari misi registrasi domain
 (CVLK C1 CIVIL-STRUCTURAL): vonis RUN1 FAIL -> FIX hulu -> VS-R2 PASS dalam satu giliran.
@@ -20,7 +20,7 @@ provenance terpisah dari predikat refusal; fixture merah wajib mencakup kasus
 ## Higienis undian beku (cacat controller D-08, terjadi nyata)
 
 - Kolam undian WAJIB nama profil HIDUP: cek `ls $LOCALAPPDATA/hermes/profiles | grep -x <nama>`
-  SEBELUM membekukan seed. Label `gsp-budi` ternyata profil mati (home tidak ada, tidak ada
+  SEBELUM membekukan seed. Label `<akun>` ternyata profil mati (home tidak ada, tidak ada
   username itu di WebUiUser) — verifier terpaksa merekonsiliasi deterministik via tabel
   WebUiUser + preseden (tanpa mengundi ulang; itu jalur sah tapi menambah cacat kartu).
 - Satu format label saja di kolam: `profil(akun)` ATAU `akun(profil)`, jangan campur —

@@ -27,4 +27,4 @@ Aturan standar WAJIB diturunkan dari artefak manusia profesional NYATA: kutipan 
 - git-bash: hindari heredoc/rangkaian substitusi panjang di satu perintah (parser hardline menolak); tulis berkas dulu lalu jalankan.
 
 ## Catatan kurasi
-Isi playbook ini sebagian besar milik kanonik skill `gsp-output-naturalization` (scanner + gerbang naturalisasi) dan `gsp-document-quality-standards`; sinkronkan/lebur oleh curator saat menyentuh skill itu. Registry fleet adalah salinan distribusi - aliran balik fleet->kanonik mengikuti konvensi Riwayat skill ini.
+Isi playbook ini sebagian besar milik kanonik skill `gsp-output-naturalization` (scanner + gerbang naturalisasi) dan skill standar terkait; sinkronkan/lebur oleh curator saat menyentuh skill itu. Registry fleet adalah salinan distribusi - aliran balik fleet->kanonik mengikuti konvensi Riwayat skill ini.

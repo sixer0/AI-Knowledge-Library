@@ -1,4 +1,4 @@
-# Countersign Reproduksi Dua-Arah & Gerbang Rakit (misi RAFAI/PROMANUAL, 05-10)
+# Countersign Reproduksi Dua-Arah & Gerbang Rakit (misi buku lain/PROMANUAL, 05-10)
 
 Pola teruji dari satu giliran supervisi dua papan (20+ vonis/countersign, nol cacat artefak lolos, empat positif-palsu instrumen pengawas tertangkap sebelum vonis).
 

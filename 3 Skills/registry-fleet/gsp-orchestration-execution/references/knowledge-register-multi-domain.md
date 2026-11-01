@@ -1,6 +1,6 @@
-# Registrasi knowledge multi-domain berantai (preseden NWSKILL-0923, 24-09-2026)
+# Registrasi knowledge multi-domain berantai (preseden misi terkait, 24-09-2026)
 
-Lapisan tambahan di atas resep VSSKB-0923 (lihat [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md))
+Lapisan tambahan di atas resep misi terkait (lihat [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md))
 untuk misi "daftarkan N domain korpus secara berantai dengan prosedur yang sama".
 
 ## Urutan & paralelisme

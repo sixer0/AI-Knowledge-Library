@@ -1,5 +1,5 @@
 # Saturation Verdicts, Stale Handoff Numbers, and Resume Supervision
-(PROMANUAL-1004 + RAFAI-1004 supervision, 2026-10-04)
+(two-mission supervision, 2026-10-04)
 
 ## 1. Three tiers of "jenuh/saturated" — never let downstream conflate them
 
@@ -24,7 +24,7 @@ misread.
 
 ## 2. Boundary cases in acceptance formulas are precedents — escalate, don't absorb
 
-RAFAI R3 closed JENUH using a "combined two-cycle window 9.1%" because cycle 2
+A book mission's R3 closed JENUH using a "combined two-cycle window 9.1%" because cycle 2
 was exactly 10.0% (strictly not <10) and cycle 3 was 0%. The worker was honest
 (raw numbers printed, "verifier may re-judge"), but an unstated reinterpretation
 of the formula, if silently accepted, becomes the norm: any lane could then

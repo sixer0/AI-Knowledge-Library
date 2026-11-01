@@ -1,5 +1,5 @@
 # Mata-Penutup Lajur, Anggaran Baca Sumber, dan Pin-Freeze Hilir
-# Preseden: RAFIF-MOBILE-0928 (28-29/09/2026), 17 lajur riset sampai vonis terminal + rakit kitab 1,2 MB
+# Preseden: misi mobile (28-29/09/2026), 17 lajur riset sampai vonis terminal + rakit kitab 1,2 MB
 
 ## 1. Kartu mata-penutup (C/D) untuk lajur non-jenuh pasca mata-2
 Ketika mata-2 menutup sebagai partial-handoff ber-angka, controller melepas kartu

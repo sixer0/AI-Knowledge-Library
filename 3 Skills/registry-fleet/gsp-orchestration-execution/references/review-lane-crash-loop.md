@@ -1,4 +1,4 @@
-# Review-lane crash-loop: jebakan transisi review same-card (RAFAI-1004 D-20, 04-10; disahkan skill-manager kartu t_21314a56, dieksekusi kartu CS2 t_c6721813)
+# Review-lane crash-loop: jebakan transisi review same-card (misi manual AI D-20, 04-10; disahkan skill-manager kartu t_21314a56, dieksekusi kartu CS2 t_c6721813)
 
 Normatif kelas life-cycle penutupan kartu penulis. Sumber tunggal kelas ini; skill lain
 (gsp-orchestration-execution aturan 15, gsp-orchestrator-worker baris Anti-Patterns) hanya
@@ -6,7 +6,7 @@ memegang pointer.
 
 ## 1. Gejala terakun (bukti papan, bukan cerita)
 
-Kartu kitab RAFAI-1004 `t_bff41a2e` (TB4 tulis Bab 4). Rantai event papan, epoch + WIB:
+Kartu kitab misi manual AI `t_bff41a2e` (TB4 tulis Bab 4). Rantai event papan, epoch + WIB:
 
 | ts epoch | jam WIB | event | isi terukur |
 |---|---|---|---|
@@ -42,14 +42,14 @@ pulih baru di run #4487.
 adalah jebakan kernel, bukan kesalahan pekerja. DILARANG membuka lane reviewer dengan cara itu
 pada kartu naskah/kitab/artefak panjang.
 
-## 3. Pola sah (standar fleet, dari workaround RAFAI yang teruji)
+## 3. Pola sah (standar fleet, dari workaround misi manual AI yang teruji)
 
 1. Run PENULIS menutup kartunya lewat RESULT langsung, tanpa `kanban_request_review`:
    `STATUS: complete` bila gerbang penulis lolos, atau `STATUS: needs-review` disertai komentar
    enam bidang + artefak path/sha (jalur WAKE-ORCH-0911 butir 3). Kartu penulis menjadi `done`;
    status naskah hidup di result, bukan di kolom papan.
 2. Lane editor/reviewer dibuka sebagai KARTU TERPISAH yang ber-`parents=[kartu-penulis]`,
-   assignee akun berbeda dari penulis (pola EDIT-*/FIX-* RAFAI). Verifikasi oleh akun berbeda
+   assignee akun berbeda dari penulis (pola EDIT-*/FIX-* misi manual AI). Verifikasi oleh akun berbeda
    ditegakkan lewat kartu anak, BUKAN lewat transisi review same-card. Contoh preseden: FIX-B4
    `t_2eb2666e` + EDIT-345 `t_2c02abe7` (CONTRACT D-20).
 3. Kartu reviewer/editor sendiri menutup dengan result verdict (`STATUS: complete` /

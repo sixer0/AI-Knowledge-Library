@@ -1,6 +1,6 @@
 # Menambal INSTRUMEN verifikasi (bukan artefak) — resep red-green dua arah
 
-Preseden: RAFIF-GUIDE-0925 25-09, ruling D-12 (gerbang rekons `check_guide.py`) dan
+Preseden: misi buku 25-09, ruling D-12 (gerbang rekons `check_guide.py`) dan
 D-13 (parser subgraph `build_docx.py`). Kelas masalah: vonis FAIL/NEEDS_REVIEW yang
 tidak bisa lagi berubah jadi PASS lewat suntingan artefak apa pun, karena PUTUSAN
 KONTROLLER mengubah objek sementara instrumen beku masih mengukur rumus lama.

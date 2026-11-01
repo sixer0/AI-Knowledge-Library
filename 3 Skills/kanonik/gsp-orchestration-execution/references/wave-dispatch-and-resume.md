@@ -1,4 +1,4 @@
-# Wave Dispatch & Resume Cards for Large Fan-out Missions (terverifikasi 02-09, EXPO-INTEL-2026)
+# Wave Dispatch & Resume Cards for Large Fan-out Missions (terverifikasi 02-09, misi fan-out besar)
 
 Konteks: blueprint menghasilkan >4 kartu pengumpul (misi EXPO: 18 kartu kumpul + 9 hilir).
 Bridge mengklaim SETIAP kartu ready ber-assignee gsp-* (lihat hq-dispatch-bridge-quirks.md),

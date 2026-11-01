@@ -1,6 +1,6 @@
 # Writer-card budget design: kelas 'death-by-read' + kebijakan maks-komputasi
 
-Preseden RAFIFFINAL-1007 (07-10, 5 lajur dokumen editorial, 125 kartu). Temuan utama:
+Preseden misi editorial (07-10, 5 lajur dokumen editorial, 125 kartu). Temuan utama:
 gelombang-1 melepas 33 worker serentak; 21 kartu writer menutup `partial-handoff` dengan
 alasan seragam "anggaran habis di tahap baca" dan NOL artefak tulis - bukan cacat konten.
 

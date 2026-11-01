@@ -1,4 +1,4 @@
-# Registrasi Fan-out Besar dengan Gating Wave (terverifikasi 02-09, misi EXPO-INTEL-2026)
+# Registrasi Fan-out Besar dengan Gating Wave (terverifikasi 02-09, misi fan-out besar)
 
 Pola untuk mendaftarkan banyak kartu worker sekaligus (18 kartu kumpul + 9 hilir) tanpa
 menembus batas konkurensi (maks 5 per misi, tanpa batas per jenis; norma user 03-09B, kap host 20) dan tanpa kartu yatim yang jalan

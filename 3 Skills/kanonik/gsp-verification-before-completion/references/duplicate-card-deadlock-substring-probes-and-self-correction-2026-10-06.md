@@ -1,4 +1,4 @@
-# Deadlock kartu kembar, probe rentan-substring, dan koreksi-diri pengawas (06-10/11-2026, RAFIFUNITY/PROMANUAL/GAYA-AHLI)
+# Deadlock kartu kembar, probe rentan-substring, dan koreksi-diri pengawas (06-10/11-2026, misi buku/PROMANUAL/GAYA-AHLI)
 
 Tiga pola baru terverifikasi saat pengawasan tiga papan semalam. Semua dari pengukuran disk, bukan laporan.
 
@@ -19,7 +19,7 @@ Tiga aturan fleet hasil traceroot (dukung proposal watchdog S14; bukti lintas pa
 
 Tiga tangkapan dalam satu sesi, pola sama - pencocokan substring tanpa batas:
 - Probe pengawas `'.git' in zip.namelist()` = True padahal hanya `.gitignore` yang cocok; entri pustaka `.git/` sungguhan = 0. Sensor dibetulkan (prefix segmen path) SEBELUM vonis.
-- Scanner fleet v1.8.x: frasa blacklist `"as an ai" in text` menvonis A4 pada prosa sah **"such as an aisle name"** (RAFIFUNITY ch17, akar kgali byte-per-byte; kemudian PROMANUAL STD-GAYA-AHLI-001 memuat fixture yang sama). Patch v1.9.0 = regex berbatas kata dengan selftest dua arah (aisle->PASS, pemakaian asli->FAIL) - pola red-green fixture kasus nyata.
+- Scanner fleet v1.8.x: frasa blacklist `"as an ai" in text` menvonis A4 pada prosa sah **"such as an aisle name"** (misi buku ch17, akar kgali byte-per-byte; kemudian PROMANUAL STD-GAYA-AHLI-001 memuat fixture yang sama). Patch v1.9.0 = regex berbatas kata dengan selftest dua arah (aisle->PASS, pemakaian asli->FAIL) - pola red-green fixture kasus nyata.
 - Sensus caption sidecar-vs-naskah mencetak 65/0/23 "beda" padahal pekerja melapor 87/0/1: akar = caption naskah memakai **NBSP (U+00A0)** setelah "Figure" sehingga regex spasi-biasa melewatkan 22 baris. Setelah normalisasi `\xa0 -> ' '`, dua instrumen menyatu. **Angka pekerja ternyata benar; sensor pengawas yang buta.**
 
 Aturan turunannya: SEMUA probe pencocokan (pengawas maupun instrumen) wajib (a) batas kata `\b` untuk frasa, (b) kesamaan segmen path untuk nama berkas, (c) normalisasi NBSP sebelum perbandingan teks, dan (d) kalau hasil probe MENYANGKAL angka pekerja, curigai probe dulu - format nyata artefak diuji sebelum vonis beda. Kasus keenam kalinya disiplin ini dipakai, pertama kali terhadap sensor pengawas sendiri di depan angka pekerja.

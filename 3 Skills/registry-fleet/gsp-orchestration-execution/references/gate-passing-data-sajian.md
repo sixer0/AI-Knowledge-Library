@@ -1,4 +1,4 @@
-# Generating data-catalog sajian that pass scan_ai_footprint.py (learned 03-10, VENDOR-DEMS-1003)
+# Generating data-catalog sajian that pass scan_ai_footprint.py (learned 03-10, misi vendor proyek 1003)
 
 Goal: user-facing documents whose body is mostly DATA TABLES (component x vendor registers, ledgers, saturation summaries) that still pass the deterministic naturalization gate on the `doc` channel. Mechanical generators fail first-pass; the fix is in the GENERATOR, not hand-editing output.
 

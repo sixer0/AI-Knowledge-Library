@@ -1,6 +1,6 @@
 # Pola pengawas sore 06-10: urutan verify, adjudikasi sumbu, balapan kartu, allow-list menumpuk
 
-Kronologi papan: docs/2026-10-04-rafif-unity-ed3/CONTRACT.md, docs/2026-10-04-prompt-manual/CONTRACT.md, docs/2026-10-05-gaya-bahasa-forensik/CONTRACT.md.
+Kronologi papan: docs/2026-10-04-unity-ed3/CONTRACT.md, docs/2026-10-04-prompt-manual/CONTRACT.md, docs/2026-10-05-gaya-bahasa-forensik/CONTRACT.md.
 
 ## 1. Urutan verify-vs-konten (mtime ordering) - aturan baru pengawas
 

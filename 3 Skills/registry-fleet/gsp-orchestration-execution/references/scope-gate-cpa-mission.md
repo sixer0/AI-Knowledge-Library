@@ -1,16 +1,16 @@
-# Scope-gate mission frame (CP-A) — preseden RAFAI-1004, 2026-10-04
+# Scope-gate mission frame (CP-A) — preseden misi manual AI, 2026-10-04
 
 Kelas misi: user meminta pola dua-gerbang eksplisit, mis. "First define the scope ...
 after i agreed - do deep research until saturation". Riset mendalam DILARANG mulai
 sebelum persetujuan user tercatat. Frame ini merangkai gerbang itu ke lane CONTROLLER
 tanpa pelonggaran RT-first.
 
-## Urutan sah (terbukti jalan penuh pada RAFAI-1004)
+## Urutan sah (terbukti jalan penuh pada misi manual AI)
 
 1. **Kontrak dulu, gerbang ditulis eksplisit.** `docs/<tanggal>_<slug>/CONTRACT.md`
    memuat blok "Gerbang misi" dengan CP-A sebagai gate: "gelombang riset BARU dibuka
    setelah CP-A disetujui user". Fase hilir TIDAK dibuat kartunya di muka.
-2. **Fase scope = RT + TA paralel** (OPT-WF O-C; tipe misi bertemplat Rafif/riset).
+2. **Fase scope = RT + TA paralel** (OPT-WF O-C; tipe misi bertemplat manual/riset).
    Kartu TA memuat kalimat penahan baku `TA: tunggu 01 di docs/.../identification/
    01_translated.md sebelum finalisasi`. Body kartu TA boleh mencontohkan penafsiran
    tetapi WAJIB dilabel "USULAN, bukan kata user" — RT mewajibkan hal ini di catatan
@@ -45,14 +45,14 @@ Skrip Python pemanggil `lad_card.py` via subprocess, SATU run untuk seluruh DAG:
 
 ## Board-mover per misi + jebakan delivery WebUI
 
-Pola RAFIFUNITY-1004 (dipakai ulang RAFAI-1004): cron `every 15m` dengan
+Pola misi buku 04-10 (dipakai ulang misi manual AI): cron `every 15m` dengan
 `monitor_script` = skrip digest deterministik (status kartu + path+ukuran artefak,
 TANPA timestamp) — agent hanya bangun saat hash digest berubah; prompt mover berisi
 tugas rekonsiliasi (ukur artefak sendiri, bukan percaya summary; resume
 partial-handoff via lad_card; gerang buka fase berikutnya; tempel [FASE] ke
 PHASE-REPORTS; DILARANG klaim selesai ke user / restart server / menulis naskah).
 - **Jebakan**: dari sesi WebUI, `deliver: origin` menghasilkan error
-  `unknown platform 'webui'` (preseden rafif-polish-0930-watchdog, last_delivery_error
+  `unknown platform 'webui'` (preseden watchdog misi polish 30-09, last_delivery_error
   terukur). Buat job lalu langsung `update deliver='local'`; laporan fase tetap
   sampai ke user lewat wake-subscribe papan + controller.
 - Template digest: `templates/board-mover-watch.py` (ubah TENANT + DOCS).
@@ -69,11 +69,11 @@ angka fasilitas. Ini perpanjangan SPK-002 butir truth-fidelity ke jalur bukti lo
 
 ## Pitfall temuan: TA masih memakai batas lama "maks 2 sejenis"
 
-Body kartu TA RAFAI-1004 tidak menyebut norma konkurensi, dan TA menyusun breakdown
-dengan "gsp-data-collector paralel maks 2" (aturan lama yang SUDAH digusur norma
+Body kartu TA misi manual AI tidak menyebut norma konkurensi, dan TA menyusun breakdown
+dengan "pekerja paralel maks 2" (aturan lama yang SUDAH digusur norma
 03-09B: kap 5 AKTIF per misi, tanpa batas per-jenis; kap host 20). TA mengoreksi
 dirinya sendiri di catatan run, tetapi controller harus mencegah dari hulu:
 **setiap body kartu TA untuk riset multi-lajur menempelkan satu baris norma
 konkurensi yang berlaku** (N1 + 03-09B + kap host), dan Decision Log controller
-mencatat pembacaan bila ada deviasi (RAFAI-1004 D-06 melepas 1a-1e serentak,
+mencatat pembacaan bila ada deviasi (misi manual AI D-06 melepas 1a-1e serentak,
 tepat kap 5).

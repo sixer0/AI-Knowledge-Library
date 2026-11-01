@@ -1,6 +1,6 @@
 # Supervisor: Pin Dua-Era, Determinisme Lintas-Waktu, Sensor Pra-Tayang (06-11 sesi enam-papan)
 
-Preskripsi untuk pengawas/countersigner pada papan dengan koridor revisi-berulang (healing loop) dan kartu builder berat. Semua pola terverifikasi pada misi GAYA-AHLI-1005 revD→revG, RAFIFUNITY-1004 mata-remediasi D-88, VISUAL-1005 O3/O4/O4-fix + R11, PROMANUAL-V2 RW-gave-up.
+Preskripsi untuk pengawas/countersigner pada papan dengan koridor revisi-berulang (healing loop) dan kartu builder berat. Semua pola terverifikasi pada misi GAYA-AHLI-1005 revD→revG, buku Unity 1004 mata-remediasi D-88, VISUAL-1005 O3/O4/O4-fix + R11, PROMANUAL-V2 RW-gave-up.
 
 ## 1. Determinisme alat diuji LINTAS-WAKTU, bukan dua-run satu sesi
 

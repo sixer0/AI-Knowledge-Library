@@ -1,6 +1,6 @@
 # Naturalization gate repair & BoQ derivation from registry sources
 
-Preseden: DEMS-EXPLAIN-1003 dan DEMS-BOQ-1003 (03-10). Dua artefakFAIL di gerbang
+Preseden: misi laporan penjelasan dan misi BOQ (03-10). Dua artefakFAIL di gerbang
 naturalisasi lalu ditutup ke VERDICT PASS lewat suntingan bertarget konten-kekal; satu
 cacat render sumber ditemukan dan diremediasi lewat hitung ulang baris.
 
@@ -36,21 +36,21 @@ Makna check yang menentukan hasil penilaian (terukur 03-10):
 ## B. Pitfall: sumber turunan memuat literal kode mentah (cacat render)
 
 Berkas breakdown/laporan yang dibangun skrip generator bisa membawa literal `format()` /
-f-string yang TIDAK tereksekusi di sel angka (kejadian nyata: BREAKDOWN-KOMPONEN-UTAMA-DEMS.md
+f-string yang TIDAK tereksekusi di sel angka (kejadian nyata: BREAKDOWN-KOMPONEN-UTAMA-<kode-proyek>.md
 memuat `Rp format(val/1e9, ',.1f')...` mentah pada nilai per kelompok). Gerbang baca:
 - Sel numerik berisi token kode Python (`format(`, `{`, `val/`) => cacat render, JANGAN
   dikutip apa adanya dan JANGAN disalin ke keluaran.
 - Jalur pulih: hitung ulang agregat dari baris level di berkas yang sama (qty x unit),
   uji silang terhadap klaim agregat yang ditulis teks di dokumen itu, laporkan delta
-  sebagai temuan bernama (preseden: delta -Rp 3,396,700 = -0.001% terhadap klaim Rp 264,53 M).
+  sebagai temuan bernama (preseden: delta -D = -0.001% terhadap klaim K M).
 
 ## C. BoQ/daftar turunan dari registry atau workbook
 
 - Nilai per baris dan subtotal WAJIB dihitung parser/kode, bukan mental arithmetic
   (rule angka-laporan = cetakan alat).
 - Rekonsiliasi terhadap total sah + uji SEMANTIK rasio, bukan sekadar cek sama:
-  mis. pre-tax 335,029,109,475 / base-baris 264,526,603,300 = 1.2665 terjelaskan faktor
-  impor ITA 1.0714 / non-ITA 1.1785 + BUK + pembulatan rantai formulasi.
+  mis. pre-tax A / base-baris B = R terjelaskan faktor
+  impor asal tertentu f1 / asal lain f2 + BUK + pembulatan rantai formulasi.
 - Sertakan seksi 'Batasan' yang menyatakan angka BUKAN apa: dasar sebelum pengali impor,
   qty termasuk cadangan sehingga melebihi populasi set, dsb.
 

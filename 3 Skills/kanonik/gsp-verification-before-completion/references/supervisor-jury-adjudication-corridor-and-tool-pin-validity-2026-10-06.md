@@ -14,7 +14,7 @@ patch scanner (fixture red-green) → microfix artefact per jury findings → ju
 ## 3. Tool-pin validity rule ("vonis menempel byte, termasuk byte ALAT vonis")
 - Every gate report must record the scanner sha16 (full 16 hex — I flagged a 15-hex truncated pin `d61b996931e93dc` in G-NAT-53; harmless but fix downstream).
 - A tool change is retroactively SAFE for old verdicts only when its scope provably cannot touch the judged layer (v1.9.1 = EN signature whitelist for letters → book-manuscript verdicts stand). State the scope argument in the countersign.
-- After any tool bump, ALL later reruns must re-pin the new tool sha (PROMANUAL rerun-gerbang-kitab, RAFIFUNITY G-NAT/F8, GAYA rescan revisi-C). Two pending sensor fixes should land as ONE tool patch, not two pin churns.
+- After any tool bump, ALL later reruns must re-pin the new tool sha (PROMANUAL rerun-gerbang-kitab, the Unity book G-NAT/F8, GAYA rescan revisi-C). Two pending sensor fixes should land as ONE tool patch, not two pin churns.
 - Scanner-gate "PASS" with an allow-list register means "every finding adjudicated", NOT "sensor silent" — say the difference explicitly in vonis (register 12 kelas ber-fixture, G-NAT-53).
 
 ## 4. Regression-verdict anatomy (S16, reusable template)

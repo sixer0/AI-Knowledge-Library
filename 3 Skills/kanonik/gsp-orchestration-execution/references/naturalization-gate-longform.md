@@ -1,4 +1,4 @@
-# Naturalization gate for long-form documents (measured 03-10, mission DEMS-EXPLAIN-1003)
+# Naturalization gate for long-form documents (measured 03-10, mission for a project explanation report)
 
 Target: passing `scan_ai_footprint.py` (skill gsp-output-naturalization, fleet registry:
 [`%LOCALAPPDATA%/hermes/skills/gsp/gsp-output-naturalization/scripts/scan_ai_footprint.py`](../../../registry-fleet/gsp-output-naturalization/scripts/scan_ai_footprint.py))

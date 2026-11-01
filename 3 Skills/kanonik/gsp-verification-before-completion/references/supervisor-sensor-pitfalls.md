@@ -37,7 +37,7 @@ convicting (or vindicating) an artifact.
    real post-embed bytes (kartu t_fcdd32ac, diukur ulang manager t_618c93d4): sensor level-RUN
    hilang=1 JEBOL on attr-margin + attr-minmargin vs level-PARAGRAF hilang=0 OK; kontrol
    `hAnchor="text"` OK on both layers; chip terbelah = "[R -
-   ADINT-LIBRARY-INDEX-MASTER-V1.MD BAGIAN 8]" (47 char, dua `w:r`). Fix: bandingkan teks chip
+   INDUK-LIBRARY-INDEX-MASTER-V1.MD BAGIAN 8]" (47 char, dua `w:r`). Fix: bandingkan teks chip
    di LEVEL PARAGRAF - gabung SEMUA `w:t` dalam paragraf ber-`framePr` - sebelum memvonis chip
    hilang; pakai lapis run hanya untuk assert gaya per-run. Jangan ubah semantik gerbang,
    hanya lapis bacanya. Tercatat 2026-10-09 (kartu t_be1b447e, tenant CTXWIN-1009).
@@ -67,7 +67,7 @@ convicting (or vindicating) an artifact.
     R-1 giliran ini: klausul nol-retry hanya ada di draf yang tersupersede).
 
 13. **Intro-figur / caption census pada docx** - dua jebakan terukur satu run (BUILDR
-    t_8f332328, RAFIF-REVB-1010): (a) regex paragraf `<w:p\b.*?(?:</w:p>|/>)` memotong teks
+    t_8f332328, misi buku Rev B 1010): (a) regex paragraf `<w:p\b.*?(?:</w:p>|/>)` memotong teks
     di TAG MANDIRI-TER-TUTUP pertama di dalam paragraf (bookmarkStart dll) -> hampir semua
     paragraf terpotong buta; pakai `<w:p\b[^>/]*(?:>.*?</w:p>|/>)`. (b) baris INTRO dan baris
     CAPTION sama-sama berawalan label (`Gambar 0.1 ...`), sehingga `t.startswith(label+" ")`
@@ -77,6 +77,40 @@ convicting (or vindicating) an artifact.
     besar = sensor yang salah, bukan artefaknya). Tercatat 2026-10-10 (kartu t_8f332328;
     dinaikan apa adanya dari salinan fisik profil gsp-worker oleh DUPSKILL-L3, hanya
     indentasi dan penomoran yang diperbaiki: semula tersesat sebagai sub-item di bawah 9).
+
+14. **Pencocokan substring seed ikut menangkap PRESKRIPSI ke depan** - menguji "apakah seed
+    verifier ini belum tercatat" dengan `token in teks_log` memberi positif-palsu bila log
+    memuat kalimat normatif ke depan tentang seed itu (terukur GB-r3 t_3889b7d9, AIE26SAT-1013:
+    SEED-LOG menulis "AIE26V-GB-r3 wajib beda saat terbit nanti" -> sensor menyimpulkan seed
+    sudah terbit, CHECK 17 FAIL padahal rantai seed utuh). Yang sah diuji = baris PENCATATAN,
+    bukan penyebutan: pola ter-anchor per-peran (`^\s*verifier[^:\n]*:\s*<SEED>\b`, re.M).
+    Sekelas lesson tombstone 'MERGED-INTO AEX-\d{5}': pola bebas membaca prosa tentang suatu hal
+    seolah hal itu terjadi.
+
+15. **Scan satu baris untuk register multi-baris, dan negasia dibaca sebagai kekurangan** - dua
+    kegagalan satu CHECK (GB-r3 CHECK 25, register PARTIAL-tumbuh): (a) hanya baris yang memuat
+    token yang dibaca, padahal butir register lajur ditulis lanjut di baris berikutnya -> lajur
+    patuh divonis TANPA-JADWAL; pakai jendela teks (±120/700 karakter) di sekitar token.
+    (b) yang lebih mahal: menuntut struktur tumbuh pada SEMUA lajur = menghukum lajur yang secara
+    benar MENEGASIKAN tidak punya kanal tumbuh (LA/LB/LC/LF menulis "tidak ada direktori tumbuh";
+    ledger beku dan kanal terkuras memang tidak tumbuh). Klasifikasi wajib tiga-keadaan:
+    `nol-klaim` (negasia eksplisit = PATUH), `berjadwal` (butir + pemilik + jendela tercetak),
+    `TANPA-JADWAL` (klaim tumbuh tanpa jadwal = baru ini cacat). Detector yang hanya mengenal
+    ada/tidaknya sebuah struktur akan selalu salah vonis pada sisi negatifnya.
+
+17. **Pola uji 'grep-ready' yang disimpan sebagai data** - daftar kendali berisi regex untuk
+    dijalankan verifikator hilir punya tiga jebakan terukur satu run (kartu t_c5da3e33,
+    DECK-HTMLPDF-1015): (a) kuantifier `{n,m}` bisa dimakan konversi argumen shell/tool sebelum
+    sampai ke grep -> `.{0,40}` berubah makna jadi `.`; hindari brace, pakai `+`/`*`/kelas.
+    (b) kelas karakter bersarang seperti `[.,[:space:]]` tidak sah POSIX ERE (grep: "Invalid
+    character class name") walau Python `re` menerimanya; tulis `[.,][[:space:]]*`. (c) mode baca
+    menentukan vonis: `grep -z`/berkas-utuh membuat `[^|]*` dan `.{0,n}` menyeberang baris ->
+    larangan "sebut X sebagai barang baru" menemukan positif-palsu lintas sel tabel; pisahkan
+    moda per entri (`sel-baris` = grep per baris, `teks-normal` = baris digabung dulu karena
+    hard-wrap naskah md sumber tidak ada di keluaran HTML/PDF). Deklarasikan moda di artefak dan
+    uji kedua moda saat smoke, bukan satu. Turunan: probe penelusuran baris yang memuat pemisah
+    baris membuat `#L<n>` menunjuk baris AWAL, bukan baris tunggal - audit pencocokan wajib
+    memakai jendela baris, bukan satu baris.
 
 ## Countersign discipline (pengawas)
 

@@ -1,11 +1,11 @@
-# Urutan promosi vs remediasi + ukur modal klaim worker (preseden RAFIF/HARGA-DEMS/PEMAHAMAN-DEMS, 26-27-09)
+# Urutan promosi vs remediasi + ukur modal klaim worker (preseden misi panduan/misi harga/misi pemahaman, 26-27-09)
 
-Empat aturan controller yang terbukti dari rantai penutup RAFIF GEN-2 (VS2-R3/DX2B/DG2B/FIX-D2/DG2B-R2)
-dan misi HARGA-DEMS-0927 + PEMAHAMAN-DEMS-0927.
+Empat aturan controller yang terbukti dari rantai penutup misi panduan GEN-2 (VS2-R3/DX2B/DG2B/FIX-D2/DG2B-R2)
+dan misi harga + misi pemahaman 27-09.
 
 ## 1. Promosi library/KB WAJIB di belakang vonis RELEASE FINAL pasca-rantai-remediasi
 
-Preseden cacat urutan (HARGA-DEMS-0927, 27-09): audit V vonis FAIL 06:52 (defect G9: baris NVR-64
+Preseden cacat urutan (misi harga, 27-09): audit V vonis FAIL 06:52 (defect G9: baris NVR-64
 jd.com dilabel `manufacturer-price-...` padahal halaman brand ritel CN). Rantai remediasi berjalan
 sah setelahnya: VS PASS 07:03, FIX-1 menambal sumber (findings 12:00, workbook rebuild 13:03),
 L06C round-4 menaikkan basis lajur, V2 re-audit vonis RELEASE. TETAPI kartu promosi KB sudah jalan
@@ -27,7 +27,7 @@ Aturan turun-temurun:
 
 ## 2. Klaim 'modal siap-baca' worker wajib diukur di disk sebelum kartu lanjutan bergantung padanya
 
-Preseden (PEMAHAMAN-DEMS-0927, 27-09): kartu L3 menutup partial-handoff dengan klaim '30 berkas
+Preseden (misi pemahaman, 27-09): kartu L3 menutup partial-handoff dengan klaim '30 berkas
 digest siap-baca di workspace t_f0e95407/digests/' dan SISA_KERJA 'tinggal baca digest (~12
 iterasi)'. Ukur controller: direktori scratch itu 0 berkas; yang nyata hanya 3 berkas digest di
 docs/.../work/. Kartu L5 mengklaim dumps A..J 9.013 baris di scratch — scratch kosong, catatan
@@ -43,7 +43,7 @@ Aturan:
 
 ## 3. Gerbang-diri pada kartu ditulis sebagai PREDIKAT beku, bukan angka mentah
 
-Preseden (RAFIF GEN-2, ruling D-18): kartu FIX-D2/DG2B-R2 menulis uji diri 'U+00B7 total == 5'.
+Preseden (misi panduan GEN-2, ruling D-18): kartu FIX-D2/DG2B-R2 menulis uji diri 'U+00B7 total == 5'.
 Angkanya keliru: 5 adalah cacah string mandat, cacah titik sebenarnya 6 (tersebar document +
 header + footer). Verifier melaporkan angka apa adanya, memvonis lewat PREDIKAT beku ('nol
 U+00B7 di luar lima string mandat'), dan mencatat cacat rumus kartu tanpa menghukum artefak.

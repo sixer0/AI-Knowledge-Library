@@ -1,4 +1,4 @@
-# Resep gelombang MAKS-KOMPUTASI (kebijakan user 07-10; preseden RAFIFFINAL-1007)
+# Resep gelombang MAKS-KOMPUTASI (kebijakan user 07-10; preseden misi editorial 07-10)
 
 Trigger: user meminta "maksimum compute / utilisasi maksimal / full power" pada misi multi-agen,
 atau steering lintas sesi "Gunakan Komputasi Maksimal pada Inference Server" (arsip verbatim:
@@ -8,7 +8,7 @@ ukur dulu, jangan asumsi; gerbang mutu tidak pernah ditukar kecepatan.
 ## 1. Ukur sebelum memutuskan (semua angka masuk Decision Log)
 - GPU: `nvidia-smi --query-gpu=...`; papan: `hermes kanban list --json` (running global vs per tenant);
   endpoint lokal: probe `/v1/models`, `ollama ps`.
-- Inference server fleet (provider GSP-AI, mis. `worker-fast @ http://10.83.81.246:11400/v1`):
+- Inference server fleet (provider GSP-AI, mis. `worker-fast @ http://<host-inferensi>:11400/v1`):
   uji beban paralel nyata dengan `concurrent.futures.ThreadPoolExecutor` (tangga 8 -> 24 request,
   catat ok/n, latensi rata, wall). Preseden 07-10: 24/24 sukses, lat 1,0 s -> server BUKAN leher
   botol; yang membatasi adalah dispatcher papan.

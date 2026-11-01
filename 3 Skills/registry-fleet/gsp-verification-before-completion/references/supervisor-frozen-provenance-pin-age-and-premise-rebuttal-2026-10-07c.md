@@ -1,4 +1,4 @@
-# Supervisor recipes: frozen provenance, pin-age, premise rebuttal (07-10 tail, boards PROMANUAL-V2 / INDUK-GAYA-VISUAL / PV-1007 / RAFIFFINAL-1007)
+# Supervisor recipes: frozen provenance, pin-age, premise rebuttal (07-10 tail, boards PROMANUAL-V2 / INDUK-GAYA-VISUAL / PV-1007 / final-stage book 1007)
 
 Condensed from countersigns of UJIB, JWB1-8, GCERPOP-B/C/D, NATFIX, FIGADD, L12B/L12C-D/L13, FIX-SA3B/3C/3D, PV R1/R1B/R4/R5/L2/L10/L11/L12/L12b/L13, D2W3b/D2W11, FG2b/FG3b/REG-D3.
 

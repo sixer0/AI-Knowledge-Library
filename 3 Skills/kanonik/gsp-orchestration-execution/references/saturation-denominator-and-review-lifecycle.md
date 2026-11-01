@@ -1,6 +1,6 @@
-# Saturation denominator & review lifecycle (rekaman RAFAI-1004, 04-10-2026)
+# Saturation denominator & review lifecycle (rekaman misi manual AI, 04-10-2026)
 
-Sumber: docs/2026-10-04-rafif-ai-manual/CONTRACT.md Decision Log D-11..D-22 (vonis tercatat per butir; artefak terukur di folder itu).
+Sumber: docs/2026-10-04-<misi>-ai-manual/CONTRACT.md Decision Log D-11..D-22 (vonis tercatat per butir; artefak terukur di folder itu).
 
 ## 1. Masalah denominator vonis jenuh
 

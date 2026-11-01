@@ -40,4 +40,4 @@
 
 ## Angka jejak (untuk kalibrasi, bukan ambang umum)
 
-Korpus fleet terukur 05-10: rantai >=4 koma 8-23%, titik-koma/1000 kata 11-33, identifier mesin telanjang 46 temuan, kode internal di badan teks 547 temuan, satu kalimat 583 kata, paragraf >150 kata hingga 125 butir. Korpus manusia pembanding ada di `DEMS/01 Masukan/Dokumen Awal/` (authored instansi), blok kutipan vendor pada work/VENDOR-V1x.txt, textbook di ekas + SOURCE-VAULT/R3.
+Korpus fleet terukur 05-10: rantai >=4 koma 8-23%, titik-koma/1000 kata 11-33, identifier mesin telanjang 46 temuan, kode internal di badan teks 547 temuan, satu kalimat 583 kata, paragraf >150 kata hingga 125 butir. Korpus manusia pembanding ada di `<proyek>/01 Masukan/Dokumen Awal/` (authored instansi), blok kutipan vendor pada work/VENDOR-V1x.txt, textbook di ekas + SOURCE-VAULT/R3.

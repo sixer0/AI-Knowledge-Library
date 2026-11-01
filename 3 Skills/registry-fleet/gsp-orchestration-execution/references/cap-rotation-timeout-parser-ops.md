@@ -1,4 +1,4 @@
-# Rotasi cap, triase timeout, dan audit parser — pola teruji RAFIF-MOBILE / HDKCOMP / RAFIF-VISUAL (29-09)
+# Rotasi cap, triase timeout, dan audit parser — pola teruji misi mobile / HDKCOMP / misi visual (29-09)
 
 ## 1. Timeout → retry dispatcher = penyelamat modal (jangan re-dispatch buta, jangan pecah kartu dini)
 Siklus terbukti berulang pada kartu bridge ber-plafon ~30 menit: run-1 timeout MENINGGALKAN modal
@@ -36,7 +36,7 @@ dependensi memang tidak perlu dan tidak bisa diblock.
 
 ## 4. Mirror artefak misi ke repo (kebijakan standing user) — hemat & non-destruktif
 - Cache mentah (research/raw, _probe*, __pycache__, *.apk, file >2 MB) dikecualikan dari commit —
-  preseden RAFIF-GUIDE GEN-2; utuh tetap di workspace lokal, nyatakan pengecualian ke user.
+  preseden misi panduan GEN-2; utuh tetap di workspace lokal, nyatakan pengecualian ke user.
 - Terlanjur staged? `git diff --cached --name-only | grep pola > daftar.txt` lalu
   `xargs -a daftar.txt git restore --staged --` (non-destruktif). Percobaan `rm -rf` cache di mirror
   kena gerbang persetujuan — jangan diulang lewat jalan tikus; unstage sudah cukup.

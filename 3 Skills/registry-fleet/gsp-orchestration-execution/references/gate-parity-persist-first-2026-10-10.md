@@ -1,4 +1,4 @@
-# Paritas gerbang kartu tulis + persist-first kelas builder (RAFIF-REVB-1010, 10-10)
+# Paritas gerbang kartu tulis + persist-first kelas builder (misi manual rev B 1010, 10-10)
 
 Tiga mekanika terbukti satu misi tulis-massa 27 bab + gelombang figur, semua dari pengukuran disk controller.
 

@@ -1,6 +1,6 @@
 # Gate kebocoran skor antar-juri + disiplin koreksi jejak (pengawas)
 
-Preseden: misi GAYA-AHLI-1005 (05-10-2026) dan closeout PROMANUAL-1004 (06-10). Berlaku untuk
+Preseden: misi GAYA-AHLI-1005 (05-10-2026) dan closeout misi manual (06-10). Berlaku untuk
 SEMUA peran yang menulis vonis/countersign di papan dengan penjurian multi-agen.
 
 ## Gate 1 — countersign pengawas JANGAN memuat skor per-dimensi mentah

@@ -1,6 +1,6 @@
 # Kartu Builder-Berat & Kemati Jendela Bridge: Triase, Resume, Anti-Tabrakan
 
-Preseden dua gelombang (PROMANUAL-1004 malam + V2-1006 pagi, Okt 2026): kartu delegasi dengan beban "3 bab naskah + 7 figur" atau "render+lint+uji tampil" MATI SEREMPAK di jendela bridge 1800s (timed_out/gave_up pada 1814-1820 dtk, pola identik antar-lane). Vonis yang benar: KELAS CACAT FORMULASI KARTU (estimasi vs plafon run), bukan kegagalan pekerja.
+Preseden dua gelombang (misi terkait malam + V2-1006 pagi, Okt 2026): kartu delegasi dengan beban "3 bab naskah + 7 figur" atau "render+lint+uji tampil" MATI SEREMPAK di jendela bridge 1800s (timed_out/gave_up pada 1814-1820 dtk, pola identik antar-lane). Vonis yang benar: KELAS CACAT FORMULASI KARTU (estimasi vs plafon run), bukan kegagalan pekerja.
 
 ## 1. Estimasi kartu wajib memperhitungkan PLAFON WAKTU, bukan hanya iterasi
 - Plafon run bridge = 1800s (+grace). Bentuk R-1 "satu kartu" SAH secara iterasi (E <= 0.5 x cap) tapi TETAP mati bila durasi kerja nyata > jendela. Untuk kartu kelas builder-berat (naskah multi-bab + generate figur + render + lint), target desain: E yang selesai dalam <=20 MENIT, atau rancang sebagai rantai sejak awal (mata per 1 bab / per seksi artefak).

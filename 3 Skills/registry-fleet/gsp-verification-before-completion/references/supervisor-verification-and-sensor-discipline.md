@@ -1,6 +1,6 @@
 # Supervisor Verification & Sensor Discipline (class-level, distilled 06-12)
 
-Presiden pola dari dua malam supervisi lintas-enam-papan (PROMANUAL, GAYA-AHLI, RAFIFUNITY, PROMANUAL-V2, EKASLAP, VISUAL). Semua vonis pengawas berasal dari CETAKAN ALAT pada giliran itu - tidak ada satu pun klaim dikutip dari laporan pekerja atau ingatan.
+Presiden pola dari dua malam supervisi lintas-enam-papan (PROMANUAL, GAYA-AHLI, buku Unity, PROMANUAL-V2, EKASLAP, VISUAL). Semua vonis pengawas berasal dari CETAKAN ALAT pada giliran itu - tidak ada satu pun klaim dikutip dari laporan pekerja atau ingatan.
 
 ## A. Pola kerja countersign pengawas (ulang tiap kartu selesai)
 1. JANGAN percaya status `completed` dari judul/notifikasi. Buka papan (`hermes kanban show <id>` lewat skrip python subprocess - bukan grep inline yang rawan petik), baca result penuh + event runs (durasi!) + komentar.

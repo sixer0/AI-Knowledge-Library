@@ -1,6 +1,6 @@
 # Kebijakan DAG Sejati: Edge Data Asli, Konkurensi lewat Kapasitas Dispatcher
 
-Terverifikasi 02-09-2026 (misi EXPO-INTEL-2026 + EXPO-OPT-P3). Berlaku untuk
+Terverifikasi 02-09-2026 (misi terkait + EXPO-OPT-P3). Berlaku untuk
 SETIAP registrasi kartu worker di board kanban. Menggantikan pola lama
 "parents antar-wave penuh" yang dirujuk [`wave-dispatch-and-resume.md`](wave-dispatch-and-resume.md) dan
 [`wave-registration-large-fanout.md`](wave-registration-large-fanout.md) versi sebelum 02-09 sore.

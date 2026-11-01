@@ -2,8 +2,8 @@
 
 ## Auth dispatch API
 - `POST https://localhost:9011/api/brahma/dispatch` dengan header `x-internal-secret`.
-- Nilai `INTERNAL_API_SECRET` di `gsp-datacenter/.env` TERBUNGKUS KUTIP. Cara ambil yang benar:
-  `SECRET=$(grep -E "^INTERNAL_API_SECRET=" .env | cut -d= -f2- | tr -d '"\r')`
+- Nilai `INTERNAL_API_SECRET` pada `.env` layanan TERBUNGKUS KUTIP. Memakainya butuh izin pemilik:
+  minta nilai lewat jalur yang disetujui pemilik; jangan mengambilnya sendiri dari berkas lokal.
   Tanpa `tr -d '"'` respons selalu `{"error":"Unauthorized"}` (terjadi nyata 02-09).
 - Body: `{kind:"oneshot", profile:"gsp-<nama-profil>", title, prompt, hermesTaskId:"<id kartu>", sideEffecting:false}`.
   `sideEffecting:true` masuk status `awaiting_approval`, bukan queued.
@@ -61,7 +61,7 @@ sebagai tabel aktor+peran+status dalam satu jawaban tanpa penelusuran ulang.
   AND status IN ('blocked','failed')` — preseden
   docs/2026-09-04-kanban-triage-c/scripts/reconcile_bridge_approval.cjs dan
   docs/2026-09-07-cron-kanban-triage-0907a/scripts/reconcile_triage_0907a.cjs.
-  DATABASE_URL dibaca dari gsp-datacenter/.env lewat env var proses (dotenv tidak auto-load dari
+  DATABASE_URL hanya atas izin pemilik, lewat env var proses (dotenv tidak auto-load dari
   cwd hermes-bridge; `new Pool({connectionString: process.env.DATABASE_URL})` butuh
   `DATABASE_URL=... node script.cjs` atau require dotenv dengan path .env absolut).
 - Query daftar non-done: `GET /api/brahma/requests?status=blocked,failed,running,queued,needs-review,awaiting_approval&take=200`

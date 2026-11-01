@@ -1,4 +1,4 @@
-# Gerbang Keterbacaan, Prasyarat Gerbang, dan Premis Kartu Hilir (PROMANUAL-1004/V2, 04-06 Okt 2026)
+# Gerbang Keterbacaan, Prasyarat Gerbang, dan Premis Kartu Hilir (satu misi, V2, 04-06 Okt 2026)
 
 Preseden kelas: buku ajar 686 halaman LOLOS semua gerbang data (akurasi 100%, SALAH-TARGET=0, URL hidup, naturalisasi) namun divonis user T1: "hard to understand, choice of words bad, not easy to digest, no charts/graphics/visualization". Gerbang konten-akurasi TIDAK mengukur keterbacaan penyampaian. Untuk keluaran yang dibaca manusia, keduanya gerbang rilis terpisah.
 

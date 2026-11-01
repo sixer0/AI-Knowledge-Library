@@ -1,6 +1,6 @@
 # Supervisor countersign ops — mengukur klaim dan memeriksa laporan secara langsung
 
-Dipakai sepanjang enam papan (06-10 s.d. 06-11/12): PROMANUAL, GAYA-AHLI, RAFIFUNITY, EKASLAP, PROMANUAL-V2, VISUAL-1005. Vonis `SAH / NEEDS_REVIEW / FAIL` hanya sah dari artefak yang dibuka dan diukur pada giliran itu; `completed` dari judul/notifikasi bukan bukti.
+Dipakai sepanjang enam papan (06-10 s.d. 06-11/12): PROMANUAL, GAYA-AHLI, buku Unity, EKASLAP, PROMANUAL-V2, VISUAL-1005. Vonis `SAH / NEEDS_REVIEW / FAIL` hanya sah dari artefak yang dibuka dan diukur pada giliran itu; `completed` dari judul/notifikasi bukan bukti.
 
 ## Aturan inti
 

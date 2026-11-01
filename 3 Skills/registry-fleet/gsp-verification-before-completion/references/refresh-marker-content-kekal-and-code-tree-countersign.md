@@ -1,6 +1,6 @@
 # Countersign Pengawas: Refresh/Marker Konten-Kekal, Pohon Kode/API Ledger, Disiplin Instrumen Sendiri
 
-Preskripsi giliran sore 05-10 (RAFAI MARKER-C10, PROMANUAL REFR/MUTU, RAFIFUNITY KOMPILASI-API/REVIEW-KODE/QC-FIGUR). Tiga kelas objek + satu blok disiplin diri.
+Preskripsi giliran sore 05-10 (misi buku MARKER-C10, PROMANUAL REFR/MUTU, misi buku lain KOMPILASI-API/REVIEW-KODE/QC-FIGUR). Tiga kelas objek + satu blok disiplin diri.
 
 ## 1. Countersign kartu REFRESH/MARKER pada artefak raksasa (konten-kekal harfiah)
 

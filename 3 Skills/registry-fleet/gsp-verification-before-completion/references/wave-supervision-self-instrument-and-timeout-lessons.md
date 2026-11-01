@@ -1,4 +1,4 @@
-# Wave Supervision Lessons — self-instrument discipline, timeout recovery, vision QA (RAFAI/PROMANUAL 04–05-10-2026)
+# Wave Supervision Lessons — self-instrument discipline, timeout recovery, vision QA (book mission/PROMANUAL 04–05-10-2026)
 
 Condensed from a dual-controller supervision stretch: ~20 artifact verdicts (TULIS bab, TB bab tulis, EDIT passes, FIG groups, G-JENUH/V-C/G-AKURASI gates, FM-FINAL, UJI-LABEL). Everything below was measured on disk in-gear, not narrated.
 

@@ -1,4 +1,4 @@
-# Gate-regression, lapisan vision-vs-deterministik, kesegaran verify (preseden RAFIFUNITY/GAYA-AHLI 05-10 s.d. 06-10 2026)
+# Gate-regression, lapisan vision-vs-deterministik, kesegaran verify (preseden misi buku/GAYA-AHLI 05-10 s.d. 06-10 2026)
 
 Tiga aturan yang berasal dari satu malam countersign lintas papan; semuanya terukur, bukan teori.
 

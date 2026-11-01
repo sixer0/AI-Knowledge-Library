@@ -1,4 +1,4 @@
-# Resep countersign/vonis pengawas (beku dari gelombang RAFIFUNITY-1004 / PROMANUAL-1004 / GAYA-AHLI-1005, 05–06-10-2026)
+# Resep countersign/vonis pengawas (beku dari gelombang misi buku 04-10 / misi manual 04-10 / GAYA-AHLI-1005, 05–06-10-2026)
 
 Aturan induk: notifikasi `completed/timeout/blocked/gave up/superseded` = KLAIM pekerja. Vonis sah hanya dari artefak dibuka + pengukuran + reproduksi independen + komentar jejak. Pengawas BUKAN dispatcher: tidak membuat kartu/graf, tidak reopen, tidak force-done, tidak promosi.
 

@@ -67,7 +67,7 @@ across threads.
   `^["']|["']$` before using, else psycopg/pg resolves a bogus host. Same for
   INTERNAL_API_SECRET (401 otherwise).
 - Prisma tables are quoted PascalCase: `from "AgentRequest"`, not snake_case.
-- `pg` module lives only under `gsp-datacenter/hermes-bridge/node_modules/pg` —
+- `pg` module lives only under `<service-folder>/hermes-bridge/node_modules/pg` —
   require by absolute path when running scripts from elsewhere.
 
 ## Register-hole audit

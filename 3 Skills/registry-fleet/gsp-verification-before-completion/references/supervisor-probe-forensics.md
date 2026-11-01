@@ -1,9 +1,9 @@
 # Supervisor probe forensics — lessons 14–18 (multi-board session 07-10)
 
-Condensed from countersigns across PROMANUAL-V2 / INDUK-1006 / PV-1007 / RAFIFFINAL / GAYAMANUAL / VCTL. Every item below fired in THIS session; each cost a pre-tayang self-correction or a published koreksi-diri.
+Condensed from countersigns across PROMANUAL-V2 / INDUK-1006 / PV-1007 / final-stage book / GAYAMANUAL / VCTL. Every item below fired in THIS session; each cost a pre-tayang self-correction or a published koreksi-diri.
 
 ## Lesson 14 — lock the ARTIFACT ADDRESS before refuting a finding
-Case: I refuted worker finding "Gambar 7.3 yatim (penanda tiada)" by probing `naskah-lengkap.md` — but there are TWO files with that exact name in one tenant (d2-manual-prompting vs rafif-guide-unity), and the worker's claim concerned the other one. My refutation was wrong; published as a separate koreksi comment (user discipline: corrections never edit old comments).
+Case: I refuted worker finding "Gambar 7.3 yatim (penanda tiada)" by probing `naskah-lengkap.md` — but there are TWO files with that exact name in one tenant (d2-manual-prompting vs guide-unity), and the worker's claim concerned the other one. My refutation was wrong; published as a separate koreksi comment (user discipline: corrections never edit old comments).
 Rule: before contradicting any finding, quote the full path you measured and confirm it is the path the finding is about. "Artefak menang atas ringkasan — termasuk ringkasan vonis pengawas sendiri."
 
 ## Lesson 15 — redeliver vs new-state notifications

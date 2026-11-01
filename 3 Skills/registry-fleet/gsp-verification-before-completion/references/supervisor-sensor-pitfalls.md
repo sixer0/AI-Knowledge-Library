@@ -37,7 +37,7 @@ convicting (or vindicating) an artifact.
    real post-embed bytes (kartu t_fcdd32ac, diukur ulang manager t_618c93d4): sensor level-RUN
    hilang=1 JEBOL on attr-margin + attr-minmargin vs level-PARAGRAF hilang=0 OK; kontrol
    `hAnchor="text"` OK on both layers; chip terbelah = "[R -
-   ADINT-LIBRARY-INDEX-MASTER-V1.MD BAGIAN 8]" (47 char, dua `w:r`). Fix: bandingkan teks chip
+   INDUK-LIBRARY-INDEX-MASTER-V1.MD BAGIAN 8]" (47 char, dua `w:r`). Fix: bandingkan teks chip
    di LEVEL PARAGRAF - gabung SEMUA `w:t` dalam paragraf ber-`framePr` - sebelum memvonis chip
    hilang; pakai lapis run hanya untuk assert gaya per-run. Jangan ubah semantik gerbang,
    hanya lapis bacanya. Tercatat 2026-10-09 (kartu t_be1b447e, tenant CTXWIN-1009).
@@ -67,7 +67,7 @@ convicting (or vindicating) an artifact.
     R-1 giliran ini: klausul nol-retry hanya ada di draf yang tersupersede).
 
 13. **Intro-figur / caption census pada docx** - dua jebakan terukur satu run (BUILDR
-    t_8f332328, RAFIF-REVB-1010): (a) regex paragraf `<w:p\b.*?(?:</w:p>|/>)` memotong teks
+    t_8f332328, misi buku Rev B 1010): (a) regex paragraf `<w:p\b.*?(?:</w:p>|/>)` memotong teks
     di TAG MANDIRI-TER-TUTUP pertama di dalam paragraf (bookmarkStart dll) -> hampir semua
     paragraf terpotong buta; pakai `<w:p\b[^>/]*(?:>.*?</w:p>|/>)`. (b) baris INTRO dan baris
     CAPTION sama-sama berawalan label (`Gambar 0.1 ...`), sehingga `t.startswith(label+" ")`

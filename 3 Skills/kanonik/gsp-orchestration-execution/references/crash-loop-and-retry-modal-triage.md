@@ -1,4 +1,4 @@
-# Crash-Loop Triage, Retry-Modal Measurement & Content-Preserving Edits (RAFIF-GUIDE-0925 GEN-1/GEN-2, 25-26-09)
+# Crash-Loop Triage, Retry-Modal Measurement & Content-Preserving Edits (misi panduan 0925 GEN-1/GEN-2, 25-26-09)
 
 Four patterns validated across a 46-card two-generation mission.
 
@@ -17,7 +17,7 @@ notification:
    - L10 lane: died mid-consolidation leaving a real file with tail
      `STATUS: partial-handoff` + `SISA_KERJA` section — that is the LIMIT-AWARE
      contract being satisfied, NOT a failure; retry only needs to finish the verdict.
-   - SYN: draft `PANDUAN-RAFIF.md` was growing between measurements (135.557 B ->
+   - SYN: draft `PANDUAN-<nama>.md` was growing between measurements (135.557 B ->
      135.812 B) = retry resuming, healthy.
    - VS run-1: died after building the instrument (`check_guide.py` 23 KB + probes)
      but before the verdict; retry finished fast. Timeout LOCATION matters.

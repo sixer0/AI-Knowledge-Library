@@ -2,19 +2,19 @@
 
 Kelas misi: korpus knowledge dipromosikan (vault -> wiki/IL -> rute memori lintas profil),
 lalu user menuntut verifikasi bahwa knowledge benar-benar hidup di profil yang dipakai
-manusia lewat akun RBAC, dengan sampel acak yang sah. Preseden: VSSKB-0923 (23-09-2026).
+manusia lewat akun RBAC, dengan sampel acak yang sah. Preseden: misi terkait (23-09-2026).
 
 ## Resep langkah (dipakai berulang, vonis hanya dari ukur disk)
 
 1. **Inventaris akun RBAC** dari API rbac HQ (port 9011, TLS self-signed -> `curl -sk`).
-   Token internal dibaca dari `gsp-datacenter/.env` kunci `WEBUI_RBAC_TOKEN`
+   Token internal `WEBUI_RBAC_TOKEN` hanya dipakai atas izin pemilik, jangan dibaca sendiri dari `.env`
    (nilai [REDACTED] - jangan pernah salin ke kartu/komentar/laporan).
 2. **Peta akun -> profil Hermes.** Pola umum: nama profil mencerminkan akun; akun
    superadmin terikat profil root `default` (memori di
    `AppData/Local/hermes/memories/MEMORY.md`, BUKAN `.hermes/memories`).
-   Snapshot 23-09: superadmin->default, budi->gsp-master, master01->gsp-master01,
-   ory_creative->gsp-creative, firmanhidayat->gsp-firman-custom,
-   gspuser01->gspuser01, gspuser02->gspuser02, agentriset->agentriset.
+   Snapshot 23-09: superadmin->default, <akun-1>->gsp-master, master01->gsp-master01,
+   <akun-2>->gsp-creative, <akun-3>->gsp-<akun-3>-custom,
+   <akun-4>-><akun-4>, <akun-5>-><akun-5>, <akun-6>-><akun-6>.
 3. **Ukur rute per berkas memori** dengan grep, bukan klaim rollout: token rute
    (mis. `INDEX #vss-korpus`) DAN penanda known-defect harus muncul di tiap profil
    target. Rollout superset (semua profil) >= populasi RBAC; cek 8/8 cukup dengan

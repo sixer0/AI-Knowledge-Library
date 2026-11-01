@@ -1,8 +1,8 @@
 # Full-Corpus Reading Mission (baca penuh folder proyek + resume pengetahuan)
 
 Kelas misi: "Baca semua file folder X satu per satu, baris per baris, tanpa yang
-terlewat - lalu buatkan resume pengetahuan" (preseden: DEMS-BACA-1003 03-10,
-DEMS-PEMAHAMAN-0925 299 berkas, EKASSAPU-0923 254 berkas). Beda dari lajur riset
+terlewat - lalu buatkan resume pengetahuan" (preseden: misi baca korpus 1003 03-10,
+misi pemahaman korpus 0925 299 berkas, EKASSAPU-0923 254 berkas). Beda dari lajur riset
 saturasi ([`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md)): populasinya berkas di disk, bukan
 klaim eksternal; vonis selesai = MANIFEST selisih-nol, bukan jenuh ber-angka.
 
@@ -28,7 +28,7 @@ klaim eksternal; vonis selesai = MANIFEST selisih-nol, bukan jenuh ber-angka.
    `STATUS: partial-handoff` + SISA_KERJA path persis -> kartu resume, bukan restart.
 5. **Data besar (>=~200 KB json/csv)**: boleh parser semantik (schema, jumlah
    record, field kunci, agregat, contoh baris), bukan literal-read - catat putusan
-   ini di kontrak ("parser = baca penuh secara semantik", D-02 DEMS-BACA).
+   ini di kontrak ("parser = baca penuh secara semantik", D-02 misi baca korpus).
 6. **Watcher digest**: loop polling berkas output via
    `terminal(background=true, notify_on_complete=true)`. DILARANG nohup/disown di
    foreground (ditolak runtime). Jangan poll papan buta tiap giliran.
@@ -36,7 +36,7 @@ klaim eksternal; vonis selesai = MANIFEST selisih-nol, bukan jenuh ber-angka.
    (sha256[:16] berkas rilis vs sha yang dikutip vonis/memo; `VONIS-AKHIR`,
    `MEMO-SERAH` di folder docs misi sebelumnya). Folder proyek beku sering BERHENTI
    di iterasi N sementara keadaan hidup ada di `workspace/gsp-hermes/workspace/docs/<tanggal>-<slug>/`
-   - sensus artefak luar-folder harus jadi lingkup salah satu kartu (W7 pola DEMS).
+   - sensus artefak luar-folder harus jadi lingkup salah satu kartu (W7 pola misi baca korpus).
 
 ## Pitfall: ledger ALUR vs nama berkas di disk (sanitasi)
 

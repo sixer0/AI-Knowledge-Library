@@ -1,4 +1,4 @@
-# DOCX OPC integrity + invocation validity (GAYA-AHLI/RAFIFUNITY 06-10-2026)
+# DOCX OPC integrity + invocation validity (GAYA-AHLI/misi buku 06-10-2026)
 
 Two verification classes that passed every existing gate and still shipped a
 broken artifact / vacuous claim. Both generalize beyond the missions found in.
@@ -22,7 +22,7 @@ numbers.
 
 ## 2. OPC integrity — tolerant parsers cannot certify a DOCX opens
 
-Case PDF-55 (RAFIFUNITY-1004): `The_Rafif_Guide_-_Edition_3.docx` passed gate54
+Case PDF-55 (book mission): `<book-manuscript>.docx` passed gate54
 10/10 (two-build idempotency, tail check, 88 media, 333 links, 144 tables) yet
 Word refused it: "The file appears to be corrupted" (wdmain11.chm 25272),
 including via OpenAndRepair=True. Roots, both invisible to python-docx /

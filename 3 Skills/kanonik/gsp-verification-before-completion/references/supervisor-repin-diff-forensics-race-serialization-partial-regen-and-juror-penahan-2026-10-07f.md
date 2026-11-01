@@ -1,6 +1,6 @@
 # Forensik delta, salinan-re-pin, serialisasi balapan, regenerasi-sebagian, dan penahan juri (papan PV/GM/VCTL, 07-10 ~19:30 s/d 07-11 ~02:10)
 
-Lanjutan seri 2026-10-07e. Semua kelas terverifikasi lintas-tangan pengawas pada papan GAYAMANUAL-1007 dan VCTL-1007.
+Lanjutan seri 2026-10-07e. Semua kelas terverifikasi lintas-tangan pengawas pada papan GAYAMANUAL-1007 dan misi paralel 1007.
 
 ## 1. Uji-rekonstruksi-delta (byte-forensik, level tertinggi bukti delta)
 Klaim "perbaikan hanya menambah satu sel" dibuktikan verifier V1R dengan arah BALIK: dari byte pasca-fix beku, BUANG delta yang diklaim (`'; Treemap chart'`), hitung sha256 hasil rekonstruksi, dan cocokkan ke pin pra-fix lama (88ffc2f4/90.506 B == persis). Delta terbukti tepat-satu-sel secara kriptografis, bukan narasi "hanya menambah".

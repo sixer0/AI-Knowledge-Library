@@ -1,4 +1,4 @@
-# Pengukuran kanonik & rantai take-over — preseden RAFIF-VISUAL/POLISH/HDKCOMP 29-30/09
+# Pengukuran kanonik & rantai take-over — preseden misi visual/polish/HDKCOMP 29-30/09
 
 Kelas: controller mengukur artefak worker dengan parser sendiri; vonis mana yang
 mengikat saat angka bertabrakan; dan mekanika rantai timeout/retry/remediasi yang

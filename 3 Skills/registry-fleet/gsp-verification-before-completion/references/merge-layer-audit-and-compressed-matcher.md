@@ -1,4 +1,4 @@
-# Merge-Layer Audit + Compressed-Page Matcher Test (2026-10-03, DEMS-VSAT F1)
+# Merge-Layer Audit + Compressed-Page Matcher Test (2026-10-03, proyek VSAT F1)
 
 Lanjutan [`cross-lane-register-audit.md`](cross-lane-register-audit.md) (§1-5 di sana: delimiter, matcher,
 vonis=cetakan register, audit R2, hitung papan). File ini menambah dua teknik

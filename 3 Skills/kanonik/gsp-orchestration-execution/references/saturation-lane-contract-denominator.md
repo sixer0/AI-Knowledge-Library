@@ -1,9 +1,9 @@
-# Saturation lane-contract denominator (pola RAFAI-1004, 04-10-2026)
+# Saturation lane-contract denominator (pola misi manual AI, 04-10-2026)
 
 Vonis jenuh lajur riset domain terbuka (lanskap AI, pasar alat, ekosistem model) TIDAK
 pernah tercapai dengan rumus mentah "dua siklus berturut < 10 persen" karena
 DENOMINATOR tidak terdefinisi: fakta baru apa pun dihitung dan domain terbuka tidak
-pernah berhenti memunculkan fakta. RAFAI-1004 membuktikan ini secara empiris
+pernah berhenti memunculkan fakta. Misi manual AI membuktikan ini secara empiris
 (lajur R3 memanen 54,5% lalu 44,1% per siklus sebelum pola ini dipasang; setelahnya
 JENUH dalam dua siklus).
 

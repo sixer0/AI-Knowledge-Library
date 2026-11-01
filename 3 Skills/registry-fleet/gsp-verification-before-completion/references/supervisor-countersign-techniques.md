@@ -1,6 +1,6 @@
 # Supervisor countersign & artifact-verification techniques (fleet pengawas lane)
 
-Condensed from the 05-10/06-10 multi-board supervisor session (RAFIFUNITY / PROMANUAL / GAYA-AHLI / DATMANUAL countersigns). All recipes below were actually executed and confirmed on disk this session. Register: these complement VERIF-GATE-0904 (doc_gate_check.py) which covers xlsx/docx artifacts only.
+Condensed from the 05-10/06-10 multi-board supervisor session (the Unity book / PROMANUAL / GAYA-AHLI / DATMANUAL countersigns). All recipes below were actually executed and confirmed on disk this session. Register: these complement VERIF-GATE-0904 (doc_gate_check.py) which covers xlsx/docx artifacts only.
 
 ## 1. Verifying a git-history rewrite (RM-3 / FIX-PEDAGOGI pattern)
 When a worker rewrites commit history, vonis must prove preservation, not trust the report:
@@ -58,5 +58,5 @@ Worker claims "sha16 X" without naming the algorithm. Probe md5/sha1/sha256/sha5
 ## 10. Open fleet-scanner defect register (as of 06-10, awaiting controller decisions)
 Evidence accumulated across boards - useful when adjudicating scanner FAILs in book-style artifacts:
 - C-14 duplicate-idea detector: false positives on (a) instruction stems shared by DIFFERENT commands (git config user.name vs user.email), (b) citation boilerplate ("Retrieved <date> from", APA title repeated in attribution + reference list). Class = content-subject, needs per-class allow-list decision, never blind text edits.
-- C-8b limitation-acknowledgment detector is Indonesian-worded; English limitation sentences go undetected (CH02/CH06/CH10 RAFIFUNITY + SUNTA-report cases). Workers currently patch by inserting the word "limitation" (PD-06 clause) - a legitimate workaround, but the detector fix belongs to gsp-output-naturalization (user-owned skill: recommend `hermes curator adopt` to the user, do not patch directly).
+- C-8b limitation-acknowledgment detector is Indonesian-worded; English limitation sentences go undetected (CH02/CH06/CH10 the Unity book + SUNTA-report cases). Workers currently patch by inserting the word "limitation" (PD-06 clause) - a legitimate workaround, but the detector fix belongs to gsp-output-naturalization (user-owned skill: recommend `hermes curator adopt` to the user, do not patch directly).
 - Scanner channel flag: always pass `--channel` (plain invocation = false-FAIL C-7 class).

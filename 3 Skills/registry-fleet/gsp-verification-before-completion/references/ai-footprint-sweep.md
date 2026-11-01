@@ -7,12 +7,12 @@
   master design `N — MM` dirender `N / MM`; deviasi tipografi dicatat eksplisit di paket,
   bukan cacat). Preseden pola footer keluarga sendiri: `HLM n / mm` (SPEC R-5).
 - Middle dot U+00B7: dilarang KECUALI string blok terkendali yang mengutip master design
-  verbatim (mis. footer `TERBATAS · Terkendali`, pola header, glyph Mono dossier); retensi
+  verbatim (mis. footer `<kelas> · Terkendali`, pola header, glyph Mono dossier); retensi
   ditandai `> Penanda D16:` / `# D16:` dan diverifikasi grep ke arsip sumber `extracted/`.
 - Bullet: tidak dilarang; marker/gaya mengikuti preset master design terpilih, bukan • generik.
 - Aturan creation hidup di DUA rumah paket saja: README
   `gsp-design-system-grill/references/master-design/` (kanal visual) + README
-  `gsp-document-quality-standards/references/gsp-sdt/` (kanal dokumen); skill generator
+  skill standar mutu dokumen, `references/gsp-sdt/` (kanal dokumen); skill generator
   lain hanya pointer 1 baris (jangan duplikasi rumus).
 
 ## Matriks scan per format (verification-side)
@@ -47,7 +47,7 @@ literal tapi memancarkan U+2014 via escape `\u2014` saat dijalankan. Wajib:
 
 > Catatan resolusi D-TA-04 (misi naturalisasi-output 02-09, kartu t_3a5f473b): aturan lama
 > yang menyamakan en dash dengan em dash (ikut nol lolos tanpa pengecualian) DICABUT karena
-> menyangkal Module H.7.1 (`gsp-document-quality-standards/SKILL.md:920` yang mewajibkan
+> menyangkal Module H.7.1 (`SKILL.md:920` pada skill standar mutu dokumen, yang mewajibkan
 > U+2013 untuk rentang tahun).
 > Aturan berlaku: U+2013 SAH hanya dalam pola rentang angka/tahun yang diapit dua digit,
 > regex scanner `(?<=\d)\u2013(?=\d)` (lihat `gsp-output-naturalization/scripts/scan_ai_footprint.py`,

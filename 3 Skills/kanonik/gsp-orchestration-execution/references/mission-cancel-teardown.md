@@ -30,11 +30,11 @@ Kelas: user memerintahkan pembatalan seluruh task milik satu misi (contoh nyata 
 
 ## Resep tool
 ### Query langsung AgentRequest HQ (fallback saat HTTP 401)
-`curl -sk -H "x-internal-secret: $SECRET" https://localhost:9011/api/brahma/requests` bisa tetap 401 walau secret dibaca dari `.env` (kemungkinan CR terbawa). Jalur yang terbukti jalan: Postgres langsung memakai modul `pg` milik bridge:
+`curl -sk -H "x-internal-<nama-header>: <nilai>" https://localhost:9011/api/brahma/requests` bisa tetap 401 walau nilainya benar (kemungkinan CR terbawa). Jalur yang terbukti jalan, hanya dengan izin eksplisit atas kredensial itu (tanpa izin, berhenti dan lapor): Postgres langsung memakai modul `pg` milik bridge:
 ```js
 // jalankan: node "C:/Users/TRIAL/Temp/query.cjs" (node tidak kenal path MSYS /c/...)
-const { Client } = require('C:\\Users\\TRIAL\\gsp-datacenter\\hermes-bridge\\node_modules\\pg');
-// DATABASE_URL dari C:/Users/TRIAL/gsp-datacenter/.env, regex /DATABASE_URL=(.+)/ lalu trim
+const { Client } = require('C:\\Users\\TRIAL\\<folder-layanan>\\hermes-bridge\\node_modules\\pg');
+// DATABASE_URL diberikan pemilik dengan izin eksplisit, bukan diambil dari berkas lokal; lalu trim
 // contoh: SELECT id,title,profile,status FROM "AgentRequest" WHERE title ILIKE '%slug%' ORDER BY "createdAt" DESC
 ```
 - Kolom `kanbanTaskId` TIDAK ada di `AgentRequest`; jangan sertakan di SELECT.

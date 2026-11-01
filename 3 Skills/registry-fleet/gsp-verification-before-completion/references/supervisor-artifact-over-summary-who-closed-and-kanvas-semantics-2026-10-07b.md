@@ -1,6 +1,6 @@
 # Supervisor wave 2026-10-07b: artifact-over-summary, who-closed audit, render-kanvas semantics, done-label census
 
-Board coverage: PROMANUAL-V2 (RBUILD2/G8SYNC/SERAH-B closeout), INDUK-1006 (L6/L7/L12/L13/FIX-SA3 chain), PV-1007 (riset+register+render batch-1), RAFIFFINAL-1007 (D2W parts census). All numbers below are tool prints from that shift.
+Board coverage: PROMANUAL-V2 (RBUILD2/G8SYNC/SERAH-B closeout), INDUK-1006 (L6/L7/L12/L13/FIX-SA3 chain), PV-1007 (riset+register+render batch-1), final-stage book 1007 (D2W parts census). All numbers below are tool prints from that shift.
 
 ## 1. Artefak menang atas RINGKASAN termasuk ringkasan vonis pengawas sendiri (pelajaran-ke-14)
 
@@ -12,7 +12,7 @@ Recipe: when a card's result and its machine artifact can disagree, read the art
 R3 PV: notification `gave up (retries exhausted)` then `completed` with result text "penutupan controller ber-bukti" - but the Runs table showed `#5385 completed @agentriset 0s`: the closing text was authored by gsp-master through the worker-result channel. Substantive audit still passed (14/14 recipes rendered, 28 files, sha spot-checks), but attribution in my first verdict was wrong and needed a separate correction comment (never edit the posted comment).
 Recipe: before accepting "closed by controller" framing, read the Runs table (run id, assignee, duration). A 0s completion run = text injected by another hand. Kernel labels (`gave up`, `done`) on cards with complete artifacts = run the completeness audit (user standing rule), never blind re-dispatch.
 
-## 3. done-label census sebelum promosi kartu rakit (RAFIFFINAL)
+## 3. done-label census sebelum promosi kartu rakit (buku tahap akhir)
 
 D2W4/W5/W8 status `done` while their results were `partial-handoff`; `parts/` census found five 177 B `(menyusul)` placeholder files, bab-11..14 zero parts, bab-22+lampiran missing. Downstream rakit card (D2W11) correctly reported 9 holes via register instead of patching (its contract forbids content fixes) - valid report, NOT promotable manuscript.
 Recipe: before a rakit/promotion card is trusted, census the parts directory by size+mtime (`all(size > 5 KB)`), and cross-check "done" cards whose result_len is small or whose result starts `STATUS: partial-handoff`. Status done = kernel label; only byte census is a verdict.

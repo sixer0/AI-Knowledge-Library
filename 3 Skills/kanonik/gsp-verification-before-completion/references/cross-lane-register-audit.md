@@ -1,4 +1,4 @@
-# Cross-Lane Register Audit — pitfall sweep lajur pengumpulan data (2026-10-03, DEMS-VSAT/VENDOR-DEMS)
+# Cross-Lane Register Audit — pitfall sweep lajur pengumpulan data (2026-10-03, proyek VSAT dan vendor)
 
 Konteks: audit pengawas silang atas 8+ lajur `register.tsv` produksi worker
 (AUD-DSP, kamera, switch, kabel, UPS) + merge + verifier. Semua temuan di bawah

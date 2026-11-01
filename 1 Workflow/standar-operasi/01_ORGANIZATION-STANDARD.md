@@ -5,7 +5,7 @@ status: active
 created: 2026-08-25
 updated: 2026-10-31
 writer: brahma
-editor: Budi Kusharyanto
+editor: pemelihara-pustaka
 version: 1.1.0
 domain: library
 project: information-library
@@ -95,8 +95,8 @@ RAW    <ws> = C:/Users/TRIAL/workspace/gsp-hermes/workspace → data kerja
 | File artefak tugas | `YYYY-MM-DD_<slug>.md` | `2026-08-24_status-kurasi.md` |
 | File pengetahuan stabil | `<kebab-slug>.md` | `katalog-skill-gsp.md` |
 | File memory harian | `YYYY-MM-DD_log_<slug>.md` | `2026-08-24_log_librarian_kurasi_vault.md` |
-| Objek vault | `vault/<perkara>/<YYYY-MM-DD>_<slug>.md` | `vault/adint-vendor-research/2026-08-24_index.md` |
-| Entri wiki | `<type>s/<slug>.md` | `proyeks/adint-vendor-research-index.md` |
+| Objek vault | `vault/<perkara>/<YYYY-MM-DD>_<slug>.md` | `vault/contoh-vendor-research/2026-08-24_index.md` |
+| Entri wiki | `<type>s/<slug>.md` | `proyeks/contoh-vendor-research-index.md` |
 
 Aturan umum: huruf kecil; tanpa spasi; tanpa karakter khusus selain `-` `_` `.`; tanggal ISO `YYYY-MM-DD` (pengecualian: arsip memori `memory/refs/<profil>/<YYYY_MM_DD>_<slug>.md` menurut skill `gsp-memory-tiering` dan `gsp-memory-lookup` memakai garis bawah; arsip lama tidak diganti nama);
 slug deskriptif (2-5 kata). **DILARANG** akhiran versi di nama (`_v2`, `_final`, `_FINAL2`) — versi ada di
@@ -109,7 +109,7 @@ Domain adalah taksonomi **terkontrol** (bukan bebas). Nilai awal:
 | Domain | Sub-domain | Contoh isi |
 |--------|-----------|------------|
 | `engineering` | vss, fiber, power, grounding, security-cctv, infrastructure | perhitungan, desain, spesifikasi |
-| `defense-intel` | kemhan, polri, dosir, tni-al | riset vendor, ekspo, intelijen publik |
+| `defense-intel` | perkara instansi pertahanan | riset vendor, ekspo, intelijen publik |
 | `corporate` | vendor, procurement, finance, hr | profil vendor, kontrak |
 | `digital` | ai-systems, software, data, social-media | riset AI, otomasi, analisis sosmed |
 | `operations` | delivery, fleet, quality | status proyek, smoke-test |
@@ -153,4 +153,4 @@ spesifik di nama folder (`01_DOMAIN/engineering/vss/`).
 | Versi | Tanggal | Perubahan | Editor |
 |-------|---------|-----------|--------|
 | 1.0.0 | 2026-08-25 | Standar awal | brahma |
-| 1.1.0 | 2026-10-31 | Contoh folder tugas memakai tanggal ISO; pengecualian tanggal untuk arsip memori `refs/` | Budi Kusharyanto |
+| 1.1.0 | 2026-10-31 | Contoh folder tugas memakai tanggal ISO; pengecualian tanggal untuk arsip memori `refs/` | pemelihara-pustaka |

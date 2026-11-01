@@ -1,4 +1,4 @@
-# Supervisor lessons wave 07-10 malam (papan GAYAMANUAL-1007 + VCTL-1007)
+# Supervisor lessons wave 07-10 malam (papan GAYAMANUAL-1007 + misi paralel 1007)
 
 Sumber: countersign pengawas GM-L1..L7/L6b, VCTL RT/TA/R1/R1b/R2/R3/R4/C1, JWB1-8/GCERPOP-C/D/REGATED/G8SYNC/SERAH-B (PROMANUAL-V2 closeout), FIX-SA3B/3C/3D + L11/L12B/L12C-D/L13 (INDUK).
 

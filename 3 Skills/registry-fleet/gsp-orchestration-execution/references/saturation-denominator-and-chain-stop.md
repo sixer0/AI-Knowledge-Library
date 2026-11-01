@@ -1,6 +1,6 @@
-# Saturation denominator, chain-stop, CONF/DELTA mechanics (preseden RAFAI-1004, 04-10-2026)
+# Saturation denominator, chain-stop, CONF/DELTA mechanics (preseden misi manual AI, 04-10-2026)
 
-Sumber: Decision Log D-11..D-14 di `docs/2026-10-04-rafif-ai-manual/CONTRACT.md`.
+Sumber: Decision Log D-11..D-14 di `docs/2026-10-04-<misi>-ai-manual/CONTRACT.md`.
 Memperluas `references/saturation-gate-sweep-lanes.md` (vonis per lajur) dan
 `references/worker-offensive-logic.md` (ladder 8 kelas jalur).
 

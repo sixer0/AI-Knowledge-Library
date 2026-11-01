@@ -1,7 +1,7 @@
 # Wave verification, cap rotation, dan gerbang deterministik controller
 
 Dipakai penuh di HDKCOMP-0929 (12 gelombang verifikasi V01-V12 atas 48 perusahaan) dan pola
-timeout-triase berulang di RAFIF-MOBILE-0928 (C1, V03, V07). Semua terverifikasi berjalan.
+timeout-triase berulang di misi mobile 28-09 (C1, V03, V07). Semua terverifikasi berjalan.
 
 ## 1. Instantiate gelombang dari peta (bukan dari perkiraan)
 - Tahap merge/analyst menulis `WAVE-MAP.md` + `batch-NN.csv` (populasi dipartisi tetap, mis 4 perusahaan/gelombang, `n = ceil(U/4)`).
@@ -26,10 +26,10 @@ Urutan tetap: UKUR DISK dulu, jangan re-dispatch buta, jangan pecah kartu pada t
 ## 5. Pitfall alat ukur controller (terjadi & tertangkap sendiri)
 - awk `-F','` atas CSV berkoma-dalam-kutipan => false positive 'URL-MATI'. Wajib `csv.DictReader`.
 - Kunci kolom status heuristik bisa meleset (`verification_status` tak ada; nyata di `last_verified`) — cetak daftar kolom dulu, lalu hitung.
-- Angka laporan pihak lain = klaim sampai diukur ulang (Rule Presisi-Hasil butir 9). Uji tandingan Section A pasca-SYN menemukan 47 vs 48 = entri barred terdisklosi (bukan cacat) — rekonsiliasi semacam ini wajib dijelaskan ke user, bukan dianggap salah-hitung atau dilewat.
+- Angka laporan pihak lain = klaim sampai diukur ulang (aturan terkait butir 9). Uji tandingan Section A pasca-SYN menemukan 47 vs 48 = entri barred terdisklosi (bukan cacat) — rekonsiliasi semacam ini wajib dijelaskan ke user, bukan dianggap salah-hitung atau dilewat.
 
 ## 6. Mirror repo pasca-misi (kebijakan standing user)
-- Salin folder misi ke `hermes-home/workspace/docs/<misi>` dengan eksklusi cache mentah: direktori `raw/`, `_*probe*`, `__pycache__`, file >2MB (apk). Preseden RAFIF-GUIDE GEN-2.
+- Salin folder misi ke `hermes-home/workspace/docs/<misi>` dengan eksklusi cache mentah: direktori `raw/`, `_*probe*`, `__pycache__`, file >2MB (apk). Preseden misi panduan GEN-2.
 - `git add -f` log kunci yang dibutuhkan bukti (mis. UTILISASI pass, log dua-run identik-byte) karena gitignore repo menolak `*.log`; sisakan yang lain.
 - Sisip CHANGELOG via skrip byte-level CRLF-safe (baris setelah header `|------|`), bukan patch teks (raw repo CRLF). Scan staged diff terhadap pola secret (api[_-]?key|ghp_|sk-|AKIA) — harus 0. Push lalu verifikasi `git ls-remote origin HEAD` == `rev-parse HEAD`.
 - Jangan pernah mengandalkan pipeline `| tail` untuk exit code git (exit melapor status tail).

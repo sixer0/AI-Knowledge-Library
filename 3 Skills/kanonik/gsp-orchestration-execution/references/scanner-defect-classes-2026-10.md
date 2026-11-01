@@ -1,6 +1,6 @@
 # Kelas Cacat Scanner Naturalisasi (terverifikasi lintas papan, 05-06-10-2026)
 
-Catatan penempatan: isi ini seharusnya masuk referensi skill `gsp-output-naturalization`, tetapi skill itu user-owned ('not curator-managed'; update hanya via sesi foreground + `hermes curator adopt` = wewenang pengguna - preseden 02-09). Disimpan di sini sampai pemilik mengadopsi. Sumber: countersign pengawas RAFIFUNITY-1004 / PROMANUAL-1004 / GAYA-AHLI-1005; tiap butir punya repro nyata.
+Catatan penempatan: isi ini seharusnya masuk referensi skill `gsp-output-naturalization`, tetapi skill itu user-owned ('not curator-managed'; update hanya via sesi foreground + `hermes curator adopt` = wewenang pengguna - preseden 02-09). Disimpan di sini sampai pemilik mengadopsi. Sumber: countersign pengawas misi buku 04-10 / misi manual 04-10 / GAYA-AHLI-1005; tiap butir punya repro nyata.
 
 ## 1. LIMITATION_WORDS hanya Indonesia (C-8b)
 Klausa batasan berbahasa Inggris tetap divonis 'tanpa pengakuan batasan'.

@@ -1,6 +1,6 @@
 # Supervisor: state-probe papan, notifikasi ganda, koreksi instrumen (05-10 sore)
 
-Pelajaran terkonsolidasi dari satu malam audit paralel empat tenan (RAFIFUNITY,
+Pelajaran terkonsolidasi dari satu malam audit paralel empat tenan (buku Unity,
 PROMANUAL, DATMANUAL, GAYA-AHLI). Semua contoh kejadian nyata.
 
 ## 1. Notifikasi adalah klaim, papan adalah fakta, disk adalah vonis

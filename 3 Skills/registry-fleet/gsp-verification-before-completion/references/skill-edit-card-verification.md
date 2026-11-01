@@ -1,6 +1,6 @@
 # Verifikasi Kartu Sunting-Skill Kanonik (pola WF-CRAWL-0911, 11-09)
 
-Sumber pola: misi enforcement firecrawl+searxng paralel, kontrak `docs/2026-09-11-firecrawl-searxng-parallel-enforcement/contract.md`, kartu S1-S6 dikerjakan gsp-data-collector/gsp-skill-creator via bridge, controller = profil default. Referensi ini adalah checklist controller/verifier ketika objek verifikasi sebuah kartu adalah SUNTINGAN SKILL.md (bukan dokumen data; untuk .xlsx/.docx pakai [`document-artifact-verification.md`](document-artifact-verification.md)).
+Sumber pola: misi enforcement firecrawl+searxng paralel, kontrak `docs/2026-09-11-firecrawl-searxng-parallel-enforcement/contract.md`, kartu S1-S6 dikerjakan dua profil pekerja via bridge, controller = profil default. Referensi ini adalah checklist controller/verifier ketika objek verifikasi sebuah kartu adalah SUNTINGAN SKILL.md (bukan dokumen data; untuk .xlsx/.docx pakai [`document-artifact-verification.md`](document-artifact-verification.md)).
 
 ## Gerbang tujuh langkah (berurutan)
 

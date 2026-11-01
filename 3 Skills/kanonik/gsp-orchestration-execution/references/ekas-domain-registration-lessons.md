@@ -1,4 +1,4 @@
-# Registrasi domain EKAS — aktivasi rantai, GT RBAC domain-lokal, dan pemulihan (pelajaran CVLK-0929, 29-30/09)
+# Registrasi domain EKAS — aktivasi rantai, GT RBAC domain-lokal, dan pemulihan (pelajaran misi terkait, 29-30/09)
 
 Kelas misi: domain rak EKAS -> objek vault -> custodian -> promote wiki/IL -> rute memori fleet -> VERIF akun RBAC undian -> laporan home channel. Lapisan ini berlaku UNTUK SEMUA domain baru selain yang sudah tercatat di [`knowledge-register-multi-domain.md`](knowledge-register-multi-domain.md) / [`knowledge-activation-rbac-verification.md`](knowledge-activation-rbac-verification.md).
 
@@ -11,8 +11,8 @@ Preseden C2-R2 (CAPPED): predikat konsekuensi q1 diwarisi dari leksikon domain s
 Resep: sebelum vonis per-butir, verifier/controller meng-grep SETIAP token predikat GT ke sumber yang akan dibaca akun (folder domain + baris rute); token 0-hit = predikat tak teruji -> selaraskan GT ke teks domain (fixture hijau dirakit dari teks itu; fixture merah wajib bertahan: angka telanjang, atribusi fabrikasi, klaim 'utuh' tanpa negasi) ATAU terbitkan teksnya di rak dulu (putusan controller, tercatat di Decision Log). Dilarang melonggarkan gerbang tanpa bukti per-kalimat.
 
 ## 3. Pool undian RBAC = kueri sensus WebUiUser hidup, bukan daftar statis
-Dua insiden satu batch: label `gsp-budi` (C1) dan `novriandy` (C3) adalah profil pensiun tanpa home + tanpa baris WebUiUser. C1 butuh rekonsiliasi deterministik verifier (MAP); C3 draw-1 di-VOID sebelum probe mana pun + re-draw beku kedua di berkas yang sama dengan alasan void.
-Aturan: pool undian dibangun dari hasil query tabel WebUiUser pada giliran itu (bukan daftar nama dari memori/skill lama), lalu setiap label dicek `ls $LOCALAPPDATA/hermes/profiles | grep -x <nama>`. Rekon DB (gsp-datacenter, Prisma): kolom profil adalah `hermesProfile` (BUKAN `profile`):
+Dua insiden satu batch: label `<akun-1>` (C1) dan `<akun-2>` (C3) adalah profil pensiun tanpa home + tanpa baris WebUiUser. C1 butuh rekonsiliasi deterministik verifier (MAP); C3 draw-1 di-VOID sebelum probe mana pun + re-draw beku kedua di berkas yang sama dengan alasan void.
+Aturan: pool undian dibangun dari hasil query tabel WebUiUser pada giliran itu (bukan daftar nama dari memori/skill lama), lalu setiap label dicek `ls $LOCALAPPDATA/hermes/profiles | grep -x <nama>`. Rekon DB (layanan web, Prisma): kolom profil adalah `hermesProfile` (BUKAN `profile`):
 `node -e "...webUiUser.findMany({select:{username:true,role:true,hermesProfile:true}})..."`
 Bekukan seed + draw + (bila ada) void-reason dalam SATU berkas JSON sebelum dispatch; tidak pernah mengundi ulang tanpa mencatat draw lama.
 

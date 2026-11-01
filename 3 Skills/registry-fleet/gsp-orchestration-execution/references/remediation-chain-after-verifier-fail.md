@@ -1,4 +1,4 @@
-# Rantai remediasi pasca-verifier FAIL (preseden RAFIF-GUIDE-0925, 25-09)
+# Rantai remediasi pasca-verifier FAIL (preseden misi panduan, 25-09)
 
 Trigger: kartu verifikasi (VS) memvonis FAIL atas artefak sintesis sementara DAG
 pre-built sudah memasang kartu hilir (mis. build DOCX, gerbang tampil). Yang

@@ -1,4 +1,4 @@
-# Misi BACA-PENUH Korpus + Resume Pengetahuan (preseden DEMS-BACA-1003, 03-10)
+# Misi BACA-PENUH Korpus + Resume Pengetahuan (preseden misi baca korpus 1003, 03-10)
 
 Kelas tugas: "baca SEMUA berkas folder X baris per baris tanpa yang terlewat, lalu
 susun resume pengetahuan sebagai dasar sesi". Target = korpus dokumen proyek (md/json/
@@ -31,7 +31,7 @@ bukan jenuh 8-kelas-jalur.
   normalisasi `_`↔spasi + casefold menurunkan hasil benar (278 SAMA, 0 BEDA, 4 sanitasi).
   Simpan alatnya: audit_sidik2.py pola (walk disk → dict key ternormalisasi → bandingkan).
 - **Replikasi aritmetika sampel**: pilih 2-3 angka turunan yang dilaporkan pekerja dan
-  hitung ulang dari JSON/sumber mentah (preseden: residu T6b Rp 8 direplikasi persis;
+  hitung ulang dari JSON/sumber mentah (preseden: residu T6b <nilai uang> direplikasi persis;
   grep C2PA SVG 11/11 direplikasi). Cocok = kepercayaan lajur naik; beda = flag.
 - **Matriks uji-silang angka kunci**: grep 15-20 angka/beban bukti lintas semua digest —
   angka yang sama harus muncul konsisten di lajur independen; konflik = kartu rekonsiliasi.

@@ -1,7 +1,7 @@
 # Pitfall gerbang akurasi cache-based (D-T1-17c/17d, 04-09)
 
 ## Bug kunci tanpa sheet (v7e, 05-09)
-Skrip aksi massal yang memetakan `(no) -> aksi` TANPA komponen sheet mengontaminasi silang: aksi "WAIC 643 -> quectel.com" ikut menimpa baris EUR nomor 643 (MAHLE). GERBANG: semua pemetaan aksi wajib kunci `(sheet, no)`; sebelum tulis CSV, audit diff vs berkas pra-aksi per sheet dan pulihkan sel yang nilainya == aksi sheet lain. Tally kekal TIDAK menangkap kelas bug ini (verdict tidak berubah) — roundtrip juga tidak (sheet dibangun dari CSV yang sudah tercemar). Hanya vonis gate per-baris yang menemukannya.
+Skrip aksi massal yang memetakan `(no) -> aksi` TANPA komponen sheet mengontaminasi silang: aksi "WAIC 643 -> quectel.com" ikut menimpa baris lembar lain nomor 643 (MAHLE). GERBANG: semua pemetaan aksi wajib kunci `(sheet, no)`; sebelum tulis CSV, audit diff vs berkas pra-aksi per sheet dan pulihkan sel yang nilainya == aksi sheet lain. Tally kekal TIDAK menangkap kelas bug ini (verdict tidak berubah) — roundtrip juga tidak (sheet dibangun dari CSV yang sudah tercemar). Hanya vonis gate per-baris yang menemukannya.
 
 Saat membangun gerbang verifikasi fetch-based yang resume-able (cache vonis per baris):
 

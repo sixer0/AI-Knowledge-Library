@@ -35,7 +35,7 @@ tercapai (lihat bagian "Aturan jendela uji"). Sumber normatif norma gelombang: s
    ke-6 dst. (bukan pada semua kartu).
 7. Transisi fase nol-tunggu: begitu kartu hulu `done`, kernel mempromosikan hilir otomatis;
    controller tidak lagi membuat kartu per fase (target bukti awal: transisi 0,5 menit pada
-   misi PRABOWO-SOSMED-0907 vs dasar idle chain 25,2 menit, BASELINE OPT-WF-0907).
+   misi sosmed 0907 vs dasar idle chain 25,2 menit, BASELINE OPT-WF-0907).
 
 ## Checklist pra-dispatch (WAJIB, satu giliran sebelum batch create)
 

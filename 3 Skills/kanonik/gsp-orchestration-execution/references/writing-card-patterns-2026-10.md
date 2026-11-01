@@ -1,10 +1,10 @@
 # Pola Kartu Tulis & Mekanika Papan (terverifikasi 05-06-10-2026)
 
-Sumber: countersign pengawas lintas RAFIFUNITY-1004 / GAYA-AHLI-1005 / PROMANUAL-1004.
+Sumber: countersign pengawas lintas misi buku 04-10 / GAYA-AHLI-1005 / misi manual 04-10.
 
 ## 1. Resep terikat-waktu untuk kartu tulis (terbukti lintas papan)
 Isi kartu tulis WAJIB sejak run-1: jadwal per-menit, 'baca hanya bahan teralamat (worklist/register), dilarang orientasi bebas ke korpus mentah/bab tetangga', AMBANG-B wajib ditulis di menit-35 meski belum rampung.
-Kasus penutup bersih: RAFIFUNITY CH12 (timeout 2x fase-baca -> run-3 lahir dengan resep + resume-checkpoint), CH13 (run-2), CH27; GAYA-AHLI S7 (run-1 mati fase-baca, run-2 menutup satu siklus), S8. Hipotesis 'kontensi provider' TERBUNGKAM oleh pasangan CH12/CH13 (dispatch menit sama, timeout fase-baca sama; yang beda: resep dipakai atau tidak).
+Kasus penutup bersih: misi buku CH12 (timeout 2x fase-baca -> run-3 lahir dengan resep + resume-checkpoint), CH13 (run-2), CH27; GAYA-AHLI S7 (run-1 mati fase-baca, run-2 menutup satu siklus), S8. Hipotesis 'kontensi provider' TERBUNGKAM oleh pasangan CH12/CH13 (dispatch menit sama, timeout fase-baca sama; yang beda: resep dipakai atau tidak).
 
 ## 2. Kartu tulis/angkut >= 4 item: bentuk rantai-2 sejak awal
 Mata-A = ukur+probe+arsip+baseline; Mata-B = tulis+gerbang+laporan. Estimasi E PER-MATA, bukan per-rantai.

@@ -1,4 +1,4 @@
-# Disiplin visus konektor figur (preseden RAFIF-MF-1009 09-10, dikukuhkan 10-10)
+# Disiplin visus konektor figur (preseden misi buku 09-10, dikukuhkan 10-10)
 
 Sumber preseden terukur: G3.4, G5.3 (dua arah), G11.1 a0a144b8 - tiga kasus 'ilusi perioda dash' menimpa sensor manusia/visus model, dua di antaranya sensor controller. Klaim 'visus CLEAR' worker jatuh 3/3 di uji independen era pra-aturan; pasca-aturan enam-butir, klaim pekerja pertama bertahan (G3.4).
 
@@ -23,7 +23,7 @@ K1 stub/konektor melayang; K2 panah orientasi salah/terbalik; K3 garis menumpang
 
 ## Kontrol merah-hijau instrumen
 
-Setiap sensor baru (K7 celah<=1mm, K8 knockout-garis-milik-sendiri, K9 asosiasi label-edge, K10 tabrakan label-tepi vs teks-simpul, inset-wrap sisi miring, UJI-6 border-dekoratif z-order+knockout era RAFIF-REVB-1010, GERBANG-MARKER kelas #7) wajib dibuktikan dengan suntikan cacat yang FAIL sebelum dipakai menjatuhkan vonis hijau.
+Setiap sensor baru (K7 celah<=1mm, K8 knockout-garis-milik-sendiri, K9 asosiasi label-edge, K10 tabrakan label-tepi vs teks-simpul, inset-wrap sisi miring, UJI-6 border-dekoratif z-order+knockout era misi buku, GERBANG-MARKER kelas #7) wajib dibuktikan dengan suntikan cacat yang FAIL sebelum dipakai menjatuhkan vonis hijau.
 
 ## Hierarki bukti saat sensor bertentangan (preseden FG2U + FG4C 10-10)
 

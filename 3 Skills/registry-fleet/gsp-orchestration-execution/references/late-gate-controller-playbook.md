@@ -1,4 +1,4 @@
-# Late-Gate Controller Playbook (RAFIF-MOBILE-0928 + HDKCOMP-0929, 29-09-2026)
+# Late-Gate Controller Playbook (misi mobile + HDKCOMP-0929, 29-09-2026)
 
 Prescriptions that proved themselves closing a 17-lane research mission and a 6-lane competitor scan at the downstream gates (saturasi → KAT → ASM → VS → CS → DX → DG, and M1 merge).
 

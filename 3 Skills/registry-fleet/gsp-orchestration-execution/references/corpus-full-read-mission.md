@@ -1,7 +1,7 @@
 # Misi Baca-Penuh Korpus (corpus full read + resume pengetahuan)
 
 Kelas misi: "baca SEMUA berkas folder X baris per baris tanpa terlewat, lalu buat resume
-pengetahuan" (preseden DEMS-BACA-1003, 03-10; preseden internal DEMS-PEMAHAMAN-0925).
+pengetahuan" (preseden misi baca korpus 1003, 03-10; preseden internal misi pemahaman korpus 0925).
 Controller TIDAK membaca sendiri seluruh korpus (context blow-up); pembacaan per-baris
 didelegasi sebagai kartu fan-out, controller melakukan AUDIT INDEPENDEN + sintesis.
 
@@ -33,7 +33,7 @@ JANGAN trusts manifest pekerja buta-buta; jalankan alat sendiri:
 2. **Sensus cakupan**: `find <subtree> -type f | wc -l` per lajur vs angka manifest
    pekerja; rekonsiliasi selisih (kartu salah hitung vs berkas hilang harus dibedakan).
 3. **Uji tandingan angka klaim**: recompute minimal 3-5 angka kunci digest dari sumber
-   primer (bukan dari digest). Preseden baik: residu T6b "Rp 8" terverifikasi persis;
+   primer (bukan dari digest). Preseden baik: residu T6b "<nilai uang>" terverifikasi persis;
    C2PA 11/11 SVG terverifikasi. Preseden cacat: klaim W2 "144 penanda DISEPAKATI
    11/12/2025" TIDAK terverifikasi -> angka flag, JANGAN diwariskan ke resume.
 4. **Hash artefak keadaan-terakhir** di luar folder (objek rilis/vonis) dicocokkan ke
@@ -65,7 +65,7 @@ JANGAN trusts manifest pekerja buta-buta; jalankan alat sendiri:
 
 ## Kerangka resume pengetahuan (output akhir ke user)
 
-Struktur terbukti (Laporan_Pemahaman 27-IX + resume DEMS-BACA): inti proyek -> para
+Struktur terbukti (Laporan_Pemahaman 27-IX + resume misi baca korpus): inti proyek -> para
 pihak/format -> dasar hukum -> baseline historis -> riwayat iterasi -> lanjutan
 pasca-beku -> arsitektur keadaan akhir -> rantai anggaran -> keputusan terbuka ->
 risiko/cacat -> vonis pemahaman. Setiap angka dari cetakan alat giliran ukur; temuan

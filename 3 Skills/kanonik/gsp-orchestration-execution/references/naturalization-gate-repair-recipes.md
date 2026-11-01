@@ -19,7 +19,7 @@ Konteks: kanal user TUNDUK gerbang (jawaban chat, dokumen/deck final, notifikasi
 >= 2 indikator berat ATAU 3+ HIGH terpicu = FAIL agregat. Perbaiki indikator berat penyusunnya (B2, B13 ekor kalimat, B19), bukan ambangnya.
 
 ### C-8b / B8: angka spesifik + PENGAKUAN BATASAN
-Dokumen data butuh satu seksi "Batasan" eksplisit (mis. 3 batasan nyata: nilai dasar sebelum faktor, qty melebihi populasi induk karena spares, cacat render sumber). Ini konten, bukan disclaimer etika - bedakan dari klausul lingkup karangan sendiri yang dilarang rule presisi-hasil.
+Dokumen data butuh satu seksi "Batasan" eksplisit (mis. 3 batasan nyata: nilai dasar sebelum faktor, qty melebihi populasi induk karena spares, cacat render sumber). Ini konten, bukan disclaimer etika - bedakan dari klausul lingkup karangan sendiri yang dilarang aturan terkait.
 
 ### C-15 / B13: ekor kalimat p90 <= 60 kata, maks <= 80
 Sebelum scan, jalankan pengukur panjang kalimat atas prosa (buang heading/tabel), pecah kalimat > 60 kata. Satu kalimat 183 kata di seksi sintesis = FAIL otomatis.

@@ -1,6 +1,6 @@
-# Vision carry-forward + celah "instrumen melapor tanpa memvonis" (pengawas RAFIFUNITY/GAYA-AHLI, 06-10)
+# Vision carry-forward + celah "instrumen melapor tanpa memvonis" (pengawas misi buku/GAYA-AHLI, 06-10)
 
-Lima teknik/temuan dari gelombang countersign RAFIFUNITY-1004 (fix-batch, QC figur gel-2) dan GAYA-AHLI-1005 (S7) yang terverifikasi dipakai silang dan layak jadi resep tetap pengawas.
+Lima teknik/temuan dari gelombang countersign misi buku (fix-batch, QC figur gel-2) dan GAYA-AHLI-1005 (S7) yang terverifikasi dipakai silang dan layak jadi resep tetap pengawas.
 
 ## 1. Byte-identity carry-forward untuk re-QC populasi vision (preseden QC-FIGUR-GEL2-ULANG)
 

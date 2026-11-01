@@ -1,4 +1,4 @@
-# Timeout-Death-by-Reasoning, Card-vs-Artifact Adjudication & Replay Discipline (DDV-STD-1009 / RAFIF-MANUAL-FINAL-1009, 09-10)
+# Timeout-Death-by-Reasoning, Card-vs-Artifact Adjudication & Replay Discipline (misi terkait 09-10 / misi manual akhir, 09-10)
 
 Five patterns validated while supervising four concurrent missions in one afternoon.
 

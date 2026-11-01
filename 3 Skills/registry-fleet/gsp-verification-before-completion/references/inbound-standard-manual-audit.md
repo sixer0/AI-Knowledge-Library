@@ -1,5 +1,5 @@
 # Audit Manual Standar Masuk: Uji Klaim-Diri-dokumen terhadap Disk
-(validated 2026-10-08, audit Manual Komprehensif DATUM Terpadu 000/GSP/STD/X-2026 RevA, 102 hal, jalur user "tanpa orkestrasi")
+(validated 2026-10-08, audit satu manual komprehensif RevA, 102 hal, jalur user "tanpa orkestrasi")
 
 Kelas tugas: user menyerahkan PDF/DOCX **manual standar / kitab terpadu** yang mengklaim
 menyatukan atau menggantikan aturan skill fleet yang sudah hidup. Beda dari
@@ -46,7 +46,7 @@ yang benar-benar ada?"
   putusan kanal eksplisit; mekanismenya sudah ada: fixer D17 (`d17_koridor_block_fix_*.py`,
   backup+manifest sha) + `check_standar.py` CHECK 4 (hash blok verbatim kanonik==fleet==profil).
 - **Denominator ganda antar-misi.** Katalog chart manual (58 jenis kode P/H/K/S/W/G) vs katalog
-  VCTL-1007 (99 entri VC-01..VC-99) hidup bersamaan -> satu rumah wajib diputus sebelum
+  misi lain (99 entri VC-01..VC-99) hidup bersamaan -> satu rumah wajib diputus sebelum
   promosi. Cari preseden kelas serupa dengan grep judul/topik di `docs/`.
 - **Letak caption / konvensi kecil.** DT-15 (caption di atas) vs SV-TAB-04 (di bawah): tabrakan
   kecil tapi pasti diperdebatkan verifier; catat di register rekonsiliasi, jangan dibiarkan.

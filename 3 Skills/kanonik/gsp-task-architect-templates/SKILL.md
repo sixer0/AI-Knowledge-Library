@@ -116,9 +116,9 @@ Kriteria sukses protokol (diaudit per 5 misi berikutnya): latensi kepala < 11,8 
 | Security aktif (lab, CVSS) | gsp-security-specialist | gsp-thinker |
 | Docker/container/infra/service/network | gsp-docker-specialist, gsp-infra-specialist | gsp-worker-fast |
 | Git/PR/merge | gsp-git-specialist | gsp-worker-fast |
-| Database/schema/query | gsp-database-specialist | gsp-worker |
-| Koleksi data & web mentah, vendor/expo | gsp-data-collector, gsp-vendor-crawler-specialist | gsp-worker-fast |
-| Analisis data/teknis/komparasi, riset lajur | gsp-data-analyst, gsp-engineering-analyst, agentriset | gsp-thinker |
+| Database/schema/query | peran basis data | gsp-worker |
+| Koleksi data & web mentah, vendor/expo | peran koleksi data, gsp-vendor-crawler-specialist | gsp-worker-fast |
+| Analisis data/teknis/komparasi, riset lajur | peran analisis data, gsp-engineering-analyst, agentriset | gsp-thinker |
 | Eksplorasi repo/struktur | gsp-explore | gsp-worker-fast |
 | Baca/konversi/terjemah dokumen | gsp-document-reader, gsp-document-converter, gsp-document-translator | gsp-worker-fast |
 | Tulis dokumen/deck/laporan | gsp-document-writer, gsp-pm-writer | gsp-worker |
@@ -333,7 +333,7 @@ Anti-pattern: BAD — "Based on research, we recommend Technology X." GOOD — "
 
 4 elements required: What, Why, How, and source citation. Who/When/Where only if relevant.
 
-Anti-pattern: BAD — "Uniview is a Chinese manufacturer." (flat fact) GOOD — "Uniview (What) is identified as the OEM source for 3 products because (Why): datasheet specs match within 2% tolerance across P11/P15/P16 (How: cross-referencing manufacturer specs from heimdal-defence.com/)."
+Anti-pattern: BAD — "Vendor X is a Chinese manufacturer." (flat fact) GOOD — "Vendor X (What) is identified as the OEM source for 3 products because (Why): datasheet specs match within 2% tolerance across P11/P15/P16 (How: cross-referencing manufacturer specs from vendor-x.example/)."
 
 #### Tier 3: Lightweight (Minimal)
 
@@ -684,7 +684,7 @@ est_iter}`; (3) klausul larangan-baca-penuh eksplisit di body. Tugas TA adalah
 MENDESAIN pemecahan lokus sejak blueprint (kolom Expected Output per lokus /
 per kelompok <=50 lokus), bukan mewariskan penguraian ke pekerja. Ratifikasi
 kartu t_5e44adad 10-10; dasar ukur pola menang scoped-lokus vs kalah
-baca-penuh misi RAFIF-MF-1009.
+baca-penuh misi misi manual 1009.
 <!-- [/SATISFIABILITY-1010] -->
 
 **Table starter:**

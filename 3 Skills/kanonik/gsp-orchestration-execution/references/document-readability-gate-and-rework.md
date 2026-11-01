@@ -1,4 +1,4 @@
-# Gerbang Keterbacaan Dokumen + Pola Rework (preseden PROMANUAL-1004 / PROMANUAL-V2-1006, 04-06 Okt 2026)
+# Gerbang Keterbacaan Dokumen + Pola Rework (preseden misi terkait / PROMANUAL-V2-1006, 04-06 Okt 2026)
 
 Vonis user atas buku 686 hal edisi 1: "hard to understand, choice of words bad, no charts, knowledge not embedded" -> triase T1 (cacat penyampaian) + T4 (evolusi kebutuhan). Akar proses BUKAN pekerja: fase tulis mengukur kekayaan isi tapi TIDAK punya meteran keterbacaan di gerbang rilis. Pelajaran turun-temurun: untuk SETIAP misi dokumen panjang, keterbacaan dan visual adalah GERBANG TERUKUR, bukan harapan.
 

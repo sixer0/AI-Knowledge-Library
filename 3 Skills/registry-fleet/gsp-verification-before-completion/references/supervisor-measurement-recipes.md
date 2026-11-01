@@ -1,6 +1,6 @@
 # Supervisor Measurement & Countersign Recipes (class-level)
 
-Distilled from six-board supervision day (06-11/06-12: PROMANUAL, GAYA-AHLI, RAFIFUNITY, EKASLAP, VISUAL, PROMANUAL-V2). Every rule below was exercised with real output; none is speculation.
+Distilled from six-board supervision day (06-11/06-12: PROMANUAL, GAYA-AHLI, the Unity book, EKASLAP, VISUAL, PROMANUAL-V2). Every rule below was exercised with real output; none is speculation.
 
 ## 1. Core doctrine: angka = cetakan alat pada giliran itu
 - A worker's `completed` is a claim. A countersign is only valid from measurements taken THIS turn: probe the artifact bytes (sha256[:16] + size), re-run the instrument, recompute aggregates with your own parser.

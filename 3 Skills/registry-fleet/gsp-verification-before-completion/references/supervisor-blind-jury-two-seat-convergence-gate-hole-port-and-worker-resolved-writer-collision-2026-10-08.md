@@ -1,10 +1,10 @@
 # Supervisor lessons 2026-10-08 late: blind jury two-seat convergence, gate-hole port rule, md-vs-docx marker scope, worker-resolved writer collision
 
-Sumber: papan GAYAMANUAL-1007 (kartu t_04800d70 L7c, t_105db7a1 L8, t_f52b8fef L7c-kembar, t_6c168b52 J8A, t_dff004ba J8B) + silang VCTL-1007 (V-POST VP-2). Semua angka di bawah = cetakan alat giliran countersign pengawas.
+Sumber: papan GAYAMANUAL-1007 (kartu t_04800d70 L7c, t_105db7a1 L8, t_f52b8fef L7c-kembar, t_6c168b52 J8A, t_dff004ba J8B) + silang misi paralel 1007 (V-POST VP-2). Semua angka di bawah = cetakan alat giliran countersign pengawas.
 
 ## 1. Dua kursi juri buta: konvergensi, selisih, dan cara membaca keduanya
 
-- **Konvergensi lintas-instrumen = penguat vonis terkuat.** Kursi-1 menemukan TOC mati dari ekstrak docx (`'No table of contents entries found.'` di document.xml); kursi-2 menemukan cacat SAMA lewat jalur berbeda (pymupdf `get_text` per halaman + `get_toc` bookmark=0). Dua alat bebas, satu cacat = bukti tak terbantahkan, lebih kuat dari gerbang mana pun. Rekap pengawas: probe ulang temuan named juri di byte terbit sebelum menulis vonis (4/4 temuan kursi-1 survive probe: TOC-mati dua-permukaan, 'Gambar 25' mati, 'SOURCE SKILL', 'DATMANUAL-1004' bocor; nol halusinasi juri).
+- **Konvergensi lintas-instrumen = penguat vonis terkuat.** Kursi-1 menemukan TOC mati dari ekstrak docx (`'No table of contents entries found.'` di document.xml); kursi-2 menemukan cacat SAMA lewat jalur berbeda (pymupdf `get_text` per halaman + `get_toc` bookmark=0). Dua alat bebas, satu cacat = bukti tak terbantahkan, lebih kuat dari gerbang mana pun. Rekap pengawas: probe ulang temuan named juri di byte terbit sebelum menulis vonis (4/4 temuan kursi-1 survive probe: TOC-mati dua-permukaan, 'Gambar 25' mati, 'SOURCE SKILL', 'nama skill lain' bocor; nol halusinasi juri).
 - **Agregat identik lintas dua kursi buta = bukti daya-pisah rubrik empiris.** D3 = 3,73 == 3,73 persis pada dua penilaian independen atas pin sama (`40a6a705`). Kalau rubrik dibekukan sebelum naskah (pola L2-PV/GM-L4) dan dua kursi konvergen di satu dimensi, klaim "instrumen punya daya-pisah" naik dari klaim jadi terukur.
 - **Selisih antar-kursi itu bahan adjudikasi, bukan kontradiksi.** D4 3,53 vs 4,33 = persis dugaan-selisih-yang-declared kursi-1 sendiri (berat penalti jejak produksi). Sajikan angka + dugaan ke adjudikator; METODE agregasi (rata/median/veto) = wewenang adjudikator, pengawas tidak memutuskan. Rata naif bisa menaruh dimensi di bawah ambang (3,93 < 4) - itu keputusan manusia.
 - **Himpunan gagal-BERBEDA antar kursi dengan cuplikan beda posisi** (10 vs 11 lulus, himpunan gagal tidak beririsan penuh): adjudikasi WAJIB per-pasangan-butir-sepadan (matching cuplikan), bukan rata-agregat-butа. Cek lembar: apakah butir sepadan bisa dipetakan (sha12/tokenizer beku membantu; CUP vs BTN perlu tabel padanan).
@@ -22,7 +22,7 @@ Gerbang GM PASS 12 atas byte dengan TOC MATI - karena tidak ada CHECK-TOC-HIDUP;
 Blok 'Penanda Kebijakan:'/'Penanda D16:' scanner berlaku SAMPAI AKHIR BERKAS pada DOCX, karena penutup blok dideteksi dari heading ber-'#' yang tidak ada di permukaan docx. Konsekuensi: rekomendasi pengawas yang terbukti hijau di kanal md (sisip penanda per blok kutipan) TIDAK SAH untuk permukaan docx - menandai per-blok di docx melubangi A4/C-4 seluruh sisa dokumen.
 - Aturan naik: **uji rekomendasi gerbang di LAPIS TERBIT SASARAN sebelum direkomendasikan lintas-lane** (md != docx != pdf). Pelajaran-ke-12 (gerbang ukur objek terbit) menimpa rekomendasi pengawas sendiri; koreksi-diri via komentar terpisah di kartu asal vonis (pelajaran-ke-14).
 - Obat sah yang dipakai pekerja: relokasi kutipan-manusia utuh ke SEL TABEL arsip lapis-C (di luar prosa scanner), badan buku memakai deskripsi - kutipan tidak dibunuh, dipindah ke rumah sah. Verifikasi: token kutipan SEMUA di dalam pola `||TABEL||`, nol di luar.
-- Glif zona (middot chrome DATUM 'KLASIFIKASI · TERBATAS' x3 di document.xml) = pengecualian D-18 blok-terkendali-master; sensor mentah pengawas vs vonis scanner = dua definisi, declared.
+- Glif zona (middot chrome DATUM 'KATA-KELAS · KATA-KELAS' x3 di document.xml) = pengecualian D-18 blok-terkendali-master; sensor mentah pengawas vs vonis scanner = dua definisi, declared.
 
 ## 4. Tabrakan dua-writer tertangani antar-pekerja tanpa putusan controller
 

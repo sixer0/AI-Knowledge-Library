@@ -1,4 +1,4 @@
-# Rantai remediasi GEN-2: vonis FAIL campuran + cacat grafi verdict-gate (preseden RAFIF-GUIDE-0925 GEN-2, 26-09)
+# Rantai remediasi GEN-2: vonis FAIL campuran + cacat grafi verdict-gate (preseden misi panduan GEN-2, 26-09)
 
 Lanjutan [`remediation-chain-after-verifier-fail.md`](remediation-chain-after-verifier-fail.md) (yang mengcover GEN-1: VS FAIL tunggal, relink build, FIX sempit). Kelas baru di sini: vonis FAIL yang MEMUAT cacat konten DAN cacat alat sekaligus, plus bug grafi yang lolos saat vonis kedua/ketiga.
 

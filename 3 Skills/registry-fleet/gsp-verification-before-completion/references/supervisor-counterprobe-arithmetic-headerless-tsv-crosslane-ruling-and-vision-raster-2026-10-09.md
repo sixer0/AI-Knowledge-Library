@@ -6,7 +6,7 @@ Sumber: misi EOSRAY-1009 (vonis RT/L1-L5/V-GATE) + BUKUV3-ING-1009 W4-W7, contro
 Controller mem-probe harga live L3 (Umbra/SkyWatch cocok PERSIS) dan memvonis L2 VERIFIED;
 V-GATE kemudian menangat dua SALAH BAGI di contoh aritmetika §4.5 lajur yang sama:
 50.000/1,70 = 29.412 km2 (naskah menulis 2.632 - itu hasil bagi tarif 19 dolar), dan
-50.000/112,5 = 444 scene (naskah menulis 208; 208 scene = USD 23.400, bukan ekuivalen 50k).
+50.000/112,5 = 444 scene (naskah menulis 208; 208 scene = N, bukan ekuivalen 50k).
 Angka mentah benar, OPERASINYA salah - gerbang live-price tidak menyaringnya.
 Aturan naik: setiap vonis L2 atas berkas yang memuat CONTOH HITUNG, recalulasi minimal satu
 contoh turunan per kelas rumus (pembagian harga, konversi unit, total baris) dengan alat sendiri.

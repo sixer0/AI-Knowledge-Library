@@ -1,8 +1,8 @@
-# Resume-wave, audit vonis jenuh, dan rung-8 fallback (rekaman RAFAI-1004, 04-10-2026)
+# Resume-wave, audit vonis jenuh, dan rung-8 fallback (rekaman misi manual AI, 04-10-2026)
 
 Normatif pelapis [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md) (vonis per lajur) dan
 [`saturation-sweep-mission-frame.md`](saturation-sweep-mission-frame.md) (kerangka misi). Empat mekanik di bawah
-terbukti dipakai di lapangan pada misi RAFAI-1004 fase riset.
+terbukti dipakai di lapangan pada misi manual AI fase riset.
 
 ## 1. Audit controller atas vonis JENUH pekerja (tafsir KETAT)
 
@@ -20,7 +20,7 @@ yang cacat tafsir; (c) untuk lajur yang tinggal butuh satu siklus konfirmasi,
 terbitkan kartu mata-3 TERAKHIR khusus siklus konfirmasi (bukan perluasan
 lingkup); (d) bila mata-3 tetap BELUM JENUH, lajur berhenti di sana dan menjadi
 tagihan verifier di gerbang sintesis - dilarang membuka mata ke-4.
-Preseden: D-11 RAFAI-1004 (vonis JENUH R3 via jendela gabungan diturunkan,
+Preseden: D-11 misi manual AI (vonis JENUH R3 via jendela gabungan diturunkan,
 kartu mata-3 khusus terbit). Selaras preseden IPDR D-16: pelonggaran CHECK demi
 lulus SELALU ditolak.
 
@@ -38,7 +38,7 @@ tab/stale sesi (sesi named memakai daemon terpisah). Bila kedua jalur mati:
   --disable-gpu --dump-dom --virtual-time-budget=15000 "<URL>" >
   C:/Users/TRIAL/Temp/<slug>.html` lalu parse DOM berkas (grep/python).
   Uji cepat dengan https://example.com (cek `<title>` keluar).
-- Cadangan sah lain: curl + cookie jar untuk antibot ringan, CDX/archive.today
+- Cadangan sah lain: CDX/archive.today
   (label PROV), salinan dokumen resmi lain.
 - Tempel resep ini di BODY kartu resume (blok "JALUR RUNG-8") beserta larangan
   mencoba browser_exec, agar tiap worker tidak menemukan ulang blocker dengan

@@ -1,4 +1,4 @@
-# Supervision measurement recipes (RAFIFUNITY / PROMANUAL / GAYA-AHLI multi-board, 05-10-2026)
+# Supervision measurement recipes (book mission / PROMANUAL / GAYA-AHLI multi-board, 05-10-2026)
 
 Deterministic probes a supervisor runs on disk before issuing any verdict. Each recipe below
 fired repeatedly across three boards and caught things report-reading alone cannot.

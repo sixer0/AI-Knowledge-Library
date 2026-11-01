@@ -9,7 +9,7 @@ metadata:
 
 # Phase Accountability Contract (GSP Hermes)
 
-Source of truth adapted from `/Users/mbp/.config/kilo/AGENTS.md` ("Documentation Accountability Contract") and `/Users/mbp/.config/kilo/documentation/orchestration-flow.md`. The main session is the controller: it opens/closes gates, delegates via the Agent tool, and is the first and last user-facing actor.
+Source of truth adapted from `~/.config/kilo/AGENTS.md` ("Documentation Accountability Contract") and `~/.config/kilo/documentation/orchestration-flow.md`. The main session is the controller: it opens/closes gates, delegates via the Agent tool, and is the first and last user-facing actor.
 
 ## Controller Boundaries & RT-FIRST
 

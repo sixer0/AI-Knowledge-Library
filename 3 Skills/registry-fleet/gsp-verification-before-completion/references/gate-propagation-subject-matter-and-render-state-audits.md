@@ -1,8 +1,8 @@
 # Gate Propagation, Subject-Matter False-Positives, and Render-State Audits
 
-Cluster of supervisor lessons, RAFIFUNITY/PROMANUAL boards, 2026-10-05 (~15:00-17:45).
+Cluster of supervisor lessons, book-mission/PROMANUAL boards, 2026-10-05 (~15:00-17:45).
 
-## 1. "Edit precedes render" timeout state (FIX-FIGUR t_d6606371, RAFIFUNITY)
+## 1. "Edit precedes render" timeout state (FIX-FIGUR t_d6606371, book mission)
 
 A figure-generator card timed out with the GENERATOR patched but ZERO PNGs newer
 than the generator. Detection recipe (parser, not eyeball):
@@ -22,7 +22,7 @@ and cite line numbers in the retry note. Retry directive template:
 - **A newly-added deterministic gate will start blocking previously-passing
   items.** Every raise is a real geometry finding: fix the coordinate, or
   declare false-positive WITH the logged numbers as evidence - NEVER disable
-  or loosen the gate to make the build pass. (Same governance as RAFAI
+  or loosen the gate to make the build pass. (Same governance as book-mission
   LOF/GR-22 gates.)
 - Sync MANIFEST honestly when inherited figures change size due to semantic
   patches (DENDAM precedent); note which cards already queue the re-QC so run-2
@@ -64,7 +64,7 @@ captured same turn: probe regexes need adequate windows - a 2.500-char window
 falsely suggested a Lampiran-D desync that the full-column report showed was
 consistent (instrument corrected before verdict, per house discipline).
 
-## 4. Audit layer vs publish layer (TULIS-FM t_88378370, RAFIFUNITY)
+## 4. Audit layer vs publish layer (TULIS-FM t_88378370, book mission)
 
 Whole-file grep found 11 "Godot" mentions in the rewritten front matter; the
 worker's CHECK 6 measured the PUBLISH layer only and passed with 0. All 11 hits

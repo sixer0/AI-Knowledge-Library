@@ -1,7 +1,7 @@
 # Rantai remediasi multi-ronde pasca-VERIF RBAC (kelas misi registrasi knowledge EKAS)
 
-Preseden: CVLK-0929 (29-30/09, domain CIVIL/CONSTRUCTION/BUILDING/GROUNDING/DRAWING-CAD),
-menambah [`remediation-chain-after-verifier-fail.md`](remediation-chain-after-verifier-fail.md) (RAFIF) dan [`knowledge-register-multi-domain.md`](knowledge-register-multi-domain.md).
+Preseden: misi terkait (29-30/09, domain CIVIL/CONSTRUCTION/BUILDING/GROUNDING/DRAWING-CAD),
+menambah [`remediation-chain-after-verifier-fail.md`](remediation-chain-after-verifier-fail.md) (misi terkait) dan [`knowledge-register-multi-domain.md`](knowledge-register-multi-domain.md).
 Berlaku untuk kelas misi: studi rak -> objek vault -> custodian -> promote -> rute memori ->
 VERIF undian 3/8 -> laporan home channel (VSSKB/NWSKILL/SDCY/CVLK).
 
@@ -41,8 +41,8 @@ VERIF undian 3/8 -> laporan home channel (VSSKB/NWSKILL/SDCY/CVLK).
    Gerbang: grep token aturan di MEMORY.md profil >= 1 + ukuran sebelum/sesudah.
 
 6. **D-18 — Pool undian = query hidup tabel WebUiUser** (select username, role,
-   hermesProfile via PrismaClient di gsp-datacenter), BUKAN daftar statis. Nama pensiun
-   (gsp-budi, novriandy, user01) tanpa home profil. Draw yang menyentuh nama mati boleh
+   hermesProfile via PrismaClient di layanan web), BUKAN daftar statis. Nama pensiun
+   (<akun-1>, <akun-2>, user01) tanpa home profil. Draw yang menyentuh nama mati boleh
    di-VOID selama belum ada probe yang terlanjur jalan; bekukan kedua draw + alasan void dalam
    satu berkas undian.
 

@@ -1,4 +1,4 @@
-# Denominator saturasi & gerbang penulis/rakit (preseden RAFAI-1004, 04-05/10/2026)
+# Denominator saturasi & gerbang penulis/rakit (preseden misi manual AI, 04-05/10/2026)
 
 Sumber: misi buku manual AI (riset 16 lajur jenuh -> tulis 18 bab -> verifikasi -> rakit). Semua angka di sini cetakan alat pada giliran itu, bukan narasi worker.
 

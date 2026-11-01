@@ -1,6 +1,6 @@
 # Countersign & Retry-Audit Playbook (pengawas silang)
 
-Dikondensasi dari misi RAFAI-1004 / PROMANUAL-1004 / RAFIFUNITY-1004 (05-10), semua pola terukur di disk. Berlaku untuk vonis countersign atas kartu verifier/pekerja dan catatan timeout/crash.
+Dikondensasi dari tiga misi (05-10), semua pola terukur di disk. Berlaku untuk vonis countersign atas kartu verifier/pekerja dan catatan timeout/crash.
 
 ## Urutan wajib sebelum vonis
 1. **Angka = cetakan alat pada giliran ini.** Jangan kutip angka dari laporan pihak lain atau ingatan: jalankan ulang scanner/parser/probe sendiri, bandingkan. Pin sha (docx/pdf/master) harus segar diukur, bukan disalin.

@@ -1,4 +1,4 @@
-# Supervisor wave 2026-10-06b (VISUAL R12→F17/INV-9/A19, RAFIFUNITY close, PROMANUAL-V2 resume-wave)
+# Supervisor wave 2026-10-06b (VISUAL R12→F17/INV-9/A19, the Unity book close, PROMANUAL-V2 resume-wave)
 
 Lessons extracted from countersigns performed purely from disk measurement. Each entry: symptom → root cause → durable rule.
 

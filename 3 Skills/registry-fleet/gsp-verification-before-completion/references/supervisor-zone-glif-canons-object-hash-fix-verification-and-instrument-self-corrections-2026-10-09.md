@@ -1,4 +1,4 @@
-# Supervisor lessons 2026-10-09 (era EOSRAY-1009 / DDV-STD-1009 / BUKUV3-ING-1009 closeout)
+# Supervisor lessons 2026-10-09 (era EOSRAY-1009 / parallel mission 1009 / BUKUV3-ING-1009 closeout)
 
 Controller-side measurement lessons, each verified against disk on the turn claimed.
 

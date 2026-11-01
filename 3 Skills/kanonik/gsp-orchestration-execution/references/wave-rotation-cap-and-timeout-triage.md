@@ -1,7 +1,7 @@
 # Cap rotasi gelombang + triase timeout + echo notifikasi (pola controller teruji 29-09)
 
 Dua misi membuktikan pola ini berulang: HDKCOMP-0929 (12 gelombang verifikasi V) dan
-RAFIF-VISUAL-0929 (4 segmen aset + 6 generator figur). Sumber kebijakan: cap di blueprint TA
+misi visual 29-09 (4 segmen aset + 6 generator figur). Sumber kebijakan: cap di blueprint TA
 (puncak running ≤5; maks 2 paralel per tipe profil) + aturan standing user (dispatch failed
 tapi artefak ada -> JANGAN re-dispatch buta; audit kelengkapan dulu).
 
@@ -13,7 +13,7 @@ tapi artefak ada -> JANGAN re-dispatch buta; audit kelengkapan dulu).
   Hitung ulang dari papan SETIAP giliran (list --json + Counter status per assignee) — jangan
   pakai ingatan giliran lalu.
 - Tafsir cap yang terbukti benar: cap = REM PELEPASAN kartu baru, BUKAN kill-switch kerja berjalan.
-  Dispatcher kadang memajukan kartu melewati cap tipe (kasus GD/GC RAFIF-VISUAL); kalau modalnya
+  Dispatcher kadang memajukan kartu melewati cap tipe (kasus GD/GC misi visual); kalau modalnya
   terbukti sehat di disk (figur/manifest mengalir), biarkan terminal sendiri dan stop melepas
   baru. Memutus kerja sehat = membakar modal; ini preseden L9/L17 yang dikonfirmasi ulang.
 - Kartu `todo` tertahan rantai dependensi TIDAK bisa dan tidak perlu diblock ('cannot block' dari

@@ -1,4 +1,4 @@
-# Audit Rantai Beku→Fix→Re-vonis→Refreeze (divalidasi PROMANUAL-1004 04-10)
+# Audit Rantai Beku→Fix→Re-vonis→Refreeze (divalidasi pada satu misi 04-10)
 
 Kelas: pengawas silang atas kartu FIX yang menutup gap register beku (F-series),
 re-vonis verifier independen pasca-fix (RVK), dan refreeze register (RFZ) —

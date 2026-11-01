@@ -1,11 +1,11 @@
 # Rantai gerbang akhir: gate utilisasi rakitan, pin beku, FIX->RERUN, mirror+push
-Preseden: RAFIF-MOBILE-0928 (28-09 s/d 29-09, 79 kartu done, rilis PASS 19/19) + HDKCOMP-0929 fase kandidat. Kelas tugas: misi rakit dokumen besar (kitab/katalog) pasca-semua lajur terminal, dan merge register lintas lane.
+Preseden: misi mobile 0928 (28-09 s/d 29-09, 79 kartu done, rilis PASS 19/19) + HDKCOMP-0929 fase kandidat. Kelas tugas: misi rakit dokumen besar (kitab/katalog) pasca-semua lajur terminal, dan merge register lintas lane.
 
-## 1. Gerbang utilisasi rakitan (G9 pola RAFIF)
+## 1. Gerbang utilisasi rakitan (G9 pola misi mobile)
 - Definisi beku: baris REGISTER KLAIM lajur yang URL-nya TERCIPTA di badan kitab; ambang >=70%. Instrumen parser mencetak per-lajur + AGREGAT ke `process/UTILISASI.log`.
 - ASM menutup tapi agregat 67,0% FAIL -> controller TIDAK menunggu VS; buat kartu remediasi (REM-UTIL) sisip rujukan URL sebagai sitasi wajar per bab, konten-kekal mutlak, dan BLOCK kartu VS dengan alasan gerbang + angka.
 - **Block tidak selalu menahan dispatcher**: VS terpromosi ulang dan tetap vonis (FAIL G9 ter-replikasi identik). Hasilnya tidak hangus bila verifier mereplikasi angka - tapi jangan andalkan; block tetap benar sebagai sinyal.
-- Remediasi sah: URL ditempel PERSIS dari register beku (RULE PRESISI-HASIL), definisi parser JANGAN diubah demi angka; target margin di atas ambang (72% untuk ambang 70%). G9 67,0 -> 71,8% diterima setelah controller ukur ulang sha+agregat di disk.
+- Remediasi sah: URL ditempel PERSIS dari register beku (sesuai aturan register), definisi parser JANGAN diubah demi angka; target margin di atas ambang (72% untuk ambang 70%). G9 67,0 -> 71,8% diterima setelah controller ukur ulang sha+agregat di disk.
 - Putusan CAPPED per lajur memakai **jarak-ke-ambang + kelayakan infra**, bukan keseragaman jumlah mata: L4 (10,4%, dekat ambang) dapat mata-4; L6/L5 (20%+ dan harness browser mati persisten) divonis CAPPED tanpa mata tambahan.
 
 ## 2. Pin beku untuk hilir (WAJIB saat kitab masih bergerak)

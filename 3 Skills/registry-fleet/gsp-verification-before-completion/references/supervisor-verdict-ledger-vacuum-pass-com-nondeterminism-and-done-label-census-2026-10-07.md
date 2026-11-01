@@ -1,4 +1,4 @@
-# Supervisor discipline: verdict-ledger vs tool-print, vacuum-PASS, COM byte-nondeterminism, done-label census (07-10 era, papan PROMANUAL-V2 / INDUK-1006 / RAFIFFINAL-1007)
+# Supervisor discipline: verdict-ledger vs tool-print, vacuum-PASS, COM byte-nondeterminism, done-label census (07-10 era, papan PROMANUAL-V2 / INDUK-1006 / final-stage book 1007)
 
 Condensed from countersign waves 06-10 s/d 07-10. Each rule below fired in a real card this session.
 
@@ -18,7 +18,7 @@ Worker ruling PUTUSAN(b): DATUM-30 FAIL on every real-figure artifact, root caus
 Same docx rendered twice: pdf sizes identical (2.252.229 B) but sha differs (`5a7ae0c7` era-L12B vs `de748f1d` era-L13). Downstream (promotion, jury, closeout) must name ONE canonical pdf — prefer the one from the same generation as the printed gate verdict — and record the superseded hash in the ledger so no two-way "official pdf" claim survives. Do not treat size-equality as proof of identity; always sha.
 
 ## 6. `done` is a kernel label, not a completeness verdict
-RAFIFFINAL-1007 census: cards marked done whose results were partial-handoff with placeholder bodies (bab-6..10 = 5 files of 177 B "(menyusul)", bab-11..14 absent, bab-22 absent). Before any assembly/rakit card is allowed to reach promotion, glob the parts directory and print size+mtime per file; classify anything below a real-content threshold (e.g. <1 KB with '(menyusul)' marker) as LUBANG and report count to controller. Assembly over holes is legitimate only as a REPORT (register koreksi), never as release material.
+Final-stage book 1007 census: cards marked done whose results were partial-handoff with placeholder bodies (bab-6..10 = 5 files of 177 B "(menyusul)", bab-11..14 absent, bab-22 absent). Before any assembly/rakit card is allowed to reach promotion, glob the parts directory and print size+mtime per file; classify anything below a real-content threshold (e.g. <1 KB with '(menyusul)' marker) as LUBANG and report count to controller. Assembly over holes is legitimate only as a REPORT (register koreksi), never as release material.
 
 ## 7. Two-definition reconciliation beats agreement demand
 Void-percentage probes: worker 247/207/184 pt vs supervisor 307/267/244 pt on the same pages — constant ~60 pt offset = footer-band boundary differs between definitions. Correct verdict: "arah dan besaran sama menurut KEDUA alat; selisih = definisi batas" and require downstream to cite the STRICT threshold number. Never force both tools to one definition; state both and pick the binding one.

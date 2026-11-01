@@ -1,11 +1,11 @@
-# Audit byte pengawas & kebutaan instrumen (misi RAFIFUNITY/GAYA-AHLI/PROMANUAL, 06-10-2026)
+# Audit byte pengawas & kebutaan instrumen (misi buku Unity/GAYA-AHLI/PROMANUAL, 06-10-2026)
 
 Semua resep di bawah TERBUKTI jalan di giliran pengawas hari ini (vonis/countersign terpasang di kartu masing-masing).
 
 ## 1. Sensor ujung-garis WAJIB byte-level (buta-CRLF)
 - Baca teks python memakai universal-newlines: `\r\n` menjadi `\n`, sehingga CR>0 TIDAK PERNAH terlihat oleh instrumen yang membuka berkas mode teks. Klaim 'CR=0' dari pembacaan teks tidak membuktikan apa pun.
 - Resep ukur: `open(p,'rb').read().count(b'\r')` dan `count(b'\r\n')`; atau baca dengan `newline=''`.
-- Kejadian nyata (RAFIFUNITY FIX-BATCH-2): AFTER-VERIFY PASS padahal probe byte pengawas mencetak ch05 CR=430 full CRLF - regresi dari tulis-ulang skrip suntingan mode-teks Windows. Kartu lanjutan (FIX-CRLF-CH05) menambal: CHECK 0 byte-level keras + sensus CR semua berkas naskah ('BAB_LAIN_CR>0: tidak ada').
+- Kejadian nyata (buku Unity FIX-BATCH-2): AFTER-VERIFY PASS padahal probe byte pengawas mencetak ch05 CR=430 full CRLF - regresi dari tulis-ulang skrip suntingan mode-teks Windows. Kartu lanjutan (FIX-CRLF-CH05) menambal: CHECK 0 byte-level keras + sensus CR semua berkas naskah ('BAB_LAIN_CR>0: tidak ada').
 - Aturan turunannya: sensor yang MELAPOR tanpa MEMVONIS ('CR=430 -> OK') = cacat instrumen, bukan data netral. Konvensi LF-only ditegakkan FAIL keras, bukan catatan.
 
 ## 2. Instrumen baru WAJIB merah dulu atas temuan yang sudah diketahui

@@ -1,12 +1,12 @@
 # Evidence-stub provenance, API-ledger countersign, PDF text-layer vs bocor, marker konten-kekal
 
-Kondensasi pelajaran countersign 05-10 sore (pengawas silang lintas tenan: RAFAI MARKER-C10,
-RAFIFUNITY QC-FIGUR + KOMPILASI-API, PROMANUAL MUTU/RAKIT-PM). Semua vonis hanya sah dari ukur
+Kondensasi pelajaran countersign 05-10 sore (pengawas silang lintas tenan: misi buku MARKER-C10,
+misi buku lain QC-FIGUR + KOMPILASI-API, PROMANUAL MUTU/RAKIT-PM). Semua vonis hanya sah dari ukur
 disk giliran itu; angka di sini = cetakan alat saat itu.
 
 ## 1. Stub bukti mentah verifier — jangan percaya nama berkas
 
-Kasus nyata (RAFIFUNITY KOMPILASI-API, B-1): laporan menyebut pembanding "daftar resmi Built-in
+Kasus nyata (misi buku KOMPILASI-API, B-1): laporan menyebut pembanding "daftar resmi Built-in
 packages 6000.3" dengan URL; berkas raw bernama `built-in-packages.md` ternyata ISI NYA stub
 "Not found" 9 byte (halaman mati tersimpan tanpa label). Perbandingan sungguhan berjalan atas
 berkas lain (`modules_official_6000.3.txt`, 34 baris). Resep countersign:
@@ -38,7 +38,7 @@ Yang membuat audit layak diterima cepat, dan yang harus dites ulang pengawas:
 
 ## 3. Lapis teks PDF: rujukan prosa `[measured]` BUKAN kebocoran path
 
-Grep luas `_work/` di 313 halaman PDF RAFAI v2 = 7 kemunculan. Selisik konteks per halaman:
+Grep luas `_work/` di 313 halaman PDF buku v2 = 7 kemunculan. Selisik konteks per halaman:
 semuanya PROSA BADAN BAB yang menyebut jalur bukti secara sengaja (hal 38–42 TB3 lost_mid,
 242 oos_final, 289 cmds_v2) — mandat gerbang adalah WAJAH FIGUR (footnote/caption), dan di sana
 token `ds_pricing_live` / `fetch/ds|pln` = 0 (kuerekstrak sendiri via pypdf, cocok verifier).
@@ -49,7 +49,7 @@ dengan konvensi itu.
 
 ## 4. Marker naturalisasi konten-kekal (resep MARKER-C10, urutan beku langkah-3)
 
-Urutan gerbang yang benar setelah scan agregat PASS: tambal → scan ulang → MARKER → checkpoint
+Urutan gerbang yang benar setelah scan agregat PASS, tambal → scan ulang → MARKER → checkpoint
 V-D. Resep penempelan yang terbukti:
 1. ARSIP-DAHU-DULU: salin artefak edisi lama utuh + register JSON berisi sha256 penuh + bytes;
    pengawas menghash ulang berkas arsip dan mencocokkan ke PIN RANTAI sebelumnya (v2 arsip ==

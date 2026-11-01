@@ -1,4 +1,4 @@
-# Visual-Figure QC & Rerender Chain (RAFIF-MF-1009, 09-10)
+# Visual-Figure QC & Rerender Chain (misi manual, 09-10)
 
 Condensed controller lessons from running a figure-build -> vision-QC -> rerender chain for a
 DATUM book mission. Reusable for any mission whose deliverable contains rendered

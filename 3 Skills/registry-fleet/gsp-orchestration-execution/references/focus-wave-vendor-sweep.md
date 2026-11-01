@@ -1,6 +1,6 @@
 # Resep gelombang fokus vendor (enumeration-complete vendor sweeps)
 
-Kelas tugas: "daftarkan SEMUA vendor bernilai untuk N lini produk lintas kelompok geografi, dengan sitasi terverifikasi, vonis jenuh per lajur, dan deliverable Excel". Preseden ukur: DEMS-VSAT-1003 (03-10-2026; 38 kartu done nol menggantung; MASTER-REGISTER 1.098 baris x 4 fokus; VS-R3 PASS 9/9 SALAH-TARGET=0; rilis xlsx sha16 02c7f755e8b4c1df lolos gerbang tampil).
+Kelas tugas: "daftarkan SEMUA vendor bernilai untuk N lini produk lintas kelompok geografi, dengan sitasi terverifikasi, vonis jenuh per lajur, dan deliverable Excel". Preseden ukur: misi VSAT 1003 (03-10-2026; 38 kartu done nol menggantung; MASTER-REGISTER 1.098 baris x 4 fokus; VS-R3 PASS 9/9 SALAH-TARGET=0; rilis xlsx sha16 02c7f755e8b4c1df lolos gerbang tampil).
 
 ## 1. Bentuk blueprint
 - SATU skema register kanonis (22-27 kolom) didefinisikan di kartu TA, identik untuk semua lajur:

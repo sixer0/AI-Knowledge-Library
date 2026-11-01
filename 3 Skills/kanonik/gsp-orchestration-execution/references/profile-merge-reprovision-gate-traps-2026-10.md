@@ -1,4 +1,4 @@
-# Reprovisioning kartu yatim pasca-arsip profil + jebakan gerbang (RAFIF-REVB-1010, 10-10)
+# Reprovisioning kartu yatim pasca-arsip profil + jebakan gerbang (misi manual rev B, 10-10)
 
 Preseden terukur satu giliran: user mengarsipkan profil pekerja (PROF-MERGE-1010) SAAT run berjalan; enam kartu misi crash/gave_up serentak dengan notifikasi `crashed (worker exited)`. Semua bukan kegagalan kerja.
 

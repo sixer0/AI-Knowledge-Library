@@ -1,4 +1,4 @@
-# Playbook pengawas-silang (supervisor cross-audit) — preseden RAFAI/PROMANUAL 04–05-10
+# Playbook pengawas-silang (supervisor cross-audit) — preseden misi manual AI/PROMANUAL 04–05-10
 
 Untuk profil controller yang mengawasi papan misi sebagai VERIFIKATOR, bukan dispatcher/pemilik promosi.
 

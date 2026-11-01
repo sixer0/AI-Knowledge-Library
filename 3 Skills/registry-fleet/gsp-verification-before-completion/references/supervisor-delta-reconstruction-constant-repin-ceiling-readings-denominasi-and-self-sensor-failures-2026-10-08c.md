@@ -1,4 +1,4 @@
-# Supervisor recipes — delta-reconstruction, constant-only re-pin, ceiling readings, denominasi register, self-sensor failures (2026-10-08, papan VCTL-1007 / GAYAMANUAL-1007 / PSIKOTES-1008)
+# Supervisor recipes — delta-reconstruction, constant-only re-pin, ceiling readings, denominasi register, self-sensor failures (2026-10-08, papan misi paralel 1007 / GAYAMANUAL-1007 / PSIKOTES-1008)
 
 Condensed from countersign turns where the supervisor's own probe or the worker's instrument produced a reusable technique. All numbers below were re-measured on disk by the supervisor that turn.
 

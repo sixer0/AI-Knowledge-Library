@@ -10,7 +10,7 @@ user finding into a worker that was ALREADY executing.
   matches for %kanban%/%card%). Cards live in the hermes kanban store.
 - Use the CLI instead:
   - `hermes kanban --board default list --json` — board name comes from
-    `HERMES_BOARD` in `gsp-datacenter/.env` (exported by launch-bridge.sh).
+    `HERMES_BOARD` in `<service-folder>/.env` (exported by launch-bridge.sh).
     Wrong board → "board 'gsp' does not exist".
   - `hermes kanban --board default show <id>` — full body, ALL comments
     (chronological), parents/children edges, Latest summary, timestamps.

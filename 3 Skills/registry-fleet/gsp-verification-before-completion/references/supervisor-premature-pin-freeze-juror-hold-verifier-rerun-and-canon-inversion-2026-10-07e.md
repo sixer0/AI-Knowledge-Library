@@ -1,4 +1,4 @@
-# Supervisor lessons wave 2026-10-07e — VCTL-1007 / PV-1007 / GAYAMANUAL-1007 / RAFIFFINAL / INDUK tail
+# Supervisor lessons wave 2026-10-07e — parallel mission 1007 / PV-1007 / GAYAMANUAL-1007 / final-stage book / INDUK tail
 
 Condensed from ~40 countersigns. Each lesson = pattern + concrete instance + supervisor action.
 
@@ -39,7 +39,7 @@ is precise about the wrong thing.
   (fields kept separate + persistent recipes => re-render cheap). A ruling should be made
   explicitly cross-board when the same two-grid pattern appears on multiple boards.
 
-## 4. "done" label is kernel state, not completeness verdict (RAFIFFINAL D2W4/W5/W8)
+## 4. "done" label is kernel state, not completeness verdict (final-stage book D2W4/W5/W8)
 Cards labeled done held partial-handoff results with content never born: bab-6..10 were five
 177-byte "(menyusul)" placeholders; D2W11 assembly ran over 10 holes and (correctly, per its
 contract forbidding content edits) reported them via register + inline CATATAN SUSUNAN

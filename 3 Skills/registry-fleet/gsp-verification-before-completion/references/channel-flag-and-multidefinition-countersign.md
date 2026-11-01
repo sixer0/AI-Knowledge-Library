@@ -1,4 +1,4 @@
-# Supervisor countersign: channel flag, multi-definition counts, embedded-material proof (session 05-10, RAFAI/PROMANUAL/EXPOWORLD supervision)
+# Supervisor countersign: channel flag, multi-definition counts, embedded-material proof (session 05-10, book-mission/PROMANUAL/EXPOWORLD supervision)
 
 Condensed from a dual-controller supervision shift auditing ~15 completed/timed-out cards. All patterns were exercised and verified on disk.
 

@@ -1,6 +1,6 @@
 # Supervisor audits: git-rewrite countersign, timeout-state taxonomy, hash-alias reconciliation (05/06-10-2026)
 
-Condensed from RAFIFUNITY/GAYA-AHLI/PROMANUAL supervision wave. All recipes below were executed and verified on disk; none are guesses.
+Condensed from book-mission/GAYA-AHLI/PROMANUAL supervision wave. All recipes below were executed and verified on disk; none are guesses.
 
 ## 1. Countersigning a git history rewrite (preseden FIX-PEDAGOGI RM-3, 06-10)
 

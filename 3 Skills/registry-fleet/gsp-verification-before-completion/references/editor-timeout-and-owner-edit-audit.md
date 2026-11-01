@@ -1,5 +1,5 @@
 # Editor-timeout triage, adjudikasi spot-FAIL, owner-edit, dan QA tambalan figur
-(Distilasi dari pengawasan gelombang RAFAI/PROMANUAL 04-10-2026; pelengkap
+(Distilasi dari pengawasan gelombang misi buku/PROMANUAL 04-10-2026; pelengkap
 [`manuscript-figure-and-fixpass-verification.md`](manuscript-figure-and-fixpass-verification.md) dan
 [`notification-truncation-and-prebase-attribution.md`](notification-truncation-and-prebase-attribution.md).)
 

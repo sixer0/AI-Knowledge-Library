@@ -253,7 +253,7 @@ penulis skill): tiga referensi profil-lokal gsp-master dinaikan apa adanya tanpa
 (inbound-document-text-and-number-forensics.md, inbound-standard-manual-audit.md,
 new-check-calibration-red-green.md - masing-masing tepat satu lokasi di seluruh pohon .md armada);
 referensi supervisor-sensor-pitfalls.md bertambah kelas positif-palsu #13 'intro-figur / caption
-census pada docx' diadopsi verbatim dari salinan fisik profil gsp-worker (blok RAFIF-REVB-1010,
+census pada docx' diadopsi verbatim dari salinan fisik profil gsp-worker (blok misi manual rev B 1010,
 kartu t_8f332328; hanya indentasi+penomoran dibetulkan). Isi kelas 1..12 dan semantik
 G-RAIL-1..3 tidak diubah.
 Riwayat versi:

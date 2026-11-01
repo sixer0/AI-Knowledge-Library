@@ -1,4 +1,4 @@
-# Audit Pengawas Lajur Riset pada Misi Dua-Controller (preseden VENDOR-DEMS-1003, 03-10)
+# Audit Pengawas Lajur Riset pada Misi Dua-Controller (preseden misi vendor, 03-10)
 
 When: misi dengan `Controller:` di kontrak menunjuk profil LAIN (pemilik DAG, mis.
 gsp-master01) sementara kamu controller kedua/pengawas, dan kartu lajur berdatangan
@@ -7,8 +7,8 @@ gsp-master01) sementara kamu controller kedua/pengawas, dan kartu lajur berdatan
 ## 1. Uji tandingan: vonis HANYA setelah alat ukur jalan (anti-halusinasi sendiri)
 Urutan wajib: jalankan skrip ukur -> baca output -> baru tulis vonis/komentar/kontrak.
 Preseden cacat (03-10, controller ini): baris addendum + komentar kartu ditulis SEBELUM
-alat ukur selesai -> menyebut kode khayalan (RACK-42U/NAS-8/MOBILE-AC; riil: ARS-SRV/
-ARS-HDD/KONSOL/UPS-3K/RAK-20/BRANKAS/HSM). Akar = urutan aksi, triase T5 (klaim sendiri).
+alat ukur selesai -> menyebut kode khayalan (tiga kode tak ada; riil: tujuh kode berbeda
+pada daftar perangkat). Akar = urutan aksi, triase T5 (klaim sendiri).
 Resep koreksi yang sudah terbukti: patch baris kontrak dengan tabel nyata + komentar
 SUSULAN "KOREKSI komentar pengawas sebelumnya" di kartu (jangan sunting diam-diam) +
 akar dicatat di jejak.

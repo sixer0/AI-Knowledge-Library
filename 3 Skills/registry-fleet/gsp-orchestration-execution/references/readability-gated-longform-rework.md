@@ -1,6 +1,6 @@
 # Gerbang Keterbacaan Keluaran Panjang + Protokol Rework Konten-Kekal
 
-Preseden: PROMANUAL-1004 (edisi 1, buku 686 hal) -> vonis user -> PROMANUAL-V2-1006 (rework edisi 2), Okt 2026.
+Preseden: misi manual (edisi 1, buku 686 hal) -> vonis user -> PROMANUAL-V2-1006 (rework edisi 2), Okt 2026.
 Pemicu berlakunya: vonis user atas dokumen panjang yang dibaca manusia ("hard to understand", "choice of words and sentences are bad", "not explaining with charts/graphics/visualization", "eliminate the noise"). Prioritas user yang dinyatakan: pembaca mencerna SELURUH pesan; pengetahuan tertanam setelah baca.
 
 ## 1. Triase dulu, baru bergerak (protokol KLAIM-TRIAGE untuk vonis dokumen)

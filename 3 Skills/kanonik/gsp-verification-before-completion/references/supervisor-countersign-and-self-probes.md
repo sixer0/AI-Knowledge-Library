@@ -1,6 +1,6 @@
 # Supervisor countersign discipline + self-probe recipes
 
-Condensed from a six-board supervision session (PROMANUAL / GAYA-AHLI / RAFIFUNITY / PROMANUAL-V2 / EKASLAP / VISUAL, 2026-10-05..06). Two halves: (A) how to countersign worker claims without becoming the dispatcher; (B) measurement recipes, including probes where MY OWN sensor produced false positives and how each was caught before verdict.
+Condensed from a six-board supervision session (PROMANUAL / GAYA-AHLI / the Unity book / PROMANUAL-V2 / EKASLAP / VISUAL, 2026-10-05..06). Two halves: (A) how to countersign worker claims without becoming the dispatcher; (B) measurement recipes, including probes where MY OWN sensor produced false positives and how each was caught before verdict.
 
 ## A. Countersign discipline (supervisor lane)
 

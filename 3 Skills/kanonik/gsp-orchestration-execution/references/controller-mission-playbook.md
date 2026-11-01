@@ -69,7 +69,7 @@ recorded with reasons.
 ## 6. Style/visual standards must derive from human artifacts (user correction T3)
 "Belajar bagaimana manusia profesional menulis", NOT statistical thresholds or rhythm
 randomization. Operational form that passed the user: research lanes dissect real
-human-authored artifacts on disk (proposals/KAK/vendor mail/OEM datasheets/textbook
+human-authored artifacts on disk (proposals/client documents/vendor mail/OEM datasheets/textbook
 chapters) + official registries; every rule carries >=2 verbatim quotes/asset crops
 with path+page/sel; made-up examples only labeled CONTOH-ILUSTRATIF outside the
 evidence field; controller spot-checks quote provenance with seeded random sample

@@ -1,4 +1,4 @@
-# Forensik lineage artefak & kekekalan byte (preseden RAFIF-MF-1009 09-10/10-10)
+# Forensik lineage artefak & kekekalan byte (preseden misi buku 09-10/10-10)
 
 Aturan induk: vonis L2 hanya dari pengukuran disk pada giliran itu. Berkas ini menambahkan kelas ukur yang terbukti diperlukan saat objek jadi DOCX/PDF rakitan.
 

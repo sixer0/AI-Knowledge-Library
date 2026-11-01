@@ -1,11 +1,11 @@
-# Dynamic Board Watchdog & Scratch-Modal Decay (RAFIF-MOBILE-0928, 28-09)
+# Dynamic Board Watchdog & Scratch-Modal Decay (misi mobile 0928, 28-09)
 
 Two lessons from one night of multi-lane fan-out missions; both generalize to
 any long mission with a mutating card graph.
 
 ## 1. Watchdog must query the board by TENANT, never a static id map
 
-Real failure (28-09, RAFIF-MOBILE): a watchdog seeded with the 16 lane ids
+Real failure (28-09, misi mobile): a watchdog seeded with the 16 lane ids
 known at blueprint time silently missed two cards created mid-mission by
 legitimate in-graph amendments (TA-REV2 amandemen + lajur baru L17). It would
 have declared ALL_TERMINAL while real work was still running, or kept polling
@@ -29,7 +29,7 @@ Correct pattern (validated, `rm_watch_dyn.py` shape):
 ## 2. Scratch workspaces are EPHEMERAL — worker "modal" claims decay
 
 Cards run in `%LOCALAPPDATA%/hermes/kanban/workspaces/<card_id>` (scratch).
-Two measured incidents 28-09 (PEMAHAMAN-DEMS):
+Two measured incidents 28-09 (misi pemahaman korpus):
 - L3 result claimed "30 ready-to-read digest files in workspace/digests/" as
   the SISA_KERJA modal; at controller measurement time the scratch dir held
   0 files — only 3 digests survived, copied into the mission's `work/` folder.
@@ -57,7 +57,7 @@ content-kekal multiset test), and (c) require VS to scan U+2014/U+00B7 across
 ALL source chapters, not just the assembled output — otherwise the scan gate
 only ever sees what the assembler already normalized.
 
-## 4. Promotion-ordering probe (HARGA-DEMS-0927, 28-09)
+## 4. Promotion-ordering probe (misi terkait, 28-09)
 
 KB promotion ran 07:21, BEFORE the FIX-1 remediation of a verifier FAIL landed
 (findings 12:00, workbook rebuild 13:03). Probe that decided severity: grep

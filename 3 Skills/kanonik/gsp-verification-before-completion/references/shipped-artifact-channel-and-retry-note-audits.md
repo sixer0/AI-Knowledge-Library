@@ -1,6 +1,6 @@
 # Supervision Audit Recipes - Shipped-Artifact, Channel, and Retry-Note Patterns
 
-Condensed from dual-board supervision (RAFAI/PROMANUAL book missions + EXPOWORLD
+Condensed from dual-board supervision (PROMANUAL and another book mission + EXPOWORLD
 SAJI), 05-10. Each recipe was exercised and verified on disk that day.
 
 ## 1. Scanner fleet: ALWAYS pass `--channel`

@@ -1,4 +1,4 @@
-# Operasional Misi Lajur Riset -> Buku (preseden PROMANUAL-1004, 04-10)
+# Operasional Misi Lajur Riset -> Buku (preseden misi buku, 04-10)
 
 Pola teruji dari misi riset multi-lajur yang berlanjut produksi buku (dekomposisi RT/TA ->
 12 sub-lajur akuisisi -> analisis/rekonsiliasi -> vonis verifier -> agregat -> sintesis ->
@@ -65,8 +65,8 @@ blueprint buku -> tulis berantai). Melapis [`saturation-gate-sweep-lanes.md`](sa
   per misi), edge HANYA ke hulu data nyata. Rantai sengaja untuk menegakkan kap ditulis eksplisit
   di kontrak (mis. gelombang sensus menunggu gelombang teknik selesai = edge kap, bukan data -
   catat supaya audit tidak membacanya sebagai edge semu).
-- Direktif lajur ([`worker-offensive-logic.md`](worker-offensive-logic.md), [`saturation-gate-sweep-lanes.md`](saturation-gate-sweep-lanes.md), RULE
-  PRESISI-HASIL) ditempel UTUH ke body kartu lewat skrip pembuat yang membaca berkas rujukan
+- Direktif lajur (berkas rujukan lajur yang berlaku dan aturan presisi
+  hasil) ditempel UTUH ke body kartu lewat skrip pembuat yang membaca berkas rujukan
   saat create - bukan diringkas, bukan sekadar menunjuk nama skill.
 - Vonis verifier FAIL pertama pada suatu kelas jalur (mis. kelas-8 diklaim tanpa akun render)
   adalah bukti gerbang bekerja, bukan anomali: kartu remediasi memuat DUA jalur penutupan sah

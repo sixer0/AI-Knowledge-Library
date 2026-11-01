@@ -1,4 +1,4 @@
-# VS-Gate + Countersign Audit + Entity-Type Matcher (2026-10-04, DEMS-VSAT F2-F4/VS/CSX)
+# VS-Gate + Countersign Audit + Entity-Type Matcher (2026-10-04, proyek VSAT F2-F4/VS/CSX)
 
 Lanjutan [`merge-layer-audit-and-compressed-matcher.md`](merge-layer-audit-and-compressed-matcher.md) (§6-7 di sana). File ini
 menambah teknik terukur dari giliran audit lajur F2-F4, MRG-F2/F3, DELTA-MRG,
@@ -17,8 +17,8 @@ Kasus nyata dua arah:
   entitas-klaim, lalu CSX konfirmasi via fetch hidup.
 RESEP audit baris ber-URL: jangan berhenti di `grep -c token page.html`; tarik
 `<title>`/og_title dan cocokkan DESKRIPSI USAHA-nya vs item_code baris.
-Kandidat sah pola induk-merek (Ubiquiti@ui.com, Harman@dbxpro, Octave@qognify,
-d&b@dbaudio, Schneider@se.com, AVM@fritz.com) punya merek di judul; tabrakan
+Kandidat sah pola induk-merek (<merek>@<domain>, Harman@dbxpro, Octave@qognify,
+d&b@dbaudio, <merek>@<domain>, <merek>@<domain>) punya merek di judul; tabrakan
 nama punya judul dengan TIPE USAHA beda. Rename korporat juga sah dan
 terbukti via judul (AnyVision->Oosto: judul "| Oosto" + 382 token).
 
@@ -79,7 +79,7 @@ misi berikutnya: salin SEMUA tagihan lintas-fase ke SATU berkas register
 (tagihan.md / baris kontrak ber-id) dan wajibkan gerbang hilir mencentang
 per-id ATAU mencatat putusan BUANG resmi - tagihan tidak boleh mati diam.
 
-## 15. Delta pass = satu-satunya tambalan murah yang terus ditunda
+## 15. Delta pass, satu-satunya tambalan murah yang terus ditunda
 Sepanjang malam gerbang basi (MERGE-F1 22:35 vs L06 59/L07 73) diminta belasan
 kali sebelum kartu DELTA lahir; begitu lahir, loop tertutup dalam satu giliran
 dan MRG-ALL membacanya benar. Preseden urutan sehat: DELTA-<lajur> -> MRG-ALL

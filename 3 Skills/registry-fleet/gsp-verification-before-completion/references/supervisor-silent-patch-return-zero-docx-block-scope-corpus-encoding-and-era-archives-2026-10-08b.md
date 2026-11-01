@@ -1,4 +1,4 @@
-# Supervisor lessons: silent no-op patches, DOCX block-scope blindness, corpus encoding, era archives, denominator registers (2026-10-08b, boards GAYAMANUAL-1007 / VCTL-1007 / PSIKOTES-1008)
+# Supervisor lessons: silent no-op patches, DOCX block-scope blindness, corpus encoding, era archives, denominator registers (2026-10-08b, boards GAYAMANUAL-1007 / parallel mission 1007 / PSIKOTES-1008)
 
 All patterns below were verified by supervisor measurement on disk during countersigns, not taken from worker reports.
 

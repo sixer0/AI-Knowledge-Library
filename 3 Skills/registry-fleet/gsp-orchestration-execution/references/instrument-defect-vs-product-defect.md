@@ -1,4 +1,4 @@
-# Cacat ALAT vs cacat PRODUK pada gerbang verifikasi (preseden RAFIF-GUIDE-0925, 25-09)
+# Cacat ALAT vs cacat PRODUK pada gerbang verifikasi (preseden misi panduan 0925, 25-09)
 
 Kelas masalah: instrumen verifikasi beku (`check_*.py`) menghasilkan NEEDS_REVIEW/FAIL
 yang AKARNYA di alat, bukan di artefak. Godaan salah: verifier menambal alat lalu

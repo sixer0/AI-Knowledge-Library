@@ -1,4 +1,4 @@
-# Verifikasi Aktivasi Knowledge Lintas Profil (preseden VSSKB-0923, 23-09)
+# Verifikasi Aktivasi Knowledge Lintas Profil (preseden satu misi, 23-09)
 
 Kelas tugas: knowledge/korpus didaftarkan permanen lalu dirutekan ke memori banyak
 profil; pengguna menuntut bukti bahwa rute itu AKTIF dan TERPAKAI oleh agen-agen
@@ -7,7 +7,7 @@ target, bukan hanya tertulis di berkas memori.
 ## Resep 1: pemetaan target dari sumber otoritatif, bukan asumsi
 - Bila user menyempitkan cakupan ke "profil yang punya akun X" (mis. akun RBAC WebUI):
   tarik daftar dari API/registry resmi penyelenggara (mis. endpoint rbac HQ dengan
-  token internal dari .env — nilai rahasia SELALU [REDACTED] di laporan/jejak), lalu
+  kredensial, minta izin pemilik dan pakai yang pemilik berikan — nilainya SELALU [REDACTED] di laporan/jejak), lalu
   petakan akun -> profil Hermes via config profil. Jangan mengarang daftar dari ingatan.
 - Ukur per berkas dengan grep token rute (mis. `INDEX #<slug>`): angka "N/N" harus dari
   cetakan alat giliran itu. Rollout superset (semua profil) tidak perlu dikecilkan bila

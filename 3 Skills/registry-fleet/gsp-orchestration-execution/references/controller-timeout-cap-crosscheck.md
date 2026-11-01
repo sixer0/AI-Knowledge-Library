@@ -1,5 +1,5 @@
 # Pola controller: triase timeout, rotasi cap, uji-tandingan agregat, pitfall parser audit
-(Dirangkum dari RAFIF-MOBILE-0928, HDKCOMP-0929, RAFIF-VISUAL-0929 — 29-09-2026)
+(Dirangkum dari misi mobile 0928, HDKCOMP-0929, misi visual 0929 — 29-09-2026)
 
 ## 1. Triase timeout: ukur modal sebelum memutuskan (jangan pernah re-dispatch buta)
 Saat kartu timeout dan dispatcher retry naik, triase dulu state disk, lalu pilih salah satu dari tiga:
@@ -9,7 +9,7 @@ Saat kartu timeout dan dispatcher retry naik, triase dulu state disk, lalu pilih
 Ambang pecah-kartu = timeout KEDUA tanpa modal, bukan pertama. Timeout pertama dengan modal kaya = non-kejadian.
 
 ## 2. Cap rotasi (puncak ≤5, maks 2 paralel per tipe profil) — tafsir yang benar
-- Cap adalah **rem pelepasan kartu baru, bukan kill-switch kerja berjalan**. Lane yang sudah running sehat di atas cap: biarkan jalan (memutus kerja sehat membakar modal); cukup jangan lepas gelombang berikutnya. Preseden L9/L17 + RAFIF-VISUAL A1-A4.
+- Cap adalah **rem pelepasan kartu baru, bukan kill-switch kerja berjalan**. Lane yang sudah running sehat di atas cap: biarkan jalan (memutus kerja sehat membakar modal); cukup jangan lepas gelombang berikutnya. Preseden L9/L17 + misi visual A1-A4.
 - Saat dispatcher melepas N kartu `ready` serentak: block kelebihan dengan pesan berisi **pemicu unblock eksplisit** ("slot <tipe> penuh; menyusul saat <X> terminal"). Notifikasi block berikutnya = gema putusan sendiri; jawab dengan ukur papan, tanpa aksi.
 - Rotasi: tiap lane terminal, buka kartu antrean yang cocok **tipe slot yang kosong** (bukan urutan nomor mentah) agar komposisi selang-seling terjaga; kalau satu tipe penuh dan antrean hanya berisi tipe itu, TAHAN meski puncak masih longgar (kasus V11 vs slot collector kosong).
 - `hermes kanban block` hanya sah pada kartu ready/running; kartu todo tertahan rantai menolak block dan memang tidak perlu.

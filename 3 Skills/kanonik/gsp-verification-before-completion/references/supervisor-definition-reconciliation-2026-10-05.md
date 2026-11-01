@@ -1,6 +1,6 @@
 # Supervisor countersign playbook — definition reconciliation & board discipline (05-10 session, five tenants)
 
-Dense rules distilled from ~30 countersign/vonis cycles across RAFAI / PROMANUAL / EXPOWORLD / RAFIFUNITY / DATMANUAL / GAYA-AHLI boards. Each rule cites its evidence case so future supervisors can recognize the pattern, not just obey it.
+Dense rules distilled from ~30 countersign/vonis cycles across a sibling book / PROMANUAL / EXPOWORLD / the Unity book / DATMANUAL / GAYA-AHLI boards. Each rule cites its evidence case so future supervisors can recognize the pattern, not just obey it.
 
 ## 1. Definition reconciliation: N numbers = N detectors
 When reports disagree on a count of the same property, do NOT pick a winner. Enumerate every definition, reproduce each with your own parser, and require the released verdict to close arithmetically with a printed mapping formula.
@@ -18,7 +18,7 @@ When the flagged token IS the object being measured, editing = falsifying the re
 - Two DIFFERENT git commands sharing stem "Type git config --global user." flagged as C-14 duplication — varying them breaks instruction truth (stem-instruction false-positive).
 - 4x identical "Retrieved October 3, 2026" APA access-date lines — citation convention uniformity is format truth (boilerplate-citation false-positive).
 - Machine-output headers of UJIJ VARIANSI blocks left verbatim on purpose — varying = fabricating measurement.
-Corollary: a detector bug is a fleet ticket, not a content fix — C-8b LIMITATION_WORDS list is Indonesian-only and false-FAILs English limitation sentences; confirmed cross-board (RAFIFUNITY CH02 + PROMANUAL SUNTA laporan) before escalating.
+Corollary: a detector bug is a fleet ticket, not a content fix — C-8b LIMITATION_WORDS list is Indonesian-only and false-FAILs English limitation sentences; confirmed cross-board (the Unity book CH02 + PROMANUAL SUNTA laporan) before escalating.
 
 ## 4. Board print beats notification claim
 If a notification says `completed` but `hermes kanban show | grep status:` still prints running: freeze measurements in an INTERIM note (explicitly: "final verdict held until administrative closure"), and when closure lands, open the final verdict with "PENUTUS INTERIM" + verify the previously-missing deliverables (e.g. scanner trail absent in interim, present at closure). Redelivered notifications for cards already carrying your verdict are no-ops (grep -c first). Never re-post a comment without `show | grep -c <unique phrase>` = 0.
@@ -27,7 +27,7 @@ If a notification says `completed` but `hermes kanban show | grep status:` still
 Compare ONLY the same file set: `backup ∩ now`. Union comparisons produced a fake regression "155 -> 181 template occurrences" (new-state covered 22 chapters, backup only the 16 touched ones); intersected comparison showed the true 155 -> 151 = exactly the 4 targeted variations. Same shape as the PROMANUAL placeholder-census lesson: report the intersection, not the union.
 
 ## 6. Reverse the order when a validator exists (render-as-analyzer)
-FIX-FIGUR RAFIFUNITY burned two full 2700s runs probing annotation geometry manually and produced ZERO rerendered PNGs, while the generator already contained `margin_check` raising `GeometryError` before savefig — the validator IS the analysis tool: one render pass to a temp path yields the complete raise-backlog = the coordinate fix-list. Prescribed pattern: render-as-is → collect raises → patch coords per raise → two-run idempotent → manifest honest. Escalation if run-3 dies the same way: chain-form change (generator-only vs render-QC split) is an owner decision, not a worker retry loop.
+FIX-FIGUR on the Unity book burned two full 2700s runs probing annotation geometry manually and produced ZERO rerendered PNGs, while the generator already contained `margin_check` raising `GeometryError` before savefig — the validator IS the analysis tool: one render pass to a temp path yields the complete raise-backlog = the coordinate fix-list. Prescribed pattern: render-as-is → collect raises → patch coords per raise → two-run idempotent → manifest honest. Escalation if run-3 dies the same way: chain-form change (generator-only vs render-QC split) is an owner decision, not a worker retry loop.
 
 ## 7. Probe the real ID/heading format before any counting regex
 Assumed `L0-1` diktum IDs → 0 findings (false negative); real format `L0-D1` → 39 diktum matching the claim exactly. Cheap guard: print a few actual headings/IDs FIRST, then write the counting regex. Same family as the 'FIG-' prefix bug and the `[Bab 1]` space-notation miss.

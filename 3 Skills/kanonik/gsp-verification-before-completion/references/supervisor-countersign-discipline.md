@@ -1,7 +1,7 @@
 # Supervisor Countersign Discipline (pengawas lane)
 
 Class-level recipe for countersigning worker/controller claims WITHOUT becoming dispatcher or owner.
-Distilled from a six-board supervision session (06-10/06-11: PROMANUAL, GAYA-AHLI, RAFIFUNITY,
+Distilled from a six-board supervision session (06-10/06-11: PROMANUAL, GAYA-AHLI, the Unity book,
 PROMANUAL-V2, EKASLAP, VISUAL). Every rule below was exercised; several fired as real catches.
 
 ## 1. Redeliver guard (always first)

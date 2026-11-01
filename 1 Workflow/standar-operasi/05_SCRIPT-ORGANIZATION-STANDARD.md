@@ -47,7 +47,7 @@ Fungsi (lapis 1) — pilih salah satu:
 | `misc/` | hanya bila tak ada fungsi lain yang cocok (hindari) |
 
 Task (lapis 2) — slug pendek per misi/tema, contoh `univ-uk-eu`, `ads-intel-e4`,
-`katalog-expo`, `adint-surat`. Satu misi = satu folder task. Artefak data
+`katalog-expo`, `instansi-surat`. Satu misi = satu folder task. Artefak data
 pendamping (JSON/log yang dibaca skrip relatif) ikut ke folder task yang sama.
 
 ## 3. Aturan pindah & integritas path
@@ -76,7 +76,7 @@ pendamping (JSON/log yang dibaca skrip relatif) ikut ke folder task yang sama.
   bisa dijalankan, termasuk folder scratch/Temp. Penyebab: direktori kerja
   paling depan di `sys.path`, sehingga `inspect.py` di akar Temp membayangi
   modul standar dan merusakkan import library pihak ketiga dari folder itu
-  (preseden 27-09: misi harga-dems menaruh `inspect.py` di akar `%TEMP%`;
+  (preseden 27-09: misi harga-proyek menaruh `inspect.py` di akar `%TEMP%`;
   seluruh import pymupdf dari folder itu mati dengan error menyesatkan;
   kontrak remediasi `docs/2026-09-28-stdname-shadow-fix/`).
 

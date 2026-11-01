@@ -1,4 +1,4 @@
-# Verifikasi Naskah Tulis, Figur Render, dan Pass Perbaikan (divalidasi RAFAI/PROMANUAL 04-10)
+# Verifikasi Naskah Tulis, Figur Render, dan Pass Perbaikan (divalidasi misi buku/PROMANUAL 04-10)
 
 Kelas: audit pengawas silang atas artefak NASKAH (bab tulis, front matter), aset VISUAL
 ter-render, dan kartu perbaikan/editor — bukan berkas riset/akuisisi (itu
@@ -49,7 +49,7 @@ keputusan, gradasi bahaya terbalik vs sumbu, mistranslate harfiah ("takeaways"
 Editor boleh mengubah prosa; muatan beban-rilis tidak. Bukti konten-kekal =
 hitung DUA SISI dan cocokkan, jangan baca-diff-per-mata:
 - jumlah rujukan lajur-ID (matcher §1) sebelum & sesudah — utuh semua;
-- jumlah token angka harga (`$…`/`USD …`) sebelum & sesudah — utuh semua;
+- jumlah token angka harga (`$…`/`<kode mata uang> …`) sebelum & sesudah — utuh semua;
 - label bukti ([estimate]/snapshot/klaim-vendor) survive (grep CASE-INSENSITIVE —
   editor menurunkan kapitalisasi, grep sensitif-kapital = positif-palsu "label
   hilang");
