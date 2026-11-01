@@ -1820,7 +1820,7 @@
       "copies": [
         {
           "path": "3 Skills/kanonik/gsp-orchestration-execution",
-          "tree": "786381d9bec7656b256ae62dfc910b5b18a3507b",
+          "tree": "27a4077d576fcaa115c8aafe6453046edbab088b",
           "include": [
             "SKILL.md",
             "references/batch-card-dag-execution.md",
@@ -1923,7 +1923,7 @@
         },
         {
           "path": "3 Skills/registry-fleet/gsp-orchestration-execution",
-          "tree": "054a3f4aaa1142cad00f06a7975591a148613bf7",
+          "tree": "da55324667cd1e033a3f52bd73acd8e3d1426dfa",
           "include": [
             "SKILL.md",
             "references/batch-card-dag-execution.md",
@@ -2238,7 +2238,7 @@
       "copies": [
         {
           "path": "3 Skills/kanonik/gsp-verification-before-completion",
-          "tree": "c0050f68b6ee55f95780bfbc97fdb2705a3d8183",
+          "tree": "7799bb40c899c4674f4d32b55045c452fa8b1127",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
@@ -2351,7 +2351,7 @@
         },
         {
           "path": "3 Skills/registry-fleet/gsp-verification-before-completion",
-          "tree": "8f2479857ace5c667482d54c3c77aed5a4ac9156",
+          "tree": "cd28af6de7cd6029178e5295e6080c81321daa82",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
@@ -3054,7 +3054,7 @@
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "0d004fe2271eb560ca627233a9913da145883b20321166ee24dd9b8a380764c1",
+      "source_sha256": "2b87d8ff82bbd5e7009129d9d80a93de7cdc73359e17d6a3e5679935510198e0",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -3114,7 +3114,7 @@
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "37eb925aca8c636b66a00ef1d17351f5c2be300f2146ce3d31986e699650d1c8",
+      "source_sha256": "2dcb8de6aaa47c8f6f13be0ad62b764c5899eae7120e54744fb49ae7d5548529",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -3132,7 +3132,7 @@
     },
     {
       "group": "COMMERCIAL",
-      "source_sha256": "3dc768213c82a60ab57e2a3f093470771ce9b2193b6507f3ad25195319f564e8",
+      "source_sha256": "e47b40d69a12deef03f876e090fd1b6c2667294db16b3645d9f4a70da544d8de",
       "lines": 1,
       "basis": "generic-word"
     },
