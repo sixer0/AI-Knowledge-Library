@@ -2238,7 +2238,7 @@
       "copies": [
         {
           "path": "3 Skills/kanonik/gsp-verification-before-completion",
-          "tree": "7799bb40c899c4674f4d32b55045c452fa8b1127",
+          "tree": "862b3cbf907a1521ec98a10a8007d5adcdd97441",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
@@ -2351,7 +2351,7 @@
         },
         {
           "path": "3 Skills/registry-fleet/gsp-verification-before-completion",
-          "tree": "cd28af6de7cd6029178e5295e6080c81321daa82",
+          "tree": "b6997b3c48351c531ba2906842659f7cc7e2cc86",
           "include": [
             "SKILL.md",
             "references/ai-footprint-sweep.md",
