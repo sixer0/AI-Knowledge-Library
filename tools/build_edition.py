@@ -246,8 +246,23 @@ def valid_relative(path):
     return not any(part in {'', '.', '..'} for part in path.split('/'))
 
 
+def valid_include(items):
+    """Daftar positif relatif terhadap salinan: urut byte, tanpa duplikat, tanpa surrogat, memuat `SKILL.md`."""
+    if not isinstance(items, list) or 'SKILL.md' not in items or not all(valid_relative(item) for item in items):
+        return False
+    try:
+        keys = [item.encode('utf-8') for item in items]
+    except UnicodeEncodeError:
+        return False
+    return keys == sorted(set(keys))
+
+
 def validate_allowlist(raw):
-    """Skema tertutup: kunci tak dikenal ditolak, jadi kolom pengecualian tidak dapat ditambahkan."""
+    """Skema tertutup: kunci tak dikenal ditolak, jadi kolom pengecualian tidak dapat ditambahkan.
+
+    Satu-satunya kunci opsional pada salinan skill adalah `include`, daftar positif. Semua salinan satu
+    skill sama-sama memakainya dengan daftar yang sama, atau sama-sama tanpa `include`.
+    """
     try:
         config = json.loads(raw.decode('utf-8'))
     except ValueError:
@@ -292,10 +307,14 @@ def validate_allowlist(raw):
             raise invalid('skills')
         names.add(skill['name'])
         for copy in skill['copies']:
-            if not isinstance(copy, dict) or set(copy) != {'path', 'tree'} or not is_hex(copy['tree'], (40, 64)):
+            if not isinstance(copy, dict) or set(copy) - {'include'} != {'path', 'tree'} or not is_hex(copy['tree'], (40, 64)):
                 raise invalid('skills')
             if not valid_relative(copy['path']) or not any(copy['path'].startswith(base + '/') for base in SKILL_COPIES):
                 raise invalid('skills')
+            if 'include' in copy and not valid_include(copy['include']):
+                raise invalid('include')
+            if copy.get('include') != skill['copies'][0].get('include'):
+                raise invalid('include')
     for review in config['scan_reviews']:
         if not isinstance(review, dict) or set(review) != {'group', 'source_sha256', 'lines', 'basis'}:
             raise invalid('scan_reviews')
@@ -573,14 +592,21 @@ def select_files(config, files, trees, repository):
         raise Blocked('skill_nested_unlisted', [{'path': path} for path in grouped])
     check_pins(config, files, trees, repository)
     check_skills(config, files, repository)
-    candidates = set()
+    candidates, listed = set(), set()
     for entry in config['entries']:
         candidates.update([entry['path']] if entry['kind'] == 'file' else covered(files, entry['path']))
     for skill in config['skills']:
         for copy in skill['copies']:
-            candidates.update(covered(files, copy['path']))
+            if 'include' in copy:
+                listed.update(f"{copy['path']}/{item}" for item in copy['include'])
+            else:
+                candidates.update(covered(files, copy['path']))
+    missing = listed - files.keys()
+    if missing:
+        raise Blocked('skill_include_missing', [{'path': path} for path in sorted(missing, key=sort_key)])
+    candidates |= listed
     extensions = set(config['admitted_extensions'])
-    admitted, found = {}, {}
+    admitted, found, unused = {}, {}, []
     for path in sorted(candidates, key=sort_key):
         violation = path_violation(path)
         if violation:
@@ -594,9 +620,14 @@ def select_files(config, files, trees, repository):
         name = posixpath.basename(path)
         if path != RESOLVER and (Path(name.casefold()).suffix not in extensions
                                  or any(fnmatch.fnmatchcase(name, pattern) for pattern in config['drop_globs'])):
+            # Daftar positif tidak boleh gugur diam-diam.
+            if path in listed:
+                unused.append(path)
             continue
         admitted[path] = files[path][1]
     raise_violations(found)
+    if unused:
+        raise Blocked('skill_include_not_admitted', [{'path': path} for path in unused])
     return admitted
 
 

@@ -1467,6 +1467,332 @@ class DerivedSource(EditionCase):
         self.assertPass(self.fx.build())
 
 
+SKILL_COPY_PATHS = ('3 Skills/kanonik/alpha', '3 Skills/registry-fleet/alpha')
+INCLUDE_VALID = ['SKILL.md', 'references/rujukan.md']
+
+
+def _include_on(items, only=None):
+    """Mutasi N-08: `include` pada semua salinan alpha, atau hanya salinan ke-`only`."""
+    def mutate(config):
+        for index, copy in enumerate(config['skills'][0]['copies']):
+            if only is None or index == only:
+                copy['include'] = items
+    return mutate
+
+
+def _on_copies(name, content='# Isi\n'):
+    def prepare(fx):
+        for copy in SKILL_COPY_PATHS:
+            fx.write(f'{copy}/{name}', content)
+    return prepare
+
+
+def _symlink_on_copies(name):
+    def prepare(fx):
+        for copy in SKILL_COPY_PATHS:
+            (fx.clone / copy / name).symlink_to('SKILL.md')
+    return prepare
+
+
+# Nama -> (penyiapan berkas, nilai `include`, alasan). Berkas pemicu sudah ada saat kontrol, di luar daftar.
+INCLUDE_REJECTIONS = {
+    'nilai_bukan_larik': (None, 'SKILL.md', 'allowlist_invalid'),
+    'nilai_null': (None, None, 'allowlist_invalid'),
+    'nilai_objek': (None, {'SKILL.md': 1}, 'allowlist_invalid'),
+    'nilai_kosong': (None, [], 'allowlist_invalid'),
+    'butir_bukan_teks': (None, ['SKILL.md', 1], 'allowlist_invalid'),
+    'butir_kosong': (None, ['', 'SKILL.md'], 'allowlist_invalid'),
+    'butir_absolut': (None, ['/x.md', 'SKILL.md'], 'allowlist_invalid'),
+    'butir_naik': (None, ['../beta/x.md', 'SKILL.md'], 'allowlist_invalid'),
+    'butir_naik_tengah': (None, ['SKILL.md', 'references/../x.md'], 'allowlist_invalid'),
+    'butir_wildcard': (None, ['SKILL.md', 'references/*.md'], 'allowlist_invalid'),
+    'butir_garis_miring_balik': (None, ['SKILL.md', 'references\\rujukan.md'], 'allowlist_invalid'),
+    'butir_folder_bergaris_miring': (None, ['SKILL.md', 'references/'], 'allowlist_invalid'),
+    'duplikat': (None, ['SKILL.md', 'SKILL.md'], 'allowlist_invalid'),
+    'tak_terurut_byte': (None, ['references/rujukan.md', 'SKILL.md'], 'allowlist_invalid'),
+    'tanpa_skill_md': (None, ['references/rujukan.md'], 'allowlist_invalid'),
+    'skill_md_bersarang_saja': (None, ['references/SKILL.md', 'references/rujukan.md'], 'allowlist_invalid'),
+    'skill_md_kapitalisasi_lain': (None, ['references/rujukan.md', 'skill.md'], 'allowlist_invalid'),
+    'hilang_pada_commit': (None, ['SKILL.md', 'references/tidak-ada.md'], 'skill_include_missing'),
+    'butir_berupa_folder': (None, ['SKILL.md', 'references'], 'skill_include_missing'),
+    'tak_terpakai_akhiran_skrip': (_on_copies('scripts/alat.py'), ['SKILL.md', 'scripts/alat.py'], 'skill_include_not_admitted'),
+    'tak_terpakai_akhiran_lain': (_on_copies('catatan.pdf'), ['SKILL.md', 'catatan.pdf'], 'skill_include_not_admitted'),
+    'tak_terpakai_drop_glob_bak': (_on_copies('catatan.bak.md'), ['SKILL.md', 'catatan.bak.md'], 'skill_include_not_admitted'),
+    'tak_terpakai_drop_glob_census': (_on_copies('census_x.md'), ['SKILL.md', 'census_x.md'], 'skill_include_not_admitted'),
+    'path_berkas_titik': (_on_copies('.tersembunyi/x.md'), ['.tersembunyi/x.md', 'SKILL.md'], 'harness_autoload_path'),
+    'path_autoload': (_on_copies('fixtures/AGENTS.md'), ['SKILL.md', 'fixtures/AGENTS.md'], 'harness_autoload_path'),
+    'jenis_zip': (_on_copies('arsip.zip', b'PK'), ['SKILL.md', 'arsip.zip'], 'denied_type'),
+    'jenis_symlink': (_symlink_on_copies('tautan.md'), ['SKILL.md', 'tautan.md'], 'denied_type'),
+    'isi_biner': (_on_copies('data.txt', b'a\x00b'), ['SKILL.md', 'data.txt'], 'binary_not_scannable'),
+    'pindai_isi': (_on_copies('tanda.md', 'TANDA-SINTETIK\n'), ['SKILL.md', 'tanda.md'], 'scan_hit'),
+    'pindai_nama_butir': (_on_copies('TANDA-SINTETIK.md'), ['SKILL.md', 'TANDA-SINTETIK.md'], 'scan_hit'),
+    'pindai_turunan': (_on_copies('n.md', 'lihat catatan-perkara-sintetik\n'), ['SKILL.md', 'n.md'], 'derived_name_hit'),
+}
+
+
+class SkillInclude(EditionCase):
+    """Kontrak `include`: tiap penolakan didahului kontrol `include` sah pada fixture yang sama."""
+
+    def published(self, items=None, prepare=None):
+        if prepare:
+            prepare(self.fx)
+        self.fx.publish(_include_on(INCLUDE_VALID if items is None else items))
+
+    def control_with_include(self):
+        self.assertPass(self.fx.build(output=self.fx.base / 'kontrol'))
+
+    def assertIncludeRejected(self, reason):
+        before = tree_hash(self.fx.output)
+        run = self.fx.build()
+        self.assertBlocked(run, reason)
+        self.assertEqual(tree_hash(self.fx.output), before, 'keluaran berubah')
+        return run
+
+    def tree_files(self, root=None):
+        root = Path(root or self.fx.output)
+        return {path.relative_to(root).as_posix(): path.read_bytes() for path in root.rglob('*') if path.is_file()}
+
+    def skill_files(self, root=None):
+        return sorted(name for name in self.tree_files(root) if name.startswith(tuple(copy + '/' for copy in SKILL_COPY_PATHS)))
+
+    def test_hanya_butir_tercantum_tersalin(self):
+        self.published(prepare=_on_copies('references/lain.md'))
+        run = self.fx.build()
+        self.assertPass(run)
+        self.assertEqual(self.skill_files(), sorted(f'{copy}/{item}' for copy in SKILL_COPY_PATHS for item in INCLUDE_VALID))
+        self.assertEqual(run.data['expected_missing'], 0)
+        self.assertFalse([name for name in self.fx.manifest() if name.endswith('references/lain.md')])
+        self.assertEqual(shipped_check(self.fx.output).returncode, 0)
+
+    def test_tanpa_include_tetap_seluruh_skill(self):
+        _on_copies('references/lain.md')(self.fx)
+        self.fx.publish()
+        self.assertPass(self.fx.build())
+        self.assertEqual(self.skill_files(), sorted(f'{copy}/{item}' for copy in SKILL_COPY_PATHS
+                                                    for item in [*INCLUDE_VALID, 'references/lain.md']))
+
+    def test_include_lengkap_sama_dengan_tanpa_include(self):
+        _on_copies('references/lain.md')(self.fx)
+        _on_copies('scripts/alat.py')(self.fx)
+        self.fx.publish()
+        self.assertPass(self.fx.build(output=self.fx.base / 'kontrol'))
+        self.fx.publish(_include_on(['SKILL.md', 'references/lain.md', 'references/rujukan.md']))
+        self.assertPass(self.fx.build())
+        # Tiga berkas ini memang memuat commit atau hash daftar izin, yang berbeda antara dua commit.
+        carries_commit = {'README.md', 'library.json', 'MANIFEST.csv'}
+        whole, listed = self.tree_files(self.fx.base / 'kontrol'), self.tree_files()
+        self.assertEqual(set(whole), set(listed))
+        self.assertEqual({name for name in whole if whole[name] != listed[name]} - carries_commit, set())
+
+    def test_kolom_asing_pada_salinan_ditolak(self):
+        self.published()
+        self.control_with_include()
+        self.fx.publish(lambda config: (_include_on(INCLUDE_VALID)(config), config['skills'][0]['copies'][0].update(exclude=['x'])))
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_antarsalinan_hanya_satu_memakai(self):
+        self.published()
+        self.control_with_include()
+        for only in (0, 1):
+            with self.subTest(salinan=only):
+                self.fx.publish(_include_on(INCLUDE_VALID, only=only))
+                self.assertIncludeRejected('allowlist_invalid')
+
+    def test_antarsalinan_daftar_berbeda(self):
+        self.published()
+        self.control_with_include()
+
+        def mutate(config):
+            _include_on(['SKILL.md'], only=0)(config)
+            _include_on(INCLUDE_VALID, only=1)(config)
+        self.fx.publish(mutate)
+        self.assertIncludeRejected('allowlist_invalid')
+
+    def test_butir_surrogat_ditolak_tanpa_jejak(self):
+        """JSON dapat memuat surrogat lewat escape; publish biasa tidak dapat menulisnya."""
+        self.published()
+        self.control_with_include()
+        for value in ('\ud800.md', '\udc80.md'):
+            with self.subTest(value=ascii(value)):
+                config = json.loads((self.fx.clone / ALLOWLIST).read_text(encoding='utf-8'))
+                _include_on(['SKILL.md', value])(config)
+                self.fx.write(ALLOWLIST, json.dumps(config, ensure_ascii=True))
+                self.fx.commit()
+                self.assertIncludeRejected('allowlist_invalid')
+
+    def test_pin_berkas_tak_tercantum_ditambah(self):
+        self.published()
+        self.control_with_include()
+        self.fx.write(f'{SKILL_COPY_PATHS[0]}/references/baru.md', '# Baru\n')
+        self.fx.commit()
+        self.assertIncludeRejected('allowlist_pin_mismatch')
+
+    def test_pin_berkas_tak_tercantum_diubah(self):
+        self.published(prepare=_on_copies('references/lain.md'))
+        self.control_with_include()
+        self.fx.write(f'{SKILL_COPY_PATHS[1]}/references/lain.md', '# Diubah\n')
+        self.fx.commit()
+        self.assertIncludeRejected('allowlist_pin_mismatch')
+
+    def test_pin_berkas_tak_tercantum_dihapus(self):
+        self.published(prepare=_on_copies('references/lain.md'))
+        self.control_with_include()
+        self.fx.remove(f'{SKILL_COPY_PATHS[0]}/references/lain.md')
+        self.fx.commit()
+        self.assertIncludeRejected('allowlist_pin_mismatch')
+
+    def test_pin_mengalahkan_butir_hilang(self):
+        self.published()
+        self.control_with_include()
+        self.fx.remove(f'{SKILL_COPY_PATHS[0]}/references/rujukan.md')
+        self.fx.commit()
+        self.assertIncludeRejected('allowlist_pin_mismatch')
+
+    def test_hilang_pada_satu_salinan_setelah_pin(self):
+        self.published()
+        self.control_with_include()
+        target = f'{SKILL_COPY_PATHS[1]}/references/rujukan.md'
+        self.fx.remove(target)
+        self.fx.publish(_include_on(INCLUDE_VALID))
+        run = self.assertIncludeRejected('skill_include_missing')
+        self.assertEqual(self.fx.report()['details'], [{'path': target}])
+        self.assertEqual((run.data['hits'], run.data['path_sha256']), (1, [sha(target.encode())]))
+        self.assertNotIn('rujukan', run.stdout)
+
+    def test_tak_terpakai_rinci_hanya_pada_laporan(self):
+        self.published(prepare=_on_copies('scripts/alat.py'))
+        self.control_with_include()
+        self.fx.publish(_include_on(['SKILL.md', 'scripts/alat.py']))
+        run = self.assertIncludeRejected('skill_include_not_admitted')
+        self.assertEqual(self.fx.report()['details'], [{'path': f'{copy}/scripts/alat.py'} for copy in SKILL_COPY_PATHS])
+        self.assertEqual(run.data['hits'], 2)
+        self.assertNotIn('alat.py', run.stdout)
+
+    def test_check_skills_atas_seluruh_folder_kembaran_tersarang(self):
+        self.published()
+        self.control_with_include()
+        self.fx.write(f'{SKILL_COPY_PATHS[0]}/references/sarang/SKILL.md', '---\nname: lain\ndescription: d\n---\n')
+        self.fx.publish(_include_on(INCLUDE_VALID))
+        self.assertIncludeRejected('skill_nested_unlisted')
+
+    def test_check_skills_salinan_tak_tercantum(self):
+        self.published()
+        self.control_with_include()
+
+        def mutate(config):
+            _include_on(INCLUDE_VALID)(config)
+            config['skills'][0]['copies'].pop()
+        self.fx.publish(mutate)
+        self.assertIncludeRejected('skill_copies_mismatch')
+
+    def test_berkas_luar_include_tidak_tersalin_dan_tidak_dipindai(self):
+        """Larangan berlaku pada yang dipilih: daftar positif memang untuk meninggalkan berkas ini."""
+        leftovers = {'tanda.md': 'TANDA-SINTETIK\nINSTANSI-SINTETIK-3\n', 'TANDA-SINTETIK.md': '# Isi\n', 'data.txt': b'a\x00b',
+                     'arsip.zip': b'PK', '.tersembunyi/x.md': '# Isi\n', 'fixtures/AGENTS.md': '# Isi\n', 'scripts/alat.py': '# skrip\n'}
+        for name, content in leftovers.items():
+            _on_copies(name, content)(self.fx)
+        self.published(prepare=_symlink_on_copies('tautan.md'))
+        self.assertPass(self.fx.build())
+        self.assertEqual(self.skill_files(), sorted(f'{copy}/{item}' for copy in SKILL_COPY_PATHS for item in INCLUDE_VALID))
+        self.assertEqual(shipped_check(self.fx.output).returncode, 0)
+
+    def test_content_diff_hanya_atas_butir_tercantum(self):
+        self.fx.write(f'{SKILL_COPY_PATHS[0]}/references/lain.md', '# Satu\n')
+        self.fx.write(f'{SKILL_COPY_PATHS[1]}/references/lain.md', '# Dua\n')
+        self.published()
+        self.assertPass(self.fx.build(output=self.fx.base / 'sama'))
+        rows = (self.fx.base / 'sama/3 Skills/KATALOG.jsonl').read_text(encoding='utf-8').splitlines()[1:]
+        self.assertFalse(json.loads(rows[0])['content_diff'])
+        self.fx.publish(_include_on(['SKILL.md', 'references/lain.md']))
+        self.assertPass(self.fx.build())
+        rows = (self.fx.output / '3 Skills/KATALOG.jsonl').read_text(encoding='utf-8').splitlines()[1:]
+        self.assertTrue(json.loads(rows[0])['content_diff'])
+
+    def test_pin_mempertahankan_include(self):
+        self.published(prepare=_on_copies('references/lain.md'))
+        for copy in SKILL_COPY_PATHS:
+            self.fx.write(f'{copy}/references/lain.md', '# Diubah\n')
+        self.fx.commit()
+        self.assertIncludeRejected('allowlist_pin_mismatch')
+        run = self.fx.run_tool('pin', *SKILL_COPY_PATHS)
+        self.assertEqual((run.code, run.data['updated']), (0, 2), run.stdout)
+        copies = json.loads((self.fx.clone / ALLOWLIST).read_text(encoding='utf-8'))['skills'][0]['copies']
+        self.assertEqual([copy['include'] for copy in copies], [INCLUDE_VALID, INCLUDE_VALID])
+        self.fx.commit()
+        self.assertPass(self.fx.build())
+        self.assertEqual(self.skill_files(), sorted(f'{copy}/{item}' for copy in SKILL_COPY_PATHS for item in INCLUDE_VALID))
+
+
+class SkillIncludeExpectedMissing(EditionCase):
+    """F-2: tautan Markdown ke berkas di luar `include` menaikkan N-36, dan `check` memeriksa angka itu."""
+
+    BODY = ('---\nname: alpha\ndescription: Skill alpha sintetis.\n---\n'
+            '[berkas](references/lain.md)\n[jangkar](references/lain.md#bagian)\n[folder](lain-folder/)\n'
+            '[ada](references/rujukan.md)\n[folder ada](references/)\n`[kode](references/lain.md)`\n')
+    # Tiga tautan pertama menunjuk berkas di luar daftar, pada dua salinan.
+    EXPECTED = 6
+
+    def setUp(self):
+        super().setUp()
+        for name, content in (('SKILL.md', self.BODY), ('references/lain.md', '# Bagian\n'), ('lain-folder/x.md', '# Isi\n')):
+            _on_copies(name, content)(self.fx)
+
+    def test_kontrol_tanpa_include_nol_lalu_naik_dan_check_lulus(self):
+        self.fx.publish()
+        run = self.fx.build(output=self.fx.base / 'kontrol')
+        self.assertPass(run)
+        self.assertEqual(run.data['expected_missing'], 0)
+        self.fx.publish(_include_on(INCLUDE_VALID))
+        run = self.fx.build()
+        self.assertPass(run)
+        self.assertEqual(run.data['expected_missing'], self.EXPECTED)
+        self.assertEqual(json.loads((self.fx.output / 'library.json').read_text())['edition']['expected_missing'], self.EXPECTED)
+        done = shipped_check(self.fx.output)
+        self.assertEqual(done.returncode, 0, done.stdout)
+        self.assertEqual(json.loads(done.stdout)['links']['missing'], self.EXPECTED)
+
+    def test_angka_salah_pada_edisi_menggagalkan_check_dua_arah(self):
+        self.fx.publish(_include_on(INCLUDE_VALID))
+        self.assertPass(self.fx.build())
+        path = self.fx.output / 'library.json'
+        original = json.loads(path.read_text())
+        for delta in (1, -1):
+            with self.subTest(delta=delta):
+                changed = json.loads(json.dumps(original))
+                changed['edition']['expected_missing'] += delta
+                path.write_text(json.dumps(changed))
+                done = shipped_check(self.fx.output)
+                self.assertEqual(done.returncode, 1, done.stdout)
+                self.assertIn('expected_missing_mismatch', {row.get('reason') for row in json.loads(done.stdout)['failures']})
+
+    def test_angka_salah_saat_build_menghentikan_build_dua_arah(self):
+        self.fx.publish(_include_on(INCLUDE_VALID))
+        self.assertPass(self.fx.build(output=self.fx.base / 'kontrol'))
+        for delta in (1, -1):
+            with self.subTest(delta=delta):
+                module = load_builder(self.fx.clone)
+                original = module.count_expected_missing
+                stdout = io.StringIO()
+                with mock.patch.object(module, 'count_expected_missing', lambda *args: original(*args) + delta), contextlib.redirect_stdout(stdout):
+                    code = module.main(['build', '--output', str(self.fx.output)])
+                self.assertEqual((code, json.loads(stdout.getvalue())['reason']), (1, 'check_failed'))
+                self.assertIn('expected_missing_mismatch', {row.get('reason') for row in self.fx.report()['details']})
+                self.assertFalse(self.fx.output.exists())
+
+
+def _make_include_rejection(prepare, items, reason):
+    def test(self):
+        self.published(prepare=prepare)
+        self.control_with_include()
+        self.fx.publish(_include_on(items))
+        self.assertIncludeRejected(reason)
+    return test
+
+
+for _name, (_prepare, _items, _reason) in INCLUDE_REJECTIONS.items():
+    setattr(SkillInclude, f'test_tolak_{_name}', _make_include_rejection(_prepare, _items, _reason))
+
+
 class SourceRules(unittest.TestCase):
     """Sifat kode pada clone ini: arah impor satu, pustaka standar, flag koleksi tidak dibaca."""
 
