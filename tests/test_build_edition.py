@@ -1467,6 +1467,92 @@ class DerivedSource(EditionCase):
         self.assertPass(self.fx.build())
 
 
+FAMILY_LABEL = 'gsp-orchestration'
+FAMILY_SKILL = 'gsp-orchestration-execution'
+
+
+class DerivedFamilyLabel(EditionCase):
+    """Label keluarga skill pada `perkara` keluar dari pembanding; nilai lain dan stem tetap keras."""
+
+    WIKI_DIR = '4 Knowledge Bank/wiki-information-library/'
+    WIKI_PATH = WIKI_DIR + 'catatan-keluarga-sintetik.md'
+
+    def add_skill(self, name):
+        copies = [f'{folder}/{name}' for folder in ('3 Skills/kanonik', '3 Skills/registry-fleet')]
+        for copy in copies:
+            self.fx.write(f'{copy}/SKILL.md', f'---\nname: {name}\ndescription: Skill keluarga sintetis.\n---\n# Isi\n')
+        self.fx.skills[name] = copies
+
+    def note(self, perkara, path=None):
+        self.fx.write(path or self.WIKI_PATH, f'---\nperkara: {perkara}\n---\n# isi\n')
+
+    def collected(self, *notes):
+        """Nama yang sampai ke `token_regex`, tanpa membangun apa pun."""
+        builder = load_builder(REPOSITORY)
+        files = {self.WIKI_DIR + name: (None, f'---\nperkara: {value}\n---\n'.encode()) for name, value in notes}
+        repository = mock.Mock(blob=lambda data: data)
+        with mock.patch.object(builder, 'token_regex', lambda names: set(names)):
+            return builder.collect_derived_names(files, repository)
+
+    def test_label_tidak_menghentikan_folder_skill(self):
+        self.add_skill(FAMILY_SKILL)
+        self.note(FAMILY_LABEL)
+        self.fx.write('1 Workflow/n.md', f'keluarga {FAMILY_LABEL} dan {FAMILY_SKILL}\n')
+        self.fx.publish()
+        run = self.fx.build()
+        self.assertPass(run)
+        self.assertIn(f'3 Skills/kanonik/{FAMILY_SKILL}/SKILL.md', self.fx.manifest())
+
+    def test_varian_token_yang_sama_ikut_keluar(self):
+        self.add_skill(FAMILY_SKILL)
+        for value in ('GSP-Orchestration', 'GSP-ORCHESTRATION', f'"{FAMILY_LABEL}"'):
+            with self.subTest(value=value):
+                self.note(value)
+                self.fx.publish()
+                self.assertPass(self.fx.build(output=self.fx.base / 'varian'))
+                shutil.rmtree(self.fx.base / 'varian')
+
+    def test_nilai_lain_tetap_menghentikan_folder_skill(self):
+        self.add_skill('gsp-lain-sintetik-execution')
+        self.note('gsp-lain-sintetik')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_nilai_lain_pada_larik_berlabel_tetap_keras(self):
+        self.add_skill(FAMILY_SKILL)
+        self.note(f'[{FAMILY_LABEL}, Perkara Larik Sintetik]')
+        self.fx.publish()
+        self.assertPass(self.fx.build(output=self.fx.base / 'kontrol'))
+        self.fx.write('1 Workflow/n.md', 'menyebut perkara larik sintetik.\n')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_nama_yang_memuat_label_tetap_keras(self):
+        for value in (f'{FAMILY_LABEL}-pusat', f'x{FAMILY_LABEL}', f'{FAMILY_LABEL} pusat', 'GSP-Orchestration-Pusat', FAMILY_SKILL):
+            with self.subTest(value=value):
+                self.note(value)
+                self.fx.write('1 Workflow/n.md', f'menyebut {value}.\n')
+                self.fx.publish()
+                self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_stem_bernama_sama_tetap_keras(self):
+        self.add_skill(FAMILY_SKILL)
+        self.note(FAMILY_LABEL, f'{self.WIKI_DIR}{FAMILY_LABEL}.md')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_stem_catatan_berlabel_tetap_keras(self):
+        self.note(FAMILY_LABEL)
+        self.fx.write('1 Workflow/n.md', 'lihat catatan-keluarga-sintetik\n')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'derived_name_hit')
+
+    def test_pembanding_turun_tepat_satu(self):
+        names = self.collected(('a-sintetik.md', 'Perkara Satu Sintetik'), ('b-sintetik.md', FAMILY_LABEL),
+                               ('c-sintetik.md', 'GSP-Orchestration'), ('d-sintetik.md', f'{FAMILY_LABEL}-pusat'))
+        self.assertEqual(names, {'a-sintetik', 'b-sintetik', 'c-sintetik', 'd-sintetik', 'Perkara Satu Sintetik', f'{FAMILY_LABEL}-pusat'})
+
+
 SKILL_COPY_PATHS = ('3 Skills/kanonik/alpha', '3 Skills/registry-fleet/alpha')
 INCLUDE_VALID = ['SKILL.md', 'references/rujukan.md']
 

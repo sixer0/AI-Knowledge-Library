@@ -57,6 +57,9 @@ CATALOG_MAX_CHARS = 25000 * 2
 CATALOG_DESCRIPTION_MAX_CHARS = 120
 INDEX_MAX_CHARS = 100000
 DERIVED_MIN_CHARS = 5
+# Label keluarga skill pada `perkara` wiki, bukan nama perkara: bila ikut, folder skill keluarga itu tertolak semua.
+# Hanya nilai `perkara` yang dikecualikan; stem berkas wiki bernama sama tetap masuk pembanding.
+DERIVED_FAMILY_LABEL = 'gsp-orchestration'
 OOXML_MEMBER_MAX_BYTES = 64 * 1024 * 1024
 CONTROL_BLOB_MAX_BYTES = 16 * 1024 * 1024
 
@@ -1059,8 +1062,12 @@ def scan_texts(path, data):
         raise Blocked('binary_not_scannable', [{'path': path}]) from None
 
 
+def token_form(name):
+    return unicodedata.normalize('NFC', name).casefold()
+
+
 def token_regex(names):
-    names = {unicodedata.normalize('NFC', name).casefold() for name in names}
+    names = {token_form(name) for name in names}
     if not names:
         return None
     alternatives = '|'.join(re.escape(name) for name in sorted(names, key=lambda item: (-len(item), item)))
@@ -1085,7 +1092,7 @@ def collect_derived_names(files, repository):
         values = value if isinstance(value, list) else [value]
         values = [item.strip() for item in values if isinstance(item, str) and item.strip()]
         if values:
-            names.update(values)
+            names.update(item for item in values if token_form(item) != DERIVED_FAMILY_LABEL)
             names.add(Path(posixpath.basename(path)).stem)
     if invalid_sources:
         raise Blocked('derived_source_invalid', [{'path': path} for path in sorted(invalid_sources, key=sort_key)])
