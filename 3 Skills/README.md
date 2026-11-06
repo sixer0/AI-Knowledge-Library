@@ -303,8 +303,8 @@ Setiap skill pada katalog di atas punya salinan bernama sama di `registry-fleet/
 Contoh untuk desain link serat optik: [kanonik](kanonik/fiber-link-design/SKILL.md) dan
 [registry-fleet](registry-fleet/fiber-link-design/SKILL.md). Kedua salinan tidak selalu sama
 isinya; perbandingan berkas langsung menunjukkan sebagian `SKILL.md` berbeda, misalnya
-`gsp-document-quality-standards` dan `gsp-report-format`. Pohon ini tidak memuat katalog
-perbedaan (`content_diff`); katalog itu hanya ada pada edisi umum.
+`gsp-document-quality-standards` dan `gsp-report-format`. Katalog perbedaan (`content_diff`)
+hanya ada pada `KATALOG.jsonl` edisi umum, tidak pada clone penuh.
 
 Ringkasan aturan "Pilih skill" pada [HARNESS.md](../HARNESS.md):
 

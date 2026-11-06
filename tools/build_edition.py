@@ -953,8 +953,9 @@ TABLE_RULE = re.compile(r'^\s*\|?\s*:?-+:?\s*(?:\|\s*:?-+:?\s*)*\|?\s*$')
 LIST_ITEM = re.compile(r'^([ \t]*)(?:[-*+]|\d+[.)])[ \t]+')
 HEADING = re.compile(r'^#{1,6}\s')
 README_NOTE = ('Versi edisi umum: tautan ke berkas yang tidak ikut edisi dilepas, baris yang semua rujukannya tidak ada '
-               'dihapus, inventaris lengkap ada pada `INDEKS.md`, dan nomor baris yang dikutip pada berkas tujuan '
-               'bergeser {shift} baris karena stempel edisi.')
+               'dihapus, berkas atau folder yang disebut sebagai teks biasa dapat tidak ikut edisi (periksa `INDEKS.md` '
+               'untuk inventaris lengkap), dan nomor baris yang dikutip pada berkas tujuan `.md` bergeser {shift} baris '
+               'karena stempel edisi.')
 README_NOTE_PREFIX = README_NOTE.split(':')[0] + ':'
 EMPTY_TABLE = 'Tidak ada baris yang berlaku pada edisi ini.'
 
@@ -1094,6 +1095,9 @@ def transform_readmes(module, source_config, files, names, readmes, shift):
             local = found.get('status') == 'local' or found.get('reason') in {'not_in_clone', 'anchor_not_found'}
             return local and found.get('relative_path') not in present
         result[path] = transform_readme(text, absent, shift)
+        # Tautan yang tidak terlihat oleh tata bersama (mis. gambar bertaut) bisa tersisa menunjuk target absen.
+        if any(absent(target) for target in module.markdown_links(result[path])):
+            raise Blocked('readme_link_residual', [{'path': path}])
     return result
 
 

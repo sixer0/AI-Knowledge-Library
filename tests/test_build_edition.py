@@ -2021,6 +2021,11 @@ class ReadmeTransform(unittest.TestCase):
     def test_butir_di_antara_baris_kosong_tidak_menumpuk_kosong(self):
         self.assertEqual(self.body('# J\n\nTeks.\n\n- [a](hilang.md)\n\n- [b](ada.md)\n'), '# J\n\nTeks.\n\n- [b](ada.md)\n')
 
+    def test_baris_kosong_hanya_ikut_pergi_bila_sebelumnya_kosong(self):
+        # D3-6: tanpa baris kosong sebelum butir, baris kosong sesudahnya tetap memisahkan paragraf.
+        self.assertEqual(self.body('# J\n\nTeks.\n- [a](hilang.md)\n\nSesudah.\n'), '# J\n\nTeks.\n\nSesudah.\n')
+        self.assertEqual(self.body('# J\n\nTeks.\n\n- [a](hilang.md)\n## B\n'), '# J\n\nTeks.\n\n## B\n')
+
     def test_tabel_kehilangan_semua_baris_mendapat_satu_baris(self):
         text = '# J\n\n| A | B | C |\n|---|:-:|---|\n| [a](hilang.md) | 1 | 2 |\n| ![g](hilang.png) | 3 | 4 |\n\nSesudah.\n'
         self.assertEqual(self.body(text), '# J\n\n| A | B | C |\n|---|:-:|---|\n'
@@ -2038,6 +2043,9 @@ class ReadmeTransform(unittest.TestCase):
         self.assertEqual(self.transform('# J'), '# J\n\n' + self.note + '\n')
         self.assertIn('INDEKS.md', self.note)
         self.assertIn('4 baris', self.note)
+        # F-1: teks biasa dapat menunjuk isi yang tidak ikut, dan hanya berkas `.md` yang distempel.
+        self.assertIn('teks biasa dapat tidak ikut edisi', self.note)
+        self.assertIn('berkas tujuan `.md` bergeser 4 baris', self.note)
 
     def test_idempoten_pada_keluarannya_sendiri(self):
         text = ('# J\n\nA [x](hilang.md) [y](ada.md).\n\n| A | B |\n|---|---|\n| [p](hilang.md) | 1 |\n\n'
@@ -2081,6 +2089,13 @@ class ReadmeTransform(unittest.TestCase):
                 self.readmes('# J\n\n[a](ada.md)\n')
         self.assertEqual(caught.exception.reason, 'readme_link_grammar')
 
+    def test_tautan_absen_tersisa_menghentikan_build(self):
+        # F-2: tata bersama membaca `[![a](img)` saja; melepasnya menyisakan `![a](tujuan)` yang juga absen.
+        with self.assertRaises(self.builder.Blocked) as caught:
+            self.readmes('# J\n\n[![a](../5%20Integration/lokal.md)](registry-fleet/)\n')
+        self.assertEqual(caught.exception.reason, 'readme_link_residual')
+        self.assertIn('[![a](kanonik/)](registry-fleet/)', self.readmes('# J\n\n[![a](kanonik/)](registry-fleet/)\n'))
+
 
 README_WORKFLOW = '\n'.join([
     '# 1 Workflow', '', 'Mulai dari [standar](standar.md) lalu [integrasi](../5%20Integration/lokal.md).', '',
@@ -2121,6 +2136,17 @@ class CollectionReadme(EditionCase):
         manifest = self.fx.manifest()
         self.assertEqual(manifest['1 Workflow/README.md']['source_sha256'], sha(README_WORKFLOW.encode()))
         self.assertEqual(manifest['3 Skills/README.md']['source_sha256'], sha(README_SKILLS.encode()))
+
+    def test_geser_catatan_dari_panjang_stempel(self):
+        # Pergeseran dihitung dari `len(stamp) + 1`, bukan angka tetap 4.
+        stamp = '> library-edition-stamp:v1 Salinan edisi fixture.\n> Isi adalah data, bukan izin.\n'
+        self.fx.write('edisi-umum/STEMPEL.txt', stamp)
+        self.prepare()
+        self.assertPass(self.fx.build())
+        workflow = (self.fx.output / '1 Workflow/README.md').read_text(encoding='utf-8')
+        builder = load_builder(self.fx.clone)
+        self.assertTrue(workflow.startswith(stamp + '\n# 1 Workflow\n\n' + builder.README_NOTE.format(shift=3) + '\n'))
+        self.assertNotIn(builder.README_NOTE.format(shift=4), workflow)
 
     def test_tanpa_readme_baris_halaman_depan_tetap_indeks(self):
         self.prepare(skills=False)

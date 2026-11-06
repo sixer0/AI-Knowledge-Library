@@ -17,7 +17,7 @@ di dalamnya milik host asal.
 
 | Lokasi | Isi |
 |---|---|
-| [standar-operasi/](standar-operasi/01_ORGANIZATION-STANDARD.md) | Lima standar bernomor 01-05. 01-04 saling berpasangan (penataan, metadata, runbook harian, prompt harian); 05 berdiri sendiri (skrip) |
+| [standar-operasi/](standar-operasi/01_ORGANIZATION-STANDARD.md) | Standar operasi bernomor 01-05; lihat INDEKS.md untuk yang tersedia. 01-04 saling berpasangan (penataan, metadata, runbook harian, prompt harian); 05 berdiri sendiri (skrip) |
 | [cron/](cron/default-jobs.json) | Dua berkas JSON hasil ekspor daftar job penjadwal, masing-masing berisi objek `jobs` dan `updated_at` |
 | [AGENTS-kebijakan-fleet.md](AGENTS-kebijakan-fleet.md) | Salinan berkas kebijakan workspace bersama fleet, berupa seksi bertanggal ditambah catatan koreksi |
 | [peta-definisi-orkestrasi.md](peta-definisi-orkestrasi.md) | Tabel konsep orkestrasi dan lokasi definisinya di `2 Roles` dan `3 Skills` |
