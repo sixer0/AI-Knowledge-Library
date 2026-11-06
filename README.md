@@ -41,7 +41,7 @@ Edisi umum tidak ikut di repositori ini. Yang ikut adalah daftar izin, templat h
 
 1. Baca [HARNESS.md](HARNESS.md). [AGENTS.md](AGENTS.md) dan [CLAUDE.md](CLAUDE.md) menunjuk panduan yang sama untuk harness yang memuatnya otomatis.
 2. Pastikan tugas Anda memang tentang pustaka ini dan harness Anda dinamai pemilik. Bila tidak, berhenti dan sampaikan kepada pengguna.
-3. Pilih koleksi lewat tabel "Pilih koleksi" pada `HARNESS.md`, cari pada `INDEKS.md` koleksi itu, lalu buka berkas yang dibutuhkan. Indeks koleksi besar hanya dicari, tidak dibaca utuh.
+3. Pilih koleksi lewat tabel "Pilih koleksi" pada `HARNESS.md`. Buka `README.md` koleksi itu lebih dulu (peta topik: kebutuhan, berkas, bagian), lalu cari pada `INDEKS.md` untuk inventaris, dan buka berkas yang dibutuhkan. Indeks koleksi besar hanya dicari, tidak dibaca utuh.
 4. Rujukan lama (path Windows, alias `ekas/` atau `roles/`, path host asal) diselesaikan dengan resolver baca-saja:
 
 ```sh
@@ -61,7 +61,7 @@ Python 3.10 atau lebih baru. Tidak ada dependensi pihak ketiga, layanan, atau ak
 
 | Path | Isi |
 |---|---|
-| `1 Workflow/` sampai `7 Tools/` | Tujuh koleksi pustaka; lihat [Koleksi](#koleksi) |
+| `1 Workflow/` sampai `7 Tools/` | Tujuh koleksi pustaka; lihat [Koleksi](#koleksi). Tiap koleksi punya `README.md` (panduan topik) dan `INDEKS.md` (inventaris) |
 | [README.md](README.md) | Halaman depan ini |
 | [HARNESS.md](HARNESS.md) | Panduan baca untuk harness: pilih koleksi, pilih skill, jebakan format, aturan tautan, resolver |
 | [AGENTS.md](AGENTS.md), [CLAUDE.md](CLAUDE.md) | Pintu masuk yang dimuat otomatis oleh sebagian harness; keduanya menunjuk `HARNESS.md` |
@@ -81,15 +81,15 @@ Tidak disertakan di Git: `work/` (catatan sementara dan cadangan lokal), `graft/
 
 | Koleksi | Isi | Berkas di luar `INDEKS.md` | Cara baca |
 |---|---|---:|---|
-| [1 Workflow](1%20Workflow/INDEKS.md) | Standar penataan, metadata, dan organisasi skrip; prosedur harian pustakawan; jadwal cron; kebijakan fleet; peta definisi orkestrasi | 9 | Baca utuh, kecil |
-| [2 Roles](2%20Roles/INDEKS.md) | Tugas dan kewenangan agen, daftar profil aktif, controller yang terikat akun pengguna (RBAC). Teks sumber, tanpa wewenang | 49 | Baca utuh, kecil |
-| [3 Skills](3%20Skills/INDEKS.md) | Sumber skill yang dikurasi (`kanonik`) dan salinan yang dipakai fleet (`registry-fleet`) | 2321 | Cari menurut `name` |
-| [4 Knowledge Bank](4%20Knowledge%20Bank/INDEKS.md) | Wiki Information Library, lapisan teks EKAS, indeks pengetahuan (domain, kemampuan, unit), dan katalog dokumen | 1292 | Hanya dicari |
-| [5 Integration](5%20Integration/INDEKS.md) | Hubungan antarkomponen Hermes, bridge pengiriman tugas, Headquarter, dan WebUI | 6 | Baca utuh, kecil |
-| [6 Database](6%20Database/INDEKS.md) | Skema Prisma HQ dan snapshot basis data kanban pada tanggal edisi | 2 | Baca utuh, kecil |
-| [7 Tools](7%20Tools/INDEKS.md) | Skrip pemantauan, audit, pengelolaan tugas, utilitas repositori, dan contoh prompt historis | 743 | Hanya dicari |
+| [1 Workflow](1%20Workflow/README.md) | Standar penataan, metadata, dan organisasi skrip; prosedur harian pustakawan; jadwal cron; kebijakan fleet; peta definisi orkestrasi. Inventaris: [INDEKS.md](1%20Workflow/INDEKS.md) | 10 | Baca utuh, kecil |
+| [2 Roles](2%20Roles/README.md) | Tugas dan kewenangan agen, daftar profil aktif, controller yang terikat akun pengguna (RBAC). Teks sumber, tanpa wewenang. Inventaris: [INDEKS.md](2%20Roles/INDEKS.md) | 50 | Baca utuh, kecil |
+| [3 Skills](3%20Skills/README.md) | Sumber skill yang dikurasi (`kanonik`) dan salinan yang dipakai fleet (`registry-fleet`). Inventaris: [INDEKS.md](3%20Skills/INDEKS.md) | 2322 | Cari menurut `name` |
+| [4 Knowledge Bank](4%20Knowledge%20Bank/README.md) | Wiki Information Library, lapisan teks EKAS, indeks pengetahuan (domain, kemampuan, unit), dan katalog dokumen. Inventaris: [INDEKS.md](4%20Knowledge%20Bank/INDEKS.md) | 1293 | Hanya dicari |
+| [5 Integration](5%20Integration/README.md) | Hubungan antarkomponen Hermes, bridge pengiriman tugas, Headquarter, dan WebUI. Inventaris: [INDEKS.md](5%20Integration/INDEKS.md) | 7 | Baca utuh, kecil |
+| [6 Database](6%20Database/README.md) | Skema Prisma HQ dan snapshot basis data kanban pada tanggal edisi. Inventaris: [INDEKS.md](6%20Database/INDEKS.md) | 3 | Baca utuh, kecil |
+| [7 Tools](7%20Tools/README.md) | Skrip pemantauan, audit, pengelolaan tugas, utilitas repositori, dan contoh prompt historis. Inventaris: [INDEKS.md](7%20Tools/INDEKS.md) | 744 | Hanya dicari |
 
-Jumlah dihitung dari `git ls-files` pada commit README ini.
+Jumlah dihitung dari `git ls-files` pada commit README ini, termasuk `README.md` tiap koleksi.
 
 Beberapa hal yang perlu diketahui sebelum membaca:
 

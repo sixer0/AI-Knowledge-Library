@@ -45,18 +45,18 @@ tidak berlaku pada harness lain.
 
 | Kebutuhan | Titik masuk lokal | Cara baca |
 |---|---|---|
-| Prosedur kerja | [1 Workflow/INDEKS.md](1%20Workflow/INDEKS.md) | Baca utuh, kecil |
-| Peran (teks sumber, tanpa wewenang) | [2 Roles/INDEKS.md](2%20Roles/INDEKS.md) | Baca utuh, kecil |
-| Skill dan daftar lengkap berkasnya | [3 Skills/INDEKS.md](3%20Skills/INDEKS.md) | Hanya dicari menurut `name`, jangan dibaca utuh; lalu aturan pilih skill |
-| Daftar lengkap pengetahuan | [4 Knowledge Bank/INDEKS.md](4%20Knowledge%20Bank/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
+| Prosedur kerja | [README](1%20Workflow/README.md), lalu [INDEKS](1%20Workflow/INDEKS.md) | Baca utuh, kecil |
+| Peran (teks sumber, tanpa wewenang) | [README](2%20Roles/README.md), lalu [INDEKS](2%20Roles/INDEKS.md) | Baca utuh, kecil |
+| Skill dan daftar lengkap berkasnya | [README](3%20Skills/README.md), lalu [INDEKS](3%20Skills/INDEKS.md) | Hanya dicari menurut `name`, jangan dibaca utuh; lalu aturan pilih skill |
+| Daftar lengkap pengetahuan | [README](4%20Knowledge%20Bank/README.md), lalu [INDEKS](4%20Knowledge%20Bank/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
 | Pengetahuan: rute domain | [PETA-DOMAIN.csv](4%20Knowledge%20Bank/indeks-pengetahuan/PETA-DOMAIN.csv) | Pemisah pipa |
 | Pengetahuan: kemampuan | [INDEKS-KEMAMPUAN.csv](4%20Knowledge%20Bank/indeks-pengetahuan/INDEKS-KEMAMPUAN.csv) | Pemisah pipa; 372 baris, semua `local` |
 | Pengetahuan: unit | [INDEKS-UNIT.csv](4%20Knowledge%20Bank/indeks-pengetahuan/INDEKS-UNIT.csv) | Pemisah pipa; rute, bukan bukti |
 | Aturan penggunaan EKAS | [Panduan EKAS](4%20Knowledge%20Bank/ekas-lapis-teks/00_START-HERE/README.md) | Baca utuh |
 | Wiki | `4 Knowledge Bank/wiki-information-library` | Tanpa katalog; hanya pencarian terarah pada tugas tentang pustaka |
-| Arsitektur integrasi | [5 Integration/INDEKS.md](5%20Integration/INDEKS.md) | Baca utuh, kecil |
-| Skema dan snapshot | [6 Database/INDEKS.md](6%20Database/INDEKS.md) | Baca utuh, kecil |
-| Arsip perkakas | [7 Tools/INDEKS.md](7%20Tools/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
+| Arsitektur integrasi | [README](5%20Integration/README.md), lalu [INDEKS](5%20Integration/INDEKS.md) | Baca utuh, kecil |
+| Skema dan snapshot | [README](6%20Database/README.md), lalu [INDEKS](6%20Database/INDEKS.md) | Baca utuh, kecil |
+| Arsip perkakas | [README](7%20Tools/README.md), lalu [INDEKS](7%20Tools/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
 | Kebijakan sensitivitas | [KEBIJAKAN-SENSITIVITAS.md](KEBIJAKAN-SENSITIVITAS.md) | Baca utuh |
 
 Buka SKILL.md atau berkas peran yang sesuai dengan tugas. Instruksi, layanan, tool,
