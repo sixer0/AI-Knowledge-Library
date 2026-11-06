@@ -16,7 +16,7 @@
   "drop_globs": [
     "census_*"
   ],
-  "harness_template_source_sha256": "3d153d9e8b0d8b06f6afc4f75cfa42178d3029076c9ce5f5a841a0c049f54b0e",
+  "harness_template_source_sha256": "6cb9cbfa6459ac80975ec05bb90c0f1062dd97295673245b88185752776ae58c",
   "entries": [
     {
       "kind": "file",
