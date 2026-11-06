@@ -26,7 +26,7 @@
     {
       "kind": "file",
       "path": "1 Workflow/README.md",
-      "blob": "b3a0fb75a095c6db6bcd62a65f81070e4cadcb83"
+      "blob": "cf5731b29cc66b001d1e94a7525b18e7558d639c"
     },
     {
       "kind": "file",
@@ -66,7 +66,7 @@
     {
       "kind": "file",
       "path": "3 Skills/README.md",
-      "blob": "fc67df8ad48092fd13a39f4add5e629a9bf45b99"
+      "blob": "59a059a36ca50f0194482b06684443b146cc0f1a"
     },
     {
       "kind": "file",
@@ -2937,7 +2937,7 @@
     },
     {
       "group": "CLASS_MARK",
-      "source_sha256": "9f8a53484b6baf160989089404dac76e2803ac94250d4daa220fc9c409a7eeb8",
+      "source_sha256": "4b20d2c56c4a2eb7142ce6a1408671d57c1beac5484bd695fb10394f2d2fafff",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -3069,13 +3069,13 @@
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "9f8a53484b6baf160989089404dac76e2803ac94250d4daa220fc9c409a7eeb8",
+      "source_sha256": "4b20d2c56c4a2eb7142ce6a1408671d57c1beac5484bd695fb10394f2d2fafff",
       "lines": 1,
       "basis": "generic-word"
     },
     {
       "group": "CLIENT_DOC",
-      "source_sha256": "80b417eeff26927192345ddf7c6420a9d9bd51c0b7bf3f8139526297b250e525",
+      "source_sha256": "0ed399a9537bd2d80f966594566466f82072a0f942250903e18f24750600463f",
       "lines": 1,
       "basis": "generic-word"
     },
@@ -3837,7 +3837,7 @@
     },
     {
       "group": "DERIVED_NAME",
-      "source_sha256": "80b417eeff26927192345ddf7c6420a9d9bd51c0b7bf3f8139526297b250e525",
+      "source_sha256": "0ed399a9537bd2d80f966594566466f82072a0f942250903e18f24750600463f",
       "lines": 2,
       "basis": "generic-word"
     },
