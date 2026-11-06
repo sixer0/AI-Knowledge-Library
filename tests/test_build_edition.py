@@ -417,6 +417,10 @@ REJECTIONS = {
     'ed_t_07_salinan_tak_tercantum': (_unlisted_copy, 'skill_copies_mismatch'),
     'a8_pohon_pengelompok': (_tree_all_skills, 'skill_nested_unlisted'),
     'skill_pada_entri_pohon': (_in_tree('1 Workflow/s/SKILL.md', '---\nname: x\ndescription: y\n---\n'), 'skill_nested_unlisted'),
+    # K-1: hanya entri berkas `3 Skills/README.md` yang dikecualikan dari pengelompok.
+    'k1_readme_bersarang_di_skills': (_file_entry('3 Skills/x/README.md'), 'skill_nested_unlisted'),
+    'k1_readme_skills_sebagai_entri_pohon': (_mutate(lambda config: config['entries'].append(
+        {'kind': 'tree', 'path': '3 Skills/README.md', 'tree': '0' * 40})), 'skill_nested_unlisted'),
     # Skema (A2, A3, A5 tertentu).
     'skema_kolom_pengecualian': (_mutate(lambda config: config.update(exclude=['x'])), 'allowlist_invalid'),
     'skema_wildcard_path': (_mutate(lambda config: config['entries'].append({'kind': 'tree', 'path': '1 *', 'tree': '0' * 40})), 'allowlist_invalid'),
@@ -1964,6 +1968,198 @@ def _make_include_rejection(prepare, items, reason):
 
 for _name, (_prepare, _items, _reason) in INCLUDE_REJECTIONS.items():
     setattr(SkillInclude, f'test_tolak_{_name}', _make_include_rejection(_prepare, _items, _reason))
+
+
+def _absent(target):
+    return 'hilang' in target
+
+
+def _load_resolver():
+    specification = importlib.util.spec_from_file_location('library_fixture', RESOLVER)
+    module = importlib.util.module_from_spec(specification)
+    specification.loader.exec_module(module)
+    return module
+
+
+class ReadmeTransform(unittest.TestCase):
+    """Kontrak transformasi README koleksi (butir 2-7, K-5) tanpa build: fungsi dipanggil langsung."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.builder = load_builder(REPOSITORY)
+        cls.library = _load_resolver()
+        cls.note = cls.builder.README_NOTE.format(shift=4)
+
+    def transform(self, text):
+        return self.builder.transform_readme(text, _absent, 4)
+
+    def body(self, text):
+        """Hasil tanpa baris catatan dan baris kosong sesudahnya, agar uji aturan tidak bergantung pada kalimatnya."""
+        return self.transform(text).replace('\n' + self.note + '\n', '', 1)
+
+    def test_hadir_tetap_hilang_dilepas_gambar_jadi_alt(self):
+        self.assertEqual(self.body('# J\n\nLihat [ada](ada.md), [x](hilang.md), dan ![gambar](hilang.png).\n'),
+                         '# J\n\nLihat [ada](ada.md), x, dan gambar.\n')
+
+    def test_baris_tabel_semua_hilang_dihapus_campuran_tetap(self):
+        text = '# J\n\n| A | B |\n|---|---|\n| [x](hilang-1.md) | satu |\n| [y](ada.md) | [z](hilang-2.md) |\n| tanpa tautan | dua |\n'
+        self.assertEqual(self.body(text), '# J\n\n| A | B |\n|---|---|\n| [y](ada.md) | z |\n| tanpa tautan | dua |\n')
+
+    def test_rujukan_luar_tetap_menahan_baris(self):
+        text = '# J\n\n- [x](hilang.md) dan [luar](https://contoh.test/a)\n- [y](hilang.md)\n'
+        self.assertEqual(self.body(text), '# J\n\n- x dan [luar](https://contoh.test/a)\n')
+
+    def test_butir_satu_baris_dihapus_butir_banyak_baris_hanya_dilepas(self):
+        text = ('# J\n\n- [p](hilang-3.md)\n- [q](ada.md)\n- [r](hilang-4.md) bersambung\n  ke baris kedua\n'
+                '1. [s](hilang-5.md)\n\n## Bagian\n\n3. [t](hilang-6.md)\n## Akhir\n- [u](hilang-7.md)')
+        self.assertEqual(self.body(text), '# J\n\n- [q](ada.md)\n- r bersambung\n  ke baris kedua\n\n## Bagian\n\n## Akhir\n')
+
+    def test_butir_berinduk_anak_tidak_dihapus(self):
+        text = '# J\n\n- [induk](hilang.md)\n  - [anak](ada.md)\n'
+        self.assertEqual(self.body(text), '# J\n\n- induk\n  - [anak](ada.md)\n')
+
+    def test_butir_di_antara_baris_kosong_tidak_menumpuk_kosong(self):
+        self.assertEqual(self.body('# J\n\nTeks.\n\n- [a](hilang.md)\n\n- [b](ada.md)\n'), '# J\n\nTeks.\n\n- [b](ada.md)\n')
+
+    def test_tabel_kehilangan_semua_baris_mendapat_satu_baris(self):
+        text = '# J\n\n| A | B | C |\n|---|:-:|---|\n| [a](hilang.md) | 1 | 2 |\n| ![g](hilang.png) | 3 | 4 |\n\nSesudah.\n'
+        self.assertEqual(self.body(text), '# J\n\n| A | B | C |\n|---|:-:|---|\n'
+                                          '| Tidak ada baris yang berlaku pada edisi ini. | | |\n\nSesudah.\n')
+
+    def test_pagar_dan_kode_sebaris_tidak_disentuh(self):
+        text = '# J\n\n```\n| [a](hilang.md) |\n- [b](hilang.md)\n# Bukan judul\n```\n`[c](hilang.md)` tetap.\n'
+        self.assertEqual(self.body(text), text)
+
+    def test_catatan_sekali_setelah_h1_pertama(self):
+        result = self.transform('---\njudul: x\n---\n```\n# Dalam pagar\n```\n# Judul\n## Dua\n# Lain\n')
+        self.assertEqual(result, '---\njudul: x\n---\n```\n# Dalam pagar\n```\n# Judul\n\n' + self.note + '\n\n## Dua\n# Lain\n')
+        self.assertEqual(result.count(self.note), 1)
+        self.assertEqual(self.transform('Tanpa judul.\n'), self.note + '\n\nTanpa judul.\n')
+        self.assertEqual(self.transform('# J'), '# J\n\n' + self.note + '\n')
+        self.assertIn('INDEKS.md', self.note)
+        self.assertIn('4 baris', self.note)
+
+    def test_idempoten_pada_keluarannya_sendiri(self):
+        text = ('# J\n\nA [x](hilang.md) [y](ada.md).\n\n| A | B |\n|---|---|\n| [p](hilang.md) | 1 |\n\n'
+                '- [q](hilang.md)\n- [r](hilang.md) dua\n  baris\n')
+        once = self.transform(text)
+        self.assertEqual(self.transform(once), once)
+        self.assertEqual(once.count(self.note), 1)
+
+    def test_crlf_dipertahankan(self):
+        result = self.transform('# J\r\n\r\n- [a](hilang.md)\r\n- [b](ada.md)\r\n')
+        self.assertEqual(result, '# J\r\n\r\n' + self.note + '\r\n\r\n- [b](ada.md)\r\n')
+
+    def test_tata_tautan_sama_dengan_resolver(self):
+        text = ('[a](b.md) ![c](<d e.png>) `[x](y.md)` [f](g.md#h)\n~~~\n[di pagar](pagar.md)\n```\n[masih](pagar.md)\n~~~\n'
+                '[sesudah](z.md)\n`` [p](q.md) `` [r](s.md) [kosong]() [t](<u>)\n    ```\n[menjorok](m.md)\n    ```\n')
+        found = self.builder.readme_links(text)
+        self.assertEqual(found, self.library.markdown_links(text))
+        self.assertEqual(found, ['b.md', '<d e.png>', 'g.md#h', 'z.md', 's.md', '<u>'])
+
+    def readmes(self, text):
+        names = {'3 Skills/README.md', '3 Skills/kanonik/alpha/SKILL.md', '1 Workflow/standar.md', 'HARNESS.md'}
+        files = dict.fromkeys(names | {'3 Skills/registry-fleet/alpha/SKILL.md', '5 Integration/lokal.md'})
+        config = {'roots': {}, 'aliases': [{'source': 'alur', 'target': '1 Workflow'}], 'workspace_prefixes': []}
+        return self.builder.transform_readmes(self.library, config, files, names, {'3 Skills/README.md': text}, 4)['3 Skills/README.md']
+
+    def test_target_dinilai_resolver_atas_sumber(self):
+        lines = ['[kanonik](kanonik/) folder hadir.', '[registry](registry-fleet/) folder tidak ikut.',
+                 '[standar](../1%20Workflow/standar.md) persen hadir.', '[lokal](../5%20Integration/lokal.md) persen tidak ikut.',
+                 '[jangkar](#3-skills) jangkar.', '[luar](https://contoh.test/x) luar.', '[di luar root](../../luar.md) tidak sah.',
+                 '[tak ada](../tidak-ada.md) tidak ada di sumber.', '[alias](alur/standar.md) alias hadir.', '[titik](.) folder ini.']
+        result = self.readmes('\n\n'.join(['# 3 Skills', *lines]) + '\n')
+        kept = [line for line in lines if not line.startswith(('[registry]', '[lokal]', '[tak ada]'))]
+        for line in kept:
+            self.assertIn(line, result)
+        for line in ('registry folder tidak ikut.', 'lokal persen tidak ikut.', 'tak ada tidak ada di sumber.'):
+            self.assertIn('\n' + line + '\n', result)
+
+    def test_tata_tautan_berbeda_menghentikan_build(self):
+        with mock.patch.object(self.library, 'markdown_links', lambda text: []):
+            with self.assertRaises(self.builder.Blocked) as caught:
+                self.readmes('# J\n\n[a](ada.md)\n')
+        self.assertEqual(caught.exception.reason, 'readme_link_grammar')
+
+
+README_WORKFLOW = '\n'.join([
+    '# 1 Workflow', '', 'Mulai dari [standar](standar.md) lalu [integrasi](../5%20Integration/lokal.md).', '',
+    '| Berkas | Isi |', '|---|---|', '| [lokal](../5%20Integration/lokal.md) | tidak ikut |', '| [standar](standar.md) | ikut |', '',
+    '- [lokal](../5%20Integration/lokal.md)', '- [harness](../HARNESS.md)', ''])
+README_SKILLS = '# 3 Skills\n\nLihat [alpha](kanonik/alpha/SKILL.md) dan [integrasi](../5%20Integration/).\n'
+
+
+class CollectionReadme(EditionCase):
+    """Build penuh: README koleksi masuk, ditransformasi, lulus `check`, dan tertaut dari halaman depan."""
+
+    def prepare(self, skills=True):
+        self.fx.write('1 Workflow/README.md', README_WORKFLOW)
+        if skills:
+            self.fx.write('3 Skills/README.md', README_SKILLS)
+            self.fx.entries.append(('file', '3 Skills/README.md'))
+        self.fx.publish()
+
+    def note(self):
+        return load_builder(self.fx.clone).README_NOTE.format(shift=4)
+
+    def test_build_lulus_check_dan_baris_halaman_depan(self):
+        self.prepare()
+        run = self.fx.build()
+        self.assertPass(run)
+        done = shipped_check(self.fx.output)
+        self.assertEqual(done.returncode, 0, done.stdout)
+        self.assertEqual(json.loads(done.stdout)['links'].get('missing', 0), 0)
+        workflow = (self.fx.output / '1 Workflow/README.md').read_text(encoding='utf-8')
+        self.assertEqual(workflow, STAMP_BLOCK.decode() + '\n'.join([
+            '# 1 Workflow', '', self.note(), '', 'Mulai dari [standar](standar.md) lalu integrasi.', '',
+            '| Berkas | Isi |', '|---|---|', '| [standar](standar.md) | ikut |', '', '- [harness](../HARNESS.md)', '']))
+        skills = (self.fx.output / '3 Skills/README.md').read_text(encoding='utf-8')
+        self.assertIn('Lihat [alpha](kanonik/alpha/SKILL.md) dan integrasi.', skills)
+        front = (self.fx.output / 'README.md').read_text(encoding='utf-8')
+        self.assertIn('| [1 Workflow](1%20Workflow/README.md), [INDEKS.md](1%20Workflow/INDEKS.md) | 3 |', front)
+        self.assertIn('| [3 Skills](3%20Skills/README.md), [INDEKS.md](3%20Skills/INDEKS.md) |', front)
+        manifest = self.fx.manifest()
+        self.assertEqual(manifest['1 Workflow/README.md']['source_sha256'], sha(README_WORKFLOW.encode()))
+        self.assertEqual(manifest['3 Skills/README.md']['source_sha256'], sha(README_SKILLS.encode()))
+
+    def test_tanpa_readme_baris_halaman_depan_tetap_indeks(self):
+        self.prepare(skills=False)
+        self.assertPass(self.fx.build())
+        front = (self.fx.output / 'README.md').read_text(encoding='utf-8')
+        self.assertIn('| [1 Workflow](1%20Workflow/README.md), [INDEKS.md](1%20Workflow/INDEKS.md) | 3 |', front)
+        self.assertIn('| [3 Skills](3%20Skills/INDEKS.md) |', front)
+
+    def test_k2_expected_missing_dari_teks_hasil(self):
+        self.prepare()
+        self.fx.write('1 Workflow/tautan.md', '[lokal](../5%20Integration/lokal.md)\n')
+        self.fx.publish()
+        run = self.fx.build()
+        self.assertPass(run)
+        # Hanya tautan berkas bukan README yang tersisa: README hasil transformasi tidak lagi memuatnya.
+        self.assertEqual(run.data['expected_missing'], 1)
+        self.assertEqual(json.loads(shipped_check(self.fx.output).stdout)['links']['missing'], 1)
+
+    def test_berkas_bukan_readme_tidak_berubah(self):
+        sources = {'1 Workflow/tautan.md': '# Lain\n\n- [lokal](../5%20Integration/lokal.md)\n',
+                   '1 Workflow/sub/README.md': '# Sub\n\n- [lokal](../../5%20Integration/lokal.md)\n'}
+        self.prepare()
+        for name, source in sources.items():
+            self.fx.write(name, source)
+        self.fx.publish()
+        run = self.fx.build()
+        self.assertPass(run)
+        self.assertEqual(run.data['expected_missing'], 2)
+        for name, source in sources.items():
+            self.assertEqual((self.fx.output / name).read_bytes(), STAMP_BLOCK + source.encode(), name)
+
+    def test_pemindaian_membaca_teks_hasil(self):
+        # Cocokan pada label tautan yang dilepas tetap terpindai; yang dihapus bersama barisnya tidak.
+        self.fx.write('1 Workflow/README.md', '# W\n\n- [TANDA-SINTETIK](../5%20Integration/lokal.md)\n')
+        self.fx.publish()
+        self.assertPass(self.fx.build())
+        self.fx.write('1 Workflow/README.md', '# W\n\nLihat [TANDA-SINTETIK](../5%20Integration/lokal.md).\n')
+        self.fx.publish()
+        self.assertBlocked(self.fx.build(), 'scan_hit')
 
 
 class SourceRules(unittest.TestCase):

@@ -521,6 +521,12 @@ def is_built_collection_file(path):
     return (len(parts) == 2 and parts[1] == 'INDEKS.md') or path == SKILL_CATALOG
 
 
+def is_collection_readme(path):
+    """Panduan koleksi: tepat `<koleksi>/README.md`. Hanya berkas ini yang ditransformasi tautannya."""
+    parts = path.split('/')
+    return len(parts) == 2 and parts[1] == 'README.md' and parts[0] != 'tools'
+
+
 def covered(files, base):
     return [path for path in files if path.startswith(base + '/')]
 
@@ -590,7 +596,9 @@ def select_files(config, files, trees, repository):
         if violation:
             found.setdefault(violation, []).append(path)
     raise_violations(found)
-    grouped = [entry['path'] for entry in config['entries'] if entry['path'] == '3 Skills' or entry['path'].startswith('3 Skills/')]
+    # Satu pengecualian (K-1): entri berkas `3 Skills/README.md`; entri pohon dan README bersarang tetap tertolak.
+    grouped = [entry['path'] for entry in config['entries'] if (entry['path'] == '3 Skills' or entry['path'].startswith('3 Skills/'))
+               and not (entry['kind'] == 'file' and is_collection_readme(entry['path']))]
     if grouped:
         raise Blocked('skill_nested_unlisted', [{'path': path} for path in grouped])
     check_pins(config, files, trees, repository)
@@ -934,10 +942,165 @@ def count_expected_missing(module, source_config, files, documents, names):
     return count
 
 
+# README koleksi: tautan ke berkas yang tidak ikut dilepas, baris yang semua rujukannya tidak ada dihapus.
+# Tata tautan sama dengan `markdown_links` resolver; resolver hanya memberi target tanpa posisi, jadi pola di bawah
+# menyalinnya dengan grup tambahan, dan `transform_readmes` menghentikan build bila hasil keduanya berbeda.
+FENCE = re.compile(r'^\s*(`{3,}|~{3,})')
+CODE_SPAN = re.compile(r'(`+)[^`\n]*\1')
+LINK = re.compile(r'(!?)\[([^\]\n]*)\]\((<[^>\n]+>|[^)\n]+)\)')
+TABLE_ROW = re.compile(r'^\s*\|')
+TABLE_RULE = re.compile(r'^\s*\|?\s*:?-+:?\s*(?:\|\s*:?-+:?\s*)*\|?\s*$')
+LIST_ITEM = re.compile(r'^([ \t]*)(?:[-*+]|\d+[.)])[ \t]+')
+HEADING = re.compile(r'^#{1,6}\s')
+README_NOTE = ('Versi edisi umum: tautan ke berkas yang tidak ikut edisi dilepas, baris yang semua rujukannya tidak ada '
+               'dihapus, inventaris lengkap ada pada `INDEKS.md`, dan nomor baris yang dikutip pada berkas tujuan '
+               'bergeser {shift} baris karena stempel edisi.')
+README_NOTE_PREFIX = README_NOTE.split(':')[0] + ':'
+EMPTY_TABLE = 'Tidak ada baris yang berlaku pada edisi ini.'
+
+
+def scan_lines(text):
+    """[isi, akhir baris, tautan] per baris; tautan None pada baris pagar kode. Tautan: (awal, akhir, teks, target)."""
+    rows, fence = [], None
+    for line in text.splitlines(keepends=True):
+        content = line.splitlines()[0] if line.splitlines() else ''
+        eol = line[len(content):]
+        marker = FENCE.match(content)
+        if marker:
+            char = marker[1][0]
+            fence = char if fence is None else None if char == fence else fence
+            rows.append([content, eol, None])
+            continue
+        if fence:
+            rows.append([content, eol, None])
+            continue
+        code = [match.span() for match in CODE_SPAN.finditer(content)]
+        links = [(match.start(), match.end(), match[2], match[3]) for match in LINK.finditer(content)
+                 if not any(a <= match.start() < b for a, b in code)]
+        rows.append([content, eol, links])
+    return rows
+
+
+def readme_links(text):
+    return [link[3] for _, _, links in scan_lines(text) for link in links or ()]
+
+
+def unlink(content, links, absent):
+    for start, end, label, target in reversed(links):
+        if absent(target):
+            content = content[:start] + label + content[end:]
+    return content
+
+
+def one_line_item(rows, index):
+    """Butir daftar satu baris: baris berikutnya kosong, butir sejajar atau lebih dangkal, judul, atau akhir berkas."""
+    if index + 1 == len(rows):
+        return True
+    following, links = rows[index + 1][0], rows[index + 1][2]
+    if links is None:
+        return False
+    item = LIST_ITEM.match(following)
+    # Butir anak yang lebih menjorok membuat induknya bukan satu baris; menghapus induk akan memindah anaknya.
+    return (not following.strip() or bool(HEADING.match(following))
+            or bool(item and len(item[1]) <= len(LIST_ITEM.match(rows[index][0])[1])))
+
+
+def table_columns(rule):
+    return len(rule.strip().strip('|').split('|'))
+
+
+def transform_readme(text, absent, shift):
+    """Kontrak butir 3-6. `absent(target)` menilai satu target; teks tanpa tautan hilang kembali utuh kecuali catatan."""
+    rows, out, table = scan_lines(text), [], None
+    index = 0
+
+    def close():
+        # Tabel yang kehilangan semua baris isinya mendapat satu baris pengganti, bukan tabel kosong.
+        if table and table['body'] and table['body'] == table['dropped']:
+            cells = '| ' + EMPTY_TABLE + ' |' + ' |' * (table['columns'] - 1)
+            out.insert(table['rule'] + 1, cells + table['eol'])
+
+    while index < len(rows):
+        content, eol, links = rows[index]
+        if links is None:
+            close(); table = None
+            out.append(content + eol)
+            index += 1
+            continue
+        dropped = bool(links) and all(absent(link[3]) for link in links)
+        if table and TABLE_ROW.match(content):
+            table['body'] += 1
+            if dropped:
+                table['dropped'] += 1
+            else:
+                out.append(unlink(content, links, absent) + eol)
+            index += 1
+            continue
+        if table:
+            close(); table = None
+        following = rows[index + 1] if index + 1 < len(rows) else None
+        if (TABLE_ROW.match(content) and following and following[2] is not None and '|' in following[0]
+                and TABLE_RULE.match(following[0])):
+            out.append(unlink(content, links, absent) + eol)
+            out.append(following[0] + following[1])
+            table = {'rule': len(out) - 1, 'columns': table_columns(following[0]), 'eol': following[1] or '\n',
+                     'body': 0, 'dropped': 0}
+            index += 2
+            continue
+        if dropped and LIST_ITEM.match(content) and one_line_item(rows, index):
+            index += 1
+            # Butir di antara dua baris kosong: satu baris kosong ikut pergi agar tidak menumpuk.
+            if following and not following[0].strip() and (not out or not out[-1].strip()):
+                index += 1
+            continue
+        out.append(unlink(content, links, absent) + eol)
+        index += 1
+    close()
+    return add_readme_note(''.join(out), README_NOTE.format(shift=shift), '\r\n' if '\r\n' in text else '\n')
+
+
+def add_readme_note(text, note, eol):
+    """Satu baris catatan setelah H1 pertama di luar frontmatter dan pagar; tanpa H1, di awal isi."""
+    rows = scan_lines(text)
+    if any(content.startswith(README_NOTE_PREFIX) for content, _, links in rows if links is not None):
+        return text
+    start = 0
+    if rows and rows[0][0].rstrip() == '---':
+        start = next((i + 1 for i in range(1, len(rows)) if rows[i][0].rstrip() == '---'), 0)
+    position = next((i for i in range(start, len(rows)) if rows[i][2] is not None and re.match(r'^#\s', rows[i][0])), None)
+    lines = [content + ending for content, ending, _ in rows]
+    if position is None:
+        lines.insert(start, note + eol + eol)
+        return ''.join(lines)
+    if not rows[position][1]:
+        lines[position] += eol
+    after = rows[position + 1][0] if position + 1 < len(rows) else ''
+    lines.insert(position + 1, eol + note + eol + (eol if after.strip() else ''))
+    return ''.join(lines)
+
+
+def transform_readmes(module, source_config, files, names, readmes, shift):
+    """Target dinilai resolver atas pohon sumber, dengan aturan hadir yang sama dengan `count_expected_missing` (K-2)."""
+    view = source_view(module, source_config, files)
+    present = set(names) | folders_of(names) | {'.'}
+    result = {}
+    for path in sorted(readmes, key=sort_key):
+        text = readmes[path]
+        if readme_links(text) != module.markdown_links(text):
+            raise Blocked('readme_link_grammar', [{'path': path}])
+
+        def absent(target, path=path):
+            found = view.resolve(target, path)
+            local = found.get('status') == 'local' or found.get('reason') in {'not_in_clone', 'anchor_not_found'}
+            return local and found.get('relative_path') not in present
+        result[path] = transform_readme(text, absent, shift)
+    return result
+
+
 def assemble(tree, config, stamp, front, harness, source_config, files, admitted, repository, commit, allowlist_hash):
     """Menulis pohon edisi. Salinan memakai byte blob; hanya `.md` mendapat stempel."""
     contents, sources, stamped = {}, {}, 0
-    documents = {}
+    documents, readmes = {}, {}
     for path in sorted(admitted, key=sort_key):
         data = repository.blob(admitted[path])
         if data.startswith(SQLITE_HEADER):
@@ -949,7 +1112,11 @@ def assemble(tree, config, stamp, front, harness, source_config, files, admitted
             except UnicodeDecodeError:
                 raise Blocked('binary_not_scannable', [{'path': path}]) from None
             documents[path] = data
-            data = insert_stamp(path, data, stamp)
+            if is_collection_readme(path):
+                # Stempel menunggu `names`: README koleksi ditransformasi dulu.
+                readmes[path] = data.decode('utf-8')
+            else:
+                data = insert_stamp(path, data, stamp)
             stamped += 1
         contents[path] = data
 
@@ -962,6 +1129,13 @@ def assemble(tree, config, stamp, front, harness, source_config, files, admitted
     names |= {f'{collection}/INDEKS.md' for collection in collections}
     check_collisions(names)
     validate_catalog(catalog, names)
+
+    write_file(tree, RESOLVER, contents[RESOLVER])
+    module = load_resolver(tree)
+    for path, text in transform_readmes(module, source_config, files, names, readmes, len(stamp) + 1).items():
+        # K-2: hitungan `expected_missing` membaca teks hasil transformasi, bukan byte sumber.
+        documents[path] = text.encode('utf-8')
+        contents[path] = insert_stamp(path, documents[path], stamp)
 
     for collection in collections:
         prefix = collection + '/'
@@ -977,8 +1151,13 @@ def assemble(tree, config, stamp, front, harness, source_config, files, admitted
     for name in names:
         if collection_of(name):
             tally[collection_of(name)] = tally.get(collection_of(name), 0) + 1
-    # Bentuk baris mengikuti kepala tabel `Koleksi | Berkas` pada N-47.
-    table = ''.join(f'| [{table_cell(key)}]({quote(key)}/INDEKS.md) | {tally[key]} |\n' for key in collections)
+    # Bentuk baris mengikuti kepala tabel `Koleksi | Berkas` pada N-47. README koleksi yang ikut ditautkan lebih dulu.
+    def collection_cell(key):
+        index = f'{quote(key)}/INDEKS.md'
+        if f'{key}/README.md' in names:
+            return f'[{table_cell(key)}]({quote(key)}/README.md), [INDEKS.md]({index})'
+        return f'[{table_cell(key)}]({index})'
+    table = ''.join(f'| {collection_cell(key)} | {tally[key]} |\n' for key in collections)
     fills = {'SOURCE_COMMIT': commit, 'FILE_COUNT': str(len(names)), 'COLLECTION_ROWS': table.rstrip('\n')}
 
     def fill(text):
@@ -992,7 +1171,6 @@ def assemble(tree, config, stamp, front, harness, source_config, files, admitted
     for name, data in contents.items():
         write_file(tree, name, data)
 
-    module = load_resolver(tree)
     expected = count_expected_missing(module, source_config, files, documents, names)
     library = build_library_config(source_config, config, names, commit, allowlist_hash, expected, collections)
     contents['library.json'] = json_bytes(library)

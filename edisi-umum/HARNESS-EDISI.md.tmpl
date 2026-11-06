@@ -48,13 +48,13 @@ menganggapnya lulus, dan jangan mengambil skrip dari tempat lain tanpa permintaa
 
 | Kebutuhan | Titik masuk lokal | Cara baca |
 |---|---|---|
-| Contoh: standar penataan, metadata, dan skrip, kebijakan fleet, peta definisi orkestrasi, dan satu prompt harian host asal, bukan prosedur lengkap. Sebagian rujukan di dalamnya tidak ada pada edisi ini | [1 Workflow/INDEKS.md](1%20Workflow/INDEKS.md) | Baca utuh, kecil |
-| Peran: penerjemah permintaan (teks sumber, tanpa wewenang) | [gsp-request-translator.md](2%20Roles/peran-fleet/gsp-request-translator.md) | Baca utuh |
-| Peran: perancang tugas (teks sumber, tanpa wewenang) | [gsp-task-architect.md](2%20Roles/peran-fleet/gsp-task-architect.md) | Baca utuh |
-| Skill | [3 Skills/KATALOG.jsonl](3%20Skills/KATALOG.jsonl) | Cari menurut `name`, lalu aturan pilih skill |
-| Daftar `SKILL.md` per skill; semua berkas, termasuk referensi skill, ada pada manifest | [3 Skills/INDEKS.md](3%20Skills/INDEKS.md), [MANIFEST.csv](MANIFEST.csv) | Hanya dicari, jangan dibaca utuh |
-| Pengetahuan teknis EKAS terkurasi: metode, ambang, rumus, dan rantai jaminan per domain | [05_DOMAIN-KNOWLEDGE](4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE), [04_KNOWLEDGE-CARDS](4%20Knowledge%20Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS), [KATALOG-RUMUS.md](4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md), aturan pakai [BACA-DULU.md](4%20Knowledge%20Bank/ekas-lapis-teks/BACA-DULU.md) | Mulai dari `RANTAI-JAMINAN.md` domainnya, lalu resume dan kartu. Patuhi tingkat sumber R1 sampai R5 |
-| Templat dan kerangka EKAS | [4 Knowledge Bank/INDEKS.md](4%20Knowledge%20Bank/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
+| Contoh: standar penataan, metadata, dan skrip, kebijakan fleet, peta definisi orkestrasi, dan satu prompt harian host asal, bukan prosedur lengkap. Sebagian rujukan di dalamnya tidak ada pada edisi ini | [1 Workflow/README.md](1%20Workflow/README.md), lalu [1 Workflow/INDEKS.md](1%20Workflow/INDEKS.md) | Baca utuh, kecil |
+| Peran: penerjemah permintaan (teks sumber, tanpa wewenang) | [2 Roles/README.md](2%20Roles/README.md), lalu [gsp-request-translator.md](2%20Roles/peran-fleet/gsp-request-translator.md) | Baca utuh |
+| Peran: perancang tugas (teks sumber, tanpa wewenang) | [2 Roles/README.md](2%20Roles/README.md), lalu [gsp-task-architect.md](2%20Roles/peran-fleet/gsp-task-architect.md) | Baca utuh |
+| Skill | [3 Skills/README.md](3%20Skills/README.md), lalu [3 Skills/KATALOG.jsonl](3%20Skills/KATALOG.jsonl) | Cari menurut `name`, lalu aturan pilih skill |
+| Daftar `SKILL.md` per skill; semua berkas, termasuk referensi skill, ada pada manifest | [3 Skills/README.md](3%20Skills/README.md), lalu [3 Skills/INDEKS.md](3%20Skills/INDEKS.md), [MANIFEST.csv](MANIFEST.csv) | Hanya dicari, jangan dibaca utuh |
+| Pengetahuan teknis EKAS terkurasi: metode, ambang, rumus, dan rantai jaminan per domain | [4 Knowledge Bank/README.md](4%20Knowledge%20Bank/README.md), lalu [05_DOMAIN-KNOWLEDGE](4%20Knowledge%20Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE), [04_KNOWLEDGE-CARDS](4%20Knowledge%20Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS), [KATALOG-RUMUS.md](4%20Knowledge%20Bank/ekas-lapis-teks/06_ENGINEERING/CALCULATIONS/KATALOG-RUMUS.md), aturan pakai [BACA-DULU.md](4%20Knowledge%20Bank/ekas-lapis-teks/BACA-DULU.md) | Mulai dari `RANTAI-JAMINAN.md` domainnya, lalu resume dan kartu. Patuhi tingkat sumber R1 sampai R5 |
+| Templat dan kerangka EKAS | [4 Knowledge Bank/README.md](4%20Knowledge%20Bank/README.md), lalu [4 Knowledge Bank/INDEKS.md](4%20Knowledge%20Bank/INDEKS.md) | Hanya dicari, jangan dibaca utuh |
 | Kebijakan sensitivitas | [KEBIJAKAN-SENSITIVITAS.md](KEBIJAKAN-SENSITIVITAS.md) | Baca utuh |
 | Akses dari proyek lain | [PANDUAN-AKSES.md](PANDUAN-AKSES.md), [TEMPLAT-PENUNJUK.md](TEMPLAT-PENUNJUK.md) | Baca utuh |
 
@@ -93,7 +93,7 @@ Berkas peran pada edisi ini hanya dua baris pada tabel Pilih koleksi. Daftar per
 - URL publik untuk sumber, atribusi, dan riwayat commit tetap eksternal. Alat lokal tidak mengambil URL tersebut secara otomatis.
 - Alamat jaringan dan path mesin pada catatan lama menggambarkan lingkungan sumber. Alamat itu tidak menetapkan endpoint harness ini.
 - Metadata sumber, kutipan, dan kode historis mempertahankan path aslinya. Resolver membantu menelusurinya jika salinannya tersedia.
-- Tautan ke berkas yang tidak ikut edisi tidak ditulis ulang; tautan yang tidak terbuka diperlakukan sama dengan `not_in_clone`.
+- Tautan ke berkas yang tidak ikut edisi tidak ditulis ulang; tautan yang tidak terbuka diperlakukan sama dengan `not_in_clone`. Pengecualian: pada keempat `README.md` koleksi, pembangun membuang tautan ke berkas yang tidak ada di edisi dan menghapus baris yang seluruh rujukannya tidak ada (K-4).
 - Setiap `.md` di edisi memuat blok stempel, jadi buang blok itu saat menyalin templat dari edisi, dan ingat bahwa rujukan baris lama bergeser tetap 4 baris (3 baris stempel dan 1 baris kosong).
 
 ## Menemukan rujukan lama

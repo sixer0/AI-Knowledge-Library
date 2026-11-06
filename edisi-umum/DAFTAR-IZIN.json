@@ -25,6 +25,11 @@
     },
     {
       "kind": "file",
+      "path": "1 Workflow/README.md",
+      "blob": "b3a0fb75a095c6db6bcd62a65f81070e4cadcb83"
+    },
+    {
+      "kind": "file",
       "path": "1 Workflow/peta-definisi-orkestrasi.md",
       "blob": "3764002a0a4c700c60cc704b708417d724b7213e"
     },
@@ -50,6 +55,11 @@
     },
     {
       "kind": "file",
+      "path": "2 Roles/README.md",
+      "blob": "15d6fa0dff9ea904a10de4bffbebf179469cd0c4"
+    },
+    {
+      "kind": "file",
       "path": "2 Roles/peran-fleet/gsp-request-translator.md",
       "blob": "90c4adf1bb64ad10bc4b5c6e2301f9c600acd9b9"
     },
@@ -57,6 +67,16 @@
       "kind": "file",
       "path": "2 Roles/peran-fleet/gsp-task-architect.md",
       "blob": "34d121670a86e9484731b64b44d8b5e485c8a9d9"
+    },
+    {
+      "kind": "file",
+      "path": "3 Skills/README.md",
+      "blob": "fc67df8ad48092fd13a39f4add5e629a9bf45b99"
+    },
+    {
+      "kind": "file",
+      "path": "4 Knowledge Bank/README.md",
+      "blob": "b0e5132854559b29e5aff35958a32446da28242f"
     },
     {
       "kind": "file",
