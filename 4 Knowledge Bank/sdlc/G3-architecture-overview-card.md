@@ -43,7 +43,7 @@ Mermaid renders in most code hosts and Markdown viewers and stays diffable. Keep
 flowchart LR
   user([Customer]) -->|places orders| shop[Order system]
   shop -->|charges card| pay[(Payment provider)]
-  shop -->|sends email| mail[(Email service)]
+  shop -->|sends email| mail[(Mail service)]
 ```
 
 **Containers (level 2)**
