@@ -2,7 +2,7 @@
 
 Skill GSP tersedia dalam dua salinan: `kanonik` adalah sumber kurasi, sedangkan `registry-fleet` adalah salinan yang digunakan fleet. Buka `SKILL.md` pada skill yang sesuai, lalu ikuti rujukan yang diperlukan. Controller berarti koordinator, worker berarti pelaksana, dan dispatch berarti pengiriman tugas. Provenans adalah catatan asal-usul sumber. Kode aturan dan nama antarmuka dipertahankan agar tetap dapat dicari.
 
-Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa: 2026-10-19
+Edisi sumber: 2026-10-19 | Berkas isi: 2323 | Total: 31.2 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|
@@ -886,6 +886,8 @@ Edisi sumber: 2026-10-19 | Berkas isi: 2321 | Total: 31.2 MB | Bahasa diperiksa:
 | [`3 Skills/kanonik/gsp-reflection-loop/SKILL.md`](kanonik/gsp-reflection-loop/SKILL.md) | 5 KB |
 | [`3 Skills/kanonik/gsp-report-format/SKILL.md`](kanonik/gsp-report-format/SKILL.md) | 11 KB |
 | [`3 Skills/kanonik/gsp-report-format/templates/gsp_lib.py`](kanonik/gsp-report-format/templates/gsp_lib.py) | 12 KB |
+| [`3 Skills/kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md`](kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md) | 6 KB |
+| [`3 Skills/kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md`](kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md) | 4 KB |
 | [`3 Skills/kanonik/gsp-searxng/SKILL.md`](kanonik/gsp-searxng/SKILL.md) | 10 KB |
 | [`3 Skills/kanonik/gsp-security-review-gate/SKILL.md`](kanonik/gsp-security-review-gate/SKILL.md) | 11 KB |
 | [`3 Skills/kanonik/gsp-security-review/SKILL.md`](kanonik/gsp-security-review/SKILL.md) | 12 KB |

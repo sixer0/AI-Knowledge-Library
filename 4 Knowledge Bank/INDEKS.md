@@ -2,7 +2,7 @@
 
 Bank pengetahuan berisi wiki Information Library yang telah dikurasi, lapisan teks EKAS, indeks unit pengetahuan, dan katalog dokumen. Mulai dari [`ekas-lapis-teks/00_START-HERE/README.md`](ekas-lapis-teks/00_START-HERE/README.md) untuk memahami tingkat sumber R1–R5. Pada data vendor, status pemeriksaan mengikuti sumber dan tanggal aksesnya; audit bahasa ini tidak menguji ulang situs, alamat email, harga, maupun klaim teknis. Kutipan dan bukti sumber dipertahankan.
 
-Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 2026-10-19
+Edisi sumber: 2026-10-19 | Berkas isi: 1302 | Total: 6.3 MB | Bahasa diperiksa: 2026-10-19
 
 | Berkas | Ukuran |
 |---|---|
@@ -426,6 +426,16 @@ Edisi sumber: 2026-10-19 | Berkas isi: 1292 | Total: 6.3 MB | Bahasa diperiksa: 
 | [`4 Knowledge Bank/indeks-pengetahuan/pelajaran-adapter-model.md`](indeks-pengetahuan/pelajaran-adapter-model.md) | 2 KB |
 | [`4 Knowledge Bank/katalog-docs/classification.json`](katalog-docs/classification.json) | 9 KB |
 | [`4 Knowledge Bank/katalog-docs/rebuild-manifest.json`](katalog-docs/rebuild-manifest.json) | 10 KB |
+| [`4 Knowledge Bank/sdlc/G1-requirements-traceability-template.md`](sdlc/G1-requirements-traceability-template.md) | 4 KB |
+| [`4 Knowledge Bank/sdlc/G11-finding-ledger-behaviour-spec-template.md`](sdlc/G11-finding-ledger-behaviour-spec-template.md) | 3 KB |
+| [`4 Knowledge Bank/sdlc/G2-architecture-decision-record-template.md`](sdlc/G2-architecture-decision-record-template.md) | 3 KB |
+| [`4 Knowledge Bank/sdlc/G3-architecture-overview-card.md`](sdlc/G3-architecture-overview-card.md) | 6 KB |
+| [`4 Knowledge Bank/sdlc/G4-test-plan-strategy-template.md`](sdlc/G4-test-plan-strategy-template.md) | 4 KB |
+| [`4 Knowledge Bank/sdlc/G5-secure-code-review-checklist.md`](sdlc/G5-secure-code-review-checklist.md) | 7 KB |
+| [`4 Knowledge Bank/sdlc/G8-release-checklist-changelog-template.md`](sdlc/G8-release-checklist-changelog-template.md) | 4 KB |
+| [`4 Knowledge Bank/sdlc/G9-incident-postmortem-template.md`](sdlc/G9-incident-postmortem-template.md) | 3 KB |
+| [`4 Knowledge Bank/sdlc/PILIHAN-SDLC.csv`](sdlc/PILIHAN-SDLC.csv) | 4 KB |
+| [`4 Knowledge Bank/sdlc/README.md`](sdlc/README.md) | 4 KB |
 | [`4 Knowledge Bank/wiki-information-library/catatans/arsenal-ids-migrasi-gap-ekstraksi-visual.md`](wiki-information-library/catatans/arsenal-ids-migrasi-gap-ekstraksi-visual.md) | 3 KB |
 | [`4 Knowledge Bank/wiki-information-library/catatans/building-construction-korpus-ekas-0929.md`](wiki-information-library/catatans/building-construction-korpus-ekas-0929.md) | 45 KB |
 | [`4 Knowledge Bank/wiki-information-library/catatans/catatan-blueprint-verifikasi-v2.md`](wiki-information-library/catatans/catatan-blueprint-verifikasi-v2.md) | 2 KB |

@@ -1,0 +1,39 @@
+relative_path,alasan
+3 Skills/kanonik/database/design/database-design/SKILL.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/database-selection.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/indexing.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/migrations.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/optimization.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/orm-selection.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/design/database-design/schema-design.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/orm/prisma-expert/SKILL.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/relational/postgresql-best-practices/SKILL.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/relational/postgresql/SKILL.md,rujukan desain dan implementasi
+3 Skills/kanonik/database/relational/sql-best-practices/SKILL.md,rujukan desain dan implementasi
+3 Skills/kanonik/gsp-checkpoint-resume/SKILL.md,skill operasi agen
+3 Skills/kanonik/gsp-context-engineering/SKILL.md,skill operasi agen
+3 Skills/kanonik/gsp-diagnose/SKILL.md,skill pemeliharaan
+3 Skills/kanonik/gsp-eval-driven-improver/SKILL.md,skill pemeliharaan
+3 Skills/kanonik/gsp-observability-tracer/SKILL.md,skill pemeliharaan
+3 Skills/kanonik/gsp-self-healing-loop/SKILL.md,skill pemeliharaan
+3 Skills/kanonik/gsp-setup-pre-commit/SKILL.md,skill CI/CD
+4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/DESIGN-DECISION-REGISTER.csv,S3 register
+4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/REQUIREMENT-REGISTER.csv,S3 register
+4 Knowledge Bank/ekas-lapis-teks/02_REGISTERS/TEST-REGISTER.csv,S3 register
+4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-001.md,S3 kartu bacaan keamanan
+4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-002.md,S3 kartu bacaan keamanan
+4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-003.md,S3 kartu bacaan keamanan
+4 Knowledge Bank/ekas-lapis-teks/04_KNOWLEDGE-CARDS/CYBERSECURITY/REF-SEC-004.md,S3 kartu bacaan keamanan
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/CYBERSECURITY/R3 - Security Engineering.md,resume domain keamanan
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - INCOSE Systems Engineering Handbook (Walden).md,resume kebutuhan dan verifikasi-validasi
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - System Engineering Management (Blanchard).md,resume kebutuhan dan verifikasi-validasi
+4 Knowledge Bank/ekas-lapis-teks/05_DOMAIN-KNOWLEDGE/SYSTEMS-ENGINEERING/R3 - Systems Engineering Principles and Practice (Kossiakoff).md,resume kebutuhan dan verifikasi-validasi
+4 Knowledge Bank/ekas-lapis-teks/06_ENGINEERING/REQUIREMENTS/REQ-P00-CONTOH.md,S3 contoh kebutuhan
+4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/ACCEPTANCE-CRITERIA/AMBANG-TERIMA-INDUK.md,S3 ambang terima
+4 Knowledge Bank/ekas-lapis-teks/07_VERIFICATION-VALIDATION/ITP/ITP-P00.md,S3 contoh rencana uji
+4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES/TPL-01-DESIGN-DECISION-RECORD.md,S3 templat
+4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES/TPL-03-TEST-PROCEDURE.md,S3 templat
+4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES/TPL-04-ACCEPTANCE-RECORD.md,S3 templat
+4 Knowledge Bank/ekas-lapis-teks/10_TEMPLATES/TPL-06-REQUIREMENT-TRACEABILITY.md,S3 templat
+HARNESS.md,titik masuk edisi (library.json)
+KEBIJAKAN-SENSITIVITAS.md,kebijakan sensitivitas

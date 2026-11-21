@@ -48,6 +48,9 @@ Aturan rinci per kebutuhan ada pada bagian berikutnya.
 | Intelijen vendor dan pameran | [gsp-vendor-crawler/SKILL.md](kanonik/gsp-vendor-crawler/SKILL.md) | Pipeline 6 Tahap (baris 85) |
 | Kajian mendalam atas satu objek (vendor, teknologi, pasar) | [gsp-deep-dive/SKILL.md](kanonik/gsp-deep-dive/SKILL.md) | Controlling mandate (baris 33), Stage sequence S0-S6 (baris 41) |
 | Implementasi backend | [gsp-backend-execution/SKILL.md](kanonik/gsp-backend-execution/SKILL.md) | Technology Selection (baris 32), Process (baris 117) |
+| Pipeline CI: urutan tahap, cek wajib, cache, rahasia, pin versi | [gsp-sdlc-ci-pipeline-reference/SKILL.md](kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md) | 1. Stage order (baris 27), 8. Review questions (baris 107) |
+| Peningkatan dependensi dan penghapusan API usang | [gsp-sdlc-dependency-upgrade-playbook/SKILL.md](kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md) | 3. One upgrade per change set (baris 45), 4. Expand and contract (baris 55) |
+| Templat dan kartu SDLC (kebutuhan, ADR, arsitektur, uji, tinjauan kode aman, rilis, postmortem) | [sdlc/README.md](../4%20Knowledge%20Bank/sdlc/README.md) | Daftar entri (baris 15), Padanan pada EKAS (baris 36) |
 | Pemetaan fleet, profil, dan skill di host asal | [gsp-fleet-documentation/SKILL.md](kanonik/gsp-fleet-documentation/SKILL.md) | Workflow (baris 56), Struktur Dokumen yang Terbukti (baris 72) |
 | Distribusi skill ke agen di host asal | [gsp-skill-distribution/SKILL.md](kanonik/gsp-skill-distribution/SKILL.md) | Alur distribusi (baris 21), Kebijakan LEAN FLEET (baris 40) |
 
@@ -276,6 +279,11 @@ domain adalah alat navigasi; skill yang menyentuh dua domain dicantumkan sekali.
 - [gsp-using-git-worktrees](kanonik/gsp-using-git-worktrees/SKILL.md): Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback
 - [gsp-finishing-a-development-branch](kanonik/gsp-finishing-a-development-branch/SKILL.md): Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
 - [database](kanonik/database/SKILL.md): Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.
+
+### Siklus hidup pengembangan perangkat lunak (SDLC)
+
+- [gsp-sdlc-ci-pipeline-reference](kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md): Language-neutral CI pipeline reference - stage order and what each stage fails on, required checks and branch protection, caching keys per ecosystem, test sharding, secrets in CI, pinned versions and the container build stage.
+- [gsp-sdlc-dependency-upgrade-playbook](kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md): Dependency upgrade and deprecation playbook - inventory outdated packages per ecosystem, read changelogs first, one upgrade per change set, lockfile as a single-writer resource, expand and contract for removing an old API, rollback and...
 
 ### Operasi fleet, Agent HQ, dan Hermes
 

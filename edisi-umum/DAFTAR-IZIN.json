@@ -66,12 +66,12 @@
     {
       "kind": "file",
       "path": "3 Skills/README.md",
-      "blob": "59a059a36ca50f0194482b06684443b146cc0f1a"
+      "blob": "173caf390abba8c41e5601ceda63a7d2a5eccf64"
     },
     {
       "kind": "file",
       "path": "4 Knowledge Bank/README.md",
-      "blob": "b0e5132854559b29e5aff35958a32446da28242f"
+      "blob": "58bc124397339872a2eda8592f1238d26484dd0a"
     },
     {
       "kind": "file",
@@ -1119,6 +1119,11 @@
       "blob": "3487a58ae2f7a90db4c5fd6997a7174fa810d3d9"
     },
     {
+      "kind": "tree",
+      "path": "4 Knowledge Bank/sdlc",
+      "tree": "523e6fe93b3f0a5f161df1c8bf07d8cd6597c215"
+    },
+    {
       "kind": "file",
       "path": "AGENTS.md",
       "blob": "414c4c4ebeb9d973b6567fa3b8c3554144fa79fb"
@@ -2109,6 +2114,24 @@
         {
           "path": "3 Skills/registry-fleet/gsp-reflection-loop",
           "tree": "92e0a1383920973e3e0f8e2dc7562a152b489689"
+        }
+      ]
+    },
+    {
+      "name": "gsp-sdlc-ci-pipeline-reference",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-sdlc-ci-pipeline-reference",
+          "tree": "312aed4e67c98f3353e609a7c9818a2ced3f23a4"
+        }
+      ]
+    },
+    {
+      "name": "gsp-sdlc-dependency-upgrade-playbook",
+      "copies": [
+        {
+          "path": "3 Skills/kanonik/gsp-sdlc-dependency-upgrade-playbook",
+          "tree": "50168a2a0174271f895dedb1822aa3a0cd7c6a92"
         }
       ]
     },

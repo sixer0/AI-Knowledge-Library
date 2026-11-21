@@ -4,7 +4,7 @@
 
 Folder ini menyimpan pengetahuan teknis dan catatan pustaka yang dipakai saat menyusun
 dokumen rekayasa, menjawab pertanyaan "berapa angkanya dan dari mana", serta menelusuri
-keputusan dan pelajaran lama. Isinya empat bagian:
+keputusan dan pelajaran lama. Isinya lima bagian:
 
 - `ekas-lapis-teks/`: lapis teks EKAS (Engineering Knowledge & Assurance System). Isinya
   aturan tingkat sumber R1-R5, register, kartu rujukan, resume buku, rantai jaminan per
@@ -12,6 +12,8 @@ keputusan dan pelajaran lama. Isinya empat bagian:
   adalah pengetahuan yang sudah diekstrak beserta nomor halaman PDF-nya.
 - `indeks-pengetahuan/`: indeks rute ke unit pengetahuan dan kemampuan EKAS.
 - `katalog-docs/`: berkas JSON kerja dari pembangunan ulang Information Library.
+- `sdlc/`: templat dan kartu rujukan siklus hidup pengembangan perangkat lunak (SDLC),
+  berbahasa Inggris, ditulis oleh PT GSP untuk Swarm Coder.
 - `wiki-information-library/`: objek wiki yang sudah dipromosikan, dikelompokkan menurut
   jenisnya.
 
@@ -38,6 +40,7 @@ INDEKS.md dicari, tidak dibaca utuh.
 | `indeks-pengetahuan/` | CSV rute domain, kemampuan, dan unit; `META.json`; satu catatan pelajaran | Indeks |
 | `katalog-docs/` | `classification.json` dan `rebuild-manifest.json` | Berkas kerja |
 | `wiki-information-library/` | Folder kategori `catatans`, `faktas`, `keputusans`, `pelajarans`, `produks`, `proyeks`, `standars`, `vendors` | Wiki, tanpa katalog |
+| `sdlc/` | Entri SDLC-G1 sampai SDLC-G11 (G6 dan G12 tidak diadopsi; G7 dan G10 berupa skill di `3 Skills/kanonik/`): templat kebutuhan, ADR, arsitektur, rencana uji, tinjauan kode aman, rilis, postmortem, buku temuan; `README.md` dan `PILIHAN-SDLC.csv` | Pengetahuan |
 
 EKAS membedakan dua jenis folder. Folder 01-05 dan 10 berisi pengetahuan lintas proyek,
 sedangkan folder 06-09 diisi per proyek ([peta sistem](ekas-lapis-teks/00_START-HERE/EKAS-SYSTEM-MAP.md),
@@ -218,6 +221,21 @@ Uraian di bawah diambil dari docstring tiap skrip. Skrip tidak dijalankan (lihat
 | Pelajaran percobaan adapter model: gaya sitasi berpindah ke bobot, fakta angka tidak; sitasi keluaran model bukan bukti | [pelajaran-adapter-model.md](indeks-pengetahuan/pelajaran-adapter-model.md) | Butir 1-5 |
 | Draf pengelompokan folder arsip lama menurut domain, proyek, dan jenis (bukan klasifikasi final); manifest tugas pembangunan ulang per folder | [classification.json](katalog-docs/classification.json), [rebuild-manifest.json](katalog-docs/rebuild-manifest.json) | Kunci `note`, `items` |
 | Wiki Information Library | `wiki-information-library/<kategori>/` | Lihat Titik masuk butir 5 |
+
+### SDLC perangkat lunak
+
+| Kebutuhan / topik | Berkas | Bagian |
+|---|---|---|
+| Daftar entri SDLC, padanannya pada EKAS, dan pilihan SDLC dari edisi umum | [sdlc/README.md](sdlc/README.md) | Daftar entri; Padanan pada EKAS; Pilihan SDLC dari edisi umum |
+| Kebutuhan dengan kriteria terima dan tabel ketertelusuran | [G1](sdlc/G1-requirements-traceability-template.md) | 4. Acceptance criteria; 5. Traceability |
+| Catatan keputusan arsitektur (ADR) | [G2](sdlc/G2-architecture-decision-record-template.md) | Record; Options considered; Consequences |
+| Gambaran arsitektur: tampilan C4, diagram Mermaid, atribut mutu, arah dependensi | [G3](sdlc/G3-architecture-overview-card.md) | 1. C4 views; 3. Quality attributes; 4. Module boundaries |
+| Rencana dan strategi uji: tingkat uji, kriteria masuk dan keluar, uji tidak stabil | [G4](sdlc/G4-test-plan-strategy-template.md) | 2. Test levels; 6. Entry and exit criteria; 7. Flaky tests |
+| Tinjauan kode aman per kategori OWASP Top 10, rahasia, audit dependensi, vonis | [G5](sdlc/G5-secure-code-review-checklist.md) | 1-10 kategori; 11. Secrets; 12. Commands; 13. Verdict |
+| Daftar periksa rilis, nomor SemVer, entri changelog | [G8](sdlc/G8-release-checklist-changelog-template.md) | 1. Inventory; 2. Version number; 5. Readiness checklist |
+| Postmortem insiden tanpa menyalahkan orang | [G9](sdlc/G9-incident-postmortem-template.md) | 4. Root cause; 7. Action items |
+| Buku temuan dan spesifikasi perilaku untuk pekerjaan pelajari-lalu-bangun | [G11](sdlc/G11-finding-ledger-behaviour-spec-template.md) | 2. Finding ledger; 3. Behaviour spec |
+| Pipeline CI dan peningkatan dependensi (skill) | [gsp-sdlc-ci-pipeline-reference](../3%20Skills/kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md), [gsp-sdlc-dependency-upgrade-playbook](../3%20Skills/kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md) | 1. Stage order; 3. One upgrade per change set |
 
 ## Titik masuk
 
