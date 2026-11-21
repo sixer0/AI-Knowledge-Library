@@ -48,7 +48,7 @@ Aturan rinci per kebutuhan ada pada bagian berikutnya.
 | Intelijen vendor dan pameran | [gsp-vendor-crawler/SKILL.md](kanonik/gsp-vendor-crawler/SKILL.md) | Pipeline 6 Tahap (baris 85) |
 | Kajian mendalam atas satu objek (vendor, teknologi, pasar) | [gsp-deep-dive/SKILL.md](kanonik/gsp-deep-dive/SKILL.md) | Controlling mandate (baris 33), Stage sequence S0-S6 (baris 41) |
 | Implementasi backend | [gsp-backend-execution/SKILL.md](kanonik/gsp-backend-execution/SKILL.md) | Technology Selection (baris 32), Process (baris 117) |
-| Pipeline CI: urutan tahap, cek wajib, cache, rahasia, pin versi | [gsp-sdlc-ci-pipeline-reference/SKILL.md](kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md) | 1. Stage order (baris 27), 8. Review questions (baris 107) |
+| Pipeline CI: urutan tahap, cek wajib, cache, kredensial, pin versi | [gsp-sdlc-ci-pipeline-reference/SKILL.md](kanonik/gsp-sdlc-ci-pipeline-reference/SKILL.md) | 1. Stage order (baris 27), 8. Review questions (baris 107) |
 | Peningkatan dependensi dan penghapusan API usang | [gsp-sdlc-dependency-upgrade-playbook/SKILL.md](kanonik/gsp-sdlc-dependency-upgrade-playbook/SKILL.md) | 3. One upgrade per change set (baris 45), 4. Expand and contract (baris 55) |
 | Templat dan kartu SDLC (kebutuhan, ADR, arsitektur, uji, tinjauan kode aman, rilis, postmortem) | [sdlc/README.md](../4%20Knowledge%20Bank/sdlc/README.md) | Daftar entri (baris 15), Padanan pada EKAS (baris 36) |
 | Pemetaan fleet, profil, dan skill di host asal | [gsp-fleet-documentation/SKILL.md](kanonik/gsp-fleet-documentation/SKILL.md) | Workflow (baris 56), Struktur Dokumen yang Terbukti (baris 72) |

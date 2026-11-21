@@ -231,7 +231,7 @@ Uraian di bawah diambil dari docstring tiap skrip. Skrip tidak dijalankan (lihat
 | Catatan keputusan arsitektur (ADR) | [G2](sdlc/G2-architecture-decision-record-template.md) | Record; Options considered; Consequences |
 | Gambaran arsitektur: tampilan C4, diagram Mermaid, atribut mutu, arah dependensi | [G3](sdlc/G3-architecture-overview-card.md) | 1. C4 views; 3. Quality attributes; 4. Module boundaries |
 | Rencana dan strategi uji: tingkat uji, kriteria masuk dan keluar, uji tidak stabil | [G4](sdlc/G4-test-plan-strategy-template.md) | 2. Test levels; 6. Entry and exit criteria; 7. Flaky tests |
-| Tinjauan kode aman per kategori OWASP Top 10, rahasia, audit dependensi, vonis | [G5](sdlc/G5-secure-code-review-checklist.md) | 1-10 kategori; 11. Secrets; 12. Commands; 13. Verdict |
+| Tinjauan kode aman per kategori OWASP Top 10, kredensial, audit dependensi, vonis | [G5](sdlc/G5-secure-code-review-checklist.md) | 1-10 kategori; 11. Secrets; 12. Commands; 13. Verdict |
 | Daftar periksa rilis, nomor SemVer, entri changelog | [G8](sdlc/G8-release-checklist-changelog-template.md) | 1. Inventory; 2. Version number; 5. Readiness checklist |
 | Postmortem insiden tanpa menyalahkan orang | [G9](sdlc/G9-incident-postmortem-template.md) | 4. Root cause; 7. Action items |
 | Buku temuan dan spesifikasi perilaku untuk pekerjaan pelajari-lalu-bangun | [G11](sdlc/G11-finding-ledger-behaviour-spec-template.md) | 2. Finding ledger; 3. Behaviour spec |
